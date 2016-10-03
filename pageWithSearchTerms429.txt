@@ -1,0 +1,540 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Domain-driven_design
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Domain-driven design - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Domain-driven_design","wgTitle":"Domain-driven design","wgCurRevisionId":735508982,"wgRevisionId":735508982,"wgArticleId":14272455,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from March 2011","All articles needing additional references","Wikipedia external links cleanup from March 2011","Wikipedia spam cleanup from March 2011","Software architecture","Software design","Software development philosophies"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Domain-driven_design","wgRelevantArticleId":14272455,"wgRequestId":"V-F3egpAIC8AAG2EBZcAAADD","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q524367","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Domain-driven_design" rel="alternate"/>
+<link href="/w/index.php?title=Domain-driven_design&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Domain-driven_design&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Domain-driven_design" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Domain-driven_design rootpage-Domain-driven_design skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Domain-driven design</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-multiple_issues compact-ambox" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text">
+<div class="mw-collapsible" style="width:95%; margin: 0.2em 0;"><span class="mbox-text-span"><b>This article has multiple issues.</b> Please help <b><a class="external text" href="//en.wikipedia.org/w/index.php?title=Domain-driven_design&amp;action=edit">improve it</a></b> or discuss these issues on the <b><a href="/wiki/Talk:Domain-driven_design" title="Talk:Domain-driven design">talk page</a></b>. <small><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove these template messages</a>)</i></small></span>
+<div class="mw-collapsible-content" style="margin-top: 0.3em;">
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Domain-driven_design&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(March 2011)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-style ambox-external_links" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article's <b>use of <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a> may not follow Wikipedia's policies or guidelines</b>. <span class="hide-when-compact">Please <a class="external text" href="//en.wikipedia.org/w/index.php?title=Domain-driven_design&amp;action=edit">improve this article</a> by removing <a href="/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_mirror_or_a_repository_of_links.2C_images.2C_or_media_files" title="Wikipedia:What Wikipedia is not">excessive</a> or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">inappropriate</a> external links, and converting useful links where appropriate into <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">footnote references</a>.</span> <small><i>(March 2011)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+</div>
+</div>
+<small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></td>
+</tr>
+</table>
+<table class="vertical-navbox" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Core activities</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Requirements_analysis" title="Requirements analysis">Requirements</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Construction</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Testing</a></li>
+<li><a href="/wiki/Debugging" title="Debugging">Debugging</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Maintenance</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Paradigms and models</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Waterfall_model" title="Waterfall model">Waterfall</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototyping</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental</a></li>
+<li><a href="/wiki/V-Model_(software_development)" title="V-Model (software development)">V-Model</a></li>
+<li><a href="/wiki/Dual_Vee_Model" title="Dual Vee Model">Dual Vee Model</a></li>
+<li><a href="/wiki/Spiral_model" title="Spiral model">Spiral</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">IID</a></li>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Lean_software_development" title="Lean software development">Lean</a></li>
+<li><a href="/wiki/DevOps" title="DevOps">DevOps</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Methodologies</a> and frameworks</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Cleanroom_software_engineering" title="Cleanroom software engineering">Cleanroom</a></li>
+<li><a href="/wiki/Team_software_process" title="Team software process">TSP</a></li>
+<li><a href="/wiki/Personal_software_process" title="Personal software process">PSP</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a></li>
+<li><a href="/wiki/Microsoft_Solutions_Framework" title="Microsoft Solutions Framework">MSF</a></li>
+<li><a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a></li>
+<li><a href="/wiki/Kanban_(development)" title="Kanban (development)">Kanban</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+<li><a href="/wiki/Extreme_programming" title="Extreme programming">XP</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">TDD</a></li>
+<li><a href="/wiki/Acceptance_test%E2%80%93driven_development" title="Acceptance test–driven development">ATDD</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">BDD</a></li>
+<li><a href="/wiki/Feature-driven_development" title="Feature-driven development">FDD</a></li>
+<li><strong class="selflink">DDD</strong></li>
+<li><a class="mw-redirect" href="/wiki/Model-driven_development" title="Model-driven development">MDD</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Supporting disciplines</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Configuration management</a></li>
+<li><a href="/wiki/Infrastructure_as_Code" title="Infrastructure as Code">Infrastructure as Code</a></li>
+<li><a href="/wiki/Software_documentation" title="Software documentation">Documentation</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software Quality assurance (SQA)</a></li>
+<li><a href="/wiki/Software_project_management" title="Software project management">Project management</a></li>
+<li><a href="/wiki/User_experience" title="User experience">User experience</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a href="/wiki/Programming_tool" title="Programming tool">Tools</a></th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Compiler" title="Compiler">Compiler</a></li>
+<li><a href="/wiki/Debugger" title="Debugger">Debugger</a></li>
+<li><a href="/wiki/Profiling_(computer_programming)" title="Profiling (computer programming)">Profiler</a></li>
+<li><a href="/wiki/Graphical_user_interface_builder" title="Graphical user interface builder">GUI designer</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_tools" title="UML tools">Modeling</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build automation</a></li>
+<li><a href="/wiki/Application_release_automation" title="Application release automation">Release automation</a></li>
+<li><a href="/wiki/Category:Software_testing_tools" title="Category:Software testing tools">Testing</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Standards and BOKs</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/CMMI" title="CMMI">CMMI</a></li>
+<li><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></li>
+<li><a class="mw-redirect" href="/wiki/ISO_9001" title="ISO 9001">ISO 9001</a></li>
+<li><a href="/wiki/ISO/IEC_JTC_1/SC_7" title="ISO/IEC JTC 1/SC 7">ISO/IEC standards</a></li>
+<li><a class="mw-redirect" href="/wiki/SWEBOK" title="SWEBOK">SWEBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/PMBOK" title="PMBOK">PMBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/BABOK" title="BABOK">BABOK</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_development_process" title="Template:Software development process"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_development_process" title="Template talk:Software development process"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_development_process&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Domain-driven design</b> (<b>DDD</b>) is an approach to <a href="/wiki/Software_development" title="Software development">software development</a> for complex needs by connecting the <a href="/wiki/Implementation" title="Implementation">implementation</a> to an evolving model.<sup class="reference" id="cite_ref-definition_1-0"><a href="#cite_note-definition-1">[1]</a></sup> The premise of domain-driven design is the following:</p>
+<ul>
+<li>placing the project's primary focus on the core <a href="/wiki/Domain_(software_engineering)" title="Domain (software engineering)">domain</a> and domain logic;</li>
+<li>basing complex designs on a model of the domain;</li>
+<li>initiating a creative collaboration between technical and <a class="mw-redirect" href="/wiki/Domain_expert" title="Domain expert">domain experts</a> to iteratively refine a conceptual model that addresses particular domain problems.</li>
+</ul>
+<p>The term was coined by <a class="new" href="/w/index.php?title=Eric_Evans_(technologist)&amp;action=edit&amp;redlink=1" title="Eric Evans (technologist) (page does not exist)">Eric Evans</a> in his book of the same title.<sup class="reference" id="cite_ref-book.evans_2-0"><a href="#cite_note-book.evans-2">[2]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Concepts"><span class="tocnumber">1</span> <span class="toctext">Concepts</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Strategic_domain-driven_design"><span class="tocnumber">2</span> <span class="toctext">Strategic domain-driven design</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Bounded_context"><span class="tocnumber">2.1</span> <span class="toctext">Bounded context</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Continuous_integration"><span class="tocnumber">2.2</span> <span class="toctext">Continuous integration</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Context_map"><span class="tocnumber">2.3</span> <span class="toctext">Context map</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Building_blocks"><span class="tocnumber">3</span> <span class="toctext">Building blocks</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Disadvantages"><span class="tocnumber">4</span> <span class="toctext">Disadvantages</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Relationship_to_other_ideas"><span class="tocnumber">5</span> <span class="toctext">Relationship to other ideas</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Tools"><span class="tocnumber">6</span> <span class="toctext">Tools</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Concepts">Concepts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=1" title="Edit section: Concepts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Concepts of the model include:</p>
+<dl>
+<dt>Context</dt>
+<dd>The setting in which a word or statement appears that determines its meaning;</dd>
+<dt>Domain</dt>
+<dd>A sphere of knowledge (<a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">ontology</a>), influence, or activity. The subject area to which the user applies a program is the domain of the software;</dd>
+<dt>Model</dt>
+<dd>A system of abstractions that describes selected aspects of a domain and can be used to solve problems related to that domain;</dd>
+<dt>Ubiquitous Language</dt>
+<dd>A language structured around the <a href="/wiki/Domain_model" title="Domain model">domain model</a> and used by all team members to connect all the activities of the team with the software.</dd>
+</dl>
+<h2><span class="mw-headline" id="Strategic_domain-driven_design">Strategic domain-driven design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=2" title="Edit section: Strategic domain-driven design">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Maintaining_Model_Integrity.png"><img alt="" class="thumbimage" data-file-height="501" data-file-width="632" height="174" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/220px-Maintaining_Model_Integrity.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/330px-Maintaining_Model_Integrity.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/440px-Maintaining_Model_Integrity.png 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Maintaining_Model_Integrity.png" title="Enlarge"></a></div>
+Patterns in strategic domain-driven design and the relationships between them</div>
+</div>
+</div>
+<p>Ideally, it would be preferable to have a single, unified model. While this is a noble goal, in reality it typically fragments into multiple models. It is useful to recognize this fact of life and work with it.</p>
+<p>Strategic Design is a set of principles for maintaining model integrity, distillation of the Domain Model and working with multiple models.</p>
+<h3><span class="mw-headline" id="Bounded_context">Bounded context</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=3" title="Edit section: Bounded context">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Multiple models are in play on any large project. Yet when code based on distinct models is combined, software becomes buggy, unreliable, and difficult to understand. Communication among team members becomes confusing. It is often unclear in what context a model should not be applied.</p>
+<p><b>Therefore</b>: Explicitly define the context within which a model applies. Explicitly set boundaries in terms of team organization, usage within specific parts of the application, and physical manifestations such as code bases and database schemas. Keep the model strictly consistent within these bounds, but don’t be distracted or confused by issues outside.</p>
+<h3><span class="mw-headline" id="Continuous_integration"><a href="/wiki/Continuous_integration" title="Continuous integration">Continuous integration</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=4" title="Edit section: Continuous integration">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>When a number of people are working in the same bounded context, there is a strong tendency for the model to fragment. The bigger the team, the bigger the problem, but as few as three or four people can encounter serious problems. Yet breaking down the system into ever-smaller contexts eventually loses a valuable level of integration and coherency.</p>
+<p><b>Therefore</b>: Institute a process of merging all code and other implementation artifacts frequently, with automated tests to flag fragmentation quickly. Relentlessly exercise the ubiquitous language to hammer out a shared view of the model as the concepts evolve in different people’s heads.</p>
+<h3><span class="mw-headline" id="Context_map">Context map</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=5" title="Edit section: Context map">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>An individual bounded context leaves some problems in the absence of a global view. The context of other models may still be vague and in flux.</p>
+<p>People on other teams won’t be very aware of the context bounds and will unknowingly make changes that blur the edges or complicate the interconnections. When connections must be made between different contexts, they tend to bleed into each other.</p>
+<p><b>Therefore</b>: Identify each model in play on the project and define its bounded context. This includes the implicit models of non-object-oriented subsystems. Name each bounded context, and make the names part of the ubiquitous language. Describe the points of contact between the models, outlining explicit translation for any communication and highlighting any sharing. Map the existing terrain.</p>
+<h2><span class="mw-headline" id="Building_blocks">Building blocks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=6" title="Edit section: Building blocks">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In the book <i>Domain-Driven Design</i>,<sup class="reference" id="cite_ref-book.evans_2-1"><a href="#cite_note-book.evans-2">[2]</a></sup> a number of high-level concepts and practices are articulated, such as <i>ubiquitous language</i> meaning that the domain model should form a <i>common language</i> given by domain experts for describing system requirements, that works equally well for the business users or sponsors and for the software developers. The book is very focused on describing the <a class="mw-redirect" href="/wiki/Domain_layer" title="Domain layer">domain layer</a> as one of the <a class="mw-redirect" href="/wiki/Common_layers_in_an_information_system_logical_architecture" title="Common layers in an information system logical architecture">common layers</a> in an <a class="mw-redirect" href="/wiki/Object-oriented" title="Object-oriented">object-oriented</a> system with a <a href="/wiki/Multilayered_architecture" title="Multilayered architecture">multilayered architecture</a>. In DDD, there are artifacts to express, create, and retrieve domain models:</p>
+<dl>
+<dt><a href="/wiki/Entity" title="Entity">Entity</a></dt>
+<dd>An object that is not defined by its attributes, but rather by a thread of continuity and its <a href="/wiki/Identity_(object-oriented_programming)" title="Identity (object-oriented programming)">identity</a>.</dd>
+<dd><i>Example: Most airlines distinguish each seat uniquely on every flight. Each seat is an entity in this context. However, Southwest Airlines, EasyJet and Ryanair do not distinguish between every seat; all seats are the same. In this context, a seat is actually a value object.</i></dd>
+<dt><a href="/wiki/Value_object" title="Value object">Value Object</a></dt>
+<dd>An object that contains attributes but has no conceptual identity. They should be treated as <a href="/wiki/Immutable_object" title="Immutable object">immutable</a>.</dd>
+<dd><i>Example: When people exchange business cards, they generally do not distinguish between each unique card; they only are concerned about the information printed on the card. In this context, business cards are value objects.</i></dd>
+<dt>Aggregate</dt>
+<dd>A collection of objects that are bound together by a root entity, otherwise known as an <span id="aggregate_root"><a class="new" href="/w/index.php?title=Aggregate_root&amp;action=edit&amp;redlink=1" title="Aggregate root (page does not exist)">aggregate root</a></span>. The aggregate root guarantees the consistency of changes being made within the aggregate by forbidding external objects from holding references to its members.</dd>
+<dd><i>Example: When you drive a car, you do not have to worry about moving the wheels forward, making the engine combust with spark and fuel, etc.; you are simply driving the car. In this context, the car is an aggregate of several other objects and serves as the aggregate root to all of the other systems.</i></dd>
+<dt>Domain Event</dt>
+<dd>A domain object that defines an event (something that happens). A domain event is an event that domain experts care about.</dd>
+<dt>Service</dt>
+<dd>When an operation does not conceptually belong to any object. Following the natural contours of the problem, you can implement these operations in services. See also <a href="/wiki/Service_(systems_architecture)" title="Service (systems architecture)">Service (systems architecture)</a>.</dd>
+<dt>Repository</dt>
+<dd>Methods for retrieving domain objects should delegate to a specialized Repository object such that alternative storage implementations may be easily interchanged.</dd>
+<dt>Factory</dt>
+<dd>Methods for creating domain objects should delegate to a specialized <a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory</a> object such that alternative implementations may be easily interchanged.</dd>
+</dl>
+<h2><span class="mw-headline" id="Disadvantages">Disadvantages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=7" title="Edit section: Disadvantages">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In order to help maintain the model as a pure and helpful language construct, the team must typically implement a great deal of isolation and encapsulation within the domain model. Consequently, a system based on Domain-driven Design can come at a relatively high cost. While Domain-driven Design provides many technical benefits, such as maintainability, Microsoft recommends that it be applied only to complex domains where the model and the linguistic processes provide clear benefits in the communication of complex information, and in the formulation of a common understanding of the domain.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<h2><span class="mw-headline" id="Relationship_to_other_ideas">Relationship to other ideas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=8" title="Edit section: Relationship to other ideas">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl>
+<dt><a href="/wiki/Object-oriented_analysis_and_design" title="Object-oriented analysis and design">Object-oriented analysis and design</a></dt>
+<dd>Although, in theory, the general idea of DDD need not be restricted to object-oriented approaches, in practice DDD seeks to exploit the powerful advantages that object-oriented techniques make possible. These include entities/aggregate roots as receivers of commands/method invocations and the encapsulation of state within foremost aggregate roots and on a higher architectural level, bounded contexts. The reader should be aware that object orientation is not exclusive to OO-only languages, but can be a part of functional programming, also. Applying commands/method invocations to an entity or aggregate root can be seen as an application of a function to a data structure where the result of the function application is an identical data structure with different data and/or version (especially version if optimistic concurrency is used). In dynamic languages such as Ruby or Smalltalk, object instances can be queried on whether they support a method (by name and/or signature), which is similar to how a statically typed language might choose to use an inversion of control container (or a service bus, or a service locator) to support runtime lookup of the objects – services – that support a given protocol/method/command (see CQRS further down).</dd>
+<dt><a href="/wiki/Model-driven_engineering" title="Model-driven engineering">Model-driven engineering</a> (MDE)</dt>
+<dt><a href="/wiki/Model-driven_architecture" title="Model-driven architecture">Model-driven architecture</a> (MDA)</dt>
+<dd>While DDD is compatible with MDA, the intent of the two concepts is somewhat different. MDA is concerned more with the means of translating a model into code for different technology platforms than with the practice of defining better domain models.</dd>
+<dt><a href="/wiki/Plain_Old_Java_Object" title="Plain Old Java Object">POJOs</a> and <a href="/wiki/Plain_Old_CLR_Object" title="Plain Old CLR Object">POCOs</a></dt>
+<dd>POJOs and POCOs are technical implementation concepts, specific to <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> and the <a class="mw-redirect" href="/wiki/.NET_framework" title=".NET framework">.NET framework</a> respectively. However, the emergence of the terms POJO and POCO reflect a growing view that, within the context of either of those technical platforms, domain objects should be defined purely to implement the business behaviour of the corresponding domain concept, rather than be defined by the requirements of a more specific technology framework.</dd>
+<dt>The <a href="/wiki/Naked_objects" title="Naked objects">naked objects</a> pattern</dt>
+<dd>Based on the premise that if you have a good enough domain model, the user interface can simply be a reflection of this domain model; and that if you require the user interface to be a direct reflection of the domain model then this will force the design of a better domain model.<sup class="reference" id="cite_ref-book.haywood_4-0"><a href="#cite_note-book.haywood-4">[4]</a></sup></dd>
+<dt><a href="/wiki/Domain-specific_modeling" title="Domain-specific modeling">Domain-specific modeling</a> (DSM)</dt>
+<dd>DSM is DDD applied through the use of <a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific languages</a>.</dd>
+<dt><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific language</a> (DSL)</dt>
+<dd>DDD does not specifically require the use of a DSL, though it could be used to help define a DSL and support methods like <a href="/wiki/Domain-specific_multimodeling" title="Domain-specific multimodeling">domain-specific multimodeling</a>.</dd>
+<dt><a href="/wiki/Aspect-oriented_programming" title="Aspect-oriented programming">Aspect-oriented programming</a> (AOP)</dt>
+<dd>AOP makes it easy to factor out technical concerns (such as security, transaction management, logging) from a domain model, and as such makes it easier to design and implement domain models that focus purely on the business logic.</dd>
+<dt><a class="mw-redirect" href="/wiki/Command_Query_Responsibility_Segregation" title="Command Query Responsibility Segregation">Command Query Responsibility Segregation</a> (CQRS)</dt>
+<dd>CQRS is an architectural pattern for separation of reads from writes, where the former is a Query and the latter is a Command. Commands mutate state and are hence approximately equivalent to method invocation on aggregate roots/entities. Queries query state but do not mutate it. CQRS is a derivative architectural pattern from the design pattern called Command and Query Separation (CQS) which was coined by Meyer. While CQRS does not require DDD, domain-driven design makes the distinction between commands and queries, explicit, around the concept of an aggregate root. The idea is that a given aggregate root has a method that corresponds to a command and a command handler invokes the method on the aggregate root. The aggregate root is responsible for performing the logic of the operation and yielding either a number of events or a failure (exception or execution result enumeration/number) response OR (if Event Sourcing (ES) is not used) just mutating its state for a persister implementation such as an ORM to write to a data store, while the command handler is responsible for pulling in infrastructure concerns related to the saving of the aggregate root's state or events and creating the needed contexts (e.g. transactions).</dd>
+<dt><a class="new" href="/w/index.php?title=Event_Sourcing&amp;action=edit&amp;redlink=1" title="Event Sourcing (page does not exist)">Event Sourcing</a> (ES)</dt>
+<dd>An architectural pattern which warrants that your entities (as per <a class="new" href="/w/index.php?title=Eric_Evans_(technologist)&amp;action=edit&amp;redlink=1" title="Eric Evans (technologist) (page does not exist)">Eric Evans’</a> definition) do not track their internal state by means of direct serialization or O/R mapping, but by means of reading and committing events to an <a href="/wiki/Event_store" title="Event store">event store</a>. Where ES is combined with CQRS and DDD, aggregate roots are responsible for thoroughly validating and applying commands (often by means having their instance methods invoked from a Command Handler), and then publishing a single or a set of events which is also the foundation upon which the aggregate roots base their logic for dealing with method invocations. Hence, the input is a command and the output is one or many events which are transactionally (single commit) saved to an event store, and then often published on a message broker for the benefit of those interested (often the views are interested; they are then queried using Query-messages). When modeling your aggregate roots to output events, you can isolate the internal state event further than would be possible when projecting read-data from your entities, as is done in standard n-tier data-passing architectures. One significant benefit from this is that tooling such as axiomatic theorem provers (e.g. Microsoft Contracts or CHESS) are easier to apply, as the aggregate root comprehensively hides its internal state. Events are often persisted based on the version of the aggregate root instance, which yields a domain model that synchronizes in distributed systems around the concept of optimistic concurrency.</dd>
+</dl>
+<h2><span class="mw-headline" id="Tools">Tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=9" title="Edit section: Tools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Practicing DDD does not depend upon the use of any particular software tool or framework. Nonetheless, there is a growing number of open-source tools and frameworks that provide support to the specific patterns advocated in Evans' book or the general approach of DDD. Among these are:</p>
+<ul>
+<li><a href="/wiki/Actifsource" title="Actifsource">Actifsource</a> is a plug-in for <a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse</a> which enables software development combining DDD with <a href="/wiki/Model-driven_engineering" title="Model-driven engineering">model-driven engineering</a> and <a href="/wiki/Automatic_programming" title="Automatic programming">code generation</a>.</li>
+<li>Apache Isis is a <a class="mw-redirect" href="/wiki/Java_SE" title="Java SE">Java</a> framework for developing domain-driven and <a href="/wiki/Representational_state_transfer" title="Representational state transfer">RESTful</a> applications using the <a href="/wiki/Naked_objects" title="Naked objects">Naked Objects</a> pattern.</li>
+<li><a href="/wiki/ECO_(Domain_Driven_Design)" title="ECO (Domain Driven Design)">ECO (Domain Driven Design)</a>: Framework with database, class, code and state machine generation from UML diagrams by CapableObjects.</li>
+<li><a href="/wiki/OpenMDX" title="OpenMDX">OpenMDX</a>: Open source, Java based, MDA Framework supporting <a class="mw-redirect" href="/wiki/Java_SE" title="Java SE">Java SE</a>, <a class="mw-redirect" href="/wiki/Java_EE" title="Java EE">Java EE</a>, and <a href="/wiki/.NET_Framework" title=".NET Framework">.NET</a>. OpenMDX differs from typical MDA frameworks in that <i>"use models to directly drive the runtime behavior of operational systems"</i>.</li>
+<li><a href="/wiki/OpenXava" title="OpenXava">OpenXava</a>: Generates an <a class="mw-redirect" href="/wiki/AJAX" title="AJAX">AJAX</a> application from <a href="/wiki/Java_Persistence_API" title="Java Persistence API">JPA</a> entities. You only need to write the domain classes to obtain a ready to use application.</li>
+<li><a href="/wiki/Restful_Objects" title="Restful Objects">Restful Objects</a> is a standard for a Restful API onto a domain object model (where the domain objects may represent entities, view models, or services). Two open source frameworks (one for Java, one for .NET) can create a Restful Objects API from a domain model automatically, using reflection.</li>
+<li><a href="/wiki/CubicWeb" title="CubicWeb">CubicWeb</a> is an open source semantic web framework entirely driven by a data model. High-level directives allow to refine the data model iteratively, release after release. Defining the data model is enough to get a functioning web application. Further work is required to define how the data is displayed when the default views are not sufficient.</li>
+<li>ENode: is a C# framework which support to develop DDD+CQRS+Event Sourcing architecture style applications. The project URL: <a class="external free" href="https://github.com/tangxuehua/enode" rel="nofollow">https://github.com/tangxuehua/enode</a></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Semantics" title="Semantics">Semantics</a></li>
+<li><a class="mw-redirect" href="/wiki/Knowledge_representation" title="Knowledge representation">Knowledge representation</a></li>
+<li><a href="/wiki/Ontology" title="Ontology">Ontology</a></li>
+<li><a class="mw-redirect" href="/wiki/Semantic_networks" title="Semantic networks">Semantic networks</a></li>
+<li><a href="/wiki/Semantic_analysis_(knowledge_representation)" title="Semantic analysis (knowledge representation)">Semantic analysis (knowledge representation)</a></li>
+<li><a href="/wiki/Domain_of_a_function" title="Domain of a function">Domain of a function</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-definition-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-definition_1-0">^</a></b></span> <span class="reference-text"><cite class="citation"><a class="external text" href="http://www.domaindrivendesign.org/" rel="nofollow"><i>Domain driven design</i></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.btitle=Domain+driven+design&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.domaindrivendesign.org%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</span></li>
+<li id="cite_note-book.evans-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-book.evans_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-book.evans_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book"><a class="new" href="/w/index.php?title=Eric_Evans_(technologist)&amp;action=edit&amp;redlink=1" title="Eric Evans (technologist) (page does not exist)">Evans, Eric</a> (2004). <a class="external text" href="http://www.domaindrivendesign.org/books/evans_2003" rel="nofollow"><i>Domain-Driven Design: Tackling Complexity in the Heart of Software</i></a>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-032-112521-7" title="Special:BookSources/978-032-112521-7">978-032-112521-7</a><span class="reference-accessdate">. Retrieved <span class="nowrap">August 12,</span> 2012</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Eric&amp;rft.aulast=Evans&amp;rft.btitle=Domain-Driven+Design%3A+Tackling+Complexity+in+the+Heart+of+Software&amp;rft.date=2004&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.domaindrivendesign.org%2Fbooks%2Fevans_2003&amp;rft.isbn=978-032-112521-7&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a class="external text" href="http://msdn.microsoft.com/en-us/library/ee658117.aspx#DomainModelStyle" rel="nofollow">Microsoft Application Architecture Guide, 2nd Edition</a></span></li>
+<li id="cite_note-book.haywood-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-book.haywood_4-0">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFHaywood2009">Haywood, D (2009), <a class="external text" href="http://www.pragprog.com/titles/dhnako/domain-driven-design-using-naked-objects" rel="nofollow"><i>Domain-Driven Design using Naked Objects</i></a>, Pragmatic Programmers</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=D&amp;rft.aulast=Haywood&amp;rft.btitle=Domain-Driven+Design+using+Naked+Objects&amp;rft.date=2009&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.pragprog.com%2Ftitles%2Fdhnako%2Fdomain-driven-design-using-naked-objects&amp;rft.pub=Pragmatic+Programmers&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Domain-driven_design&amp;action=edit&amp;section=12" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation" id="CITEREFEvans">Evans, Eric, <a class="external text" href="http://www.infoq.com/presentations/model-to-work-evans" rel="nofollow"><i>Domain Driven Design – Putting the Model to Work</i></a> (presentation), InfoQ</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Eric&amp;rft.aulast=Evans&amp;rft.btitle=Domain+Driven+Design+%93+Putting+the+Model+to+Work&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.infoq.com%2Fpresentations%2Fmodel-to-work-evans&amp;rft.pub=InfoQ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFEvans">———, <a class="external text" href="http://www.infoq.com/presentations/strategic-design-evans" rel="nofollow"><i>Domain Driven Design – Strategic Design</i></a> (presentation), InfoQ</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Eric&amp;rft.aulast=Evans&amp;rft.btitle=Domain+Driven+Design+%93+Strategic+Design&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.infoq.com%2Fpresentations%2Fstrategic-design-evans&amp;rft.pub=InfoQ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFNilsson">Nilsson, James ‘Jimmy’, <a class="external text" href="http://www.infoq.com/interviews/jimmy-nilsson-domain-driven-design" rel="nofollow"><i>Domain Driven Design</i></a>, InfoQ</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=James+%98Jimmy%99&amp;rft.aulast=Nilsson&amp;rft.btitle=Domain+Driven+Design&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.infoq.com%2Finterviews%2Fjimmy-nilsson-domain-driven-design&amp;rft.pub=InfoQ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation"><a class="external text" href="http://tech.groups.yahoo.com/group/domaindrivendesign/" rel="nofollow"><i>Domain-Driven Design</i></a> (forum), Yahoo!</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.btitle=Domain-Driven+Design&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Ftech.groups.yahoo.com%2Fgroup%2Fdomaindrivendesign%2F&amp;rft.pub=Yahoo%21&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation"><a class="external text" href="http://www.methodsandtools.com/archive/archive.php?id=97" rel="nofollow"><i>An Introduction to Domain Driven Design</i></a>, Methods &amp; tools</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.btitle=An+Introduction+to+Domain+Driven+Design&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.methodsandtools.com%2Farchive%2Farchive.php%3Fid%3D97&amp;rft.pub=Methods+%26+tools&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFBhatia">Bhatia, Naresh, <a class="external text" href="https://archfirst.org/domain-driven-design/" rel="nofollow"><i>Domain-Driven Design - explained using a trading example</i></a>, Archfirst</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Naresh&amp;rft.aulast=Bhatia&amp;rft.btitle=Domain-Driven+Design+-+explained+using+a+trading+example&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Farchfirst.org%2Fdomain-driven-design%2F&amp;rft.pub=Archfirst&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFYoung2010">Young, Gregory ‘Greg’ (2010-02-16), <a class="external text" href="http://codebetter.com/blogs/gregyoung/archive/2010/02/16/cqrs-task-based-uis-event-sourcing-agh.aspx" rel="nofollow"><i>CQRS, Task Based UIs, Event Sourcing agh!</i></a> (<a class="new" href="/w/index.php?title=World_Wide_Web_log&amp;action=edit&amp;redlink=1" title="World Wide Web log (page does not exist)">World Wide Web log</a>), Code better</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Gregory+%98Greg%99&amp;rft.aulast=Young&amp;rft.btitle=CQRS%2C+Task+Based+UIs%2C+Event+Sourcing+agh%21&amp;rft.date=2010-02-16&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fcodebetter.com%2Fblogs%2Fgregyoung%2Farchive%2F2010%2F02%2F16%2Fcqrs-task-based-uis-event-sourcing-agh.aspx&amp;rft.pub=Code+better&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFJenkins2010">Jenkins, Jon (November 2010), <a class="external text" href="http://blog.cleverlabs.com/2010/11/domain-driven-design-that-works.html" rel="nofollow"><i>Domain‐driven design that works</i></a> (World Wide Web log), Clever Labs</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Jon&amp;rft.aulast=Jenkins&amp;rft.btitle=Domain%90driven+design+that+works&amp;rft.date=2010-11&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fblog.cleverlabs.com%2F2010%2F11%2Fdomain-driven-design-that-works.html&amp;rft.pub=Clever+Labs&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>: Domain Driven Design's importance in the business.</li>
+<li><cite class="citation" id="CITEREFDahan2009">Dahan, Udi (2009-12-09), <a class="external text" href="http://www.udidahan.com/2009/12/09/clarified-cqrs/" rel="nofollow"><i>Clarified CQRS</i></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Udi&amp;rft.aulast=Dahan&amp;rft.btitle=Clarified+CQRS&amp;rft.date=2009-12-09&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.udidahan.com%2F2009%2F12%2F09%2Fclarified-cqrs%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>: how it relates to other patterns]</li>
+<li><cite class="citation" id="CITEREFHaywood">Haywood, Dan, <a class="external text" href="http://www.infoq.com/articles/haywood-ddd-no" rel="nofollow"><i>Domain Driven Design using Naked Objects</i></a> (interview), InfoQ</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Dan&amp;rft.aulast=Haywood&amp;rft.btitle=Domain+Driven+Design+using+Naked+Objects&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.infoq.com%2Farticles%2Fhaywood-ddd-no&amp;rft.pub=InfoQ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+<li><cite class="citation" id="CITEREFWhittaker">Whittaker, Daniel, <a class="external text" href="http://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/" rel="nofollow"><i>How to Build an Aggregate Root for CQRS and Event Sourcing</i></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADomain-driven+design&amp;rft.aufirst=Daniel&amp;rft.aulast=Whittaker&amp;rft.btitle=How+to+Build+an+Aggregate+Root+for+CQRS+and+Event+Sourcing&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fdanielwhittaker.me%2F2014%2F11%2F15%2Faggregate-root-cqrs-event-sourcing%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>.</li>
+</ul>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:14272455-0!*!0!!en!4!* and timestamp 20160930083415 and revision id 735508982
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Domain-driven_design&amp;oldid=735508982">https://en.wikipedia.org/w/index.php?title=Domain-driven_design&amp;oldid=735508982</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="/wiki/Category:Software_design" title="Category:Software design">Software design</a></li><li><a href="/wiki/Category:Software_development_philosophies" title="Category:Software development philosophies">Software development philosophies</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_March_2011" title="Category:Articles needing additional references from March 2011">Articles needing additional references from March 2011</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Wikipedia_external_links_cleanup_from_March_2011" title="Category:Wikipedia external links cleanup from March 2011">Wikipedia external links cleanup from March 2011</a></li><li><a href="/wiki/Category:Wikipedia_spam_cleanup_from_March_2011" title="Category:Wikipedia spam cleanup from March 2011">Wikipedia spam cleanup from March 2011</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Domain-driven+design" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Domain-driven+design" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Domain-driven_design" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Domain-driven_design" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Domain-driven_design">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Domain-driven_design&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Domain-driven_design&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Domain-driven_design" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Domain-driven_design" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Domain-driven_design&amp;oldid=735508982" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Domain-driven_design&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q524367" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Domain-driven_design&amp;id=735508982" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Domain-driven+design">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Domain-driven+design&amp;returnto=Domain-driven+design&amp;oldid=735508982&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Domain-driven_design&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A7%D9%84%D9%85%D9%88%D8%AC%D9%87_%D8%A8%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%84" hreflang="ar" lang="ar" title="التصميم الموجه بالمجال – Arabic">العربية</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Domain-driven_Design" hreflang="de" lang="de" title="Domain-driven Design – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_guiado_por_el_dominio" hreflang="es" lang="es" title="Diseño guiado por el dominio – Spanish">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Conception_pilot%C3%A9e_par_le_domaine" hreflang="fr" lang="fr" title="Conception pilotée par le domaine – French">Français</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Domain-driven_design" hreflang="it" lang="it" title="Domain-driven design – Italian">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88" hreflang="ja" lang="ja" title="ドメイン駆動設計 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Domain-Driven_Design" hreflang="pl" lang="pl" title="Domain-Driven Design – Polish">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" hreflang="ru" lang="ru" title="Проблемно-ориентированное проектирование – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D1%96%D1%94%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Предметно-орієнтоване проектування – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Domain_driven_design" hreflang="vi" lang="vi" title="Domain driven design – Vietnamese">Tiếng Việt</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q524367#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 21 August 2016, at 06:39.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Domain-driven_design&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.136",
+            "walltime": "0.186",
+            "ppvisitednodes": {
+                "value": 850,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 53806,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 6221,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 10,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 3,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  135.324      1 -total",
+                " 53.04%   71.773      3 Template:Ambox",
+                " 42.47%   57.469     13 Template:Citation",
+                " 40.84%   55.263      1 Template:Multiple_issues",
+                " 29.33%   39.696      1 Template:Reflist",
+                " 14.91%   20.173      1 Template:Refimprove",
+                "  6.34%    8.583      1 Template:Software_development_process",
+                "  5.21%    7.050      1 Template:External_links",
+                "  2.77%    3.750      1 Template:Cite_book"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.061",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4051045,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1274",
+            "timestamp": "20160930083415",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1177"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,718 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Software_componentry
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Component-based software engineering - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Component-based_software_engineering","wgTitle":"Component-based software engineering","wgCurRevisionId":729453630,"wgRevisionId":729453630,"wgArticleId":2816674,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing potentially dated statements from 2010","All articles containing potentially dated statements","Wikipedia articles needing clarification from February 2010","All articles with unsourced statements","Articles with unsourced statements from January 2009","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from January 2009","Articles with specifically marked weasel-worded phrases from October 2009","Articles with unsourced statements from October 2009","Component-based software engineering","Object-oriented programming","Software architecture"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Component-based_software_engineering","wgRelevantArticleId":2816674,"wgRequestId":"V-BrBApAEK8AAGab-6wAAAAE","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Software_componentry","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Component-based_software_engineering","wgWikibaseItemId":"Q609588","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Component-based_software_engineering" rel="alternate"/>
+<link href="/w/index.php?title=Component-based_software_engineering&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Component-based_software_engineering&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Component-based_software_engineering" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Component-based_software_engineering rootpage-Component-based_software_engineering skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Component-based software engineering</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Software_componentry&amp;redirect=no" title="Software componentry">Software componentry</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:Component-based_Software_Engineering_(CBSE)_-_example_1.svg"><img alt="" class="thumbimage" data-file-height="255" data-file-width="190" height="336" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg/250px-Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg/375px-Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg/500px-Component-based_Software_Engineering_%28CBSE%29_-_example_1.svg.png 2x" width="250"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Component-based_Software_Engineering_(CBSE)_-_example_1.svg" title="Enlarge"></a></div>
+An example of two components expressed in <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a> 2.0. The checkout component, responsible for facilitating the customer's order, <i>requires</i> the card processing component to charge the customer's credit/debit card (functionality that the latter <i>provides</i>).</div>
+</div>
+</div>
+<table class="vertical-navbox nowraplinks" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigms</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;text-align: left">
+<ul>
+<li><a href="/wiki/Action_language" title="Action language">Action</a></li>
+<li><a href="/wiki/Agent-oriented_programming" title="Agent-oriented programming">Agent-oriented</a></li>
+<li><a href="/wiki/Array_programming" title="Array programming">Array-oriented</a></li>
+<li><a href="/wiki/Automata-based_programming" title="Automata-based programming">Automata-based</a></li>
+<li><a href="/wiki/Concurrent_computing" title="Concurrent computing">Concurrent computing</a>
+<ul>
+<li><a href="/wiki/Relativistic_programming" title="Relativistic programming">Relativistic programming</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Data-driven_programming" title="Data-driven programming">Data-driven</a></li>
+<li><a href="/wiki/Declarative_programming" title="Declarative programming">Declarative</a> (contrast: <a href="/wiki/Imperative_programming" title="Imperative programming">Imperative</a>)
+<ul>
+<li><a href="/wiki/Constraint_programming" title="Constraint programming">Constraint</a>
+<ul>
+<li><a href="/wiki/Constraint_logic_programming" title="Constraint logic programming">Constraint logic</a>
+<ul>
+<li><a href="/wiki/Concurrent_constraint_logic_programming" title="Concurrent constraint logic programming">Concurrent constraint logic</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Dataflow_programming" title="Dataflow programming">Dataflow</a>
+<ul>
+<li><a href="/wiki/Flow-based_programming" title="Flow-based programming">Flow-based</a></li>
+<li>Cell-oriented (<a href="/wiki/Spreadsheet" title="Spreadsheet">spreadsheets</a>)</li>
+<li><a href="/wiki/Reactive_programming" title="Reactive programming">Reactive</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Functional_programming" title="Functional programming">Functional</a>
+<ul>
+<li><a href="/wiki/Functional_logic_programming" title="Functional logic programming">Functional logic</a></li>
+<li><a href="/wiki/Purely_functional_programming" title="Purely functional programming">Purely functional</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Logic_programming" title="Logic programming">Logic</a>
+<ul>
+<li><a href="/wiki/Abductive_logic_programming" title="Abductive logic programming">Abductive logic</a></li>
+<li><a href="/wiki/Answer_set_programming" title="Answer set programming">Answer set</a></li>
+<li><a href="/wiki/Concurrent_logic_programming" title="Concurrent logic programming">Concurrent logic</a></li>
+<li><a href="/wiki/Functional_logic_programming" title="Functional logic programming">Functional logic</a></li>
+<li><a href="/wiki/Inductive_logic_programming" title="Inductive logic programming">Inductive logic</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Dynamic_programming_language" title="Dynamic programming language">Dynamic</a></li>
+<li><a href="/wiki/End-user_development" title="End-user development">End-user programming</a></li>
+<li><a href="/wiki/Event-driven_programming" title="Event-driven programming">Event-driven</a>
+<ul>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service-oriented</a></li>
+<li><a href="/wiki/Time-driven_programming" title="Time-driven programming">Time-driven</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Expression-oriented_programming_language" title="Expression-oriented programming language">Expression-oriented</a></li>
+<li><a href="/wiki/Feature-oriented_programming" title="Feature-oriented programming">Feature-oriented</a></li>
+<li><a href="/wiki/Function-level_programming" title="Function-level programming">Function-level</a> (contrast: <a href="/wiki/Value-level_programming" title="Value-level programming">Value-level</a>)</li>
+<li><a href="/wiki/Generic_programming" title="Generic programming">Generic</a></li>
+<li><a href="/wiki/Imperative_programming" title="Imperative programming">Imperative</a> (contrast: <a href="/wiki/Declarative_programming" title="Declarative programming">Declarative</a>)
+<ul>
+<li><a href="/wiki/Literate_programming" title="Literate programming">Literate</a></li>
+<li><a href="/wiki/Procedural_programming" title="Procedural programming">Procedural</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Inductive_programming" title="Inductive programming">Inductive programming</a></li>
+<li><a href="/wiki/Language-oriented_programming" title="Language-oriented programming">Language-oriented</a>
+<ul>
+<li><a href="/wiki/Natural_language_programming" title="Natural language programming">Natural language programming</a></li>
+<li><a href="/wiki/Service-oriented_modeling#Discipline-specific_modeling" title="Service-oriented modeling">Discipline-specific</a></li>
+<li><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific</a></li>
+<li><a href="/wiki/Grammar-oriented_programming" title="Grammar-oriented programming">Grammar-oriented</a>
+<ul>
+<li><a href="/wiki/Dialect_(computing)" title="Dialect (computing)">Dialecting</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intentional_programming" title="Intentional programming">Intentional</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Metaprogramming" title="Metaprogramming">Metaprogramming</a>
+<ul>
+<li><a href="/wiki/Automatic_programming" title="Automatic programming">Automatic</a></li>
+<li><a href="/wiki/Reflection_(computer_programming)" title="Reflection (computer programming)">Reflective</a>
+<ul>
+<li><a href="/wiki/Attribute-oriented_programming" title="Attribute-oriented programming">Attribute-oriented</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Homoiconicity" title="Homoiconicity">Homoiconic</a></li>
+<li><a href="/wiki/Template_metaprogramming" title="Template metaprogramming">Template</a>
+<ul>
+<li><a href="/wiki/Policy-based_design" title="Policy-based design">Policy-based</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Non-structured_programming" title="Non-structured programming">Non-structured</a> (contrast: <a href="/wiki/Structured_programming" title="Structured programming">Structured</a>)
+<ul>
+<li><a href="/wiki/Array_programming" title="Array programming">Array</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Nondeterministic_programming" title="Nondeterministic programming">Nondeterministic</a></li>
+<li><a href="/wiki/Parallel_computing" title="Parallel computing">Parallel computing</a>
+<ul>
+<li><a href="/wiki/Process-oriented_programming" title="Process-oriented programming">Process-oriented</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tacit_programming" title="Tacit programming">Point-free style</a>
+<ul>
+<li><a href="/wiki/Concatenative_programming_language" title="Concatenative programming language">Concatenative</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Semantic-oriented_programming" title="Semantic-oriented programming">Semantic</a></li>
+<li><a href="/wiki/Structured_programming" title="Structured programming">Structured</a> (contrast: <a href="/wiki/Non-structured_programming" title="Non-structured programming">Non-structured</a>)
+<ul>
+<li><a href="/wiki/Block_(programming)" title="Block (programming)">Block-structured</a></li>
+<li><a href="/wiki/Modular_programming" title="Modular programming">Modular</a> (contrast: <a href="/wiki/Monolithic_application" title="Monolithic application">Monolithic</a>)</li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object-oriented</a>
+<ul>
+<li><a href="/wiki/Actor_model" title="Actor model">Actor-based</a></li>
+<li><a href="/wiki/Class-based_programming" title="Class-based programming">Class-based</a></li>
+<li><a href="/wiki/Concurrent_object-oriented_programming" title="Concurrent object-oriented programming">Concurrent</a></li>
+<li><a href="/wiki/Prototype-based_programming" title="Prototype-based programming">Prototype-based</a></li>
+<li>By <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a>:
+<ul>
+<li><a href="/wiki/Aspect-oriented_programming" title="Aspect-oriented programming">Aspect-oriented</a></li>
+<li><a href="/wiki/Role-oriented_programming" title="Role-oriented programming">Role-oriented</a></li>
+<li><a href="/wiki/Subject-oriented_programming" title="Subject-oriented programming">Subject-oriented</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Recursion_(computer_science)" title="Recursion (computer science)">Recursive</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Value-level_programming" title="Value-level programming">Value-level</a> (contrast: <a href="/wiki/Function-level_programming" title="Function-level programming">Function-level</a>)</li>
+<li><a href="/wiki/Probabilistic_programming_language" title="Probabilistic programming language">Probabilistic</a></li>
+<li><a href="/wiki/Concept_programming" title="Concept programming">Concept</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Programming_paradigms" title="Template:Programming paradigms"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Programming_paradigms" title="Template talk:Programming paradigms"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Programming_paradigms&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Component-based software engineering</b> (<b>CBSE</b>), also known as <b>component-based development</b> (<b>CBD</b>), is a branch of software engineering that emphasizes the <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a> in respect of the wide-ranging functionality available throughout a given <a href="/wiki/Software_system" title="Software system">software system</a>. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-term for the software itself and for organizations that sponsor such software.</p>
+<p>Software engineering practitioners regard components as part of the starting platform for <a href="/wiki/Service-orientation" title="Service-orientation">service-orientation</a>. Components play this role, for example, in <a href="/wiki/Web_service" title="Web service">web services</a>, and more recently, in <a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">service-oriented architectures</a> (SOA), whereby a component is converted by the web service into a <i>service</i> and subsequently inherits further characteristics beyond that of an ordinary component.</p>
+<p>Components can produce or consume events and can be used for <a href="/wiki/Event-driven_architecture" title="Event-driven architecture">event-driven architectures</a> (EDA).</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition_and_characteristics_of_components"><span class="tocnumber">1</span> <span class="toctext">Definition and characteristics of components</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Differences_from_object-oriented_programming"><span class="tocnumber">3</span> <span class="toctext">Differences from object-oriented programming</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Architecture"><span class="tocnumber">4</span> <span class="toctext">Architecture</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Models"><span class="tocnumber">5</span> <span class="toctext">Models</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Technologies"><span class="tocnumber">6</span> <span class="toctext">Technologies</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Further_reading"><span class="tocnumber">8</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Definition_and_characteristics_of_components"><span id="Software_component"></span> Definition and characteristics of components</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=1" title="Edit section: Definition and characteristics of components">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>An individual <b>software component</b> is a <a class="mw-redirect" href="/wiki/Package_(package_management_system)" title="Package (package management system)">software package</a>, a <a href="/wiki/Web_service" title="Web service">web service</a>, a <a href="/wiki/Web_resource" title="Web resource">web resource</a>, or a <a href="/wiki/Modular_programming" title="Modular programming">module</a> that encapsulates a set of related <a class="mw-redirect" href="/wiki/Function_(computer_science)" title="Function (computer science)">functions</a> (or data).</p>
+<p>All system processes are placed into separate components so that all of the data and functions inside each component are semantically related (just as with the contents of classes). Because of this principle, it is often said that components are <i>modular</i> and <i>cohesive</i>.</p>
+<p>With regard to system-wide co-ordination, components communicate with each other via <i>interfaces</i>. When a component offers services to the rest of the system, it adopts a <i>provided</i> interface that specifies the services that other components can utilize, and how they can do so. This interface can be seen as a signature of the component - the client does not need to know about the inner workings of the component (implementation) in order to make use of it. This principle results in components referred to as <i>encapsulated</i>. The UML illustrations within this article represent provided interfaces by a lollipop-symbol attached to the outer edge of the component.</p>
+<p>However, when a component needs to use another component in order to function, it adopts a <i>used</i> interface that specifies the services that it needs. In the UML illustrations in this article, <i>used interfaces</i> are represented by an open socket symbol attached to the outer edge of the component.</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:502px;"><a class="image" href="/wiki/File:Component-based-Software-Engineering-example2.png"><img alt="" class="thumbimage" data-file-height="250" data-file-width="500" height="250" src="//upload.wikimedia.org/wikipedia/commons/8/83/Component-based-Software-Engineering-example2.png" width="500"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Component-based-Software-Engineering-example2.png" title="Enlarge"></a></div>
+A simple example of several software components - pictured within a hypothetical holiday-reservation system represented in <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a> 2.0.</div>
+</div>
+</div>
+<p>Another important attribute of components is that they are <i>substitutable</i>, so that a component can replace another (at design time or run-time), if the successor component meets the requirements of the initial component (expressed via the interfaces). Consequently, components can be replaced with either an updated version or an alternative without breaking the system in which the component operates.</p>
+<p>As a <a href="/wiki/Liskov_substitution_principle" title="Liskov substitution principle">rule of thumb</a> for engineers substituting components, component B can immediately replace component A, if component B provides at least what component A provided and uses no more than what component A used.</p>
+<p>Software components often take the form of <a class="mw-redirect" href="/wiki/Object_(computing)" title="Object (computing)">objects</a> (not <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">classes</a>) or collections of objects (from <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>), in some binary or textual form, adhering to some <a href="/wiki/Interface_description_language" title="Interface description language">interface description language</a> (IDL) so that the component may exist autonomously from other components in a <a href="/wiki/Computer" title="Computer">computer</a>. In other words, a component acts without changing its source code. Although, the behavior of the component's source code may change based on the application's extensibility, provided by its writer.</p>
+<p>When a component is to be accessed or shared across execution contexts or network links, techniques such as <a href="/wiki/Serialization" title="Serialization">serialization</a> or <a href="/wiki/Marshalling_(computer_science)" title="Marshalling (computer science)">marshalling</a> are often employed to deliver the component to its destination.</p>
+<p><a href="/wiki/Reusability" title="Reusability">Reusability</a> is an important characteristic of a high-quality software component. Programmers should design and implement software components in such a way that many different programs can reuse them. Furthermore, <a class="mw-redirect" href="/wiki/Component-Based_Usability_Testing" title="Component-Based Usability Testing">component-based usability testing</a> should be considered when software components directly interact with users.</p>
+<p>It takes significant effort and awareness to write a software component that is effectively reusable. The component needs to be:</p>
+<ul>
+<li>fully documented</li>
+<li>thoroughly tested
+<ul>
+<li>robust - with comprehensive input-validity checking</li>
+<li>able to pass back appropriate <a href="/wiki/Error_message" title="Error message">error messages</a> or return codes</li>
+</ul>
+</li>
+<li>designed with an awareness that it <i>will</i> be put to unforeseen uses</li>
+</ul>
+<p>In the 1960s, programmers built scientific <a href="/wiki/Subroutine" title="Subroutine">subroutine</a> libraries that were reusable in a broad array of engineering and scientific applications. Though these subroutine libraries reused well-defined <a class="mw-redirect" href="/wiki/Algorithms" title="Algorithms">algorithms</a> in an effective manner, they had a limited domain of application. Commercial sites routinely created application programs from reusable modules written in <a href="/wiki/Assembly_language" title="Assembly language">Assembler</a>, <a href="/wiki/COBOL" title="COBOL">COBOL</a>, <a class="mw-redirect" href="/wiki/PL/1" title="PL/1">PL/1</a> and other <a class="mw-redirect" href="/wiki/Second_generation_language" title="Second generation language">second-</a> and <a class="mw-redirect" href="/wiki/Third_generation_language" title="Third generation language">third-generation languages</a> using both <a href="/wiki/Operating_system" title="Operating system">system</a> and user application libraries.</p>
+<p>As of 2010<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Component-based_software_engineering&amp;action=edit">[update]</a></sup>, modern reusable components encapsulate both data structures and the algorithms that are applied to the data structures. It<sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="The text near this tag may need clarification or removal of jargon. (February 2010)">clarification needed</span></a></i>]</sup> builds on prior theories of <a class="mw-redirect" href="/wiki/Object_(object-oriented_programming)" title="Object (object-oriented programming)">software objects</a>, <a href="/wiki/Software_architecture" title="Software architecture">software architectures</a>, <a href="/wiki/Software_framework" title="Software framework">software frameworks</a> and <a href="/wiki/Software_design_pattern" title="Software design pattern">software design patterns</a>, and the extensive theory of <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> and the <a class="mw-redirect" href="/wiki/Object_oriented_design" title="Object oriented design">object oriented design</a> of all these. It claims that software components, like the idea of hardware <a href="/wiki/Electronic_component" title="Electronic component">components</a>, used for example in telecommunications,<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> can ultimately be made interchangeable and reliable. On the other hand, it is argued that it is a mistake to focus on independent components rather than the framework (without which they would not exist).<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The idea that <a href="/wiki/Software" title="Software">software</a> should be componentized - built from prefabricated <i>components</i> - first became prominent with <a href="/wiki/Douglas_McIlroy" title="Douglas McIlroy">Douglas McIlroy</a>'s address at the <a href="/wiki/NATO" title="NATO">NATO</a> conference on <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> in <a href="/wiki/Garmisch-Partenkirchen" title="Garmisch-Partenkirchen">Garmisch</a>, <a href="/wiki/Germany" title="Germany">Germany</a>, 1968, titled <i>Mass Produced Software Components</i>.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> The conference set out to counter the so-called <a href="/wiki/Software_crisis" title="Software crisis">software crisis</a>. McIlroy's subsequent inclusion of <a href="/wiki/Pipeline_(Unix)" title="Pipeline (Unix)">pipes and filters</a> into the <a href="/wiki/Unix" title="Unix">Unix</a> <a href="/wiki/Operating_system" title="Operating system">operating system</a> was the first implementation of an infrastructure for this idea.</p>
+<p><a href="/wiki/Brad_Cox" title="Brad Cox">Brad Cox</a> of <a href="/wiki/Stepstone" title="Stepstone">Stepstone</a> largely defined the modern concept of a software component.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> He called them <i>Software ICs</i> and set out to create an infrastructure and market for these components by inventing the <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a> programming language. (He summarizes this view in his book <i>Object-Oriented Programming - An Evolutionary Approach</i> 1986.)</p>
+<p>The software components are used in two different contexts and two kinds: (i) using components as parts to build a single executable, or (ii) each executable is treated as a component in a distributed environment, where components collaborate with each other using internet or intranet communication protocols for IPC (Inter Process Communications). The above belongs to former kind, while the below belongs to later kind.</p>
+<p><a href="/wiki/IBM" title="IBM">IBM</a> led the path with their <a class="mw-redirect" href="/wiki/System_Object_Model" title="System Object Model">System Object Model (SOM)</a> in the early 1990s. As a reaction, <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> paved the way for actual deployment of component software with <a class="mw-redirect" href="/wiki/Object_linking_and_embedding" title="Object linking and embedding">OLE</a> and <a href="/wiki/Component_Object_Model" title="Component Object Model">COM</a>.<sup class="reference" id="cite_ref-claims_5-0"><a href="#cite_note-claims-5">[5]</a></sup> As of 2010<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Component-based_software_engineering&amp;action=edit">[update]</a></sup> many successful software component models exist.</p>
+<h2><span class="mw-headline" id="Differences_from_object-oriented_programming">Differences from object-oriented programming</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=3" title="Edit section: Differences from object-oriented programming">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Proponents of <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> (OOP) maintain that software should be written according to a mental model of the actual or imagined objects it represents. OOP and the related disciplines of <a class="mw-redirect" href="/wiki/Object-oriented_analysis" title="Object-oriented analysis">object-oriented analysis</a> and <a href="/wiki/Object-oriented_design" title="Object-oriented design">object-oriented design</a> focus on modeling real-world<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (January 2009)">citation needed</span></a></i>]</sup> interactions and attempting to create "nouns" and "verbs" that can be used in more human-readable ways, ideally by end users as well as by programmers coding for those end users.</p>
+<p>Component-based software engineering, by contrast, makes no such assumptions, and instead states that developers should construct software by gluing together prefabricated components - much like in the fields of <a href="/wiki/Electronics" title="Electronics">electronics</a> or <a href="/wiki/Mechanics" title="Mechanics">mechanics</a>. Some peers<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch"><span title="The material near this tag possibly uses too-vague attribution or weasel words. (January 2009)">who?</span></a></i>]</sup> will even talk of modularizing systems as software components as a new <a href="/wiki/Programming_paradigm" title="Programming paradigm">programming paradigm</a>. Example for possible paradigm: many experts feel adaptable to evolving needs is more important than reuse, since 80% of software engineering deals with maintaining or releasing new versions. So it is desirable to build complex system by assembling highly cohesive loosely coupled large components, where cost of redesigning each of such adoptable components (or replacing by a better component) must be minimized.</p>
+<p>Some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch"><span title="The material near this tag possibly uses too-vague attribution or weasel words. (October 2009)">who?</span></a></i>]</sup> argue that earlier <a href="/wiki/Computer_scientist" title="Computer scientist">computer scientists</a> made this distinction, with <a href="/wiki/Donald_Knuth" title="Donald Knuth">Donald Knuth</a>'s theory of "<a href="/wiki/Literate_programming" title="Literate programming">literate programming</a>" optimistically assuming there was convergence between intuitive and formal models, and <a class="mw-redirect" href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a>'s theory in the article <i><a class="mw-redirect" href="/wiki/The_Cruelty_of_Really_Teaching_Computer_Science" title="The Cruelty of Really Teaching Computer Science">The Cruelty of Really Teaching Computer Science</a></i>, which stated that programming was simply, and only, a branch of <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>.<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></p>
+<p>In both forms, this notion has led to many academic debates<sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">[<i><a class="mw-redirect" href="/wiki/Wikipedia:Avoid_weasel_words" title="Wikipedia:Avoid weasel words"><span title="Who says this? (October 2009)">weasel words</span></a></i>]</sup> about the pros and cons of the two approaches and possible strategies for uniting the two. Some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch"><span title="The material near this tag possibly uses too-vague attribution or weasel words. (October 2009)">who?</span></a></i>]</sup> consider the different strategies not as competitors, but as descriptions of the same problem from different points of view.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (October 2009)">citation needed</span></a></i>]</sup></p>
+<p>One approach to creating component-based software using object-oriented programming is <a href="/wiki/Interface-based_programming" title="Interface-based programming">interface-based programming</a>. However, interface-based programming does not inherently support <a class="mw-redirect" href="/wiki/Distributed_system" title="Distributed system">distributed systems</a>, and many computer systems are inherently distributed in the 21st century. Interface-based programming in the OOP sense may be extended to distributed systems with distributed component object models; however, many have argued in recent years that <a href="/wiki/Representational_state_transfer" title="Representational state transfer">REST</a> APIs or the <a href="/wiki/Actor_model" title="Actor model">actor model</a> are more suitable approaches.</p>
+<h2><span class="mw-headline" id="Architecture">Architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=4" title="Edit section: Architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A computer running several software components is often called an <a href="/wiki/Application_server" title="Application server">application server</a>. This combination of application servers and software components is usually called <a href="/wiki/Distributed_computing" title="Distributed computing">distributed computing</a>. Typical real-world application of this is in, e.g., financial applications or business software.</p>
+<h2><span class="mw-headline" id="Models">Models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=5" title="Edit section: Models">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A component model is a definition of standards for component implementation, documentation and deployment. Examples of component models are: <a href="/wiki/Enterprise_JavaBeans" title="Enterprise JavaBeans">Enterprise JavaBeans</a> (EJB) model, <a href="/wiki/Component_Object_Model" title="Component Object Model">Component Object Model</a> (COM) model, <a href="/wiki/.NET_Framework" title=".NET Framework">.NET</a> model and <a href="/wiki/Common_Object_Request_Broker_Architecture" title="Common Object Request Broker Architecture">Common Object Request Broker Architecture</a> (CORBA) component Model. The component model specifies how interfaces should be defined and the elements that should be included in an interface definition.<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></p>
+<h2><span class="mw-headline" id="Technologies">Technologies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=6" title="Edit section: Technologies">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Business_object_(computer_science)" title="Business object (computer science)">Business object</a> technologies
+<ul>
+<li><a href="/wiki/Newi" title="Newi">Newi</a></li>
+</ul>
+</li>
+<li>Component-based <a href="/wiki/Software_framework" title="Software framework">software frameworks</a> for specific domains
+<ul>
+<li><a href="/wiki/Advanced_Component_Framework" title="Advanced Component Framework">Advanced Component Framework</a></li>
+<li>Earth System Modeling Framework (<a class="mw-redirect" href="/wiki/ESMF" title="ESMF">ESMF</a>)</li>
+<li>MASH IoT Platform for Asset Management<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></li>
+<li>KOALA component model developed for software in consumer electronics<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup><sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></li>
+<li><a href="/wiki/Software_Communications_Architecture" title="Software Communications Architecture">Software Communications Architecture</a> (JTRS SCA)</li>
+</ul>
+</li>
+<li>Component-oriented programming
+<ul>
+<li>Bundles as defined by the <a class="mw-redirect" href="/wiki/Osgi" title="Osgi">OSGi</a> Service Platform</li>
+<li><a class="external text" href="https://github.com/component/component" rel="nofollow">Component</a> web platform for modular js, css, and other assets</li>
+<li><a href="/wiki/Component_Object_Model" title="Component Object Model">Component Object Model</a> (OCX/ActiveX/COM) and <a href="/wiki/Distributed_Component_Object_Model" title="Distributed Component Object Model">DCOM</a> from <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li>TASCS - <a class="mw-redirect" href="/wiki/SciDAC" title="SciDAC">SciDAC</a> Center for Technology for Advanced Scientific Component Software</li>
+<li><a href="/wiki/Eiffel_(programming_language)" title="Eiffel (programming language)">Eiffel programming language</a></li>
+<li><a href="/wiki/Enterprise_JavaBeans" title="Enterprise JavaBeans">Enterprise JavaBeans</a> from <a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> (now <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle</a>)</li>
+<li><a href="/wiki/Flow-based_programming" title="Flow-based programming">Flow-based programming</a></li>
+<li><a href="/wiki/Fractal_component_model" title="Fractal component model">Fractal component model</a> from <a class="mw-redirect" href="/wiki/ObjectWeb" title="ObjectWeb">ObjectWeb</a></li>
+<li><a class="new" href="/w/index.php?title=MidCOM&amp;action=edit&amp;redlink=1" title="MidCOM (page does not exist)">MidCOM</a> component framework for <a href="/wiki/Midgard_(software)" title="Midgard (software)">Midgard</a> and <a href="/wiki/PHP" title="PHP">PHP</a></li>
+<li><a href="/wiki/Oberon_(programming_language)" title="Oberon (programming language)">Oberon</a>, <a href="/wiki/Component_Pascal" title="Component Pascal">Component Pascal</a>, and <a href="/wiki/BlackBox_Component_Builder" title="BlackBox Component Builder">BlackBox Component Builder</a></li>
+<li><a href="/wiki/RCOS_(computer_sciences)" title="RCOS (computer sciences)">rCOS</a> method of component-based model driven design from <a class="mw-redirect" href="/wiki/UNU-IIST" title="UNU-IIST">UNU-IIST</a></li>
+<li><a class="mw-redirect" href="/wiki/SOFA_component_system" title="SOFA component system">SOFA component system</a> from <a class="mw-redirect" href="/wiki/ObjectWeb" title="ObjectWeb">ObjectWeb</a></li>
+<li>The <code>System.ComponentModel</code> namespace in <a class="mw-redirect" href="/wiki/Microsoft_.NET" title="Microsoft .NET">Microsoft .NET</a></li>
+<li><a href="/wiki/Unity_(game_engine)" title="Unity (game engine)">Unity</a> developed by <a href="/wiki/Unity_Technologies" title="Unity Technologies">Unity Technologies</a></li>
+<li><a href="/wiki/Universal_Network_Objects" title="Universal Network Objects">UNO</a> from the <a href="/wiki/OpenOffice.org" title="OpenOffice.org">OpenOffice.org</a> office suite</li>
+<li><a href="/wiki/Visual_Component_Library" title="Visual Component Library">VCL</a> and <a href="/wiki/Component_Library_for_Cross_Platform" title="Component Library for Cross Platform">CLX</a> from <a href="/wiki/Borland" title="Borland">Borland</a> and similar free <a class="mw-redirect" href="/wiki/Lazarus_(software)" title="Lazarus (software)">LCL</a> library.</li>
+<li><a href="/wiki/XPCOM" title="XPCOM">XPCOM</a> from <a href="/wiki/Mozilla_Foundation" title="Mozilla Foundation">Mozilla Foundation</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Compound_document" title="Compound document">Compound document</a> technologies
+<ul>
+<li>Active Documents in <a href="/wiki/Oberon_(operating_system)" title="Oberon (operating system)">Oberon System</a> and <a href="/wiki/BlackBox_Component_Builder" title="BlackBox Component Builder">BlackBox Component Builder</a></li>
+<li><a class="mw-redirect" href="/wiki/KPart" title="KPart">KPart</a>, the <a href="/wiki/KDE" title="KDE">KDE</a> compound document technology</li>
+<li><a class="mw-redirect" href="/wiki/Object_linking_and_embedding" title="Object linking and embedding">Object linking and embedding</a> (OLE)</li>
+<li><a href="/wiki/OpenDoc" title="OpenDoc">OpenDoc</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Distributed_computing" title="Distributed computing">Distributed computing</a> software components
+<ul>
+<li><a href="/wiki/.NET_Remoting" title=".NET Remoting">.NET Remoting</a> from <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a href="/wiki/9P_(protocol)" title="9P (protocol)">9P</a> distributed protocol developed for <a href="/wiki/Plan_9_from_Bell_Labs" title="Plan 9 from Bell Labs">Plan 9</a>, and used by <a href="/wiki/Inferno_(operating_system)" title="Inferno (operating system)">Inferno</a> and other systems.</li>
+<li><a class="mw-redirect" href="/wiki/CORBA" title="CORBA">CORBA</a> and the <a class="mw-redirect" href="/wiki/CORBA_Component_Model" title="CORBA Component Model">CORBA Component Model</a> from the <a href="/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a></li>
+<li><a href="/wiki/D-Bus" title="D-Bus">D-Bus</a> from the <a href="/wiki/Freedesktop.org" title="Freedesktop.org">freedesktop.org</a> organization</li>
+<li><a href="/wiki/Distributed_Component_Object_Model" title="Distributed Component Object Model">DCOM</a> and later versions of <a class="mw-redirect" href="/wiki/Component_object_model" title="Component object model">COM</a> (and COM+) from <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a></li>
+<li>DSOM and <a class="mw-redirect" href="/wiki/System_Object_Model" title="System Object Model">SOM</a> from <a href="/wiki/IBM" title="IBM">IBM</a> (now scrapped)</li>
+<li><a href="/wiki/Internet_Communications_Engine" title="Internet Communications Engine">ICE</a> from <a href="/wiki/ZeroC" title="ZeroC">ZeroC</a></li>
+<li><a class="mw-redirect" href="/wiki/Java_EE" title="Java EE">Java EE</a> from <a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun</a></li>
+<li><a class="new" href="/w/index.php?title=Kompics&amp;action=edit&amp;redlink=1" title="Kompics (page does not exist)">Kompics</a><sup class="reference" id="cite_ref-Kompics_12-0"><a href="#cite_note-Kompics-12">[12]</a></sup> from <a href="/wiki/Swedish_Institute_of_Computer_Science" title="Swedish Institute of Computer Science">SICS</a></li>
+<li><a href="/wiki/Universal_Network_Objects" title="Universal Network Objects">Universal Network Objects</a> (UNO) from <a href="/wiki/OpenOffice.org" title="OpenOffice.org">OpenOffice.org</a></li>
+<li><a href="/wiki/Web_service" title="Web service">Web services</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Representational_State_Transfer" title="Representational State Transfer">REST</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Zope" title="Zope">Zope</a> from <a class="new" href="/w/index.php?title=Zope_Corporation&amp;action=edit&amp;redlink=1" title="Zope Corporation (page does not exist)">Zope Corporation</a></li>
+<li>AXCIOMA (the component framework for distributed, real-time, and embedded systems) by Remedy IT <a class="external autonumber" href="http://www.axcioma.com" rel="nofollow">[3]</a></li>
+<li><a class="external text" href="http://cohorte.github.io" rel="nofollow">COHORTE</a> the cross-platform runtime for executing and managing robust and reliable distributed Service-oriented Component-based applications, by <a class="external text" href="http://isandlatech.com" rel="nofollow">isandlaTech</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Generic_programming" title="Generic programming">Generic programming</a> emphasizes separation of algorithms from data representation</li>
+<li>Interface description languages (IDLs)
+<ul>
+<li><a href="/wiki/Open_Service_Interface_Definitions" title="Open Service Interface Definitions">Open Service Interface Definitions</a> (OSIDs)</li>
+<li>Part of both <a class="mw-redirect" href="/wiki/Component_object_model" title="Component object model">COM</a> and <a class="mw-redirect" href="/wiki/CORBA" title="CORBA">CORBA</a></li>
+<li><a class="new" href="/w/index.php?title=Platform-Independent_Component_Modeling_Language&amp;action=edit&amp;redlink=1" title="Platform-Independent Component Modeling Language (page does not exist)">Platform-Independent Component Modeling Language</a></li>
+<li>SIDL - Scientific Interface Definition Language
+<ul>
+<li>Part of the <a href="/wiki/Babel_Middleware" title="Babel Middleware">Babel</a> Scientific Programming Language Interoperability System (SIDL and Babel are core technologies of the <a href="/wiki/Common_Component_Architecture" title="Common Component Architecture">CCA</a> and the <a class="mw-redirect" href="/wiki/SciDAC" title="SciDAC">SciDAC</a> TASCS Center - see above.)</li>
+</ul>
+</li>
+<li><a href="/wiki/SOAP" title="SOAP">SOAP</a> <a href="/wiki/Interface_description_language" title="Interface description language">IDL</a> from <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C)</li>
+<li><a href="/wiki/WDDX" title="WDDX">WDDX</a></li>
+<li><a href="/wiki/XML-RPC" title="XML-RPC">XML-RPC</a>, the predecessor of <a href="/wiki/SOAP" title="SOAP">SOAP</a></li>
+</ul>
+</li>
+<li>Inversion of Control (IoC) and Plain Old C++/Java Object (POCO/POJO) component frameworks</li>
+<li><a href="/wiki/Pipeline_(software)" title="Pipeline (software)">Pipes and filters</a>
+<ul>
+<li><a href="/wiki/Unix" title="Unix">Unix</a> <a href="/wiki/Operating_system" title="Operating system">operating system</a></li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Business_logic" title="Business logic">Business logic</a></li>
+<li><a href="/wiki/Modular_programming" title="Modular programming">Modular programming</a></li>
+<li><a href="/wiki/Service_Component_Architecture" title="Service Component Architecture">Service Component Architecture</a> (SCA)</li>
+<li><a href="/wiki/Software_Communications_Architecture" title="Software Communications Architecture">Software Communications Architecture</a> (JTRS SCA)</li>
+<li><a href="/wiki/Third-party_software_component" title="Third-party software component">Third-party software component</a></li>
+<li><a href="/wiki/Web_service" title="Web service">Web service</a></li>
+<li><a class="mw-redirect" href="/wiki/Web_components" title="Web components">Web components</a></li>
+</ul>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=8" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Brad J. Cox, Andrew J. Novobilski (1991). <i>Object-Oriented Programming: An Evolutionary Approach</i>. 2nd ed. Addison-Wesley, Reading <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201548348">ISBN 0-201-54834-8</a></li>
+<li>Bertrand Meyer (1997). <i>Object-Oriented Software Construction</i>. 2nd ed. Prentice Hall.</li>
+<li>George T. Heineman, William T. Councill (2001). <i>Component-Based Software Engineering: Putting the Pieces Together</i>. Addison-Wesley Professional, Reading 2001 <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201704854">ISBN 0-201-70485-4</a></li>
+<li><a href="/wiki/Richard_Veryard" title="Richard Veryard">Richard Veryard</a> (2001). <i>Component-based business : plug and play</i>. London : Springer. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/1852333618">ISBN 1-85233-361-8</a></li>
+<li>Clemens Szyperski (2002). <i>Component Software: Beyond Object-Oriented Programming</i>. 2nd ed. Addison-Wesley Professional, Boston <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201745720">ISBN 0-201-74572-0</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=9" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Foukalas et al <a class="external text" href="http://www.springerlink.com/content/nc7wy8x1bevgj5w9/" rel="nofollow">"Protocol Reconfiguration Using Component-Based Design"</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web">Wallace, Bruce (May 19, 2010). <a class="external text" href="http://existentialprogramming.blogspot.com/2010/05/hole-for-every-component-and-every.html" rel="nofollow">"A hole for every component, and every component in its hole"</a>. Existential Programming. <q>There is no such thing as a Component</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.aufirst=Bruce&amp;rft.aulast=Wallace&amp;rft.btitle=A+hole+for+every+component%2C+and+every+component+in+its+hole&amp;rft.date=2010-05-19&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fexistentialprogramming.blogspot.com%2F2010%2F05%2Fhole-for-every-component-and-every.html&amp;rft.pub=Existential+Programming&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web">McIlroy, Malcolm Douglas (January 1969). <a class="external text" href="http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF" rel="nofollow">"Mass produced software components"</a> <span style="font-size:85%;">(PDF)</span>. <i>Software Engineering: Report of a conference sponsored by the NATO Science Committee, Garmisch, Germany, 7-11 Oct. 1968</i>. Scientific Affairs Division, NATO. p. 79.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.atitle=Mass+produced+software+components&amp;rft.aufirst=Malcolm+Douglas&amp;rft.aulast=McIlroy&amp;rft.date=1969-01&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fhomepages.cs.ncl.ac.uk%2Fbrian.randell%2FNATO%2Fnato1968.PDF&amp;rft.jtitle=Software+Engineering%3A+Report+of+a+conference+sponsored+by+the+NATO+Science+Committee%2C+Garmisch%2C+Germany%2C+7-11+Oct.+1968&amp;rft.pages=79&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">Rainer Niekamp. <a class="external text" href="http://congress.cimne.upc.es/cfsi/frontal/doc/ppt/11.pdf" rel="nofollow">"Software Component Architecture"</a> <span style="font-size:85%;">(PDF)</span>. Gestión de Congresos - CIMNE/Institute for Scientific Computing, TU Braunschweig. p. 4<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-07-29</span></span>. <q>The modern concept of a software component largely defined by Brad Cox of Stepstone, =&gt; Objective-C programming language</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.au=Rainer+Niekamp&amp;rft.btitle=Software+Component+Architecture&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fcongress.cimne.upc.es%2Fcfsi%2Ffrontal%2Fdoc%2Fppt%2F11.pdf&amp;rft.pages=4&amp;rft.pub=Gesti%C3%B3n+de+Congresos+-+CIMNE%2FInstitute+for+Scientific+Computing%2C+TU+Braunschweig&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-claims-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-claims_5-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Raphael Gfeller (December 9, 2008). <a class="external text" href="http://wiki.ita.hsr.ch/SemProgAnTr/files/Automated_upgrading_of_component.Präsentation.pptx" rel="nofollow">"Upgrading of component-based application"</a>. HSR - Hochschule für Technik Rapperswill. p. 4<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-07-29</span></span>. <q>1990, IBM invents their System Object Model. 1990, as a reaction, Microsoft released OLE 1.0 OLE custom controls (OCX)</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.au=Raphael+Gfeller&amp;rft.btitle=Upgrading+of+component-based+application&amp;rft.date=2008-12-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwiki.ita.hsr.ch%2FSemProgAnTr%2Ffiles%2FAutomated_upgrading_of_component.Pr%C3%A4sentation.pptx&amp;rft.pages=4&amp;rft.pub=HSR+-+Hochschule+f%C3%BCr+Technik+Rapperswill&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.encyclopedia.com/doc/1G2-2830905624.html" rel="nofollow">"Dijkstra, Wybe Edsger"</a>. Encyclopedia.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-07-29</span></span>. <q>In his view, the key to a good computing science program was to consider it as a branch of mathematics.</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.btitle=Dijkstra%2C+Wybe+Edsger&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.encyclopedia.com%2Fdoc%2F1G2-2830905624.html&amp;rft.pub=Encyclopedia.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="mw-redirect" href="/wiki/Donald_E._Knuth" title="Donald E. Knuth">Donald E. Knuth</a> (September 1983). <a class="external text" href="http://www.literateprogramming.com/knuthweb.pdf" rel="nofollow">"Literate Programming"</a> <span style="font-size:85%;">(PDF)</span>. Literate Programming/The Computer Journal. p. 15<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-07-29</span></span>. <q>Thus, WEB may be only for the subset of computer scientists who like to write and to explain what they are doing. My hope is that the ability to make explanations more natural will cause more programmers to discover the joys of literate programming, because I believe it’s quite a pleasure to combine verbal and mathematical skills; but perhaps I’m hoping for too much. The fact that at least one paper has been written that is a syntactically correct ALGOL 68 program22 encourages me to persevere in my hopes for the future. Perhaps we will even one day find Pulitzer prizes awarded to computer programs.</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.au=Donald+E.+Knuth&amp;rft.btitle=Literate+Programming&amp;rft.date=1983-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.literateprogramming.com%2Fknuthweb.pdf&amp;rft.pages=15&amp;rft.pub=Literate+Programming%2FThe+Computer+Journal&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.comp.lancs.ac.uk/computing/resources/IanS/SE7/Presentations/PDF/Ch19.pdf" rel="nofollow">"SCC | Computing &amp; Communications"</a> <span style="font-size:85%;">(PDF)</span>. Comp.lancs.ac.uk<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-12-17</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.btitle=SCC+%26%23124%3B+Computing+%26+Communications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.comp.lancs.ac.uk%2Fcomputing%2Fresources%2FIanS%2FSE7%2FPresentations%2FPDF%2FCh19.pdf&amp;rft.pub=Comp.lancs.ac.uk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">MASH defines assets as people, property and information and management as monitoring, control and configuration. Presented at the 2013 IEEE IoT conference in Mountain View MASH includes a full IDE, Android client and runtime. <a class="external text" href="http://www.youtube.com/user/MASHPlatform" rel="nofollow">"MASH YouTube channel"</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">A component-oriented approach is an ideal way to handle the diversity of software in consumer electronics. The Koala model, used for embedded software in TV sets, allows late binding of reusable components with no additional overhead. <a class="external autonumber" href="https://spiral.imperial.ac.uk/bitstream/10044/1/464/1/The%20Koala%20component%20model.pdf" rel="nofollow">[1]</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Component model for embedded devices like TV developed by Philips based on paper by van Ommering, R.: Koala, a Component Model for Consumer Electronics Product Software <a class="external autonumber" href="http://d3s.mff.cuni.cz/research/seminar/download/2006-12-21-Hnetynka-Koala" rel="nofollow">[2]</a></span></li>
+<li id="cite_note-Kompics-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Kompics_12-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Arad, Cosmin (April 2013). <a class="external text" href="https://www.kth.se/social/upload/51adbc98f2765409d66844b7/CosminArad-Thesis.pdf" rel="nofollow"><i>Programming Model and Protocols for Reconfigurable Distributed Systems</i></a> <span style="font-size:85%;">(PDF)</span>. <i>Doctoral Dissertation</i>. Stockholm, Sweden: KTH Royal Institute of Technology. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-91-7501-694-8" title="Special:BookSources/978-91-7501-694-8">978-91-7501-694-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComponent-based+software+engineering&amp;rft.aufirst=Cosmin&amp;rft.aulast=Arad&amp;rft.btitle=Programming+Model+and+Protocols+for+Reconfigurable+Distributed+Systems&amp;rft.date=2013-04&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fwww.kth.se%2Fsocial%2Fupload%2F51adbc98f2765409d66844b7%2FCosminArad-Thesis.pdf&amp;rft.isbn=978-91-7501-694-8&amp;rft.place=Stockholm%2C+Sweden&amp;rft.pub=KTH+Royal+Institute+of+Technology&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Component-based_software_engineering&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.dre.vanderbilt.edu/~schmidt/reuse-lessons.html" rel="nofollow"><i>Why Software Reuse has Failed and How to Make It Work for You</i></a> by <a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas C. Schmidt</a></li>
+<li><a class="external text" href="https://www.researchgate.net/publication/284167768_What_is_true_essence_of_Component_Based_Design" rel="nofollow"><i>What is the True essence and reality of CBD?</i></a> (Evidence to show existing CBD paradigm is flawed)</li>
+<li>comprehensive list of <a class="external text" href="http://xplc.sourceforge.net/doc/others.php" rel="nofollow">Component Systems</a> on <a href="/wiki/SourceForge" title="SourceForge">SourceForge</a></li>
+<li><a class="external text" href="https://www.researchgate.net/publication/292378253_Brief_Introduction_to_COP_Component_Oriented_Programming" rel="nofollow"><i>Brief Introduction to Real COP (Component Oriented Programming)</i></a> by Using a small GUI application as an example</li>
+</ul>
+<div aria-labelledby="Types_of_programming_languages" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Types_of_programming_languages" title="Template:Types of programming languages"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Types_of_programming_languages" title="Template talk:Types of programming languages"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Types_of_programming_languages&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Types_of_programming_languages" style="font-size:114%"><a href="/wiki/Programming_paradigm" title="Programming paradigm">Types of programming languages</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Actor_model" title="Actor model">Actor-based</a></li>
+<li><a href="/wiki/Array_programming" title="Array programming">Array</a></li>
+<li><a href="/wiki/Aspect-oriented_programming" title="Aspect-oriented programming">Aspect-oriented</a></li>
+<li><a href="/wiki/Class-based_programming" title="Class-based programming">Class-based</a></li>
+<li><a href="/wiki/Concatenative_programming_language" title="Concatenative programming language">Concatenative</a></li>
+<li><a href="/wiki/Concurrent_computing" title="Concurrent computing">Concurrent</a></li>
+<li><a href="/wiki/Data-structured_language" title="Data-structured language">Data-structured</a></li>
+<li><a href="/wiki/Dataflow_programming" title="Dataflow programming">Dataflow</a></li>
+<li><a href="/wiki/Declarative_programming" title="Declarative programming">Declarative</a></li>
+<li><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific</a></li>
+<li><a href="/wiki/Dynamic_programming_language" title="Dynamic programming language">Dynamic</a></li>
+<li><a href="/wiki/Esoteric_programming_language" title="Esoteric programming language">Esoteric</a></li>
+<li><a href="/wiki/Event-driven_programming" title="Event-driven programming">Event-driven</a></li>
+<li><a href="/wiki/Extensible_programming" title="Extensible programming">Extensible</a></li>
+<li><a href="/wiki/Functional_programming" title="Functional programming">Functional</a></li>
+<li><a href="/wiki/Imperative_programming" title="Imperative programming">Imperative</a></li>
+<li><a href="/wiki/Logic_programming" title="Logic programming">Logic</a></li>
+<li><a href="/wiki/Macro_(computer_science)" title="Macro (computer science)">Macro</a></li>
+<li><a href="/wiki/Metaprogramming" title="Metaprogramming">Metaprogramming</a>+*<a class="mw-redirect" href="/wiki/Multi-paradigm_programming_language" title="Multi-paradigm programming language">Multi-paradigm</a></li>
+<li><a href="/wiki/Object-based_language" title="Object-based language">Object-based</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object-oriented</a></li>
+<li><a class="mw-redirect" href="/wiki/Pipeline_programming" title="Pipeline programming">Pipeline</a></li>
+<li><a href="/wiki/Procedural_programming" title="Procedural programming">Procedural</a></li>
+<li><a href="/wiki/Prototype-based_programming" title="Prototype-based programming">Prototype-based</a></li>
+<li><a href="/wiki/Reflection_(computer_programming)" title="Reflection (computer programming)">Reflective</a></li>
+<li><a href="/wiki/Rule-based_system" title="Rule-based system">Rule-based</a></li>
+<li><a href="/wiki/Scripting_language" title="Scripting language">Scripting</a></li>
+<li><a href="/wiki/Synchronous_programming_language" title="Synchronous programming language">Synchronous</a></li>
+<li><a class="mw-redirect" href="/wiki/Templating_language" title="Templating language">Templating</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Assembly_language" title="Assembly language">Assembly</a></li>
+<li><a href="/wiki/Compiled_language" title="Compiled language">Compiled</a></li>
+<li><a href="/wiki/Interpreted_language" title="Interpreted language">Interpreted</a></li>
+<li><a href="/wiki/Machine_code" title="Machine code">Machine</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Low-level_programming_language" title="Low-level programming language">Low-level</a></li>
+<li><a href="/wiki/High-level_programming_language" title="High-level programming language">High-level</a></li>
+<li><a href="/wiki/Very_high-level_programming_language" title="Very high-level programming language">Very high-level</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/First-generation_programming_language" title="First-generation programming language">First generation</a></li>
+<li><a href="/wiki/Second-generation_programming_language" title="Second-generation programming language">Second generation</a></li>
+<li><a href="/wiki/Third-generation_programming_language" title="Third-generation programming language">Third generation</a></li>
+<li><a href="/wiki/Fourth-generation_programming_language" title="Fourth-generation programming language">Fourth generation</a></li>
+<li><a href="/wiki/Fifth-generation_programming_language" title="Fifth-generation programming language">Fifth generation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Non-English-based_programming_languages" title="Non-English-based programming languages">Non-English-based</a></li>
+<li><a href="/wiki/Visual_programming_language" title="Visual programming language">Visual</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2816674-0!*!0!!en!4!* and timestamp 20160919065751 and revision id 729453630
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Component-based_software_engineering&amp;oldid=729453630">https://en.wikipedia.org/w/index.php?title=Component-based_software_engineering&amp;oldid=729453630</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Component-based_software_engineering" title="Category:Component-based software engineering">Component-based software engineering</a></li><li><a href="/wiki/Category:Object-oriented_programming" title="Category:Object-oriented programming">Object-oriented programming</a></li><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2010" title="Category:Articles containing potentially dated statements from 2010">Articles containing potentially dated statements from 2010</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Wikipedia_articles_needing_clarification_from_February_2010" title="Category:Wikipedia articles needing clarification from February 2010">Wikipedia articles needing clarification from February 2010</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_January_2009" title="Category:Articles with unsourced statements from January 2009">Articles with unsourced statements from January 2009</a></li><li><a href="/wiki/Category:All_articles_with_specifically_marked_weasel-worded_phrases" title="Category:All articles with specifically marked weasel-worded phrases">All articles with specifically marked weasel-worded phrases</a></li><li><a href="/wiki/Category:Articles_with_specifically_marked_weasel-worded_phrases_from_January_2009" title="Category:Articles with specifically marked weasel-worded phrases from January 2009">Articles with specifically marked weasel-worded phrases from January 2009</a></li><li><a href="/wiki/Category:Articles_with_specifically_marked_weasel-worded_phrases_from_October_2009" title="Category:Articles with specifically marked weasel-worded phrases from October 2009">Articles with specifically marked weasel-worded phrases from October 2009</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_October_2009" title="Category:Articles with unsourced statements from October 2009">Articles with unsourced statements from October 2009</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Component-based+software+engineering" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Component-based+software+engineering" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Component-based_software_engineering" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Component-based_software_engineering" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Component-based_software_engineering">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Component-based_software_engineering&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Component-based_software_engineering&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Component-based_software_engineering" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Component-based_software_engineering" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Component-based_software_engineering&amp;oldid=729453630" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Component-based_software_engineering&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q609588" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Component-based_software_engineering&amp;id=729453630" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Component-based+software+engineering">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Component-based+software+engineering&amp;returnto=Component-based+software+engineering&amp;oldid=729453630&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Component-based_software_engineering&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Computer_Programming/Component_based_software_development" hreflang="en">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA_%D8%A8%D8%A7%D9%84%D9%85%D9%83%D9%88%D9%86%D8%A7%D8%AA" hreflang="ar" lang="ar" title="هندسة البرمجيات بالمكونات – Arabic">العربية</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Komponentenbasierte_Entwicklung" hreflang="de" lang="de" title="Komponentenbasierte Entwicklung – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_componentes" hreflang="es" lang="es" title="Programación orientada a componentes – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1_%D8%A8%D8%B1_%D9%BE%D8%A7%DB%8C%D9%87_%D9%BE%DB%8C%DA%A9%D8%B1%D9%BE%D8%A7%D8%B1" hreflang="fa" lang="fa" title="مهندسی نرم‌افزار بر پایه پیکرپار – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_composant" hreflang="fr" lang="fr" title="Programmation orientée composant – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Compo%C3%B1ente_de_software" hreflang="gl" lang="gl" title="Compoñente de software – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8_%EA%B8%B0%EB%B0%98_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B3%B5%ED%95%99" hreflang="ko" lang="ko" title="컴포넌트 기반 소프트웨어 공학 – Korean">한국어</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88" hreflang="ja" lang="ja" title="ソフトウェアコンポーネント – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Komponentbasert_programvareutvikling" hreflang="no" lang="no" title="Komponentbasert programvareutvikling – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Komponent_(informatyka)" hreflang="pl" lang="pl" title="Komponent (informatyka) – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Engenharia_de_software_baseada_em_componentes" hreflang="pt" lang="pt" title="Engenharia de software baseada em componentes – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" hreflang="ru" lang="ru" title="Компонентно-ориентированное программирование – Russian">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BD%D0%BE_%D0%BE%D1%80%D0%B8%D1%98%D0%B5%D0%BD%D1%82%D0%B8%D1%81%D0%B0%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5" hreflang="sr" lang="sr" title="Компонентно оријентисано програмирање – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D1%96%D1%94%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Компонентно-орієнтоване програмування – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E7%BB%84%E4%BB%B6%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B" hreflang="zh" lang="zh" title="基于组件的软件工程 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q609588#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 12 July 2016, at 08:59.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Component-based_software_engineering&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.354",
+            "walltime": "0.412",
+            "ppvisitednodes": {
+                "value": 1799,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 61265,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 4768,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 6,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  315.579      1 -total",
+                " 28.49%   89.907      5 Template:Fix",
+                " 28.31%   89.330      1 Template:Reflist",
+                " 24.27%   76.582      6 Template:Delink",
+                " 19.70%   62.170      7 Template:Cite_web",
+                " 18.66%   58.893      3 Template:Who",
+                " 14.51%   45.783      1 Template:Clarify",
+                " 14.20%   44.797      2 Template:Fix-span",
+                " 13.19%   41.614      2 Template:Citation_needed",
+                " 12.95%   40.874     10 Template:Category_handler"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.164",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3227928,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1188",
+            "timestamp": "20160919065752",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1220"});});</script>
+</body>
+</html>
+

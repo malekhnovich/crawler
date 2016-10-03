@@ -1,0 +1,905 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Extreme_programming
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Extreme programming - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Extreme_programming","wgTitle":"Extreme programming","wgCurRevisionId":739453073,"wgRevisionId":739453073,"wgArticleId":38634705,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: external links","Articles with Wayback Machine links","Use mdy dates from May 2014","All articles with unsourced statements","Articles with unsourced statements from January 2013","Articles with unsourced statements from June 2009","Articles with unsourced statements from July 2008","Articles with unsourced statements from February 2007","Articles with unsourced statements from August 2009","Commons category with local link different than on Wikidata","Wikipedia articles with LCCN identifiers","Wikipedia articles with GND identifiers","Wikipedia articles with BNF identifiers","Extreme programming","Software development philosophies","Agile software development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Extreme_programming","wgRelevantArticleId":38634705,"wgRequestId":"V-EyQApAIC0AACKbD-gAAAAT","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q209711","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Extreme_programming" rel="alternate"/>
+<link href="/w/index.php?title=Extreme_programming&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Extreme_programming&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Extreme_programming" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Extreme_programming rootpage-Extreme_programming skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Extreme programming</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:Extreme_Programming.svg"><img alt="" class="thumbimage" data-file-height="337" data-file-width="367" height="220" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Extreme_Programming.svg/240px-Extreme_Programming.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Extreme_Programming.svg/360px-Extreme_Programming.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/Extreme_Programming.svg/480px-Extreme_Programming.svg.png 2x" width="240"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Extreme_Programming.svg" title="Enlarge"></a></div>
+Planning and feedback loops in extreme programming.</div>
+</div>
+</div>
+<table class="vertical-navbox" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Core activities</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Requirements_analysis" title="Requirements analysis">Requirements</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Construction</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Testing</a></li>
+<li><a href="/wiki/Debugging" title="Debugging">Debugging</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Maintenance</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Paradigms and models</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Waterfall_model" title="Waterfall model">Waterfall</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototyping</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental</a></li>
+<li><a href="/wiki/V-Model_(software_development)" title="V-Model (software development)">V-Model</a></li>
+<li><a href="/wiki/Dual_Vee_Model" title="Dual Vee Model">Dual Vee Model</a></li>
+<li><a href="/wiki/Spiral_model" title="Spiral model">Spiral</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">IID</a></li>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Lean_software_development" title="Lean software development">Lean</a></li>
+<li><a href="/wiki/DevOps" title="DevOps">DevOps</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Methodologies</a> and frameworks</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Cleanroom_software_engineering" title="Cleanroom software engineering">Cleanroom</a></li>
+<li><a href="/wiki/Team_software_process" title="Team software process">TSP</a></li>
+<li><a href="/wiki/Personal_software_process" title="Personal software process">PSP</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a></li>
+<li><a href="/wiki/Microsoft_Solutions_Framework" title="Microsoft Solutions Framework">MSF</a></li>
+<li><a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a></li>
+<li><a href="/wiki/Kanban_(development)" title="Kanban (development)">Kanban</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+<li><strong class="selflink">XP</strong></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">TDD</a></li>
+<li><a href="/wiki/Acceptance_test%E2%80%93driven_development" title="Acceptance test–driven development">ATDD</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">BDD</a></li>
+<li><a href="/wiki/Feature-driven_development" title="Feature-driven development">FDD</a></li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">DDD</a></li>
+<li><a class="mw-redirect" href="/wiki/Model-driven_development" title="Model-driven development">MDD</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Supporting disciplines</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Configuration management</a></li>
+<li><a href="/wiki/Infrastructure_as_Code" title="Infrastructure as Code">Infrastructure as Code</a></li>
+<li><a href="/wiki/Software_documentation" title="Software documentation">Documentation</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software Quality assurance (SQA)</a></li>
+<li><a href="/wiki/Software_project_management" title="Software project management">Project management</a></li>
+<li><a href="/wiki/User_experience" title="User experience">User experience</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a href="/wiki/Programming_tool" title="Programming tool">Tools</a></th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Compiler" title="Compiler">Compiler</a></li>
+<li><a href="/wiki/Debugger" title="Debugger">Debugger</a></li>
+<li><a href="/wiki/Profiling_(computer_programming)" title="Profiling (computer programming)">Profiler</a></li>
+<li><a href="/wiki/Graphical_user_interface_builder" title="Graphical user interface builder">GUI designer</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_tools" title="UML tools">Modeling</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build automation</a></li>
+<li><a href="/wiki/Application_release_automation" title="Application release automation">Release automation</a></li>
+<li><a href="/wiki/Category:Software_testing_tools" title="Category:Software testing tools">Testing</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Standards and BOKs</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/CMMI" title="CMMI">CMMI</a></li>
+<li><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></li>
+<li><a class="mw-redirect" href="/wiki/ISO_9001" title="ISO 9001">ISO 9001</a></li>
+<li><a href="/wiki/ISO/IEC_JTC_1/SC_7" title="ISO/IEC JTC 1/SC 7">ISO/IEC standards</a></li>
+<li><a class="mw-redirect" href="/wiki/SWEBOK" title="SWEBOK">SWEBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/PMBOK" title="PMBOK">PMBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/BABOK" title="BABOK">BABOK</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_development_process" title="Template:Software development process"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_development_process" title="Template talk:Software development process"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_development_process&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Extreme programming</b> (<b>XP</b>) is a <a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">software development methodology</a> which is intended to improve software quality and responsiveness to changing customer requirements. As a type of <a href="/wiki/Agile_software_development" title="Agile software development">agile software development</a>,<sup class="reference" id="cite_ref-Informatics85_1-0"><a href="#cite_note-Informatics85-1">[1]</a></sup><sup class="reference" id="cite_ref-UPenn49_2-0"><a href="#cite_note-UPenn49-2">[2]</a></sup><sup class="reference" id="cite_ref-USFCA601_3-0"><a href="#cite_note-USFCA601-3">[3]</a></sup> it advocates frequent "releases" in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.</p>
+<p>Other elements of extreme programming include: programming <a href="/wiki/Pair_programming" title="Pair programming">in pairs</a> or doing extensive <a href="/wiki/Code_review" title="Code review">code review</a>, <a href="/wiki/Unit_testing" title="Unit testing">unit testing</a> of all code, avoiding programming of features until they are actually needed, a flat management structure, simplicity and clarity in code, expecting changes in the customer's requirements as time passes and the problem is better understood, and frequent communication with the customer and among programmers.<sup class="reference" id="cite_ref-UPenn49_2-1"><a href="#cite_note-UPenn49-2">[2]</a></sup><sup class="reference" id="cite_ref-USFCA601_3-1"><a href="#cite_note-USFCA601-3">[3]</a></sup><sup class="reference" id="cite_ref-MASD_4-0"><a href="#cite_note-MASD-4">[4]</a></sup> The methodology takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. As an example, <a href="/wiki/Code_review" title="Code review">code reviews</a> are considered a beneficial practice; taken to the extreme, code can be reviewed <i>continuously</i>, i.e. the practice of <a href="/wiki/Pair_programming" title="Pair programming">pair programming</a>.</p>
+<div class="toclimit-3">
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Origins"><span class="tocnumber">1.1</span> <span class="toctext">Origins</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Current_state"><span class="tocnumber">1.2</span> <span class="toctext">Current state</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Concept"><span class="tocnumber">2</span> <span class="toctext">Concept</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Goals"><span class="tocnumber">2.1</span> <span class="toctext">Goals</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Activities"><span class="tocnumber">2.2</span> <span class="toctext">Activities</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Coding"><span class="tocnumber">2.2.1</span> <span class="toctext">Coding</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Testing"><span class="tocnumber">2.2.2</span> <span class="toctext">Testing</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Listening"><span class="tocnumber">2.2.3</span> <span class="toctext">Listening</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Designing"><span class="tocnumber">2.2.4</span> <span class="toctext">Designing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Values"><span class="tocnumber">2.3</span> <span class="toctext">Values</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#Communication"><span class="tocnumber">2.3.1</span> <span class="toctext">Communication</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Simplicity"><span class="tocnumber">2.3.2</span> <span class="toctext">Simplicity</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Feedback"><span class="tocnumber">2.3.3</span> <span class="toctext">Feedback</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Courage"><span class="tocnumber">2.3.4</span> <span class="toctext">Courage</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Respect"><span class="tocnumber">2.3.5</span> <span class="toctext">Respect</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="#Rules"><span class="tocnumber">2.4</span> <span class="toctext">Rules</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Principles"><span class="tocnumber">2.5</span> <span class="toctext">Principles</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Feedback_2"><span class="tocnumber">2.5.1</span> <span class="toctext">Feedback</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#Assuming_simplicity"><span class="tocnumber">2.5.2</span> <span class="toctext">Assuming simplicity</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#Embracing_change"><span class="tocnumber">2.5.3</span> <span class="toctext">Embracing change</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#Practices"><span class="tocnumber">3</span> <span class="toctext">Practices</span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="#Fine-scale_feedback"><span class="tocnumber">3.1</span> <span class="toctext">Fine-scale feedback</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Continuous_process"><span class="tocnumber">3.2</span> <span class="toctext">Continuous process</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Shared_understanding"><span class="tocnumber">3.3</span> <span class="toctext">Shared understanding</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Programmer_welfare"><span class="tocnumber">3.4</span> <span class="toctext">Programmer welfare</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Coding_2"><span class="tocnumber">3.5</span> <span class="toctext">Coding</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Testing_2"><span class="tocnumber">3.6</span> <span class="toctext">Testing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#Controversial_aspects"><span class="tocnumber">4</span> <span class="toctext">Controversial aspects</span></a>
+<ul>
+<li class="toclevel-2 tocsection-30"><a href="#Scalability"><span class="tocnumber">4.1</span> <span class="toctext">Scalability</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Severability_and_responses"><span class="tocnumber">4.2</span> <span class="toctext">Severability and responses</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-32"><a href="#Criticism"><span class="tocnumber">5</span> <span class="toctext">Criticism</span></a></li>
+<li class="toclevel-1 tocsection-33"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-34"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-35"><a href="#Further_reading"><span class="tocnumber">8</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-36"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+</div>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Extreme programming was created by <a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a> during his work on the <a href="/wiki/Chrysler_Comprehensive_Compensation_System" title="Chrysler Comprehensive Compensation System">Chrysler Comprehensive Compensation System</a> (C3) payroll project.<sup class="reference" id="cite_ref-Cworld92_5-0"><a href="#cite_note-Cworld92-5">[5]</a></sup> Beck became the C3 <a href="/wiki/Project_management" title="Project management">project leader</a> in March 1996 and began to refine the development methodology used in the project and wrote a book on the methodology (in October 1999, <i>Extreme Programming Explained</i> was published).<sup class="reference" id="cite_ref-Cworld92_5-1"><a href="#cite_note-Cworld92-5">[5]</a></sup> Chrysler cancelled the C3 project in February 2000, after seven years, when the company was acquired by Daimler-Benz.<sup class="reference" id="cite_ref-SR_6-0"><a href="#cite_note-SR-6">[6]</a></sup></p>
+<p>Many of extreme programming practices have been around for some time; the methodology takes "<a class="mw-redirect" href="/wiki/Best_practices" title="Best practices">best practices</a>" to extreme levels. For example, the "practice of test-first development, planning and writing tests before each micro-increment" was used as early as NASA's <a href="/wiki/Project_Mercury" title="Project Mercury">Project Mercury</a>, in the early 1960s (<a href="#CITEREFLarman2003">Larman 2003</a>). To shorten the total development time, some formal test documents (such as for <a href="/wiki/Acceptance_testing" title="Acceptance testing">acceptance testing</a>) have been developed in parallel (or shortly before) the software is ready for testing. A NASA independent test group can write the test procedures, based on formal requirements and logical limits, before the software has been written and integrated with the hardware. In XP, this concept is taken to the extreme level by writing automated tests (perhaps inside of software modules) which validate the operation of even small sections of software coding, rather than only testing the larger features.</p>
+<h3><span class="mw-headline" id="Origins">Origins</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=2" title="Edit section: Origins">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Software development in the 1990s was shaped by two major influences: internally, <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> replaced <a href="/wiki/Procedural_programming" title="Procedural programming">procedural programming</a> as the programming paradigm favored by some in the industry; externally, the rise of the Internet and the <a class="mw-redirect" href="/wiki/Dot-com_boom" title="Dot-com boom">dot-com boom</a> emphasized speed-to-market and company growth as competitive business factors. Rapidly changing requirements demanded shorter <a class="mw-redirect" href="/wiki/Product_life_cycle_management" title="Product life cycle management">product life-cycles</a>, and were often incompatible with traditional methods of software development.</p>
+<p>The Chrysler Comprehensive Compensation System (C3) was started in order to determine the best way to use object technologies, using the payroll systems at Chrysler as the object of research, with <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a> as the language and <a class="mw-redirect" href="/wiki/Gemstone_Database_Management_System" title="Gemstone Database Management System">GemStone</a> as the <a href="/wiki/Data_access_layer" title="Data access layer">data access layer</a>. They brought in <a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>,<sup class="reference" id="cite_ref-Cworld92_5-2"><a href="#cite_note-Cworld92-5">[5]</a></sup> a prominent Smalltalk practitioner, to do <a href="/wiki/Performance_tuning" title="Performance tuning">performance tuning</a> on the system, but his role expanded as he noted several problems they were having with their development process. He took this opportunity to propose and implement some changes in their practices based on his work with his frequent collaborator, <a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a>. Beck describes the early conception of the methods:<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></p>
+<blockquote class="templatequote">
+<p>The first time I was asked to lead a team, I asked them to do a little bit of the things I thought were sensible, like testing and reviews. The second time there was a lot more on the line. I thought, "Damn the torpedoes, at least this will make a good article," [and] asked the team to crank up all the knobs to 10 on the things I thought were essential and leave out everything else.</p>
+</blockquote>
+<p>Beck invited <a href="/wiki/Ron_Jeffries" title="Ron Jeffries">Ron Jeffries</a> to the project to help develop and refine these methods. Jeffries thereafter acted as a coach to instill the practices as habits in the C3 team.</p>
+<p>Information about the principles and practices behind XP was disseminated to the wider world through discussions on the original <a href="/wiki/Wiki" title="Wiki">wiki</a>, Cunningham's <a href="/wiki/WikiWikiWeb" title="WikiWikiWeb">WikiWikiWeb</a>. Various contributors discussed and expanded upon the ideas, and some spin-off methodologies resulted (see <a href="/wiki/Agile_software_development" title="Agile software development">agile software development</a>). Also, XP concepts have been explained, for several years, using a <a href="/wiki/Hypertext" title="Hypertext">hypertext</a> system map on the XP website at "<a class="external free" href="http://www.extremeprogramming.org" rel="nofollow">http://www.extremeprogramming.org</a>" circa 1999.</p>
+<p>Beck edited a series of books on XP, beginning with his own <i>Extreme Programming Explained</i> (1999, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201616416">ISBN 0-201-61641-6</a>), spreading his ideas to a much larger audience. Authors in the series went through various aspects attending XP and its practices. The series included a book that was critical of the practices.</p>
+<h3><span class="mw-headline" id="Current_state">Current state</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=3" title="Edit section: Current state">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>XP generated significant interest among software communities in the late 1990s and early 2000s, seeing adoption in a number of environments radically different from its origins.</p>
+<p>The high discipline required by the original practices often went by the wayside, causing some of these practices, such as those thought too rigid, to be deprecated or reduced, or even left unfinished, on individual sites. For example, the practice of end-of-day <a class="mw-redirect" href="/wiki/Integration_test" title="Integration test">integration tests</a> for a particular project could be changed to an end-of-week schedule, or simply reduced to mutually agreed dates. Such a more relaxed schedule could avoid people feeling rushed to generate artificial stubs just to pass the end-of-day testing. A less-rigid schedule allows, instead, for some complex features to be more fully developed over a several-day period. However, some level of periodic integration testing can detect groups of people working in non-compatible, tangent efforts before too much work is invested in divergent, wrong directions.</p>
+<p>Meanwhile, other agile development practices have not stood still, and XP is still evolving, assimilating more lessons from experiences in the field, to use other practices. In the second edition of <i>Extreme Programming Explained</i> (November 2004), five years after the first edition, Beck added more values and practices and differentiated between primary and corollary practices.</p>
+<h2><span class="mw-headline" id="Concept">Concept</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=4" title="Edit section: Concept">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Goals">Goals</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=5" title="Edit section: Goals">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Extreme Programming Explained</i> describes extreme programming as a software-development discipline that organizes people to produce higher-quality software more productively.</p>
+<p>XP attempts to reduce the cost of changes in requirements by having multiple short development cycles, rather than a long one. In this doctrine, changes are a natural, inescapable and desirable aspect of software-development projects, and should be planned for, instead of attempting to define a stable set of requirements.</p>
+<p>Extreme programming also introduces a number of basic values, principles and practices on top of the agile programming framework.</p>
+<h3><span class="mw-headline" id="Activities">Activities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=6" title="Edit section: Activities">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>XP describes four basic activities that are performed within the software development process: coding, testing, listening, and designing. Each of those activities is described below.</p>
+<h4><span class="mw-headline" id="Coding">Coding</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=7" title="Edit section: Coding">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The advocates of XP argue that the only truly important product of the system development process is code – software instructions that a computer can interpret. Without code, there is no working product.</p>
+<p>Coding can also be used to figure out the most suitable solution. Coding can also help to communicate thoughts about programming problems. A programmer dealing with a complex programming problem, or finding it hard to explain the solution to fellow programmers, might code it in a simplified manner and use the code to demonstrate what he or she means. Code, say the proponents of this position, is always clear and concise and cannot be interpreted in more than one way. Other programmers can give feedback on this code by also coding their thoughts.</p>
+<h4><span class="mw-headline" id="Testing">Testing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=8" title="Edit section: Testing">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Test-driven_development" title="Test-driven development">Test-driven development</a></div>
+<p>Extreme programming's approach is that if a little testing can eliminate a few flaws, a lot of testing can eliminate many more flaws.</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Unit_test" title="Unit test">Unit tests</a> determine whether a given feature works as intended. Programmers write as many automated tests as they can think of that might "break" the code; if all tests run successfully, then the coding is complete. Every piece of code that is written is tested before moving on to the next feature.</li>
+<li><a class="mw-redirect" href="/wiki/Acceptance_test" title="Acceptance test">Acceptance tests</a> verify that the requirements as understood by the programmers satisfy the customer's actual requirements.</li>
+</ul>
+<p>System-wide <a href="/wiki/Integration_testing" title="Integration testing">integration testing</a> was encouraged, initially, as a daily end-of-day activity, for early detection of incompatible interfaces, to reconnect before the separate sections diverged widely from coherent functionality. However, system-wide integration testing has been reduced, to weekly, or less often, depending on the stability of the overall interfaces in the system.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (January 2013)">citation needed</span></a></i>]</sup></p>
+<h4><span class="mw-headline" id="Listening">Listening</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=9" title="Edit section: Listening">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Programmers must listen to what the customers need the system to do, what <a href="/wiki/Business_logic" title="Business logic">"business logic"</a> is needed. They must understand these needs well enough to give the customer feedback about the technical aspects of how the problem might be solved, or cannot be solved. Communication between the customer and programmer is further addressed in the <i><a class="mw-redirect" href="/wiki/Planning_game" title="Planning game">planning game</a></i>.</p>
+<h4><span class="mw-headline" id="Designing">Designing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=10" title="Edit section: Designing">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>From the point of view of simplicity, of course one could say that system development doesn't need more than coding, testing and listening. If those activities are performed well, the result should always be a system that works. In practice, this will not work. One can come a long way without designing but at a given time one will get stuck. The system becomes too complex and the dependencies within the system cease to be clear. One can avoid this by creating a design structure that organizes the logic in the system. Good design will avoid lots of dependencies within a system; this means that changing one part of the system will not affect other parts of the system.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (June 2009)">citation needed</span></a></i>]</sup></p>
+<h3><span class="mw-headline" id="Values">Values</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=11" title="Edit section: Values">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Extreme programming initially recognized four values in 1999: communication, simplicity, feedback, and courage. A new value, respect, was added in the second edition of <i>Extreme Programming Explained</i>. Those five values are described below.</p>
+<h4><span class="mw-headline" id="Communication">Communication</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=12" title="Edit section: Communication">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Building software systems requires communicating system requirements to the developers of the system. In formal software development methodologies, this task is accomplished through documentation. Extreme programming techniques can be viewed as methods for rapidly building and disseminating institutional knowledge among members of a development team. The goal is to give all developers a shared view of the system which matches the view held by the users of the system. To this end, extreme programming favors simple designs, common metaphors, collaboration of users and programmers, frequent verbal communication, and feedback.</p>
+<h4><span class="mw-headline" id="Simplicity">Simplicity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=13" title="Edit section: Simplicity">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Extreme programming encourages starting with the simplest solution. Extra functionality can then be added later. The difference between this approach and more conventional system development methods is the focus on designing and coding for the needs of today instead of those of tomorrow, next week, or next month. This is sometimes summed up as the "<a href="/wiki/You_aren%27t_gonna_need_it" title="You aren't gonna need it">You aren't gonna need it</a>" (YAGNI) approach.<sup class="reference" id="cite_ref-tr_8-0"><a href="#cite_note-tr-8">[8]</a></sup> Proponents of XP acknowledge the disadvantage that this can sometimes entail more effort tomorrow to change the system; their claim is that this is more than compensated for by the advantage of not investing in possible future requirements that might change before they become relevant. Coding and designing for uncertain future requirements implies the risk of spending resources on something that might not be needed, while perhaps delaying crucial features. Related to the "communication" value, simplicity in design and coding should improve the quality of communication. A simple design with very simple code could be easily understood by most programmers in the team.</p>
+<h4><span class="mw-headline" id="Feedback">Feedback</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=14" title="Edit section: Feedback">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Within extreme programming, feedback relates to different dimensions of the system development:</p>
+<ul>
+<li>Feedback from the system: by writing <a class="mw-redirect" href="/wiki/Unit_test" title="Unit test">unit tests</a>,<sup class="reference" id="cite_ref-Cworld92_5-3"><a href="#cite_note-Cworld92-5">[5]</a></sup> or running periodic integration tests, the programmers have direct feedback from the state of the system after implementing changes.</li>
+<li>Feedback from the customer: The functional tests (aka <a class="mw-redirect" href="/wiki/Acceptance_tests" title="Acceptance tests">acceptance tests</a>) are written by the customer and the testers. They will get concrete feedback about the current state of their system. This review is planned once in every two or three weeks so the customer can easily steer the development.</li>
+<li>Feedback from the team: When customers come up with new requirements in the planning game the team directly gives an estimation of the time that it will take to implement.</li>
+</ul>
+<p>Feedback is closely related to communication and simplicity. Flaws in the system are easily communicated by writing a unit test that proves a certain piece of code will break. The direct feedback from the system tells programmers to recode this part. A customer is able to test the system periodically according to the functional requirements, known as <i><a href="/wiki/User_story" title="User story">user stories</a></i>.<sup class="reference" id="cite_ref-Cworld92_5-4"><a href="#cite_note-Cworld92-5">[5]</a></sup> To quote <a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>, "Optimism is an occupational hazard of programming. Feedback is the treatment."<sup class="reference" id="cite_ref-Beck99_9-0"><a href="#cite_note-Beck99-9">[9]</a></sup></p>
+<p><span id="courage"></span></p>
+<h4><span class="mw-headline" id="Courage">Courage</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=15" title="Edit section: Courage">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Several practices embody courage. One is the commandment to always design and code for today and not for tomorrow. This is an effort to avoid getting bogged down in design and requiring a lot of effort to implement anything else. Courage enables developers to feel comfortable with <a class="mw-redirect" href="/wiki/Refactoring" title="Refactoring">refactoring</a> their code when necessary.<sup class="reference" id="cite_ref-Cworld92_5-5"><a href="#cite_note-Cworld92-5">[5]</a></sup> This means reviewing the existing system and modifying it so that future changes can be implemented more easily. Another example of courage is knowing when to throw code away: courage to remove source code that is obsolete, no matter how much effort was used to create that source code. Also, courage means persistence: A programmer might be stuck on a complex problem for an entire day, then solve the problem quickly the next day, but only if they are persistent.</p>
+<h4><span class="mw-headline" id="Respect">Respect</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=16" title="Edit section: Respect">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The respect value includes respect for others as well as self-respect. Programmers should never commit changes that break compilation, that make existing unit-tests fail, or that otherwise delay the work of their peers. Members respect their own work by always striving for high quality and seeking for the best design for the solution at hand through refactoring.</p>
+<p>Adopting the four earlier values leads to respect gained from others in the team. Nobody on the team should feel unappreciated or ignored. This ensures a high level of motivation and encourages loyalty toward the team and toward the goal of the project. This value is very dependent upon the other values, and is very much oriented toward people in a team.</p>
+<h3><span class="mw-headline" id="Rules">Rules</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=17" title="Edit section: Rules">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The first version of rules for XP was published in 1999 by Don Wells<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> at the XP website. 29 rules are given in the categories of planning, managing, designing, coding, and testing. Planning, managing and designing are called out explicitly to counter claims that XP doesn't support those activities.</p>
+<p>Another version of XP rules was proposed by Ken Auer<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> in XP/Agile Universe 2003. He felt XP was defined by its rules, not its practices (which are subject to more variation and ambiguity). He defined two categories: "Rules of Engagement" which dictate the environment in which software development can take place effectively, and "Rules of Play" which define the minute-by-minute activities and rules within the framework of the Rules of Engagement.</p>
+<h3><span class="mw-headline" id="Principles">Principles</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=18" title="Edit section: Principles">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The principles that form the basis of XP are based on the values just described and are intended to foster decisions in a system development project. The principles are intended to be more concrete than the values and more easily translated to guidance in a practical situation.</p>
+<h4><span class="mw-headline" id="Feedback_2">Feedback</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=19" title="Edit section: Feedback">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Extreme programming sees feedback as most useful if it is done frequently and promptly. It stresses that minimal delay between an action and its feedback is critical to learning and making changes. Unlike traditional system development methods, contact with the customer occurs in more frequent iterations. The customer has clear insight into the system that is being developed, and can give feedback and steer the development as needed. With frequent feedback from the customer, a mistaken design decision made by the developer will be noticed and corrected quickly, before the developer spends much time implementing it.</p>
+<p>Unit tests contribute to the rapid feedback principle. When writing code, running the unit test provides direct feedback as to how the system reacts to the changes made. This includes running not only the unit tests that test the developer's code, but running in addition all unit tests against all the software, using an automated process that can be initiated by a single command. That way, if the developer's changes cause a failure in some other portion of the system that the developer knows little or nothing about, the automated all-unit-test suite will reveal the failure immediately, alerting the developer of the incompatibility of his change with other parts of the system, and the necessity of removing or modifying his change. Under traditional development practices, the absence of an automated, comprehensive unit-test suite meant that such a code change, assumed harmless by the developer, would have been left in place, appearing only during integration testing – or worse, only in production; and determining which code change caused the problem, among all the changes made by all the developers during the weeks or even months previous to integration testing, was a formidable task.</p>
+<h4><span class="mw-headline" id="Assuming_simplicity">Assuming simplicity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=20" title="Edit section: Assuming simplicity">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This is about treating every problem as if its solution were "extremely simple". Traditional system development methods say to plan for the future and to code for reusability. Extreme programming rejects these ideas.</p>
+<p>The advocates of extreme programming say that making big changes all at once does not work. Extreme programming applies incremental changes: for example, a system might have small releases every three weeks. When many little steps are made, the customer has more control over the development process and the system that is being developed.</p>
+<h4><span class="mw-headline" id="Embracing_change">Embracing change</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=21" title="Edit section: Embracing change">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The principle of embracing change is about not working against changes but embracing them. For instance, if at one of the iterative meetings it appears that the customer's requirements have changed dramatically, programmers are to embrace this and plan the new requirements for the next iteration.</p>
+<h2><span class="mw-headline" id="Practices">Practices</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=22" title="Edit section: Practices">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">For more details on this topic, see <a href="/wiki/Extreme_programming_practices" title="Extreme programming practices">Extreme programming practices</a>.</div>
+<p>Extreme programming has been described as having 12 practices, grouped into four areas:</p>
+<h3><span class="mw-headline" id="Fine-scale_feedback">Fine-scale feedback</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=23" title="Edit section: Fine-scale feedback">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Pair_programming" title="Pair programming">Pair programming</a><sup class="reference" id="cite_ref-Cworld92_5-6"><a href="#cite_note-Cworld92-5">[5]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Planning_game" title="Planning game">Planning game</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">Test-driven development</a></li>
+<li><a href="/wiki/Extreme_programming_practices#Whole_team" title="Extreme programming practices">Whole team</a></li>
+</ul>
+<h3><span class="mw-headline" id="Continuous_process">Continuous process</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=24" title="Edit section: Continuous process">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Continuous_integration" title="Continuous integration">Continuous integration</a></li>
+<li><a class="mw-redirect" href="/wiki/Refactoring" title="Refactoring">Refactoring</a> or design improvement<sup class="reference" id="cite_ref-Cworld92_5-7"><a href="#cite_note-Cworld92-5">[5]</a></sup></li>
+<li><a href="/wiki/Extreme_programming_practices#Small_releases" title="Extreme programming practices">Small releases</a></li>
+</ul>
+<h3><span class="mw-headline" id="Shared_understanding">Shared understanding</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=25" title="Edit section: Shared understanding">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Extreme_programming_practices#Coding_standard" title="Extreme programming practices">Coding standards</a></li>
+<li><a href="/wiki/Extreme_programming_practices#Collective_code_ownership" title="Extreme programming practices">Collective code ownership</a><sup class="reference" id="cite_ref-Cworld92_5-8"><a href="#cite_note-Cworld92-5">[5]</a></sup></li>
+<li><a href="/wiki/Extreme_programming_practices#Simple_design" title="Extreme programming practices">Simple design</a><sup class="reference" id="cite_ref-Cworld92_5-9"><a href="#cite_note-Cworld92-5">[5]</a></sup></li>
+<li><a href="/wiki/Extreme_programming_practices#System_metaphor" title="Extreme programming practices">System metaphor</a></li>
+</ul>
+<h3><span class="mw-headline" id="Programmer_welfare">Programmer welfare</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=26" title="Edit section: Programmer welfare">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Extreme_programming_practices#Sustainable_pace" title="Extreme programming practices">Sustainable pace</a></li>
+</ul>
+<h3><span class="mw-headline" id="Coding_2">Coding</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=27" title="Edit section: Coding">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>The customer is always available</li>
+<li>Code the <a class="mw-redirect" href="/wiki/Unit_test" title="Unit test">unit test</a> first</li>
+<li>Only one pair integrates code at a time</li>
+<li>Leave <a href="/wiki/Program_optimization" title="Program optimization">optimization</a> until last</li>
+<li>No <a href="/wiki/Overtime" title="Overtime">overtime</a></li>
+</ul>
+<h3><span class="mw-headline" id="Testing_2">Testing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=28" title="Edit section: Testing">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>All code must have <a class="mw-redirect" href="/wiki/Unit_tests" title="Unit tests">unit tests</a></li>
+<li>All code must pass all <a class="mw-redirect" href="/wiki/Unit_tests" title="Unit tests">unit tests</a> before it can be released.</li>
+<li>When a <a href="/wiki/Software_bug" title="Software bug">bug</a> is found tests are created before the bug is addressed (a bug is not an error in logic, it is a test that was not written)</li>
+<li><a class="mw-redirect" href="/wiki/Acceptance_tests" title="Acceptance tests">Acceptance tests</a> are run often and the results are published</li>
+</ul>
+<h2><span class="mw-headline" id="Controversial_aspects">Controversial aspects</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=29" title="Edit section: Controversial aspects">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The practices in XP have been heavily debated.<sup class="reference" id="cite_ref-Cworld92_5-10"><a href="#cite_note-Cworld92-5">[5]</a></sup> Proponents of extreme programming claim that by having the on-site customer<sup class="reference" id="cite_ref-Cworld92_5-11"><a href="#cite_note-Cworld92-5">[5]</a></sup> request changes informally, the process becomes flexible, and saves the cost of formal overhead. Critics of XP claim this can lead to costly rework and project <a href="/wiki/Scope_creep" title="Scope creep">scope creep</a> beyond what was previously agreed or funded.</p>
+<p>Change-control boards are a sign that there are potential conflicts in project objectives and constraints between multiple users. XP's expedited methods are somewhat dependent on programmers being able to assume a unified client viewpoint so the programmer can concentrate on coding, rather than documentation of compromise objectives and constraints. This also applies when multiple programming organizations are involved, particularly organizations which compete for shares of projects.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2008)">citation needed</span></a></i>]</sup></p>
+<p>Other potentially controversial aspects of extreme programming include:</p>
+<ul>
+<li>Requirements are expressed as automated acceptance tests rather than specification documents.</li>
+<li>Requirements are defined incrementally, rather than trying to get them all in advance.</li>
+<li>Software developers are usually required to work in pairs.</li>
+<li>There is no <a href="/wiki/Big_Design_Up_Front" title="Big Design Up Front">Big Design Up Front</a>. Most of the design activity takes place on the fly and incrementally, starting with <span id="SimplestThingThatCouldPossiblyWork"></span>"the simplest thing that could possibly work" and adding complexity only when it's required by failing tests. Critics compare this to "<a href="/wiki/Debugging" title="Debugging">debugging</a> a system into appearance" and fear this will result in more re-design effort than only re-designing when requirements change.</li>
+<li>A <a href="/wiki/Customer_representative" title="Customer representative">customer representative</a> is attached to the project. This role can become a single-point-of-failure for the project, and some people have found it to be a source of stress. Also, there is the danger of <a class="mw-redirect" href="/wiki/Micro-management" title="Micro-management">micro-management</a> by a non-technical representative trying to dictate the use of technical software features and architecture.</li>
+<li>Dependence upon all other aspects of XP: "XP is like a ring of poisonous snakes, daisy-chained together. All it takes is for one of them to wriggle loose, and you've got a very angry, poisonous snake heading your way."<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></li>
+</ul>
+<p>Critics have noted several potential drawbacks,<sup class="reference" id="cite_ref-Cworld92_5-12"><a href="#cite_note-Cworld92-5">[5]</a></sup> including problems with unstable requirements, no documented compromises of user conflicts, and a lack of an overall design specification or document.</p>
+<h3><span class="mw-headline" id="Scalability">Scalability</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=30" title="Edit section: Scalability">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Historically, XP only works on teams of twelve or fewer people. One way to circumvent this limitation is to break up the project into smaller pieces and the team into smaller groups. It has been claimed that XP has been used successfully on teams of over a hundred developers.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2007)">citation needed</span></a></i>]</sup> <a href="/wiki/ThoughtWorks" title="ThoughtWorks">ThoughtWorks</a> has claimed reasonable success on distributed XP projects with up to sixty people.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (August 2009)">citation needed</span></a></i>]</sup></p>
+<p>In 2004, industrial extreme programming (IXP)<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup> was introduced as an evolution of XP. It is intended to bring the ability to work in large and distributed teams. It now has 23 practices and flexible values.</p>
+<h3><span class="mw-headline" id="Severability_and_responses">Severability and responses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=31" title="Edit section: Severability and responses">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In 2003, <a href="/wiki/Matt_Stephens" title="Matt Stephens">Matt Stephens</a> and Doug Rosenberg published <i>Extreme Programming Refactored: The Case Against XP</i>, which questioned the value of the XP process and suggested ways in which it could be improved.<sup class="reference" id="cite_ref-SR_6-1"><a href="#cite_note-SR-6">[6]</a></sup> This triggered a lengthy debate in articles, Internet newsgroups, and web-site chat areas. The core argument of the book is that XP's practices are interdependent but that few practical organizations are willing/able to adopt all the practices; therefore the entire process fails. The book also makes other criticisms, and it draws a likeness of XP's "collective ownership" model to socialism in a negative manner.</p>
+<p>Certain aspects of XP have changed since the publication of <i>Extreme Programming Refactored</i>; in particular, XP now accommodates modifications to the practices as long as the required objectives are still met. XP also uses increasingly generic terms for processes. Some argue that these changes invalidate previous criticisms; others claim that this is simply watering the process down.</p>
+<p>Other authors have tried to reconcile XP with the older methodologies in order to form a unified methodology. Some of these XP sought to replace, such as the <a href="/wiki/Waterfall_model" title="Waterfall model">waterfall methodology</a>; example: <a class="external text" href="http://www.lux-seattle.com/resources/whitepapers/waterfall.htm" rel="nofollow">Project Lifecycles: Waterfall, Rapid Application Development, and All That</a>. <a class="mw-redirect" href="/wiki/JPMorgan_Chase_%26_Co." title="JPMorgan Chase &amp; Co.">JPMorgan Chase &amp; Co.</a> tried combining XP with the computer programming methods of <a class="mw-redirect" href="/wiki/Capability_maturity_model_integration" title="Capability maturity model integration">capability maturity model integration</a> (CMMI), and <a href="/wiki/Six_Sigma" title="Six Sigma">Six Sigma</a>. They found that the three systems reinforced each other well, leading to better development, and did not mutually contradict.<sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup></p>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=32" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Extreme programming's initial buzz and controversial tenets, such as <a href="/wiki/Pair_programming" title="Pair programming">pair programming</a> and <a href="/wiki/Continuous_design" title="Continuous design">continuous design</a>, have attracted particular criticisms, such as the ones coming from McBreen<sup class="reference" id="cite_ref-mcbreen_15-0"><a href="#cite_note-mcbreen-15">[15]</a></sup> and Boehm and Turner.,<sup class="reference" id="cite_ref-boehm2004_16-0"><a href="#cite_note-boehm2004-16">[16]</a></sup> Matt Stephens and Doug Rosenberg.<sup class="reference" id="cite_ref-stephens2004_17-0"><a href="#cite_note-stephens2004-17">[17]</a></sup> Many of the criticisms, however, are believed by Agile practitioners to be misunderstandings of agile development.<sup class="reference" id="cite_ref-sdmagazine1811_18-0"><a href="#cite_note-sdmagazine1811-18">[18]</a></sup></p>
+<p>In particular, extreme programming has been reviewed and critiqued by Matt Stephens's and Doug Rosenberg's <i>Extreme Programming Refactored</i>.<sup class="reference" id="cite_ref-SR_6-2"><a href="#cite_note-SR-6">[6]</a></sup><sup class="reference" id="cite_ref-ExtremeProgrammingRefactored_19-0"><a href="#cite_note-ExtremeProgrammingRefactored-19">[19]</a></sup></p>
+<p>Criticisms include:</p>
+<ul>
+<li>a methodology is only as effective as the people involved, Agile does not solve this</li>
+<li>often used as a means to bleed money from customers through lack of defining a deliverable product</li>
+<li>lack of structure and necessary documentation</li>
+<li>only works with senior-level developers</li>
+<li>incorporates insufficient software design</li>
+<li>requires meetings at frequent intervals at enormous expense to customers</li>
+<li>requires too much cultural change to adopt</li>
+<li>can lead to more difficult contractual negotiations</li>
+<li>can be very inefficient; if the requirements for one area of code change through various iterations, the same programming may need to be done several times over. Whereas if a plan were there to be followed, a single area of code is expected to be written once.</li>
+<li>impossible to develop realistic estimates of work effort needed to provide a quote, because at the beginning of the project no one knows the entire scope/requirements</li>
+<li>can increase the risk of <a href="/wiki/Scope_creep" title="Scope creep">scope creep</a> due to the lack of detailed requirements documentation</li>
+<li>Agile is feature-driven; non-functional quality attributes are hard to be placed as <a href="/wiki/User_story" title="User story">user stories</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=33" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile software development</a></li>
+<li><a href="/wiki/Continuous_obsolescence" title="Continuous obsolescence">Continuous obsolescence</a></li>
+<li><a href="/wiki/EXtreme_Manufacturing" title="EXtreme Manufacturing">EXtreme Manufacturing</a></li>
+<li><a href="/wiki/Extreme_project_management" title="Extreme project management">Extreme project management</a></li>
+<li><a href="/wiki/Extreme_programming_practices" title="Extreme programming practices">Extreme programming practices</a></li>
+<li><a href="/wiki/Kaizen" title="Kaizen">Kaizen</a></li>
+<li><a href="/wiki/List_of_software_development_philosophies" title="List of software development philosophies">List of software development philosophies</a></li>
+<li><a href="/wiki/Pair_programming" title="Pair programming">Pair programming</a></li>
+<li><a class="mw-redirect" href="/wiki/Scrum_(development)" title="Scrum (development)">Scrum (development)</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Software_craftsmanship" title="Software craftsmanship">Software craftsmanship</a></li>
+<li><a href="/wiki/Stand-up_meeting" title="Stand-up meeting">Stand-up meeting</a></li>
+<li><a href="/wiki/Timeboxing" title="Timeboxing">Timeboxing</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=34" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Informatics85-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Informatics85_1-0">^</a></b></span> <span class="reference-text">"Human Centred Technology Workshop 2005", 2005, PDF webpage: <a class="external text" href="ftp://ftp.informatics.sussex.ac.uk/pub/reports/csrp/csrp585.pdf" rel="nofollow">Informatics-UK-report-cdrp585</a>.</span></li>
+<li id="cite_note-UPenn49-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-UPenn49_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-UPenn49_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">"Design Patterns and Refactoring", University of Pennsylvania, 2003, webpage: <a class="external text" href="http://www.cis.upenn.edu/~matuszek/cit591-2003/Lectures/49-design-patterns.ppt" rel="nofollow">UPenn-Lectures-design-patterns</a>.</span></li>
+<li id="cite_note-USFCA601-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-USFCA601_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-USFCA601_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">"Extreme Programming" <a class="external text" href="http://www.cs.usfca.edu/~parrt/course/601/lectures/xp.html" rel="nofollow">USFCA-edu-601-lecture</a>.</span></li>
+<li id="cite_note-MASD-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-MASD_4-0">^</a></b></span> <span class="reference-text">"Manifesto for Agile Software Development", Agile Alliance, 2001, webpage: <a class="external text" href="http://agilemanifesto.org/" rel="nofollow">Manifesto-for-Agile-Software-Dev</a></span></li>
+<li id="cite_note-Cworld92-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-Cworld92_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Cworld92_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Cworld92_5-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Cworld92_5-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-Cworld92_5-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-Cworld92_5-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-Cworld92_5-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-Cworld92_5-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-Cworld92_5-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-Cworld92_5-9"><sup><i><b>j</b></i></sup></a> <a href="#cite_ref-Cworld92_5-10"><sup><i><b>k</b></i></sup></a> <a href="#cite_ref-Cworld92_5-11"><sup><i><b>l</b></i></sup></a> <a href="#cite_ref-Cworld92_5-12"><sup><i><b>m</b></i></sup></a></span> <span class="reference-text">"Extreme Programming", <i>Computerworld</i> (online), December 2001, webpage: <a class="external text" href="http://www.computerworld.com/article/2585634/app-development/extreme-programming.html" rel="nofollow">Computerworld-appdev-92</a>.</span></li>
+<li id="cite_note-SR-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-SR_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SR_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-SR_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Rosenberg, Doug; Stephens, Matt (2003). <i>Extreme Programming Refactored: The Case Against XP</i>. Apress. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-59059-096-1" title="Special:BookSources/1-59059-096-1">1-59059-096-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.aufirst=Doug&amp;rft.aulast=Rosenberg&amp;rft.au=Stephens%2C+Matt&amp;rft.btitle=Extreme+Programming+Refactored%3A+The+Case+Against+XP&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=1-59059-096-1&amp;rft.pub=Apress&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.informit.com/articles/article.aspx?p=20972" rel="nofollow">"Interview with Kent Beck and Martin Fowler"</a>. <i>informit.com</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.atitle=Interview+with+Kent+Beck+and+Martin+Fowler&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.informit.com%2Farticles%2Farticle.aspx%3Fp%3D20972&amp;rft.jtitle=informit.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-tr-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-tr_8-0">^</a></b></span> <span class="reference-text">"Everyone's a Programmer" by Clair Tristram. <i>Technology Review</i>, November 2003. p. 39.</span></li>
+<li id="cite_note-Beck99-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Beck99_9-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Kent_Beck" title="Kent Beck">Beck, K.</a> (1999). <i>Extreme Programming Explained: Embrace Change</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-321-27865-4" title="Special:BookSources/978-0-321-27865-4">978-0-321-27865-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.aufirst=K.&amp;rft.aulast=Beck&amp;rft.btitle=Extreme+Programming+Explained%3A+Embrace+Change&amp;rft.date=1999&amp;rft.genre=book&amp;rft.isbn=978-0-321-27865-4&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.extremeprogramming.org/rules.html" rel="nofollow">"Extreme Programming Rules"</a>. <i>extremeprogramming.org</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.atitle=Extreme+Programming+Rules&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.extremeprogramming.org%2Frules.html&amp;rft.jtitle=extremeprogramming.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.rolemodelsoftware.com/moreAboutUs/publications/rulesOfXp.php" rel="nofollow">Ken Auer</a></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.softwarereality.com/lifecycle/xp/safety_net.jsp" rel="nofollow">"Extreme Programming explained: What we really think of XP."</a>. <i>softwarereality.com</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.atitle=Extreme+Programming+explained%3A+What+we+really+think+of+XP.&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.softwarereality.com%2Flifecycle%2Fxp%2Fsafety_net.jsp&amp;rft.jtitle=softwarereality.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web">Cutter Consortium. <a class="external text" href="http://www.cutter.com/content-and-analysis/resource-centers/agile-project-management/sample-our-research/apmr0502.html" rel="nofollow">"Industrial XP: Making XP Work in Large Organizations - Cutter Consortium"</a>. <i>cutter.com</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.atitle=Industrial+XP%3A+Making+XP+Work+in+Large+Organizations++-+Cutter+Consortium&amp;rft.au=Cutter+Consortium&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cutter.com%2Fcontent-and-analysis%2Fresource-centers%2Fagile-project-management%2Fsample-our-research%2Fapmr0502.html&amp;rft.jtitle=cutter.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.sei.cmu.edu/library/assets/jarvis-gristock.pdf" rel="nofollow">Extreme Programming (XP) Six Sigma CMMI</a>.</span></li>
+<li id="cite_note-mcbreen-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-mcbreen_15-0">^</a></b></span> <span class="reference-text"><cite class="citation book">McBreen, P. (2003). <i>Questioning Extreme Programming</i>. Boston, MA: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-84457-5" title="Special:BookSources/0-201-84457-5">0-201-84457-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.aufirst=P.&amp;rft.aulast=McBreen&amp;rft.btitle=Questioning+Extreme+Programming&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=0-201-84457-5&amp;rft.place=Boston%2C+MA&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-boehm2004-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-boehm2004_16-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Barry_Boehm" title="Barry Boehm">Boehm, B.</a>; <a href="/wiki/Richard_Turner_(software)" title="Richard Turner (software)">R. Turner</a> (2004). <i>Balancing Agility and Discipline: A Guide for the Perplexed</i>. Boston, MA: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-18612-5" title="Special:BookSources/0-321-18612-5">0-321-18612-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.aufirst=B.&amp;rft.aulast=Boehm&amp;rft.au=R.+Turner&amp;rft.btitle=Balancing+Agility+and+Discipline%3A+A+Guide+for+the+Perplexed&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-321-18612-5&amp;rft.place=Boston%2C+MA&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-stephens2004-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-stephens2004_17-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Matt_Stephens" title="Matt Stephens">Stephens, Matt</a>; <a class="new" href="/w/index.php?title=Doug_Rosenberg&amp;action=edit&amp;redlink=1" title="Doug Rosenberg (page does not exist)">D. Rosenberg</a> (2004). <i><a class="external text" href="http://www.drdobbs.com/the-irony-of-extreme-programming/184405651" rel="nofollow">The irony of extreme programming</a></i>. , MA: Dr Dobbs journal.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExtreme+programming&amp;rft.au=D.+Rosenberg&amp;rft.aufirst=Matt&amp;rft.aulast=Stephens&amp;rft.btitle=%5Bhttp%3A%2F%2Fwww.drdobbs.com%2Fthe-irony-of-extreme-programming%2F184405651+The+irony+of+extreme+programming%5D&amp;rft.date=2004&amp;rft.genre=book&amp;rft.place=%2C+MA&amp;rft.pub=Dr+Dobbs+journal&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">External link in <code style="color:inherit; border:inherit; padding:inherit;">|title=</code> (<a href="/wiki/Help:CS1_errors#param_has_ext_link" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-sdmagazine1811-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-sdmagazine1811_18-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.sdmagazine.com/documents/s=1811/sdm0112h/0112h.htm" rel="nofollow">sdmagazine</a> <a class="external text" href="https://web.archive.org/web/20060316100811/http://www.sdmagazine.com/documents/s=1811/sdm0112h/0112h.htm" rel="nofollow">Archived</a> March 16, 2006, at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>.</span></li>
+<li id="cite_note-ExtremeProgrammingRefactored-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-ExtremeProgrammingRefactored_19-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.softwarereality.com/ExtremeProgrammingRefactored.jsp" rel="nofollow">Extreme Programming Refactored</a>, Matt Stephens and Doug Rosenberg, Publisher: Apress L.P.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=35" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="new" href="/w/index.php?title=Ken_Auer&amp;action=edit&amp;redlink=1" title="Ken Auer (page does not exist)">Ken Auer</a> and Roy Miller. <i>Extreme Programming Applied: Playing To Win</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>: <i>Extreme Programming Explained: Embrace Change</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a> and <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>: <i>Planning Extreme Programming</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a> and Cynthia Andres. <i>Extreme Programming Explained: Embrace Change, Second Edition</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Alistair_Cockburn" title="Alistair Cockburn">Alistair Cockburn</a>: <i>Agile Software Development</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>: <i>Refactoring: Improving the Design of Existing Code</i>, Addison–Wesley.</li>
+<li><a class="new" href="/w/index.php?title=Harvey_Herela&amp;action=edit&amp;redlink=1" title="Harvey Herela (page does not exist)">Harvey Herela</a> (2005). <a class="external text" href="http://calla.ics.uci.edu/histories/ccc/" rel="nofollow">Case Study: The Chrysler Comprehensive Compensation System</a>. Galen Lab, U.C. Irvine.</li>
+<li><a href="/wiki/Jim_Highsmith" title="Jim Highsmith">Jim Highsmith</a>. <i>Agile Software Development Ecosystems</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Ron_Jeffries" title="Ron Jeffries">Ron Jeffries</a>, Ann Anderson and Chet Hendrickson (2000), <i>Extreme Programming Installed</i>, Addison–Wesley.</li>
+<li><a href="/wiki/Craig_Larman" title="Craig Larman">Craig Larman</a> &amp; V. Basili (2003). "Iterative and Incremental Development: A Brief History", Computer (IEEE Computer Society) 36 (6): 47–56.</li>
+<li><a href="/wiki/Matt_Stephens" title="Matt Stephens">Matt Stephens</a> and Doug Rosenberg (2003). <i>Extreme Programming Refactored: The Case Against XP</i>, Apress.</li>
+<li>Waldner, JB. (2008). "Nanocomputers and Swarm Intelligence". In: ISTE, 225–256.</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Extreme_programming&amp;action=edit&amp;section=36" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Extreme_Programming" title="commons:Category:Extreme Programming">Extreme Programming</a></b></i>.</td>
+</tr>
+</table>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wikiquote-logo.svg"><img alt="" class="noviewer" data-file-height="355" data-file-width="300" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/51px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/68px-Wikiquote-logo.svg.png 2x" width="34"/></a></td>
+<td class="mbox-text plainlist">Wikiquote has quotations related to: <i><b><a class="extiw" href="https://en.wikiquote.org/wiki/Special:Search/Extreme_programming" title="q:Special:Search/Extreme programming">Extreme programming</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a class="extiw" href="http://c2.com/cgi/wiki?ExtremeProgramming" title="wikiwikiweb:ExtremeProgramming">Extreme Programming</a></li>
+<li><a class="external text" href="http://www.extremeprogramming.org" rel="nofollow">A gentle introduction</a></li>
+<li><a class="external text" href="http://www.IndustrialXP.org/" rel="nofollow">Industrial eXtreme Programming</a></li>
+<li><a class="external text" href="http://www.xprogramming.com" rel="nofollow">XP magazine</a></li>
+<li><a class="external text" href="http://c2.com/cgi/wiki?ExtremeProgrammingImplementationIssues" rel="nofollow">Problems and Solutions to XP implementation</a></li>
+<li><a class="external text" href="http://www.martinfowler.com/articles/agileOffshore.html" rel="nofollow">Using an Agile Software Process with Offshore Development</a> – <a href="/wiki/ThoughtWorks" title="ThoughtWorks">ThoughtWorks</a>' experiences with implementing XP in large distributed projects</li>
+</ul>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh99004731" rel="nofollow">sh99004731</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/4618499-5" rel="nofollow">4618499-5</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb144400247" rel="nofollow">cb144400247</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb144400247" rel="nofollow">(data)</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Espa%C3%B1a" title="Biblioteca Nacional de España">BNE</a>: <span class="uid"><a class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX550562" rel="nofollow">XX550562</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:38634705-0!*!0!!en!4!* and timestamp 20161001160054 and revision id 739453073
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Extreme_programming&amp;oldid=739453073">https://en.wikipedia.org/w/index.php?title=Extreme_programming&amp;oldid=739453073</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Extreme_programming" title="Category:Extreme programming">Extreme programming</a></li><li><a href="/wiki/Category:Software_development_philosophies" title="Category:Software development philosophies">Software development philosophies</a></li><li><a href="/wiki/Category:Agile_software_development" title="Category:Agile software development">Agile software development</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_external_links" title="Category:CS1 errors: external links">CS1 errors: external links</a></li><li><a href="/wiki/Category:Articles_with_Wayback_Machine_links" title="Category:Articles with Wayback Machine links">Articles with Wayback Machine links</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_May_2014" title="Category:Use mdy dates from May 2014">Use mdy dates from May 2014</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_January_2013" title="Category:Articles with unsourced statements from January 2013">Articles with unsourced statements from January 2013</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_June_2009" title="Category:Articles with unsourced statements from June 2009">Articles with unsourced statements from June 2009</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2008" title="Category:Articles with unsourced statements from July 2008">Articles with unsourced statements from July 2008</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2007" title="Category:Articles with unsourced statements from February 2007">Articles with unsourced statements from February 2007</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2009" title="Category:Articles with unsourced statements from August 2009">Articles with unsourced statements from August 2009</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_different_than_on_Wikidata" title="Category:Commons category with local link different than on Wikidata">Commons category with local link different than on Wikidata</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_LCCN_identifiers" title="Category:Wikipedia articles with LCCN identifiers">Wikipedia articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_BNF_identifiers" title="Category:Wikipedia articles with BNF identifiers">Wikipedia articles with BNF identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Extreme+programming" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Extreme+programming" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Extreme_programming" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Extreme_programming" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Extreme_programming">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Extreme_programming&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Extreme_programming&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Extreme_programming" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Extreme_programming" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Extreme_programming&amp;oldid=739453073" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Extreme_programming&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q209711" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Extreme_programming&amp;id=739453073" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Extreme+programming">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Extreme+programming&amp;returnto=Extreme+programming&amp;oldid=739453073&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Extreme_programming&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Extreme_programming" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikiquote"><a href="https://en.wikiquote.org/wiki/Extreme_programming" hreflang="en">Wikiquote</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9_%D9%82%D8%B5%D9%88%D9%89" hreflang="ar" lang="ar" title="برمجة قصوى – Arabic">العربية</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/%D0%AD%D0%BA%D1%81%D1%82%D1%80%D1%8D%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D0%B5_%D0%BF%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B2%D0%B0%D0%BD%D1%8C%D0%BD%D0%B5" hreflang="be-x-old" lang="be-x-old" title="Экстрэмальнае праграмаваньне – беларуская (тарашкевіца)‎">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%95%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5" hreflang="bg" lang="bg" title="Екстремно програмиране – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Programaci%C3%B3_extrema" hreflang="ca" lang="ca" title="Programació extrema – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Extr%C3%A9mn%C3%AD_programov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Extrémní programování – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Extreme_Programming" hreflang="da" lang="da" title="Extreme Programming – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de badge-Q17437798 badge-goodarticle" title="good article"><a href="https://de.wikipedia.org/wiki/Extreme_Programming" hreflang="de" lang="de" title="Extreme Programming – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_extrema" hreflang="es" lang="es" title="Programación extrema – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_%D9%85%D9%81%D8%B1%D8%B7" hreflang="fa" lang="fa" title="برنامه‌سازی مفرط – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Extreme_programming" hreflang="fr" lang="fr" title="Extreme programming – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Programaci%C3%B3n_Extrema" hreflang="gl" lang="gl" title="Programación Extrema – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" hreflang="ko" lang="ko" title="익스트림 프로그래밍 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%95%E0%A5%8D%E0%A4%B8%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%82%E0%A4%97" hreflang="hi" lang="hi" title="एक्सट्रीम प्रोग्रामिंग – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Programmation_extreme" hreflang="ia" lang="ia" title="Programmation extreme – Interlingua">Interlingua</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Extreme_programming" hreflang="it" lang="it" title="Extreme programming – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Extreme_Programming" hreflang="he" lang="he" title="Extreme Programming – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Ribinis_programavimas" hreflang="lt" lang="lt" title="Ribinis programavimas – Lithuanian">Lietuvių</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Extreme_programming" hreflang="nl" lang="nl" title="Extreme programming – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%BB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" hreflang="ja" lang="ja" title="エクストリーム・プログラミング – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Extreme_Programming" hreflang="no" lang="no" title="Extreme Programming – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Programowanie_ekstremalne" hreflang="pl" lang="pl" title="Programowanie ekstremalne – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_extrema" hreflang="pt" lang="pt" title="Programação extrema – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" hreflang="ru" lang="ru" title="Экстремальное программирование – Russian">Русский</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/Programimi_ekstrem" hreflang="sq" lang="sq" title="Programimi ekstrem – Albanian">Shqip</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/Ekstremno_programiranje" hreflang="sr" lang="sr" title="Ekstremno programiranje – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Ekstremno_programiranje" hreflang="sh" lang="sh" title="Ekstremno programiranje – Serbo-Croatian">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Extreme_Programming" hreflang="fi" lang="fi" title="Extreme Programming – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Extrem_programmering" hreflang="sv" lang="sv" title="Extrem programmering – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%8E%E0%B0%95%E0%B1%8D%E0%B0%B8%E0%B1%8D%E2%80%8C%E0%B0%9F%E0%B1%8D%E0%B0%B0%E0%B1%80%E0%B0%AE%E0%B1%8D_%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B1%8B%E0%B0%97%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B0%BF%E0%B0%82%E0%B0%97%E0%B1%8D" hreflang="te" lang="te" title="ఎక్స్‌ట్రీమ్ ప్రోగ్రామింగ్ – Telugu">తెలుగు</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/Extreme_programming" hreflang="th" lang="th" title="Extreme programming – Thai">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%95%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Екстремальне програмування – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/L%E1%BA%ADp_tr%C3%ACnh_c%E1%BB%B1c_h%E1%BA%A1n" hreflang="vi" lang="vi" title="Lập trình cực hạn – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%9E%81%E9%99%90%E7%BC%96%E7%A8%8B" hreflang="zh" lang="zh" title="极限编程 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q209711#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 14 September 2016, at 19:39.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Extreme_programming&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.448",
+            "walltime": "0.539",
+            "ppvisitednodes": {
+                "value": 2261,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 63492,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 4001,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 6,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  435.695      1 -total",
+                " 27.43%  119.516      1 Template:Reflist",
+                " 27.10%  118.075      5 Template:Citation_needed",
+                " 24.92%  108.573      5 Template:Fix",
+                " 14.73%   64.182      5 Template:Cite_book",
+                " 13.49%   58.754      5 Template:Delink",
+                "  9.80%   42.716     10 Template:Category_handler",
+                "  9.70%   42.273      2 Template:Navbox",
+                "  9.00%   39.207      1 Template:Software_engineering",
+                "  7.71%   33.574      1 Template:Commons_category"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.181",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4151704,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1187",
+            "timestamp": "20161001160055",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1175"});});</script>
+</body>
+</html>
+

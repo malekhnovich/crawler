@@ -1,0 +1,616 @@
+The following page is located at the url: https://de.wikipedia.org/wiki/Entwurfsmuster
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="de">
+<head>
+<meta charset="utf-8"/>
+<title>Entwurfsmuster – Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Entwurfsmuster","wgTitle":"Entwurfsmuster","wgCurRevisionId":158104029,"wgRevisionId":158104029,"wgArticleId":11799,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Entwurfsmuster","Systems Engineering"],"wgBreakFrames":false,"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Jul.","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Entwurfsmuster","wgRelevantArticleId":11799,"wgRequestId":"V-ECuwpAAEUAAWNLvoUAAADN","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"de","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"de","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"Deutsch","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"accuracy":{"levels":1,"quality":2,"pristine":4}}},"wgStableRevisionId":158104029,"wgWikibaseItemId":"Q181156","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.flaggedRevs.basic":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"de"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=de&amp;modules=ext.cite.styles%7Cext.flaggedRevs.basic%7Cext.gadget.CommonsDirekt%2COpenStreetMap%2CWikiMiniAtlas%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=de&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=de&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/de.m.wikipedia.org/wiki/Entwurfsmuster" rel="alternate"/>
+<link href="/w/index.php?title=Entwurfsmuster&amp;action=edit" rel="alternate" title="Seite bearbeiten" type="application/x-wiki"/>
+<link href="/w/index.php?title=Entwurfsmuster&amp;action=edit" rel="edit" title="Seite bearbeiten"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (de)" type="application/opensearchdescription+xml"/>
+<link href="//de.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://de.wikipedia.org/wiki/Entwurfsmuster" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject page-Entwurfsmuster rootpage-Entwurfsmuster skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="de">Entwurfsmuster</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">aus Wikipedia, der freien Enzyklopädie</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Wechseln zu:					<a href="#mw-head">Navigation</a>, 					<a href="#p-search">Suche</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="de"><table cellpadding="0" cellspacing="8" class="hintergrundfarbe1 rahmenfarbe1 noprint searchaux" id="Vorlage_Dieser_Artikel" style="border-bottom-style: solid; clear: right; font-size: 95%; margin-bottom: 1em; width: 100%;">
+<tr>
+<td id="bksicon" style="width: 26px; vertical-align: middle"><img alt="" data-file-height="340" data-file-width="444" height="19" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Disambig-dark.svg/25px-Disambig-dark.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Disambig-dark.svg/38px-Disambig-dark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Disambig-dark.svg/50px-Disambig-dark.svg.png 2x" width="25"/></td>
+<td style="vertical-align: middle">Dieser Artikel behandelt die Lösungsschablonen für wiederkehrende Entwurfsprobleme. Für das gleichnamige Buch siehe <a href="/wiki/Entwurfsmuster_(Buch)" title="Entwurfsmuster (Buch)">Entwurfsmuster (Buch)</a>.</td>
+</tr>
+</table>
+<p><b>Entwurfsmuster</b> (<a href="/wiki/Englische_Sprache" title="Englische Sprache">englisch</a> <span lang="en" xml:lang="en"><i>design patterns</i></span>) sind bewährte Lösungsschablonen für wiederkehrende Entwurfsprobleme sowohl in der <a href="/wiki/Architektur" title="Architektur">Architektur</a> als auch in der <a href="/wiki/Softwarearchitektur" title="Softwarearchitektur">Softwarearchitektur</a> und <a href="/wiki/Softwaretechnik" title="Softwaretechnik">-entwicklung</a>. Sie stellen damit eine wiederverwendbare Vorlage zur Problemlösung dar, die in einem bestimmten Zusammenhang einsetzbar ist. In den letzten Jahren hat der Ansatz der Entwurfsmuster auch zunehmendes Interesse im Bereich der <a href="/wiki/Mensch-Computer-Interaktion" title="Mensch-Computer-Interaktion">Mensch-Computer-Interaktion</a> gefunden. Ursprünglich wurde der Begriff in der Architektur von <a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a> verwendet.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Inhaltsverzeichnis</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Arten_von_Entwurfsmustern"><span class="tocnumber">1</span> <span class="toctext">Arten von Entwurfsmustern</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Geschichte"><span class="tocnumber">2</span> <span class="toctext">Geschichte</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Anforderungen_und_Nutzen"><span class="tocnumber">3</span> <span class="toctext">Anforderungen und Nutzen</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Nachteile"><span class="tocnumber">4</span> <span class="toctext">Nachteile</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Musterkataloge"><span class="tocnumber">5</span> <span class="toctext">Musterkataloge</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Liste_von_Mustern"><span class="tocnumber">6</span> <span class="toctext">Liste von Mustern</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Andere_Arten_von_Mustern"><span class="tocnumber">7</span> <span class="toctext">Andere Arten von Mustern</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Antimuster"><span class="tocnumber">8</span> <span class="toctext">Antimuster</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Siehe_auch"><span class="tocnumber">9</span> <span class="toctext">Siehe auch</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Literatur"><span class="tocnumber">10</span> <span class="toctext">Literatur</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Weblinks"><span class="tocnumber">11</span> <span class="toctext">Weblinks</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Einzelnachweise"><span class="tocnumber">12</span> <span class="toctext">Einzelnachweise</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Arten_von_Entwurfsmustern">Arten von Entwurfsmustern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=1" title="Abschnitt bearbeiten: Arten von Entwurfsmustern">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=1" title="Abschnitt bearbeiten: Arten von Entwurfsmustern">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Datei:Prototyp.svg"><img alt="" class="thumbimage" data-file-height="163" data-file-width="511" height="70" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Prototyp.svg/220px-Prototyp.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Prototyp.svg/330px-Prototyp.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Prototyp.svg/440px-Prototyp.svg.png 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/Datei:Prototyp.svg" title="vergrößern und Informationen zum Bild anzeigen"></a></div>
+Beispiel eines Entwurfsmusters in UML (hier das Entwurfsmuster „Prototyp“)</div>
+</div>
+</div>
+<p>Es gibt unterschiedliche Typen von Entwurfsmustern. Ursprünglich wurden folgende Typen unterschieden:<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<dl>
+<dt><a href="/wiki/Erzeugungsmuster" title="Erzeugungsmuster">Erzeugungsmuster</a> (englisch <i>creational patterns</i>)</dt>
+<dd>Dienen der Erzeugung von Objekten. Sie entkoppeln die Konstruktion eines Objekts von seiner Repräsentation. Die Objekterzeugung wird gekapselt und ausgelagert, um den Kontext der Objekterzeugung unabhängig von der konkreten Implementierung zu halten, gemäß der Regel: „Programmiere auf die Schnittstelle, nicht auf die Implementierung!“</dd>
+<dt><a href="/wiki/Strukturmuster" title="Strukturmuster">Strukturmuster</a> (englisch <i>structural patterns</i>)</dt>
+<dd>Erleichtern den Entwurf von Software durch vorgefertigte Schablonen für Beziehungen zwischen Klassen.</dd>
+<dt><a href="/wiki/Verhaltensmuster_(Software)" title="Verhaltensmuster (Software)">Verhaltensmuster</a> (englisch <i>behavioral patterns</i>)</dt>
+<dd>Modellieren komplexes Verhalten der Software und erhöhen damit die Flexibilität der Software hinsichtlich ihres Verhaltens.</dd>
+</dl>
+<p>Später kamen noch weitere Typen für diejenigen Entwurfsmuster, die in keine der drei genannten Typen passten, hinzu. Darunter beispielsweise</p>
+<dl>
+<dt>Muster für <a href="/wiki/Objektrelationale_Abbildung" title="Objektrelationale Abbildung">objektrelationale Abbildung</a></dt>
+<dd>Dienen der Ablage und des Zugriffes von Objekten und deren Beziehungen in einer relationalen Datenbank.<sup class="reference" id="cite_ref-PoEAA_3-0"><a href="#cite_note-PoEAA-3">[3]</a></sup></dd>
+</dl>
+<h2><span class="mw-headline" id="Geschichte">Geschichte</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=2" title="Abschnitt bearbeiten: Geschichte">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=2" title="Abschnitt bearbeiten: Geschichte">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Der Architekt <a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a> hatte in einer auf <a href="/wiki/Vitruv" title="Vitruv">Vitruv</a> zurückgehenden Tradition zwischen 1977 und 1979 eine Sammlung von Entwurfsmustern zusammengestellt.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> Die Hauptaufgabe dieser Muster ist es, die Bewohner der zu bauenden Strukturen in den Entwurfsprozess einzubinden. Der Ansatz für Entwurfsmuster wurde von Alexander bereits 1964 in <i>Notes on the synthesis of form</i> dargestellt. In der Architektur hat sich diese Idee jedoch bei weitem nicht so verbreitet wie später in der Softwareentwicklung.</p>
+<p><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a> und <a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a> griffen 1987 die Ideen Alexanders aus der Architektur auf und entwickelten Entwurfsmuster für die Erstellung von <a href="/wiki/Grafische_Benutzeroberfl%C3%A4che" title="Grafische Benutzeroberfläche">grafischen Benutzeroberflächen</a> in <a class="mw-redirect" href="/wiki/Smalltalk-80_(Programmiersprache)" title="Smalltalk-80 (Programmiersprache)">Smalltalk</a>. Ein Jahr später begann <a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a> mit seiner Promotion an der <a href="/wiki/Universit%C3%A4t_Z%C3%BCrich" title="Universität Zürich">Universität Zürich</a> über die generelle Übertragung dieser Methode auf die Softwareentwicklung. Parallel dazu arbeitete <a class="new" href="/w/index.php?title=James_Coplien&amp;action=edit&amp;redlink=1" title="James Coplien (Seite nicht vorhanden)">James Coplien</a> in den Jahren 1989 bis 1991 an musterähnlichen <a href="/wiki/Idiom_(Softwaretechnik)" title="Idiom (Softwaretechnik)">Idiomen</a> für <a href="/wiki/C%2B%2B" title="C++">C++</a> und veröffentlichte 1991 sein Buch <i>Advanced C++ Idioms</i>.</p>
+<p>Erich Gamma beendete im selben Jahr seine Promotion und ging im Anschluss in die <a href="/wiki/Vereinigte_Staaten" title="Vereinigte Staaten">Vereinigten Staaten</a>. Dort brachte er 1994 zusammen mit <a href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson" title="Ralph Johnson">Ralph Johnson</a> und <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a> das Buch <i>Design Patterns – Elements of Reusable Object-Oriented Software</i> heraus, in dem 23 Entwurfsmuster beschrieben sind. Diese vier Autoren sind unter Entwicklern auch unter ihrem Spitznamen <i>Gang of Four</i> (<a class="mw-redirect" href="/wiki/Viererbande_(Softwareentwicklung)" title="Viererbande (Softwareentwicklung)">Viererbande</a>, kurz <i>GoF</i>) bekannt und verhalfen mit ihrem Buch den Entwurfsmustern zu ihrem Durchbruch. Gelegentlich wird <i>GoF</i> auch als Verweis für das besagte Buch verwendet. Anders als Alexander, der seine Muster vor allem für Laien geschrieben hat, richten sich die GoF-Muster an Softwareentwickler und nicht an Benutzer.</p>
+<h2><span class="mw-headline" id="Anforderungen_und_Nutzen">Anforderungen und Nutzen</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=3" title="Abschnitt bearbeiten: Anforderungen und Nutzen">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=3" title="Abschnitt bearbeiten: Anforderungen und Nutzen">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Ein gutes Muster sollte</p>
+<ul>
+<li>ein oder mehrere <a href="/wiki/Probleml%C3%B6sen" title="Problemlösen">Probleme lösen</a>,</li>
+<li>ein erprobtes <a href="/wiki/Konzeption" title="Konzeption">Konzept</a> bieten,</li>
+<li>auf realen Designs basieren,</li>
+<li>über das rein Offensichtliche hinausgehen,</li>
+<li>den Benutzer in den Entwurfsprozess einbinden,</li>
+<li><a href="/wiki/Relation" title="Relation">Beziehungen</a> aufzeigen, die tiefergehende Strukturen und Mechanismen eines <a href="/wiki/System" title="System">Systems</a> umfassen.</li>
+</ul>
+<p>Entwurfsmuster beinhalten in der Regel Referenzen auf andere Muster. Mithilfe dieser ist es möglich, <a href="/wiki/Mustersprache" title="Mustersprache">Mustersprachen</a> zu entwickeln.</p>
+<p>Der primäre Nutzen eines Entwurfsmusters liegt in der Beschreibung einer Lösung für eine bestimmte Klasse von Entwurfsproblemen. Weiterer Nutzen ergibt sich aus der Tatsache, dass jedes Muster einen Namen hat. Dies vereinfacht die Diskussion unter Entwicklern, da man abstrakt über eine Struktur sprechen kann. So sind etwa Software-Entwurfsmuster – im Gegensatz zu <a href="/wiki/Idiom_(Softwaretechnik)" title="Idiom (Softwaretechnik)">Idiomen</a> – zunächst einmal unabhängig von der konkreten Programmiersprache.</p>
+<p>Wenn der Einsatz von Entwurfsmustern dokumentiert wird, ergibt sich ein weiterer Nutzen dadurch, dass durch die Beschreibung des Musters ein Bezug zur dort vorhandenen Diskussion des Problemkontextes und der Vor- und Nachteile der Lösung hergestellt wird.</p>
+<h2><span class="mw-headline" id="Nachteile">Nachteile</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=4" title="Abschnitt bearbeiten: Nachteile">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=4" title="Abschnitt bearbeiten: Nachteile">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Der erfolgreiche Einsatz von Entwurfsmustern in der Vergangenheit kann dazu verleiten, die Entwurfsmuster als Wunderwaffe und Garant für gutes Design anzusehen. Unerfahrene Entwickler können geneigt sein, möglichst viele bekannte Muster zu verwenden, und dabei übersehen, dass in ihrem Fall vielleicht eine elegantere Lösung ohne den Einsatz von Mustern möglich wäre. Entwurfsmuster garantieren nicht, dass der Entwurf gut ist. Insofern ist die Anwendung zu vieler oder ungeeigneter Entwurfsmuster ein <a href="#Antimuster">Antimuster</a>.</p>
+<h2><span class="mw-headline" id="Musterkataloge">Musterkataloge</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=5" title="Abschnitt bearbeiten: Musterkataloge">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=5" title="Abschnitt bearbeiten: Musterkataloge">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Entwurfsmuster werden üblicherweise nach dem Vorbild der Bücher von <a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a> und der Viererbande in sogenannten Musterkatalogen (engl. „Design Pattern Catalog“) gesammelt. Diese beschreiben die einzelnen Muster katalogartig anhand ihrer Eigenschaften. Diese Eigenschaften sind beispielsweise beim Buch <i>Design Patterns – Elements of Reusable Object-Oriented Software</i> folgende: Aufgabe, Andere Namen, Motivation, Anwendbarkeit, Struktur, Teilnehmer, Kollaborationen, Konsequenzen, Implementierung, Beispielcode, Bekannte Verwendungen, verwandte Muster.</p>
+<p>Neben dem Entwurfsmusterkatalog der Viererbande gibt es eine Reihe weiterer Kataloge. Zu diesen zählen die Bücher <i>Patterns of Enterprise Application Architecture</i>, <i>Pattern-Oriented Software Architecture, Volume 1, A System of Patterns</i>, <i>Refactoring To Patterns</i> sowie die <i>Core J2EE Patterns</i>. Siehe Abschnitt <a href="#Literatur">Literatur</a>.</p>
+<h2><span class="mw-headline" id="Liste_von_Mustern">Liste von Mustern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=6" title="Abschnitt bearbeiten: Liste von Mustern">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=6" title="Abschnitt bearbeiten: Liste von Mustern">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Die folgende Tabelle von Entwurfsmustern enthält Entwurfsmuster der Viererbande (rot eingefärbt), funktionale Verhaltensmuster von Stuart Sierra (blau eingefärbt) sowie andere Entwurfsmuster aus anderen Katalogen. Die ersten drei Spalten stellen die Teilmengen dar, in die die Entwurfsmuster im Buch <i>Design Patterns</i> kategorisiert wurden. Die vierte Spalte enthält Muster für die <a href="/wiki/Objektrelationale_Abbildung" title="Objektrelationale Abbildung">objektrelationale Abbildung</a> die insbesondere von <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a> geprägt wurden (grün eingefärbt).<sup class="reference" id="cite_ref-PoEAA_3-1"><a href="#cite_note-PoEAA-3">[3]</a></sup> Die fünfte Spalte enthält solche Muster, die sich keiner der ersten vier Spalten zuordnen lassen. Sie ist nicht vollständig.</p>
+<table class="wikitable">
+<tr>
+<th><a href="/wiki/Erzeugungsmuster" title="Erzeugungsmuster">Erzeugungsmuster</a> (Creational Design Patterns)</th>
+<th><a href="/wiki/Strukturmuster" title="Strukturmuster">Strukturmuster</a> (Structural Design Patterns)</th>
+<th><a href="/wiki/Verhaltensmuster_(Software)" title="Verhaltensmuster (Software)">Verhaltensmuster</a> (Behavioral Design Patterns)</th>
+<th>Muster für <a href="/wiki/Objektrelationale_Abbildung" title="Objektrelationale Abbildung">objektrelationale Abbildung</a></th>
+<th>Weitere Muster</th>
+</tr>
+<tr>
+<td style="background:#FFC0CB"><a href="/wiki/Abstrakte_Fabrik" title="Abstrakte Fabrik">abstrakte Fabrik</a> (<i>abstract factory pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Adapter_(Entwurfsmuster)" title="Adapter (Entwurfsmuster)">Adapter</a> (<i>adapter pattern</i>)</td>
+<td style="background:#FFC0CB"><a class="mw-redirect" href="/wiki/Observer_(Entwurfsmuster)" title="Observer (Entwurfsmuster)">Beobachter</a> (<i>observer pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Data_Mapper&amp;action=edit&amp;redlink=1" title="Data Mapper (Seite nicht vorhanden)">Data Mapper</a></td>
+<td><a href="/wiki/Business_Delegate" title="Business Delegate">Business Delegate</a></td>
+</tr>
+<tr>
+<td style="background:#FFC0CB"><a href="/wiki/Singleton_(Entwurfsmuster)" title="Singleton (Entwurfsmuster)">Einzelstück</a> (<i>singleton pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Br%C3%BCcke_(Entwurfsmuster)" title="Brücke (Entwurfsmuster)">Brücke</a> (<i>bridge pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Besucher_(Entwurfsmuster)" title="Besucher (Entwurfsmuster)">Besucher</a> (<i>visitor pattern</i>)</td>
+<td><a href="/wiki/Data_Access_Object" title="Data Access Object">Data Access Object</a></td>
+<td><a href="/wiki/Dependency_Injection" title="Dependency Injection">Dependency Injection</a></td>
+</tr>
+<tr>
+<td style="background:#FFC0CB"><a href="/wiki/Erbauer_(Entwurfsmuster)" title="Erbauer (Entwurfsmuster)">Erbauer</a> (<i>builder pattern</i>)</td>
+<td><a href="/wiki/Container_(Entwurfsmuster)" title="Container (Entwurfsmuster)">Container</a> (<i>container pattern</i>)</td>
+<td><a href="/wiki/Interceptor_(Entwurfsmuster)" title="Interceptor (Entwurfsmuster)">Interceptor</a> (<i>interceptor pattern</i>)</td>
+<td><a href="/wiki/Transferobjekt" title="Transferobjekt">Datentransferobjekt</a> (<i>data transfer object</i>)</td>
+<td><a href="/wiki/Extension_Interface" title="Extension Interface">Extension Interface</a></td>
+</tr>
+<tr>
+<td style="background:#FFC0CB"><a href="/wiki/Fabrikmethode" title="Fabrikmethode">Fabrikmethode</a> (<i>factory method pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Decorator" title="Decorator">Dekorierer</a> (<i>decorator pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Interpreter_(Entwurfsmuster)" title="Interpreter (Entwurfsmuster)">Interpreter</a> (<i>interpreter pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Table_Data_Gateway&amp;action=edit&amp;redlink=1" title="Table Data Gateway (Seite nicht vorhanden)">Table Data Gateway</a></td>
+<td><a href="/wiki/Fluent_Interface" title="Fluent Interface">Fluent Interface</a></td>
+</tr>
+<tr>
+<td><a href="/wiki/Multiton" title="Multiton">Multiton</a> (<i>multiton pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Fassade_(Entwurfsmuster)" title="Fassade (Entwurfsmuster)">Fassade</a> (<i>facade pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Iterator_(Entwurfsmuster)" title="Iterator (Entwurfsmuster)">Iterator</a> (<i>iterator pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Row_Data_Gateway&amp;action=edit&amp;redlink=1" title="Row Data Gateway (Seite nicht vorhanden)">Row Data Gateway</a></td>
+<td><a href="/wiki/Inversion_of_Control" title="Inversion of Control">Inversion of Control</a></td>
+</tr>
+<tr>
+<td style="background:#FFC0CB"><a href="/wiki/Prototyp_(Entwurfsmuster)" title="Prototyp (Entwurfsmuster)">Prototyp</a> (<i>prototype pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Fliegengewicht_(Entwurfsmuster)" title="Fliegengewicht (Entwurfsmuster)">Fliegengewicht</a> (<i>flyweight pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Kommando_(Entwurfsmuster)" title="Kommando (Entwurfsmuster)">Kommando</a> (<i>command pattern</i>)</td>
+<td style="background:#C0FFC0"><a href="/wiki/Active_Record" title="Active Record">Active Record</a></td>
+<td><a href="/wiki/Model_View_Controller" title="Model View Controller">Model View Controller</a> (MVC)</td>
+</tr>
+<tr>
+<td> </td>
+<td style="background:#FFC0CB"><a href="/wiki/Kompositum_(Entwurfsmuster)" title="Kompositum (Entwurfsmuster)">Kompositum</a> (<i>composite pattern</i>)</td>
+<td style="background:#FFC0CB"><a href="/wiki/Memento_(Entwurfsmuster)" title="Memento (Entwurfsmuster)">Memento</a> (<i>memento pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Unit_of_Work&amp;action=edit&amp;redlink=1" title="Unit of Work (Seite nicht vorhanden)">Unit of Work</a></td>
+<td><a class="mw-redirect" href="/wiki/Model_View_Presenter" title="Model View Presenter">Model View Presenter</a> (MVP)</td>
+</tr>
+<tr>
+<td> </td>
+<td style="background:#FFC0CB"><a href="/wiki/Stellvertreter_(Entwurfsmuster)" title="Stellvertreter (Entwurfsmuster)">Stellvertreter</a> (<i>proxy pattern</i>)</td>
+<td><a href="/wiki/Nullobjekt_(Entwurfsmuster)" title="Nullobjekt (Entwurfsmuster)">Nullobjekt</a> (<i>Null Object pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Identity_Map&amp;action=edit&amp;redlink=1" title="Identity Map (Seite nicht vorhanden)">Identity Map</a></td>
+<td><a href="/wiki/Model_View_ViewModel" title="Model View ViewModel">Model View ViewModel</a> (MVVM)</td>
+</tr>
+<tr>
+<td> </td>
+<td><a class="new" href="/w/index.php?title=Half_Object_Plus_Protocol&amp;action=edit&amp;redlink=1" title="Half Object Plus Protocol (Seite nicht vorhanden)">Half Object Plus Protocol</a></td>
+<td style="background:#FFC0CB"><a href="/wiki/Schablonenmethode" title="Schablonenmethode">Schablonenmethode</a> (<i>template method pattern</i>)</td>
+<td style="background:#C0FFC0"><a href="/wiki/Lazy_Loading" title="Lazy Loading">Lazy Loading</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Transaction_Script&amp;action=edit&amp;redlink=1" title="Transaction Script (Seite nicht vorhanden)">Transaction Script</a></td>
+</tr>
+<tr>
+<td> </td>
+<td><a class="new" href="/w/index.php?title=Whole-Part&amp;action=edit&amp;redlink=1" title="Whole-Part (Seite nicht vorhanden)">Whole-Part</a></td>
+<td style="background:#FFC0CB"><a href="/wiki/Strategie_(Entwurfsmuster)" title="Strategie (Entwurfsmuster)">Strategie</a> (<i>strategy pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Identity_Field&amp;action=edit&amp;redlink=1" title="Identity Field (Seite nicht vorhanden)">Identity Field</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Domain_Model&amp;action=edit&amp;redlink=1" title="Domain Model (Seite nicht vorhanden)">Domain Model</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#FFC0CB"><a href="/wiki/Vermittler_(Entwurfsmuster)" title="Vermittler (Entwurfsmuster)">Vermittler</a> (<i>mediator pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Dependent_Mapping&amp;action=edit&amp;redlink=1" title="Dependent Mapping (Seite nicht vorhanden)">Dependent Mapping</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Table_Module&amp;action=edit&amp;redlink=1" title="Table Module (Seite nicht vorhanden)">Table Module</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#FFC0CB"><a href="/wiki/Zustand_(Entwurfsmuster)" title="Zustand (Entwurfsmuster)">Zustand</a> (<i>state pattern</i>)</td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Embedded_Value_(Entwurfsmuster)&amp;action=edit&amp;redlink=1" title="Embedded Value (Entwurfsmuster) (Seite nicht vorhanden)">Embedded Value</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Service_Layer&amp;action=edit&amp;redlink=1" title="Service Layer (Seite nicht vorhanden)">Service Layer</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#FFC0CB"><a href="/wiki/Zust%C3%A4ndigkeitskette" title="Zuständigkeitskette">Zuständigkeitskette</a> (<i>chain of responsibility</i>)</td>
+<td style="background:#C0FFC0; color:black;"><a class="new" href="/w/index.php?title=Serialized_LOB&amp;action=edit&amp;redlink=1" title="Serialized LOB (Seite nicht vorhanden)">Serialized LOB</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Page_Controller&amp;action=edit&amp;redlink=1" title="Page Controller (Seite nicht vorhanden)">Page Controller</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=State/Event&amp;action=edit&amp;redlink=1" title="State/Event (Seite nicht vorhanden)">State/Event</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Inheritance_Mapper&amp;action=edit&amp;redlink=1" title="Inheritance Mapper (Seite nicht vorhanden)">Inheritance Mapper</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Template_View&amp;action=edit&amp;redlink=1" title="Template View (Seite nicht vorhanden)">Template View</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Consequences&amp;action=edit&amp;redlink=1" title="Consequences (Seite nicht vorhanden)">Consequences</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Metadata_Mapping&amp;action=edit&amp;redlink=1" title="Metadata Mapping (Seite nicht vorhanden)">Metadata Mapping</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Transform_View&amp;action=edit&amp;redlink=1" title="Transform View (Seite nicht vorhanden)">Transform View</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Accumulator&amp;action=edit&amp;redlink=1" title="Accumulator (Seite nicht vorhanden)">Accumulator</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Query_Object&amp;action=edit&amp;redlink=1" title="Query Object (Seite nicht vorhanden)">Query Object</a></td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Two-Step_View&amp;action=edit&amp;redlink=1" title="Two-Step View (Seite nicht vorhanden)">Two-Step View</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a href="/wiki/MapReduce" title="MapReduce">MapReduce</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Application_Controller&amp;action=edit&amp;redlink=1" title="Application Controller (Seite nicht vorhanden)">Application Controller</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Reduce/Combine&amp;action=edit&amp;redlink=1" title="Reduce/Combine (Seite nicht vorhanden)">Reduce/Combine</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Remote_Facade&amp;action=edit&amp;redlink=1" title="Remote Facade (Seite nicht vorhanden)">Remote Facade</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Rekursive_Erweiterung&amp;action=edit&amp;redlink=1" title="Rekursive Erweiterung (Seite nicht vorhanden)">Rekursive Erweiterung</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a href="/wiki/Lock" title="Lock">Locks</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a href="/wiki/Software_Pipelining" title="Software Pipelining">Software Pipelining</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a class="new" href="/w/index.php?title=Session_State&amp;action=edit&amp;redlink=1" title="Session State (Seite nicht vorhanden)">Session States</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Prozess_Wrapper&amp;action=edit&amp;redlink=1" title="Prozess Wrapper (Seite nicht vorhanden)">Prozess Wrapper</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a href="/wiki/Repository_(Entwurfsmuster)" title="Repository (Entwurfsmuster)">Repository</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td style="background:#C0C0FF"><a class="new" href="/w/index.php?title=Software-Token&amp;action=edit&amp;redlink=1" title="Software-Token (Seite nicht vorhanden)">Token</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a class="mw-redirect" href="/wiki/Value_Object_(Entwurfsmuster)" title="Value Object (Entwurfsmuster)">Value Object</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a class="new" href="/w/index.php?title=Page_Object&amp;action=edit&amp;redlink=1" title="Page Object (Seite nicht vorhanden)">Page Object</a></td>
+<td> </td>
+<td style="background:#C0FFC0"><a href="/wiki/Registry_(Entwurfsmuster)" title="Registry (Entwurfsmuster)">Registry</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><a href="/wiki/Serviceorientierte_Architektur" title="Serviceorientierte Architektur">Serviceorientierte Architektur</a> (SOA)</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Andere_Arten_von_Mustern">Andere Arten von Mustern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=7" title="Abschnitt bearbeiten: Andere Arten von Mustern">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=7" title="Abschnitt bearbeiten: Andere Arten von Mustern">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Die Arbeiten der <a class="mw-redirect" href="/wiki/Viererbande_(Softwareentwicklung)" title="Viererbande (Softwareentwicklung)">Viererbande</a> haben viele Autoren zu weiteren Veröffentlichungen angeregt. Daraus entstand auch die Problematik, dass ein Muster sich nicht mehr ohne weiteres als Entwurfsmuster klassifizieren lässt. Vielmehr gibt es graduelle Unterschiede in der <a class="new" href="/w/index.php?title=Software-Granularit%C3%A4t&amp;action=edit&amp;redlink=1" title="Software-Granularität (Seite nicht vorhanden)">Granularität</a> von Mustern. So wird etwa das <a href="/wiki/Model_View_Controller" title="Model View Controller">Model-View-Controller</a>-Muster (MVC) von einigen als <a href="/wiki/Architekturmuster" title="Architekturmuster">Architekturmuster</a>, von anderen (noch) als Entwurfsmuster betrachtet.</p>
+<p>Beispiele für <a href="/wiki/Muster" title="Muster">Muster</a>, welche keine Entwurfsmuster sind:</p>
+<ul>
+<li><a href="/wiki/Analysemuster" title="Analysemuster">Analysemuster</a> charakterisieren typische Fälle der <a class="mw-redirect" href="/wiki/Anforderungserhebung" title="Anforderungserhebung">Anforderungsanalyse</a>.</li>
+<li><a href="/wiki/Architekturmuster" title="Architekturmuster">Architekturmuster</a> beschreiben typische <a href="/wiki/Softwarearchitektur" title="Softwarearchitektur">Softwarearchitekturen</a>.</li>
+<li><a href="/wiki/Idiom_(Softwaretechnik)" title="Idiom (Softwaretechnik)">Idiome</a> sind unterhalb der Ebene des Entwurfs bei der Programmierung auftretende Muster.</li>
+<li>Kommunikationsmuster beziehen sich auf die Kommunikationswege zwischen Personen einer Organisation.</li>
+<li>Organisationsmuster beschreiben Elemente der Strukturen von Organisationen.</li>
+<li><a href="/wiki/Anti-Pattern" title="Anti-Pattern">Antimuster</a> beschreiben, „wie man es <i>nicht</i> machen sollte.“</li>
+</ul>
+<h2><span class="mw-headline" id="Antimuster">Antimuster</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=8" title="Abschnitt bearbeiten: Antimuster">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=8" title="Abschnitt bearbeiten: Antimuster">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hauptartikel"><span class="hauptartikel-pfeil">→</span> <i><span class="hauptartikel-text">Hauptartikel</span>: <a href="/wiki/Anti-Pattern" title="Anti-Pattern">Anti-Pattern</a></i></div>
+<p>Wo Entwurfsmuster in der Software-Entwicklung allgemein übliche und bekannte Lösungsansätze sind, um Probleme zu lösen, so sind Antimuster Negativ-Beispiele von bereits durchgeführten Lösungen, die Hinweise darauf geben, welche Fehler vermieden werden sollten.</p>
+<p>Nachdem bei der Softwareentwicklung immer mehr von positiven Erfahrungen von erfolgreich abgeschlossenen Aufgabenstellungen profitiert wurde, konzentrierte man sich auch darauf, die Negativbeispiele, also wiederkehrende Fehler bei der Software-Entwicklung, zu identifizieren und zu dokumentieren.</p>
+<h2><span class="mw-headline" id="Siehe_auch">Siehe auch</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=9" title="Abschnitt bearbeiten: Siehe auch">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=9" title="Abschnitt bearbeiten: Siehe auch">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Smart_UI" title="Smart UI">Smart UI</a></li>
+<li><a href="/wiki/Wiki#Das_WikiWikiWeb" title="Wiki">Entwurfsmuster und die Entstehung des Wikis</a></li>
+<li><a href="/wiki/Objektorientierte_Programmierung" title="Objektorientierte Programmierung">Objektorientierte Programmierung</a></li>
+<li><a href="/wiki/Prinzipien_objektorientierten_Designs" title="Prinzipien objektorientierten Designs">Prinzipien objektorientierten Designs</a></li>
+<li><a href="/wiki/Prototyp_(Technik)" title="Prototyp (Technik)">Prototyp (Technik)</a></li>
+<li><a href="/wiki/Referenzmodell" title="Referenzmodell">Referenzmodell</a></li>
+<li><a href="/wiki/Referenzarchitektur" title="Referenzarchitektur">Referenzarchitektur</a></li>
+</ul>
+<h2><span class="mw-headline" id="Literatur">Literatur</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=10" title="Abschnitt bearbeiten: Literatur">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=10" title="Abschnitt bearbeiten: Literatur">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Florian Siebler: <i>Design Patterns mit Java: Eine Einführung in Entwurfsmuster.</i> Hanser-Verlag, 2014, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/9783446436169">ISBN 978-3-446-43616-9</a>.</li>
+<li>Deepak Alur, John Cupri, Dan Malks: <cite style="font-style:italic">Core J2EE Patterns: Best Practices and Design Strategies</cite>. Prentice Hall, 2003, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/9780131422469">ISBN 978-0-13-142246-9</a>, S.<span> </span>528 (<a class="external text" href="http://www.oracle.com/technetwork/java/index-138725.html" rel="nofollow">oracle.com</a> [abgerufen am 22. November 2009]).<span class="Z3988" style="display:none" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Entwurfsmuster&amp;rft.au=Deepak+Alur%2C+John+Cupri%2C+Dan+Malks&amp;rft.btitle=Core+J2EE+Patterns%3A+Best+Practices+and+Design+Strategies&amp;rft.date=2003-06&amp;rft.genre=book&amp;rft.isbn=9780131422469&amp;rft.pages=528&amp;rft.pub=Prentice+Hall"> </span> (englisch)</li>
+<li>Frank Buschmann, Regine Meunier, Hans Rohnert, Peter Sommerlad, <a href="/wiki/Michael_Stal" title="Michael Stal">Michael Stal</a>: <i>Pattern-orientierte Softwarearchitektur. Ein Pattern-System.</i> Addison-Wesley-Longman, Bonn 1998, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/3827312825">ISBN 3-8273-1282-5</a>.</li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>: <i>Patterns of Enterprise Application Architecture.</i> Addison-Wesley, 2002, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/0321127420">ISBN 0-321-12742-0</a>. (englisch)</li>
+<li>Eric Freeman, Elisabeth Freeman: <i>Head First Design Patterns.</i> O’Reilly, 2004, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/0596007124">ISBN 0-596-00712-4</a>. (Deutsche Übersetzung: <i>Entwurfsmuster von Kopf bis Fuß.</i> O’Reilly, Köln 2006, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/3897214210">ISBN 3-89721-421-0</a>.)</li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, <a href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson" title="Ralph Johnson">Ralph E. Johnson</a>, <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a>: <cite style="font-style:italic"><a href="/wiki/Entwurfsmuster_(Buch)" title="Entwurfsmuster (Buch)">Entwurfsmuster. Elemente wiederverwendbarer objektorientierter Software</a></cite>. Addison Wesley, München 2004, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/3827321999">ISBN 3-8273-2199-9</a> (englisch: <cite class="lang" dir="auto" lang="en" style="font-style:italic" xml:lang="en">Design Patterns. Elements of Reusable Object-Oriented Software.</cite>).<span class="Z3988" style="display:none" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Entwurfsmuster&amp;rft.au=Erich+Gamma%2C+Richard+Helm%2C+Ralph+E.+Johnson%2C+...&amp;rft.btitle=Entwurfsmuster.+Elemente+wiederverwendbarer+objektorientierter+Software&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=3827321999&amp;rft.place=M%C3%BCnchen&amp;rft.pub=Addison+Wesley"> </span></li>
+<li>Joshua Kerievsky: <cite style="font-style:italic">Refactoring To Patterns</cite>. Addison-Wesley, 2004, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/0321213351">ISBN 0-321-21335-1</a>, S.<span> </span>400 (<a class="external text" href="http://www.industriallogic.com/xp/refactoring/catalog.html" rel="nofollow">Katalog der Patterns</a> [abgerufen am 22. November 2009]).<span class="Z3988" style="display:none" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Entwurfsmuster&amp;rft.au=Joshua+Kerievsky&amp;rft.btitle=Refactoring+To+Patterns&amp;rft.date=2004-08&amp;rft.genre=book&amp;rft.isbn=0321213351&amp;rft.pages=400&amp;rft.pub=Addison-Wesley"> </span> (englisch)</li>
+<li>Helmut Leitner: <i>Mustertheorie – Einführung und Perspektiven auf den Spuren von Christopher Alexander</i>. Verlag Nausner &amp; Nausner, Graz 2007, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/9783901402500">ISBN 978-3-901402-50-0</a>.</li>
+<li><a href="/wiki/Wolfgang_Pree" title="Wolfgang Pree">Wolfgang Pree</a>: <i>Design Patterns for Object-Oriented Software Development.</i> Addison Wesley, ACM Press, 1994, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/0201422948">ISBN 0-201-42294-8</a>. (englisch)</li>
+</ul>
+<h2><span class="mw-headline" id="Weblinks">Weblinks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=11" title="Abschnitt bearbeiten: Weblinks">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=11" title="Abschnitt bearbeiten: Weblinks">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="sisterproject" style="margin:0.1em 0 0 0;"><img alt="" data-file-height="300" data-file-width="300" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/16px-Wikibooks-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/24px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/32px-Wikibooks-logo.svg.png 2x" title="Wikibooks" width="16"/> <b><a class="extiw" href="https://de.wikibooks.org/wiki/Muster" title="b:Muster">Wikibooks: Entwurfsmuster</a></b> – Lern- und Lehrmaterialien</div>
+<ul>
+<li><a class="external text" href="http://www.philipphauer.de/study/se/design-pattern.php" rel="nofollow">Design Pattern Katalog</a> mit 10 gängigen Entwurfsmustern</li>
+<li><a class="external text" href="http://c2.com/cgi/wiki?WikiPagesAboutWhatArePatterns" rel="nofollow"><i>Wiki Pages About What Are Patterns</i>.</a> <a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">Portland Pattern Repository</a>; Einstiegsseite (englisch)</li>
+<li><a class="external text" href="http://c2.com/doc/oopsla87.html" rel="nofollow">Artikel von Beck und Cunningham</a> (englisch)</li>
+<li><a class="external text" href="http://wwwswt.informatik.uni-rostock.de/deutsch/Infothek/Entwurfsmuster/patterns/index.html" rel="nofollow">Entwurfsmuster Übersicht</a></li>
+<li><a class="external text" href="http://www.cs.helsinki.fi/u/salaakso/patterns/" rel="nofollow">User Interface Design Patterns</a></li>
+<li><a class="external text" href="http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns/2707195#2707195" rel="nofollow">Liste von Patterns in der Java API</a></li>
+<li><span class="cite">Addy Osmani: <a class="external text" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" rel="nofollow"><i>Learning JavaScript Design Patterns.</i></a> Abgerufen am <span style="white-space:nowrap;">24. Mai 2013</span> (englisch, Entwurfsmuster in <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>).</span><span class="Z3988" style="display: none;" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Fde.wikipedia.org%3AEntwurfsmuster&amp;rft.title=Learning+JavaScript+Design+Patterns&amp;rft.description=Learning+JavaScript+Design+Patterns&amp;rft.identifier=http%3A%2F%2Faddyosmani.com%2Fresources%2Fessentialjsdesignpatterns%2Fbook%2F&amp;rft.creator=Addy+Osmani&amp;rft.language=en"> </span></li>
+<li>Helmut Leitner: <a class="external text" href="http://band2.dieweltdercommons.de/essays/mit_mustern_arbeiten.html" rel="nofollow"><i>Mit Mustern arbeiten - Eine Einführung</i></a> aus <i>Die Welt der Commons - Muster des gemeinsamen Handelns</i>. transcript-verlag Bielefeld, 2015, S. 26</li>
+</ul>
+<h2><span class="mw-headline" id="Einzelnachweise">Einzelnachweise</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit&amp;vesection=12" title="Abschnitt bearbeiten: Einzelnachweise">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Entwurfsmuster&amp;action=edit&amp;section=12" title="Abschnitt bearbeiten: Einzelnachweise">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Andreas Zeller: <a class="external text" href="https://www.st.cs.uni-saarland.de/edu/einst/06-patterns.pdf" rel="nofollow"><i>Entwurfsmuster</i></a> auf st.cs.uni-saarland.de (PDF, S. 2.)</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, <a href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson" title="Ralph Johnson">Ralph E. Johnson</a>, <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a>: <cite style="font-style:italic">Entwurfsmuster</cite>. Elemente wiederverwendbarer objektorientierter Software. Addison Wesley, München 2004, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/3827321999">ISBN 3-8273-2199-9</a> (englisch: <cite class="lang" dir="auto" lang="en" style="font-style:italic" xml:lang="en">Design Patterns. Elements of Reusable Object-Oriented Software.</cite>).<span class="Z3988" style="display:none" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Entwurfsmuster&amp;rft.au=Erich+Gamma%2C+Richard+Helm%2C+Ralph+E.+Johnson%2C+...&amp;rft.btitle=Entwurfsmuster&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=3827321999&amp;rft.place=M%C3%BCnchen&amp;rft.pub=Addison+Wesley"> </span></span></li>
+<li id="cite_note-PoEAA-3"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-PoEAA_3-0">a</a></sup> <sup><a href="#cite_ref-PoEAA_3-1">b</a></sup></span> <span class="reference-text">Martin Fowler: <cite style="font-style:italic">Patterns of Enterprise Application Architecture</cite>. Addison-Wesley-Longman, Amsterdam 2002, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/0321127420">ISBN 0-321-12742-0</a>.<span class="Z3988" style="display:none" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Entwurfsmuster&amp;rft.au=Martin+Fowler&amp;rft.btitle=Patterns+of+Enterprise+Application+Architecture&amp;rft.date=2002-11&amp;rft.genre=book&amp;rft.isbn=0321127420&amp;rft.place=Amsterdam&amp;rft.pub=Addison-Wesley-Longman"> </span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a>, Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid Fiksfahl-King, Shlomo Angel: <i>Eine Muster-Sprache. Städte, Gebäude, Konstruktion.</i> Löcker, Wien 1995, <a class="internal mw-magiclink-isbn" href="/wiki/Spezial:ISBN-Suche/3854091796">ISBN 3-85409-179-6</a>.</span></li>
+</ol>
+<div class="NavFrame">
+<div class="NavHead" style="background:#efefef;"><span style="float:left;font-size:x-small;"><span style="visibility:hidden;">Ausklappen</span></span><strong class="selflink">Entwurfsmuster</strong></div>
+<div class="NavContent" style="clear:left;">
+<table class="wikitable zebra" style="width:100%;margin:0;text-align:left;font-size:95%;margin-top:.1em;margin-bottom:.0em;">
+<tr style="display:none">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 2px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Entwurfsmuster_(Buch)" title="Entwurfsmuster (Buch)">Viererbande</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<div class="Broken-NavContent">
+<table class="wikitable zebra" style="width:100%;margin:0;text-align:left;border-collapse:collapse;margin-top:.1em;margin-bottom:.1em;">
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 2px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Erzeugungsmuster" title="Erzeugungsmuster">Erzeugungsmuster</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><a href="/wiki/Abstrakte_Fabrik" title="Abstrakte Fabrik">Abstrakte Fabrik</a> | <a href="/wiki/Erbauer_(Entwurfsmuster)" title="Erbauer (Entwurfsmuster)">Erbauer</a> | <i><a href="/wiki/Fabrikmethode" title="Fabrikmethode">Fabrikmethode</a></i> | <a href="/wiki/Prototyp_(Entwurfsmuster)" title="Prototyp (Entwurfsmuster)">Prototyp</a> | <a href="/wiki/Singleton_(Entwurfsmuster)" title="Singleton (Entwurfsmuster)">Singleton</a></p>
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 2px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Strukturmuster" title="Strukturmuster">Strukturmuster</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><i><a href="/wiki/Adapter_(Entwurfsmuster)" title="Adapter (Entwurfsmuster)">Adapter</a></i> | <a href="/wiki/Br%C3%BCcke_(Entwurfsmuster)" title="Brücke (Entwurfsmuster)">Brücke</a> | <a href="/wiki/Decorator" title="Decorator">Decorator</a> | <a href="/wiki/Fassade_(Entwurfsmuster)" title="Fassade (Entwurfsmuster)">Fassade</a> | <a href="/wiki/Fliegengewicht_(Entwurfsmuster)" title="Fliegengewicht (Entwurfsmuster)">Fliegengewicht</a> | <a href="/wiki/Kompositum_(Entwurfsmuster)" title="Kompositum (Entwurfsmuster)">Kompositum</a> | <a href="/wiki/Stellvertreter_(Entwurfsmuster)" title="Stellvertreter (Entwurfsmuster)">Stellvertreter</a></p>
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Verhaltensmuster_(Software)" title="Verhaltensmuster (Software)">Verhaltensmuster</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><a href="/wiki/Beobachter_(Entwurfsmuster)" title="Beobachter (Entwurfsmuster)">Beobachter</a> | <a href="/wiki/Besucher_(Entwurfsmuster)" title="Besucher (Entwurfsmuster)">Besucher</a> | <i><a href="/wiki/Interpreter_(Entwurfsmuster)" title="Interpreter (Entwurfsmuster)">Interpreter</a></i> | <a href="/wiki/Iterator_(Entwurfsmuster)" title="Iterator (Entwurfsmuster)">Iterator</a> | <a href="/wiki/Kommando_(Entwurfsmuster)" title="Kommando (Entwurfsmuster)">Kommando</a> | <a href="/wiki/Memento_(Entwurfsmuster)" title="Memento (Entwurfsmuster)">Memento</a> | <i><a href="/wiki/Schablonenmethode" title="Schablonenmethode">Schablonenmethode</a></i> | <a href="/wiki/Strategie_(Entwurfsmuster)" title="Strategie (Entwurfsmuster)">Strategie</a> | <a href="/wiki/Vermittler_(Entwurfsmuster)" title="Vermittler (Entwurfsmuster)">Vermittler</a> | <a href="/wiki/Zustand_(Entwurfsmuster)" title="Zustand (Entwurfsmuster)">Zustand</a> | <a href="/wiki/Zust%C3%A4ndigkeitskette" title="Zuständigkeitskette">Zuständigkeitskette</a></p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;padding: 0 1em;"><b>Weitere<br/>
+Standardmuster</b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<div class="Broken-NavContent">
+<table class="wikitable zebra" style="width:100%;margin:0;text-align:left;border-collapse:collapse;margin-top:.1em;margin-bottom:.1em;">
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Erzeugungsmuster" title="Erzeugungsmuster">Erzeugungsmuster</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><a href="/wiki/Multiton" title="Multiton">Multiton</a> | <a href="/wiki/Objektpool" title="Objektpool">Objektpool</a></p>
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 2px solid #FFF;padding: 0 1em;"><b><a href="/wiki/Verhaltensmuster_(Software)" title="Verhaltensmuster (Software)">Verhaltensmuster</a></b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><a href="/wiki/Interceptor_(Entwurfsmuster)" title="Interceptor (Entwurfsmuster)">Interceptor</a> | <a href="/wiki/Nullobjekt_(Entwurfsmuster)" title="Nullobjekt (Entwurfsmuster)">Nullobjekt</a> | <a href="/wiki/Protokollstapel" title="Protokollstapel">Protokollstapel</a></p>
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;text-align: right;background: #DDE5EE;border: 1px solid transparent;border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;padding: 0 1em;"><b>Andere</b></td>
+<td class="hlist" style="text-align: left;border-left: 2px solid #fdfdfd;width: 100%;margin: .4em 0;border-color: #fdfdfd;padding: 0 .25em;">
+<p><a href="/wiki/Business_Delegate" title="Business Delegate">Business Delegate</a> | <a href="/wiki/Repository_(Entwurfsmuster)" title="Repository (Entwurfsmuster)">Repository</a> | <a href="/wiki/Data_Access_Object" title="Data Access Object">Data Access Object</a> | <a href="/wiki/Transferobjekt" title="Transferobjekt">Transferobjekt</a> | <a href="/wiki/Dependency_Injection" title="Dependency Injection">Dependency Injection</a> | <a href="/wiki/Extension_Interface" title="Extension Interface">Extension Interface</a> | <a href="/wiki/Fluent_Interface" title="Fluent Interface">Fluent Interface</a> | <a href="/wiki/Inversion_of_Control" title="Inversion of Control">Inversion of Control</a> (IoC) | <a href="/wiki/Model_View_Controller" title="Model View Controller">Model View Controller</a> (MCP) | <a class="mw-redirect" href="/wiki/Model_View_Presenter" title="Model View Presenter">Model View Presenter</a> (MVP) | <a href="/wiki/Model_View_ViewModel" title="Model View ViewModel">Model View ViewModel</a> (MVVM) | <a class="new" href="/w/index.php?title=Threadpool&amp;action=edit&amp;redlink=1" title="Threadpool (Seite nicht vorhanden)">Threadpool</a> | <a class="new" href="/w/index.php?title=Service_Locator&amp;action=edit&amp;redlink=1" title="Service Locator (Seite nicht vorhanden)">Service Locator</a> | <a href="/wiki/Registry_(Entwurfsmuster)" title="Registry (Entwurfsmuster)">Registry</a></p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<!-- Saved in parser cache with key dewiki:stable-pcache:idhash:11799-0!*!0!!de!4!* and timestamp 20161001074719 and revision id 158104029
+ -->
+<noscript><img alt="" height="1" src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Abgerufen von „<a dir="ltr" href="https://de.wikipedia.org/w/index.php?title=Entwurfsmuster&amp;oldid=158104029">https://de.wikipedia.org/w/index.php?title=Entwurfsmuster&amp;oldid=158104029</a>“					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Wikipedia:Kategorien" title="Wikipedia:Kategorien">Kategorien</a>: <ul><li><a href="/wiki/Kategorie:Entwurfsmuster" title="Kategorie:Entwurfsmuster">Entwurfsmuster</a></li><li><a href="/wiki/Kategorie:Systems_Engineering" title="Kategorie:Systems Engineering">Systems Engineering</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigationsmenü</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Meine Werkzeuge</h3>
+<ul>
+<li id="pt-anonuserpage">Nicht angemeldet</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Spezial:Meine_Diskussionsseite" title="Diskussion über Änderungen von dieser IP-Adresse [n]">Diskussionsseite</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Spezial:Meine_Beitr%C3%A4ge" title="Eine Liste der Bearbeitungen, die von dieser IP-Adresse gemacht wurden [y]">Beiträge</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Spezial:Benutzerkonto_anlegen&amp;returnto=Entwurfsmuster" title="Wir ermutigen dich dazu, ein Benutzerkonto zu erstellen und dich anzumelden. Es ist jedoch nicht zwingend erforderlich.">Benutzerkonto erstellen</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Spezial:Anmelden&amp;returnto=Entwurfsmuster" title="Anmelden ist zwar keine Pflicht, wird aber gerne gesehen. [o]">Anmelden</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namensräume</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Entwurfsmuster" title="Seiteninhalt anzeigen [c]">Artikel</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Diskussion:Entwurfsmuster" rel="discussion" title="Diskussion zum Seiteninhalt [t]">Diskussion</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Varianten</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Ansichten</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Entwurfsmuster">Lesen</a></span></li>
+<li id="ca-ve-edit"><span><a accesskey="v" href="/w/index.php?title=Entwurfsmuster&amp;veaction=edit" title="Diese Seite mit dem VisualEditor bearbeiten [v]">Bearbeiten</a></span></li>
+<li class=" collapsible" id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Entwurfsmuster&amp;action=edit" title="Diese Seite bearbeiten [e]">Quelltext bearbeiten</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Entwurfsmuster&amp;action=history" title="Frühere Versionen dieser Seite [h]">Versionsgeschichte</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>Mehr</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Suche</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Suchen" title="Durchsuche die Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Spezial:Suche"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Suche nach Seiten, die diesen Text enthalten" type="submit" value="Volltext"/><input class="searchButton" id="searchButton" name="go" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." type="submit" value="Artikel"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikipedia:Hauptseite" title="Hauptseite"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:Hauptseite" title="Hauptseite besuchen [z]">Hauptseite</a></li><li id="n-topics"><a href="/wiki/Portal:Wikipedia_nach_Themen">Themenportale</a></li><li id="n-alphindex"><a href="/wiki/Spezial:Alle_Seiten">Von A bis Z</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [x]">Zufälliger Artikel</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-Mitmachen-label" class="portal" id="p-Mitmachen" role="navigation">
+<h3 id="p-Mitmachen-label">Mitmachen</h3>
+<div class="body">
+<ul>
+<li id="n-Artikel-verbessern"><a href="/wiki/Wikipedia:Beteiligen">Artikel verbessern</a></li><li id="n-Neuerartikel"><a href="/wiki/Hilfe:Neuen_Artikel_anlegen">Neuen Artikel anlegen</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Autorenportal" title="Info-Zentrum über Beteiligungsmöglichkeiten">Autorenportal</a></li><li id="n-help"><a href="/wiki/Hilfe:%C3%9Cbersicht" title="Hilfeseite anzeigen">Hilfe</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in Wikipedia [r]">Letzte Änderungen</a></li><li id="n-contact"><a href="/wiki/Wikipedia:Kontakt">Kontakt</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_de.wikipedia.org&amp;uselang=de" title="Unterstütze uns">Spenden</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Werkzeuge</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Spezial:Linkliste/Entwurfsmuster" title="Liste aller Seiten, die hierher verlinken [j]">Links auf diese Seite</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Entwurfsmuster" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [k]">Änderungen an verlinkten Seiten</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Spezial:Spezialseiten" title="Liste aller Spezialseiten [q]">Spezialseiten</a></li><li id="t-permalink"><a href="/w/index.php?title=Entwurfsmuster&amp;oldid=158104029" title="Dauerhafter Link zu dieser Seitenversion">Permanenter Link</a></li><li id="t-info"><a href="/w/index.php?title=Entwurfsmuster&amp;action=info" title="Weitere Informationen über diese Seite">Seiten­informationen</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q181156" title="Link zum verbundenen Objekt im Datenrepositorium [g]">Wikidata-Datenobjekt</a></li><li id="t-cite"><a href="/w/index.php?title=Spezial:Zitierhilfe&amp;page=Entwurfsmuster&amp;id=158104029" title="Hinweise, wie diese Seite zitiert werden kann">Artikel zitieren</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Drucken/­exportieren</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Spezial:Buch&amp;bookcmd=book_creator&amp;referer=Entwurfsmuster">Buch erstellen</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Spezial:Buch&amp;bookcmd=render_article&amp;arttitle=Entwurfsmuster&amp;returnto=Entwurfsmuster&amp;oldid=158104029&amp;writer=rdf2latex">Als PDF herunterladen</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Entwurfsmuster&amp;printable=yes" title="Druckansicht dieser Seite [p]">Druckversion</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In anderen Projekten</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Software_design_patterns" hreflang="en">Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://de.wikibooks.org/wiki/Muster" hreflang="de">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">In anderen Sprachen</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Ontwerpspatroon_(rekenaarwetenskap)" hreflang="af" lang="af" title="Ontwerpspatroon (rekenaarwetenskap) – Afrikaans">Afrikaans</a></li><li class="interlanguage-link interwiki-als"><a href="https://als.wikipedia.org/wiki/Entwurfsmuster" hreflang="als" lang="als" title="Entwurfsmuster – Alemannisch">Alemannisch</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%A7%D8%B0%D8%AC_%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_(%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="نماذج التصميم (هندسة البرمجيات) – Arabisch">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1u" hreflang="ast" lang="ast" title="Patrón de diseñu – Asturianisch">Asturianu</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%B7%D0%B0_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" hreflang="bg" lang="bg" title="Шаблони за дизайн – Bulgarisch">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Ra%C4%8Dunarska_dizajn_%C5%A1ema" hreflang="bs" lang="bs" title="Računarska dizajn šema – Bosnisch">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Patr%C3%B3_de_disseny" hreflang="ca" lang="ca" title="Patró de disseny – Katalanisch">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/N%C3%A1vrhov%C3%BD_vzor" hreflang="cs" lang="cs" title="Návrhový vzor – Tschechisch">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Design_pattern" hreflang="da" lang="da" title="Design pattern – Dänisch">Dansk</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC_%CF%80%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B1" hreflang="el" lang="el" title="Σχεδιαστικά πρότυπα – Griechisch">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Software_design_pattern" hreflang="en" lang="en" title="Software design pattern – Englisch">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o" hreflang="es" lang="es" title="Patrón de diseño – Spanisch">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C_(%D8%AF%D8%A7%D9%86%D8%B4_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)" hreflang="fa" lang="fa" title="الگوی طراحی (دانش رایانه) – Persisch">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Suunnittelumalli" hreflang="fi" lang="fi" title="Suunnittelumalli – Finnisch">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Patron_de_conception" hreflang="fr" lang="fr" title="Patron de conception – Französisch">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Patr%C3%B3n_de_dese%C3%B1o" hreflang="gl" lang="gl" title="Patrón de deseño – Galizisch">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%91%D7%A0%D7%99%D7%AA_%D7%A2%D7%99%D7%A6%D7%95%D7%91" hreflang="he" lang="he" title="תבנית עיצוב – Hebräisch">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%87%E0%A4%A8_%E0%A4%AA%E0%A5%88%E0%A4%9F%E0%A4%B0%E0%A5%8D%E0%A4%A8_(%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8)" hreflang="hi" lang="hi" title="डिज़ाइन पैटर्न (कंप्यूटर विज्ञान) – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Programtervezési minta – Ungarisch">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%86%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Նախագծման ձևանմուշներ – Armenisch">Հայերեն</a></li><li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Patrono_de_designo" hreflang="ia" lang="ia" title="Patrono de designo – Interlingua">Interlingua</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Pola_desain" hreflang="id" lang="id" title="Pola desain – Indonesisch">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Design_pattern" hreflang="it" lang="it" title="Design pattern – Italienisch">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)" hreflang="ja" lang="ja" title="デザインパターン (ソフトウェア) – Japanisch">日本語</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%91%D0%B0%D2%93%D0%B4%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B0%D0%BB%D1%8B%D2%9B_%D0%B6%D0%B0%D1%81%D0%B0%D2%9B%D1%82%D0%B0%D0%BC%D0%B0_%D3%A9%D2%A3%D0%B4%D0%B5%D1%83_%D2%AF%D0%BB%D0%B3%D1%96%D1%81%D1%96" hreflang="kk" lang="kk" title="Бағдарламалық жасақтама өңдеу үлгісі – Kasachisch">Қазақша</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Projektavimo_pavyzdys" hreflang="lt" lang="lt" title="Projektavimo pavyzdys – Litauisch">Lietuvių</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Projekt%C4%93%C5%A1anas_%C5%A1ablons" hreflang="lv" lang="lv" title="Projektēšanas šablons – Lettisch">Latviešu</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%A1%E0%B4%BF%E0%B4%B8%E0%B5%88%E0%B5%BB_%E0%B4%AA%E0%B4%BE%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%87%E0%B5%BA_(%E0%B4%95%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%BC_%E0%B4%B6%E0%B4%BE%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82)" hreflang="ml" lang="ml" title="ഡിസൈൻ പാറ്റേൺ (കമ്പ്യൂട്ടർ ശാസ്ത്രം) – Malayalam">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Ontwerppatroon" hreflang="nl" lang="nl" title="Ontwerppatroon – Niederländisch">Nederlands</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Designm%C3%B8nster" hreflang="no" lang="no" title="Designmønster – Norwegisch">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wzorzec_projektowy_(informatyka)" hreflang="pl" lang="pl" title="Wzorzec projektowy (informatyka) – Polnisch">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" hreflang="pt" lang="pt" title="Padrão de projeto de software – Portugiesisch">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Шаблон проектирования – Russisch">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Dizajn_shema" hreflang="sh" lang="sh" title="Dizajn shema – Serbo-Kroatisch">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Design_pattern" hreflang="simple" lang="simple" title="Design pattern – Simple English">Simple English</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%98%D0%B5%D0%BA%D1%82%D0%BD%D0%B8_%D1%83%D0%B7%D0%BE%D1%80%D1%86%D0%B8" hreflang="sr" lang="sr" title="Пројектни узорци – Serbisch">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Designm%C3%B6nster" hreflang="sv" lang="sv" title="Designmönster – Schwedisch">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81" hreflang="ta" lang="ta" title="வடிவமைப்புப் பாங்கு – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%9E%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%99" hreflang="th" lang="th" title="ดีไซน์แพตเทิร์น – Thailändisch">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Tasar%C4%B1m_%C3%B6r%C3%BCnt%C3%BCleri" hreflang="tr" lang="tr" title="Tasarım örüntüleri – Türkisch">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Шаблони проектування програмного забезпечення – Ukrainisch">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/M%E1%BA%ABu_thi%E1%BA%BFt_k%E1%BA%BF_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" hreflang="vi" lang="vi" title="Mẫu thiết kế (khoa học máy tính) – Vietnamesisch">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" hreflang="zh" lang="zh" title="设计模式 (计算机) – Chinesisch">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q181156#sitelinks-wikipedia" title="Links auf Artikel in anderen Sprachen bearbeiten">Links bearbeiten</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> Diese Seite wurde zuletzt am 21. September 2016 um 14:51 Uhr geändert.</li>
+<li id="footer-info-copyright"><div id="footer-info-copyright-stats"><a class="external" href="https://tools.wmflabs.org/pageviews?pages=Entwurfsmuster&amp;project=de.wikipedia.org" rel="nofollow">Abrufstatistik</a></div><div id="footer-info-copyright-info"><br/>
+Der Text ist unter der Lizenz <a class="internal" href="//de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported">„Creative Commons Attribution/Share Alike“</a> verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den <a class="internal" href="//wikimediafoundation.org/wiki/Nutzungsbedingungen">Nutzungsbedingungen</a> und der <a class="internal" href="//de.wikipedia.org/wiki/Wikipedia:Datenschutz">Datenschutzrichtlinie</a> einverstanden.<br/>
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.</div></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://meta.wikimedia.org/wiki/Privacy_policy/de" title="m:Privacy policy/de">Datenschutz</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%C3%9Cber_Wikipedia" title="Wikipedia:Über Wikipedia">Über Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Impressum" title="Wikipedia:Impressum">Haftungsausschluss</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Entwickler</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Stellungnahme zu Cookies</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//de.m.wikipedia.org/w/index.php?title=Entwurfsmuster&amp;mobileaction=toggle_view_mobile">Mobile Ansicht</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.WikiMiniAtlas","ext.gadget.OpenStreetMap","ext.gadget.CommonsDirekt","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.flaggedRevs.advanced"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.268",
+            "walltime": "0.319",
+            "ppvisitednodes": {
+                "value": 2353,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 52494,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 21906,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 15,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  257.332      1 -total",
+                " 38.31%   98.586      1 Vorlage:Navigationsleiste_Entwurfsmuster",
+                " 37.49%   96.462      1 Vorlage:Erweiterte_Navigationsleiste",
+                " 32.62%   83.938      5 Vorlage:Literatur",
+                " 20.79%   53.506     72 Vorlage:Erweiterte_Navigationsleiste/Kern",
+                " 17.35%   44.658      1 Vorlage:Internetquelle",
+                " 10.41%   26.792      2 Vorlage:Erweiterte_Navigationsleiste/Untergruppe",
+                "  9.09%   23.397      1 Vorlage:Navigationsleiste_Entwurfsmuster/Viererbande",
+                "  7.48%   19.247      2 Vorlage:FormatDate",
+                "  3.39%    8.735      2 Vorlage:Str_left"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.065",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2950952,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1180",
+            "timestamp": "20161001074719",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":273,"wgHostname":"mw1274"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,1091 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Visitor_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Visitor pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Visitor_pattern","wgTitle":"Visitor pattern","wgCurRevisionId":741294618,"wgRevisionId":741294618,"wgArticleId":38689,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from January 2014","All articles needing additional references","Commons category with page title same as on Wikidata","Software design patterns","Articles with example Java code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Visitor_pattern","wgRelevantArticleId":38689,"wgRequestId":"V-AKBApAADsAAXYYbF4AAAAT","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q830719","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Visitor_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Visitor_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Visitor_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Visitor_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Visitor_pattern rootpage-Visitor_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Visitor pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Visitor_pattern&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(January 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a class="image" href="/wiki/File:VisitorDiagram.svg"><img alt="" class="thumbimage" data-file-height="458" data-file-width="515" height="267" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/VisitorDiagram.svg/300px-VisitorDiagram.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/VisitorDiagram.svg/450px-VisitorDiagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/VisitorDiagram.svg/600px-VisitorDiagram.svg.png 2x" width="300"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:VisitorDiagram.svg" title="Enlarge"></a></div>
+Visitor in <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a class="image" href="/wiki/File:%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B02.gif"><img alt="" class="thumbimage" data-file-height="215" data-file-width="404" height="160" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B02.gif/300px-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B02.gif" srcset="//upload.wikimedia.org/wikipedia/commons/e/eb/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B02.gif 1.5x" width="300"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B02.gif" title="Enlarge"></a></div>
+Visitor in <a class="mw-redirect" href="/wiki/Lepus3" title="Lepus3">LePUS3</a> (<a class="external text" href="http://lepus.org.uk/ref/legend/legend.xml" rel="nofollow">legend</a>)</div>
+</div>
+</div>
+<p>In <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> and <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, the <b>visitor</b> <a href="/wiki/Software_design_pattern" title="Software design pattern">design pattern</a> is a way of separating an <a href="/wiki/Algorithm" title="Algorithm">algorithm</a> from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying those structures. It is one way to follow the <a href="/wiki/Open/closed_principle" title="Open/closed principle">open/closed principle</a>.</p>
+<p>In essence, the visitor allows one to add new <a href="/wiki/Virtual_function" title="Virtual function">virtual functions</a> to a family of classes without modifying the classes themselves; instead, one creates a visitor class that implements all of the appropriate specializations of the virtual function. The visitor takes the instance reference as input, and implements the goal through <a href="/wiki/Double_dispatch" title="Double dispatch">double dispatch</a>.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition"><span class="tocnumber">1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Motivation"><span class="tocnumber">2</span> <span class="toctext">Motivation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Details"><span class="tocnumber">3</span> <span class="toctext">Details</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#C.23_Example"><span class="tocnumber">4</span> <span class="toctext">C# Example</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Non-Visitor_OO_Version"><span class="tocnumber">4.1</span> <span class="toctext">Non-Visitor OO Version</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Dynamic_Visitor"><span class="tocnumber">4.2</span> <span class="toctext">Dynamic Visitor</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#C.2B.2B_example"><span class="tocnumber">5</span> <span class="toctext">C++ example</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Sources"><span class="tocnumber">5.1</span> <span class="toctext">Sources</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Output"><span class="tocnumber">5.2</span> <span class="toctext">Output</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Java_example"><span class="tocnumber">6</span> <span class="toctext">Java example</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Diagram"><span class="tocnumber">6.1</span> <span class="toctext">Diagram</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Sources_2"><span class="tocnumber">6.2</span> <span class="toctext">Sources</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Output_2"><span class="tocnumber">6.3</span> <span class="toctext">Output</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Common_Lisp_Example"><span class="tocnumber">7</span> <span class="toctext">Common Lisp Example</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Sources_3"><span class="tocnumber">7.1</span> <span class="toctext">Sources</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Output_3"><span class="tocnumber">7.2</span> <span class="toctext">Output</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Notes"><span class="tocnumber">7.3</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Related_design_patterns"><span class="tocnumber">8</span> <span class="toctext">Related design patterns</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Definition">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=1" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four</a> defines the Visitor as:</p>
+<blockquote class="templatequote">
+<p>Represent an operation to be performed on elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.</p>
+</blockquote>
+<p>The nature of the Visitor makes it an ideal pattern to plug into public APIs thus allowing its clients to perform operations on a class using a “visiting” class without having to modify the source.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<h2><span class="mw-headline" id="Motivation">Motivation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=2" title="Edit section: Motivation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Consider the design of a 2D <a href="/wiki/Computer-aided_design" title="Computer-aided design">CAD</a> system. At its core there are several types to represent basic geometric shapes like circles, lines and arcs. The entities are ordered into layers, and at the top of the type hierarchy is the drawing, which is simply a list of layers, plus some additional properties.</p>
+<p>A fundamental operation on this type hierarchy is saving the drawing to the system's native file format. At first glance it may seem acceptable to add local save methods to all types in the hierarchy. But then we also want to be able to save drawings to other file formats, and adding more and more methods for saving into lots of different file formats soon clutters the relatively pure geometric data structure we started out with.</p>
+<p>A naive way to solve this would be to maintain separate functions for each file format. Such a save function would take a drawing as input, traverse it and encode into that specific file format. But if you do this for several different formats, you soon begin to see lots of duplication between the functions. For example, saving a circle shape in a raster format requires very similar code no matter what specific raster form is used, and is different from other primitive shapes; the case for other primitive shapes like lines and polygons is similar. The code therefore becomes a large outer loop traversing through the objects, with a large decision tree inside the loop querying the type of the object. Another problem with this approach is that it is very easy to miss a shape in one or more savers, or a new primitive shape is introduced but the save routine is implemented only for one file type and not others, leading to code extension and maintenance problems.</p>
+<p>Instead, one could apply the Visitor pattern. The Visitor pattern encodes a logical operation on the whole hierarchy into a single class containing one method per type. In our CAD example, each save function would be implemented as a separate Visitor subclass. This would remove all duplication of type checks and traversal steps. It would also make the compiler complain if a shape is omitted.</p>
+<p>Another motivation is to reuse iteration code. For example, iterating over a directory structure could be implemented with a visitor pattern. This would allow you to create file searches, file backups, directory removal, etc. by implementing a visitor for each function while reusing the iteration code.</p>
+<h2><span class="mw-headline" id="Details">Details</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=3" title="Edit section: Details">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The visitor pattern requires a programming language that supports <a class="mw-redirect" href="/wiki/Single_dispatch" title="Single dispatch">single dispatch</a>. Under this condition, consider two objects, each of some class type; one is called the "element", and the other is called the "visitor". An element has an <code>accept</code> method that can take the visitor as an argument. The <code>accept</code> method calls a <code>visit</code> method of the visitor; the element passes itself as an argument to the <code>visit</code> method. Thus:</p>
+<ul>
+<li>When the <code>accept</code> method is called in the program, its implementation is chosen based on both:</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>The dynamic type of the element.</li>
+<li>The static type of the visitor.</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li>When the associated <code>visit</code> method is called, its implementation is chosen based on both:</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>The dynamic type of the visitor.</li>
+<li>The static type of the element as known from within the implementation of the <code>accept</code> method, which is the same as the dynamic type of the element. (As a bonus, if the visitor can't handle an argument of the given element's type, then the compiler will catch the error.)</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li>Consequently, the implementation of the <code>visit</code> method is chosen based on both:</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>The dynamic type of the element.</li>
+<li>The dynamic type of the visitor.</li>
+</ul>
+</dd>
+<dd>This effectively implements <a href="/wiki/Double_dispatch" title="Double dispatch">double dispatch</a>; indeed, because the <a class="mw-redirect" href="/wiki/Common_Lisp_(programming_language)" title="Common Lisp (programming language)">Common Lisp</a> language's object system supports multiple dispatch (not just single dispatch), implementing the visitor pattern in Common Lisp is trivial.</dd>
+</dl>
+<p>In this way, a single algorithm can be written for traversing a graph of elements, and many different kinds of operations can be performed during that traversal by supplying different kinds of visitors to interact with the elements based on the dynamic types of both the elements and the visitors.</p>
+<p>Some programming languages (e.g., <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> via the <a href="/wiki/Dynamic_Language_Runtime" title="Dynamic Language Runtime">Dynamic Language Runtime</a>) support the notion of <a href="/wiki/Multiple_dispatch" title="Multiple dispatch">Multiple dispatch</a>, which greatly simplifies the implementation of the Visitor pattern (a.k.a. Dynamic Visitor) by allowing the use of simple function overloading to cover all the cases being visited. A dynamic visitor, provided it operates on public data only, conforms to the <a href="/wiki/Open/closed_principle" title="Open/closed principle">Open/closed principle</a> (since it does not modify existing structures) as well as the <a href="/wiki/Single_responsibility_principle" title="Single responsibility principle">Single responsibility principle</a> (since it implements the Visitor pattern in a separate component).</p>
+<h2><span class="mw-headline" id="C.23_Example">C# Example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=4" title="Edit section: C# Example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>This example shows how to print a tree representing a numeric expression involving literals and their addition. The same example is presented using both classic and <a href="/wiki/Dynamic_Language_Runtime" title="Dynamic Language Runtime">DLR</a> implementations.</p>
+<h3><span class="mw-headline" id="Non-Visitor_OO_Version">Non-Visitor OO Version</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=5" title="Edit section: Non-Visitor OO Version">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A classic non-visitor OO implementation in which the Print operation is spread across the different classes.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">namespace</span> <span class="nn">Wikipedia</span>
+<span class="p">{</span>
+  <span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+  <span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+
+  <span class="k">abstract</span> <span class="k">class</span> <span class="nc">Expression</span>
+  <span class="p">{</span>
+    <span class="k">public</span> <span class="k">abstract</span> <span class="k">void</span> <span class="nf">Print</span><span class="p">(</span><span class="n">StringBuilder</span> <span class="n">sb</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Literal</span> <span class="p">:</span> <span class="n">Expression</span>
+  <span class="p">{</span>
+    <span class="kt">double</span> <span class="k">value</span><span class="p">;</span>
+    <span class="k">public</span> <span class="nf">Literal</span><span class="p">(</span><span class="kt">double</span> <span class="k">value</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="k">value</span> <span class="p">=</span> <span class="k">value</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">Print</span><span class="p">(</span><span class="n">StringBuilder</span> <span class="n">sb</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="k">value</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Addition</span> <span class="p">:</span> <span class="n">Expression</span>
+  <span class="p">{</span>
+    <span class="n">Expression</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">;</span>
+    <span class="k">public</span> <span class="nf">Addition</span><span class="p">(</span><span class="n">Expression</span> <span class="n">left</span><span class="p">,</span> <span class="n">Expression</span> <span class="n">right</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">left</span> <span class="p">=</span> <span class="n">left</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">right</span> <span class="p">=</span> <span class="n">right</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">Print</span><span class="p">(</span><span class="n">StringBuilder</span> <span class="n">sb</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">"("</span><span class="p">);</span>
+      <span class="n">left</span><span class="p">.</span><span class="n">Print</span><span class="p">(</span><span class="n">sb</span><span class="p">);</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">"+"</span><span class="p">);</span>
+      <span class="n">right</span><span class="p">.</span><span class="n">Print</span><span class="p">(</span><span class="n">sb</span><span class="p">);</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">")"</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Program</span>
+  <span class="p">{</span>
+    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="c1">// emulate 1+2+3</span>
+      <span class="kt">var</span> <span class="n">e</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Addition</span><span class="p">(</span>
+        <span class="k">new</span> <span class="nf">Addition</span><span class="p">(</span>
+          <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">1</span><span class="p">),</span>
+          <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">2</span><span class="p">)</span>
+        <span class="p">),</span> 
+        <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">3</span><span class="p">)</span>
+      <span class="p">);</span>
+      <span class="kt">var</span> <span class="n">sb</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
+      <span class="n">e</span><span class="p">.</span><span class="n">Print</span><span class="p">(</span><span class="n">sb</span><span class="p">);</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">sb</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Dynamic_Visitor">Dynamic Visitor</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=6" title="Edit section: Dynamic Visitor">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This example declares a separate <code>ExpressionPrinter</code> class that takes care of the printing. Note that the expression classes have to expose their members to make this possible.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">namespace</span> <span class="nn">Wikipedia</span>
+<span class="p">{</span>
+  <span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+  <span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+
+  <span class="k">abstract</span> <span class="k">class</span> <span class="nc">Expression</span>
+  <span class="p">{</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Literal</span> <span class="p">:</span> <span class="n">Expression</span>
+  <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">double</span> <span class="n">Value</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">Literal</span><span class="p">(</span><span class="kt">double</span> <span class="k">value</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">value</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Addition</span> <span class="p">:</span> <span class="n">Expression</span>
+  <span class="p">{</span>
+    <span class="k">public</span> <span class="n">Expression</span> <span class="n">Left</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">public</span> <span class="n">Expression</span> <span class="n">Right</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">Addition</span><span class="p">(</span><span class="n">Expression</span> <span class="n">left</span><span class="p">,</span> <span class="n">Expression</span> <span class="n">right</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">Left</span> <span class="p">=</span> <span class="n">left</span><span class="p">;</span>
+      <span class="n">Right</span> <span class="p">=</span> <span class="n">right</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">ExpressionPrinter</span>
+  <span class="p">{</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">Print</span><span class="p">(</span><span class="n">Literal</span> <span class="n">literal</span><span class="p">,</span> <span class="n">StringBuilder</span> <span class="n">sb</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="n">literal</span><span class="p">.</span><span class="n">Value</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">Print</span><span class="p">(</span><span class="n">Addition</span> <span class="n">addition</span><span class="p">,</span> <span class="n">StringBuilder</span> <span class="n">sb</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">"("</span><span class="p">);</span>
+      <span class="n">Print</span><span class="p">((</span><span class="kt">dynamic</span><span class="p">)</span> <span class="n">addition</span><span class="p">.</span><span class="n">Left</span><span class="p">,</span> <span class="n">sb</span><span class="p">);</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">"+"</span><span class="p">);</span>
+      <span class="n">Print</span><span class="p">((</span><span class="kt">dynamic</span><span class="p">)</span> <span class="n">addition</span><span class="p">.</span><span class="n">Right</span><span class="p">,</span> <span class="n">sb</span><span class="p">);</span>
+      <span class="n">sb</span><span class="p">.</span><span class="n">Append</span><span class="p">(</span><span class="s">")"</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">class</span> <span class="nc">Program</span>
+  <span class="p">{</span>
+    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+    <span class="p">{</span>
+      <span class="c1">// emulate 1+2+3</span>
+      <span class="kt">var</span> <span class="n">e</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Addition</span><span class="p">(</span>
+        <span class="k">new</span> <span class="nf">Addition</span><span class="p">(</span>
+          <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">1</span><span class="p">),</span>
+          <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">2</span><span class="p">)</span>
+        <span class="p">),</span> 
+        <span class="k">new</span> <span class="nf">Literal</span><span class="p">(</span><span class="m">3</span><span class="p">)</span>
+      <span class="p">);</span>
+      <span class="kt">var</span> <span class="n">sb</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="p">();</span>
+      <span class="n">ExpressionPrinter</span><span class="p">.</span><span class="n">Print</span><span class="p">((</span><span class="kt">dynamic</span><span class="p">)</span> <span class="n">e</span><span class="p">,</span> <span class="n">sb</span><span class="p">);</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">sb</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h2><span class="mw-headline" id="C.2B.2B_example">C++ example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=7" title="Edit section: C++ example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=8" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span>
+
+<span class="k">class</span> <span class="nc">AbstractDispatcher</span><span class="p">;</span>	<span class="c1">// Forward declare AbstractDispatcher</span>
+
+<span class="k">class</span> <span class="nc">File</span> <span class="p">{</span>	<span class="c1">// Parent class for the elements (ArchivedFile, SplitFile and ExtractedFile)</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="c1">// This function accepts an object of any class derived from AbstractDispatcher and must be implemented in all derived classes</span>
+	<span class="k">virtual</span> <span class="kt">void</span> <span class="n">accept</span><span class="p">(</span><span class="n">AbstractDispatcher</span> <span class="o">&amp;</span><span class="n">dispatcher</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// Forward declare specific elements (files) to be dispatched</span>
+<span class="k">class</span> <span class="nc">ArchivedFile</span><span class="p">;</span>
+<span class="k">class</span> <span class="nc">SplitFile</span><span class="p">;</span>
+<span class="k">class</span> <span class="nc">ExtractedFile</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">AbstractDispatcher</span> <span class="p">{</span>	 <span class="c1">// Declares the interface for the dispatcher</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="c1">// Declare overloads for each kind of a file to dispatch</span>
+	<span class="k">virtual</span> <span class="kt">void</span> <span class="n">dispatch</span><span class="p">(</span><span class="n">ArchivedFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="k">virtual</span> <span class="kt">void</span> <span class="nf">dispatch</span><span class="p">(</span><span class="n">SplitFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="k">virtual</span> <span class="kt">void</span> <span class="nf">dispatch</span><span class="p">(</span><span class="n">ExtractedFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">ArchivedFile</span><span class="o">:</span> <span class="k">public</span> <span class="n">File</span> <span class="p">{</span>	 <span class="c1">// Specific element class #1</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="c1">// Resolved at runtime, it calls the dispatcher's overloaded function, corresponding to ArchivedFile.</span>
+	<span class="kt">void</span> <span class="n">accept</span><span class="p">(</span><span class="n">AbstractDispatcher</span> <span class="o">&amp;</span><span class="n">dispatcher</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">dispatcher</span><span class="p">.</span><span class="n">dispatch</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">SplitFile</span><span class="o">:</span> <span class="k">public</span> <span class="n">File</span> <span class="p">{</span>	 <span class="c1">// Specific element class #2</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="c1">// Resolved at runtime, it calls the dispatcher's overloaded function, corresponding to SplitFile.</span>
+	<span class="kt">void</span> <span class="n">accept</span><span class="p">(</span><span class="n">AbstractDispatcher</span> <span class="o">&amp;</span><span class="n">dispatcher</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">dispatcher</span><span class="p">.</span><span class="n">dispatch</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">ExtractedFile</span><span class="o">:</span> <span class="k">public</span> <span class="n">File</span> <span class="p">{</span>	 <span class="c1">// Specific element class #3</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="c1">// Resolved at runtime, it calls the dispatcher's overloaded function, corresponding to ExtractedFile.</span>
+	<span class="kt">void</span> <span class="n">accept</span><span class="p">(</span><span class="n">AbstractDispatcher</span> <span class="o">&amp;</span><span class="n">dispatcher</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">dispatcher</span><span class="p">.</span><span class="n">dispatch</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Dispatcher</span><span class="o">:</span> <span class="k">public</span> <span class="n">AbstractDispatcher</span> <span class="p">{</span>	<span class="c1">// Implements dispatching of all kind of elements (files)</span>
+<span class="k">public</span><span class="o">:</span>
+	<span class="kt">void</span> <span class="n">dispatch</span><span class="p">(</span><span class="n">ArchivedFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"dispatching ArchivedFile"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="kt">void</span> <span class="n">dispatch</span><span class="p">(</span><span class="n">SplitFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"dispatching SplitFile"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="kt">void</span> <span class="n">dispatch</span><span class="p">(</span><span class="n">ExtractedFile</span> <span class="o">&amp;</span><span class="n">file</span><span class="p">)</span> <span class="k">override</span> <span class="p">{</span>
+		<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"dispatching ExtractedFile"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">ArchivedFile</span> <span class="n">archivedFile</span><span class="p">;</span>
+	<span class="n">SplitFile</span> <span class="n">splitFile</span><span class="p">;</span>
+	<span class="n">ExtractedFile</span> <span class="n">extractedFile</span><span class="p">;</span>
+	
+	<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">File</span><span class="o">*&gt;</span> <span class="n">files</span><span class="p">;</span>	
+	<span class="n">files</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="o">&amp;</span><span class="n">archivedFile</span><span class="p">);</span>
+	<span class="n">files</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="o">&amp;</span><span class="n">splitFile</span><span class="p">);</span>
+	<span class="n">files</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="o">&amp;</span><span class="n">extractedFile</span><span class="p">);</span>
+
+	<span class="n">Dispatcher</span> <span class="n">dispatcher</span><span class="p">;</span>
+
+	<span class="k">for</span> <span class="p">(</span><span class="n">File</span><span class="o">*</span> <span class="nl">file</span> <span class="p">:</span> <span class="n">files</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">file</span><span class="o">-&gt;</span><span class="n">accept</span><span class="p">(</span><span class="n">dispatcher</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Output">Output</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=9" title="Edit section: Output">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<pre>
+dispatching ArchivedFile
+dispatching SplitFile
+dispatching ExtractedFile
+</pre>
+<h2><span class="mw-headline" id="Java_example">Java example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=10" title="Edit section: Java example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following example is in the <a class="mw-redirect" href="/wiki/Java_programming_language" title="Java programming language">Java programming language</a>, and shows how the contents of a tree of nodes (in this case describing the components of a car) can be printed. Instead of creating "print" methods for each node subclass (<code>Wheel</code>, <code>Engine</code>, <code>Body</code>, and <code>Car</code>), a single visitor class (<code>CarElementPrintVisitor</code>) performs the required printing action. Because different node subclasses require slightly different actions to print properly, <code>CarElementPrintVisitor</code> dispatches actions based on the class of the argument passed to its <code>visit</code> method. <code>CarElementDoVisitor</code>, which is analogous to a save operation for a different file format, does likewise.</p>
+<h3><span class="mw-headline" id="Diagram">Diagram</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=11" title="Edit section: Diagram">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a class="image" href="/wiki/File:UML_diagram_of_an_example_of_the_Visitor_design_pattern.png" title="UML diagram of the Visitor pattern example with Car Elements"><img alt="UML diagram of the Visitor pattern example with Car Elements" data-file-height="354" data-file-width="788" height="354" src="//upload.wikimedia.org/wikipedia/en/d/d9/UML_diagram_of_an_example_of_the_Visitor_design_pattern.png" width="788"/></a></p>
+<h3><span class="mw-headline" id="Sources_2">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=12" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">interface</span> <span class="nc">CarElementVisitor</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Wheel</span> <span class="n">wheel</span><span class="o">);</span>
+    <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Engine</span> <span class="n">engine</span><span class="o">);</span>
+    <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Body</span> <span class="n">body</span><span class="o">);</span>
+    <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="kd">interface</span> <span class="nc">CarElement</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">CarElementVisitor</span> <span class="n">visitor</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Wheel</span> <span class="kd">implements</span> <span class="n">CarElement</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">Wheel</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">name</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">CarElementVisitor</span> <span class="n">visitor</span><span class="o">)</span> <span class="o">{</span>
+        <span class="cm">/*</span>
+<span class="cm">         * accept(CarElementVisitor) in Wheel implements</span>
+<span class="cm">         * accept(CarElementVisitor) in CarElement, so the call</span>
+<span class="cm">         * to accept is bound at run time. This can be considered</span>
+<span class="cm">         * the first dispatch. However, the decision to call</span>
+<span class="cm">         * visit(Wheel) (as opposed to visit(Engine) etc.) can be</span>
+<span class="cm">         * made during compile time since 'this' is known at compile</span>
+<span class="cm">         * time to be a Wheel. Moreover, each implementation of</span>
+<span class="cm">         * CarElementVisitor implements the visit(Wheel), which is</span>
+<span class="cm">         * another decision that is made at run time. This can be</span>
+<span class="cm">         * considered the second dispatch.</span>
+<span class="cm">         */</span>
+        <span class="n">visitor</span><span class="o">.</span><span class="na">visit</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Engine</span> <span class="kd">implements</span> <span class="n">CarElement</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">CarElementVisitor</span> <span class="n">visitor</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">visitor</span><span class="o">.</span><span class="na">visit</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Body</span> <span class="kd">implements</span> <span class="n">CarElement</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">CarElementVisitor</span> <span class="n">visitor</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">visitor</span><span class="o">.</span><span class="na">visit</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Car</span> <span class="kd">implements</span> <span class="n">CarElement</span> <span class="o">{</span>
+    <span class="n">CarElement</span><span class="o">[]</span> <span class="n">elements</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">Car</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">elements</span> <span class="o">=</span> <span class="k">new</span> <span class="n">CarElement</span><span class="o">[]</span> <span class="o">{</span> <span class="k">new</span> <span class="n">Wheel</span><span class="o">(</span><span class="s">"front left"</span><span class="o">),</span>
+            <span class="k">new</span> <span class="n">Wheel</span><span class="o">(</span><span class="s">"front right"</span><span class="o">),</span> <span class="k">new</span> <span class="n">Wheel</span><span class="o">(</span><span class="s">"back left"</span><span class="o">)</span> <span class="o">,</span>
+            <span class="k">new</span> <span class="n">Wheel</span><span class="o">(</span><span class="s">"back right"</span><span class="o">),</span> <span class="k">new</span> <span class="n">Body</span><span class="o">(),</span> <span class="k">new</span> <span class="n">Engine</span><span class="o">()</span> <span class="o">};</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">accept</span><span class="o">(</span><span class="n">CarElementVisitor</span> <span class="n">visitor</span><span class="o">)</span> <span class="o">{</span>    
+        <span class="k">for</span><span class="o">(</span><span class="n">CarElement</span> <span class="n">elem</span> <span class="o">:</span> <span class="n">elements</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">elem</span><span class="o">.</span><span class="na">accept</span><span class="o">(</span><span class="n">visitor</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="n">visitor</span><span class="o">.</span><span class="na">visit</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>    
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">CarElementPrintVisitor</span> <span class="kd">implements</span> <span class="n">CarElementVisitor</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Wheel</span> <span class="n">wheel</span><span class="o">)</span> <span class="o">{</span>      
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Visiting "</span> <span class="o">+</span> <span class="n">wheel</span><span class="o">.</span><span class="na">getName</span><span class="o">()</span> <span class="o">+</span> <span class="s">" wheel"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Engine</span> <span class="n">engine</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Visiting engine"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Body</span> <span class="n">body</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Visiting body"</span><span class="o">);</span>
+    <span class="o">}</span>
+ 
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>      
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Visiting car"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">CarElementDoVisitor</span> <span class="kd">implements</span> <span class="n">CarElementVisitor</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Wheel</span> <span class="n">wheel</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Kicking my "</span> <span class="o">+</span> <span class="n">wheel</span><span class="o">.</span><span class="na">getName</span><span class="o">()</span> <span class="o">+</span> <span class="s">" wheel"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Engine</span> <span class="n">engine</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Starting my engine"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Body</span> <span class="n">body</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Moving my body"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">visit</span><span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Starting my car"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">VisitorDemo</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">CarElement</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">();</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">accept</span><span class="o">(</span><span class="k">new</span> <span class="n">CarElementPrintVisitor</span><span class="o">());</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">accept</span><span class="o">(</span><span class="k">new</span> <span class="n">CarElementDoVisitor</span><span class="o">());</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p><b>Note</b>: A more flexible approach to this pattern is to create a wrapper class implementing the interface defining the accept method. The wrapper contains a reference pointing to the CarElement which could be initialized through the constructor. This approach avoids having to implement an interface on each element. <i>See article <a href="#External_links">Java Tip 98 article below</a></i></p>
+<h3><span class="mw-headline" id="Output_2">Output</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=13" title="Edit section: Output">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<pre>
+Visiting front left wheel
+Visiting front right wheel
+Visiting back left wheel
+Visiting back right wheel
+Visiting body
+Visiting engine
+Visiting car
+Kicking my front left wheel
+Kicking my front right wheel
+Kicking my back left wheel
+Kicking my back right wheel
+Moving my body
+Starting my engine
+Starting my car
+</pre>
+<h2><span class="mw-headline" id="Common_Lisp_Example">Common Lisp Example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=14" title="Edit section: Common Lisp Example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Sources_3">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=15" title="Edit section: Sources">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="p">(</span><span class="nb">defclass</span> <span class="nv">auto</span> <span class="p">()</span>
+  <span class="p">((</span><span class="nv">elements</span> <span class="ss">:initarg</span> <span class="ss">:elements</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nb">defclass</span> <span class="nv">auto-part</span> <span class="p">()</span>
+  <span class="p">((</span><span class="nv">name</span> <span class="ss">:initarg</span> <span class="ss">:name</span> <span class="ss">:initform</span> <span class="s">"&lt;unnamed-car-part&gt;"</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nb">print-object</span> <span class="p">((</span><span class="nv">p</span> <span class="nv">auto-part</span><span class="p">)</span> <span class="nc">stream</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">print-object</span> <span class="p">(</span><span class="nb">slot-value</span> <span class="nv">p</span> <span class="ss">'name</span><span class="p">)</span> <span class="nc">stream</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defclass</span> <span class="nv">wheel</span> <span class="p">(</span><span class="nv">auto-part</span><span class="p">)</span> <span class="p">())</span>
+
+<span class="p">(</span><span class="nb">defclass</span> <span class="nv">body</span> <span class="p">(</span><span class="nv">auto-part</span><span class="p">)</span> <span class="p">())</span>
+
+<span class="p">(</span><span class="nb">defclass</span> <span class="nv">engine</span> <span class="p">(</span><span class="nv">auto-part</span><span class="p">)</span> <span class="p">())</span>
+
+<span class="p">(</span><span class="nb">defgeneric</span> <span class="nv">traverse</span> <span class="p">(</span><span class="k">function</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">traverse</span> <span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="nv">a</span> <span class="nv">auto</span><span class="p">)</span> <span class="nv">other-object</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">with-slots</span> <span class="p">(</span><span class="nv">elements</span><span class="p">)</span> <span class="nv">a</span>
+    <span class="p">(</span><span class="nb">dolist</span> <span class="p">(</span><span class="nv">e</span> <span class="nv">elements</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">funcall</span> <span class="k">function</span> <span class="nv">e</span> <span class="nv">other-object</span><span class="p">))))</span>
+
+<span class="c1">;; do-something visitations</span>
+
+<span class="c1">;; catch all</span>
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">do-something</span> <span class="p">(</span><span class="nv">object</span> <span class="nv">other-object</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">"don't know how ~s and ~s should interact~%"</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="c1">;; visitation involving wheel and integer</span>
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">do-something</span> <span class="p">((</span><span class="nv">object</span> <span class="nv">wheel</span><span class="p">)</span> <span class="p">(</span><span class="nv">other-object</span> <span class="nc">integer</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">"kicking wheel ~s ~s times~%"</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="c1">;; visitation involving wheel and symbol</span>
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">do-something</span> <span class="p">((</span><span class="nv">object</span> <span class="nv">wheel</span><span class="p">)</span> <span class="p">(</span><span class="nv">other-object</span> <span class="nc">symbol</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">"kicking wheel ~s symbolically using symbol ~s~%"</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">do-something</span> <span class="p">((</span><span class="nv">object</span> <span class="nv">engine</span><span class="p">)</span> <span class="p">(</span><span class="nv">other-object</span> <span class="nc">integer</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">"starting engine ~s ~s times~%"</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">do-something</span> <span class="p">((</span><span class="nv">object</span> <span class="nv">engine</span><span class="p">)</span> <span class="p">(</span><span class="nv">other-object</span> <span class="nc">symbol</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">format</span> <span class="no">t</span> <span class="s">"starting engine ~s symbolically using symbol ~s~%"</span> <span class="nv">object</span> <span class="nv">other-object</span><span class="p">))</span>
+
+<span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">a</span> <span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'auto</span>
+                        <span class="ss">:elements</span> <span class="o">`</span><span class="p">(</span><span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'wheel</span> <span class="ss">:name</span> <span class="s">"front-left-wheel"</span><span class="p">)</span>
+                                    <span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'wheel</span> <span class="ss">:name</span> <span class="s">"front-right-wheel"</span><span class="p">)</span>
+                                    <span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'wheel</span> <span class="ss">:name</span> <span class="s">"rear-left-wheel"</span><span class="p">)</span>
+                                    <span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'wheel</span> <span class="ss">:name</span> <span class="s">"rear-right-wheel"</span><span class="p">)</span>
+                                    <span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'body</span> <span class="ss">:name</span> <span class="s">"body"</span><span class="p">)</span>
+                                    <span class="o">,</span><span class="p">(</span><span class="nb">make-instance</span> <span class="ss">'engine</span> <span class="ss">:name</span> <span class="s">"engine"</span><span class="p">)))))</span>
+  <span class="c1">;; traverse to print elements</span>
+  <span class="c1">;; stream *standard-output* plays the role of other-object here</span>
+  <span class="p">(</span><span class="nv">traverse</span> <span class="nf">#'</span><span class="nb">print</span> <span class="nv">a</span> <span class="vg">*standard-output*</span><span class="p">)</span>
+
+  <span class="p">(</span><span class="nb">terpri</span><span class="p">)</span> <span class="c1">;; print newline</span>
+
+  <span class="c1">;; traverse with arbitrary context from other object</span>
+  <span class="p">(</span><span class="nv">traverse</span> <span class="nf">#'</span><span class="nv">do-something</span> <span class="nv">a</span> <span class="mi">42</span><span class="p">)</span>
+
+  <span class="c1">;; traverse with arbitrary context from other object</span>
+  <span class="p">(</span><span class="nv">traverse</span> <span class="nf">#'</span><span class="nv">do-something</span> <span class="nv">a</span> <span class="ss">'abc</span><span class="p">))</span>
+</pre></div>
+<h3><span class="mw-headline" id="Output_3">Output</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=16" title="Edit section: Output">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<pre>
+"front-left-wheel"
+"front-right-wheel"
+"rear-right-wheel"
+"rear-right-wheel"
+"body"
+"engine"
+kicking wheel "front-left-wheel" 42 times
+kicking wheel "front-right-wheel" 42 times
+kicking wheel "rear-right-wheel" 42 times
+kicking wheel "rear-right-wheel" 42 times
+don't know how "body" and 42 should interact
+starting engine "engine" 42 times
+kicking wheel "front-left-wheel" symbolically using symbol ABC
+kicking wheel "front-right-wheel" symbolically using symbol ABC
+kicking wheel "rear-right-wheel" symbolically using symbol ABC
+kicking wheel "rear-right-wheel" symbolically using symbol ABC
+don't know how "body" and ABC should interact
+starting engine "engine" symbolically using symbol ABC
+</pre>
+<h3><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=17" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <code>other-object</code> parameter is superfluous in <code>traverse</code>. The reason is that it is possible to use an anonymous function which calls the desired target method with a lexically captured object:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="p">(</span><span class="nb">defmethod</span> <span class="nv">traverse</span> <span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="nv">a</span> <span class="nv">auto</span><span class="p">))</span> <span class="c1">;; other-object removed</span>
+  <span class="p">(</span><span class="nb">with-slots</span> <span class="p">(</span><span class="nv">elements</span><span class="p">)</span> <span class="nv">a</span>
+    <span class="p">(</span><span class="nb">dolist</span> <span class="p">(</span><span class="nv">e</span> <span class="nv">elements</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">funcall</span> <span class="k">function</span> <span class="nv">e</span><span class="p">))))</span> <span class="c1">;; from here too</span>
+
+<span class="c1">;; ...</span>
+
+  <span class="c1">;; alternative way to print-traverse</span>
+  <span class="p">(</span><span class="nv">traverse</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">o</span><span class="p">)</span> <span class="p">(</span><span class="nb">print</span> <span class="nv">o</span> <span class="vg">*standard-output*</span><span class="p">))</span> <span class="nv">a</span><span class="p">)</span>
+
+  <span class="c1">;; alternative way to do-something with</span>
+  <span class="c1">;; elements of a and integer 42</span>
+  <span class="p">(</span><span class="nv">traverse</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">o</span><span class="p">)</span> <span class="p">(</span><span class="nv">do-something</span> <span class="nv">o</span> <span class="mi">42</span><span class="p">))</span> <span class="nv">a</span><span class="p">)</span>
+</pre></div>
+<p>Now, the multiple dispatch occurs in the call issued from the body of the anonymous function, and so <code>traverse</code> is just a mapping function which distributes a function application over the elements of an object. Thus all traces of the Visitor Pattern disappear, except for the mapping function, in which there is no evidence of two objects being involved. All knowledge of there being two objects and a dispatch on their types is in the lambda function.</p>
+<h2><span class="mw-headline" id="Related_design_patterns">Related design patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=18" title="Edit section: Related design patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command pattern</a>: It encapsulates like the visitor pattern one or more functions in an object to present them to a caller. Unlike the visitor, the command pattern does not enclose a principle to traverse the object structure.</li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator pattern</a>: This pattern defines a traversal principle like the visitor pattern without making a type differentiation within the traversed objects.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Double_dispatch" title="Double dispatch">Double</a> and <a href="/wiki/Multiple_dispatch" title="Multiple dispatch">multiple dispatch</a></li>
+<li><a href="/wiki/Function_object" title="Function object">Function object</a></li>
+<li><a href="/wiki/Algebraic_data_type" title="Algebraic data type">Algebraic data type</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=20" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external free" href="http://blog.coreycoogan.com/2009/06/16/visitor-pattern-real-world-example/" rel="nofollow">http://blog.coreycoogan.com/2009/06/16/visitor-pattern-real-world-example/</a></span></li>
+</ol>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Visitor_pattern&amp;action=edit&amp;section=21" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Visitor_pattern" title="commons:Category:Visitor pattern">Visitor pattern</a></b></i>.</td>
+</tr>
+</table>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wikibooks-logo-en-noslogan.svg"><img alt="" class="noviewer" data-file-height="400" data-file-width="400" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" width="40"/></a></td>
+<td class="mbox-text plainlist">The Wikibook <i><a class="extiw" href="//en.wikibooks.org/wiki/Computer_Science_Design_Patterns" title="wikibooks:Computer Science Design Patterns">Computer Science Design Patterns</a></i> has a page on the topic of: <i><b><a class="extiw" href="//en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Visitor" title="wikibooks:Computer Science Design Patterns/Visitor">Visitor implementations in various languages</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://objectmentor.com/resources/articles/visitor.pdf" rel="nofollow">The Visitor Family of Design Patterns</a> - a rough chapter from <i><a class="new" href="/w/index.php?title=The_Principles,_Patterns,_and_Practices_of_Agile_Software_Development&amp;action=edit&amp;redlink=1" title="The Principles, Patterns, and Practices of Agile Software Development (page does not exist)">The Principles, Patterns, and Practices of Agile Software Development</a></i>, <a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert C. Martin</a>, Prentice Hall</li>
+<li><a class="external text" href="http://www.lepus.org.uk/ref/companion/Visitor.xml" rel="nofollow">Visitor pattern in UML and in LePUS3</a> (a Design Description Language)</li>
+<li>Article "<a class="external text" href="http://se.ethz.ch/~meyer/publications/computer/visitor.pdf" rel="nofollow">Componentization: the Visitor Example</a> by <a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a> and Karine Arnout, <i>Computer</i> (IEEE), vol. 39, no. 7, July 2006, pages 23-30.</li>
+<li>Article <a class="external text" href="http://www.cs.bham.ac.uk/~hxt/research/mfps-visitors.pdf" rel="nofollow">A Type-theoretic Reconstruction of the Visitor Pattern</a></li>
+<li>Article "<a class="external text" href="http://citeseer.ist.psu.edu/palsberg97essence.html" rel="nofollow">The Essence of the Visitor Pattern</a>" by <a class="new" href="/w/index.php?title=Jens_Palsberg&amp;action=edit&amp;redlink=1" title="Jens Palsberg (page does not exist)">Jens Palsberg</a> and <a class="new" href="/w/index.php?title=C._Barry_Jay&amp;action=edit&amp;redlink=1" title="C. Barry Jay (page does not exist)">C. Barry Jay</a>. 1997 <a href="/wiki/IEEE_Computer_Society" title="IEEE Computer Society">IEEE-CS</a> <a href="/wiki/Software_engineering" title="Software engineering">COMPSAC</a> paper showing that accept() methods are unnecessary when reflection is available; introduces term 'Walkabout' for the technique.</li>
+<li>Article "<a class="external text" href="http://www.polyglotinc.com/reflection.html" rel="nofollow">A Time for Reflection</a>" by <a class="new" href="/w/index.php?title=Bruce_Wallace&amp;action=edit&amp;redlink=1" title="Bruce Wallace (page does not exist)">Bruce Wallace</a> - subtitled <i>"Java 1.2's reflection capabilities eliminate burdensome accept() methods from your Visitor pattern"</i></li>
+<li><a class="external text" href="http://goblin.colourcountry.net/apt1002/Visitor%20patterns" rel="nofollow">Visitor Patterns</a> as a universal model of terminating computation.</li>
+<li><a class="external text" href="http://www.oodesign.com/oo_design_patterns/behavioral_patterns/visitor_pattern.html" rel="nofollow">Visitor Pattern</a> using reflection(java).</li>
+<li><a class="external text" href="http://perfectjpattern.sourceforge.net/dp-visitor.html" rel="nofollow">PerfectJPattern Open Source Project</a>, Provides a context-free and type-safe implementation of the Visitor Pattern in Java based on Delegates.</li>
+<li><a class="external text" href="http://sourcemaking.com/design_patterns/visitor" rel="nofollow">Visitor Design Pattern</a></li>
+<li><a class="external text" href="http://patterns.pl/visitor.html" rel="nofollow">Visitor C++11 implementation example</a></li>
+<li>Article <a class="external text" href="http://www.javaworld.com/javaworld/javatips/jw-javatip98.html" rel="nofollow">Java Tip 98: Reflect on the Visitor design pattern</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><strong class="selflink">Visitor</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:38689-0!*!0!!en!4!* and timestamp 20160929173251 and revision id 741294618
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Visitor_pattern&amp;oldid=741294618">https://en.wikipedia.org/w/index.php?title=Visitor_pattern&amp;oldid=741294618</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_January_2014" title="Category:Articles needing additional references from January 2014">Articles needing additional references from January 2014</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Commons_category_with_page_title_same_as_on_Wikidata" title="Category:Commons category with page title same as on Wikidata">Commons category with page title same as on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Visitor+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Visitor+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Visitor_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Visitor_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Visitor_pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Visitor_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Visitor_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Visitor_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Visitor_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Visitor_pattern&amp;oldid=741294618" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Visitor_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q830719" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Visitor_pattern&amp;id=741294618" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Visitor+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Visitor+pattern&amp;returnto=Visitor+pattern&amp;oldid=741294618&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Visitor_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Visitor_pattern" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Visitor" hreflang="en">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D1%82%D0%B5%D0%BB_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD)" hreflang="bg" lang="bg" title="Посетител (шаблон) – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Visitor_(n%C3%A1vrhov%C3%BD_vzor)" hreflang="cs" lang="cs" title="Visitor (návrhový vzor) – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Besucher_(Entwurfsmuster)" hreflang="de" lang="de" title="Besucher (Entwurfsmuster) – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dise%C3%B1o)" hreflang="es" lang="es" title="Visitor (patrón de diseño) – Spanish">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception)" hreflang="fr" lang="fr" title="Visiteur (patron de conception) – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Visitor_(patr%C3%B3n_de_dese%C3%B1o)" hreflang="gl" lang="gl" title="Visitor (patrón de deseño) – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A7%80%ED%84%B0_%ED%8C%A8%ED%84%B4" hreflang="ko" lang="ko" title="비지터 패턴 – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Visitor" hreflang="it" lang="it" title="Visitor – Italian">Italiano</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/L%C3%A1togat%C3%B3_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Látogató programtervezési minta – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Visitor_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3" hreflang="ja" lang="ja" title="Visitor パターン – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Odwiedzaj%C4%85cy" hreflang="pl" lang="pl" title="Odwiedzający – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Visitor_Pattern" hreflang="pt" lang="pt" title="Visitor Pattern – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)" hreflang="ru" lang="ru" title="Посетитель (шаблон проектирования) – Russian">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Bes%C3%B6kare" hreflang="sv" lang="sv" title="Besökare – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%B4%D0%B2%D1%96%D0%B4%D1%83%D0%B2%D0%B0%D1%87_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)" hreflang="uk" lang="uk" title="Відвідувач (шаблон проектування) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Visitor_pattern" hreflang="vi" lang="vi" title="Visitor pattern – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="访问者模式 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q830719#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 September 2016, at 16:03.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Visitor_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.128",
+            "walltime": "0.178",
+            "ppvisitednodes": {
+                "value": 975,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 36575,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1972,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  131.263      1 -total",
+                " 37.67%   49.449      1 Template:Refimprove",
+                " 29.19%   38.314      1 Template:Commons_category",
+                " 26.93%   35.349      2 Template:Sister_project",
+                " 25.92%   34.018      1 Template:Commons",
+                " 24.57%   32.255      1 Template:Ambox",
+                " 24.34%   31.947      2 Template:Side_box",
+                " 19.92%   26.143      1 Template:Design_Patterns_Patterns",
+                " 18.83%   24.718      2 Template:Navbox",
+                "  8.92%   11.710      1 Template:Navbox_subgroup"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.026",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1328101,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1265",
+            "timestamp": "20160929173251",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":127,"wgHostname":"mw1264"});});</script>
+</body>
+</html>
+

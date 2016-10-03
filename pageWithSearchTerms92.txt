@@ -1,0 +1,654 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Thread-Specific_Storage
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Thread-local storage - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Thread-local_storage","wgTitle":"Thread-local storage","wgCurRevisionId":731468908,"wgRevisionId":731468908,"wgArticleId":1649638,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from December 2012","All articles needing additional references","Software design patterns","Use dmy dates from May 2011","Threads (computing)","Variable (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Thread-local_storage","wgRelevantArticleId":1649638,"wgRequestId":"V-BuGwpAEK4AADS-pyMAAABS","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Thread-Specific_Storage","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Thread-local_storage","wgWikibaseItemId":"Q3121132","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Thread-local_storage" rel="alternate"/>
+<link href="/w/index.php?title=Thread-local_storage&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Thread-local_storage&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Thread-local_storage" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Thread-local_storage rootpage-Thread-local_storage skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Thread-local storage</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Thread-Specific_Storage&amp;redirect=no" title="Thread-Specific Storage">Thread-Specific Storage</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Thread-local_storage&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(December 2012)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p><b>Thread-local storage</b> (<b>TLS</b>) is a computer programming method that uses <a class="mw-redirect" href="/wiki/Static_memory_allocation" title="Static memory allocation">static</a> or global <a class="mw-redirect" href="/wiki/Computer_storage" title="Computer storage">memory</a> local to a <a href="/wiki/Thread_(computing)" title="Thread (computing)">thread</a>.</p>
+<p>TLS is used in some places where ordinary, single-threaded programs would use <a class="mw-redirect" href="/wiki/Global_variables" title="Global variables">global variables</a> but where this would be inappropriate in multithreaded cases. An example of such situations is where functions use a global variable to set an error condition (for example the global variable <code><a class="mw-redirect" href="/wiki/Errno" title="Errno">errno</a></code> used by many functions of the C library). If <code><a class="mw-redirect" href="/wiki/Errno" title="Errno">errno</a></code> were a global variable, a call of a system function on one thread may overwrite the value previously set by a call of a system function on a different thread, possibly before following code on that different thread could check for the error condition. The solution is to have <code><a class="mw-redirect" href="/wiki/Errno" title="Errno">errno</a></code> be a variable that looks like it is global, but in fact exists once per thread—i.e., it lives in thread-local storage. A second use case would be multiple threads accumulating information into a global variable. To avoid a <a href="/wiki/Race_condition" title="Race condition">race condition</a>, every access to this global variable would have to be protected by a mutex. Alternatively, each thread might accumulate into a thread-local variable (that, by definition, can not be read from or written to from other threads, implying that there can be no race conditions). Threads then only have to synchronise a final accumulation from their own thread-local variable into a single, truly global variable.</p>
+<p>Many systems impose restrictions on the size of the thread-local memory block, in fact often rather tight limits. On the other hand, if a system can provide at least a <a href="/wiki/Memory_address" title="Memory address">memory address</a> (pointer) sized variable thread-local, then this allows the use of arbitrarily sized memory blocks in a thread-local manner, by allocating such a memory block dynamically and storing the <a href="/wiki/Memory_address" title="Memory address">memory address</a> of that block in the thread-local variable.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Windows_implementation"><span class="tocnumber">1</span> <span class="toctext">Windows implementation</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Pthreads_implementation"><span class="tocnumber">2</span> <span class="toctext">Pthreads implementation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Language-specific_implementation"><span class="tocnumber">3</span> <span class="toctext">Language-specific implementation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#C_and_C.2B.2B"><span class="tocnumber">3.1</span> <span class="toctext">C and C++</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Common_Lisp_.28and_maybe_other_dialects.29"><span class="tocnumber">3.2</span> <span class="toctext">Common Lisp (and maybe other dialects)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#D"><span class="tocnumber">3.3</span> <span class="toctext">D</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Java"><span class="tocnumber">3.4</span> <span class="toctext">Java</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#.NET_languages:_C.23_and_others"><span class="tocnumber">3.5</span> <span class="toctext">.NET languages: C# and others</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Object_Pascal"><span class="tocnumber">3.6</span> <span class="toctext">Object Pascal</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Objective-C"><span class="tocnumber">3.7</span> <span class="toctext">Objective-C</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Perl"><span class="tocnumber">3.8</span> <span class="toctext">Perl</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Python"><span class="tocnumber">3.9</span> <span class="toctext">Python</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Ruby"><span class="tocnumber">3.10</span> <span class="toctext">Ruby</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Windows_implementation">Windows implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=1" title="Edit section: Windows implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <a href="/wiki/Application_programming_interface" title="Application programming interface">application programming interface</a> (API) function <code>TlsAlloc</code> can be used to obtain an unused <i>TLS slot index</i>; the <i>TLS slot index</i> will then be considered ‘used’.</p>
+<p>The <code>TlsGetValue</code> and <code>TlsSetValue</code> functions are then used to read and write a memory address to a thread-local variable identified by the <i>TLS slot index</i>. <code>TlsSetValue</code> only affects the variable for the current thread. The <code>TlsFree</code> function can be called to release the <i>TLS slot index</i>.</p>
+<p>There is a <a href="/wiki/Win32_Thread_Information_Block" title="Win32 Thread Information Block">Win32 Thread Information Block</a> for each thread. One of the entries in this block is the thread-local storage table for that thread.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> TlsAlloc returns an index to this table, unique per address space, for each call. Each thread has its own copy of the thread-local storage table. Hence, each thread can independently use TlsSetValue(index) and obtain the specified value via TlsGetValue(index), because these set and look up an entry in the thread's own table.</p>
+<p>Apart from TlsXxx function family, Windows executables can define a section which is mapped to a different page for each thread of the executing process. Unlike TlsXxx values, these pages can contain arbitrary and valid addresses. These addresses, however, are different for each executing thread and therefore should not be passed to asynchronous functions (which may execute in a different thread) or otherwise passed to code which assume that a virtual address is unique within the whole process. TLS sections are managed using <a href="/wiki/Paging" title="Paging">memory paging</a> and its size is quantized to a page size (4kB on x86 machines). Such sections may only be defined inside a main executable of a program - <a href="/wiki/Dynamic-link_library" title="Dynamic-link library">DLLs</a> should not contain such sections, because they are not correctly initialized when loading with LoadLibrary.</p>
+<h2><span class="mw-headline" id="Pthreads_implementation">Pthreads implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=2" title="Edit section: Pthreads implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In the <a class="mw-redirect" href="/wiki/Pthreads" title="Pthreads">Pthreads</a> API, memory local to a thread is designated with the term Thread-specific data.</p>
+<p>The functions <code>pthread_key_create</code> and <code>pthread_key_delete</code> are used respectively to create and delete a key for thread-specific data. The type of the key is explicitly left opaque and is referred to as <code>pthread_key_t</code>. This key can be seen by all threads. In each thread, the key can be associated with thread-specific data via <code>pthread_setspecific</code>. The data can later be retrieved using <code>pthread_getspecific</code>.</p>
+<p>In addition <code>pthread_key_create</code> can optionally accept a destructor function that will automatically be called at thread exit, if the thread-specific data is not <i>NULL</i>. The destructor receives the value associated with the key as parameter so it can perform cleanup actions (close connections, free memory, etc.). Even when a destructor is specified, the program must still call <code>pthread_key_delete</code> to free the thread-specific data at process level (the destructor only frees the data local to the thread).</p>
+<p>It should be noted pthreads isn't the only way Unix multi-threaded and multi-cpu can share memory; far from it. ie. MIT-SHM is an older yet capable standard. Note pthreads has undergone many incompatible version changes, also that (linux) libc stopped using /lib/tls/libs, that pthreads is not "tls" and is not limited to sharing memory between threads in a particular manner structured as a "standard tls". Moreso that in linux gas(1) and ld(1) have been continually modifying how pthreads gets implemented at compile time. tls is important for libc efficiency when multi-thread applications link against it but is rarely a concern for non-OS-lib libs and apps and should perhaps be avoided (due to rapid incompatibility of code).</p>
+<h2><span class="mw-headline" id="Language-specific_implementation">Language-specific implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=3" title="Edit section: Language-specific implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Apart from relying on programmers to call the appropriate API functions, it is also possible to extend the programming language to support TLS.</p>
+<h3><span class="mw-headline" id="C_and_C.2B.2B">C and C++</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=4" title="Edit section: C and C++">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/C11_(C_standard_revision)" title="C11 (C standard revision)">C11</a>, the keyword <code>_Thread_local</code> is used to define thread-local variables. The header <code>&lt;threads.h&gt;</code>, if supported, defines <code>thread_local</code> as a synonym for that keyword. Example usage:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;threads.h&gt;</span>
+<span class="n">thread_local</span> <span class="kt">int</span> <span class="n">foo</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</pre></div>
+<p><a href="/wiki/C%2B%2B11" title="C++11">C++11</a> introduces the <code>thread_local</code><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> keyword which can be used in the following cases</p>
+<ul>
+<li>Namespace level (global) variables</li>
+<li>File static variables</li>
+<li>Function static variables</li>
+<li>Static member variables</li>
+</ul>
+<p>Aside from that, various C++ compiler implementations provide specific ways to declare thread-local variables:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Oracle_Solaris_Studio" title="Oracle Solaris Studio">Solaris Studio</a> C/C++, IBM XL C/C++,<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> <a href="/wiki/GNU_Compiler_Collection" title="GNU Compiler Collection">GNU C</a>,<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> <a href="/wiki/Clang" title="Clang">Clang</a><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> and <a href="/wiki/Intel_C%2B%2B_Compiler" title="Intel C++ Compiler">Intel C++ Compiler</a> (Linux systems)<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup> use the syntax:
+<dl>
+<dd><code>__thread int number;</code></dd>
+</dl>
+</li>
+<li><a href="/wiki/Visual_C%2B%2B" title="Visual C++">Visual C++</a>,<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> Intel C/C++ (Windows systems),<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> <a href="/wiki/C%2B%2BBuilder" title="C++Builder">C++Builder</a>, and Digital Mars C++ use the syntax:
+<dl>
+<dd><code>__declspec(thread) int number;</code></dd>
+</dl>
+</li>
+<li>C++Builder also supports the syntax:
+<dl>
+<dd><code>int __thread number;</code></dd>
+</dl>
+</li>
+</ul>
+<p>On Windows versions before Vista and Server 2008, <code>__declspec(thread)</code> works in DLLs only when those DLLs are bound to the executable, and will <i>not</i> work for those loaded with <i>LoadLibrary()</i> (a protection fault or data corruption may occur).<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></p>
+<h3><span class="mw-headline" id="Common_Lisp_.28and_maybe_other_dialects.29">Common Lisp (and maybe other dialects)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=5" title="Edit section: Common Lisp (and maybe other dialects)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a> provides a feature called <a href="/wiki/Scope_(computer_science)#Dynamic_scoping" title="Scope (computer science)">dynamically scoped</a> variables.</p>
+<p>Dynamic variables have a binding which is private to the invocation of a function and all of the children called by that function.</p>
+<p>This abstraction naturally maps to thread-specific storage, and Lisp implementations that provide threads do this. Common Lisp has numerous standard dynamic variables, and so threads cannot be sensibly added to an implementation of the language without these variables having thread-local semantics in dynamic binding.</p>
+<p>For instance the standard variable <code>*print-base*</code> determines the default radix in which integers are printed. If this variable is overridden, then all enclosing code will print integers in an alternate radix:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">;;; function foo and its children will print</span>
+<span class="c1">;; in hexadecimal:</span>
+<span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="vg">*print-base*</span> <span class="mi">16</span><span class="p">))</span> <span class="p">(</span><span class="nv">foo</span><span class="p">))</span>
+</pre></div>
+<p>If functions can execute concurrently on different threads, this binding has to be properly thread-local, otherwise each thread will fight over who controls a global printing radix.</p>
+<h3><span class="mw-headline" id="D">D</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=6" title="Edit section: D">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/D_(programming_language)" title="D (programming language)">D</a> version 2, all static and global variables are thread-local by default and are declared with syntax similar to "normal" global and static variables in other languages. Global variables must be explicitly requested using the <i>shared</i> keyword:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kt">int</span> <span class="n">threadLocal</span><span class="p">;</span>  <span class="c1">// This is a thread-local variable.</span>
+<span class="k">shared</span> <span class="kt">int</span> <span class="n">global</span><span class="p">;</span>  <span class="c1">// This is a global variable shared with all threads.</span>
+</pre></div>
+<p>The <i>shared</i> keyword works both as the storage class, and as a <a href="/wiki/Type_qualifier" title="Type qualifier">type qualifier</a> – <i>shared</i> variables are subject to some restrictions which statically enforce data integrity.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> To declare a "classic" global variable without these restrictions, the unsafe <i>__gshared</i> keyword must be used:<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">__gshared</span> <span class="kt">int</span> <span class="n">global</span><span class="p">;</span>  <span class="c1">// This is a plain old global variable.</span>
+</pre></div>
+<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=7" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, thread-local variables are implemented by the <code><a class="external text" href="//docs.oracle.com/javase/8/docs/api/java/lang/ThreadLocal.html" rel="nofollow">ThreadLocal</a></code> <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">class</a> object. ThreadLocal holds variable of type T, which is accessible via get/set methods. For example ThreadLocal variable holding Integer value looks like this:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">ThreadLocal</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">myThreadLocalInteger</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ThreadLocal</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;();</span>
+</pre></div>
+<p>At least for Oracle/OpenJDK, this does not use native thread-local storage in spite of OS threads being used for other aspects of Java threading. Instead, each Thread object stores a (non-thread-safe) map of ThreadLocal objects to their values (as opposed to each ThreadLocal having a map of Thread objects to values and incurring a performance overhead).<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></p>
+<h3><span class="mw-headline" id=".NET_languages:_C.23_and_others">.NET languages: C# and others</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=8" title="Edit section: .NET languages: C# and others">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/.NET_Framework" title=".NET Framework">.NET Framework</a> languages such as <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>, static fields can be marked with the <a class="external text" href="http://msdn2.microsoft.com/en-us/library/system.threadstaticattribute(vs.80).aspx" rel="nofollow">ThreadStatic attribute</a>:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">FooBar</span> <span class="p">{</span>
+<span class="na">   [ThreadStatic]</span> <span class="k">static</span> <span class="kt">int</span> <span class="n">foo</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p>In .NET 4.0 the <a class="external text" href="http://msdn.microsoft.com/en-us/library/dd642243.aspx" rel="nofollow">System.Threading.ThreadLocal&lt;T&gt;</a> class is available for allocating and lazily loading thread-local variables.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">FooBar</span> <span class="p">{</span>
+   <span class="k">private</span> <span class="k">static</span> <span class="n">System</span><span class="p">.</span><span class="n">Threading</span><span class="p">.</span><span class="n">ThreadLocal</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">foo</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p>Also <a class="external text" href="http://msdn2.microsoft.com/en-us/library/system.threading.thread.getnameddataslot(vs.80).aspx" rel="nofollow">an API</a> is available for dynamically allocating thread-local variables.</p>
+<h3><span class="mw-headline" id="Object_Pascal">Object Pascal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=9" title="Edit section: Object Pascal">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/Object_Pascal" title="Object Pascal">Object Pascal</a> (Delphi) or <a href="/wiki/Free_Pascal" title="Free Pascal">Free Pascal</a> the <i>threadvar</i> reserved keyword can be used instead of 'var' to declare variables using the thread-local storage.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">var</span>
+   <span class="n">mydata_process</span><span class="o">:</span> <span class="kt">integer</span><span class="o">;</span>
+<span class="k">threadvar</span>
+   <span class="n">mydata_threadlocal</span><span class="o">:</span> <span class="kt">integer</span><span class="o">;</span>
+</pre></div>
+<h3><span class="mw-headline" id="Objective-C">Objective-C</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=10" title="Edit section: Objective-C">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/Cocoa_(API)" title="Cocoa (API)">Cocoa</a>, <a href="/wiki/GNUstep" title="GNUstep">GNUstep</a>, and <a href="/wiki/OpenStep" title="OpenStep">OpenStep</a>, each <tt>NSThread</tt> object has a thread-local dictionary that can be accessed through the thread's <tt>threadDictionary</tt> method.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="bp">NSMutableDictionary</span> <span class="o">*</span><span class="n">dict</span> <span class="o">=</span> <span class="p">[[</span><span class="bp">NSThread</span> <span class="n">currentThread</span><span class="p">]</span> <span class="n">threadDictionary</span><span class="p">];</span>
+<span class="n">dict</span><span class="p">[</span><span class="s">@"A key"</span><span class="p">]</span> <span class="o">=</span> <span class="s">@"Some data"</span><span class="p">;</span>
+</pre></div>
+<h3><span class="mw-headline" id="Perl">Perl</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=11" title="Edit section: Perl">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/Perl" title="Perl">Perl</a> threads were added late in the evolution of the language, after a large body of extant code was already present on the <a class="mw-redirect" href="/wiki/Comprehensive_Perl_Archive_Network" title="Comprehensive Perl Archive Network">Comprehensive Perl Archive Network</a> (CPAN). Thus, threads in Perl by default take their own local storage for all variables, to minimise the impact of threads on extant non-thread-aware code. In Perl, a thread-shared variable can be created using an attribute:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">use</span> <span class="n">threads</span><span class="p">;</span>
+<span class="k">use</span> <span class="nn">threads::</span><span class="n">shared</span><span class="p">;</span>
+
+<span class="k">my</span> <span class="nv">$localvar</span><span class="p">;</span>
+<span class="k">my</span> <span class="nv">$sharedvar</span> <span class="p">:</span><span class="n">shared</span><span class="p">;</span>
+</pre></div>
+<h3><span class="mw-headline" id="Python">Python</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=12" title="Edit section: Python">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a> version 2.4 or later, <i>local</i> class in <i>threading</i> module can be used to create thread-local storage.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">threading</span>
+<span class="n">mydata</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">local</span><span class="p">()</span>
+<span class="n">mydata</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+<h3><span class="mw-headline" id="Ruby">Ruby</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=13" title="Edit section: Ruby">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a> can create/access thread-local variables using []=/[] methods:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="no">Thread</span><span class="o">.</span><span class="n">current</span><span class="o">[</span><span class="ss">:user_id</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=14" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web">Pietrek, Matt (May 2006). <a class="external text" href="http://www.microsoft.com/msj/archive/s2ce.aspx" rel="nofollow">"Under the Hood"</a>. <i><a class="mw-redirect" href="/wiki/MSDN" title="MSDN">MSDN</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">6 April</span> 2010</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AThread-local+storage&amp;rft.atitle=Under+the+Hood&amp;rft.aufirst=Matt&amp;rft.aulast=Pietrek&amp;rft.date=2006-05&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.microsoft.com%2Fmsj%2Farchive%2Fs2ce.aspx&amp;rft.jtitle=MSDN&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Section 3.7.2 in C++11 standard</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">IBM XL C/C++: <a class="external text" href="http://www-01.ibm.com/support/docview.wss?uid=swg27007322&amp;aid=1#6" rel="nofollow">Thread-local storage</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">GCC 3.3.1: <a class="external text" href="https://gcc.gnu.org/onlinedocs/gcc-3.3.1/gcc/Thread-Local.html#Thread-Local" rel="nofollow">Thread-Local Storage</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Clang 2.0: <a class="external text" href="http://llvm.org/releases/2.0/docs/ReleaseNotes.html" rel="nofollow">release notes</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Intel C++ Compiler 8.1 (linux) release notes: <a class="external text" href="http://download.intel.com/support/performancetools/c/linux/sb/clin81_relnotes.pdf#4" rel="nofollow">Thread-local Storage</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Visual Studio 2003: <a class="external text" href="http://msdn.microsoft.com/en-us/library/9w1sdazb%28v=vs.71%29.aspx" rel="nofollow">Thread extended storage-class modifier</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Intel C++ Compiler 10.0 (windows): <a class="external text" href="http://software.intel.com/sites/default/files/m/2/4/8/5/d/16949-347599.pdf#155" rel="nofollow">Thread-local storage</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a class="external text" href="http://msdn2.microsoft.com/en-us/library/2s9wt68x.aspx" rel="nofollow">"Rules and Limitations for TLS"</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web">Alexandrescu, Andrei (July 6, 2010). <a class="external text" href="http://www.informit.com/articles/article.aspx?p=1609144&amp;seqNum=3" rel="nofollow">"Chapter 13 - Concurrency"</a>. <i>The D Programming Language</i>. InformIT. p. 3<span class="reference-accessdate">. Retrieved <span class="nowrap">January 3,</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AThread-local+storage&amp;rft.atitle=Chapter+13+-+Concurrency&amp;rft.au=Alexandrescu%2C+Andrei&amp;rft.date=2010-07-06&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.informit.com%2Farticles%2Farticle.aspx%3Fp%3D1609144%26seqNum%3D3&amp;rft.jtitle=The+D+Programming+Language&amp;rft.pages=3&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web">Bright, Walter (May 12, 2009). <a class="external text" href="http://dlang.org/migrate-to-shared.html" rel="nofollow">"Migrating to Shared"</a>. <i>dlang.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">January 3,</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AThread-local+storage&amp;rft.atitle=Migrating+to+Shared&amp;rft.au=Bright%2C+Walter&amp;rft.date=2009-05-12&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdlang.org%2Fmigrate-to-shared.html&amp;rft.jtitle=dlang.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://stackoverflow.com/questions/1202444/how-is-javas-threadlocal-implemented-under-the-hood" rel="nofollow">"How is Java's ThreadLocal implemented under the hood?"</a>. <i>Stack Overflow</i>. Stack Exchange<span class="reference-accessdate">. Retrieved <span class="nowrap">27 December</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AThread-local+storage&amp;rft.atitle=How+is+Java%27s+ThreadLocal+implemented+under+the+hood%3F&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F1202444%2Fhow-is-javas-threadlocal-implemented-under-the-hood&amp;rft.jtitle=Stack+Overflow&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Thread-local_storage&amp;action=edit&amp;section=15" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.akkadia.org/drepper/tls.pdf" rel="nofollow">ELF Handling For Thread-Local Storage</a> — Document about an implementation in <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> or <a href="/wiki/C%2B%2B" title="C++">C++</a>.</li>
+<li><a class="external text" href="http://www.dre.vanderbilt.edu/Doxygen/Stable/ace/classACE__TSS.html#_details" rel="nofollow">ACE_TSS&lt; TYPE &gt; Class Template Reference</a></li>
+<li><a class="external text" href="http://www.roguewave.com/support/docs/hppdocs/thrref/rwtthreadlocal.html#sec4" rel="nofollow">RWTThreadLocal&lt;Type&gt; Class Template Documentation</a></li>
+<li>Article "<a class="external text" href="http://www.c-sharpcorner.com/UploadFile/ddoedens/UseThreadLocals11212005053901AM/UseThreadLocals.aspx" rel="nofollow">Use thread-local Storage to Pass Thread Specific Data</a>" by <a class="new" href="/w/index.php?title=Doug_Doedens&amp;action=edit&amp;redlink=1" title="Doug Doedens (page does not exist)">Doug Doedens</a></li>
+<li>"<a class="external text" href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n1966.html" rel="nofollow">Thread-Local Storage</a>" by <a class="new" href="/w/index.php?title=Lawrence_Crowl&amp;action=edit&amp;redlink=1" title="Lawrence Crowl (page does not exist)">Lawrence Crowl</a></li>
+<li>Article "<a class="external text" href="http://www.ddj.com/cpp/217600495" rel="nofollow">It's Not Always Nice To Share</a>" by <a href="/wiki/Walter_Bright" title="Walter Bright">Walter Bright</a></li>
+<li>Practical ThreadLocal usage in Java: <a class="external free" href="http://blogs.captechconsulting.com/blog/balaji-muthuvarathan/persistence-pattern-using-threadlocal-and-ejb-interceptors" rel="nofollow">http://blogs.captechconsulting.com/blog/balaji-muthuvarathan/persistence-pattern-using-threadlocal-and-ejb-interceptors</a></li>
+<li>GCC "<a class="external autonumber" href="https://gcc.gnu.org/onlinedocs/gcc-3.3.1/gcc/Thread-Local.html" rel="nofollow">[1]</a>"</li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><strong class="selflink">Thread-local storage</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1649638-0!*!0!!en!4!* and timestamp 20160928003335 and revision id 731468908
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Thread-local_storage&amp;oldid=731468908">https://en.wikipedia.org/w/index.php?title=Thread-local_storage&amp;oldid=731468908</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Threads_(computing)" title="Category:Threads (computing)">Threads (computing)</a></li><li><a href="/wiki/Category:Variable_(computer_science)" title="Category:Variable (computer science)">Variable (computer science)</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_December_2012" title="Category:Articles needing additional references from December 2012">Articles needing additional references from December 2012</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_May_2011" title="Category:Use dmy dates from May 2011">Use dmy dates from May 2011</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Thread-local+storage" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Thread-local+storage" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Thread-local_storage" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Thread-local_storage" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Thread-local_storage">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Thread-local_storage&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Thread-local_storage&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Thread-local_storage" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Thread-local_storage" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Thread-local_storage&amp;oldid=731468908" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Thread-local_storage&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q3121132" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Thread-local_storage&amp;id=731468908" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Thread-local+storage">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Thread-local+storage&amp;returnto=Thread-local+storage&amp;oldid=731468908&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Thread-local_storage&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Thread-local_storage" hreflang="de" lang="de" title="Thread-local storage – German">Deutsch</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Thread_Local_Storage" hreflang="fr" lang="fr" title="Thread Local Storage – French">Français</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89%E5%B1%80%E6%89%80%E8%A8%98%E6%86%B6" hreflang="ja" lang="ja" title="スレッド局所記憶 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_lokalna_w%C4%85tku" hreflang="pl" lang="pl" title="Pamięć lokalna wątku – Polish">Polski</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BF%D0%B0%D0%BC%27%D1%8F%D1%82%D1%8C_%D0%BD%D0%B8%D1%82%D0%B5%D0%B9" hreflang="uk" lang="uk" title="Локальна пам'ять нитей – Ukrainian">Українська</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q3121132#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 25 July 2016, at 15:26.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Thread-local_storage&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.214",
+            "walltime": "0.832",
+            "ppvisitednodes": {
+                "value": 1073,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 37672,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1184,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  781.245      1 -total",
+                " 10.43%   81.479      1 Template:Reflist",
+                "  7.87%   61.493      4 Template:Cite_web",
+                "  6.36%   49.653      1 Template:Refimprove",
+                "  4.15%   32.457      1 Template:Ambox",
+                "  4.05%   31.665      2 Template:Navbox",
+                "  3.81%   29.785      1 Template:Design_Patterns_patterns",
+                "  1.87%   14.624      1 Template:Navbox_subgroup",
+                "  1.72%   13.399      1 Template:Use_dmy_dates",
+                "  1.36%   10.604      1 Template:DMCA"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.073",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2788858,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1185",
+            "timestamp": "20160928003336",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":84,"wgHostname":"mw1219"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,871 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Knowledge representation and reasoning - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Knowledge_representation_and_reasoning","wgTitle":"Knowledge representation and reasoning","wgCurRevisionId":735288237,"wgRevisionId":735288237,"wgArticleId":16920,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from February 2016","Commons category with local link same as on Wikidata","Knowledge representation","Scientific modeling","Programming paradigms","Reasoning"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Knowledge_representation_and_reasoning","wgRelevantArticleId":16920,"wgRequestId":"V-DfoApAMEsAAEDK0PAAAAAI","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q3478658","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Knowledge_representation_and_reasoning" rel="alternate"/>
+<link href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Knowledge_representation_and_reasoning rootpage-Knowledge_representation_and_reasoning skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Knowledge representation and reasoning</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p><b>Knowledge representation and reasoning</b> (<b>KR</b>) is the field of <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">artificial intelligence</a> (AI) dedicated to representing information about the world in a form that a computer system can utilize to solve complex tasks such as diagnosing a medical condition or having a dialog in a <a href="/wiki/Natural_language" title="Natural language">natural language</a>. Knowledge representation incorporates findings from psychology<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2016)">citation needed</span></a></i>]</sup> about how humans solve problems and represent knowledge in order to design <a class="mw-redirect" href="/wiki/Formalism_(mathematics)" title="Formalism (mathematics)">formalisms</a> that will make complex systems easier to design and build. Knowledge representation and reasoning also incorporates findings from <a href="/wiki/Logic" title="Logic">logic</a> to automate various kinds of <i>reasoning</i>, such as the application of rules or the relations of <a href="/wiki/Set_theory" title="Set theory">sets</a> and <a href="/wiki/Subset" title="Subset">subsets</a>.</p>
+<p>Examples of knowledge representation formalisms include <a href="/wiki/Semantic_network" title="Semantic network">semantic nets</a>, <a href="/wiki/Systems_architecture" title="Systems architecture">systems architecture</a>, <a href="/wiki/Frame_(artificial_intelligence)" title="Frame (artificial intelligence)">Frames</a>, Rules, and <a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">ontologies</a>. Examples of <a href="/wiki/Automated_reasoning" title="Automated reasoning">automated reasoning</a> engines include <a href="/wiki/Inference_engine" title="Inference engine">inference engines</a>, <a href="/wiki/Automated_theorem_proving" title="Automated theorem proving">theorem provers</a>, and classifiers.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Overview"><span class="tocnumber">2</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Characteristics"><span class="tocnumber">3</span> <span class="toctext">Characteristics</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Ontology_engineering"><span class="tocnumber">4</span> <span class="toctext">Ontology engineering</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Commitment_begins_with_the_earliest_choices"><span class="tocnumber">4.1</span> <span class="toctext">Commitment begins with the earliest choices</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Commitments_accumulate_in_layers"><span class="tocnumber">4.2</span> <span class="toctext">Commitments accumulate in layers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The earliest work in computerized knowledge representation was focused on general problem solvers such as the <a href="/wiki/General_Problem_Solver" title="General Problem Solver">General Problem Solver</a> (GPS) system developed by <a href="/wiki/Allen_Newell" title="Allen Newell">Allen Newell</a> and <a href="/wiki/Herbert_A._Simon" title="Herbert A. Simon">Herbert A. Simon</a> in 1959. These systems featured data structures for planning and decomposition. The system would begin with a goal. It would then decompose that goal into sub-goals and then set out to construct strategies that could accomplish each subgoal.</p>
+<p>In these early days of AI, general search algorithms such as <a class="mw-redirect" href="/wiki/A*" title="A*">A*</a> were also developed. However, the amorphous problem definitions for systems such as GPS meant that they worked only for very constrained toy domains (e.g. the "<a href="/wiki/Blocks_world" title="Blocks world">blocks world</a>"). In order to tackle non-toy problems, AI researchers such as <a class="mw-redirect" href="/wiki/Ed_Feigenbaum" title="Ed Feigenbaum">Ed Feigenbaum</a> and <a href="/wiki/Rick_Hayes-Roth" title="Rick Hayes-Roth">Frederick Hayes-Roth</a> realized that it was necessary to focus systems on more constrained problems.</p>
+<p>It was the failure of these efforts that led to the <a href="/wiki/Cognitive_revolution" title="Cognitive revolution">cognitive revolution</a> in psychology and to the phase of AI focused on knowledge representation that resulted in <a class="mw-redirect" href="/wiki/Expert_systems" title="Expert systems">expert systems</a> in the 1970s and 80s, <a href="/wiki/Production_system_(computer_science)" title="Production system (computer science)">production systems</a>, <a href="/wiki/Frame_language" title="Frame language">frame languages</a>, etc. Rather than general problem solvers, AI changed its focus to expert systems that could match human competence on a specific task, such as medical diagnosis.</p>
+<p>Expert systems gave us the terminology still in use today where AI systems are divided into a Knowledge Base with facts about the world and rules and an inference engine that applies the rules to the <a href="/wiki/Knowledge_base" title="Knowledge base">knowledge base</a> in order to answer questions and solve problems. In these early systems the knowledge base tended to be a fairly flat structure, essentially assertions about the values of variables used by the rules.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<p>In addition to expert systems, other researchers developed the concept of <a href="/wiki/Frame_language" title="Frame language">Frame based languages</a> in the mid 1980s. A frame is similar to an object class: It is an abstract description of a category describing things in the world, problems, and potential solutions. Frames were originally used on systems geared toward human interaction, e.g. understanding natural language and the social settings in which various default expectations such as ordering food in a restaurant narrow the search space and allow the system to choose appropriate responses to dynamic situations.</p>
+<p>It wasn't long before the frame communities and the rule-based researchers realized that there was synergy between their approaches. Frames were good for representing the real world, described as classes, subclasses, slots (data values) with various constraints on possible values. Rules were good for representing and utilizing complex logic such as the process to make a medical diagnosis. Integrated systems were developed that combined Frames and Rules. One of the most powerful and well known was the 1983 <a href="/wiki/Knowledge_Engineering_Environment" title="Knowledge Engineering Environment">Knowledge Engineering Environment</a> (KEE) from <a href="/wiki/IntelliCorp_(software)" title="IntelliCorp (software)">Intellicorp</a>. KEE had a complete rule engine with <a href="/wiki/Forward_chaining" title="Forward chaining">forward</a> and <a href="/wiki/Backward_chaining" title="Backward chaining">backward chaining</a>. It also had a complete frame based knowledge base with triggers, slots (data values), inheritance, and message passing. Although message passing originated in the object-oriented community rather than AI it was quickly embraced by AI researchers as well in environments such as KEE and in the operating systems for Lisp machines from <a href="/wiki/Symbolics" title="Symbolics">Symbolics</a>, <a href="/wiki/Xerox" title="Xerox">Xerox</a>, and <a href="/wiki/Texas_Instruments" title="Texas Instruments">Texas Instruments</a>.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>The integration of Frames, rules, and object-oriented programming was significantly driven by commercial ventures such as KEE and Symbolics spun off from various research projects. At the same time as this was occurring, there was another strain of research which was less commercially focused and was driven by mathematical logic and automated theorem proving. One of the most influential languages in this research was the <a href="/wiki/KL-ONE" title="KL-ONE">KL-ONE</a> language of the mid 80's. KL-ONE was a <a href="/wiki/Frame_language" title="Frame language">frame language</a> that had a rigorous semantics, formal definitions for concepts such as an <a href="/wiki/Is-a" title="Is-a">Is-A relation</a>.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> KL-ONE and languages that were influenced by it such as Loom had an automated reasoning engine that was based on formal logic rather than on IF-THEN rules. This reasoner is called the classifier. A classifier can analyze a set of declarations and infer new assertions, for example, redefine a class to be a subclass or superclass of some other class that wasn't formally specified. In this way the classifier can function as an inference engine, deducing new facts from an existing knowledge base. The classifier can also provide consistency checking on a knowledge base (which in the case of KL-ONE languages is also referred to as an Ontology).<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></p>
+<p>Another area of knowledge representation research was the problem of common sense reasoning. One of the first realizations from trying to make software that can function with human natural language was that humans regularly draw on an extensive foundation of knowledge about the real world that we simply take for granted but that is not at all obvious to an artificial agent. Basic principles of common sense physics, causality, intentions, etc. An example is the <a href="/wiki/Frame_problem" title="Frame problem">Frame problem</a>, that in an event driven logic there need to be axioms that state things maintain position from one moment to the next unless they are moved by some external force. In order to make a true artificial intelligence agent that can converse with humans using natural language and can process basic statements and questions about the world it is essential to represent this kind of knowledge. One of the most ambitious programs to tackle this problem was Doug Lenat's <a href="/wiki/Cyc" title="Cyc">Cyc</a> project. Cyc established its own Frame language and had large numbers of analysts document various areas of common sense reasoning in that language. The knowledge recorded in Cyc included common sense models of time, causality, physics, intentions, and many others.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<p>The starting point for knowledge representation is the <i>knowledge representation hypothesis</i> first formalized by <a href="/wiki/Brian_Cantwell_Smith" title="Brian Cantwell Smith">Brian C. Smith</a> in 1985:<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></p>
+<blockquote>
+<p><i>Any mechanically embodied intelligent process will be comprised of structural ingredients that a) we as external observers naturally take to represent a propositional account of the knowledge that the overall process exhibits, and b) independent of such external semantic attribution, play a formal but causal and essential role in engendering the behavior that manifests that knowledge.</i></p>
+</blockquote>
+<p>Currently one of the most active areas of knowledge representation research are projects associated with the <a class="mw-redirect" href="/wiki/Semantic_web" title="Semantic web">Semantic web</a>. The semantic web seeks to add a layer of semantics (meaning) on top of the current Internet. Rather than indexing web sites and pages via keywords, the semantic web creates large <a class="mw-redirect" href="/wiki/Ontologies" title="Ontologies">ontologies</a> of concepts. Searching for a concept will be more effective than traditional text only searches. Frame languages and automatic classification play a big part in the vision for the future semantic web. The automatic classification gives developers technology to provide order on a constantly evolving network of knowledge. Defining ontologies that are static and incapable of evolving on the fly would be very limiting for Internet-based systems. The classifier technology provides the ability to deal with the dynamic environment of the Internet.</p>
+<p>Recent projects funded primarily by the <a class="mw-redirect" href="/wiki/Defense_Advanced_Research_Projects_Agency" title="Defense Advanced Research Projects Agency">Defense Advanced Research Projects Agency</a> (DARPA) have integrated frame languages and classifiers with markup languages based on XML. The <a href="/wiki/Resource_Description_Framework" title="Resource Description Framework">Resource Description Framework</a> (RDF) provides the basic capability to define classes, subclasses, and properties of objects. The <a href="/wiki/Web_Ontology_Language" title="Web Ontology Language">Web Ontology Language</a> (OWL) provides additional levels of semantics and enables integration with classification engines.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=2" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Knowledge-representation is the field of artificial intelligence that focuses on designing computer representations that capture information about the world that can be used to solve complex problems. The justification for knowledge representation is that conventional <a class="mw-redirect" href="/wiki/Procedural_code" title="Procedural code">procedural code</a> is not the best formalism to use to solve complex problems. Knowledge representation makes complex software easier to define and maintain than procedural code and can be used in <a class="mw-redirect" href="/wiki/Expert_systems" title="Expert systems">expert systems</a>.</p>
+<p>For example, talking to experts in terms of business rules rather than code lessens the semantic gap between users and developers and makes development of complex systems more practical.</p>
+<p>Knowledge representation goes hand in hand with <a href="/wiki/Automated_reasoning" title="Automated reasoning">automated reasoning</a> because one of the main purposes of explicitly representing knowledge is to be able to reason about that knowledge, to make inferences, assert new knowledge, etc. Virtually all <a class="mw-redirect" href="/wiki/Knowledge_representation_language" title="Knowledge representation language">knowledge representation languages</a> have a reasoning or inference engine as part of the system.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></p>
+<p>A key trade-off in the design of a knowledge representation formalism is that between expressivity and practicality. The ultimate knowledge representation formalism in terms of expressive power and compactness is First Order Logic (FOL). There is no more powerful formalism than that used by mathematicians to define general propositions about the world. However, FOL has two drawbacks as a knowledge representation formalism: ease of use and practicality of implementation. First order logic can be intimidating even for many software developers. Languages which do not have the complete formal power of FOL can still provide close to the same expressive power with a user interface that is more practical for the average developer to understand. The issue of practicality of implementation is that FOL in some ways is too expressive. With FOL it is possible to create statements (e.g. quantification over infinite sets) that would cause a system to never terminate if it attempted to verify them.</p>
+<p>Thus, a subset of FOL can be both easier to use and more practical to implement. This was a driving motivation behind rule-based expert systems. IF-THEN rules provide a subset of FOL but a very useful one that is also very intuitive. The history of most of the early AI knowledge representation formalisms; from databases to semantic nets to theorem provers and production systems can be viewed as various design decisions on whether to emphasize expressive power or computability and efficiency.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup></p>
+<p>In a key 1993 paper on the topic, Randall Davis of <a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">MIT</a> outlined five distinct roles to analyze a knowledge representation framework:<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></p>
+<ul>
+<li>A knowledge representation (KR) is most fundamentally a surrogate, a substitute for the thing itself, used to enable an entity to determine consequences by thinking rather than acting, i.e., by reasoning about the world rather than taking action in it.</li>
+<li>It is a set of ontological commitments, i.e., an answer to the question: In what terms should I think about the world?</li>
+<li>It is a fragmentary theory of intelligent reasoning, expressed in terms of three components: (i) the representation's fundamental conception of intelligent reasoning; (ii) the set of inferences the representation sanctions; and (iii) the set of inferences it recommends.</li>
+<li>It is a medium for pragmatically efficient computation, i.e., the computational environment in which thinking is accomplished. One contribution to this pragmatic efficiency is supplied by the guidance a representation provides for organizing information so as to facilitate making the recommended inferences.</li>
+<li>It is a medium of human expression, i.e., a language in which we say things about the world."</li>
+</ul>
+<p>Knowledge representation and reasoning are a key enabling technology for the <a class="mw-redirect" href="/wiki/Semantic_web" title="Semantic web">Semantic web</a>. Languages based on the Frame model with automatic classification provide a layer of semantics on top of the existing Internet. Rather than searching via text strings as is typical today it will be possible to define logical queries and find pages that map to those queries.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup> The automated reasoning component in these systems is an engine known as the classifier. Classifiers focus on the <a class="mw-redirect" href="/wiki/Subsumption_relation" title="Subsumption relation">subsumption</a> relations in a knowledge base rather than rules. A classifier can infer new classes and dynamically change the ontology as new information becomes available. This capability is ideal for the ever changing and evolving information space of the Internet.<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup></p>
+<p>The Semantic web integrates concepts from knowledge representation and reasoning with markup languages based on XML. The <a href="/wiki/Resource_Description_Framework" title="Resource Description Framework">Resource Description Framework</a> (RDF) provides the basic capabilities to define knowledge-based objects on the Internet with basic features such as Is-A relations and object properties. The <a href="/wiki/Web_Ontology_Language" title="Web Ontology Language">Web Ontology Language</a> (OWL) adds additional semantics and integrates with automatic classification reasoners.<sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup></p>
+<h2><span class="mw-headline" id="Characteristics">Characteristics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=3" title="Edit section: Characteristics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In 1985, Ron Brachman categorized the core issues for knowledge representation as follows:<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></p>
+<ul>
+<li>Primitives. What is the underlying framework used to represent knowledge? <a href="/wiki/Semantic_network" title="Semantic network">Semantic networks</a> were one of the first knowledge representation primitives. Also, data structures and algorithms for general fast search. In this area there is a strong overlap with research in data structures and algorithms in computer science. In early systems the Lisp programming language which was modeled after the <a href="/wiki/Lambda_calculus" title="Lambda calculus">lambda calculus</a> was often used as a form of functional knowledge representation. Frames and Rules were the next kind of primitive. Frame languages had various mechanisms for expressing and enforcing constraints on frame data. All data in frames are stored in slots. Slots are analogous to relations in entity-relation modeling and to object properties in object-oriented modeling. Another technique for primitives is to define languages that are modeled after <a class="mw-redirect" href="/wiki/First_Order_Logic" title="First Order Logic">First Order Logic</a> (FOL). The most well known example is Prolog but there are also many special purpose theorem proving environments. These environments can validate logical models and can deduce new theories from existing models. Essentially they automate the process a logician would go through in analyzing a model. Theorem proving technology had some specific practical applications in the areas of software engineering. For example, it is possible to prove that a software program rigidly adheres to a formal logical specification.</li>
+<li>Meta-Representation. This is also known as the issue of <a href="/wiki/Reflection_(computer_programming)" title="Reflection (computer programming)">reflection</a> in computer science. It refers to the capability of a formalism to have access to information about its own state. An example would be the meta-object protocol in <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a> and <a class="mw-redirect" href="/wiki/CLOS" title="CLOS">CLOS</a> that gives developers run time access to the class objects and enables them to dynamically redefine the structure of the knowledge base even at run time. Meta-representation means the knowledge representation language is itself expressed in that language. For example, in most Frame based environments all frames would be instances of a frame class. That class object can be inspected at run time so that the object can understand and even change its internal structure or the structure of other parts of the model. In rule-based environments the rules were also usually instances of rule classes. Part of the meta protocol for rules were the meta rules that prioritized rule firing.</li>
+<li><a href="/wiki/Completeness_(logic)" title="Completeness (logic)">Incompleteness</a>. Traditional logic requires additional axioms and constraints to deal with the real world as opposed to the world of mathematics. Also, it is often useful to associate degrees of confidence with a statement. I.e., not simply say "Socrates is Human" but rather "Socrates is Human with confidence 50%". This was one of the early innovations from <a href="/wiki/Expert_system" title="Expert system">expert systems</a> research which migrated to some commercial tools, the ability to associate certainty factors with rules and conclusions. Later research in this area is known as <a class="mw-redirect" href="/wiki/Fuzzy_Logic" title="Fuzzy Logic">Fuzzy Logic</a>.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></li>
+<li>Definitions and <a class="mw-redirect" href="/wiki/Universals" title="Universals">Universals</a> vs. facts and defaults. Universals are general statements about the world such as "All humans are mortal". Facts are specific examples of universals such as "Socrates is a human and therefore mortal". In logical terms definitions and universals are about universal quantification while facts and defaults are about existential quantifications. All forms of knowledge representation must deal with this aspect and most do so with some variant of set theory, modeling universals as sets and subsets and definitions as elements in those sets.</li>
+<li><a href="/wiki/Non-monotonic_logic" title="Non-monotonic logic">Non-Monotonic reasoning</a>. Non-monotonic reasoning allows various kinds of hypothetical reasoning. The system associates facts asserted with the rules and facts used to justify them and as those facts change updates the dependent knowledge as well. In rule based systems this capability is known as a <a class="mw-redirect" href="/wiki/Truth_maintenance_system" title="Truth maintenance system">truth maintenance system</a>.<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup></li>
+<li><a href="/wiki/Functional_completeness" title="Functional completeness">Expressive Adequacy</a>. The standard that Brachman and most AI researchers use to measure expressive adequacy is usually First Order Logic (FOL). Theoretical limitations mean that a full implementation of FOL is not practical. Researchers should be clear about how expressive (how much of full FOL expressive power) they intend their representation to be.<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></li>
+<li>Reasoning Efficiency. This refers to the run time efficiency of the system. The ability of the knowledge base to be updated and the reasoner to develop new inferences in a reasonable period of time. In some ways this is the flip side of expressive adequacy. In general the more powerful a representation, the more it has expressive adequacy, the less efficient its <a href="/wiki/Automated_reasoning" title="Automated reasoning">automated reasoning</a> engine will be. Efficiency was often an issue, especially for early applications of knowledge representation technology. They were usually implemented in interpreted environments such as Lisp which were slow compared to more traditional platforms of the time.</li>
+</ul>
+<h2><span class="mw-headline" id="Ontology_engineering">Ontology engineering</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=4" title="Edit section: Ontology engineering">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Main articles: <a href="/wiki/Ontology_engineering" title="Ontology engineering">Ontology engineering</a> and <a href="/wiki/Ontology_language" title="Ontology language">Ontology language</a></div>
+<p>In the early years of knowledge-based systems the knowledge-bases were fairly small. The knowledge-bases that were meant to actually solve real problems rather than do proof of concept demonstrations needed to focus on well defined problems. So for example, not just medical diagnosis as a whole topic but medical diagnosis of certain kinds of diseases.</p>
+<p>As knowledge-based technology scaled up the need for larger knowledge bases and for modular knowledge bases that could communicate and integrate with each other became apparent. This gave rise to the discipline of ontology engineering, designing and building large knowledge bases that could be used by multiple projects. One of the leading research projects in this area was the Cyc project. Cyc was an attempt to build a huge encyclopedic knowledge base that would contain not just expert knowledge but common sense knowledge. In designing an artificial intelligence agent it was soon realized that representing common sense knowledge, knowledge that humans simply take for granted, was essential to make an AI that could interact with humans using natural language. Cyc was meant to address this problem. The language they defined was known as <a href="/wiki/CycL" title="CycL">CycL</a>.</p>
+<p>After CycL, a number of <a href="/wiki/Ontology_language" title="Ontology language">ontology languages</a> have been developed. Most are <a class="mw-redirect" href="/wiki/Declarative_language" title="Declarative language">declarative languages</a>, and are either <a href="/wiki/Frame_language" title="Frame language">frame languages</a>, or are based on <a href="/wiki/First-order_logic" title="First-order logic">first-order logic</a>. Modularity—the ability to define boundaries around specific domains and problem spaces—is essential for these languages because as stated by Tom Gruber, "Every ontology is a treaty- a social agreement among people with common motive in sharing." There are always many competing and differing views that make any general purpose ontology impossible. A general purpose ontology would have to be applicable in any domain and different areas of knowledge need to be unified.<sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup></p>
+<p>There is a long history of work attempting to build ontologies for a variety of task domains, e.g., an ontology for liquids,<sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup> the lumped element model widely used in representing electronic circuits (e.g.,<sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup>), as well as ontologies for time, belief, and even programming itself. Each of these offers a way to see some part of the world. The lumped element model, for instance, suggests that we think of circuits in terms of components with connections between them, with signals flowing instantaneously along the connections. This is a useful view, but not the only possible one. A different ontology arises if we need to attend to the electrodynamics in the device: Here signals propagate at finite speed and an object (like a resistor) that was previously viewed as a single component with an I/O behavior may now have to be thought of as an extended medium through which an electromagnetic wave flows.</p>
+<p>Ontologies can of course be written down in a wide variety of languages and notations (e.g., logic, LISP, etc.); the essential information is not the form of that language but the content, i.e., the set of concepts offered as a way of thinking about the world. Simply put, the important part is notions like connections and components, not the choice between writing them as predicates or LISP constructs.</p>
+<p>The commitment made selecting one or another ontology can produce a sharply different view of the task at hand. Consider the difference that arises in selecting the lumped element view of a circuit rather than the electrodynamic view of the same device. As a second example, medical diagnosis viewed in terms of rules (e.g., <a class="mw-redirect" href="/wiki/MYCIN" title="MYCIN">MYCIN</a>) looks substantially different from the same task viewed in terms of frames (e.g., <a class="new" href="/w/index.php?title=INTERNIST&amp;action=edit&amp;redlink=1" title="INTERNIST (page does not exist)">INTERNIST</a>). Where MYCIN sees the medical world as made up of empirical associations connecting symptom to disease, INTERNIST sees a set of prototypes, in particular prototypical diseases, to be matched against the case at hand.</p>
+<h3><span class="mw-headline" id="Commitment_begins_with_the_earliest_choices">Commitment begins with the earliest choices</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=5" title="Edit section: Commitment begins with the earliest choices">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The INTERNIST example also demonstrates that there is significant and unavoidable ontological commitment even at the level of the familiar representation technologies. Logic, rules, frames, etc., each embody a viewpoint on the kinds of things that are important in the world. Logic, for instance, involves a commitment to viewing the world in terms of individual entities and relations between them. Rule-based systems view the world in terms of attribute-object-value triples and the rules of plausible inference that connect them, while frames have us thinking in terms of prototypical objects. Each of these thus supplies its own view of what is important to attend to, and each suggests, conversely, that anything not easily seen in those terms may be ignored. This is of course not guaranteed to be correct, since anything ignored may later prove to be relevant. But the task is hopeless in principle—every representation ignores something about the world—hence the best we can do is start with a good guess. The existing representation technologies supply one set of guesses about what to attend to and what to ignore. Selecting any of them thus involves a degree of ontological commitment: the selection will have a significant impact on our perception of and approach to the task, and on our perception of the world being modeled.</p>
+<h3><span class="mw-headline" id="Commitments_accumulate_in_layers">Commitments accumulate in layers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=6" title="Edit section: Commitments accumulate in layers">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The ontologic commitment of a representation thus begins at the level of the representation technologies and accumulates from there. Additional layers of commitment are made as the technology is put to work. The use of frame-like structures in INTERNIST offers an illustrative example. At the most fundamental level, the decision to view diagnosis in terms of frames suggests thinking in terms of prototypes, defaults, and a taxonomic hierarchy. But prototypes of what, and how shall the taxonomy be organized?</p>
+<p>An early description of the system<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup> shows how these questions were answered in the task at hand, supplying the second layer of commitment:</p>
+<dl>
+<dd>The knowledge base underlying the INTERNIST system is composed of two basic types of elements: disease entities and manifestations.... [It] also contains a...hierarchy of disease categories, organized primarily around the concept of organ systems, having at the top level such categories as "liver disease," "kidney disease," etc.</dd>
+</dl>
+<p>The prototypes are thus intended to capture prototypical diseases (e.g., a "classic case" of a disease), and they will be organized in a taxonomy indexed around organ systems. This is a sensible and intuitive set of choices but clearly not the only way to apply frames to the task; hence it is another layer of ontological commitment.</p>
+<p>At the third (and in this case final) layer, this set of choices is instantiated: which diseases will be included and in which branches of the hierarchy will they appear? Ontologic questions that arise even at this level can be quite fundamental. Consider for example determining which of the following are to be considered diseases (i.e., abnormal states requiring cure): alcoholism, back pain, and chronic fatigue syndrome. The ontologic commitment here is sufficiently obvious and sufficiently important that it is often a subject of debate in the field itself, quite independent of building automated reasoners.</p>
+<p>Similar sorts of decisions have to be made with all the representation technologies, because each of them supplies only a first order guess about how to see the world: they offer a way of seeing but don't indicate how to instantiate that view. As frames suggest prototypes and taxonomies but do not tell us which things to select as prototypes, rules suggest thinking in terms of plausible inferences, but don't tell us which plausible inferences to attend to. Similarly logic tells us to view the world in terms of individuals and relations, but does not specify which individuals and relations to use.</p>
+<p>Commitment to a particular view of the world thus starts with the choice of a representation technology, and accumulates as subsequent choices are made about how to see the world in those terms.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Chunking_(psychology)" title="Chunking (psychology)">Chunking (psychology)</a></li>
+<li><a class="mw-redirect" href="/wiki/Knowledge_representation_system" title="Knowledge representation system">Knowledge representation system</a></li>
+<li><a class="mw-redirect" href="/wiki/Commonsense_knowledge_base" title="Commonsense knowledge base">Commonsense knowledge base</a></li>
+<li><a href="/wiki/Personal_knowledge_base" title="Personal knowledge base">Personal knowledge base</a></li>
+<li><a href="/wiki/Valuation-based_system" title="Valuation-based system">Valuation-based system</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Hayes-Roth, Frederick; Donald Waterman; Douglas Lenat (1983). <i>Building Expert Systems</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-10686-8" title="Special:BookSources/0-201-10686-8">0-201-10686-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.au=Donald+Waterman&amp;rft.au=Douglas+Lenat&amp;rft.aufirst=Frederick&amp;rft.aulast=Hayes-Roth&amp;rft.btitle=Building+Expert+Systems&amp;rft.date=1983&amp;rft.genre=book&amp;rft.isbn=0-201-10686-8&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation journal">Mettrey, William (1987). <a class="external text" href="http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/625" rel="nofollow">"An Assessment of Tools for Building Large Knowledge-Based Systems"</a>. <i>AI Magazine</i>. <b>8</b> (4).</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=An+Assessment+of+Tools+for+Building+Large+Knowledge-Based+Systems&amp;rft.aufirst=William&amp;rft.aulast=Mettrey&amp;rft.date=1987&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.aaai.org%2Fojs%2Findex.php%2Faimagazine%2Farticle%2FviewArticle%2F625&amp;rft.issue=4&amp;rft.jtitle=AI+Magazine&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=8"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brachman, Ron (1978). "A Structural Paradigm for Representing Knowledge". <i>Bolt, Beranek, and Neumann Technical Report</i> (3605).</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=A+Structural+Paradigm+for+Representing+Knowledge&amp;rft.aufirst=Ron&amp;rft.aulast=Brachman&amp;rft.date=1978&amp;rft.genre=article&amp;rft.issue=3605&amp;rft.jtitle=Bolt%2C+Beranek%2C+and+Neumann+Technical+Report&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation journal">MacGregor, Robert (June 1991). <a class="external text" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=87683&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D87683" rel="nofollow">"Using a description classifier to enhance knowledge representation"</a>. <i>IEEE Expert</i>. <b>6</b> (3): 41–46. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2F64.87683" rel="nofollow">10.1109/64.87683</a><span class="reference-accessdate">. Retrieved <span class="nowrap">10 November</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Using+a+description+classifier+to+enhance+knowledge+representation&amp;rft.aufirst=Robert&amp;rft.aulast=MacGregor&amp;rft.date=1991-06&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fxpl%2Flogin.jsp%3Ftp%3D%26arnumber%3D87683%26url%3Dhttp%253A%252F%252Fieeexplore.ieee.org%252Fxpls%252Fabs_all.jsp%253Farnumber%253D87683&amp;rft_id=info%3Adoi%2F10.1109%2F64.87683&amp;rft.issue=3&amp;rft.jtitle=IEEE+Expert&amp;rft.pages=41-46&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=6"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation book">Lenat, Doug; R. V. Guha (January 1990). <i>Building Large Knowledge-Based Systems: Representation and Inference in the Cyc Project</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0201517521" title="Special:BookSources/978-0201517521">978-0201517521</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.aufirst=Doug&amp;rft.aulast=Lenat&amp;rft.au=R.+V.+Guha&amp;rft.btitle=Building+Large+Knowledge-Based+Systems%3A+Representation+and+Inference+in+the+Cyc+Project&amp;rft.date=1990-01&amp;rft.genre=book&amp;rft.isbn=978-0201517521&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation book">Smith, Brian C. (1985). "Prologue to Reflections and Semantics in a Procedural Language". In Ronald Brachman and Hector J. Levesque. <i>Readings in Knowledge Representation</i>. Morgan Kaufmann. pp. 31–40. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-934613-01-X" title="Special:BookSources/0-934613-01-X">0-934613-01-X</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Prologue+to+Reflections+and+Semantics+in+a+Procedural+Language&amp;rft.aufirst=Brian+C.&amp;rft.aulast=Smith&amp;rft.btitle=Readings+in+Knowledge+Representation&amp;rft.date=1985&amp;rft.genre=bookitem&amp;rft.isbn=0-934613-01-X&amp;rft.pages=31-40&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation journal">Berners-Lee, Tim; James Hendler; Ora Lassila (May 17, 2001). <a class="external text" href="http://www.cs.umd.edu/~golbeck/LBSC690/SemanticWeb.html" rel="nofollow">"The Semantic Web A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities"</a>. <i>Scientific American</i>. <b>284</b>: 34–43. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1038%2Fscientificamerican0501-34" rel="nofollow">10.1038/scientificamerican0501-34</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=The+Semantic+Web+A+new+form+of+Web+content+that+is+meaningful+to+computers+will+unleash+a+revolution+of+new+possibilities&amp;rft.aufirst=Tim&amp;rft.au=James+Hendler&amp;rft.aulast=Berners-Lee&amp;rft.au=Ora+Lassila&amp;rft.date=2001-05-17&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cs.umd.edu%2F~golbeck%2FLBSC690%2FSemanticWeb.html&amp;rft_id=info%3Adoi%2F10.1038%2Fscientificamerican0501-34&amp;rft.jtitle=Scientific+American&amp;rft.pages=34-43&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=284"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web">Knublauch, Holger; Oberle, Daniel; Tetlow, Phil; Wallace, Evan (2006-03-09). <a class="external text" href="http://www.w3.org/2001/sw/BestPractices/SE/ODSD/" rel="nofollow">"A Semantic Web Primer for Object-Oriented Software Developers"</a>. <a class="mw-redirect" href="/wiki/W3C" title="W3C">W3C</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2008-07-30</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.aufirst=Holger&amp;rft.aulast=Knublauch&amp;rft.au=Oberle%2C+Daniel&amp;rft.au=Tetlow%2C+Phil&amp;rft.au=Wallace%2C+Evan&amp;rft.btitle=A+Semantic+Web+Primer+for+Object-Oriented+Software+Developers&amp;rft.date=2006-03-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.w3.org%2F2001%2Fsw%2FBestPractices%2FSE%2FODSD%2F&amp;rft.pub=W3C&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation book">Hayes-Roth, Frederick; Donald Waterman; Douglas Lenat (1983). <i>Building Expert Systems</i>. Addison-Wesley. pp. 6–7. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-10686-8" title="Special:BookSources/0-201-10686-8">0-201-10686-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.au=Donald+Waterman&amp;rft.au=Douglas+Lenat&amp;rft.aufirst=Frederick&amp;rft.aulast=Hayes-Roth&amp;rft.btitle=Building+Expert+Systems&amp;rft.date=1983&amp;rft.genre=book&amp;rft.isbn=0-201-10686-8&amp;rft.pages=6-7&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation book">Levesque, Hector; Ronald Brachman (1985). "A Fundamental Tradeoff in Knowledge Representation and Reasoning". In Ronald Brachman and Hector J. Levesque. <i>Reading in Knowledge Representation</i>. Morgan Kaufmann. p. 49. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-934613-01-X" title="Special:BookSources/0-934613-01-X">0-934613-01-X</a>. <q>The good news in reducing KR service to theorem proving is that we now have a very clear, very specific notion of what the KR system should do; the bad new is that it is also clear that the services can not be provided... deciding whether or not a sentence in FOL is a theorem... is unsolvable.</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=A+Fundamental+Tradeoff+in+Knowledge+Representation+and+Reasoning&amp;rft.aufirst=Hector&amp;rft.aulast=Levesque&amp;rft.au=Ronald+Brachman&amp;rft.btitle=Reading+in+Knowledge+Representation&amp;rft.date=1985&amp;rft.genre=bookitem&amp;rft.isbn=0-934613-01-X&amp;rft.pages=49&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation journal">Davis, Randall; Howard Shrobe; Peter Szolovits (Spring 1993). <a class="external text" href="http://www.aaai.org/ojs/index.php/aimagazine/article/view/1029/947" rel="nofollow">"What Is a Knowledge Representation?"</a>. <i>AI Magazine</i>. <b>14</b> (1): 17–33.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=What+Is+a+Knowledge+Representation%3F&amp;rft.aufirst=Randall&amp;rft.au=Howard+Shrobe&amp;rft.aulast=Davis&amp;rft.au=Peter+Szolovits&amp;rft.date=1993&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.aaai.org%2Fojs%2Findex.php%2Faimagazine%2Farticle%2Fview%2F1029%2F947&amp;rft.issue=1&amp;rft.jtitle=AI+Magazine&amp;rft.pages=17-33&amp;rft.ssn=spring&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=14"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation journal">Berners-Lee, Tim; James Hendler; Ora Lassila (May 17, 2001). <a class="external text" href="http://www.cs.umd.edu/~golbeck/LBSC690/SemanticWeb.html" rel="nofollow">"The Semantic Web A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities"</a>. <i>Scientific American</i>. <b>284</b>: 34–43. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1038%2Fscientificamerican0501-34" rel="nofollow">10.1038/scientificamerican0501-34</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=The+Semantic+Web+A+new+form+of+Web+content+that+is+meaningful+to+computers+will+unleash+a+revolution+of+new+possibilities&amp;rft.aufirst=Tim&amp;rft.au=James+Hendler&amp;rft.aulast=Berners-Lee&amp;rft.au=Ora+Lassila&amp;rft.date=2001-05-17&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cs.umd.edu%2F~golbeck%2FLBSC690%2FSemanticWeb.html&amp;rft_id=info%3Adoi%2F10.1038%2Fscientificamerican0501-34&amp;rft.jtitle=Scientific+American&amp;rft.pages=34-43&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=284"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web">Macgregor, Robert (August 13, 1999). <a class="external text" href="http://www.isi.edu/isd/LOOM/papers/macgregor/Loom_Retrospective.html" rel="nofollow">"Retrospective on Loom"</a>. <i>isi.edu</i>. Information Sciences Institute<span class="reference-accessdate">. Retrieved <span class="nowrap">10 December</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Retrospective+on+Loom&amp;rft.aufirst=Robert&amp;rft.aulast=Macgregor&amp;rft.date=1999-08-13&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.isi.edu%2Fisd%2FLOOM%2Fpapers%2Fmacgregor%2FLoom_Retrospective.html&amp;rft.jtitle=isi.edu&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web">Knublauch, Holger; Oberle, Daniel; Tetlow, Phil; Wallace, Evan (2006-03-09). <a class="external text" href="http://www.w3.org/2001/sw/BestPractices/SE/ODSD/" rel="nofollow">"A Semantic Web Primer for Object-Oriented Software Developers"</a>. <a class="mw-redirect" href="/wiki/W3C" title="W3C">W3C</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2008-07-30</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.aufirst=Holger&amp;rft.aulast=Knublauch&amp;rft.au=Oberle%2C+Daniel&amp;rft.au=Tetlow%2C+Phil&amp;rft.au=Wallace%2C+Evan&amp;rft.btitle=A+Semantic+Web+Primer+for+Object-Oriented+Software+Developers&amp;rft.date=2006-03-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.w3.org%2F2001%2Fsw%2FBestPractices%2FSE%2FODSD%2F&amp;rft.pub=W3C&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation book">Brachman, Ron (1985). "Introduction". In Ronald Brachman and Hector J. Levesque. <i>Readings in Knowledge Representation</i>. Morgan Kaufmann. pp. XVI–XVII. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-934613-01-X" title="Special:BookSources/0-934613-01-X">0-934613-01-X</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Introduction&amp;rft.aufirst=Ron&amp;rft.aulast=Brachman&amp;rft.btitle=Readings+in+Knowledge+Representation&amp;rft.date=1985&amp;rft.genre=bookitem&amp;rft.isbn=0-934613-01-X&amp;rft.pages=XVI-XVII&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation journal">Bih, Joseph (2006). <a class="external text" href="http://www.cse.unr.edu/~bebis/CS365/Papers/FuzzyLogic.pdf" rel="nofollow">"Paradigm Shift: An Introduction to Fuzzy Logic"</a> <span style="font-size:85%;">(PDF)</span>. <i>IEEE POTENTIALS</i><span class="reference-accessdate">. Retrieved <span class="nowrap">24 December</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Paradigm+Shift%3A+An+Introduction+to+Fuzzy+Logic&amp;rft.aufirst=Joseph&amp;rft.aulast=Bih&amp;rft.date=2006&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cse.unr.edu%2F~bebis%2FCS365%2FPapers%2FFuzzyLogic.pdf&amp;rft.jtitle=IEEE+POTENTIALS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation journal">Zlatarva, Nellie (1992). <a class="external text" href="http://link.springer.com/article/10.1007%2FBF00155580#page-2" rel="nofollow">"Truth Maintenance Systems and their Application for Verifying Expert System Knowledge Bases"</a>. <i>Artificial Intelligence Review</i>. <b>6</b>: 67–110. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2Fbf00155580" rel="nofollow">10.1007/bf00155580</a><span class="reference-accessdate">. Retrieved <span class="nowrap">25 December</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=Truth+Maintenance+Systems+and+their+Application+for+Verifying+Expert+System+Knowledge+Bases&amp;rft.aufirst=Nellie&amp;rft.aulast=Zlatarva&amp;rft.date=1992&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%252FBF00155580%23page-2&amp;rft_id=info%3Adoi%2F10.1007%2Fbf00155580&amp;rft.jtitle=Artificial+Intelligence+Review&amp;rft.pages=67-110&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=6"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation book">Levesque, Hector; Ronald Brachman (1985). "A Fundamental Tradeoff in Knowledge Representation and Reasoning". In Ronald Brachman and Hector J. Levesque. <i>Reading in Knowledge Representation</i>. Morgan Kaufmann. pp. 41–70. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-934613-01-X" title="Special:BookSources/0-934613-01-X">0-934613-01-X</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+representation+and+reasoning&amp;rft.atitle=A+Fundamental+Tradeoff+in+Knowledge+Representation+and+Reasoning&amp;rft.aufirst=Hector&amp;rft.aulast=Levesque&amp;rft.au=Ronald+Brachman&amp;rft.btitle=Reading+in+Knowledge+Representation&amp;rft.date=1985&amp;rft.genre=bookitem&amp;rft.isbn=0-934613-01-X&amp;rft.pages=41-70&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">Russell, Stuart J.; Norvig, Peter (2010), Artificial Intelligence: A Modern Approach (3rd ed.), Upper Saddle River, New Jersey: Prentice Hall, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0136042597">ISBN 0-13-604259-7</a>, p. 437-439</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Hayes P, Naive physics I: Ontology for liquids. University of Essex report, 1978, Essex, UK.</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Davis R, Shrobe H E, Representing Structure and Behavior of Digital Hardware, IEEE Computer, Special Issue on Knowledge Representation, 16(10):75-82.</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text">Pople H, Heuristic methods for imposing structure on ill-structured problems, in AI in Medicine, Szolovits (ed.), AAAS Symposium 51, Boulder: Westview Press.</span></li>
+</ol>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=9" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Ronald_J._Brachman" title="Ronald J. Brachman">Ronald J. Brachman</a>; <a class="external text" href="http://citeseer.nj.nec.com/context/177306/0" rel="nofollow">What IS-A is and isn't. An Analysis of Taxonomic Links in Semantic Networks</a>; IEEE Computer, 16 (10); October 1983</li>
+<li><a href="/wiki/Ronald_J._Brachman" title="Ronald J. Brachman">Ronald J. Brachman</a>, <a class="mw-redirect" href="/wiki/Hector_J._Levesque" title="Hector J. Levesque">Hector J. Levesque</a> <i>Knowledge Representation and Reasoning</i>, Morgan Kaufmann, 2004 <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/9781558609327">ISBN 978-1-55860-932-7</a></li>
+<li><a href="/wiki/Ronald_J._Brachman" title="Ronald J. Brachman">Ronald J. Brachman</a>, <a class="mw-redirect" href="/wiki/Hector_J._Levesque" title="Hector J. Levesque">Hector J. Levesque</a> (eds) <i>Readings in Knowledge Representation</i>, Morgan Kaufmann, 1985, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/093461301X">ISBN 0-934613-01-X</a></li>
+<li>Chein, M., Mugnier, M.-L. (2009),<i><a class="external text" href="http://www.lirmm.fr/gbkrbook/" rel="nofollow">Graph-based Knowledge Representation: Computational Foundations of Conceptual Graphs</a></i>, Springer, 2009,<a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/9781848002852">ISBN 978-1-84800-285-2</a>.</li>
+<li>Randall Davis, Howard Shrobe, and Peter Szolovits; <a class="external text" href="http://citeseer.ist.psu.edu/davis93what.html" rel="nofollow">What Is a Knowledge Representation?</a> AI Magazine, 14(1):17-33,1993</li>
+<li><a href="/wiki/Ronald_Fagin" title="Ronald Fagin">Ronald Fagin</a>, <a class="mw-redirect" href="/wiki/Joseph_Y._Halpern" title="Joseph Y. Halpern">Joseph Y. Halpern</a>, <a href="/wiki/Yoram_Moses" title="Yoram Moses">Yoram Moses</a>, <a class="mw-redirect" href="/wiki/Moshe_Y._Vardi" title="Moshe Y. Vardi">Moshe Y. Vardi</a> <i>Reasoning About Knowledge</i>, MIT Press, 1995, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0262061627">ISBN 0-262-06162-7</a></li>
+<li>Jean-Luc Hainaut, Jean-Marc Hick, Vincent Englebert, Jean Henrard, Didier Roland: <a class="external text" href="http://www.informatik.uni-trier.de/~ley/db/conf/er/HainautHEHR96.html" rel="nofollow">Understanding Implementations of IS-A Relations</a>. ER 1996: 42-57</li>
+<li>Hermann Helbig: <i>Knowledge Representation and the Semantics of Natural Language</i>, Springer, Berlin, Heidelberg, New York 2006</li>
+<li>Arthur B. Markman: <i>Knowledge Representation</i> Lawrence Erlbaum Associates, 1998</li>
+<li><a href="/wiki/John_F._Sowa" title="John F. Sowa">John F. Sowa</a>: <i>Knowledge Representation</i>: Logical, Philosophical, and Computational Foundations. Brooks/Cole: New York, 2000</li>
+<li>Adrian Walker, Michael McCord, <a href="/wiki/John_F._Sowa" title="John F. Sowa">John F. Sowa</a>, and Walter G. Wilson: <i>Knowledge Systems and Prolog</i>, Second Edition, Addison-Wesley, 1990</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit&amp;section=10" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://medg.lcs.mit.edu/ftp/psz/k-rep.html" rel="nofollow">What is a Knowledge Representation?</a> by Randall Davis and others</li>
+<li><a class="external text" href="http://www.makhfi.com/KCM_intro.htm" rel="nofollow">Introduction to Knowledge Modeling</a> by Pejman Makhfi</li>
+<li><a class="external text" href="http://www.inf.unibz.it/~franconi/dl/course/" rel="nofollow">Introduction to Description Logics course</a> by Enrico Franconi, Faculty of Computer Science, Free University of Bolzano, Italy</li>
+<li><a class="external text" href="http://www.ccl.kuleuven.ac.be/LKR/html/datr.html" rel="nofollow">DATR Lexical knowledge representation language</a></li>
+<li><a class="external text" href="http://www.isi.edu/isd/LOOM/LOOM-HOME.html" rel="nofollow">Loom Project Home Page</a></li>
+<li><a class="external text" href="http://www.research.att.com/sw/tools/classic/tm/ijcai-95-with-scenario.html" rel="nofollow">Description Logic in Practice: A CLASSIC Application</a></li>
+<li><a class="external text" href="http://www.dfki.uni-kl.de/ruleml/" rel="nofollow">The Rule Markup Initiative</a></li>
+<li><a class="external text" href="http://nelements.org" rel="nofollow">Nelements KOS</a> - a non-free 3d knowledge representation system</li>
+</ul>
+<div aria-labelledby="Major_fields_of_computer_science" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Computer_science" title="Template:Computer science"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Computer_science" title="Template talk:Computer science"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Computer_science&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Major_fields_of_computer_science" style="font-size:114%">Major fields of <a href="/wiki/Computer_science" title="Computer science">computer science</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>Note: This template roughly follows the 2012 <a href="/wiki/ACM_Computing_Classification_System" title="ACM Computing Classification System">ACM Computing classification</a>.</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_hardware" title="Computer hardware">Hardware</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Printed_circuit_board" title="Printed circuit board">Printed circuit board</a></li>
+<li><a href="/wiki/Peripheral" title="Peripheral">Peripheral</a></li>
+<li><a href="/wiki/Integrated_circuit" title="Integrated circuit">Integrated circuit</a></li>
+<li><a href="/wiki/Very-large-scale_integration" title="Very-large-scale integration">Very-large-scale integration</a></li>
+<li><a href="/wiki/Green_computing" title="Green computing">Energy consumption</a></li>
+<li><a href="/wiki/Electronic_design_automation" title="Electronic design automation">Electronic design automation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Computer systems<br/>
+organization</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_architecture" title="Computer architecture">Computer architecture</a></li>
+<li><a href="/wiki/Embedded_system" title="Embedded system">Embedded system</a></li>
+<li><a href="/wiki/Real-time_computing" title="Real-time computing">Real-time computing</a></li>
+<li><a href="/wiki/Dependability" title="Dependability">Dependability</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_network" title="Computer network">Networks</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Network_architecture" title="Network architecture">Network architecture</a></li>
+<li><a class="mw-redirect" href="/wiki/Network_protocol" title="Network protocol">Network protocol</a></li>
+<li><a href="/wiki/Networking_hardware" title="Networking hardware">Network components</a></li>
+<li><a href="/wiki/Network_scheduler" title="Network scheduler">Network scheduler</a></li>
+<li><a href="/wiki/Network_performance" title="Network performance">Network performance evaluation</a></li>
+<li><a href="/wiki/Network_service" title="Network service">Network service</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Software organization</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Interpreter_(computing)" title="Interpreter (computing)">Interpreter</a></li>
+<li><a href="/wiki/Middleware" title="Middleware">Middleware</a></li>
+<li><a href="/wiki/Virtual_machine" title="Virtual machine">Virtual machine</a></li>
+<li><a href="/wiki/Operating_system" title="Operating system">Operating system</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Programming_language_theory" title="Programming language theory">Software notations</a><br/>
+and <a href="/wiki/Programming_tool" title="Programming tool">tools</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Programming_language" title="Programming language">Programming language</a></li>
+<li><a class="mw-redirect" href="/wiki/Compiler_construction" title="Compiler construction">Compiler</a></li>
+<li><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific language</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Software_framework" title="Software framework">Software framework</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">Integrated development environment</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a href="/wiki/Library_(computing)" title="Library (computing)">Software library</a></li>
+<li><a href="/wiki/Software_repository" title="Software repository">Software repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Software_development" title="Software development">Software development</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Requirements_analysis" title="Requirements analysis">Requirements analysis</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Software construction</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Programming_team" title="Programming team">Programming team</a></li>
+<li><a href="/wiki/Open-source_software" title="Open-source software">Open-source model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Theory_of_computation" title="Theory of computation">Theory of computation</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Model_of_computation" title="Model of computation">Model of computation</a></li>
+<li><a href="/wiki/Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="/wiki/Automata_theory" title="Automata theory">Automata theory</a></li>
+<li><a href="/wiki/Computational_complexity_theory" title="Computational complexity theory">Computational complexity theory</a></li>
+<li><a href="/wiki/Logic_in_computer_science" title="Logic in computer science">Logic</a></li>
+<li><a href="/wiki/Semantics_(computer_science)" title="Semantics (computer science)">Semantics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Algorithm" title="Algorithm">Algorithms</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithm_design" title="Algorithm design">Algorithm design</a></li>
+<li><a href="/wiki/Analysis_of_algorithms" title="Analysis of algorithms">Analysis of algorithms</a></li>
+<li><a href="/wiki/Randomized_algorithm" title="Randomized algorithm">Randomized algorithm</a></li>
+<li><a href="/wiki/Computational_geometry" title="Computational geometry">Computational geometry</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Mathematics<br/>
+of computing</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="/wiki/Probability" title="Probability">Probability</a></li>
+<li><a href="/wiki/Statistics" title="Statistics">Statistics</a></li>
+<li><a href="/wiki/Mathematical_software" title="Mathematical software">Mathematical software</a></li>
+<li><a href="/wiki/Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="/wiki/Mathematical_analysis" title="Mathematical analysis">Mathematical analysis</a></li>
+<li><a href="/wiki/Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Information_system" title="Information system">Information<br/>
+systems</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">Database management system</a></li>
+<li><a href="/wiki/Computer_data_storage" title="Computer data storage">Information storage systems</a></li>
+<li><a href="/wiki/Enterprise_information_system" title="Enterprise information system">Enterprise information system</a></li>
+<li><a href="/wiki/Social_software" title="Social software">Social information systems</a></li>
+<li><a href="/wiki/Geographic_information_system" title="Geographic information system">Geographic information system</a></li>
+<li><a href="/wiki/Decision_support_system" title="Decision support system">Decision support system</a></li>
+<li><a href="/wiki/Process_control" title="Process control">Process control system</a></li>
+<li><a href="/wiki/Multimedia_database" title="Multimedia database">Multimedia information system</a></li>
+<li><a href="/wiki/Data_mining" title="Data mining">Data mining</a></li>
+<li><a href="/wiki/Digital_library" title="Digital library">Digital library</a></li>
+<li><a href="/wiki/Computing_platform" title="Computing platform">Computing platform</a></li>
+<li><a href="/wiki/Digital_marketing" title="Digital marketing">Digital marketing</a></li>
+<li><a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a></li>
+<li><a href="/wiki/Information_retrieval" title="Information retrieval">Information retrieval</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_security" title="Computer security">Security</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Cryptography" title="Cryptography">Cryptography</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+<li><a href="/wiki/Security_service_(telecommunication)" title="Security service (telecommunication)">Security services</a></li>
+<li><a href="/wiki/Intrusion_detection_system" title="Intrusion detection system">Intrusion detection system</a></li>
+<li><a href="/wiki/Computer_security_compromised_by_hardware_failure" title="Computer security compromised by hardware failure">Hardware security</a></li>
+<li><a href="/wiki/Network_security" title="Network security">Network security</a></li>
+<li><a href="/wiki/Information_security" title="Information security">Information security</a></li>
+<li><a href="/wiki/Application_security" title="Application security">Application security</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Human%E2%80%93computer_interaction" title="Human–computer interaction">Human–computer<br/>
+interaction</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Interaction_design" title="Interaction design">Interaction design</a></li>
+<li><a href="/wiki/Social_computing" title="Social computing">Social computing</a></li>
+<li><a href="/wiki/Ubiquitous_computing" title="Ubiquitous computing">Ubiquitous computing</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a></li>
+<li><a href="/wiki/Computer_accessibility" title="Computer accessibility">Accessibility</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_(computer_science)" title="Concurrency (computer science)">Concurrency</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Concurrent_computing" title="Concurrent computing">Concurrent computing</a></li>
+<li><a href="/wiki/Parallel_computing" title="Parallel computing">Parallel computing</a></li>
+<li><a href="/wiki/Distributed_computing" title="Distributed computing">Distributed computing</a></li>
+<li><a href="/wiki/Multithreading_(computer_architecture)" title="Multithreading (computer architecture)">Multithreading</a></li>
+<li><a href="/wiki/Multiprocessing" title="Multiprocessing">Multiprocessing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial<br/>
+intelligence</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Natural_language_processing" title="Natural language processing">Natural language processing</a></li>
+<li><strong class="selflink">Knowledge representation and reasoning</strong></li>
+<li><a href="/wiki/Computer_vision" title="Computer vision">Computer vision</a></li>
+<li><a href="/wiki/Automated_planning_and_scheduling" title="Automated planning and scheduling">Automated planning and scheduling</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Search methodology</a></li>
+<li><a href="/wiki/Control_theory" title="Control theory">Control method</a></li>
+<li><a href="/wiki/Philosophy_of_artificial_intelligence" title="Philosophy of artificial intelligence">Philosophy of artificial intelligence</a></li>
+<li><a href="/wiki/Distributed_artificial_intelligence" title="Distributed artificial intelligence">Distributed artificial intelligence</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Machine_learning" title="Machine learning">Machine learning</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Supervised_learning" title="Supervised learning">Supervised learning</a></li>
+<li><a href="/wiki/Unsupervised_learning" title="Unsupervised learning">Unsupervised learning</a></li>
+<li><a href="/wiki/Reinforcement_learning" title="Reinforcement learning">Reinforcement learning</a></li>
+<li><a href="/wiki/Multi-task_learning" title="Multi-task learning">Multi-task learning</a></li>
+<li><a href="/wiki/List_of_machine_learning_concepts" title="List of machine learning concepts">Machine learning algorithms</a></li>
+<li><a href="/wiki/Cross-validation_(statistics)" title="Cross-validation (statistics)">Cross-validation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_graphics" title="Computer graphics">Graphics</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_animation" title="Computer animation">Animation</a></li>
+<li><a href="/wiki/Rendering_(computer_graphics)" title="Rendering (computer graphics)">Rendering</a></li>
+<li><a href="/wiki/Photo_manipulation" title="Photo manipulation">Image manipulation</a></li>
+<li><a href="/wiki/Graphics_processing_unit" title="Graphics processing unit">Graphics processing unit</a></li>
+<li><a href="/wiki/Mixed_reality" title="Mixed reality">Mixed reality</a></li>
+<li><a href="/wiki/Virtual_reality" title="Virtual reality">Virtual reality</a></li>
+<li><a href="/wiki/Image_compression" title="Image compression">Image compression</a></li>
+<li><a href="/wiki/Solid_modeling" title="Solid modeling">Solid modeling</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Applied<br/>
+computing</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/E-commerce" title="E-commerce">E-commerce</a></li>
+<li><a href="/wiki/Enterprise_software" title="Enterprise software">Enterprise software</a></li>
+<li><a href="/wiki/Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+<li><a href="/wiki/Computational_physics" title="Computational physics">Computational physics</a></li>
+<li><a href="/wiki/Computational_chemistry" title="Computational chemistry">Computational chemistry</a></li>
+<li><a href="/wiki/Computational_biology" title="Computational biology">Computational biology</a></li>
+<li><a href="/wiki/Computational_social_science" title="Computational social science">Computational social science</a></li>
+<li><a href="/wiki/Computational_engineering" title="Computational engineering">Computational engineering</a></li>
+<li><a href="/wiki/Health_informatics" title="Health informatics">Computational healthcare</a></li>
+<li><a href="/wiki/Digital_art" title="Digital art">Digital art</a></li>
+<li><a href="/wiki/Electronic_publishing" title="Electronic publishing">Electronic publishing</a></li>
+<li><a href="/wiki/Cyberwarfare" title="Cyberwarfare">Cyberwarfare</a></li>
+<li><a href="/wiki/Electronic_voting" title="Electronic voting">Electronic voting</a></li>
+<li><a href="/wiki/Video_game" title="Video game">Video game</a></li>
+<li><a href="/wiki/Word_processor" title="Word processor">Word processing</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Educational_technology" title="Educational technology">Educational technology</a></li>
+<li><a href="/wiki/Document_management_system" title="Document management system">Document management</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><b><span class="metadata"><a class="image" href="/wiki/File:Internet_map_1024.jpg"><img alt="icon" data-file-height="1280" data-file-width="1280" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/16px-Internet_map_1024.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/24px-Internet_map_1024.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/32px-Internet_map_1024.jpg 2x" width="16"/></a> <a href="/wiki/Portal:Computer_science" title="Portal:Computer science">Computer science portal</a></span></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Computable_knowledge" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Computable_knowledge" title="Template:Computable knowledge"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Computable_knowledge" title="Template talk:Computable knowledge"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Computable_knowledge&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Computable_knowledge" style="font-size:114%">Computable knowledge</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Topics and<br/>
+concepts</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Alphabet_of_human_thought" title="Alphabet of human thought">Alphabet of human thought</a></li>
+<li><a href="/wiki/Authority_control" title="Authority control">Authority control</a></li>
+<li><a href="/wiki/Automated_reasoning" title="Automated reasoning">Automated reasoning</a></li>
+<li><a href="/wiki/Commonsense_knowledge_(artificial_intelligence)" title="Commonsense knowledge (artificial intelligence)">Commonsense knowledge</a></li>
+<li><a href="/wiki/Commonsense_reasoning" title="Commonsense reasoning">Commonsense reasoning</a></li>
+<li><a href="/wiki/Computability" title="Computability">Computability</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="/wiki/Inference_engine" title="Inference engine">Inference engine</a></li>
+<li><a href="/wiki/Knowledge_base" title="Knowledge base">Knowledge base</a></li>
+<li><a href="/wiki/Knowledge-based_systems" title="Knowledge-based systems">Knowledge-based systems</a></li>
+<li><a href="/wiki/Knowledge_engineering" title="Knowledge engineering">Knowledge engineering</a></li>
+<li><a href="/wiki/Knowledge_extraction" title="Knowledge extraction">Knowledge extraction</a></li>
+<li><strong class="selflink">Knowledge representation</strong></li>
+<li><a href="/wiki/Knowledge_retrieval" title="Knowledge retrieval">Knowledge retrieval</a></li>
+<li><a href="/wiki/Library_classification" title="Library classification">Library classification</a></li>
+<li><a href="/wiki/Logic_programming" title="Logic programming">Logic programming</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Personal_knowledge_base" title="Personal knowledge base">Personal knowledge base</a></li>
+<li><a href="/wiki/Question_answering" title="Question answering">Question answering</a></li>
+<li><a href="/wiki/Semantic_reasoner" title="Semantic reasoner">Semantic reasoner</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Proposals and<br/>
+implementations</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Zairja" title="Zairja">Zairja</a></li>
+<li><i><a href="/wiki/Ramon_Llull#Ars_Magna" title="Ramon Llull">Ars Magna</a></i><span class="nowrap"> </span>(1300)</li>
+<li><i><a href="/wiki/An_Essay_towards_a_Real_Character_and_a_Philosophical_Language" title="An Essay towards a Real Character and a Philosophical Language">An Essay towards a Real Character and a Philosophical Language</a></i><span class="nowrap"> </span>(1688)</li>
+<li><a href="/wiki/Calculus_ratiocinator" title="Calculus ratiocinator">Calculus ratiocinator</a> &amp; <a href="/wiki/Characteristica_universalis" title="Characteristica universalis">Characteristica universalis</a><span class="nowrap"> </span>(1700)</li>
+<li><a href="/wiki/Dewey_Decimal_Classification" title="Dewey Decimal Classification">Dewey Decimal Classification</a><span class="nowrap"> </span>(1876)</li>
+<li><a href="/wiki/Begriffsschrift" title="Begriffsschrift">Begriffsschrift</a><span class="nowrap"> </span>(1879)</li>
+<li><a href="/wiki/Mundaneum" title="Mundaneum">Mundaneum</a><span class="nowrap"> </span>(1910)</li>
+<li><a href="/wiki/Logical_atomism" title="Logical atomism">Logical atomism</a><span class="nowrap"> </span>(1918)</li>
+<li><i><a href="/wiki/Tractatus_Logico-Philosophicus" title="Tractatus Logico-Philosophicus">Tractatus Logico-Philosophicus</a></i><span class="nowrap"> </span>(1921)</li>
+<li><a href="/wiki/Hilbert%27s_program" title="Hilbert's program">Hilbert's program</a><span class="nowrap"> </span>(1920s)</li>
+<li><a href="/wiki/G%C3%B6del%27s_incompleteness_theorems" title="Gödel's incompleteness theorems">Incompleteness theorem</a><span class="nowrap"> </span>(1931)</li>
+<li><i><a href="/wiki/World_Brain" title="World Brain">World Brain</a></i><span class="nowrap"> </span>(1938)</li>
+<li><a href="/wiki/Memex" title="Memex">Memex</a><span class="nowrap"> </span>(1945)</li>
+<li><a href="/wiki/General_Problem_Solver" title="General Problem Solver">General Problem Solver</a><span class="nowrap"> </span>(1959)</li>
+<li><a href="/wiki/Prolog" title="Prolog">Prolog</a><span class="nowrap"> </span>(1972)</li>
+<li><a href="/wiki/Cyc" title="Cyc">Cyc</a><span class="nowrap"> </span>(1984)</li>
+<li><a href="/wiki/Semantic_Web" title="Semantic Web">Semantic Web</a><span class="nowrap"> </span>(2001)</li>
+<li><a href="/wiki/Evi_(software)" title="Evi (software)">Evi</a><span class="nowrap"> </span>(2007)</li>
+<li><a href="/wiki/Wolfram_Alpha" title="Wolfram Alpha">Wolfram Alpha</a><span class="nowrap"> </span>(2009)</li>
+<li><a href="/wiki/Watson_(computer)" title="Watson (computer)">Watson</a><span class="nowrap"> </span>(2011)</li>
+<li><a href="/wiki/Siri" title="Siri">Siri</a><span class="nowrap"> </span>(2011)</li>
+<li><a href="/wiki/Knowledge_Graph" title="Knowledge Graph">Knowledge Graph</a><span class="nowrap"> </span>(2012)</li>
+<li><a href="/wiki/Wikidata" title="Wikidata">Wikidata</a><span class="nowrap"> </span>(2012)</li>
+<li><a href="/wiki/Cortana_(software)" title="Cortana (software)">Cortana</a><span class="nowrap"> </span>(2014)</li>
+<li><a href="/wiki/Viv_(software)" title="Viv (software)">Viv</a><span class="nowrap"> </span>(2016)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">In fiction</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Engine" title="The Engine">The Engine</a> (<i><a href="/wiki/Gulliver%27s_Travels" title="Gulliver's Travels">Gulliver's Travels</a></i>, 1726)</li>
+<li>Joe ("<a href="/wiki/A_Logic_Named_Joe" title="A Logic Named Joe">A Logic Named Joe</a>", 1946)</li>
+<li>The Librarian (<i><a href="/wiki/Snow_Crash" title="Snow Crash">Snow Crash</a></i>, 1992)</li>
+<li>Dr. Know (<i><a href="/wiki/A.I._Artificial_Intelligence" title="A.I. Artificial Intelligence">A.I. Artificial Intelligence</a></i>, 2001)</li>
+<li>Waterhouse (<i><a href="/wiki/The_Baroque_Cycle" title="The Baroque Cycle">The Baroque Cycle</a></i>, 2003)</li>
+</ul>
+<p><i>See also: <a href="/wiki/Artificial_intelligence_in_fiction#Logic_machines" title="Artificial intelligence in fiction">Logic machines in fiction</a> and <a href="/wiki/List_of_fictional_computers" title="List of fictional computers">List of fictional computers</a></i></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Knowledge_representation" title="commons:Category:Knowledge representation">Knowledge representation</a></b></i>.</td>
+</tr>
+</table>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:16920-0!*!0!!en!4!* and timestamp 20160930174319 and revision id 735288237
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Knowledge_representation_and_reasoning&amp;oldid=735288237">https://en.wikipedia.org/w/index.php?title=Knowledge_representation_and_reasoning&amp;oldid=735288237</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Knowledge_representation" title="Category:Knowledge representation">Knowledge representation</a></li><li><a href="/wiki/Category:Scientific_modeling" title="Category:Scientific modeling">Scientific modeling</a></li><li><a href="/wiki/Category:Programming_paradigms" title="Category:Programming paradigms">Programming paradigms</a></li><li><a href="/wiki/Category:Reasoning" title="Category:Reasoning">Reasoning</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2016" title="Category:Articles with unsourced statements from February 2016">Articles with unsourced statements from February 2016</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Knowledge+representation+and+reasoning" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Knowledge+representation+and+reasoning" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Knowledge_representation_and_reasoning" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Knowledge_representation_and_reasoning" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Knowledge_representation_and_reasoning">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Knowledge_representation_and_reasoning" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Knowledge_representation_and_reasoning" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;oldid=735288237" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q3478658" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Knowledge_representation_and_reasoning&amp;id=735288237" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Knowledge+representation+and+reasoning">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Knowledge+representation+and+reasoning&amp;returnto=Knowledge+representation+and+reasoning&amp;oldid=735288237&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Knowledge_representation_and_reasoning&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Knowledge_representation" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D9%85%D8%AB%D9%8A%D9%84_%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%81%D8%A9" hreflang="ar" lang="ar" title="تمثيل المعرفة – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5" hreflang="bg" lang="bg" title="Представяне на знание – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Reprezentace_znalost%C3%AD" hreflang="cs" lang="cs" title="Reprezentace znalostí – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Wissensrepr%C3%A4sentation" hreflang="de" lang="de" title="Wissensrepräsentation – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Representaci%C3%B3n_del_conocimiento" hreflang="es" lang="es" title="Representación del conocimiento – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B2%D9%86%D9%85%D9%88%D8%AF_%D8%AF%D8%A7%D9%86%D8%B4" hreflang="fa" lang="fa" title="بازنمود دانش – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Repr%C3%A9sentation_des_connaissances" hreflang="fr" lang="fr" title="Représentation des connaissances – French">Français</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8_%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%A4%E0%A4%A8" hreflang="hi" lang="hi" title="ज्ञान द्योतन – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Prikaz_znanja" hreflang="hr" lang="hr" title="Prikaz znanja – Croatian">Hrvatski</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Rappresentazione_della_conoscenza" hreflang="it" lang="it" title="Rappresentazione della conoscenza – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%99%D7%99%D7%A6%D7%95%D7%92_%D7%99%D7%93%D7%A2" hreflang="he" lang="he" title="ייצוג ידע – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%91%D0%B8%D0%BB%D0%B8%D0%BC%D0%B4%D0%B8_%D0%BA%D3%A9%D1%80%D1%81%D3%A9%D1%82%D2%AF%D2%AF" hreflang="ky" lang="ky" title="Билимди көрсөтүү – Kyrgyz">Кыргызча</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%9F%A5%E8%AD%98%E8%A1%A8%E7%8F%BE" hreflang="ja" lang="ja" title="知識表現 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Kunnskapsrepresentasjon" hreflang="nn" lang="nn" title="Kunnskapsrepresentasjon – Norwegian Nynorsk">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Representa%C3%A7%C3%A3o_de_conhecimento" hreflang="pt" lang="pt" title="Representação de conhecimento – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9" hreflang="ru" lang="ru" title="Представление знаний – Russian">Русский</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%97%E0%B8%99%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89" hreflang="th" lang="th" title="การแทนความรู้ – Thai">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7%D0%BD%D0%B0%D0%BD%D1%8C" hreflang="uk" lang="uk" title="Представлення знань – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%9F%A5%E8%AF%86%E8%A1%A8%E7%A4%BA" hreflang="zh" lang="zh" title="知识表示 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q3478658#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 August 2016, at 19:05.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Knowledge_representation_and_reasoning&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.296",
+            "walltime": "0.359",
+            "ppvisitednodes": {
+                "value": 1438,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 82609,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 897,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  282.379      1 -total",
+                " 20.83%   58.819      7 Template:Cite_book",
+                " 18.71%   52.831      1 Template:Citation_needed",
+                " 14.22%   40.167      1 Template:Fix",
+                " 13.46%   38.017      8 Template:Cite_journal",
+                " 10.62%   29.986      2 Template:Navbox",
+                "  9.10%   25.702      1 Template:Commons_category",
+                "  7.76%   21.911      2 Template:Category_handler",
+                "  6.72%   18.986      1 Template:Computer_science",
+                "  5.67%   16.023      1 Template:Computable_knowledge"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.127",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4000138,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1170",
+            "timestamp": "20160930174320",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1240"});});</script>
+</body>
+</html>
+

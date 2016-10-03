@@ -1,0 +1,569 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Model–view–controller - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Model–view–controller","wgTitle":"Model–view–controller","wgCurRevisionId":741913054,"wgRevisionId":741913054,"wgArticleId":288233,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing more viewpoints from September 2015","Vague or ambiguous time from September 2016","Software design patterns","Architectural pattern (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Model–view–controller","wgRelevantArticleId":288233,"wgRequestId":"V-EJbwpAMFMAAEGYDkkAAABE","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q44860","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" rel="alternate"/>
+<link href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Model–view–controller rootpage-Model–view–controller skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Model–view–controller</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="Unbalanced scales.svg" data-file-height="354" data-file-width="400" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/45px-Unbalanced_scales.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/68px-Unbalanced_scales.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/90px-Unbalanced_scales.svg.png 2x" width="45"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>may be <a href="/wiki/Wikipedia:Neutral_point_of_view#Undue_weight" title="Wikipedia:Neutral point of view">unbalanced</a> towards certain viewpoints</b>. <span class="hide-when-compact">Please <a class="external text" href="//en.wikipedia.org/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit">improve the article</a> by adding information on neglected viewpoints, or discuss the issue on the <a href="/wiki/Talk:Model%E2%80%93view%E2%80%93controller" title="Talk:Model–view–controller">talk page</a>.</span> <small><i>(September 2015)</i></small></span></td>
+</tr>
+</table>
+<p><b>Model–view–controller</b> (<b>MVC</b>) is a software <a href="/wiki/Architectural_pattern" title="Architectural pattern">architectural pattern</a> for implementing <a href="/wiki/User_interface" title="User interface">user interfaces</a> on computers. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>Traditionally used for desktop <a href="/wiki/Graphical_user_interface" title="Graphical user interface">graphical user interfaces</a> (GUIs), this architecture has become popular for designing <a href="/wiki/Web_application" title="Web application">web applications</a>.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Components"><span class="tocnumber">1.1</span> <span class="toctext">Components</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Interactions"><span class="tocnumber">1.2</span> <span class="toctext">Interactions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Use_in_web_applications"><span class="tocnumber">3</span> <span class="toctext">Use in web applications</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Description">Description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=1" title="Edit section: Description">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As with other software patterns, MVC expresses the "core of the solution" to a problem while allowing it to be adapted for each system.<sup class="reference" id="cite_ref-gof_3-0"><a href="#cite_note-gof-3">[3]</a></sup> Particular MVC architectures can vary significantly from the traditional description here.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></p>
+<h3><span class="mw-headline" id="Components">Components</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=2" title="Edit section: Components">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:MVC-Process.svg"><img alt="" class="thumbimage" data-file-height="550" data-file-width="500" height="220" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/300px-MVC-Process.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/400px-MVC-Process.svg.png 2x" width="200"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:MVC-Process.svg" title="Enlarge"></a></div>
+A typical collaboration of the MVC components.</div>
+</div>
+</div>
+<p>The central component of MVC, the <i>model</i>, captures the behavior of the application in terms of its <a href="/wiki/Problem_domain" title="Problem domain">problem domain</a>, independent of the user interface.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<ul>
+<li>The <i>model</i> directly manages the data, logic and rules of the application.</li>
+<li>A <i>view</i> can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.</li>
+<li>The third part, the <i>controller</i>, accepts input and converts it to commands for the model or view.<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Interactions">Interactions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=3" title="Edit section: Interactions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In addition to dividing the application into three kinds of components, the model–view–controller design defines the interactions between them.<sup class="reference" id="cite_ref-posa_7-0"><a href="#cite_note-posa-7">[7]</a></sup></p>
+<ul>
+<li>A <i>model</i> stores data that is retrieved according to commands from the controller and displayed in the view.</li>
+<li>A <i>view</i> generates new output to the user based on changes in the model.</li>
+<li>A <i>controller</i> can send commands to the model to update the model's state (e.g. editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g. by scrolling through a document).</li>
+</ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=4" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One of the seminal insights in the early development of graphical user interfaces, MVC became one of the first approaches to describe and implement software constructs in terms of their <a href="/wiki/Single_responsibility_principle" title="Single responsibility principle">responsibilities</a>.<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></p>
+<p><a href="/wiki/Trygve_Reenskaug" title="Trygve Reenskaug">Trygve Reenskaug</a> introduced MVC into <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a>-76 while visiting the Xerox <a href="/wiki/PARC_(company)" title="PARC (company)">Palo Alto Research Center</a> (PARC)<sup class="reference" id="cite_ref-page_trygver_9-0"><a href="#cite_note-page_trygver-9">[9]</a></sup><sup class="reference" id="cite_ref-notes1_10-0"><a href="#cite_note-notes1-10">[10]</a></sup> in the 1970s. In the 1980s, Jim Althoff and others implemented a version of MVC for the Smalltalk-80 class library. Only later did a 1988 article in <i><a href="/wiki/The_Journal_of_Object_Technology" title="The Journal of Object Technology">The Journal of Object Technology</a></i> (JOT) express MVC as a general concept.<sup class="reference" id="cite_ref-art1_11-0"><a href="#cite_note-art1-11">[11]</a></sup></p>
+<p>The MVC pattern has subsequently evolved,<sup class="reference" id="cite_ref-Fowler_12-0"><a href="#cite_note-Fowler-12">[12]</a></sup> giving rise to variants such as <a href="/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller" title="Hierarchical model–view–controller">hierarchical model–view–controller</a> (HMVC), <a href="/wiki/Model%E2%80%93view%E2%80%93adapter" title="Model–view–adapter">model–view–adapter</a> (MVA), <a href="/wiki/Model%E2%80%93view%E2%80%93presenter" title="Model–view–presenter">model–view–presenter</a> (MVP), <a href="/wiki/Model%E2%80%93view%E2%80%93viewmodel" title="Model–view–viewmodel">model–view–viewmodel</a> (MVVM), and others that adapted MVC to different contexts.</p>
+<p>The use of the MVC pattern in web applications exploded in popularity after the introduction<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items" title="Wikipedia:Manual of Style/Dates and numbers"><span title="The time period mentioned near this tag is ambiguous. (September 2016)">when?</span></a></i>]</sup> of <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple</a>'s <a href="/wiki/WebObjects" title="WebObjects">WebObjects</a>, which was originally written in <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a> (that borrowed heavily from Smalltalk) and helped enforce MVC principles. Later, the MVC pattern became popular with Java developers when WebObjects was ported to <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>. Later frameworks for Java such as <a href="/wiki/Spring_Framework" title="Spring Framework">Spring</a> (released in 2002) continued the strong bond between Java and MVC. The introduction of the frameworks <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Rails</a> (December 2005, for <a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a>) and <a href="/wiki/Django_(web_framework)" title="Django (web framework)">Django</a> (July 2005, for <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>), both of which had a strong emphasis on rapid deployment, increased MVC's popularity outside the traditional enterprise environment in which it has long been popular. MVC <a href="/wiki/Web_framework" title="Web framework">web frameworks</a> now hold large market-shares relative to non-MVC web <a href="/wiki/Wt_(web_toolkit)" title="Wt (web toolkit)">toolkits</a>.<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup></p>
+<h2><span class="mw-headline" id="Use_in_web_applications">Use in web applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=5" title="Edit section: Use in web applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Although originally developed for desktop computing, model–view–controller has been widely adopted as an architecture for <a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a> applications in major <a href="/wiki/Programming_language" title="Programming language">programming languages</a>. Several commercial and noncommercial <a href="/wiki/Web_framework" title="Web framework">web frameworks</a> have been created that enforce the pattern. These <a href="/wiki/Software_framework" title="Software framework">software frameworks</a> vary in their interpretations, mainly in the way that the MVC responsibilities are divided between the <a href="/wiki/Client%E2%80%93server_model" title="Client–server model">client and server</a>.<sup class="reference" id="cite_ref-leff_14-0"><a href="#cite_note-leff-14">[14]</a></sup></p>
+<p>Early web MVC frameworks took a <a href="/wiki/Thin_client" title="Thin client">thin client</a> approach that placed almost the entire model, view and controller logic on the server. This is still reflected in popular frameworks such as <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, <a href="/wiki/Django_(web_framework)" title="Django (web framework)">Django</a>, <a href="/wiki/ASP.NET_MVC" title="ASP.NET MVC">ASP.NET MVC</a>. In this approach, the client sends either <a href="/wiki/Hyperlink" title="Hyperlink">hyperlink</a> requests or <a class="mw-redirect" href="/wiki/Form_(web)" title="Form (web)">form</a> input to the controller and then receives a complete and updated web page (or other document) from the view; the model exists entirely on the server.<sup class="reference" id="cite_ref-leff_14-1"><a href="#cite_note-leff-14">[14]</a></sup> As client technologies have matured, frameworks such as <a href="/wiki/AngularJS" title="AngularJS">AngularJS</a>, <a href="/wiki/Ember.js" title="Ember.js">EmberJS</a>, <a href="/wiki/JavaScriptMVC" title="JavaScriptMVC">JavaScriptMVC</a> and <a href="/wiki/Backbone.js" title="Backbone.js">Backbone</a> have been created that allow the MVC components to execute partly on the client (also see <a href="/wiki/Ajax_(programming)" title="Ajax (programming)">Ajax</a>).</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="div-col columns column-count column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li><a href="/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller" title="Hierarchical model–view–controller">Hierarchical model–view–controller</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93adapter" title="Model–view–adapter">Model–view–adapter</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93presenter" title="Model–view–presenter">Model–view–presenter</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93viewmodel" title="Model–view–viewmodel">Model–view–viewmodel</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer pattern</a></li>
+<li><a href="/wiki/Presentation%E2%80%93abstraction%E2%80%93control" title="Presentation–abstraction–control">Presentation–abstraction–control</a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">"More deeply, the framework exists to separate the representation of information from user interaction." <a class="external text" href="http://www.artima.com/articles/dci_vision.html" rel="nofollow">The DCI Architecture: A New Vision of Object-Oriented Programming</a> - <a href="/wiki/Trygve_Reenskaug" title="Trygve Reenskaug">Trygve Reenskaug</a> and <a class="mw-redirect" href="/wiki/James_Coplien" title="James Coplien">James Coplien</a> - March 20, 2009.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Burbeck (1992): "... the user input, the modeling of the external world, and the visual feedback to the user are explicitly separated and handled by three types of object."</span></li>
+<li id="cite_note-gof-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-gof_3-0">^</a></b></span> <span class="reference-text">Gamma, Erich et al. (1994) <i>Design Patterns</i></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Moore, Dana et al. (2007) <i>Professional Rich Internet Applications: Ajax and Beyond</i>: "Since the origin of MVC, there have been many interpretations of the pattern. The concept has been adapted and applied in very different ways to a wide variety of systems and architectures."</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Burbeck, Steve (1992) <a class="external text" href="http://st-www.cs.illinois.edu/users/smarch/st-docs/mvc.html" rel="nofollow">Applications Programming in Smalltalk-80:How to use Model–View–Controller (MVC)</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.codeproject.com/Articles/25057/Simple-Example-of-MVC-Model-View-Controller-Design" rel="nofollow">Simple Example of MVC (Model–View–Controller) Design Pattern for Abstraction</a></span></li>
+<li id="cite_note-posa-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-posa_7-0">^</a></b></span> <span class="reference-text">Buschmann, Frank (1996) <i>Pattern-Oriented Software Architecture</i>.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a class="external text" href="http://c2.com/cgi/wiki?ModelViewControllerHistory" rel="nofollow">Model–View–Controller History</a>. C2.com (2012-05-11). Retrieved on 2013-12-09.</span></li>
+<li id="cite_note-page_trygver-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-page_trygver_9-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html" rel="nofollow">Notes and Historical documents</a> from Trygve Reenskaug, inventor of MVC.</span></li>
+<li id="cite_note-notes1-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-notes1_10-0">^</a></b></span> <span class="reference-text">"A note on DynaBook requirements", Trygve Reenskaug, 22 March 1979, <a class="external text" href="http://folk.uio.no/trygver/1979/sysreq/SysReq.pdf" rel="nofollow">SysReq.pdf</a>.</span></li>
+<li id="cite_note-art1-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-art1_11-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Krasner, Glenn E.; Pope, Stephen T. (Aug–Sep 1988). <a class="external text" href="http://dl.acm.org/citation.cfm?id=50757.50759" rel="nofollow">"A cookbook for using the model–view controller user interface paradigm in Smalltalk-80"</a>. <i><a href="/wiki/The_Journal_of_Object_Technology" title="The Journal of Object Technology">The Journal of Object Technology</a></i>. SIGS Publications.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AModel%93view%93controller&amp;rft.atitle=A+cookbook+for+using+the+model%93view+controller+user+interface+paradigm+in+Smalltalk-80&amp;rft.aufirst=Glenn+E.&amp;rft.aulast=Krasner&amp;rft.au=Pope%2C+Stephen+T.&amp;rft.date=1988-08%2F1988-09&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D50757.50759&amp;rft.jtitle=The+Journal+of+Object+Technology&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span> Also published as "<a class="external text" href="https://web.archive.org/web/20100921030808/http://www.itu.dk/courses/VOP/E2005/VOP2005E/8_mvc_krasner_and_pope.pdf" rel="nofollow">A Description of the Model–View–Controller User Interface Paradigm in the Smalltalk-80 System</a>" (Report), ParcPlace Systems; Retrieved 2012-06-05.</span></li>
+<li id="cite_note-Fowler-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Fowler_12-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://martinfowler.com/eaaDev/uiArchs.html" rel="nofollow">The evolution of MVC and other UI architectures</a> from Martin Fowler.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a class="external text" href="http://hotframeworks.com" rel="nofollow">Hot Frameworks</a></span></li>
+<li id="cite_note-leff-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-leff_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-leff_14-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference">Leff, Avraham; Rayfield, James T. (September 2001). <i>Web-Application Development Using the Model/View/Controller Design Pattern</i>. IEEE Enterprise Distributed Object Computing Conference. pp. 118–127.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AModel%93view%93controller&amp;rft.aufirst=Avraham&amp;rft.aulast=Leff&amp;rft.au=Rayfield%2C+James+T.&amp;rft.btitle=Web-Application+Development+Using+the+Model%2FView%2FController+Design+Pattern&amp;rft.date=2001-09&amp;rft.genre=conference&amp;rft.pages=118-127&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit&amp;section=8" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wikibooks-logo-en-noslogan.svg"><img alt="" class="noviewer" data-file-height="400" data-file-width="400" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" width="40"/></a></td>
+<td class="mbox-text plainlist">Wikibooks has a book on the topic of: <i><b><a class="extiw" href="//en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller" title="wikibooks:Computer Science Design Patterns/Model–view–controller">Computer Science Design Patterns/Model–view–controller</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/" rel="nofollow">What Are The Benefits of MVC?</a> – quotes at length from the <a class="mw-redirect" href="/wiki/Gang_of_Four_(software)" title="Gang of Four (software)">Gang of Four</a></li>
+<li>Martin Fowler on the <a class="external text" href="http://martinfowler.com/eaaDev/uiArchs.html" rel="nofollow">history of UI Architectures and the evolution of MVC</a></li>
+<li><a class="external text" href="https://www.youtube.com/watch?v=eTdVkgF_Slo" rel="nofollow"><span class="plainlinks">Understanding MVC architecture – a quick explanation</span></a> on <a href="/wiki/YouTube" title="YouTube">YouTube</a></li>
+<li><a class="external text" href="https://www.youtube.com/watch?v=6EcjhVwH0Dw" rel="nofollow"><span class="plainlinks">1. MVC and Introduction to Objective-C (September 27, 2011). Stanford University introductory lecture on the MVC pattern.</span></a> on <a href="/wiki/YouTube" title="YouTube">YouTube</a></li>
+<li><a class="external text" href="https://developer.apple.com/library/mac/documentation/general/conceptual/devpedia-cocoacore/MVC.html" rel="nofollow">Cocoa Core Competencies:</a> Overview of the MVC pattern.</li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><strong class="selflink">MVC</strong></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:288233-0!*!0!!en!4!* and timestamp 20161001131845 and revision id 741913054
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Model–view–controller&amp;oldid=741913054">https://en.wikipedia.org/w/index.php?title=Model–view–controller&amp;oldid=741913054</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Architectural_pattern_(computer_science)" title="Category:Architectural pattern (computer science)">Architectural pattern (computer science)</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_more_viewpoints_from_September_2015" title="Category:Articles needing more viewpoints from September 2015">Articles needing more viewpoints from September 2015</a></li><li><a href="/wiki/Category:Vague_or_ambiguous_time_from_September_2016" title="Category:Vague or ambiguous time from September 2016">Vague or ambiguous time from September 2016</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Model%E2%80%93view%E2%80%93controller" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Model%E2%80%93view%E2%80%93controller" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Model%E2%80%93view%E2%80%93controller" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Model%E2%80%93view%E2%80%93controller" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Model%E2%80%93view%E2%80%93controller">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Model%E2%80%93view%E2%80%93controller" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Model%E2%80%93view%E2%80%93controller" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;oldid=741913054" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q44860" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Model%E2%80%93view%E2%80%93controller&amp;id=741913054" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Model%E2%80%93view%E2%80%93controller">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Model%E2%80%93view%E2%80%93controller&amp;returnto=Model%E2%80%93view%E2%80%93controller&amp;oldid=741913054&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Model-View-Controller_pattern" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Model%E2%80%93view%E2%80%93controller" hreflang="en">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%B7-%D8%B9%D8%B1%D8%B6-%D9%85%D8%AA%D8%AD%D9%83%D9%85_(%D8%A5%D9%85_%D9%81%D9%8A_%D8%B3%D9%8A)" hreflang="ar" lang="ar" title="نمط-عرض-متحكم (إم في سي) – Arabic">العربية</a></li><li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Model-View-Controller" hreflang="az" lang="az" title="Model-View-Controller – Azerbaijani">Azərbaycanca</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Model-View-Controller" hreflang="bg" lang="bg" title="Model-View-Controller – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Model-Vista-Controlador" hreflang="ca" lang="ca" title="Model-Vista-Controlador – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Model-view-controller" hreflang="cs" lang="cs" title="Model-view-controller – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Model-View-Controller" hreflang="da" lang="da" title="Model-View-Controller – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Model_View_Controller" hreflang="de" lang="de" title="Model View Controller – German">Deutsch</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Model-View-Controller" hreflang="et" lang="et" title="Model-View-Controller – Estonian">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/Model-view-controller" hreflang="el" lang="el" title="Model-view-controller – Greek">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador" hreflang="es" lang="es" title="Modelo–vista–controlador – Spanish">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Modelo-vidigilo-regilo" hreflang="eo" lang="eo" title="Modelo-vidigilo-regilo – Esperanto">Esperanto</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D8%AF%D9%84-%D9%86%D9%85%D8%A7-%DA%A9%D9%86%D8%AA%D8%B1%D9%84%E2%80%8C%DA%AF%D8%B1" hreflang="fa" lang="fa" title="مدل-نما-کنترل‌گر – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur" hreflang="fr" lang="fr" title="Modèle-vue-contrôleur – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC" hreflang="ko" lang="ko" title="모델-뷰-컨트롤러 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%89%E0%A4%A1%E0%A4%B2_%E0%A4%A6%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95" hreflang="hi" lang="hi" title="मॉडल दृष्टि नियंत्रक – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" hreflang="hr" lang="hr" title="Model–view–controller – Croatian">Hrvatski</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/MVC" hreflang="id" lang="id" title="MVC – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Model-View-Controller" hreflang="it" lang="it" title="Model-View-Controller – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Model_View_Controller" hreflang="he" lang="he" title="Model View Controller – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/MVC" hreflang="lv" lang="lv" title="MVC – Latvian">Latviešu</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Modell-n%C3%A9zet-vez%C3%A9rl%C5%91" hreflang="hu" lang="hu" title="Modell-nézet-vezérlő – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/Model_View_Controller" hreflang="mn" lang="mn" title="Model View Controller – Mongolian">Монгол</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Model-view-controller-model" hreflang="nl" lang="nl" title="Model-view-controller-model – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Model_View_Controller" hreflang="ja" lang="ja" title="Model View Controller – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" hreflang="no" lang="no" title="Model–view–controller – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Model-View-Controller" hreflang="pl" lang="pl" title="Model-View-Controller – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/MVC" hreflang="pt" lang="pt" title="MVC – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Model-view-controller" hreflang="ro" lang="ro" title="Model-view-controller – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/Model-View-Controller" hreflang="ru" lang="ru" title="Model-View-Controller – Russian">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/MVC_arhitektura" hreflang="sr" lang="sr" title="MVC arhitektura – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" hreflang="sh" lang="sh" title="Model–view–controller – Serbo-Croatian">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/MVC-arkkitehtuuri" hreflang="fi" lang="fi" title="MVC-arkkitehtuuri – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Model-View-Controller" hreflang="sv" lang="sv" title="Model-View-Controller – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%BE%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%BF-%E0%AE%95%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9A%E0%AE%BF-%E0%AE%95%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%95%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="மாதிரி-காட்சி-கட்டுப்பாட்டகம் – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%A1%E0%B9%80%E0%B8%94%E0%B8%A5-%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C" hreflang="th" lang="th" title="โมเดล-วิว-คอนโทรลเลอร์ – Thai">ไทย</a></li><li class="interlanguage-link interwiki-tg"><a href="https://tg.wikipedia.org/wiki/Model-View-Controller" hreflang="tg" lang="tg" title="Model-View-Controller – Tajik">Тоҷикӣ</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Model-View-Controller" hreflang="tr" lang="tr" title="Model-View-Controller – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%B2%D0%B8%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%B5%D1%80" hreflang="uk" lang="uk" title="Модель-вид-контролер – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/MVC" hreflang="vi" lang="vi" title="MVC – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/MVC" hreflang="zh" lang="zh" title="MVC – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q44860#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 30 September 2016, at 13:17.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Model%E2%80%93view%E2%80%93controller&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.132",
+            "walltime": "0.173",
+            "ppvisitednodes": {
+                "value": 1327,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 42495,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 3461,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  136.182      1 -total",
+                " 27.72%   37.756      1 Template:Reflist",
+                " 24.52%   33.392      1 Template:Unbalanced",
+                " 17.85%   24.304      1 Template:Cite_journal",
+                " 16.03%   21.827      1 Template:Ambox",
+                " 15.56%   21.195      2 Template:Navbox",
+                " 14.84%   20.216      1 Template:Design_Patterns_patterns",
+                " 13.97%   19.029      1 Template:When?",
+                " 11.92%   16.229      1 Template:Fix",
+                "  6.95%    9.461      1 Template:Delink"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.042",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2403638,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1254",
+            "timestamp": "20161001131845",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":63,"wgHostname":"mw1248"});});</script>
+</body>
+</html>
+

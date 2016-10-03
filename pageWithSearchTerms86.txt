@@ -1,0 +1,1696 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Monitor_(synchronization)
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Monitor (synchronization) - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Monitor_(synchronization)","wgTitle":"Monitor (synchronization)","wgCurRevisionId":736487080,"wgRevisionId":736487080,"wgArticleId":1367789,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing cleanup from January 2014","All pages needing cleanup","Articles containing how-to sections","Wikipedia articles that are too technical from January 2014","All articles that are too technical","Articles needing expert attention from January 2014","All articles needing expert attention","Wikipedia external links cleanup from March 2013","Wikipedia spam cleanup from March 2013","Software design patterns","Programming constructs","Concurrency control"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Monitor_(synchronization)","wgRelevantArticleId":1367789,"wgRequestId":"V-CPBQpAMFoAAF2GkJMAAABQ","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q1062162","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","ext.math.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.styles%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Monitor_(synchronization)" rel="alternate"/>
+<link href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Monitor_(synchronization)" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Monitor_synchronization rootpage-Monitor_synchronization skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Monitor (synchronization)</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>contains <a href="/wiki/Wikipedia:What_Wikipedia_is_not#NOTHOWTO" title="Wikipedia:What Wikipedia is not">instructions, advice, or how-to content</a></b>. <span class="hide-when-compact">The purpose of Wikipedia is to present facts, not to train. Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;action=edit">improve this article</a> either by rewriting the how-to content or by <a class="extiw" href="https://meta.wikimedia.org/wiki/Help:Transwiki" title="m:Help:Transwiki">moving</a> it to <a class="extiw" href="https://en.wikiversity.org/wiki/" title="v:">Wikiversity</a>, <a class="extiw" href="https://en.wikibooks.org/wiki/" title="b:">Wikibooks</a> or <a class="extiw" href="https://en.wikivoyage.org/wiki/" title="voy:">Wikivoyage</a>.</span> <small><i>(January 2014)</i></small></span></td>
+</tr>
+</table>
+<p>In <a href="/wiki/Concurrent_computing" title="Concurrent computing">concurrent programming</a>, a <b>monitor</b> is a synchronization construct that allows <a href="/wiki/Thread_(computing)" title="Thread (computing)">threads</a> to have both <a href="/wiki/Mutual_exclusion" title="Mutual exclusion">mutual exclusion</a> and the ability to wait (block) for a certain condition to become true. Monitors also have a mechanism for signalling other threads that their condition has been met. A monitor consists of a <a href="/wiki/Lock_(computer_science)" title="Lock (computer science)">mutex (lock)</a> object and <b>condition variables</b>. A <b>condition variable</b> is basically a container of threads that are waiting for a certain condition. Monitors provide a mechanism for threads to temporarily give up exclusive access in order to wait for some condition to be met, before regaining exclusive access and resuming their task.</p>
+<p>Another definition of <b>monitor</b> is a <b>thread-safe</b> <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">class</a>, <a href="/wiki/Object_(computer_science)" title="Object (computer science)">object</a>, or <a class="mw-redirect" href="/wiki/Module_(programming)" title="Module (programming)">module</a> that uses wrapped <a href="/wiki/Mutual_exclusion" title="Mutual exclusion">mutual exclusion</a> in order to safely allow access to a method or variable by more than one <a class="mw-redirect" href="/wiki/Thread_(computer_science)" title="Thread (computer science)">thread</a>. The defining characteristic of a monitor is that its methods are executed with <a href="/wiki/Mutual_exclusion" title="Mutual exclusion">mutual exclusion</a>: At each point in time, at most one thread may be executing any of its <a class="mw-redirect" href="/wiki/Method_(computer_science)" title="Method (computer science)">methods</a>. Using a condition variable(s), it can also provide the ability for threads to wait on a certain condition (thus using the above definition of a "monitor"). For the rest of this article, this sense of "monitor" will be referred to as a "thread-safe object/class/module".</p>
+<p>Monitors were invented by <a href="/wiki/Per_Brinch_Hansen" title="Per Brinch Hansen">Per Brinch Hansen</a><sup class="reference" id="cite_ref-:0_1-0"><a href="#cite_note-:0-1">[1]</a></sup> and <a class="mw-redirect" href="/wiki/C._A._R._Hoare" title="C. A. R. Hoare">C. A. R. Hoare</a>,<sup class="reference" id="cite_ref-:1_2-0"><a href="#cite_note-:1-2">[2]</a></sup> and were first implemented in <a href="/wiki/Per_Brinch_Hansen" title="Per Brinch Hansen">Brinch Hansen's</a> <a href="/wiki/Concurrent_Pascal" title="Concurrent Pascal">Concurrent Pascal</a> language.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Mutual_exclusion"><span class="tocnumber">1</span> <span class="toctext">Mutual exclusion</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Condition_variables"><span class="tocnumber">2</span> <span class="toctext">Condition variables</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Problem_statement"><span class="tocnumber">2.1</span> <span class="toctext">Problem statement</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Case_study:_classic_bounded_producer.2Fconsumer_problem"><span class="tocnumber">2.2</span> <span class="toctext">Case study: classic bounded producer/consumer problem</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Incorrect_without_synchronization"><span class="tocnumber">2.2.1</span> <span class="toctext">Incorrect without synchronization</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Spin-waiting"><span class="tocnumber">2.2.2</span> <span class="toctext">Spin-waiting</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Condition_variables_2"><span class="tocnumber">2.3</span> <span class="toctext">Condition variables</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Monitor_usage"><span class="tocnumber">2.4</span> <span class="toctext">Monitor usage</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Solving_the_bounded_producer.2Fconsumer_problem"><span class="tocnumber">2.4.1</span> <span class="toctext">Solving the bounded producer/consumer problem</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Synchronization_primitives"><span class="tocnumber">2.5</span> <span class="toctext">Synchronization primitives</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Sample_Mesa-monitor_implementation_with_Test-and-Set"><span class="tocnumber">2.5.1</span> <span class="toctext">Sample Mesa-monitor implementation with Test-and-Set</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Semaphore"><span class="tocnumber">2.6</span> <span class="toctext">Semaphore</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Monitor_implemented_using_semaphores"><span class="tocnumber">2.6.1</span> <span class="toctext">Monitor implemented using semaphores</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Blocking_condition_variables"><span class="tocnumber">2.7</span> <span class="toctext">Blocking condition variables</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Nonblocking_condition_variables"><span class="tocnumber">2.8</span> <span class="toctext">Nonblocking condition variables</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Implicit_condition_variable_monitors"><span class="tocnumber">2.9</span> <span class="toctext">Implicit condition variable monitors</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Implicit_signaling"><span class="tocnumber">2.10</span> <span class="toctext">Implicit signaling</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#History"><span class="tocnumber">3</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Further_reading"><span class="tocnumber">6</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Mutual_exclusion">Mutual exclusion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=1" title="Edit section: Mutual exclusion">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As a simple example, consider a thread-safe object for performing transactions on a bank account:</p>
+<pre>
+<b>monitor class</b> <i>Account</i> {
+  <b>private</b> <i>int</i> balance := 0
+  <b>invariant</b> balance &gt;= 0
+
+  <b>public method</b> <i>boolean</i> withdraw(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    <b>if</b> balance &lt; amount {
+      <b>return false</b>
+    } <b>else</b> {
+      balance := balance - amount
+      <b>return true</b>
+    }
+  }
+
+  <b>public method</b> deposit(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    balance := balance + amount
+  }
+}
+</pre>
+<p>While a thread is executing a method of a thread-safe object, it is said to <i>occupy</i> the object, by holding its <a href="/wiki/Lock_(computer_science)" title="Lock (computer science)">mutex (lock)</a>. Thread-safe objects are implemented to enforce that <i>at each point in time, at most one thread may occupy the object</i>. The lock, which is initially unlocked, is locked at the start of each public method, and is unlocked at each return from each public method.</p>
+<p>Upon calling one of the methods, a thread must wait until no other thread is executing any of the thread-safe object's methods before starting execution of its method. Note that without this mutual exclusion, in the present example, two threads could cause money to be lost or gained for no reason. For example two threads withdrawing 1000 from the account could both return true, while causing the balance to drop by only 1000, as follows: first, both threads fetch the current balance, find it greater than 1000, and subtract 1000 from it; then, both threads store the balance and return.</p>
+<p>The <a href="/wiki/Syntactic_sugar" title="Syntactic sugar">syntactic sugar</a> "monitor class" in the above example is implementing the following basic representation of the code, by wrapping each function's execution in mutexes:</p>
+<pre>
+<b>class</b> <i>Account</i> {
+  <b>private</b> <i>lock</i> myLock
+
+  <b>private</b> <i>int</i> balance := 0
+  <b>invariant</b> balance &gt;= 0
+
+  <b>public method</b> <i>boolean</i> withdraw(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    myLock.acquire()
+    <b>try</b> {
+      <b>if</b> balance &lt; amount {
+        <b>return false</b>
+      } <b>else</b> {
+        balance := balance - amount
+        <b>return true</b>
+      }
+    } <b>finally</b> {
+      myLock.release()
+    }
+  }
+
+  <b>public method</b> deposit(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    myLock.acquire()
+    <b>try</b> {
+      balance := balance + amount
+    } <b>finally</b> {
+      myLock.release()
+    }
+  }
+}
+</pre>
+<h2><span class="mw-headline" id="Condition_variables">Condition variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=2" title="Edit section: Condition variables">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Problem_statement">Problem statement</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=3" title="Edit section: Problem statement">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>For many applications, mutual exclusion is not enough. Threads attempting an operation may need to wait until some condition <var style="padding-right: 1px;">P</var> holds true. A <a href="/wiki/Busy_waiting" title="Busy waiting">busy waiting</a> loop</p>
+<pre>
+   <b>while</b> <b>not</b>( <var style="padding-right: 1px;">P</var> ) <b>do</b> <b>skip</b>
+</pre>
+<p>will not work, as mutual exclusion will prevent any other thread from entering the monitor to make the condition true. Other "solutions" exist such as having a loop that unlocks the monitor, waits a certain amount of time, locks the monitor and check for the condition <var style="padding-right: 1px;">P</var>. Theoretically, it works and will not deadlock, but issues arise. It's hard to decide an appropriate amount of waiting time, too small and the thread will hog the CPU, too big and it will be apparently unresponsive. What is needed is a way to signal the thread when the condition P is true (or <i>could</i> be true).</p>
+<h3><span class="mw-headline" id="Case_study:_classic_bounded_producer.2Fconsumer_problem">Case study: classic bounded producer/consumer problem</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=4" title="Edit section: Case study: classic bounded producer/consumer problem">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A classic concurrency problem is that of the <b>bounded producer/consumer</b>, in which there is a <a class="mw-redirect" href="/wiki/Queue_(data_structure)" title="Queue (data structure)">queue</a> or <a href="/wiki/Circular_buffer" title="Circular buffer">ring buffer</a> of tasks with a maximum size, with one or more threads being "producer" threads that add tasks to the queue, and one or more other threads being "consumer" threads that take tasks out of the queue. The queue is assumed to be non–thread-safe itself, and it can be empty, full, or between empty and full. Whenever the queue is full of tasks, then we need the producer threads to block until there is room from consumer threads dequeueing tasks. On the other hand, whenever the queue is empty, then we need the consumer threads to block until more tasks are available due to producer threads adding them.</p>
+<p>As the queue is a concurrent object shared between threads, accesses to it must be made <a href="/wiki/Atomicity_(database_systems)" title="Atomicity (database systems)">atomic</a>, because the queue can be put into an <b>inconsistent state</b> during the course of the queue access that should never be exposed between threads. Thus, any code that accesses the queue constitutes a <b><a href="/wiki/Critical_section" title="Critical section">critical section</a></b> that must be synchronized by mutual exclusion. If code and processor instructions in critical sections of code that access the queue could be <b>interleaved</b> by arbitrary <b>context switches</b> between threads on the same processor or by simultaneously-running threads on multiple processors, then there is a risk of exposing inconsistent state and causing <a href="/wiki/Race_condition" title="Race condition">race conditions</a>.</p>
+<h4><span class="mw-headline" id="Incorrect_without_synchronization">Incorrect without synchronization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=5" title="Edit section: Incorrect without synchronization">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>A naïve approach is to design the code with <b>busy-waiting</b> and no synchronization, making the code subject to race conditions:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">global</span> <span class="n">RingBuffer</span> <span class="n">queue</span><span class="p">;</span> <span class="c1">// A thread-unsafe ring-buffer of tasks.</span>
+
+<span class="c1">// Method representing each producer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">producer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">task</span> <span class="n">myTask</span><span class="o">=</span><span class="p">...;</span> <span class="c1">// Producer makes some new task to be added.</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isFull</span><span class="p">()){}</span> <span class="c1">// Busy-wait until the queue is non-full.</span>
+        <span class="n">queue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Add the task to the queue.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Method representing each consumer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">consumer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){}</span> <span class="c1">// Busy-wait until the queue is non-empty.</span>
+        <span class="n">myTask</span><span class="o">=</span><span class="n">queue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Take a task off of the queue.</span>
+        <span class="n">doStuff</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Go off and do something with the task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>This code has a serious problem in that accesses to the queue can be interrupted and interleaved with other threads' accesses to the queue. The <i>queue.enqueue</i> and <i>queue.dequeue</i> methods likely have instructions to update the queue's member variables such as its size, beginning and ending positions, assignment and allocation of queue elements, etc. In addition, the <i>queue.isEmpty()</i> and <i>queue.isFull()</i> methods read this shared state as well. If producer/consumer threads are allowed to be interleaved during the calls to enqueue/dequeue, then inconsistent state of the queue can be exposed leading to race conditions. In addition, if one consumer makes the queue empty in-between another consumer's exiting the busy-wait and calling "dequeue", then the second consumer will attempt to dequeue from an empty queue leading to an error. Likewise, if a producer makes the queue full in-between another producer's exiting the busy-wait and calling "enqueue", then the second producer will attempt to add to a full queue leading to an error.</p>
+<h4><span class="mw-headline" id="Spin-waiting">Spin-waiting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=6" title="Edit section: Spin-waiting">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>One naive approach to achieve synchronization, as alluded to above, is to use "<b>spin-waiting</b>", in which a mutex is used to protect the critical sections of code and busy-waiting is still used, with the lock being acquired and released in-between each busy-wait check.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">global</span> <span class="n">RingBuffer</span> <span class="n">queue</span><span class="p">;</span> <span class="c1">// A thread-unsafe ring-buffer of tasks.</span>
+<span class="n">global</span> <span class="n">Lock</span> <span class="n">queueLock</span><span class="p">;</span> <span class="c1">// A mutex for the ring-buffer of tasks.</span>
+
+<span class="c1">// Method representing each producer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">producer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">task</span> <span class="n">myTask</span><span class="o">=</span><span class="p">...;</span> <span class="c1">// Producer makes some new task to be added.</span>
+
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial busy-wait check.</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isFull</span><span class="p">()){</span> <span class="c1">// Busy-wait until the queue is non-full.</span>
+            <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+            <span class="c1">// Drop the lock temporarily to allow a chance for other threads</span>
+            <span class="c1">// needing queueLock to run so that a consumer might take a task.</span>
+            <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Re-acquire the lock for the next call to "queue.isFull()".</span>
+        <span class="p">}</span>
+
+        <span class="n">queue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Add the task to the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to add the next task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Method representing each consumer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">consumer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial busy-wait check.</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span> <span class="c1">// Busy-wait until the queue is non-empty.</span>
+            <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+            <span class="c1">// Drop the lock temporarily to allow a chance for other threads</span>
+            <span class="c1">// needing queueLock to run so that a producer might add a task.</span>
+            <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Re-acquire the lock for the next call to "queue.isEmpty()".</span>
+        <span class="p">}</span>
+        <span class="n">myTask</span><span class="o">=</span><span class="n">queue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Take a task off of the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to take off the next task.</span>
+        <span class="n">doStuff</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Go off and do something with the task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>This method assures that inconsistent state does not occur, but wastes CPU resources due to the unnecessary busy-waiting. Even if the queue is empty and producer threads have nothing to add for a long time, consumer threads are always busy-waiting unnecessarily. Likewise, even if consumers are blocked for a long time on processing their current tasks and the queue is full, producers are always busy-waiting. This is a wasteful mechanism. What is needed is a way to make producer threads block until the queue is non-full, and a way to make consumer threads block until the queue is non-empty.</p>
+<p>(N.B.: Mutexes themselves can also be <b>spin-locks</b> which involve busy-waiting in order to get the lock, but in order to solve this problem of wasted CPU resources, we assume that <i>queueLock</i> is not a spin-lock and properly uses a blocking lock queue itself.)</p>
+<h3><span class="mw-headline" id="Condition_variables_2">Condition variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=7" title="Edit section: Condition variables">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The solution is to use <b>condition variables</b>. Conceptually a condition variable is a queue of threads, associated with a monitor, on which a thread may wait for some condition to become true. Thus each condition variable <span class="texhtml mvar" style="font-style:italic;">c</span> is associated with an <a class="mw-redirect" href="/wiki/Assertion_(computing)" title="Assertion (computing)">assertion</a> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span>. While a thread is waiting on a condition variable, that thread is not considered to occupy the monitor, and so other threads may enter the monitor to change the monitor's state. In most types of monitors, these other threads may signal the condition variable <span class="texhtml mvar" style="font-style:italic;">c</span> to indicate that assertion <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is true in the current state.</p>
+<p>Thus there are two main operations on condition variables:</p>
+<ul>
+<li><code><b>wait</b> c, m</code>, where <code><i>c</i></code> is a condition variable and <code>m</code> is a <a href="/wiki/Lock_(computer_science)" title="Lock (computer science)">mutex (lock)</a> associated with the monitor. This operation is called by a thread that needs to wait until the assertion <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is true before proceeding. While the thread is waiting, it does not occupy the monitor. The function, and fundamental contract, of the "wait" operation, is to do the following steps:
+<ol>
+<li><a class="mw-redirect" href="/wiki/Atomic_operation" title="Atomic operation">Atomically</a>:
+<dl>
+<dd>
+<div>
+<ol style="list-style-type:lower-alpha">
+<li>release the mutex <code><i>m</i></code>,</li>
+<li>move this thread from the "ready queue" to <code><i>c</i></code>'s "wait-queue" (a.k.a. "sleep-queue") of threads, and</li>
+<li>sleep this thread. (Context is synchronously yielded to another thread.)</li>
+</ol>
+</div>
+</dd>
+</dl>
+</li>
+<li>Once this thread is subsequently notified/signalled (see below) and resumed, then automatically re-acquire the mutex <code><i>m</i></code>.</li>
+</ol>
+<dl>
+<dd>Steps 1a and 1b can occur in either order, with 1c usually occurring after them. While the thread is sleeping and in <code><i>c</i></code>'s wait-queue, the next <a href="/wiki/Program_counter" title="Program counter">program counter</a> to be executed is at step 2, in the middle of the "wait" function/<a href="/wiki/Subroutine" title="Subroutine">subroutine</a>. Thus, the thread sleeps and later wakes up in the middle of the "wait" operation.</dd>
+<dd>The atomicity of the operations within step 1 is important to avoid race conditions that would be caused by a preemptive thread switch in-between them. One failure mode that could occur if these were not atomic is a <i>missed wakeup</i>, in which the thread could be on <code><i>c</i></code>'s sleep-queue and have released the mutex, but a preemptive thread switch occurred before the thread went to sleep, and another thread called a signal/notify operation (see below) on <code><i>c</i></code> moving the first thread back out of <code><i>c</i></code>'s queue. As soon as the first thread in question is switched back to, its program counter will be at step 1c, and it will sleep and be unable to be woken up again, violating the invariant that it should have been on <code><i>c</i></code>'s sleep-queue when it slept. Other race conditions depend on the ordering of steps 1a and 1b, and depend on where a context switch occurs.</dd>
+</dl>
+</li>
+<li><code><b>signal</b> c</code>, also known as <code><b>notify</b> c</code>, is called by a thread to indicate that the assertion <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is true. Depending on the type and implementation of the monitor, this moves one or more threads from <code>c</code>'s sleep-queue to the "ready queue" or another queues for it to be executed. It is usually considered a best practice to perform the "signal"/"notify" operation before releasing mutex <code><i>m</i></code> that is associated with <code><i>c</i></code>, but as long as the code is properly designed for concurrency and depending on the threading implementation, it is often also acceptable to release the lock before signalling. Depending on the threading implementation, the ordering of this can have scheduling-priority ramifications. (Some authors instead advocate a preference for releasing the lock before signalling.) A threading implementation should document any special constraints on this ordering.
+<ul>
+<li><code><b>broadcast</b> c</code>, also known as <code><b>notifyAll</b> c</code>, is a similar operation that wakes up all threads in c's wait-queue. This empties the wait-queue. Generally, when more than one predicate condition is associated with the same condition variable, the application will require <b>broadcast</b> instead of <b>signal</b> because a thread waiting for the wrong condition might be woken up and then immediately go back to sleep without waking up a thread waiting for the correct condition that just became true. Otherwise, if the predicate condition is one-to-one with the condition variable associated with it, then <b>signal</b> may be more efficient than <b>broadcast</b>.</li>
+</ul>
+</li>
+</ul>
+<p>As a design rule, multiple condition variables can be associated with the same mutex, but not vice versa. (This is a <a href="/wiki/Multivalued_function" title="Multivalued function">one-to-many</a> correspondence.) This is because the predicate <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is the same for all threads using the monitor and must be protected with mutual exclusion from all other threads that might cause the condition to be changed or that might read it while the thread in question causes it to be changed, but there may be different threads that want to wait for a different condition on the same variable requiring the same mutex to be used. In the producer-consumer example <a href="#Case_study:_classic_bounded_producer.2Fconsumer_problem">described above</a>, the queue must be protected by a unique mutex object, <code><i>m</i></code>. The "producer" threads will want to wait on a monitor using lock <code><i>m</i></code> and a condition variable <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>f</mi>
+<mi>u</mi>
+<mi>l</mi>
+<mi>l</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c_{full}}</annotation>
+</semantics>
+</math></span><img alt="c_{full}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/488f6823f7546dbbcf1ad23afad080383b2755ae" style="vertical-align: -1.005ex; width:4.104ex; height:2.343ex;"/></span> which blocks until the queue is non-full. The "consumer" threads will want to wait on a different monitor using the same mutex <code><i>m</i></code> but a different condition variable <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>e</mi>
+<mi>m</mi>
+<mi>p</mi>
+<mi>t</mi>
+<mi>y</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c_{empty}}</annotation>
+</semantics>
+</math></span><img alt="c_{empty}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/44f1e4fdcb10e28125efce8d2a0bcf87759ca509" style="vertical-align: -1.005ex; width:5.733ex; height:2.343ex;"/></span> which blocks until the queue is non-empty. It would (usually) never make sense to have different mutexes for the same condition variable, but this classic example shows why it often certainly makes sense to have multiple condition variables using the same mutex. A mutex used by one or more condition variables (one or more monitors) may also be shared with code that does <i>not</i> use condition variables (and which simply acquires/releases it without any wait/signal operations), if those <a href="/wiki/Critical_section" title="Critical section">critical sections</a> do not happen to require waiting for a certain condition on the concurrent data.</p>
+<h3><span class="mw-headline" id="Monitor_usage">Monitor usage</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=8" title="Edit section: Monitor usage">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The proper basic usage of a monitor is:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">acquire</span><span class="p">(</span><span class="n">m</span><span class="p">);</span> <span class="c1">// Acquire this monitor's lock.</span>
+<span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">p</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// While the condition/predicate/assertion that we are waiting for is not true...</span>
+	<span class="n">wait</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">cv</span><span class="p">);</span> <span class="c1">// Wait on this monitor's lock and condition variable.</span>
+<span class="p">}</span>
+<span class="c1">// ... Critical section of code goes here ...</span>
+<span class="n">signal</span><span class="p">(</span><span class="n">cv2</span><span class="p">);</span> <span class="o">--</span> <span class="n">OR</span> <span class="o">--</span> <span class="n">notifyAll</span><span class="p">(</span><span class="n">cv2</span><span class="p">);</span> <span class="c1">// cv2 might be the same as cv or different.</span>
+<span class="n">release</span><span class="p">(</span><span class="n">m</span><span class="p">);</span> <span class="c1">// Release this monitor's lock.</span>
+</pre></div>
+<p>To be more precise, this is the same pseudocode but with more verbose comments to better explain what is going on:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// ... (previous code)</span>
+<span class="c1">// About to enter the monitor.</span>
+<span class="c1">// Acquire the advisory mutex (lock) associated with the concurrent data that is shared between threads, </span>
+<span class="c1">// to ensure that no two threads can be preemptively interleaved or run simultaneously on different cores</span>
+<span class="c1">// while executing in critical sections that read or write this same concurrent data.</span>
+<span class="c1">// If another thread is holding this mutex, then this thread will be sleeped (blocked) and placed on</span>
+<span class="c1">// m's sleep queue.  (Mutex "m" shall not be a spin-lock.)</span>
+<span class="n">acquire</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+<span class="c1">// Now, we are holding the lock and can check the condition for the first time.</span>
+
+<span class="c1">// The first time we execute the while loop condition after the above "acquire", we are asking,</span>
+<span class="c1">// "Does the condition/predicate/assertion we are waiting for happen to already be true?"</span>
+
+<span class="k">while</span> <span class="p">(</span> <span class="o">!</span> <span class="n">p</span><span class="p">()</span> <span class="p">)</span> <span class="c1">// "p" is any expression (e.g. variable or function-call) that checks the condition</span>
+				<span class="c1">// and evaluates to boolean.  This itself is a critical section, so you *MUST*</span>
+				<span class="c1">// be holding the lock when executing this "while" loop condition!</span>
+				
+<span class="c1">// If this is not the first time the "while" condition is being checked, then we are asking the question,</span>
+<span class="c1">// "Now that another thread using this monitor has notified me and woken me up and I have been</span>
+<span class="c1">// context-switched back to, did the condition/predicate/assertion we are waiting on stay true between</span>
+<span class="c1">// the time that I was woken up and the time that I</span>
+<span class="c1">// re-acquired the lock inside the "wait" call in the last iteration of this loop,</span>
+<span class="c1">// or did some other thread cause the condition to become false again in the meantime</span>
+<span class="c1">// thus making this a spurious wakeup?</span>
+
+<span class="p">{</span>
+	<span class="c1">// If this is the first iteration of the loop, then the answer is "no" -- the condition is not ready yet.</span>
+	<span class="c1">// Otherwise, the answer is: the latter.  This was a spurious wakeup, some other thread occurred first</span>
+	<span class="c1">// and caused the condition to become false again, and we must wait again.</span>
+
+	<span class="n">wait</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">cv</span><span class="p">);</span>
+		<span class="c1">// Temporarily prevent any other thread on any core from doing operations on m or cv.</span>
+		<span class="c1">// release(m) 	// Atomically release lock "m" so other code using this concurrent data</span>
+		<span class="c1">// 				// can operate, move this thread to cv's wait-queue so that it will be notified</span>
+		<span class="c1">//				// sometime when the condition becomes true, and sleep this thread.</span>
+		<span class="c1">//				// Re-enable other threads and cores to do operations on m and cv.</span>
+		<span class="c1">//</span>
+		<span class="c1">// Context switch occurs on this core.</span>
+		<span class="c1">//</span>
+		<span class="c1">// At some future time, the condition we are waiting for becomes true,</span>
+		<span class="c1">// and another thread using this monitor (m, cv) does either a signal/notify</span>
+		<span class="c1">// that happens to wake this thread up, or a notifyAll that wakes us up, meaning</span>
+		<span class="c1">// that we have been taken out of cv's wait-queue.</span>
+		<span class="c1">//</span>
+		<span class="c1">// During this time, other threads may be switched to that caused the condition to become</span>
+		<span class="c1">// false again, or the condition may toggle one or more times, or it may happen to</span>
+		<span class="c1">// stay true.</span>
+		<span class="c1">//</span>
+		<span class="c1">// This thread is switched back to on some core.</span>
+		<span class="c1">//</span>
+		<span class="c1">// acquire(m)	// Lock "m" is re-acquired.</span>
+		
+	<span class="c1">// End this loop iteration and re-check the "while" loop condition to make sure the predicate is</span>
+	<span class="c1">// still true.</span>
+	
+<span class="p">}</span>
+
+<span class="c1">// The condition we are waiting for is true!</span>
+<span class="c1">// We are still holding the lock, either from before entering the monitor or from the</span>
+<span class="c1">// last execution of "wait".</span>
+
+<span class="c1">// Critical section of code goes here, which has a precondition that our predicate</span>
+<span class="c1">// must be true.</span>
+<span class="c1">// This code might make cv's condition false, and/or make other condition variables'</span>
+<span class="c1">// predicates true.</span>
+
+<span class="c1">// Call signal/notify or notifyAll, depending on which condition variables' predicates</span>
+<span class="c1">// (who share mutex m) have been made true or may have been made true, and the monitor semantic type</span>
+<span class="c1">// being used.</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="n">cv_x</span> <span class="n">in</span> <span class="n">cvs_to_notify</span><span class="p">){</span>
+	<span class="n">notify</span><span class="p">(</span><span class="n">cv_x</span><span class="p">);</span> <span class="o">--</span> <span class="n">OR</span> <span class="o">--</span> <span class="n">notifyAll</span><span class="p">(</span><span class="n">cv_x</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">// One or more threads have been woken up but will block as soon as they try</span>
+<span class="c1">// to acquire m.</span>
+
+<span class="c1">// Release the mutex so that notified thread(s) and others can enter</span>
+<span class="c1">// their critical sections.</span>
+<span class="n">release</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+</pre></div>
+<h4><span class="mw-headline" id="Solving_the_bounded_producer.2Fconsumer_problem">Solving the bounded producer/consumer problem</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=9" title="Edit section: Solving the bounded producer/consumer problem">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="metadata plainlinks ambox ambox-style ambox-technical" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This section <b>may be too <a class="extiw" href="https://en.wiktionary.org/wiki/technical#Adjective" title="wikt:technical">technical</a> for most readers to understand</b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;action=edit">improve</a> this section to <a href="/wiki/Wikipedia:Make_technical_articles_understandable" title="Wikipedia:Make technical articles understandable">make it understandable to non-experts</a>, without removing the technical details. The <a href="/wiki/Talk:Monitor_(synchronization)" title="Talk:Monitor (synchronization)">talk page</a> may contain suggestions.</span> <small><i>(January 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p>Having introduced the usage of condition variables, let's use it to revisit and solve the classic bounded producer/consumer problem. The classic solution is to use two monitors, comprising two condition variables sharing one lock on the queue:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">global</span> <span class="k">volatile</span> <span class="n">RingBuffer</span> <span class="n">queue</span><span class="p">;</span> <span class="c1">// A thread-unsafe ring-buffer of tasks.</span>
+<span class="n">global</span> <span class="n">Lock</span> <span class="n">queueLock</span><span class="p">;</span>  <span class="c1">// A mutex for the ring-buffer of tasks.  (Not a spin-lock.)</span>
+<span class="n">global</span> <span class="n">CV</span> <span class="n">queueEmptyCV</span><span class="p">;</span> <span class="c1">// A condition variable for consumer threads waiting for the queue to become non-empty.</span>
+                        <span class="c1">// Its associated lock is "queueLock".</span>
+<span class="n">global</span> <span class="n">CV</span> <span class="n">queueFullCV</span><span class="p">;</span> <span class="c1">// A condition variable for producer threads waiting for the queue to become non-full.</span>
+                       <span class="c1">//Its associated lock is also "queueLock".</span>
+
+<span class="c1">// Method representing each producer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">producer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">task</span> <span class="n">myTask</span><span class="o">=</span><span class="p">...;</span> <span class="c1">// Producer makes some new task to be added.</span>
+
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial predicate check.</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isFull</span><span class="p">()){</span> <span class="c1">// Check if the queue is non-full.</span>
+            <span class="c1">// Make the threading system atomically release queueLock,</span>
+            <span class="c1">// enqueue this thread onto queueFullCV, and sleep this thread.</span>
+            <span class="n">wait</span><span class="p">(</span><span class="n">queueLock</span><span class="p">,</span> <span class="n">queueFullCV</span><span class="p">);</span>
+            <span class="c1">// Then, "wait" automatically re-acquires "queueLock" for re-checking</span>
+            <span class="c1">// the predicate condition.</span>
+        <span class="p">}</span>
+        
+        <span class="c1">// Critical section that requires the queue to be non-full.</span>
+        <span class="c1">// N.B.: We are holding queueLock.</span>
+        <span class="n">queue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Add the task to the queue.</span>
+
+        <span class="c1">// Now the queue is guaranteed to be non-empty, so signal a consumer thread</span>
+        <span class="c1">// or all consumer threads that might be blocked waiting for the queue to be non-empty:</span>
+        <span class="n">signal</span><span class="p">(</span><span class="n">queueEmptyCV</span><span class="p">);</span> <span class="o">--</span> <span class="n">OR</span> <span class="o">--</span> <span class="n">notifyAll</span><span class="p">(</span><span class="n">queueEmptyCV</span><span class="p">);</span>
+        
+        <span class="c1">// End of critical sections related to the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to add the next task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Method representing each consumer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">consumer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial predicate check.</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span> <span class="c1">// Check if the queue is non-empty.</span>
+            <span class="c1">// Make the threading system atomically release queueLock,</span>
+            <span class="c1">// enqueue this thread onto queueEmptyCV, and sleep this thread.</span>
+            <span class="n">wait</span><span class="p">(</span><span class="n">queueLock</span><span class="p">,</span> <span class="n">queueEmptyCV</span><span class="p">);</span>
+            <span class="c1">// Then, "wait" automatically re-acquires "queueLock" for re-checking</span>
+            <span class="c1">// the predicate condition.</span>
+        <span class="p">}</span>
+        <span class="c1">// Critical section that requires the queue to be non-empty.</span>
+        <span class="c1">// N.B.: We are holding queueLock.</span>
+        <span class="n">myTask</span><span class="o">=</span><span class="n">queue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Take a task off of the queue.</span>
+        <span class="c1">// Now the queue is guaranteed to be non-full, so signal a producer thread</span>
+        <span class="c1">// or all producer threads that might be blocked waiting for the queue to be non-full:</span>
+        <span class="n">signal</span><span class="p">(</span><span class="n">queueFullCV</span><span class="p">);</span> <span class="o">--</span> <span class="n">OR</span> <span class="o">--</span> <span class="n">notifyAll</span><span class="p">(</span><span class="n">queueFullCV</span><span class="p">);</span>
+
+        <span class="c1">// End of critical sections related to the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to take off the next task.</span>
+
+        <span class="n">doStuff</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Go off and do something with the task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>This ensures concurrency between the producer and consumer threads sharing the task queue, and blocks the threads that have nothing to do rather than busy-waiting as shown in the aforementioned approach using spin-locks.</p>
+<p>A variant of this solution could use a single condition variable for both producers and consumers, perhaps named "queueFullOrEmptyCV" or "queueSizeChangedCV". In this case, more than one condition is associated with the condition variable, such that the condition variable represents a weaker condition than the conditions being checked by individual threads. The condition variable represents threads that are waiting for the queue to be non-full <i>and</i> ones waiting for it to be non-empty. However, doing this would require using <i>notifyAll</i> in all the threads using the condition variable and cannot use a regular <i>signal</i>. This is because the regular <i>signal</i> might wake up a thread of the wrong type whose condition has not yet been met, and that thread would go back to sleep without a thread of the correct type getting signalled. For example, a producer might make the queue full and wake up another producer instead of a consumer, and the woken producer would go back to sleep. In the complementary case, a consumer might make the queue empty and wake up another consumer instead of a producer, and the consumer would go back to sleep. Using <i>notifyAll</i> ensures that some thread of the right type will proceed as expected by the problem statement.</p>
+<p>Here is the variant using only one condition variable and notifyAll:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">global</span> <span class="k">volatile</span> <span class="n">RingBuffer</span> <span class="n">queue</span><span class="p">;</span> <span class="c1">// A thread-unsafe ring-buffer of tasks.</span>
+<span class="n">global</span> <span class="n">Lock</span> <span class="n">queueLock</span><span class="p">;</span> <span class="c1">// A mutex for the ring-buffer of tasks.  (Not a spin-lock.)</span>
+<span class="n">global</span> <span class="n">CV</span> <span class="n">queueFullOrEmptyCV</span><span class="p">;</span> <span class="c1">// A single condition variable for when the queue is not ready for any thread</span>
+                              <span class="c1">// -- i.e., for producer threads waiting for the queue to become non-full </span>
+                              <span class="c1">// and consumer threads waiting for the queue to become non-empty.</span>
+                              <span class="c1">// Its associated lock is "queueLock".</span>
+                              <span class="c1">// Not safe to use regular "signal" because it is associated with</span>
+                              <span class="c1">// multiple predicate conditions (assertions).</span>
+
+<span class="c1">// Method representing each producer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">producer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+        <span class="n">task</span> <span class="n">myTask</span><span class="o">=</span><span class="p">...;</span> <span class="c1">// Producer makes some new task to be added.</span>
+
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial predicate check.</span>
+        <span class="k">while</span><span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isFull</span><span class="p">()){</span> <span class="c1">// Check if the queue is non-full.</span>
+            <span class="c1">// Make the threading system atomically release queueLock,</span>
+            <span class="c1">// enqueue this thread onto the CV, and sleep this thread.</span>
+            <span class="n">wait</span><span class="p">(</span><span class="n">queueLock</span><span class="p">,</span> <span class="n">queueFullOrEmptyCV</span><span class="p">);</span>
+            <span class="c1">// Then, "wait" automatically re-acquires "queueLock" for re-checking</span>
+            <span class="c1">// the predicate condition.</span>
+        <span class="p">}</span>
+        
+        <span class="c1">// Critical section that requires the queue to be non-full.</span>
+        <span class="c1">// N.B.: We are holding queueLock.</span>
+        <span class="n">queue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Add the task to the queue.</span>
+
+        <span class="c1">// Now the queue is guaranteed to be non-empty, so signal all blocked threads</span>
+        <span class="c1">// so that a consumer thread will take a task:</span>
+        <span class="n">notifyAll</span><span class="p">(</span><span class="n">queueFullOrEmptyCV</span><span class="p">);</span> <span class="c1">// Do not use "signal" (as it might wake up another producer instead).</span>
+        
+        <span class="c1">// End of critical sections related to the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to add the next task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Method representing each consumer thread's behavior:</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">consumer</span><span class="p">(){</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">){</span>
+
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Acquire lock for initial predicate check.</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span> <span class="c1">// Check if the queue is non-empty.</span>
+            <span class="c1">// Make the threading system atomically release queueLock,</span>
+            <span class="c1">// enqueue this thread onto the CV, and sleep this thread.</span>
+            <span class="n">wait</span><span class="p">(</span><span class="n">queueLock</span><span class="p">,</span> <span class="n">queueFullOrEmptyCV</span><span class="p">);</span>
+            <span class="c1">// Then, "wait" automatically re-acquires "queueLock" for re-checking</span>
+            <span class="c1">// the predicate condition.</span>
+        <span class="p">}</span>
+        <span class="c1">// Critical section that requires the queue to be non-full.</span>
+        <span class="c1">// N.B.: We are holding queueLock.</span>
+        <span class="n">myTask</span><span class="o">=</span><span class="n">queue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Take a task off of the queue.</span>
+
+        <span class="c1">// Now the queue is guaranteed to be non-full, so signal all blocked threads</span>
+        <span class="c1">// so that a producer thread will take a task:</span>
+        <span class="n">notifyAll</span><span class="p">(</span><span class="n">queueFullOrEmptyCV</span><span class="p">);</span> <span class="c1">// Do not use "signal" (as it might wake up another consumer instead).</span>
+
+        <span class="c1">// End of critical sections related to the queue.</span>
+        <span class="n">queueLock</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Drop the queue lock until we need it again to take off the next task.</span>
+
+        <span class="n">doStuff</span><span class="p">(</span><span class="n">myTask</span><span class="p">);</span> <span class="c1">// Go off and do something with the task.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Synchronization_primitives">Synchronization primitives</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=10" title="Edit section: Synchronization primitives">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Implementing mutexes and condition variables requires some kind of synchronization primitive provided by hardware support that provides <a class="mw-redirect" href="/wiki/Atomic_operation" title="Atomic operation">atomicity</a>. Locks and condition variables are higher-level abstractions over these synchronization primitives. On a uniprocessor, disabling and enabling interrupts is a way to implement monitors by preventing context switches during the critical sections of the locks and condition variables, but this is not enough on a multiprocessor. On a multiprocessor, usually special atomic <b>read-modify-write</b> instructions on the memory such as <b>test-and-set</b>, <b><a href="/wiki/Compare-and-swap" title="Compare-and-swap">compare-and-swap</a></b>, etc. are used, depending on what the <a href="/wiki/Instruction_set" title="Instruction set">ISA</a> provides. These usually require deferring to spin-locking for the internal lock state itself, but this locking is very brief. Depending on the implementation, the atomic read-modify-write instructions may lock the bus from other cores' accesses and/or prevent re-ordering of instructions in the CPU. Here is an example pseudocode implementation of parts of a threading system and mutexes and Mesa-style condition variables, using <b>test-and-set</b> and a first-come, first-served policy. This glosses over most of how a threading system works, but shows the parts relevant to mutexes and condition variables:</p>
+<h4><span class="mw-headline" id="Sample_Mesa-monitor_implementation_with_Test-and-Set">Sample Mesa-monitor implementation with Test-and-Set</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=11" title="Edit section: Sample Mesa-monitor implementation with Test-and-Set">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="metadata plainlinks ambox ambox-style ambox-technical" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This section <b>may be too <a class="extiw" href="https://en.wiktionary.org/wiki/technical#Adjective" title="wikt:technical">technical</a> for most readers to understand</b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;action=edit">improve</a> this section to <a href="/wiki/Wikipedia:Make_technical_articles_understandable" title="Wikipedia:Make technical articles understandable">make it understandable to non-experts</a>, without removing the technical details. The <a href="/wiki/Talk:Monitor_(synchronization)" title="Talk:Monitor (synchronization)">talk page</a> may contain suggestions.</span> <small><i>(January 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Basic parts of threading system:</span>
+<span class="c1">// Assume "ThreadQueue" supports random access.</span>
+<span class="k">public</span> <span class="k">volatile</span> <span class="n">ThreadQueue</span> <span class="n">readyQueue</span><span class="p">;</span> <span class="c1">// Thread-unsafe queue of ready threads.  Elements are (Thread*).</span>
+<span class="k">public</span> <span class="k">volatile</span> <span class="n">global</span> <span class="n">Thread</span><span class="o">*</span> <span class="n">currentThread</span><span class="p">;</span> <span class="c1">// Assume this variable is per-core.  (Others are shared.)</span>
+
+<span class="c1">// Implements a spin-lock on just the synchronized state of the threading system itself.</span>
+<span class="c1">// This is used with test-and-set as the synchronization primitive.</span>
+<span class="k">public</span> <span class="k">volatile</span> <span class="n">global</span> <span class="kt">bool</span> <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span>
+
+<span class="c1">// Context-switch interrupt service routine (ISR):</span>
+<span class="c1">// On the current CPU core, preemptively switch to another thread.</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">contextSwitchISR</span><span class="p">(){</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){</span>
+        <span class="k">return</span><span class="p">;</span> <span class="c1">// Can't switch context right now.</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Ensure this interrupt can't happen again which would foul up the context switch:</span>
+    <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+
+    <span class="c1">// Get all of the registers of the currently-running process.</span>
+    <span class="c1">// For Program Counter (PC), we will need the instruction location of</span>
+    <span class="c1">// the "resume" label below.  Getting the register values is platform-dependent and may involve</span>
+    <span class="c1">// reading the current stack frame, JMP/CALL instructions, etc.  (The details are beyond this scope.)</span>
+    <span class="n">currentThread</span><span class="o">-&gt;</span><span class="n">registers</span> <span class="o">=</span> <span class="n">getAllRegisters</span><span class="p">();</span> <span class="c1">// Store the registers in the "currentThread" object in memory.</span>
+    <span class="n">currentThread</span><span class="o">-&gt;</span><span class="n">registers</span><span class="p">.</span><span class="n">PC</span> <span class="o">=</span> <span class="n">resume</span><span class="p">;</span> <span class="c1">// Set the next PC to the "resume" label below in this method.</span>
+
+    <span class="n">readyQueue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span> <span class="c1">// Put this thread back onto the ready queue for later execution.</span>
+    
+    <span class="n">Thread</span><span class="o">*</span> <span class="n">otherThread</span><span class="o">=</span><span class="n">readyQueue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Remove and get the next thread to run from the ready queue.</span>
+    
+    <span class="n">currentThread</span><span class="o">=</span><span class="n">otherThread</span><span class="p">;</span> <span class="c1">// Replace the global current-thread pointer value so it is ready for the next thread.</span>
+
+    <span class="c1">// Restore the registers from currentThread/otherThread, including a jump to the stored PC of the other thread</span>
+    <span class="c1">// (at "resume" below).  Again, the details of how this is done are beyond this scope.</span>
+    <span class="n">restoreRegisters</span><span class="p">(</span><span class="n">otherThread</span><span class="p">.</span><span class="n">registers</span><span class="p">);</span>
+
+    <span class="c1">// *** Now running "otherThread" (which is now "currentThread")!  The original thread is now "sleeping". ***</span>
+
+    <span class="nl">resume</span><span class="p">:</span> <span class="c1">// This is where another contextSwitch() call needs to set PC to when switching context back here.</span>
+
+    <span class="c1">// Return to where otherThread left off.</span>
+
+    <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+    <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+
+<span class="p">}</span>
+
+<span class="c1">// Thread sleep method:</span>
+<span class="c1">// On current CPU core, a synchronous context switch to another thread without putting</span>
+<span class="c1">// the current thread on the ready queue.</span>
+<span class="c1">// Must be holding "threadingSystemBusy" and disabled interrupts so that this method</span>
+<span class="c1">// doesn't get interrupted by the thread-switching timer which would call contextSwitchISR().</span>
+<span class="c1">// After returning from this method, must clear "threadingSystemBusy".</span>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">threadSleep</span><span class="p">(){</span>
+    <span class="c1">// Get all of the registers of the currently-running process.</span>
+    <span class="c1">// For Program Counter (PC), we will need the instruction location of</span>
+    <span class="c1">// the "resume" label below.  Getting the register values is platform-dependent and may involve</span>
+    <span class="c1">// reading the current stack frame, JMP/CALL instructions, etc.  (The details are beyond this scope.)</span>
+    <span class="n">currentThread</span><span class="o">-&gt;</span><span class="n">registers</span> <span class="o">=</span> <span class="n">getAllRegisters</span><span class="p">();</span> <span class="c1">// Store the registers in the "currentThread" object in memory.</span>
+    <span class="n">currentThread</span><span class="o">-&gt;</span><span class="n">registers</span><span class="p">.</span><span class="n">PC</span> <span class="o">=</span> <span class="n">resume</span><span class="p">;</span> <span class="c1">// Set the next PC to the "resume" label below in this method.</span>
+
+    <span class="c1">// Unlike contextSwitchISR(), we will not place currentThread back into readyQueue.</span>
+    <span class="c1">// Instead, it has already been placed onto a mutex's or condition variable's queue.</span>
+    
+    <span class="n">Thread</span><span class="o">*</span> <span class="n">otherThread</span><span class="o">=</span><span class="n">readyQueue</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span> <span class="c1">// Remove and get the next thread to run from the ready queue.</span>
+    
+    <span class="n">currentThread</span><span class="o">=</span><span class="n">otherThread</span><span class="p">;</span> <span class="c1">// Replace the global current-thread pointer value so it is ready for the next thread.</span>
+
+    <span class="c1">// Restore the registers from currentThread/otherThread, including a jump to the stored PC of the other thread</span>
+    <span class="c1">// (at "resume" below).  Again, the details of how this is done are beyond this scope.</span>
+    <span class="n">restoreRegisters</span><span class="p">(</span><span class="n">otherThread</span><span class="p">.</span><span class="n">registers</span><span class="p">);</span>
+
+    <span class="c1">// *** Now running "otherThread" (which is now "currentThread")!  The original thread is now "sleeping". ***</span>
+
+    <span class="nl">resume</span><span class="p">:</span> <span class="c1">// This is where another contextSwitch() call needs to set PC to when switching context back here.</span>
+
+    <span class="c1">// Return to where otherThread left off.</span>
+    
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="n">method</span> <span class="nf">wait</span><span class="p">(</span><span class="n">Mutex</span> <span class="n">m</span><span class="p">,</span> <span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+    <span class="c1">// Internal spin-lock while other threads on any core are accessing this object's</span>
+    <span class="c1">// "held" and "threadQueue", or "readyQueue".</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){}</span>
+    <span class="c1">// N.B.: "threadingSystemBusy" is now true.</span>
+    
+    <span class="c1">// System call to disable interrupts on this core so that threadSleep() doesn't get interrupted by</span>
+    <span class="c1">// the thread-switching timer on this core which would call contextSwitchISR().</span>
+    <span class="c1">// Done outside threadSleep() for more efficiency so that this thread will be sleeped</span>
+    <span class="c1">// right after going on the condition-variable queue.</span>
+    <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+ 
+    <span class="n">assert</span> <span class="n">m</span><span class="p">.</span><span class="n">held</span><span class="p">;</span> <span class="c1">// (Specifically, this thread must be the one holding it.)</span>
+    
+    <span class="n">m</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">waitingThreads</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span>
+    
+    <span class="n">threadSleep</span><span class="p">();</span>
+    
+    <span class="c1">// Thread sleeps ... Thread gets woken up from a signal/broadcast.</span>
+    
+    <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+    <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+    
+    <span class="c1">// Mesa style:</span>
+    <span class="c1">// Context switches may now occur here, making the client caller's predicate false.</span>
+    
+    <span class="n">m</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span>
+    
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="n">method</span> <span class="nf">signal</span><span class="p">(</span><span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+
+    <span class="c1">// Internal spin-lock while other threads on any core are accessing this object's</span>
+    <span class="c1">// "held" and "threadQueue", or "readyQueue".</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){}</span>
+    <span class="c1">// N.B.: "threadingSystemBusy" is now true.</span>
+    
+    <span class="c1">// System call to disable interrupts on this core so that threadSleep() doesn't get interrupted by</span>
+    <span class="c1">// the thread-switching timer on this core which would call contextSwitchISR().</span>
+    <span class="c1">// Done outside threadSleep() for more efficiency so that this thread will be sleeped</span>
+    <span class="c1">// right after going on the condition-variable queue.</span>
+    <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">c</span><span class="p">.</span><span class="n">waitingThreads</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span>
+        <span class="n">wokenThread</span><span class="o">=</span><span class="n">c</span><span class="p">.</span><span class="n">waitingThreads</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span>
+        <span class="n">readyQueue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">wokenThread</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+    <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+    
+    <span class="c1">// Mesa style:</span>
+    <span class="c1">// The woken thread is not given any priority.</span>
+    
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="n">method</span> <span class="nf">broadcast</span><span class="p">(</span><span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+
+    <span class="c1">// Internal spin-lock while other threads on any core are accessing this object's</span>
+    <span class="c1">// "held" and "threadQueue", or "readyQueue".</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){}</span>
+    <span class="c1">// N.B.: "threadingSystemBusy" is now true.</span>
+    
+    <span class="c1">// System call to disable interrupts on this core so that threadSleep() doesn't get interrupted by</span>
+    <span class="c1">// the thread-switching timer on this core which would call contextSwitchISR().</span>
+    <span class="c1">// Done outside threadSleep() for more efficiency so that this thread will be sleeped</span>
+    <span class="c1">// right after going on the condition-variable queue.</span>
+    <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+    
+    <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">c</span><span class="p">.</span><span class="n">waitingThreads</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span>
+        <span class="n">wokenThread</span><span class="o">=</span><span class="n">c</span><span class="p">.</span><span class="n">waitingThreads</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span>
+        <span class="n">readyQueue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">wokenThread</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+    <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+    
+    <span class="c1">// Mesa style:</span>
+    <span class="c1">// The woken threads are not given any priority.</span>
+    
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">Mutex</span> <span class="p">{</span>
+    <span class="k">protected</span> <span class="k">volatile</span> <span class="kt">bool</span> <span class="n">held</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">volatile</span> <span class="n">ThreadQueue</span> <span class="n">blockingThreads</span><span class="p">;</span> <span class="c1">// Thread-unsafe queue of blocked threads.  Elements are (Thread*).</span>
+    
+    <span class="k">public</span> <span class="n">method</span> <span class="nf">acquire</span><span class="p">(){</span>
+        <span class="c1">// Internal spin-lock while other threads on any core are accessing this object's</span>
+        <span class="c1">// "held" and "threadQueue", or "readyQueue".</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){}</span>
+        <span class="c1">// N.B.: "threadingSystemBusy" is now true.</span>
+        
+        <span class="c1">// System call to disable interrupts on this core so that threadSleep() doesn't get interrupted by</span>
+        <span class="c1">// the thread-switching timer on this core which would call contextSwitchISR().</span>
+        <span class="c1">// Done outside threadSleep() for more efficiency so that this thread will be sleeped</span>
+        <span class="c1">// right after going on the lock queue.</span>
+        <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+
+        <span class="n">assert</span> <span class="o">!</span><span class="n">blockingThreads</span><span class="p">.</span><span class="n">contains</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">held</span><span class="p">){</span>
+            <span class="c1">// Put "currentThread" on this lock's queue so that it will be</span>
+            <span class="c1">// considered "sleeping" on this lock.</span>
+            <span class="c1">// Note that "currentThread" still needs to be handled by threadSleep().</span>
+            <span class="n">readyQueue</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span>
+            <span class="n">blockingThreads</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span>
+            <span class="n">threadSleep</span><span class="p">();</span>
+            
+            <span class="c1">// Now we are woken up, which must be because "held" became false.</span>
+            <span class="n">assert</span> <span class="o">!</span><span class="n">held</span><span class="p">;</span>
+            <span class="n">assert</span> <span class="o">!</span><span class="n">blockingThreads</span><span class="p">.</span><span class="n">contains</span><span class="p">(</span><span class="n">currentThread</span><span class="p">);</span>
+        <span class="p">}</span>
+        
+        <span class="n">held</span><span class="o">=</span><span class="nb">true</span><span class="p">;</span>
+        
+        <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+        <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+
+    <span class="p">}</span>        
+        
+    <span class="k">public</span> <span class="n">method</span> <span class="nf">release</span><span class="p">(){</span>
+        <span class="c1">// Internal spin-lock while other threads on any core are accessing this object's</span>
+        <span class="c1">// "held" and "threadQueue", or "readyQueue".</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">testAndSet</span><span class="p">(</span><span class="n">threadingSystemBusy</span><span class="p">)){}</span>
+        <span class="c1">// N.B.: "threadingSystemBusy" is now true.</span>
+        
+        <span class="c1">// System call to disable interrupts on this core for efficiency.</span>
+        <span class="n">systemCall_disableInterrupts</span><span class="p">();</span>
+        
+        <span class="n">assert</span> <span class="n">held</span><span class="p">;</span> <span class="c1">// (Release should only be performed while the lock is held.)</span>
+
+        <span class="n">held</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span>
+        
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">blockingThreads</span><span class="p">.</span><span class="n">isEmpty</span><span class="p">()){</span>
+            <span class="n">Thread</span><span class="o">*</span> <span class="n">unblockedThread</span><span class="o">=</span><span class="n">blockingThreads</span><span class="p">.</span><span class="n">dequeue</span><span class="p">();</span>
+            <span class="n">readyQueue</span><span class="p">.</span><span class="n">enqueue</span><span class="p">(</span><span class="n">unblockedThread</span><span class="p">);</span>
+        <span class="p">}</span>
+        
+        <span class="n">threadingSystemBusy</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// Must be an atomic assignment.</span>
+        <span class="n">systemCall_enableInterrupts</span><span class="p">();</span> <span class="c1">// Turn pre-emptive switching back on on this core.</span>
+        
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="k">struct</span> <span class="n">ConditionVariable</span> <span class="p">{</span>
+
+    <span class="k">volatile</span> <span class="n">ThreadQueue</span> <span class="n">waitingThreads</span><span class="p">;</span>
+
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Semaphore">Semaphore</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=12" title="Edit section: Semaphore">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>As an example, consider a thread-safe class that implements a <a href="/wiki/Semaphore_(programming)" title="Semaphore (programming)">semaphore</a>. There are methods to increment (V) and to decrement (P) a private integer <code>s</code>. However, the integer must never be decremented below 0; thus a thread that tries to decrement must wait until the integer is positive. We use a condition variable <code>sIsPositive</code> with an associated assertion of <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>P</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>s</mi>
+<mi>I</mi>
+<mi>s</mi>
+<mi>P</mi>
+<mi>o</mi>
+<mi>s</mi>
+<mi>i</mi>
+<mi>t</mi>
+<mi>i</mi>
+<mi>v</mi>
+<mi>e</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>s</mi>
+<mo>&gt;</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P_{sIsPositive}=(s&gt;0)}</annotation>
+</semantics>
+</math></span><img alt="P_{sIsPositive}=(s&gt;0)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7ac04eee9dcf7d5e33c7c9b6325d4c74bad45ed5" style="vertical-align: -0.838ex; width:20.603ex; height:2.843ex;"/></span>.</p>
+<pre>
+<b>monitor class</b> <i>Semaphore</i>
+{
+  <b>private</b> <i>int</i> s := 0
+  <b>invariant</b> s &gt;= 0
+  <b>private</b> <i>Condition</i> sIsPositive /* <b>associated with</b> s &gt; 0 */
+
+  <b>public method</b> P()
+  {
+    <b>while</b> s = 0:
+      <b>wait</b> sIsPositive
+    <b>assert</b> s &gt; 0
+    s := s - 1
+  }
+
+  <b>public method</b> V()
+  {
+    s := s + 1
+    <b>assert</b> s &gt; 0
+    <b>signal</b> sIsPositive
+  }
+}
+</pre>
+<p>Implemented showing all synchronization (removing the assumption of a thread-safe class and showing the mutex):</p>
+<pre>
+<b>class</b> <i>Semaphore</i>
+{
+  <b>private</b> <b>volatile</b> <i>int</i> s := 0
+  <b>invariant</b> s &gt;= 0
+  <b>private</b> <i>ConditionVariable</i> sIsPositive /* <b>associated with</b> s &gt; 0 */
+  <b>private</b> <i>Mutex</i> myLock /* Lock on "s" */
+
+  <b>public method</b> P()
+  {
+    myLock.acquire()
+    <b>while</b> s = 0:
+      <b>wait</b>(myLock, sIsPositive)
+    <b>assert</b> s &gt; 0
+    s := s - 1
+    myLock.release()
+  }
+
+  <b>public method</b> V()
+  {
+    myLock.acquire()
+    s := s + 1
+    <b>assert</b> s &gt; 0
+    <b>signal</b> sIsPositive
+    myLock.release()
+  }
+}
+</pre>
+<h4><span class="mw-headline" id="Monitor_implemented_using_semaphores">Monitor implemented using semaphores</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=13" title="Edit section: Monitor implemented using semaphores">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Conversely, locks and condition variables can also be derived from semaphores, thus making monitors and semaphores reducible to one another:</p>
+<p>The implementation given here is incorrect. If a thread calls wait() after signal() has been called it may be stuck indefinitely, since signal() increments the semaphore only enough times for threads already waiting.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="n">method</span> <span class="nf">wait</span><span class="p">(</span><span class="n">Mutex</span> <span class="n">m</span><span class="p">,</span> <span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+
+    <span class="n">assert</span> <span class="n">m</span><span class="p">.</span><span class="n">held</span><span class="p">;</span>
+
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span>
+    
+    <span class="n">c</span><span class="p">.</span><span class="n">numWaiters</span><span class="o">++</span><span class="p">;</span>
+    <span class="n">m</span><span class="p">.</span><span class="n">release</span><span class="p">();</span> <span class="c1">// Can go before/after the neighboring lines.</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+
+    <span class="c1">// Another thread could signal here, but that's OK because of how</span>
+    <span class="c1">// semaphores count.  If c.sem's number becomes 1, we'll have no</span>
+    <span class="c1">// waiting time.</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">sem</span><span class="p">.</span><span class="n">Proberen</span><span class="p">();</span> <span class="c1">// Block on the CV.</span>
+    <span class="c1">// Woken</span>
+    <span class="n">m</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span> <span class="c1">// Re-acquire the mutex.</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="n">method</span> <span class="nf">signal</span><span class="p">(</span><span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">numWaiters</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">){</span>
+        <span class="n">c</span><span class="p">.</span><span class="n">numWaiters</span><span class="o">--</span><span class="p">;</span>
+        <span class="n">c</span><span class="p">.</span><span class="n">sem</span><span class="p">.</span><span class="n">Verhogen</span><span class="p">();</span> <span class="c1">// (Doesn't need to be protected by c.internalMutex.)</span>
+    <span class="p">}</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="n">method</span> <span class="nf">broadcast</span><span class="p">(</span><span class="n">ConditionVariable</span> <span class="n">c</span><span class="p">){</span>
+
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">acquire</span><span class="p">();</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">numWaiters</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">){</span>
+        <span class="n">c</span><span class="p">.</span><span class="n">numWaiters</span><span class="o">--</span><span class="p">;</span>
+        <span class="n">c</span><span class="p">.</span><span class="n">sem</span><span class="p">.</span><span class="n">Verhogen</span><span class="p">();</span> <span class="c1">// (Doesn't need to be protected by c.internalMutex.)</span>
+    <span class="p">}</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">internalMutex</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">Mutex</span> <span class="p">{</span>
+
+    <span class="k">protected</span> <span class="n">boolean</span> <span class="n">held</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span> <span class="c1">// For assertions only, to make sure sem's number never goes &gt; 1.</span>
+    <span class="k">protected</span> <span class="n">Semaphore</span> <span class="n">sem</span><span class="o">=</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="c1">// The number shall always be at most 1.</span>
+                                          <span class="c1">// Not held &lt;--&gt; 1; held &lt;--&gt; 0.</span>
+
+    <span class="k">public</span> <span class="n">method</span> <span class="nf">acquire</span><span class="p">(){</span>
+    
+        <span class="n">sem</span><span class="p">.</span><span class="n">Proberen</span><span class="p">();</span>
+        <span class="n">assert</span> <span class="o">!</span><span class="n">held</span><span class="p">;</span>
+        <span class="n">held</span><span class="o">=</span><span class="nb">true</span><span class="p">;</span>
+    
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="n">method</span> <span class="nf">release</span><span class="p">(){</span>
+    
+        <span class="n">assert</span> <span class="n">held</span><span class="p">;</span> <span class="c1">// Make sure we never Verhogen sem above 1.  That would be bad.</span>
+        <span class="n">held</span><span class="o">=</span><span class="nb">false</span><span class="p">;</span>
+        <span class="n">sem</span><span class="p">.</span><span class="n">Verhogen</span><span class="p">();</span>
+    
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">ConditionVariable</span> <span class="p">{</span>
+ 
+    <span class="k">protected</span> <span class="kt">int</span> <span class="n">numWaiters</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="c1">// Roughly tracks the number of waiters blocked in sem.</span>
+                                <span class="c1">// (The semaphore's internal state is necessarily private.)</span>
+    <span class="k">protected</span> <span class="n">Semaphore</span> <span class="n">sem</span><span class="o">=</span><span class="n">Semaphore</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="c1">// Provides the wait queue.</span>
+    <span class="k">protected</span> <span class="n">Mutex</span> <span class="n">internalMutex</span><span class="p">;</span> <span class="c1">// (Really another Semaphore.  Protects "numWaiters".)</span>
+ 
+<span class="p">}</span>
+</pre></div>
+<p>When a <b>signal</b> happens on a condition variable that at least one other thread is waiting on, there are at least two threads that could then occupy the monitor: the thread that signals and any one of the threads that is waiting. In order that at most one thread occupies the monitor at each time, a choice must be made. Two schools of thought exist on how best to resolve this choice. This leads to two kinds of condition variables which will be examined next:</p>
+<ul>
+<li><i>Blocking condition variables</i> give priority to a signaled thread.</li>
+<li><i>Nonblocking condition variables</i> give priority to the signaling thread.</li>
+</ul>
+<h3><span class="mw-headline" id="Blocking_condition_variables">Blocking condition variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=14" title="Edit section: Blocking condition variables">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The original proposals by <a class="mw-redirect" href="/wiki/C._A._R._Hoare" title="C. A. R. Hoare">C. A. R. Hoare</a> and <a href="/wiki/Per_Brinch_Hansen" title="Per Brinch Hansen">Per Brinch Hansen</a> were for <i>blocking condition variables</i>. With a blocking condition variable, the signaling thread must wait outside the monitor (at least) until the signaled thread relinquishes occupancy of the monitor by either returning or by again waiting on a condition variable. Monitors using blocking condition variables are often called <i>Hoare-style</i> monitors or <i>signal-and-urgent-wait</i> monitors.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:Monitor_(synchronization)-SU.png"><img alt="" class="thumbimage" data-file-height="914" data-file-width="862" height="212" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Monitor_%28synchronization%29-SU.png/200px-Monitor_%28synchronization%29-SU.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Monitor_%28synchronization%29-SU.png/300px-Monitor_%28synchronization%29-SU.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/Monitor_%28synchronization%29-SU.png/400px-Monitor_%28synchronization%29-SU.png 2x" width="200"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Monitor_(synchronization)-SU.png" title="Enlarge"></a></div>
+A Hoare style monitor with two condition variables <code>a</code> and <code>b</code>. After Buhr <i>et al.</i></div>
+</div>
+</div>
+<p>We assume there are two queues of threads associated with each monitor object</p>
+<ul>
+<li><code>e</code> is the entrance queue</li>
+<li><code>s</code> is a queue of threads that have signaled.</li>
+</ul>
+<p>In addition we assume that for each condition variable <span class="texhtml mvar" style="font-style:italic;">c</span>, there is a queue</p>
+<ul>
+<li><code><span class="texhtml mvar" style="font-style:italic;">c</span>.q</code>, which is a queue for threads waiting on condition variable <span class="texhtml mvar" style="font-style:italic;">c</span></li>
+</ul>
+<p>All queues are typically guaranteed to be <a href="/wiki/Unbounded_nondeterminism#Fairness" title="Unbounded nondeterminism">fair</a> and, in some implementations, may be guaranteed to be <a href="/wiki/FIFO_(computing_and_electronics)" title="FIFO (computing and electronics)">first in first out</a>.</p>
+<p>The implementation of each operation is as follows. (We assume that each operation runs in mutual exclusion to the others; thus restarted threads do not begin executing until the operation is complete.)</p>
+<pre>
+ enter the monitor:
+    enter the method
+    if the monitor is locked
+        add this thread to e
+        block this thread
+    else
+        lock the monitor
+</pre>
+<pre>
+ leave the monitor:
+    schedule
+    return from the method
+</pre>
+<pre>
+ <b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    add this thread to <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+    schedule
+    block this thread
+</pre>
+<pre>
+ <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    if there is a thread waiting on <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        select and remove one such thread t from <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        (t is called "the signaled thread")
+        add this thread to s
+        restart t
+        (so t will occupy the monitor next)
+        block this thread
+</pre>
+<pre>
+  schedule :
+    if there is a thread on s
+      select and remove one thread from s and restart it
+      (this thread will occupy the monitor next)
+    else if there is a thread on e
+      select and remove one thread from e and restart it
+      (this thread will occupy the monitor next)
+    else
+      unlock the monitor
+      (the monitor will become unoccupied)
+</pre>
+<p>The <code>schedule</code> routine selects the next thread to occupy the monitor or, in the absence of any candidate threads, unlocks the monitor.</p>
+<p>The resulting signaling discipline is known a <i>"signal and urgent wait,"</i> as the signaler must wait, but is given priority over threads on the entrance queue. An alternative is <i>"signal and wait,"</i> in which there is no <code>s</code> queue and signaler waits on the <code>e</code> queue instead.</p>
+<p>Some implementations provide a <b>signal and return</b> operation that combines signaling with returning from a procedure.</p>
+<pre>
+ <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span> <b>and return</b> :
+    if there is a thread waiting on <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        select and remove one such thread t from <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        (t is called "the signaled thread")
+        restart t
+        (so t will occupy the monitor next)
+    else
+        schedule
+    return from the method
+</pre>
+<p>In either case ("signal and urgent wait" or "signal and wait"), when a condition variable is signaled and there is at least one thread on waiting on the condition variable, the signaling thread hands occupancy over to the signaled thread seamlessly, so that no other thread can gain occupancy in between. If <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is true at the start of each <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span> operation, it will be true at the end of each <b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span> operation. This is summarized by the following <a href="/wiki/Design_by_contract" title="Design by contract">contracts</a>. In these contracts, <span class="texhtml mvar" style="font-style:italic;">I</span> is the monitor's <a href="/wiki/Invariant_(computer_science)" title="Invariant (computer science)">invariant</a>.</p>
+<pre>
+ enter the monitor:
+    <b>postcondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<pre>
+ leave the monitor:
+    <b>precondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<pre>
+ <b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    <b>precondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+    <b>modifies</b> the state of the monitor
+    <b>postcondition</b> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> and <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<pre>
+ <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    <b>precondition</b> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> and <span class="texhtml mvar" style="font-style:italic;">I</span>
+    <b>modifies</b> the state of the monitor
+    <b>postcondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<pre>
+ <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span> <b>and return</b> :
+    <b>precondition</b> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> and <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<p>In these contracts, it is assumed that <span class="texhtml mvar" style="font-style:italic;">I</span> and <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> do not depend on the contents or lengths of any queues.</p>
+<p>(When the condition variable can be queried as to the number of threads waiting on its queue, more sophisticated contracts can be given. For example, a useful pair of contracts, allowing occupancy to be passed without establishing the invariant, is</p>
+<pre>
+ <b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    <b>precondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+    <b>modifies</b> the state of the monitor
+    <b>postcondition</b> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span>
+</pre>
+<pre>
+ <b>signal</b> <span class="texhtml mvar" style="font-style:italic;">c</span>
+    <b>precondition</b> (<b>not</b> empty(<span class="texhtml mvar" style="font-style:italic;">c</span>) <b>and</b> <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span>) <b>or</b> (empty(<span class="texhtml mvar" style="font-style:italic;">c</span>) <b>and</b> <span class="texhtml mvar" style="font-style:italic;">I</span>)
+    <b>modifies</b> the state of the monitor
+    <b>postcondition</b> <span class="texhtml mvar" style="font-style:italic;">I</span>
+</pre>
+<p>See Howard<sup class="reference" id="cite_ref-1976_Howard_4-0"><a href="#cite_note-1976_Howard-4">[4]</a></sup> and Buhr <i>et al.,</i><sup class="reference" id="cite_ref-1995_Buhr-Fortier-Coffin_5-0"><a href="#cite_note-1995_Buhr-Fortier-Coffin-5">[5]</a></sup> for more).</p>
+<p>It is important to note here that the assertion <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is entirely up to the programmer; he or she simply needs to be consistent about what it is.</p>
+<p>We conclude this section with an example of a thread-safe class using a blocking monitor that implements a bounded, <a href="/wiki/Thread_safety" title="Thread safety">thread-safe</a> <a class="mw-redirect" href="/wiki/Stack_(data_structure)" title="Stack (data structure)">stack</a>.</p>
+<pre>
+<b>monitor class</b> <i>SharedStack</i> {
+  <b>private const</b> capacity := 10
+  <b>private</b> <i>int</i>[capacity] A
+  <b>private</b> <i>int</i> size := 0
+  <b>invariant</b> 0 &lt;= size <b>and</b> size &lt;= capacity
+  <b>private</b> <i>BlockingCondition</i> theStackIsNotEmpty <u>/* <b>associated with</b> 0 &lt; size <b>and</b> size &lt;= capacity */</u>
+  <b>private</b> <i>BlockingCondition</i> theStackIsNotFull  <u>/* <b>associated with</b> 0 &lt;= size <b>and</b> size &lt; capacity */</u>
+</pre>
+<pre>
+  <b>public method</b> push(<i>int</i> value)
+  {
+    <b>if</b> size = capacity <b>then</b> <b>wait</b> theStackIsNotFull
+    <b>assert</b> 0 &lt;= size <b>and</b> size &lt; capacity
+    A[size] := value ; size := size + 1
+    <b>assert</b> 0 &lt; size <b>and</b> size &lt;= capacity
+    <b>signal</b> theStackIsNotEmpty <b>and return</b>
+  }
+</pre>
+<pre>
+  <b>public method</b> <i>int</i> pop()
+  {
+    <b>if</b> size = 0 <b>then</b> <b>wait</b> theStackIsNotEmpty
+    <b>assert</b> 0 &lt; size <b>and</b> size &lt;= capacity
+    size := size - 1 ;
+    <b>assert</b> 0 &lt;= size <b>and</b> size &lt; capacity
+    <b>signal</b> theStackIsNotFull  <b>and return</b> A[size]
+  }
+}
+</pre>
+<p>Note that, in this example, the thread-safe stack is internally providing a mutex, which, as in the earlier producer/consumer example, is shared by both condition variables, which are checking different conditions on the same concurrent data. The only difference is that the producer/consumer example assumed a regular non-thread-safe queue and was using a standalone mutex and condition variables, without these details of the monitor abstracted away as is the case here. In this example, when the "wait" operation is called, it must somehow be supplied with the thread-safe stack's mutex, such as if the "wait" operation is an integrated part of the "monitor class". Aside from this kind of abstracted functionality, when a "raw" monitor is used, it will <i>always</i> have to include a mutex and a condition variable, with a unique mutex for each condition variable.</p>
+<h3><span class="mw-headline" id="Nonblocking_condition_variables">Nonblocking condition variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=15" title="Edit section: Nonblocking condition variables">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>With <i>nonblocking condition variables</i> (also called <i>"Mesa style"</i> condition variables or <i>"signal and continue"</i> condition variables), signaling does not cause the signaling thread to lose occupancy of the monitor. Instead the signaled threads are moved to the <code>e</code> queue. There is no need for the <code>s</code> queue.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:Monitor_(synchronization)-Mesa.png"><img alt="" class="thumbimage" data-file-height="1142" data-file-width="837" height="273" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Monitor_%28synchronization%29-Mesa.png/200px-Monitor_%28synchronization%29-Mesa.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Monitor_%28synchronization%29-Mesa.png/300px-Monitor_%28synchronization%29-Mesa.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/15/Monitor_%28synchronization%29-Mesa.png/400px-Monitor_%28synchronization%29-Mesa.png 2x" width="200"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Monitor_(synchronization)-Mesa.png" title="Enlarge"></a></div>
+A Mesa style monitor with two condition variables <code>a</code> and <code>b</code></div>
+</div>
+</div>
+<p>With nonblocking condition variables, the <b>signal</b> operation is often called <b>notify</b> — a terminology we will follow here. It is also common to provide a <b>notify all</b> operation that moves all threads waiting on a condition variable to the <code>e</code> queue.</p>
+<p>The meaning of various operations are given here. (We assume that each operation runs in mutual exclusion to the others; thus restarted threads do not begin executing until the operation is complete.)</p>
+<pre>
+ enter the monitor:
+    enter the method
+    if the monitor is locked
+      add this thread to e
+      block this thread
+    else
+      lock the monitor
+</pre>
+<pre>
+ leave the monitor:
+    schedule
+    return from the method
+</pre>
+<pre>
+ <b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    add this thread to <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+    schedule
+    block this thread
+</pre>
+<pre>
+ <b>notify</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    if there is a thread waiting on <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        select and remove one thread t from <span class="texhtml mvar" style="font-style:italic;">c</span>.q
+        (t is called "the notified thread")
+        move t to e
+</pre>
+<pre>
+ <b>notify all</b> <span class="texhtml mvar" style="font-style:italic;">c</span> :
+    move all threads waiting on <span class="texhtml mvar" style="font-style:italic;">c</span>.q to e
+</pre>
+<pre>
+  schedule :
+    if there is a thread on e
+      select and remove one thread from e and restart it
+    else
+      unlock the monitor
+</pre>
+<p>As a variation on this scheme, the notified thread may be moved to a queue called <code>w</code>, which has priority over <code>e</code>. See Howard<sup class="reference" id="cite_ref-1976_Howard_4-1"><a href="#cite_note-1976_Howard-4">[4]</a></sup> and Buhr <i>et al.</i><sup class="reference" id="cite_ref-1995_Buhr-Fortier-Coffin_5-1"><a href="#cite_note-1995_Buhr-Fortier-Coffin-5">[5]</a></sup> for further discussion.</p>
+<p>It is possible to associate an assertion <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> with each condition variable <span class="texhtml mvar" style="font-style:italic;">c</span> such that <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is sure to be true upon return from <code><b>wait</b> <span class="texhtml mvar" style="font-style:italic;">c</span></code>. However, one must ensure that <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> is preserved from the time the <b>notify</b>ing thread gives up occupancy until the notified thread is selected to re-enter the monitor. Between these times there could be activity by other occupants. Thus it is common for <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span> to simply be <i>true</i>.</p>
+<p>For this reason, it is usually necessary to enclose each <b>wait</b> operation in a loop like this</p>
+<pre>
+  <b>while</b> <b>not</b>( <span class="texhtml mvar" style="font-style:italic;">P</span> ) <b>do</b> <b>wait</b> c
+</pre>
+<p>where <span class="texhtml mvar" style="font-style:italic;">P</span> is some condition stronger than <span class="texhtml mvar" style="font-style:italic;">P<sub>c</sub></span>. The operations <code><b>notify</b> <span class="texhtml mvar" style="font-style:italic;">c</span></code> and <code><b>notify all</b> <span class="texhtml mvar" style="font-style:italic;">c</span></code> are treated as "hints" that <span class="texhtml mvar" style="font-style:italic;">P</span> may be true for some waiting thread. Every iteration of such a loop past the first represents a lost notification; thus with nonblocking monitors, one must be careful to ensure that too many notifications can not be lost.</p>
+<p>As an example of "hinting" consider a bank account in which a withdrawing thread will wait until the account has sufficient funds before proceeding</p>
+<pre>
+<b>monitor class</b> <i>Account</i> {
+  <b>private</b> <i>int</i> balance := 0
+  <b>invariant</b> balance &gt;= 0
+  <b>private</b> <i>NonblockingCondition</i> balanceMayBeBigEnough
+</pre>
+<pre>
+  <b>public method</b> withdraw(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    <b>while</b> balance &lt; amount <b>do</b> <b>wait</b> balanceMayBeBigEnough
+    <b>assert</b> balance &gt;= amount
+    balance := balance - amount
+  }
+</pre>
+<pre>
+  <b>public method</b> deposit(<i>int</i> amount)
+     <b>precondition</b> amount &gt;= 0
+  {
+    balance := balance + amount
+    <b>notify all</b> balanceMayBeBigEnough
+  }
+}
+</pre>
+<p>In this example, the condition being waited for is a function of the amount to be withdrawn, so it is impossible for a depositing thread to <i>know</i> that it made such a condition true. It makes sense in this case to allow each waiting thread into the monitor (one at a time) to check if its assertion is true.</p>
+<h3><span class="mw-headline" id="Implicit_condition_variable_monitors">Implicit condition variable monitors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=16" title="Edit section: Implicit condition variable monitors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:Monitor_(synchronization)-Java.png"><img alt="" class="thumbimage" data-file-height="914" data-file-width="575" height="318" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monitor_%28synchronization%29-Java.png/200px-Monitor_%28synchronization%29-Java.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monitor_%28synchronization%29-Java.png/300px-Monitor_%28synchronization%29-Java.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monitor_%28synchronization%29-Java.png/400px-Monitor_%28synchronization%29-Java.png 2x" width="200"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Monitor_(synchronization)-Java.png" title="Enlarge"></a></div>
+A Java style monitor</div>
+</div>
+</div>
+<p>In the <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> language, each object may be used as a monitor. Methods requiring mutual exclusion must be explicitly marked with the <b><a class="mw-redirect" href="/wiki/Java_keyword" title="Java keyword">synchronized</a></b> keyword. Blocks of code may also be marked by <b><a class="mw-redirect" href="/wiki/Java_keyword" title="Java keyword">synchronized</a></b>.</p>
+<p>Rather than having explicit condition variables, each monitor (i.e. object) is equipped with a single wait queue in addition to its entrance queue. All waiting is done on this single wait queue and all <b>notify</b> and <b>notifyAll</b> operations apply to this queue. This approach has been adopted in other languages, for example <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>.</p>
+<h3><span class="mw-headline" id="Implicit_signaling">Implicit signaling</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=17" title="Edit section: Implicit signaling">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Another approach to signaling is to omit the <b>signal</b> operation. Whenever a thread leaves the monitor (by returning or waiting) the assertions of all waiting threads are evaluated until one is found to be true. In such a system, condition variables are not needed, but the assertions must be explicitly coded. The contract for wait is</p>
+<pre>
+ <b>wait</b> <var style="padding-right: 1px;">P</var>:
+    <b>precondition</b> <var style="padding-right: 1px;">I</var>
+    <b>modifies</b> the state of the monitor
+    <b>postcondition</b> <var style="padding-right: 1px;">P</var> and <var style="padding-right: 1px;">I</var>
+</pre>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=18" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Brinch Hansen and Hoare developed the monitor concept in the early 1970s, based on earlier ideas of their own and of <a class="mw-redirect" href="/wiki/E._W._Dijkstra" title="E. W. Dijkstra">Edsger Dijkstra</a>.<sup class="reference" id="cite_ref-:2_6-0"><a href="#cite_note-:2-6">[6]</a></sup> Brinch Hansen published the first monitor notation, adopting the <a href="/wiki/Class_(computer_programming)" title="Class (computer programming)">class</a> concept of <a href="/wiki/Simula" title="Simula">Simula 67</a>,<sup class="reference" id="cite_ref-:0_1-1"><a href="#cite_note-:0-1">[1]</a></sup> and invented a queueing mechanism.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> Hoare refined the rules of process resumption.<sup class="reference" id="cite_ref-:1_2-1"><a href="#cite_note-:1-2">[2]</a></sup> Brinch Hansen created the first implementation of monitors, in <a href="/wiki/Concurrent_Pascal" title="Concurrent Pascal">Concurrent Pascal</a>.<sup class="reference" id="cite_ref-:2_6-1"><a href="#cite_note-:2-6">[6]</a></sup> Hoare demonstrated their equivalence to <a href="/wiki/Semaphore_(programming)" title="Semaphore (programming)">semaphores</a>.</p>
+<p>Monitors (and Concurrent Pascal) were soon used to structure process synchronization in the <a class="new" href="/w/index.php?title=Solo_operating_system&amp;action=edit&amp;redlink=1" title="Solo operating system (page does not exist)">Solo operating system</a>.<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></p>
+<p>Programming languages that have supported monitors include</p>
+<ul>
+<li><a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a> since Ada 95 (as protected objects)</li>
+<li><a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> (and other languages that use the <a href="/wiki/.NET_Framework" title=".NET Framework">.NET Framework</a>)</li>
+<li><a href="/wiki/C%2B%2B" title="C++">C++</a> since <a href="/wiki/C%2B%2B11" title="C++11">C++11</a></li>
+<li><a href="/wiki/Concurrent_Euclid" title="Concurrent Euclid">Concurrent Euclid</a></li>
+<li><a href="/wiki/Concurrent_Pascal" title="Concurrent Pascal">Concurrent Pascal</a></li>
+<li><a href="/wiki/D_(programming_language)" title="D (programming language)">D</a></li>
+<li><a href="/wiki/Delphi_(programming_language)" title="Delphi (programming language)">Delphi</a> (Delphi 2009 and above, via TObject.Monitor)</li>
+<li><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> (via the wait and notify methods)</li>
+<li><a href="/wiki/Mesa_(programming_language)" title="Mesa (programming language)">Mesa</a></li>
+<li><a href="/wiki/Modula-3" title="Modula-3">Modula-3</a></li>
+<li><a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a> (via <a class="external text" href="https://docs.python.org/library/threading.html#condition-objects" rel="nofollow">threading.Condition</a> object)</li>
+<li><a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a></li>
+<li><a href="/wiki/Squeak" title="Squeak">Squeak</a> Smalltalk</li>
+<li><a href="/wiki/Turing_(programming_language)" title="Turing (programming language)">Turing</a>, <a href="/wiki/Turing%2B" title="Turing+">Turing+</a>, and <a href="/wiki/Object-Oriented_Turing" title="Object-Oriented Turing">Object-Oriented Turing</a></li>
+<li><a href="/wiki/%CE%9CC%2B%2B" title="ΜC++">µC++</a></li>
+</ul>
+<p>A number of libraries have been written that allow monitors to be constructed in languages that do not support them natively. When library calls are used, it is up to the programmer to explicitly mark the start and end of code executed with mutual exclusion. <a href="/wiki/POSIX_Threads" title="POSIX Threads">Pthreads</a> is one such library.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Mutual_exclusion" title="Mutual exclusion">Mutual exclusion</a></li>
+<li><a href="/wiki/Communicating_sequential_processes" title="Communicating sequential processes">Communicating sequential processes</a> - a later development of monitors by <a class="mw-redirect" href="/wiki/C._A._R._Hoare" title="C. A. R. Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Semaphore_(programming)" title="Semaphore (programming)">Semaphore (programming)</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=20" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-:0-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Brinch Hansen, Per (1973). "7.2 Class Concept". <a class="external text" href="http://brinch-hansen.net/papers/1973b.pdf" rel="nofollow"><i>Operating System Principles</i></a> <span style="font-size:85%;">(PDF)</span>. Prentice Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-13-637843-9" title="Special:BookSources/0-13-637843-9">0-13-637843-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=7.2+Class+Concept&amp;rft.aufirst=Per&amp;rft.aulast=Brinch+Hansen&amp;rft.btitle=Operating+System+Principles&amp;rft.date=1973&amp;rft.genre=bookitem&amp;rft_id=http%3A%2F%2Fbrinch-hansen.net%2Fpapers%2F1973b.pdf&amp;rft.isbn=0-13-637843-9&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-:1-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-:1_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:1_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Tony_Hoare" title="Tony Hoare">Hoare, C. A. R.</a> (October 1974). "Monitors: an operating system structuring concept". <i><a href="/wiki/Communications_of_the_ACM" title="Communications of the ACM">Comm. ACM</a></i>. <b>17</b> (10): 549–557. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F355620.361161" rel="nofollow">10.1145/355620.361161</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=Monitors%3A+an+operating+system+structuring+concept&amp;rft.aufirst=C.+A.+R.&amp;rft.aulast=Hoare&amp;rft.date=1974-10&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F355620.361161&amp;rft.issue=10&amp;rft.jtitle=Comm.+ACM&amp;rft.pages=549-557&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=17"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Per_Brinch_Hansen" title="Per Brinch Hansen">Hansen, P. B.</a> (June 1975). "The programming language Concurrent Pascal". <i><a href="/wiki/IEEE_Transactions_on_Software_Engineering" title="IEEE Transactions on Software Engineering">IEEE Trans. Softw. Eng.</a></i> <b>SE–1</b> (2): 199–207. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FTSE.1975.6312840" rel="nofollow">10.1109/TSE.1975.6312840</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=The+programming+language+Concurrent+Pascal&amp;rft.aufirst=P.+B.&amp;rft.aulast=Hansen&amp;rft.date=1975-06&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FTSE.1975.6312840&amp;rft.issue=2&amp;rft.jtitle=IEEE+Trans.+Softw.+Eng.&amp;rft.pages=199-207&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=SE-1"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-1976_Howard-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-1976_Howard_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-1976_Howard_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference">Howard, John H. (1976). <a class="external text" href="http://dl.acm.org/citation.cfm?id=807647" rel="nofollow">"Signaling in monitors"</a>. <i>ICSE '76 Proceedings of the 2nd international conference on Software engineering</i>. International Conference on Software Engineering. Los Alamitos, CA, USA: IEEE Computer Society Press. pp. 47–52.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=Signaling+in+monitors&amp;rft.aufirst=John+H.&amp;rft.aulast=Howard&amp;rft.btitle=ICSE+%2776+Proceedings+of+the+2nd+international+conference+on+Software+engineering&amp;rft.date=1976&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D807647&amp;rft.pages=47-52&amp;rft.place=Los+Alamitos%2C+CA%2C+USA&amp;rft.pub=IEEE+Computer+Society+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-1995_Buhr-Fortier-Coffin-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-1995_Buhr-Fortier-Coffin_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-1995_Buhr-Fortier-Coffin_5-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Buhr, Peter A.; Fortier, Michel; Coffin, Michael H. (March 1995). "Monitor classification". <i><a href="/wiki/ACM_Computing_Surveys" title="ACM Computing Surveys">ACM Computing Surveys</a></i>. <b>27</b> (1): 63–107. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F214037.214100" rel="nofollow">10.1145/214037.214100</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=Monitor+classification&amp;rft.au=Coffin%2C+Michael+H.&amp;rft.aufirst=Peter+A.&amp;rft.au=Fortier%2C+Michel&amp;rft.aulast=Buhr&amp;rft.date=1995-03&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F214037.214100&amp;rft.issue=1&amp;rft.jtitle=ACM+Computing+Surveys&amp;rft.pages=63-107&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=27"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-:2-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-:2_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:2_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Per_Brinch_Hansen" title="Per Brinch Hansen">Hansen, Per Brinch</a> (1993). "Monitors and concurrent Pascal: a personal history". <i>HOPL-II: The second ACM SIGPLAN conference on History of programming languages</i>. History of Programming Languages. New York, NY, USA: <a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">ACM</a>. pp. 1–35. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F155360.155361" rel="nofollow">10.1145/155360.155361</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-89791-570-4" title="Special:BookSources/0-89791-570-4">0-89791-570-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=Monitors+and+concurrent+Pascal%3A+a+personal+history&amp;rft.aufirst=Per+Brinch&amp;rft.aulast=Hansen&amp;rft.btitle=HOPL-II%3A+The+second+ACM+SIGPLAN+conference+on+History+of+programming+languages&amp;rft.date=1993&amp;rft.genre=conference&amp;rft_id=info%3Adoi%2F10.1145%2F155360.155361&amp;rft.isbn=0-89791-570-4&amp;rft.pages=1-35&amp;rft.place=New+York%2C+NY%2C+USA&amp;rft.pub=ACM&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brinch Hansen, Per (July 1972). "Structured multiprogramming (Invited Paper)". <i>Communications of the ACM</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=Structured+multiprogramming+%28Invited+Paper%29&amp;rft.aufirst=Per&amp;rft.aulast=Brinch+Hansen&amp;rft.date=1972-07&amp;rft.genre=article&amp;rft.jtitle=Communications+of+the+ACM&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brinch Hansen, Per (April 1976). <a class="external text" href="http://brinch-hansen.net/papers/1976b.pdf" rel="nofollow">"The Solo operating system: a Concurrent Pascal program"</a> <span style="font-size:85%;">(PDF)</span>. <i>Software—Practice and Experience</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.atitle=The+Solo+operating+system%3A+a+Concurrent+Pascal+program&amp;rft.aufirst=Per&amp;rft.aulast=Brinch+Hansen&amp;rft.date=1976-04&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fbrinch-hansen.net%2Fpapers%2F1976b.pdf&amp;rft.jtitle=Software%94Practice+and+Experience&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation book">Brinch Hansen, Per (1977). <i>The Architecture of Concurrent Programs</i>. Prentice Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-13-044628-9" title="Special:BookSources/0-13-044628-9">0-13-044628-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMonitor+%28synchronization%29&amp;rft.aufirst=Per&amp;rft.aulast=Brinch+Hansen&amp;rft.btitle=The+Architecture+of+Concurrent+Programs&amp;rft.date=1977&amp;rft.genre=book&amp;rft.isbn=0-13-044628-9&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=21" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Monitors: an operating system structuring concept, C. A. R. Hoare – <a href="/wiki/Communications_of_the_ACM" title="Communications of the ACM">Communications of the ACM</a>, v.17 n.10, p. 549-557, Oct. 1974 <a class="external autonumber" href="http://doi.acm.org/10.1145/355620.361161" rel="nofollow">[1]</a></li>
+<li>Monitor classification P.A. Buhr, M. Fortier, M.H. Coffin – <a href="/wiki/ACM_Computing_Surveys" title="ACM Computing Surveys">ACM Computing Surveys</a>, 1995 <a class="external autonumber" href="http://doi.acm.org/10.1145/214037.214100" rel="nofollow">[2]</a></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit&amp;section=22" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-external_links" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article's <b>use of <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a> may not follow Wikipedia's policies or guidelines</b>. <span class="hide-when-compact">Please <a class="external text" href="//en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;action=edit">improve this article</a> by removing <a href="/wiki/Wikipedia:What_Wikipedia_is_not#Wikipedia_is_not_a_mirror_or_a_repository_of_links.2C_images.2C_or_media_files" title="Wikipedia:What Wikipedia is not">excessive</a> or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">inappropriate</a> external links, and converting useful links where appropriate into <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">footnote references</a>.</span> <small><i>(March 2013)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://www.artima.com/insidejvm/ed2/threadsynch.html" rel="nofollow">Java Monitors (lucid explanation)</a></li>
+<li>"<a class="external text" href="http://www.acm.org/classics/feb96/" rel="nofollow">Monitors: An Operating System Structuring Concept</a>" by <a class="mw-redirect" href="/wiki/C._A._R._Hoare" title="C. A. R. Hoare">C. A. R. Hoare</a></li>
+<li>"<a class="external text" href="http://portal.acm.org/citation.cfm?id=807647" rel="nofollow">Signalling in Monitors</a>" by <a class="new" href="/w/index.php?title=John_H._Howard_(computer_scientist)&amp;action=edit&amp;redlink=1" title="John H. Howard (computer scientist) (page does not exist)">John H. Howard (computer scientist)</a></li>
+<li>"<a class="external text" href="http://doi.acm.org/10.1145/360051.360079" rel="nofollow">Proving Monitors</a>" by <a class="new" href="/w/index.php?title=John_H._Howard_(computer_scientist)&amp;action=edit&amp;redlink=1" title="John H. Howard (computer scientist) (page does not exist)">John H. Howard (computer scientist)</a></li>
+<li>"<a class="external text" href="http://portal.acm.org/citation.cfm?id=358824" rel="nofollow">Experience with Processes and Monitors in Mesa</a>" by <a class="mw-redirect" href="/wiki/Butler_W._Lampson" title="Butler W. Lampson">Butler W. Lampson</a> and <a class="new" href="/w/index.php?title=David_D._Redell&amp;action=edit&amp;redlink=1" title="David D. Redell (page does not exist)">David D. Redell</a></li>
+<li><a class="external text" href="http://www.opengroup.org/onlinepubs/009695399/functions/pthread_cond_wait.html" rel="nofollow">pthread_cond_wait</a> – description from the Open Group Base Specifications Issue 6, IEEE Std 1003.1</li>
+<li>"<a class="external text" href="http://gd.tuwien.ac.at/languages/c/programming-dmarshall/node31.html#SECTION003125000000000000000" rel="nofollow">Block on a Condition Variable</a>" by <a class="new" href="/w/index.php?title=Dave_Marshall_(computer_scientist)&amp;action=edit&amp;redlink=1" title="Dave Marshall (computer scientist) (page does not exist)">Dave Marshall (computer scientist)</a></li>
+<li>"<a class="external text" href="http://www.cs.wustl.edu/~schmidt/win32-cv-1.html" rel="nofollow">Strategies for Implementing POSIX Condition Variables on Win32</a>" by <a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas C. Schmidt</a> and <a class="new" href="/w/index.php?title=Irfan_Pyarali&amp;action=edit&amp;redlink=1" title="Irfan Pyarali (page does not exist)">Irfan Pyarali</a></li>
+<li><a class="external text" href="http://apr.apache.org/docs/apr/group__apr__thread__cond.html" rel="nofollow">Condition Variable Routines</a> from the <a href="/wiki/Apache_Portable_Runtime" title="Apache Portable Runtime">Apache Portable Runtime</a> Library</li>
+<li><a class="external text" href="http://wxwidgets.org/manuals/2.6.3/wx_wxcondition.html" rel="nofollow">wxCondition description</a></li>
+<li><a class="external text" href="http://www.boost.org/doc/html/thread/synchronization.html#thread.synchronization.condvar_ref" rel="nofollow">Boost Condition Variables Reference</a></li>
+<li><a class="external text" href="http://zthread.sourceforge.net/html/classZThread_1_1Condition.html" rel="nofollow">ZThread Condition Class Reference</a></li>
+<li><a class="external text" href="http://wefts.sourceforge.net/wefts-apidoc-0.99c/classWefts_1_1Condition.html" rel="nofollow">Wefts::Condition Class Reference</a></li>
+<li><a class="external text" href="http://www.dre.vanderbilt.edu/Doxygen/Stable/ace/classACE__Condition.html" rel="nofollow">ACE_Condition Class Template Reference</a></li>
+<li><a class="external text" href="http://doc.qt.io/qt-5/qwaitcondition.html" rel="nofollow">QWaitCondition Class Reference</a></li>
+<li><a class="external text" href="https://www.gnu.org/software/commoncpp/docs/refman/html/class_conditional.html" rel="nofollow">Common C++ Conditional Class Reference</a></li>
+<li><a class="external text" href="http://austria.sourceforge.net/dox/html/classat_1_1ConditionalMutex.html" rel="nofollow">at::ConditionalMutex Class Reference</a></li>
+<li><a class="external text" href="http://perldoc.perl.org/threads/shared.html" rel="nofollow">threads::shared</a> – Perl extension for sharing data structures between threads</li>
+<li><a class="external free" href="http://msdn.microsoft.com/en-us/library/ms682052(VS.85).aspx" rel="nofollow">http://msdn.microsoft.com/en-us/library/ms682052(VS.85).aspx</a></li>
+<li><a class="external text" href="http://wiki.visual-prolog.com/index.php?title=Language_Reference/Monitors" rel="nofollow">Monitors</a> in <a href="/wiki/Visual_Prolog" title="Visual Prolog">Visual Prolog</a>.</li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><strong class="selflink">Monitor</strong></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1367789-0!*!0!!en!4!*!math=5 and timestamp 20160926212211 and revision id 736487080
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;oldid=736487080">https://en.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;oldid=736487080</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Programming_constructs" title="Category:Programming constructs">Programming constructs</a></li><li><a href="/wiki/Category:Concurrency_control" title="Category:Concurrency control">Concurrency control</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_cleanup_from_January_2014" title="Category:Articles needing cleanup from January 2014">Articles needing cleanup from January 2014</a></li><li><a href="/wiki/Category:All_pages_needing_cleanup" title="Category:All pages needing cleanup">All pages needing cleanup</a></li><li><a href="/wiki/Category:Articles_containing_how-to_sections" title="Category:Articles containing how-to sections">Articles containing how-to sections</a></li><li><a href="/wiki/Category:Wikipedia_articles_that_are_too_technical_from_January_2014" title="Category:Wikipedia articles that are too technical from January 2014">Wikipedia articles that are too technical from January 2014</a></li><li><a href="/wiki/Category:All_articles_that_are_too_technical" title="Category:All articles that are too technical">All articles that are too technical</a></li><li><a href="/wiki/Category:Articles_needing_expert_attention_from_January_2014" title="Category:Articles needing expert attention from January 2014">Articles needing expert attention from January 2014</a></li><li><a href="/wiki/Category:All_articles_needing_expert_attention" title="Category:All articles needing expert attention">All articles needing expert attention</a></li><li><a href="/wiki/Category:Wikipedia_external_links_cleanup_from_March_2013" title="Category:Wikipedia external links cleanup from March 2013">Wikipedia external links cleanup from March 2013</a></li><li><a href="/wiki/Category:Wikipedia_spam_cleanup_from_March_2013" title="Category:Wikipedia spam cleanup from March 2013">Wikipedia spam cleanup from March 2013</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Monitor+%28synchronization%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Monitor+%28synchronization%29" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Monitor_(synchronization)" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Monitor_(synchronization)" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Monitor_(synchronization)">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Monitor_(synchronization)&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Monitor_(synchronization)&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Monitor_(synchronization)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Monitor_(synchronization)" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Monitor_(synchronization)&amp;oldid=736487080" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Monitor_(synchronization)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q1062162" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Monitor_%28synchronization%29&amp;id=736487080" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Monitor+%28synchronization%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Monitor+%28synchronization%29&amp;returnto=Monitor+%28synchronization%29&amp;oldid=736487080&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Monitor_(synchronization)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Monitor_(concurr%C3%A8ncia)" hreflang="ca" lang="ca" title="Monitor (concurrència) – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Monitor_(synchronizace)" hreflang="cs" lang="cs" title="Monitor (synchronizace) – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Monitor_(datalogi)" hreflang="da" lang="da" title="Monitor (datalogi) – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Monitor_(Informatik)" hreflang="de" lang="de" title="Monitor (Informatik) – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Monitor_(concurrencia)" hreflang="es" lang="es" title="Monitor (concurrencia) – Spanish">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Monitore_(konkurrentzia)" hreflang="eu" lang="eu" title="Monitore (konkurrentzia) – Basque">Euskara</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Moniteur_(programmation)" hreflang="fr" lang="fr" title="Moniteur (programmation) – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8B%88%ED%84%B0_(%EB%8F%99%EA%B8%B0%ED%99%94)" hreflang="ko" lang="ko" title="모니터 (동기화) – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Monitor_(sincronizzazione)" hreflang="it" lang="it" title="Monitor (sincronizzazione) – Italian">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Monitor_(gedistribueerd_programmeren)" hreflang="nl" lang="nl" title="Monitor (gedistribueerd programmeren) – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%8B%E3%82%BF_(%E5%90%8C%E6%9C%9F)" hreflang="ja" lang="ja" title="モニタ (同期) – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Monitor_(programowanie_wsp%C3%B3%C5%82bie%C5%BCne)" hreflang="pl" lang="pl" title="Monitor (programowanie współbieżne) – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Monitor_(concorr%C3%AAncia)" hreflang="pt" lang="pt" title="Monitor (concorrência) – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Monitor_(sincronizare)" hreflang="ro" lang="ro" title="Monitor (sincronizare) – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80_(%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)" hreflang="ru" lang="ru" title="Монитор (синхронизация) – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D1%96%D1%82%D0%BE%D1%80_(%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F)" hreflang="uk" lang="uk" title="Монітор (синхронізація) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%A6%96%E5%99%A8_(%E7%A8%8B%E5%BA%8F%E5%90%8C%E6%AD%A5%E5%8C%96)" hreflang="zh" lang="zh" title="監視器 (程序同步化) – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q1062162#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 August 2016, at 21:02.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Monitor_(synchronization)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","ext.math.scripts","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.276",
+            "walltime": "0.675",
+            "ppvisitednodes": {
+                "value": 1938,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 64340,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1389,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 8,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 5,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  524.414      1 -total",
+                " 18.27%   95.830      1 Template:Reflist",
+                "  7.67%   40.202      4 Template:Ambox",
+                "  7.56%   39.621      2 Template:Cite_book",
+                "  6.91%   36.236      1 Template:Howto",
+                "  4.89%   25.669      2 Template:Navbox",
+                "  4.70%   24.649      1 Template:Design_Patterns_patterns",
+                "  4.63%   24.280      5 Template:Cite_journal",
+                "  3.64%   19.113      2 Template:Technical",
+                "  2.05%   10.755      1 Template:Ordered_list"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.092",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3676879,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1248",
+            "timestamp": "20160926212212",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":79,"wgHostname":"mw1255"});});</script>
+</body>
+</html>
+

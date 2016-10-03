@@ -1,0 +1,1152 @@
+The following page is located at the url: http://en.wikipedia.org/w/index.php?title=Software_design_pattern&action=edit
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Editing Software design pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Software_design_pattern","wgTitle":"Software design pattern","wgCurRevisionId":737015233,"wgRevisionId":0,"wgArticleId":164952,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Software_design_pattern","wgRelevantArticleId":164952,"wgRequestId":"V-F6DQpAEKcAAGxUbZAAAAAB","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgEditMessage":"editing","wgAjaxEditStash":true,"wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.charinsert.styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.wikiEditor.styles":"ready","ext.wikiEditor.toolbar.styles":"ready","mediawiki.action.edit.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.edit","mediawiki.toolbar","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.action.edit.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.wikiEditor.styles%7Cext.wikiEditor.toolbar.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<noscript><link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.charinsert.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/></noscript>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="noindex,nofollow" name="robots"/>
+<link href="/w/index.php?title=Software_design_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Software_design_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikipedia Atom feed" type="application/atom+xml"/>
+<link href="https://en.wikipedia.org/wiki/Software_design_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Software_design_pattern rootpage-Software_design_pattern skin-vector action-edit feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Editing Software design pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div id="mw-content-text"><div class="mw-editnotice-notext"><div class="editnotice-link editnotice-redlink sysop-show templateeditor-show" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em; display: none;"> <small><a class="new" href="/w/index.php?title=Template:Editnotices/Page/Software_design_pattern&amp;action=edit&amp;redlink=1" title="Template:Editnotices/Page/Software design pattern (page does not exist)">Page notice</a></small> </div>
+</div><div class="warningbox" id="mw-anon-edit-warning">
+<div class="floatleft"><img alt="AnonEditWarning.svg" data-file-height="20" data-file-width="9" height="20" src="//upload.wikimedia.org/wikipedia/en/thumb/d/de/AnonEditWarning.svg/9px-AnonEditWarning.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/d/de/AnonEditWarning.svg/13px-AnonEditWarning.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/d/de/AnonEditWarning.svg/18px-AnonEditWarning.svg.png 2x" width="9"/></div> <b>You are not logged in</b>. Your <a href="/wiki/IP_address" title="IP address">IP address</a> will be publicly visible if you make any edits. If you <span class="plainlinks"><b><a class="external text" href="//en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Software_design_pattern">log in</a></b> or <b><a class="external text" href="//en.wikipedia.org/w/index.php?title=Special:UserLogin/signup&amp;campaign=anoneditwarning&amp;returnto=Software_design_pattern">create an account</a></b></span>, your edits will be attributed to a user name, among <a href="/wiki/Wikipedia:Why_create_an_account%3F#Benefits_explained" title="Wikipedia:Why create an account?">other benefits</a>.
+</div>
+<div class="editpage-head-copywarn">
+<p><i>Content that <a href="/wiki/Wikipedia:Copyright_violations" title="Wikipedia:Copyright violations">violates any copyrights</a> will be deleted. Encyclopedic content must be <a class="mw-redirect" href="/wiki/Help:Introduction_to_referencing/1" title="Help:Introduction to referencing/1">verifiable</a>. Work submitted to Wikipedia can be edited, used, and redistributed—by anyone—subject to <a href="/wiki/Wikipedia:Reusing_Wikipedia_content" title="Wikipedia:Reusing Wikipedia content">certain terms and conditions</a>.</i>
+</p>
+</div>
+<div class="ontop" id="wikiPreview" style="display: none;"><div class="mw-content-ltr" dir="ltr" lang="en"></div></div><form action="/w/index.php?title=Software_design_pattern&amp;action=submit" enctype="multipart/form-data" id="editform" method="post" name="editform"><div id="antispam-container" style="display: none;"><label for="wpAntispam">Anti-spam check.
+Do <strong>not</strong> fill this in!</label><input id="wpAntispam" name="wpAntispam" type="text" value=""/></div><input id="editingStatsId" name="editingStatsId" type="hidden" value="ea98efb6baca1d0856e7b95b4dec420e"/>
+<input name="baseRevId" type="hidden" value="737015233"/>
+<input name="altBaseRevId" type="hidden" value="0"/>
+<input name="undidRev" type="hidden" value="0"/><input name="wpSection" type="hidden" value=""/>
+<input name="wpStarttime" type="hidden" value="20161002212013"/>
+<input name="wpEdittime" type="hidden" value="20160831072220"/>
+<input name="editRevId" type="hidden" value="737015233"/>
+<input id="wpScrolltop" name="wpScrolltop" type="hidden" value=""/>
+<input name="wpAutoSummary" type="hidden" value="d41d8cd98f00b204e9800998ecf8427e"/><input name="oldid" type="hidden" value="0"/><input name="parentRevId" type="hidden" value="737015233"/><input name="format" type="hidden" value="text/x-wiki"/><input name="model" type="hidden" value="wikitext"/><div class="wikiEditor-oldToolbar"><div id="toolbar"></div></div><textarea accesskey="," cols="80" dir="ltr" id="wpTextbox1" lang="en" name="wpTextbox1" rows="25" style="" tabindex="1">In [[software engineering]], a '''software design pattern''' is a general reusable solution to a commonly occurring problem within a given context in [[software design]]. It is not a finished design that can be transformed directly into [[Source code|source]] or [[machine code|machine]] code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized [[best practice]]s that the programmer can use to solve common problems when designing an application or system.
+
+[[Object-oriented]] design patterns typically show relationships and [[interaction]]s between [[class (computer science)|class]]es or [[object (computer science)|object]]s, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for [[functional programming]] languages, some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages.
+
+Design patterns may be viewed as a structured approach to [[computer programming]] intermediate between the levels of a [[programming paradigm]] and a concrete [[algorithm]].
+
+==Types==
+Design patterns reside in the domain of modules and interconnections. At a higher level there are [[Architectural pattern (computer science)|architectural patterns]] which are larger in scope, usually describing an overall pattern followed by an entire system.&lt;ref name = "R.C.Martin"&gt;{{cite web
+ | url = http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf
+ | title = Design Principles and Design Patterns
+ | last = Martin
+ | first = Robert C.
+ | authorlink = Robert Cecil Martin
+ | date = 2000}}&lt;/ref&gt;
+
+There are many types of design patterns, for instance &lt;ref&gt;https://sourcemaking.com/design_patterns&lt;/ref&gt;  &lt;!-- {{citation needed|date=July 2015}} this next one is not a really viable one...--&gt; &lt;ref&gt;https://pmsware.wordpress.com/tag/computational-design-patterns/&lt;/ref&gt;
+;[[Algorithm strategy patterns]]: Addressing concerns related to high-level strategies describing how to exploit application characteristics on a computing platform.{{Clarify|date=March 2015}}
+;[[Computational design patterns]]: Addressing concerns related to key computation identification.&lt;ref&gt;{{Cite web|title = Category:Computational Thinking Patterns - Scalable Game Design wiki|url = http://sgd.cs.colorado.edu/wiki/Category:Computational_Thinking_Patterns|website = sgd.cs.colorado.edu|accessdate = 2015-12-26}}&lt;/ref&gt;&lt;ref&gt;{{Cite web|title = Introduction to Software Engineering/Architecture/Design Patterns - Wikibooks, open books for an open world|url = https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Architecture/Design_Patterns|website = en.wikibooks.org|accessdate = 2015-12-26}}&lt;/ref&gt;
+;[[Execution patterns]]: Which address issues related to lower-level support of application execution, including strategies for executing streams of tasks and for the definition of building blocks to support task synchronization.
+;[[Implementation strategy patterns]]: Addressing concerns related to implementing source code to support
+:#program organization, and
+:#the common data structures specific to parallel programming.
+;[[Structural design patterns]]: Addressing concerns related to global structures of applications being developed.
+
+==History==
+Patterns originated as an [[Pattern (architecture)|architectural concept]] by [[Christopher Alexander]] (1977/79). In 1987, [[Kent Beck]] and [[Ward Cunningham]] began experimenting with the idea of applying patterns to programming – specifically [[pattern language]]s – and presented their results at the [[OOPSLA]] conference that year.&lt;ref name = "Smith1987"&gt;{{cite conference
+ | last = Smith
+ | first = Reid
+ | title = Panel on design methodology
+ | conference = [[OOPSLA]] '87 Addendum to the Proceedings
+ | doi = 10.1145/62138.62151
+ |date=October 1987}}, ''"Ward cautioned against requiring too much programming at, what he termed, 'the high level of wizards.' He pointed out that a written 'pattern language' can significantly improve the selection and application of abstractions. He proposed a 'radical shift in the burden of design and implementation' basing the new methodology on an adaptation of Christopher Alexander's work in pattern languages and that programming-oriented pattern languages developed at [[Tektronix]] has significantly aided their software development efforts."''&lt;/ref&gt;&lt;ref name = "Beck1987"&gt;{{cite conference
+ | last = Beck
+ | first = Kent
+ | authorlink = Kent Beck
+ | authorlink2 = Ward Cunningham | first2 = Ward | last2 = Cunningham 
+ | title = Using Pattern Languages for Object-Oriented Program
+ | conference = [[OOPSLA]] '87 workshop on ''Specification and Design for Object-Oriented Programming''
+ | url = http://c2.com/doc/oopsla87.html
+ |date=September 1987
+ | accessdate = 2006-05-26}}&lt;/ref&gt; In the following years, Beck, Cunningham and others followed up on this work.
+
+Design patterns gained popularity in [[computer science]] after the book [[Design Patterns (book)|''Design Patterns: Elements of Reusable Object-Oriented Software'']] was published in 1994 &lt;!-- 1994, not 1995. See talk page. --&gt; by the so-called "Gang of Four" (Gamma et al.), which is frequently abbreviated as "GoF". That same year, the first [[Pattern Languages of Programming]] Conference was held and the following year, the [[Portland Pattern Repository]] was set up for documentation of design patterns. The scope of the term remains a matter of dispute. Notable books in the design pattern genre include:
+
+* {{cite book
+ | first = Erich
+ | last = Gamma
+ | authorlink = Erich Gamma
+ | authorlink2 = Richard Helm | first2 = Richard | last2 = Helm | authorlink3 = Ralph Johnson (computer scientist) | first3 = Ralph | last3 = Johnson | authorlink4 = John Vlissides | first4 = John | last4 = Vlissides
+ | year = 1995
+ | title = [[Design Patterns (book)|Design Patterns: Elements of Reusable Object-Oriented Software]]
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-63361-2
+}}
+* {{cite book
+ | first = Per
+ | last = Brinch Hansen
+ | authorlink = Per Brinch Hansen
+ | date = 1995
+ | title = Studies in Computational Science: Parallel Programming Paradigms
+ | publisher = Prentice Hall
+ | isbn = 0-13-439324-4
+}}
+* {{cite book
+ | first = Frank
+ | last = Buschmann
+ | authorlink = Frank Buschmann
+ | first2 = Regine | last2 = Meunier | first3 = Hans | last3 = Rohnert | first4 = Peter | last4 = Sommerlad
+ | date = 1996
+ | title = Pattern-Oriented Software Architecture, Volume 1: A System of Patterns
+ | publisher = John Wiley &amp; Sons
+ | isbn = 0-471-95869-7
+}}
+* {{cite book
+ | first = Douglas C.
+ | last = Schmidt
+ | authorlink = Douglas C. Schmidt
+ | first2=Michael | last2 = Stal | first3 = Hans | last3 = Rohnert | first4 = Frank | last4 = Buschmann
+ | date = 2000
+ | title = Pattern-Oriented Software Architecture, Volume 2: Patterns for Concurrent and Networked Objects
+ | publisher = John Wiley &amp; Sons
+ | isbn = 0-471-60695-2
+}}
+* {{cite book
+ | title = Patterns of Enterprise Application Architecture
+ | first = Martin
+ | last = Fowler
+ | authorlink = Martin Fowler
+ | year = 2002
+ | isbn = 978-0-321-12742-6
+ | publisher = [[Addison-Wesley]]
+}}
+* {{cite book
+ | first = Gregor
+ | last = Hohpe
+ | first2 = Bobby | last2 = Woolf
+ | date = 2003
+ | title = [[Enterprise Integration Patterns|Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions]]
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-321-20068-3
+}}
+* {{cite book
+ | first = Eric T
+ | last = Freeman
+ | first2 = Elisabeth | last2 = Robson | first3 = Bert | last3 = Bates | first4 = Kathy | last4 = Sierra
+ | authorlink4 = Kathy Sierra
+ | date = 2004
+ | title = Head First Design Patterns
+ | publisher = [[O'Reilly Media]]
+ | isbn = 0-596-00712-4
+}}
+Although design patterns have been applied practically for a long time, formalization of the concept of design patterns languished for several years.&lt;ref name = "Baroni2003"&gt;{{cite journal
+ | id = {{citeseerx|10.1.1.62.6466}}
+ | title = Design Patterns Formalization
+ | first = Aline Lúcia
+ | last = Baroni
+ | first2 = Yann-Gaël | last2 = Guéhéneuc | first3 = Hervé | last3 = Albin-Amiot
+ | date=June 2003
+ | publisher = École Nationale Supérieure des Techniques Industrielles et des Mines de Nantes
+ | location = [[Nantes]]
+}}&lt;/ref&gt;
+
+==Practice==
+Design patterns can speed up the development process by providing tested, proven development paradigms.&lt;ref&gt;{{cite web
+ | url        = http://msdn.microsoft.com/en-us/vstudio/ff729657
+ | first     = Judith | last = Bishop
+ | title      = C# 3.0 Design Patterns: Use the Power of C# 3.0 to Solve Real-World Problems
+ | publisher  = C# Books from O'Reilly Media
+ | quote      = If you want to speed up the development of your .NET applications, you're ready for C# design patterns -- elegant, accepted and proven ways to tackle common programming problems.
+ | accessdate = 2012-05-15
+}}&lt;/ref&gt; Effective software design requires considering issues that may not become visible until later in the implementation. Reusing design patterns helps to prevent subtle issues that can cause major problems{{Citation needed|date=August 2014}}, and it also improves code readability for coders and architects who are familiar with the patterns.
+
+In order to achieve flexibility, design patterns usually introduce additional levels of [[indirection]], which in some cases may complicate the resulting designs and hurt application performance.
+
+By definition, a pattern must be programmed anew into each application that uses it. Since some authors see this as a step backward from [[software reuse]] as provided by [[software componentry|components]], researchers have worked to turn patterns into components. Meyer and Arnout were able to provide full or partial componentization of two-thirds of the patterns they attempted.&lt;ref name = "Meyer2006"&gt;{{cite journal
+ | first = Bertrand
+ | last = Meyer
+ | authorlink = Bertrand Meyer
+ | first2 = Karine | last2 = Arnout
+ | title = Componentization: The Visitor Example
+ | journal = [[Computer (magazine)|IEEE Computer]]
+ | publisher = [[Institute of Electrical and Electronics Engineers|IEEE]]
+ | volume = 39
+ | issue = 7
+ | pages = 23–30
+ |date=July 2006
+ | url = http://se.ethz.ch/~meyer/publications/computer/visitor.pdf
+ | doi = 10.1109/MC.2006.227
+}}&lt;/ref&gt;
+
+Software design techniques are difficult to apply to a broader range of problems.{{Citation needed|date=August 2014}} Design patterns provide general solutions, [[documentation|documented]] in a format that does not require specifics tied to a particular problem.
+
+==Structure==
+Design patterns are composed of several sections (see {{section link||Documentation}} below). Of particular interest are the Structure, Participants, and Collaboration sections. These sections describe a ''design motif'': a prototypical ''micro-architecture'' that developers copy and adapt to their particular designs to solve the recurrent problem described by the design pattern. A micro-architecture is a set of program constituents (e.g., classes, methods...) and their relationships. Developers use the design pattern by introducing in their designs this prototypical micro-architecture, which means that micro-architectures in their designs will have structure and organization similar to the chosen design motif.
+
+===Domain-specific patterns===
+Efforts have also been made to codify design patterns in particular domains, including use of existing design patterns as well as domain specific design patterns. Examples include [[user interface]] design patterns,&lt;ref&gt;{{cite web
+| publisher = University of Helsinki, Dept. of Computer Science
+| last = Laakso
+| first = Sari A.
+| title = Collection of User Interface Design Patterns
+| accessdate = 2008-01-31
+| date = 2003-09-16
+| url = http://www.cs.helsinki.fi/u/salaakso/patterns/index.html
+}}&lt;/ref&gt; [[information visualization]],&lt;ref&gt;{{cite journal
+| volume = 12
+| issue = 5
+| last = Heer
+| first = J.
+| first2 = M. | last2 = Agrawala
+| title = Software Design Patterns for Information Visualization
+| journal = IEEE Transactions on Visualization and Computer Graphics
+| date = 2006
+| url = http://vis.berkeley.edu/papers/infovis_design_patterns/
+| doi = 10.1109/TVCG.2006.178
+| pmid = 17080809
+| pages = 853–60
+}}&lt;/ref&gt; secure design,&lt;ref&gt;{{cite book
+| title= Secure Design Patterns
+| date = 2009
+| first1 = Chad | last1 = Dougherty | first2 = Kirk | last2 = Sayre | first3 = Robert C. | last3 = Seacord | first4 = David | last4 = Svoboda | first5 = Kazuya | last5 = Togashi 
+| url = http://www.cert.org/archive/pdf/09tr010.pdf
+| publisher = Software Engineering Institute
+}}
+&lt;/ref&gt; "secure usability",&lt;ref&gt;{{cite thesis|type=Ph.D. thesis
+| title= Design Principles and Patterns for Computer Systems That Are Simultaneously Secure and Usable
+| date = 2005
+| first = Simson L. | last = Garfinkel
+| url = http://www.simson.net/thesis/
+}}&lt;/ref&gt; Web design &lt;ref&gt;{{cite web
+| title = Yahoo! Design Pattern Library
+| accessdate = 2008-01-31
+| url = http://developer.yahoo.com/ypatterns/
+}}&lt;/ref&gt; and business model design.&lt;ref&gt;{{cite web
+| title = How to design your Business Model as a Lean Startup?
+| accessdate = 2010-01-06
+| url = http://torgronsund.wordpress.com/2010/01/06/lean-startup-business-model-pattern/
+}}&lt;/ref&gt;
+
+The annual [[Pattern Languages of Programming]] Conference proceedings &lt;ref&gt;Pattern Languages of Programming, Conference proceedings (annual, 1994—) [http://hillside.net/plop/pastconferences.html]&lt;/ref&gt; include many examples of domain-specific patterns.
+
+==Classification and list==
+Design patterns were originally grouped into the categories: [[creational pattern]]s, [[structural pattern]]s, and [[behavioral pattern]]s, and described using the concepts of [[delegation (programming)|delegation]], [[aggregation (object-oriented programming)|aggregation]], and consultation. For further background on object-oriented design, see [[coupling (computer science)|coupling]] and [[cohesion (computer science)|cohesion]], [[inheritance (computer science)|inheritance]], [[interface (object-oriented programming)|interface]], and [[polymorphism in object-oriented programming|polymorphism]]. Another classification has also introduced the notion of [[Architectural pattern|architectural design pattern]] that may be applied at the architecture level of the software such as the [[Model–View–Controller]] pattern.
+
+=== [[Creational pattern]]s ===
+{| class="wikitable"
+|-
+! Name
+! Description
+! In ''[[Design Patterns (book)|Design Patterns]]''
+! In ''[[Code Complete]]''&lt;ref name="McConnell2004"&gt;{{cite book
+ | title = [[Code Complete]]
+ | first = Steve
+ | last = McConnell
+ | authorlink = Steve McConnell
+ |date=June 2004
+ | publisher = [[Microsoft Press]]
+ | isbn = 978-0-7356-1967-8
+ | chapter = Design in Construction
+ | quote = Table 5.1 Popular Design Patterns
+ | edition = 2nd
+ | page = 104
+}}&lt;/ref&gt;
+! Other
+|-
+| [[Abstract factory pattern|Abstract factory]]
+| Provide an interface for creating ''families'' of related or dependent objects without specifying their concrete classes.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Builder pattern|Builder]]
+| Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Factory method pattern|Factory method]]
+| Define an interface for creating a ''single'' object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses ([[dependency injection]]&lt;ref&gt;{{cite web
+| accessdate = 2011-04-13
+| location = | publisher =
+| title = Design Patterns: Dependency injection
+| quote = The use of a factory class is one common way to implement DI.| url = http://msdn.microsoft.com/de-de/magazine/cc163739(en-us).aspx}}&lt;/ref&gt;).
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Lazy initialization]]
+| Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the [[Proxy pattern|Proxy]] pattern.
+| {{yes}}
+| {{no}}
+| {{yes|PoEAA&lt;ref name = "PoEAA"&gt;
+{{cite book
+ | first = Martin
+ | last = Fowler
+ | authorlink = Martin Fowler
+ | year = 2002
+ | title = Patterns of Enterprise Application Architecture
+ | publisher = [[Addison-Wesley]]
+ | isbn = 978-0-321-12742-6
+ | url = http://martinfowler.com/books.html#eaa
+}}&lt;/ref&gt;}}
+|-
+| [[Multiton pattern|Multiton]]
+| Ensure a class has only named instances, and provide a global point of access to them.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Object pool pattern|Object pool]]
+| Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of [[connection pool]] and [[thread pool]] patterns.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Prototype pattern|Prototype]]
+| Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Resource Acquisition Is Initialization|Resource acquisition is initialization]]
+| Ensure that resources are properly released by tying them to the lifespan of suitable objects.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Singleton pattern|Singleton]]
+| Ensure a class has only one instance, and provide a global point of access to it.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|}
+
+=== [[Structural pattern]]s ===
+{| class="wikitable"
+|-
+! Name
+! Description
+! In ''[[Design Patterns (book)|Design Patterns]]''
+! In ''[[Code Complete]]''&lt;ref name="McConnell2004" /&gt;
+! Other
+|-
+| [[Adapter pattern|Adapter]] or Wrapper or Translator
+| Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Bridge pattern|Bridge]]
+| Decouple an abstraction from its implementation allowing the two to vary independently.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Composite pattern|Composite]]
+| Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Decorator pattern|Decorator]]
+| Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| Extension object
+| Adding functionality to a hierarchy without changing the hierarchy.
+| {{no}}
+| {{no}}
+| {{yes|Agile Software Development, Principles, Patterns, and Practices&lt;ref name="Agile Software Development"&gt;
+{{cite book 
+ | last = C. Martin
+ | first = Robert
+ | title = Agile Software Development, Principles, Patterns, and Practices
+ | page = 408
+ | chapter = 28. Extension object
+ | year = 2002
+ | isbn = 978-0135974445
+ | publisher = }}&lt;/ref&gt;}}
+|-
+| [[Facade pattern|Facade]]
+| Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Flyweight pattern|Flyweight]]
+| Use sharing to support large numbers of similar objects efficiently.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Front controller]]
+| The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.
+| {{no}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Marker interface pattern|Marker]]
+| Empty interface to associate metadata with a class.
+| {{no}}
+| {{no}}
+| {{yes|[[Joshua Bloch|Effective Java]]&lt;ref name="EffectiveJava"&gt;
+{{cite book 
+ | last = Bloch
+ | first = Joshua
+ | title = Effective Java (Second edition)
+ | page = 179
+ | chapter = Item 37: Use marker interfaces to define types
+ | year = 2008
+ | isbn = 978-0-321-35668-0
+ | publisher = Addison-Wesley}}&lt;/ref&gt;}}
+|-
+| [[Module pattern|Module]]
+| Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Proxy pattern|Proxy]]
+| Provide a surrogate or placeholder for another object to control access to it.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Twin pattern|Twin]] &lt;ref&gt;{{cite web|url=http://www.ssw.jku.at/Research/Papers/Moe99/Paper.pdf |title=Twin – A Design Pattern for Modeling Multiple Inheritance }}&lt;/ref&gt;
+| Twin allows modeling of multiple inheritance in programming languages that do not support this feature.
+| {{no}}
+| {{no}}
+| {{n/a}}
+
+|}
+
+=== [[Behavioral pattern]]s ===
+{| class="wikitable"
+|-
+! Name
+! Description
+! In ''[[Design Patterns (book)|Design Patterns]]''
+! In ''[[Code Complete]]''&lt;ref name="McConnell2004" /&gt;
+! Other
+|-
+| [[Blackboard design pattern|Blackboard]]
+| [[Artificial intelligence]] pattern for combining disparate sources of data (see [[blackboard system]])
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Chain of responsibility pattern|Chain of responsibility]]
+| Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Command pattern|Command]]
+| Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Interpreter pattern|Interpreter]]
+| Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Iterator pattern|Iterator]]
+| Provide a way to access the elements of an [[Aggregate pattern|aggregate]] object sequentially without exposing its underlying representation.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Mediator pattern|Mediator]]
+| Define an object that encapsulates how a set of objects interact. Mediator promotes [[loose coupling]] by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Memento pattern|Memento]]
+| Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Null Object pattern|Null object]]
+| Avoid null references by providing a default object.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Observer pattern|Observer]] or [[Publish/subscribe]]
+| Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Design pattern Servant|Servant]]
+| Define common functionality for a group of classes.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Specification pattern|Specification]]
+| Recombinable [[business logic]] in a [[Boolean algebra|Boolean]] fashion.
+| {{no}}
+| {{no}}
+| {{n/a}}
+|-
+| [[State pattern|State]]
+| Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|-
+| [[Strategy pattern|Strategy]]
+| Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Template method pattern|Template method]]
+| Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+| {{yes}}
+| {{yes}}
+| {{n/a}}
+|-
+| [[Visitor pattern|Visitor]]
+| Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.
+| {{yes}}
+| {{no}}
+| {{n/a}}
+|}
+
+=== [[Concurrency pattern]]s ===
+{| class="wikitable"
+|-
+! Name
+! Description
+! In ''[[Pattern-Oriented Software Architecture|POSA2]]''&lt;ref name="POSA2"&gt;{{cite book
+ | first = Douglas C.
+ | last = Schmidt
+ | authorlink = Douglas C. Schmidt
+ | first2 = Michael | last2 = Stal | first3 = Hans | last3 = Rohnert | first4 = Frank | last4 = Buschmann
+ | date = 2000
+ | title = Pattern-Oriented Software Architecture, Volume 2: Patterns for Concurrent and Networked Objects
+ | publisher = John Wiley &amp; Sons
+ | isbn = 0-471-60695-2
+}}&lt;/ref&gt;
+! Other
+|-
+| [[Active object|Active Object]]
+| Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using [[asynchronous method invocation]] and a [[scheduling (computing)|scheduler]] for handling requests.
+| {{yes}}
+| {{n/a}}
+|-
+| [[Balking pattern|Balking]]
+| Only execute an action on an object when the object is in a particular state.
+| {{no}}
+| {{n/a}}
+|-
+| [[Binding properties pattern|Binding properties]]
+| Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.&lt;ref&gt;[http://c2.com/cgi/wiki?BindingProperties Binding Properties&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+| {{no}}
+| {{n/a}}
+|-
+| [[Blockchain (database)|Blockchain]]
+| Decentralized way to store data and agree on ways of processing it in a [[Merkle tree]], optionally using [[Digital signature]] for any individual contributions.
+| {{no}}
+| {{n/a}}
+|-
+| [[Double checked locking pattern|Double-checked locking]]
+| Reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed.
+Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an [[anti-pattern]].
+| {{yes}}
+| {{n/a}}
+|-
+| [[Event-Based Asynchronous Pattern|Event-based asynchronous]]
+| Addresses problems with the asynchronous pattern that occur in multithreaded programs.&lt;ref name="PC#2008"&gt;{{cite book|title = Professional C# 2008| first1 = Christian | last1 = Nagel | first2 = Bill | last2 = Evjen | first3 = Jay | last3 = Glynn | first4 = Karli | last4 = Watson | first5 = Morgan | last5 = Skinner|pages = 570–571|publisher = Wiley|year = 2008|isbn = 0-470-19137-6|chapter = Event-based Asynchronous Pattern}}&lt;/ref&gt;
+| {{no}}
+| {{n/a}}
+|-
+| [[Guarded suspension]]
+| Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.
+| {{no}}
+| {{n/a}}
+|-
+| [[Join-pattern|Join]]
+| Join-pattern provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high-level programming model.
+| {{no}}
+| {{n/a}}
+|-
+| [[Lock (computer science)|Lock]]
+| One thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.&lt;ref&gt;[http://c2.com/cgi/wiki?LockPattern Lock Pattern&lt;!-- Bot generated title --&gt;]&lt;/ref&gt;
+| {{no}}
+| {{yes|PoEAA&lt;ref name = "PoEAA"/&gt;}}
+|-
+| [[Messaging pattern|Messaging design pattern (MDP)]]
+| Allows the interchange of information (i.e. messages) between components and applications.
+| {{no}}
+| {{n/a}}
+|-
+| [[Monitor (synchronization)|Monitor object]]
+| An object whose methods are subject to [[mutual exclusion]], thus preventing multiple objects from erroneously trying to use it at the same time.
+| {{yes}}
+| {{n/a}}
+|-
+| [[Reactor pattern|Reactor]]
+| A reactor object provides an asynchronous interface to resources that must be handled synchronously.
+| {{yes}}
+| {{n/a}}
+|-
+| [[Read/write lock pattern|Read-write lock]]
+| Allows concurrent read access to an object, but requires exclusive access for write operations.
+| {{no}}
+| {{n/a}}
+|-
+| [[Scheduler pattern|Scheduler]]
+| Explicitly control when threads may execute single-threaded code.
+| {{no}}
+| {{n/a}}
+|-
+| [[Thread pool pattern|Thread pool]]
+| A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the [[object pool]] pattern.
+| {{no}}
+| {{n/a}}
+|-
+| [[Thread-Specific Storage|Thread-specific storage]]
+| Static or "global" memory local to a thread.
+| {{yes}}
+| {{n/a}}
+|}
+
+==Documentation==
+The documentation for a design pattern describes the context in which the pattern is used, the forces within the context that the pattern seeks to resolve, and the suggested solution.&lt;ref name = "GabrielHillside"&gt;{{cite web
+ | first = Dick
+ | last = Gabriel
+ | authorlink = Richard P. Gabriel
+ | title = A Pattern Definition
+ | url = http://hillside.net/patterns/definition.html
+ | accessdate = 2007-03-06
+|archiveurl = http://web.archive.org/web/20070209224120/http://hillside.net/patterns/definition.html &lt;!-- Bot retrieved archive --&gt; | archivedate = 2007-02-09}}&lt;/ref&gt; There is no single, standard format for documenting design patterns. Rather, a variety of different formats have been used by different pattern authors. However, according to [[Martin Fowler]], certain pattern forms have become more well-known than others, and consequently become common starting points for new pattern-writing efforts.&lt;ref name = "Fowler2006"&gt;{{cite web
+ | first = Martin
+ | last = Fowler
+ | authorlink = Martin Fowler
+ | title = Writing Software Patterns
+ | url = http://www.martinfowler.com/articles/writingPatterns.html
+ | date = 2006-08-01
+ | accessdate = 2007-03-06
+}}&lt;/ref&gt; One example of a commonly used documentation format is the one used by [[Erich Gamma]], [[Richard Helm]], [[Ralph Johnson (computer scientist)|Ralph Johnson]] and [[John Vlissides]] (collectively known as the "Gang of Four", or GoF for short) in their book ''[[Design Patterns (book)|Design Patterns]]''. It contains the following sections:
+
+*'''Pattern Name and Classification:''' A descriptive and unique name that helps in identifying and referring to the pattern.
+*'''Intent:''' A description of the goal behind the pattern and the reason for using it.
+*'''Also Known As:''' Other names for the pattern.
+*'''Motivation (Forces):''' A scenario consisting of a problem and a context in which this pattern can be used.
+*'''Applicability:''' Situations in which this pattern is usable; the context for the pattern.
+*'''Structure:''' A graphical representation of the pattern. [[Unified Modeling Language#UML Class Diagram|Class diagram]]s and [[Interaction diagram]]s may be used for this purpose.
+*'''Participants:''' A listing of the classes and objects used in the pattern and their roles in the design.
+*'''Collaboration:''' A description of how classes and objects used in the pattern interact with each other.
+*'''Consequences:''' A description of the results, side effects, and trade offs caused by using the pattern.
+*'''Implementation:''' A description of an implementation of the pattern; the solution part of the pattern.
+*'''Sample Code:''' An illustration of how the pattern can be used in a programming language.
+*'''Known Uses:''' Examples of real usages of the pattern.
+*'''Related Patterns:''' Other patterns that have some relationship with the pattern; discussion of the differences between the pattern and similar patterns.
+
+==Criticism==
+The concept of design patterns has been criticized in several ways.
+
+The design patterns may just be a sign of some missing features of a given programming language ([[Java (programming language)|Java]] or [[C++]] for instance). [[Peter Norvig]] demonstrates that 16 out of the 23 patterns in the ''Design Patterns'' book (which is primarily focused on C++) are simplified or eliminated (via direct language support) in [[Lisp (programming language)|Lisp]] or [[Dylan (programming language)|Dylan]].&lt;ref name = "Norvig1998"&gt;{{cite conference
+ | last = Norvig
+ | first = Peter
+ | authorlink = Peter Norvig
+ | title = Design Patterns in Dynamic Languages
+ | url = http://www.norvig.com/design-patterns/
+ | year = 1998}}&lt;/ref&gt; Related observations were made by Hannemann and Kiczales who implemented several of the 23 design patterns using an [[Aspect-oriented programming|aspect-oriented programming language]] (AspectJ) and showed that code-level dependencies were removed from the implementations of 17 of the 23 design patterns and that aspect-oriented programming could simplify the implementations of design patterns.&lt;ref name = "Hannemann 2002"&gt;{{cite conference
+ | last = Hannemann 
+ | first = Jan
+ | title = Design pattern implementation in Java and AspectJ
+ | url = http://hannemann.pbworks.com/w/page/16577895/Design%20Pattern
+ | year = 2002}}&lt;/ref&gt; See also [[Paul Graham (computer programmer)|Paul Graham's]] essay "Revenge of the Nerds".&lt;ref name = "Graham2002"&gt;{{cite conference
+ | last = Graham
+ | first = Paul
+ | authorlink = Paul Graham (computer programmer)
+ | title = Revenge of the Nerds
+ | url = http://www.paulgraham.com/icad.html
+ | year = 2002
+ | accessdate = 2012-08-11}}
+&lt;/ref&gt;
+
+Moreover, inappropriate use of patterns may unnecessarily increase complexity.&lt;ref name = "CodeComplete2"&gt;{{cite book
+ | last = McConnell
+ | first = Steve
+ | title = Code Complete: A Practical Handbook of Software Construction, 2nd Edition
+ | year = 2004
+ | page = 105}}
+&lt;/ref&gt;
+
+==See also==
+{{Div col|cols = 3}}
+*[[Abstraction principle (programming)|Abstraction principle]]
+*[[Algorithmic skeleton]]
+*[[Anti-pattern]]
+*[[Architectural pattern (computer science)|Architectural pattern]]
+*[[Debugging patterns]]
+*[[Design pattern]]
+*[[Distributed design patterns]]
+*[[Double-chance function]]
+*[[Enterprise Architecture framework]]
+*[[GRASP (object-oriented design)]]
+*[[Helper class]]
+*[[Interaction design pattern]]
+*[[List of software development philosophies]]
+*[[List of software engineering topics]]
+*[[Pattern language]]
+*[[Pattern theory]]
+*[[Pedagogical patterns]]
+*[[Portland Pattern Repository]]
+*[[Refactoring]]
+*[[Software development methodology]]
+{{Div col end}}
+
+==References==
+{{reflist|colwidth = 30em}}
+
+==Further reading==
+{{refbegin|3}}
+* {{cite book
+ | first = Christopher
+ | last = Alexander
+ | authorlink = Christopher Alexander
+ | first2 = Sara | last2 = Ishikawa | first3 = Murray | last3 = Silverstein | first4 = Max | last4 = Jacobson | first5 = Ingrid | last5 = Fiksdahl-King | first6 = Shlomo | last6 = Angel
+ | date = 1977
+ | title = [[A Pattern Language: Towns, Buildings, Construction]]
+ | location = New York
+ | publisher = Oxford University Press
+ | isbn = 978-0-19-501919-3
+}}
+* {{cite book
+ | first = Deepak
+ | last = Alur
+ | first2 = John | last2 = Crupi | first3 = Dan | last3 = Malks
+  |date=May 2003
+ | title = Core J2EE Patterns: Best Practices and Design Strategies (2nd Edition)
+ | publisher = [[Prentice Hall]]
+ | isbn = 0-13-142246-4
+}}
+* {{cite book
+ | first = Kent
+ | last = Beck
+ | authorlink = Kent Beck
+ |date=October 2007
+ | title = Implementation Patterns
+ | publisher = [[Addison-Wesley]]
+ | isbn = 978-0-321-41309-3
+}}
+* {{cite book
+ | first = Kent
+ | last = Beck
+ | authorlink = Kent Beck
+ | first2 = R. | last2 = Crocker | first3 = G. | last3 = Meszaros | authorlink4 = James O. Coplien | first4 = J. O. | last4 = Coplien | first5 = L. | last5 = Dominick | first6 = F. | last6 = Paulisch | authorlink7 = John Vlissides | first7 = J. | last7 = Vlissides
+ |date=March 1996
+ | title = Proceedings of the 18th International Conference on Software Engineering
+ | pages = 25–30
+}}
+* {{cite book
+ | first = Jan
+ | last = Borchers
+ | year = 2001
+ | title = A Pattern Approach to Interaction Design
+ | publisher = [[John Wiley &amp; Sons]]
+ | isbn = 0-471-49828-9
+}}
+* {{cite book
+ | first = James O.
+ | last = Coplien
+ | authorlink = Jim Coplien
+ | first2=Douglas C. | last2 = Schmidt
+ | date = 1995
+ | title = Pattern Languages of Program Design
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-60734-4
+}}
+* {{cite book
+ | first = James O.
+ | last = Coplien
+ | authorlink = Jim Coplien
+ | authorlink2 = John Vlissides | first2 = John M. | last2 = Vlissides | first3 = Norman L. | last3 = Kerth
+ | date = 1996
+ | title = Pattern Languages of Program Design 2
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-89527-7
+}}
+* {{cite book
+ | title = Analysis Patterns: Reusable Object Models
+ | first = Martin
+ | last = Fowler
+ | authorlink = Martin Fowler
+ | year = 1997
+ | isbn = 0-201-89542-0
+ | publisher = [[Addison-Wesley]]
+}}
+* {{cite book
+ | title = Patterns of Enterprise Application Architecture
+ | first = Martin
+ | last = Fowler
+ | authorlink = Martin Fowler
+ | year = 2003
+ | isbn = 978-0-321-12742-6
+ | publisher = [[Addison-Wesley]]
+}}
+* {{cite book
+ | first = Eric
+ | last = Freeman
+ | first2 = Elisabeth | last2 = Freeman | authorlink3 = Kathy Sierra | first3 = Kathy | last3 = Sierra | first4 = Bert | last4 = Bates
+ | title = Head First Design Patterns
+ | date = 2004
+ | publisher = [[O'Reilly Media]]
+ | isbn = 0-596-00712-4
+}}
+* {{cite book
+ | first = Luke
+ | last = Hohmann
+ | first2 = Martin | last2 = Fowler | first3 = Guy | last3 = Kawasaki
+ | title = Beyond Software Architecture
+ | year = 2003
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-77594-8
+}}
+* {{cite book
+ | first = Richard
+ | last = Gabriel
+ | authorlink = Richard P. Gabriel
+ | title = Patterns of Software: Tales From The Software Community
+ | year = 1996
+ | publisher = [[Oxford University Press]]
+ | page = 235
+ | isbn = 0-19-512123-6
+ | url = http://www.dreamsongs.com/NewFiles/PatternsOfSoftware.pdf
+ | archiveurl = https://web.archive.org/web/20030801111358/http://dreamsongs.com/NewFiles/PatternsOfSoftware.pdf | archivedate = 2003-08-01 }}
+* {{cite book
+ | first = Erich
+ | last = Gamma
+ | authorlink = Erich Gamma
+ | authorlink2 = Richard Helm | first2 = Richard | last2 = Helm | authorlink3 = Ralph Johnson (computer scientist) | first3 = Ralph | last3 = Johnson | authorlink4 = John Vlissides | first4 = John | last4 = Vlissides
+ | date = 1995
+ | title = [[Design Patterns (book)|Design Patterns: Elements of Reusable Object-Oriented Software]]
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-63361-2
+ | ref=book_Gamma1995
+}}
+* {{cite book
+ | first = Gregor
+ | last = Hohpe
+ | first2=Bobby | last2 = Woolf
+ | date = 2003
+ | title = [[Enterprise Integration Patterns|Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions]]
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-321-20068-3
+}}
+* {{cite book
+ | first = Allen
+ | last = Holub
+ | authorlink = Allen I. Holub
+ | year = 2004
+ | title = Holub on Patterns
+ | publisher = [[Apress]]
+ | isbn = 1-59059-388-X
+}}
+* {{cite book
+ | first = Michael
+ | last = Kircher
+ | first2 = Markus | last2 = Völter | first3 = Uwe | last3 = Zdun
+ | date = 2005
+ | title = Remoting Patterns: Foundations of Enterprise, Internet and Realtime Distributed Object Middleware
+ | publisher = [[John Wiley &amp; Sons]]
+ | isbn = 0-470-85662-9
+}}
+* {{cite book
+ | first = Craig
+ | last = Larman
+ | authorlink = Craig Larman
+ | year = 2005
+ | title = Applying UML and Patterns
+ | publisher = [[Prentice Hall]]
+ | isbn = 0-13-148906-2
+}}
+* {{cite book
+ | first = Barbara
+ | last = Liskov
+ | authorlink = Barbara Liskov
+ | authorlink2 = John Guttag | first2 = John | last2 = Guttag
+ | date = 2000
+ | title = Program Development in Java: Abstraction, Specification, and Object-Oriented Design.
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-65768-6
+}}
+* {{cite book
+ | first = Dragos
+ | last = Manolescu
+ | first2 = Markus | last2 = Voelter | first3 = James | last3 = Noble
+ | date = 2006
+ | title = Pattern Languages of Program Design 5
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-321-32194-4
+}}
+* {{cite book
+ | first = Floyd
+ | last = Marinescu
+ | year = 2002
+ | title = EJB Design Patterns: Advanced Patterns, Processes and Idioms
+ | publisher = [[John Wiley &amp; Sons]]
+ | isbn = 0-471-20831-0
+}}
+* {{cite book
+ | first = Robert Cecil
+ | last = Martin
+ | authorlink = Robert Cecil Martin
+ | first2 = Dirk | last2 = Riehle | first3 = Frank | last3 = Buschmann
+ | date = 1997
+ | title = Pattern Languages of Program Design 3
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-31011-2
+}}
+* {{cite book
+ | first = Timothy G
+ | last = Mattson
+ | first2 = Beverly A. | last2 = Sanders | first3 = Berna L. | last3 = Massingill
+ | date = 2005
+ | title = Patterns for Parallel Programming
+ | publisher = Addison-Wesley
+ | isbn = 0-321-22811-1
+}}
+* {{cite book
+ | first = Alan
+ | last = Shalloway
+ | first2 = James R. | last2 = Trott
+ | date = 2001
+ | title = Design Patterns Explained, Second Edition: A New Perspective on Object-Oriented Design
+ | publisher = Addison-Wesley
+ | isbn = 0-321-24714-0
+}}
+* {{cite book
+ | first = John M.
+ | last = Vlissides
+ | authorlink = John Vlissides
+ | year = 1998
+ | title = Pattern Hatching: Design Patterns Applied
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-43293-5
+}}
+* {{cite book
+ | first = Charles
+ | last = Weir
+ | first2 = James | last2 = Noble
+ | date = 2000
+ | title = Small Memory Software: Patterns for systems with limited memory
+ | publisher = [[Addison-Wesley]]
+ | isbn = 0-201-59607-5
+ | url = http://www.cix.co.uk/~smallmemory/
+ | archiveurl = https://web.archive.org/web/20070617114432/http://www.cix.co.uk/~smallmemory | archivedate = 2007-06-17 }}
+{{refend}}
+
+{{Design Patterns patterns}}
+{{Authority control}}
+
+{{DEFAULTSORT:Design Pattern (Computer Science)}}
+[[Category:Software design patterns| ]]
+[[Category:Software development]]
+</textarea><div class="editOptions">
+<span class="mw-summary" id="wpSummaryLabel"><label for="wpSummary"><span style="text-align: left;"><a href="/wiki/Help:Edit_summary" title="Help:Edit summary">Edit summary</a> <small>(Briefly describe your changes)</small></span></label></span> <input accesskey="b" class="mw-summary" id="wpSummary" maxlength="200" name="wpSummary" size="60" spellcheck="true" tabindex="1" title="Enter a short summary [b]"/><div class="editCheckboxes">
+</div>
+<div id="editpage-copywarn">
+<p>By saving changes, you agree to the <a class="extiw" href="https://wikimediafoundation.org/wiki/Terms_of_Use" title="wmf:Terms of Use">Terms of Use</a>, and you irrevocably agree to release your contribution under the <a href="/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" title="Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License">CC BY-SA 3.0 License</a> and the <a href="/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License" title="Wikipedia:Text of the GNU Free Documentation License">GFDL</a>. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.</p>
+</div>
+<div class="editButtons">
+<input accesskey="s" id="wpSave" name="wpSave" tabindex="3" title="Save your changes [s]" type="submit" value="Save changes"/>
+<input accesskey="p" id="wpPreview" name="wpPreview" tabindex="4" title="Preview your changes. Please use this before saving. [p]" type="submit" value="Show preview"/>
+<input accesskey="v" id="wpDiff" name="wpDiff" tabindex="5" title="Show the changes you made to the text [v]" type="submit" value="Show changes"/>
+<span class="cancelLink"><a href="/wiki/Software_design_pattern" id="mw-editform-cancel" title="Software design pattern">Cancel</a><span class="mw-editButtons-pipe-separator"> | </span></span>
+<span class="editHelp"><a href="/wiki/Help:Cheatsheet" target="helpwindow">Editing help</a> (opens in new window)</span>
+</div><!-- editButtons -->
+<span id="templatesandbox-editform"><input id="wpTemplateSandboxTemplate" name="wpTemplateSandboxTemplate" type="hidden" value="Software design pattern"/><input id="wpTemplateSandboxPage" name="wpTemplateSandboxPage" type="hidden"/></span>
+</div><!-- editOptions -->
+<input name="wpEditToken" type="hidden" value="+\"/>
+<div class="mw-editTools"><div class="edittools-text" id="editpage-specialchars" style="margin-top: 15px; border: 1px solid #aaaaaa; padding: 2px;">
+<p><b>Copy and paste:</b> – — ° ′ ″ ≈ ≠ ≤ ≥ ± − × ÷ ← → · §    <b>Cite your sources:</b> &lt;ref&gt;&lt;/ref&gt; 
+</p>
+<hr/>
+<p><small>
+{{}}   {{{}}}   |   []   [[]]   [[Category:]]   #REDIRECT [[]]   &amp;nbsp;   &lt;s&gt;&lt;/s&gt;   &lt;sup&gt;&lt;/sup&gt;   &lt;sub&gt;&lt;/sub&gt;   &lt;code&gt;&lt;/code&gt;   &lt;pre&gt;&lt;/pre&gt;   &lt;blockquote&gt;&lt;/blockquote&gt;   &lt;ref&gt;&lt;/ref&gt; &lt;ref name="" /&gt;   {{Reflist}}   &lt;references /&gt;   &lt;includeonly&gt;&lt;/includeonly&gt;   &lt;noinclude&gt;&lt;/noinclude&gt;   {{DEFAULTSORT:}}   &lt;nowiki&gt;&lt;/nowiki&gt;   &lt;!-- --&gt;   &lt;span class="plainlinks"&gt;&lt;/span&gt; 
+</small>
+</p>
+<hr/>
+<p><small>
+<b>Symbols:</b> ~ | ¡ ¿ † ‡ ↔ ↑ ↓ • ¶   # ∞   ‘ ’ “ ” ‹› «»   ¤ ₳ ฿ ₵ ¢ ₡ ₢ $ ₫ ₯ € ₠ ₣ ƒ ₴ ₭ ₤ ℳ ₥ ₦ № ₧ ₰ £ ៛ ₨ ₪ ৳ ₮ ₩ ¥   ♠ ♣ ♥ ♦   ♭ ♯ ♮   © ® ™<br/>
+<b>Latin:</b> A a Á á À à Â â Ä ä Ǎ ǎ Ă ă Ā ā Ã ã Å å Ą ą Æ æ Ǣ ǣ   B b   C c Ć ć Ċ ċ Ĉ ĉ Č č Ç ç   D d Ď ď Đ đ Ḍ ḍ Ð ð   E e É é È è Ė ė Ê ê Ë ë Ě ě Ĕ ĕ Ē ē Ẽ ẽ Ę ę Ẹ ẹ Ɛ ɛ Ǝ ǝ Ə ə   F f   G g Ġ ġ Ĝ ĝ Ğ ğ Ģ ģ   H h Ĥ ĥ Ħ ħ Ḥ ḥ   I i İ ı Í í Ì ì Î î Ï ï Ǐ ǐ Ĭ ĭ Ī ī Ĩ ĩ Į į Ị ị   J j Ĵ ĵ   K k Ķ ķ   L l Ĺ ĺ Ŀ ŀ Ľ ľ Ļ ļ Ł ł Ḷ ḷ Ḹ ḹ   M m Ṃ ṃ   N n Ń ń Ň ň Ñ ñ Ņ ņ Ṇ ṇ Ŋ ŋ   O o Ó ó Ò ò Ô ô Ö ö Ǒ ǒ Ŏ ŏ Ō ō Õ õ Ǫ ǫ Ọ ọ Ő ő Ø ø Œ œ   Ɔ ɔ   P p   Q q   R r Ŕ ŕ Ř ř Ŗ ŗ Ṛ ṛ Ṝ ṝ   S s Ś ś Ŝ ŝ Š š Ş ş Ș ș Ṣ ṣ ß   T t Ť ť Ţ ţ Ț ț Ṭ ṭ Þ þ   U u Ú ú Ù ù Û û Ü ü Ǔ ǔ Ŭ ŭ Ū ū Ũ ũ Ů ů Ų ų Ụ ụ Ű ű Ǘ ǘ Ǜ ǜ Ǚ ǚ Ǖ ǖ   V v   W w Ŵ ŵ   X x   Y y Ý ý Ŷ ŷ Ÿ ÿ Ỹ ỹ Ȳ ȳ   Z z Ź ź Ż ż Ž ž   ß Ð ð Þ þ Ŋ ŋ Ə ə <br/>
+<b>Greek:</b> Ά ά Έ έ Ή ή Ί ί Ό ό Ύ ύ Ώ ώ   Α α Β β Γ γ Δ δ   Ε ε Ζ ζ Η η Θ θ   Ι ι Κ κ Λ λ Μ μ   Ν ν Ξ ξ Ο ο Π π   Ρ ρ Σ σ ς Τ τ Υ υ   Φ φ Χ χ Ψ ψ Ω ω   {{Polytonic|}} <br/>
+<b>Cyrillic:</b> А а Б б В в Г г   Ґ ґ Ѓ ѓ Д д Ђ ђ   Е е Ё ё Є є Ж ж   З з Ѕ ѕ И и І і   Ї ї Й й Ј ј К к   Ќ ќ Л л Љ љ М м   Н н Њ њ О о П п   Р р С с Т т Ћ ћ   У у Ў ў Ф ф Х х   Ц ц Ч ч Џ џ Ш ш   Щ щ Ъ ъ Ы ы Ь ь   Э э Ю ю Я я   ́ <br/>
+<b>IPA:</b> t̪ d̪ ʈ ɖ ɟ ɡ ɢ ʡ ʔ   ɸ β θ ð ʃ ʒ ɕ ʑ ʂ ʐ ç ʝ ɣ χ ʁ ħ ʕ ʜ ʢ ɦ   ɱ ɳ ɲ ŋ ɴ   ʋ ɹ ɻ ɰ   ʙ ⱱ ʀ ɾ ɽ   ɫ ɬ ɮ ɺ ɭ ʎ ʟ   ɥ ʍ ɧ   ʼ   ɓ ɗ ʄ ɠ ʛ   ʘ ǀ ǃ ǂ ǁ   ɨ ʉ ɯ   ɪ ʏ ʊ   ø ɘ ɵ ɤ   ə ɚ   ɛ œ ɜ ɝ ɞ ʌ ɔ   æ   ɐ ɶ ɑ ɒ   ʰ ʱ ʷ ʲ ˠ ˤ ⁿ ˡ   ˈ ˌ ː ˑ ̪   {{IPA|}}
+</small>
+</p>
+</div>
+</div>
+<div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p><span id="templatesused">Pages transcluded onto the current version of this page<span class="posteditwindowhelplinks"> (<a href="/wiki/Wikipedia:Transclusion" title="Wikipedia:Transclusion">help</a>)</span> :</span>
+</p></div><ul>
+<li><a href="/wiki/Template:Authority_control" title="Template:Authority control">Template:Authority control</a> (<a href="/w/index.php?title=Template:Authority_control&amp;action=edit" title="Template:Authority control">view source</a>) (template protected)</li><li><a href="/wiki/Template:Category_handler" title="Template:Category handler">Template:Category handler</a> (<a href="/w/index.php?title=Template:Category_handler&amp;action=edit" title="Template:Category handler">view source</a>) (template protected)</li><li><a href="/wiki/Template:Citation_needed" title="Template:Citation needed">Template:Citation needed</a> (<a href="/w/index.php?title=Template:Citation_needed&amp;action=edit" title="Template:Citation needed">view source</a>) (protected)</li><li><a href="/wiki/Template:Cite_book" title="Template:Cite book">Template:Cite book</a> (<a href="/w/index.php?title=Template:Cite_book&amp;action=edit" title="Template:Cite book">view source</a>) (protected)</li><li><a href="/wiki/Template:Cite_conference" title="Template:Cite conference">Template:Cite conference</a> (<a href="/w/index.php?title=Template:Cite_conference&amp;action=edit" title="Template:Cite conference">view source</a>) (protected)</li><li><a href="/wiki/Template:Cite_journal" title="Template:Cite journal">Template:Cite journal</a> (<a href="/w/index.php?title=Template:Cite_journal&amp;action=edit" title="Template:Cite journal">view source</a>) (protected)</li><li><a href="/wiki/Template:Cite_thesis" title="Template:Cite thesis">Template:Cite thesis</a> (<a href="/w/index.php?title=Template:Cite_thesis&amp;action=edit" title="Template:Cite thesis">view source</a>) (semi-protected)</li><li><a href="/wiki/Template:Cite_web" title="Template:Cite web">Template:Cite web</a> (<a href="/w/index.php?title=Template:Cite_web&amp;action=edit" title="Template:Cite web">view source</a>) (protected)</li><li><a href="/wiki/Template:Citeseerx" title="Template:Citeseerx">Template:Citeseerx</a> (<a href="/w/index.php?title=Template:Citeseerx&amp;action=edit" title="Template:Citeseerx">edit</a>) </li><li><a href="/wiki/Template:Clarify" title="Template:Clarify">Template:Clarify</a> (<a href="/w/index.php?title=Template:Clarify&amp;action=edit" title="Template:Clarify">view source</a>) (template protected)</li><li><a href="/wiki/Template:Column-count" title="Template:Column-count">Template:Column-count</a> (<a href="/w/index.php?title=Template:Column-count&amp;action=edit" title="Template:Column-count">view source</a>) (template protected)</li><li><a href="/wiki/Template:Column-width" title="Template:Column-width">Template:Column-width</a> (<a href="/w/index.php?title=Template:Column-width&amp;action=edit" title="Template:Column-width">view source</a>) (template protected)</li><li><a href="/wiki/Template:Delink" title="Template:Delink">Template:Delink</a> (<a href="/w/index.php?title=Template:Delink&amp;action=edit" title="Template:Delink">view source</a>) (template protected)</li><li><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns">Template:Design Patterns patterns</a> (<a href="/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit" title="Template:Design Patterns patterns">edit</a>) </li><li><a href="/wiki/Template:Div_col" title="Template:Div col">Template:Div col</a> (<a href="/w/index.php?title=Template:Div_col&amp;action=edit" title="Template:Div col">view source</a>) (template protected)</li><li><a href="/wiki/Template:Div_col_end" title="Template:Div col end">Template:Div col end</a> (<a href="/w/index.php?title=Template:Div_col_end&amp;action=edit" title="Template:Div col end">view source</a>) (template protected)</li><li><a href="/wiki/Template:Fix" title="Template:Fix">Template:Fix</a> (<a href="/w/index.php?title=Template:Fix&amp;action=edit" title="Template:Fix">view source</a>) (protected)</li><li><a href="/wiki/Template:Fix-span" title="Template:Fix-span">Template:Fix-span</a> (<a href="/w/index.php?title=Template:Fix-span&amp;action=edit" title="Template:Fix-span">view source</a>) (template protected)</li><li><a href="/wiki/Template:Fix/category" title="Template:Fix/category">Template:Fix/category</a> (<a href="/w/index.php?title=Template:Fix/category&amp;action=edit" title="Template:Fix/category">view source</a>) (protected)</li><li><a href="/wiki/Template:Main_other" title="Template:Main other">Template:Main other</a> (<a href="/w/index.php?title=Template:Main_other&amp;action=edit" title="Template:Main other">view source</a>) (protected)</li><li><a href="/wiki/Template:N/a" title="Template:N/a">Template:N/a</a> (<a href="/w/index.php?title=Template:N/a&amp;action=edit" title="Template:N/a">view source</a>) (template protected)</li><li><a href="/wiki/Template:Navbox" title="Template:Navbox">Template:Navbox</a> (<a href="/w/index.php?title=Template:Navbox&amp;action=edit" title="Template:Navbox">view source</a>) (template protected)</li><li><a href="/wiki/Template:Navbox_subgroup" title="Template:Navbox subgroup">Template:Navbox subgroup</a> (<a href="/w/index.php?title=Template:Navbox_subgroup&amp;action=edit" title="Template:Navbox subgroup">view source</a>) (template protected)</li><li><a href="/wiki/Template:No" title="Template:No">Template:No</a> (<a href="/w/index.php?title=Template:No&amp;action=edit" title="Template:No">view source</a>) (template protected)</li><li><a href="/wiki/Template:Refbegin" title="Template:Refbegin">Template:Refbegin</a> (<a href="/w/index.php?title=Template:Refbegin&amp;action=edit" title="Template:Refbegin">view source</a>) (protected)</li><li><a href="/wiki/Template:Refend" title="Template:Refend">Template:Refend</a> (<a href="/w/index.php?title=Template:Refend&amp;action=edit" title="Template:Refend">view source</a>) (protected)</li><li><a href="/wiki/Template:Reflist" title="Template:Reflist">Template:Reflist</a> (<a href="/w/index.php?title=Template:Reflist&amp;action=edit" title="Template:Reflist">view source</a>) (protected)</li><li><a href="/wiki/Template:Replace" title="Template:Replace">Template:Replace</a> (<a href="/w/index.php?title=Template:Replace&amp;action=edit" title="Template:Replace">view source</a>) (protected)</li><li><a href="/wiki/Template:Section_link" title="Template:Section link">Template:Section link</a> (<a href="/w/index.php?title=Template:Section_link&amp;action=edit" title="Template:Section link">view source</a>) (template protected)</li><li><a href="/wiki/Template:URL" title="Template:URL">Template:URL</a> (<a href="/w/index.php?title=Template:URL&amp;action=edit" title="Template:URL">view source</a>) (template protected)</li><li><a href="/wiki/Template:Yes" title="Template:Yes">Template:Yes</a> (<a href="/w/index.php?title=Template:Yes&amp;action=edit" title="Template:Yes">view source</a>) (template protected)</li><li><a href="/wiki/Module:Arguments" title="Module:Arguments">Module:Arguments</a> (<a href="/w/index.php?title=Module:Arguments&amp;action=edit" title="Module:Arguments">view source</a>) (protected)</li><li><a href="/wiki/Module:Authority_control" title="Module:Authority control">Module:Authority control</a> (<a href="/w/index.php?title=Module:Authority_control&amp;action=edit" title="Module:Authority control">view source</a>) (template protected)</li><li><a href="/wiki/Module:Category_handler" title="Module:Category handler">Module:Category handler</a> (<a href="/w/index.php?title=Module:Category_handler&amp;action=edit" title="Module:Category handler">view source</a>) (template protected)</li><li><a href="/wiki/Module:Category_handler/blacklist" title="Module:Category handler/blacklist">Module:Category handler/blacklist</a> (<a href="/w/index.php?title=Module:Category_handler/blacklist&amp;action=edit" title="Module:Category handler/blacklist">view source</a>) (template protected)</li><li><a href="/wiki/Module:Category_handler/config" title="Module:Category handler/config">Module:Category handler/config</a> (<a href="/w/index.php?title=Module:Category_handler/config&amp;action=edit" title="Module:Category handler/config">view source</a>) (template protected)</li><li><a href="/wiki/Module:Category_handler/data" title="Module:Category handler/data">Module:Category handler/data</a> (<a href="/w/index.php?title=Module:Category_handler/data&amp;action=edit" title="Module:Category handler/data">view source</a>) (template protected)</li><li><a href="/wiki/Module:Category_handler/shared" title="Module:Category handler/shared">Module:Category handler/shared</a> (<a href="/w/index.php?title=Module:Category_handler/shared&amp;action=edit" title="Module:Category handler/shared">view source</a>) (template protected)</li><li><a href="/wiki/Module:Check_for_unknown_parameters" title="Module:Check for unknown parameters">Module:Check for unknown parameters</a> (<a href="/w/index.php?title=Module:Check_for_unknown_parameters&amp;action=edit" title="Module:Check for unknown parameters">view source</a>) (template protected)</li><li><a href="/wiki/Module:Citation/CS1" title="Module:Citation/CS1">Module:Citation/CS1</a> (<a href="/w/index.php?title=Module:Citation/CS1&amp;action=edit" title="Module:Citation/CS1">view source</a>) (protected)</li><li><a href="/wiki/Module:Citation/CS1/COinS" title="Module:Citation/CS1/COinS">Module:Citation/CS1/COinS</a> (<a href="/w/index.php?title=Module:Citation/CS1/COinS&amp;action=edit" title="Module:Citation/CS1/COinS">view source</a>) (protected)</li><li><a href="/wiki/Module:Citation/CS1/Configuration" title="Module:Citation/CS1/Configuration">Module:Citation/CS1/Configuration</a> (<a href="/w/index.php?title=Module:Citation/CS1/Configuration&amp;action=edit" title="Module:Citation/CS1/Configuration">view source</a>) (protected)</li><li><a href="/wiki/Module:Citation/CS1/Date_validation" title="Module:Citation/CS1/Date validation">Module:Citation/CS1/Date validation</a> (<a href="/w/index.php?title=Module:Citation/CS1/Date_validation&amp;action=edit" title="Module:Citation/CS1/Date validation">view source</a>) (template protected)</li><li><a href="/wiki/Module:Citation/CS1/Identifiers" title="Module:Citation/CS1/Identifiers">Module:Citation/CS1/Identifiers</a> (<a href="/w/index.php?title=Module:Citation/CS1/Identifiers&amp;action=edit" title="Module:Citation/CS1/Identifiers">view source</a>) (protected)</li><li><a href="/wiki/Module:Citation/CS1/Utilities" title="Module:Citation/CS1/Utilities">Module:Citation/CS1/Utilities</a> (<a href="/w/index.php?title=Module:Citation/CS1/Utilities&amp;action=edit" title="Module:Citation/CS1/Utilities">view source</a>) (protected)</li><li><a href="/wiki/Module:Citation/CS1/Whitelist" title="Module:Citation/CS1/Whitelist">Module:Citation/CS1/Whitelist</a> (<a href="/w/index.php?title=Module:Citation/CS1/Whitelist&amp;action=edit" title="Module:Citation/CS1/Whitelist">view source</a>) (protected)</li><li><a href="/wiki/Module:Delink" title="Module:Delink">Module:Delink</a> (<a href="/w/index.php?title=Module:Delink&amp;action=edit" title="Module:Delink">view source</a>) (template protected)</li><li><a href="/wiki/Module:Namespace_detect/config" title="Module:Namespace detect/config">Module:Namespace detect/config</a> (<a href="/w/index.php?title=Module:Namespace_detect/config&amp;action=edit" title="Module:Namespace detect/config">view source</a>) (protected)</li><li><a href="/wiki/Module:Namespace_detect/data" title="Module:Namespace detect/data">Module:Namespace detect/data</a> (<a href="/w/index.php?title=Module:Namespace_detect/data&amp;action=edit" title="Module:Namespace detect/data">view source</a>) (protected)</li><li><a href="/wiki/Module:Navbar" title="Module:Navbar">Module:Navbar</a> (<a href="/w/index.php?title=Module:Navbar&amp;action=edit" title="Module:Navbar">view source</a>) (protected)</li><li><a href="/wiki/Module:Navbox" title="Module:Navbox">Module:Navbox</a> (<a href="/w/index.php?title=Module:Navbox&amp;action=edit" title="Module:Navbox">view source</a>) (template protected)</li><li><a href="/wiki/Module:No_globals" title="Module:No globals">Module:No globals</a> (<a href="/w/index.php?title=Module:No_globals&amp;action=edit" title="Module:No globals">view source</a>) (template protected)</li><li><a href="/wiki/Module:Section_link" title="Module:Section link">Module:Section link</a> (<a href="/w/index.php?title=Module:Section_link&amp;action=edit" title="Module:Section link">view source</a>) (template protected)</li><li><a href="/wiki/Module:String" title="Module:String">Module:String</a> (<a href="/w/index.php?title=Module:String&amp;action=edit" title="Module:String">view source</a>) (protected)</li><li><a href="/wiki/Module:URL" title="Module:URL">Module:URL</a> (<a href="/w/index.php?title=Module:URL&amp;action=edit" title="Module:URL">view source</a>) (template protected)</li><li><a href="/wiki/Module:Unsubst" title="Module:Unsubst">Module:Unsubst</a> (<a href="/w/index.php?title=Module:Unsubst&amp;action=edit" title="Module:Unsubst">view source</a>) (template protected)</li><li><a href="/wiki/Module:Yesno" title="Module:Yesno">Module:Yesno</a> (<a href="/w/index.php?title=Module:Yesno&amp;action=edit" title="Module:Yesno">view source</a>) (protected)</li></ul></div><div class="hiddencats"><div class="mw-hiddenCategoriesExplanation"><p>This page is a member of 4 hidden categories<span class="posteditwindowhelplinks"> (<a href="/wiki/Help:Category#Hiding_categories" title="Help:Category">help</a>)</span> :
+</p></div><ul>
+<li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">Category:All articles with unsourced statements</a></li>
+<li><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2014" title="Category:Articles with unsourced statements from August 2014">Category:Articles with unsourced statements from August 2014</a></li>
+<li><a href="/wiki/Category:Wikipedia_articles_needing_clarification_from_March_2015" title="Category:Wikipedia articles needing clarification from March 2015">Category:Wikipedia articles needing clarification from March 2015</a></li>
+<li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Category:Wikipedia articles with GND identifiers</a></li>
+</ul></div><input id="mw-edit-mode" name="mode" type="hidden" value="text"/><input name="wpUltimateParam" type="hidden" value="1"/>
+</form>
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/wiki/Software_design_pattern">https://en.wikipedia.org/wiki/Software_design_pattern</a>"					</div>
+<div class="catlinks catlinks-allhidden" data-mw="interface" id="catlinks"></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Software+design+pattern&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Software+design+pattern&amp;returntoquery=action%3Dedit" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Software_design_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Software_design_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li id="ca-view"><span><a href="/wiki/Software_design_pattern">Read</a></span></li>
+<li class="selected" id="ca-edit"><span><a href="/w/index.php?title=Software_design_pattern&amp;action=edit" title="Edit this page">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Software_design_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Software_design_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Software_design_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-info"><a href="/w/index.php?title=Software_design_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q181156" title="Link to connected data repository item [g]">Wikidata item</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Software_design_pattern&amp;action=edit&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.wikiEditor.toolbar","ext.wikiEditor.dialogs","mediawiki.action.edit.editWarning","ext.math.editbutton.enabler","mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.using("mediawiki.toolbar", function () {mw.toolbar.addButton(false,"Bold text","'''","'''","Bold text","mw-editbutton-bold");mw.toolbar.addButton(false,"Italic text","''","''","Italic text","mw-editbutton-italic");mw.toolbar.addButton(false,"Internal link","[[","]]","Link title","mw-editbutton-link");mw.toolbar.addButton(false,"External link (remember http:// prefix)","[","]","http://www.example.com link title","mw-editbutton-extlink");mw.toolbar.addButton(false,"Level 2 headline","\n== "," ==\n","Headline text","mw-editbutton-headline");mw.toolbar.addButton(false,"Embedded file","[[File:","]]","Example.jpg","mw-editbutton-image");mw.toolbar.addButton(false,"File link","[[Media:","]]","Example.ogg","mw-editbutton-media");mw.toolbar.addButton(false,"Ignore wiki formatting","\u003Cnowiki\u003E","\u003C/nowiki\u003E","Insert non-formatted text here","mw-editbutton-nowiki");mw.toolbar.addButton(false,"Horizontal line (use sparingly)","\n----\n","","","mw-editbutton-hr");});});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": []
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":279,"wgHostname":"mw1212"});});</script>
+</body>
+</html>
+

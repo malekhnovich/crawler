@@ -1,0 +1,1038 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Lazy_initialization
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Lazy initialization - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lazy_initialization","wgTitle":"Lazy initialization","wgCurRevisionId":741316489,"wgRevisionId":741316489,"wgArticleId":93427,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software design patterns","Articles with example Java code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lazy_initialization","wgRelevantArticleId":93427,"wgRequestId":"V-BhcApAMEsAADyvWzEAAABT","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q2599269","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Lazy_initialization" rel="alternate"/>
+<link href="/w/index.php?title=Lazy_initialization&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Lazy_initialization&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Lazy_initialization" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Lazy_initialization rootpage-Lazy_initialization skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Lazy initialization</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Computer_programming" title="Computer programming">computer programming</a>, <b>lazy initialization</b> is the tactic of delaying the creation of an <a href="/wiki/Object_(computer_science)" title="Object (computer science)">object</a>, the calculation of a <a href="/wiki/Value_(computer_science)" title="Value (computer science)">value</a>, or some other expensive process until the first time it is needed.</p>
+<p>This is typically accomplished by augmenting a variable's accessor method (or property definition) to check for a previously-created instance. If none exists a new instance is created, placed into the variable, and this new object is returned to the caller in a just-in-time fashion. In this manner object creation is deferred until first use which can, in some circumstances (e.g., sporadic object access), increase system responsiveness and speed startup by bypassing large-scale object pre-allocation. (Note that this may have attendant counter-effects on overall performance, however, as the impact of object instantiation is then amortized across the startup/warm-up phase of the system.)</p>
+<p>In <a href="/wiki/Multithreading_(computer_architecture)" title="Multithreading (computer architecture)">multithreaded</a> code, access to lazy-initialized objects/state must be <a href="/wiki/Mutual_exclusion" title="Mutual exclusion">synchronized</a> to guard against a <a href="/wiki/Race_condition" title="Race condition">race condition</a>.</p>
+<p>See <a href="/wiki/Lazy_evaluation" title="Lazy evaluation">lazy evaluation</a> for a general treatment of this idea. In heavily <a href="/wiki/Imperative_programming" title="Imperative programming">imperative languages</a> this pattern carries hidden dangers, as does any programming habit that relies on shared state.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_.22lazy_factory.22"><span class="tocnumber">1</span> <span class="toctext">The "lazy factory"</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Examples"><span class="tocnumber">2</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Actionscript_3"><span class="tocnumber">2.1</span> <span class="toctext">Actionscript 3</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#C"><span class="tocnumber">2.2</span> <span class="toctext">C</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#C.23"><span class="tocnumber">2.3</span> <span class="toctext">C#</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#C.2B.2B"><span class="tocnumber">2.4</span> <span class="toctext">C++</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Java"><span class="tocnumber">2.5</span> <span class="toctext">Java</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#JavaScript"><span class="tocnumber">2.6</span> <span class="toctext">JavaScript</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#PHP"><span class="tocnumber">2.7</span> <span class="toctext">PHP</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Python"><span class="tocnumber">2.8</span> <span class="toctext">Python</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Ruby"><span class="tocnumber">2.9</span> <span class="toctext">Ruby</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Smalltalk"><span class="tocnumber">2.10</span> <span class="toctext">Smalltalk</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Scala"><span class="tocnumber">2.11</span> <span class="toctext">Scala</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="The_.22lazy_factory.22">The "lazy factory"</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=1" title='Edit section: The "lazy factory"'>edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In a <a href="/wiki/Software_design_pattern" title="Software design pattern">software design pattern</a> view, lazy initialization is often used together with a <a href="/wiki/Factory_method_pattern" title="Factory method pattern">factory method pattern</a>. This combines three ideas:</p>
+<ul>
+<li>Using a factory method to get instances of a class (<a href="/wiki/Factory_method_pattern" title="Factory method pattern">factory method pattern</a>)</li>
+<li>Store the instances in a <a href="/wiki/Associative_array" title="Associative array">map</a>, so you get the <i>same</i> instance the next time you ask for an instance with <i>same</i> parameter (<a href="/wiki/Multiton_pattern" title="Multiton pattern">multiton pattern</a>)</li>
+<li>Using lazy initialization to instantiate the object the first time it is requested (lazy initialization pattern)</li>
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=2" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Actionscript_3">Actionscript 3</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=3" title="Edit section: Actionscript 3">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The following is an example of a class with Lazy initialization implemented in <a class="mw-redirect" href="/wiki/Actionscript" title="Actionscript">Actionscript</a>:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">package</span> <span class="nx">examples</span><span class="p">.</span><span class="nx">lazyinstantiation</span>
+<span class="p">{</span>
+	<span class="kd">public</span> <span class="kd">class</span> <span class="nx">Fruit</span> 
+	<span class="p">{</span>
+		<span class="kd">private</span> <span class="k">var</span> <span class="nx">_typeName</span><span class="o">:</span><span class="nb">String</span><span class="o">;</span>
+		<span class="kd">private</span> <span class="kd">static</span> <span class="k">var</span> <span class="nx">instancesByTypeName</span><span class="o">:</span><span class="nb">Dictionary</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Dictionary</span><span class="p">();</span>
+	 
+		<span class="kd">public</span> <span class="kd">function</span> <span class="nx">Fruit</span><span class="p">(</span><span class="nx">typeName</span><span class="o">:</span><span class="nb">String</span><span class="p">)</span><span class="o">:</span><span class="nx">void</span>
+		<span class="p">{</span>
+			<span class="k">this</span><span class="p">.</span><span class="nx">_typeName</span> <span class="o">=</span> <span class="nx">typeName</span><span class="o">;</span>
+		<span class="p">}</span>
+		
+		<span class="kd">public</span> <span class="kd">function</span> <span class="kd">get</span> <span class="nx">typeName</span><span class="p">()</span><span class="o">:</span><span class="nb">String</span> 
+		<span class="p">{</span>
+			<span class="k">return</span> <span class="nx">_typeName</span><span class="o">;</span>
+		<span class="p">}</span>
+	 
+		<span class="kd">public</span> <span class="kd">static</span> <span class="kd">function</span> <span class="nx">getFruitByTypeName</span><span class="p">(</span><span class="nx">typeName</span><span class="o">:</span><span class="nb">String</span><span class="p">)</span><span class="o">:</span><span class="nx">Fruit</span>
+		<span class="p">{</span>
+			<span class="k">return</span> <span class="nx">instancesByTypeName</span><span class="p">[</span><span class="nx">typeName</span><span class="p">]</span> <span class="o">||=</span> <span class="k">new</span> <span class="nx">Fruit</span><span class="p">(</span><span class="nx">typeName</span><span class="p">);</span>
+		<span class="p">}</span>
+	 
+		<span class="kd">public</span> <span class="kd">static</span> <span class="kd">function</span> <span class="nx">printCurrentTypes</span><span class="p">()</span><span class="o">:</span><span class="nx">void</span>
+		<span class="p">{</span>
+			<span class="k">for</span> <span class="k">each</span> <span class="p">(</span><span class="k">var</span> <span class="nx">fruit</span><span class="o">:</span><span class="nx">Fruit</span> <span class="k">in</span> <span class="nx">instancesByTypeName</span><span class="p">)</span> 
+			<span class="p">{</span>
+				<span class="c1">// iterates through each value</span>
+				<span class="nf">trace</span><span class="p">(</span><span class="nx">fruit</span><span class="p">.</span><span class="nx">typeName</span><span class="p">);</span>
+			<span class="p">}</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>Basic Usage:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">package</span>
+<span class="p">{</span>
+	<span class="kd">import</span> <span class="nx">examples</span><span class="p">.</span><span class="nx">lazyinstantiation</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="kd">class</span> <span class="nx">Main</span> 
+	<span class="p">{</span>
+		<span class="kd">public</span> <span class="kd">function</span> <span class="nx">Main</span><span class="p">()</span><span class="o">:</span><span class="nx">void</span>
+		<span class="p">{</span>
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruitByTypeName</span><span class="p">(</span><span class="s2">"Banana"</span><span class="p">);</span>
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+	 
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruitByTypeName</span><span class="p">(</span><span class="s2">"Apple"</span><span class="p">);</span>
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+	 
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruitByTypeName</span><span class="p">(</span><span class="s2">"Banana"</span><span class="p">);</span>
+			<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="C">C</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=4" title="Edit section: C">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In C, lazy evaluation would normally be implemented inside a single function, or a single source file, using static variables.</p>
+<p>In a function:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stddef.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="k">struct</span> <span class="n">fruit</span> <span class="p">{</span>
+    <span class="kt">char</span> <span class="o">*</span><span class="n">name</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">next</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">number</span><span class="p">;</span>
+    <span class="cm">/* Other members */</span>
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="nf">get_fruit</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">static</span> <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">fruit_list</span><span class="p">;</span>
+    <span class="k">static</span> <span class="kt">int</span> <span class="n">seq</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">f</span> <span class="o">=</span> <span class="n">fruit_list</span><span class="p">;</span> <span class="n">f</span><span class="p">;</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">strcmp</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">f</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">f</span> <span class="o">=</span> <span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="n">fruit</span><span class="p">))))</span>
+        <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">f</span><span class="o">-&gt;</span><span class="n">name</span> <span class="o">=</span> <span class="n">strdup</span><span class="p">(</span><span class="n">name</span><span class="p">)))</span> <span class="p">{</span>
+        <span class="n">free</span><span class="p">(</span><span class="n">f</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">f</span><span class="o">-&gt;</span><span class="n">number</span> <span class="o">=</span> <span class="o">++</span><span class="n">seq</span><span class="p">;</span>
+    <span class="n">f</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">fruit_list</span><span class="p">;</span>
+    <span class="n">fruit_list</span> <span class="o">=</span> <span class="n">f</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">f</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/* Example code */</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">"Usage: fruits fruit-name [...]</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">argc</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">((</span><span class="n">f</span> <span class="o">=</span> <span class="n">get_fruit</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span> <span class="p">{</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">"Fruit %s: number %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">number</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p>Using a single source file instead allows the state to be shared between multiple functions, while still hiding it from non-related functions.</p>
+<p>fruit.h:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#ifndef _FRUIT_INCLUDED_</span>
+<span class="cp">#define _FRUIT_INCLUDED_</span>
+
+<span class="k">struct</span> <span class="n">fruit</span> <span class="p">{</span>
+    <span class="kt">char</span> <span class="o">*</span><span class="n">name</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">next</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">number</span><span class="p">;</span>
+    <span class="cm">/* Other members */</span>
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="nf">get_fruit</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">name</span><span class="p">);</span>
+<span class="kt">void</span> <span class="nf">print_fruit_list</span><span class="p">(</span><span class="kt">FILE</span> <span class="o">*</span><span class="n">file</span><span class="p">);</span>
+
+<span class="cp">#endif </span><span class="cm">/* _FRUIT_INCLUDED_ */</span>
+</pre></div>
+<p>fruit.c:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stddef.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">"fruit.h"</span>
+
+<span class="k">static</span> <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">fruit_list</span><span class="p">;</span>
+<span class="k">static</span> <span class="kt">int</span> <span class="n">seq</span><span class="p">;</span>
+
+<span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="nf">get_fruit</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">f</span> <span class="o">=</span> <span class="n">fruit_list</span><span class="p">;</span> <span class="n">f</span><span class="p">;</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="mi">0</span> <span class="o">==</span> <span class="n">strcmp</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">f</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">f</span> <span class="o">=</span> <span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="n">fruit</span><span class="p">))))</span>
+        <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">f</span><span class="o">-&gt;</span><span class="n">name</span> <span class="o">=</span> <span class="n">strdup</span><span class="p">(</span><span class="n">name</span><span class="p">)))</span> <span class="p">{</span>
+        <span class="n">free</span><span class="p">(</span><span class="n">f</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">f</span><span class="o">-&gt;</span><span class="n">number</span> <span class="o">=</span> <span class="o">++</span><span class="n">seq</span><span class="p">;</span>
+    <span class="n">f</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">fruit_list</span><span class="p">;</span>
+    <span class="n">fruit_list</span> <span class="o">=</span> <span class="n">f</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">f</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">print_fruit_list</span><span class="p">(</span><span class="kt">FILE</span> <span class="o">*</span><span class="n">file</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">f</span> <span class="o">=</span> <span class="n">fruit_list</span><span class="p">;</span> <span class="n">f</span><span class="p">;</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+        <span class="n">fprintf</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="s">"%4d  %s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">number</span><span class="p">,</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+<p>main.c:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span> <span class="cpf">"fruit.h"</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="k">struct</span> <span class="n">fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">"Usage: fruits fruit-name [...]</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">argc</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">((</span><span class="n">f</span> <span class="o">=</span> <span class="n">get_fruit</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span> <span class="p">{</span>
+            <span class="n">printf</span><span class="p">(</span><span class="s">"Fruit %s: number %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">f</span><span class="o">-&gt;</span><span class="n">number</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"The following fruits have been generated:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">print_fruit_list</span><span class="p">(</span><span class="n">stdout</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="C.23">C#</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=5" title="Edit section: C#">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In .NET 4.0 Microsoft has included a <code>Lazy</code> class that can be used to do lazy loading. Below is some dummy code that does lazy loading of Class <code>Fruit</code></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">Lazy</span><span class="p">&lt;</span><span class="n">Fruit</span><span class="p">&gt;</span> <span class="n">lazyFruit</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Lazy</span><span class="p">&lt;</span><span class="n">Fruit</span><span class="p">&gt;();</span>
+<span class="n">Fruit</span> <span class="n">fruit</span> <span class="p">=</span> <span class="n">lazyFruit</span><span class="p">.</span><span class="n">Value</span><span class="p">;</span>
+</pre></div>
+<p>Here is a dummy example in <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>.</p>
+<p>The <code>Fruit</code> class itself doesn't do anything here, The class variable <code>_typesDictionary</code> is a Dictionary/Map used to store <code>Fruit</code> instances by <code>typeName</code>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">Fruit</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="kt">string</span> <span class="n">_typeName</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">static</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">Fruit</span><span class="p">&gt;</span> <span class="n">_typesDictionary</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">Fruit</span><span class="p">&gt;();</span>
+
+    <span class="k">private</span> <span class="nf">Fruit</span><span class="p">(</span><span class="n">String</span> <span class="n">typeName</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="n">_typeName</span> <span class="p">=</span> <span class="n">typeName</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="n">Fruit</span> <span class="nf">GetFruitByTypeName</span><span class="p">(</span><span class="kt">string</span> <span class="n">type</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">Fruit</span> <span class="n">fruit</span><span class="p">;</span>
+
+        <span class="k">if</span> <span class="p">(!</span><span class="n">_typesDictionary</span><span class="p">.</span><span class="n">TryGetValue</span><span class="p">(</span><span class="n">type</span><span class="p">,</span> <span class="k">out</span> <span class="n">fruit</span><span class="p">))</span>
+        <span class="p">{</span>
+            <span class="c1">// Lazy initialization</span>
+            <span class="n">fruit</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Fruit</span><span class="p">(</span><span class="n">type</span><span class="p">);</span>
+
+            <span class="n">_typesDictionary</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">type</span><span class="p">,</span> <span class="n">fruit</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">fruit</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">ShowAll</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">_typesDictionary</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Number of instances made = {0}"</span><span class="p">,</span> <span class="n">_typesDictionary</span><span class="p">.</span><span class="n">Count</span><span class="p">);</span>
+            
+            <span class="k">foreach</span> <span class="p">(</span><span class="n">KeyValuePair</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">Fruit</span><span class="p">&gt;</span> <span class="n">kvp</span> <span class="k">in</span> <span class="n">_typesDictionary</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">kvp</span><span class="p">.</span><span class="n">Key</span><span class="p">);</span>
+            <span class="p">}</span>
+            
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">();</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="nf">Fruit</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="c1">// required so the sample compiles</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">Program</span>
+<span class="p">{</span>
+    <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">GetFruitByTypeName</span><span class="p">(</span><span class="s">"Banana"</span><span class="p">);</span>
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">ShowAll</span><span class="p">();</span>
+
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">GetFruitByTypeName</span><span class="p">(</span><span class="s">"Apple"</span><span class="p">);</span>
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">ShowAll</span><span class="p">();</span>
+
+        <span class="c1">// returns pre-existing instance from first </span>
+        <span class="c1">// time Fruit with "Banana" was created</span>
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">GetFruitByTypeName</span><span class="p">(</span><span class="s">"Banana"</span><span class="p">);</span>
+        <span class="n">Fruit</span><span class="p">.</span><span class="n">ShowAll</span><span class="p">();</span>
+
+        <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>A fairly straightforward 'fill-in-the-blanks' example of a Lazy Initialization design pattern, except that this uses an enumeration for the type</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">namespace</span> <span class="nn">DesignPatterns.LazyInitialization</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">class</span> <span class="nc">LazyFactoryObject</span>
+    <span class="p">{</span>
+        <span class="c1">//internal collection of items</span>
+        <span class="c1">//IDictionaery makes sure they are unique</span>
+        <span class="k">private</span> <span class="n">IDictionary</span><span class="p">&lt;</span><span class="n">LazyObjectType</span><span class="p">,</span> <span class="n">LazyObject</span><span class="p">&gt;</span> <span class="n">_LazyObjectList</span> <span class="p">=</span> 
+            <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="n">LazyObjectType</span><span class="p">,</span> <span class="n">LazyObject</span><span class="p">&gt;();</span>
+
+        <span class="c1">//enum for passing name of type required</span>
+        <span class="c1">//avoids passing strings and is part of type ahead</span>
+        <span class="k">public</span> <span class="k">enum</span> <span class="n">LazyObjectType</span>
+        <span class="p">{</span> 
+            <span class="n">None</span><span class="p">,</span>
+            <span class="n">Small</span><span class="p">,</span>
+            <span class="n">Big</span><span class="p">,</span>
+            <span class="n">Bigger</span><span class="p">,</span>
+            <span class="n">Huge</span>
+        <span class="p">}</span>
+
+        <span class="c1">//standard type of object that will be constructed</span>
+        <span class="k">public</span> <span class="k">struct</span> <span class="nc">LazyObject</span>
+        <span class="p">{</span>
+            <span class="k">public</span> <span class="n">LazyObjectType</span> <span class="n">Name</span><span class="p">;</span>
+            <span class="k">public</span> <span class="n">IList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">Result</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="c1">//takes type and create 'expensive' list</span>
+        <span class="k">private</span> <span class="n">IList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">Result</span><span class="p">(</span><span class="n">LazyObjectType</span> <span class="n">name</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">IList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">result</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+
+            <span class="k">switch</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+            <span class="p">{</span> 
+                <span class="k">case</span> <span class="n">LazyObjectType</span><span class="p">.</span><span class="n">Small</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="n">CreateSomeExpensiveList</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="n">LazyObjectType</span><span class="p">.</span><span class="n">Big</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="n">CreateSomeExpensiveList</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1000</span><span class="p">);</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="n">LazyObjectType</span><span class="p">.</span><span class="n">Bigger</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="n">CreateSomeExpensiveList</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">10000</span><span class="p">);</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="n">LazyObjectType</span><span class="p">.</span><span class="n">Huge</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="n">CreateSomeExpensiveList</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">100000</span><span class="p">);</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="n">LazyObjectType</span><span class="p">.</span><span class="n">None</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+                    <span class="k">break</span><span class="p">;</span>
+                <span class="k">default</span><span class="p">:</span>
+                    <span class="n">result</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+                    <span class="k">break</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="c1">//not an expensive item to create, but you get the point</span>
+        <span class="c1">//delays creation of some expensive object until needed</span>
+        <span class="k">private</span> <span class="n">IList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">CreateSomeExpensiveList</span><span class="p">(</span><span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">IList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">result</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+
+            <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">counter</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">counter</span> <span class="p">&lt;</span> <span class="p">(</span><span class="n">end</span> <span class="p">-</span> <span class="n">start</span><span class="p">);</span> <span class="n">counter</span><span class="p">++)</span>
+            <span class="p">{</span>
+                <span class="n">result</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">start</span> <span class="p">+</span> <span class="n">counter</span><span class="p">);</span>
+            <span class="p">}</span>
+
+            <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="nf">LazyFactoryObject</span><span class="p">()</span>
+        <span class="p">{</span> 
+            <span class="c1">//empty constructor</span>
+        <span class="p">}</span>
+
+        <span class="k">public</span> <span class="n">LazyObject</span> <span class="nf">GetLazyFactoryObject</span><span class="p">(</span><span class="n">LazyObjectType</span> <span class="n">name</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="c1">//yes, i know it is illiterate and inaccurate</span>
+            <span class="n">LazyObject</span> <span class="n">noGoodSomeOne</span><span class="p">;</span>
+
+            <span class="c1">//retrieves LazyObjectType from list via out, else creates one and adds it to list</span>
+            <span class="k">if</span> <span class="p">(!</span><span class="n">_LazyObjectList</span><span class="p">.</span><span class="n">TryGetValue</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="k">out</span> <span class="n">noGoodSomeOne</span><span class="p">))</span>
+            <span class="p">{</span>
+                <span class="n">noGoodSomeOne</span> <span class="p">=</span> <span class="k">new</span> <span class="n">LazyObject</span><span class="p">();</span>
+                <span class="n">noGoodSomeOne</span><span class="p">.</span><span class="n">Name</span> <span class="p">=</span> <span class="n">name</span><span class="p">;</span>
+                <span class="n">noGoodSomeOne</span><span class="p">.</span><span class="n">Result</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">Result</span><span class="p">(</span><span class="n">name</span><span class="p">);</span>
+
+                <span class="n">_LazyObjectList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">noGoodSomeOne</span><span class="p">);</span>
+            <span class="p">}</span>
+
+            <span class="k">return</span> <span class="n">noGoodSomeOne</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="C.2B.2B">C++</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=6" title="Edit section: C++">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/C%2B%2B" title="C++">C++</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span>
+<span class="cp">#include</span> <span class="cpf">&lt;map&gt;</span>
+ 
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+ 
+<span class="k">class</span> <span class="nc">Fruit</span> <span class="p">{</span>
+    <span class="k">public</span><span class="o">:</span>
+        <span class="k">static</span> <span class="n">Fruit</span><span class="o">*</span> <span class="n">getFruit</span><span class="p">(</span><span class="k">const</span> <span class="n">string</span><span class="o">&amp;</span> <span class="n">type</span><span class="p">);</span>
+        <span class="k">static</span> <span class="kt">void</span> <span class="nf">printCurrentTypes</span><span class="p">();</span>
+
+    <span class="k">private</span><span class="o">:</span>
+        <span class="k">static</span> <span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span><span class="n">Fruit</span><span class="o">*&gt;</span> <span class="n">types</span><span class="p">;</span>
+        <span class="n">string</span> <span class="n">type</span><span class="p">;</span>
+
+        <span class="c1">// note: constructor private forcing one to use static getFruit()</span>
+        <span class="n">Fruit</span><span class="p">(</span><span class="k">const</span> <span class="n">string</span><span class="o">&amp;</span> <span class="n">t</span><span class="p">)</span> <span class="o">:</span> <span class="n">type</span><span class="p">(</span> <span class="n">t</span> <span class="p">)</span> <span class="p">{}</span>
+<span class="p">};</span>
+
+<span class="c1">//definition needed for using any static member variable</span>
+<span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span><span class="n">Fruit</span><span class="o">*&gt;</span> <span class="n">Fruit</span><span class="o">::</span><span class="n">types</span><span class="p">;</span>        
+ 
+<span class="cm">/*</span>
+<span class="cm"> * Lazy Factory method, gets the Fruit instance associated with a</span>
+<span class="cm"> * certain type. Instantiates new ones as needed.</span>
+<span class="cm"> * precondition: type. Any string that describes a fruit type, e.g. "apple"</span>
+<span class="cm"> * postcondition: The Fruit instance associated with that type.</span>
+<span class="cm"> */</span>
+<span class="n">Fruit</span><span class="o">*</span> <span class="n">Fruit</span><span class="o">::</span><span class="n">getFruit</span><span class="p">(</span><span class="k">const</span> <span class="n">string</span><span class="o">&amp;</span> <span class="n">type</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span><span class="n">Fruit</span><span class="o">*&gt;::</span><span class="n">iterator</span> <span class="n">it</span> <span class="o">=</span> <span class="n">types</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">type</span><span class="p">);</span>  <span class="c1">// try to find an existing instance; if not found std::map will return types.end()</span>
+ 
+    <span class="n">Fruit</span> <span class="o">*</span><span class="n">f</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">it</span> <span class="o">==</span> <span class="n">types</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span> <span class="c1">// if no instance with the proper type was found, make one</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Fruit</span><span class="p">(</span><span class="n">type</span><span class="p">);</span> <span class="c1">// lazy initialization part</span>
+        <span class="n">types</span><span class="p">[</span><span class="n">type</span><span class="p">]</span> <span class="o">=</span> <span class="n">f</span><span class="p">;</span>     <span class="c1">// adding the newly created Fruit to the types map for later lookup</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="c1">//if already had an instance</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">;</span> <span class="c1">//The return value will be the found fruit</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">f</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/*</span>
+<span class="cm"> * For example purposes to see pattern in action</span>
+<span class="cm"> */</span>
+<span class="kt">void</span> <span class="n">Fruit</span><span class="o">::</span><span class="n">printCurrentTypes</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">types</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Number of instances made = "</span> <span class="o">&lt;&lt;</span> <span class="n">types</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span><span class="n">Fruit</span><span class="o">*&gt;::</span><span class="n">iterator</span> <span class="n">iter</span> <span class="o">=</span> <span class="n">types</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">iter</span> <span class="o">!=</span> <span class="n">types</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="o">++</span><span class="n">iter</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="o">*</span><span class="n">iter</span><span class="p">).</span><span class="n">first</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">getFruit</span><span class="p">(</span><span class="s">"Banana"</span><span class="p">);</span>
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">printCurrentTypes</span><span class="p">();</span>
+ 
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">getFruit</span><span class="p">(</span><span class="s">"Apple"</span><span class="p">);</span>
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">printCurrentTypes</span><span class="p">();</span>
+ 
+    <span class="c1">// returns pre-existing instance from first </span>
+    <span class="c1">// time Fruit with "Banana" was created</span>
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">getFruit</span><span class="p">(</span><span class="s">"Banana"</span><span class="p">);</span>
+    <span class="n">Fruit</span><span class="o">::</span><span class="n">printCurrentTypes</span><span class="p">();</span>
+ 
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cm">/*</span>
+<span class="cm">OUTPUT:</span>
+<span class="cm">Number of instances made = 1</span>
+<span class="cm">Banana</span>
+<span class="cm"> </span>
+<span class="cm">Number of instances made = 2</span>
+<span class="cm">Apple</span>
+<span class="cm">Banana</span>
+<span class="cm"> </span>
+<span class="cm">Number of instances made = 2</span>
+<span class="cm">Apple</span>
+<span class="cm">Banana</span>
+<span class="cm">*/</span>
+</pre></div>
+<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=7" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">java.util.HashMap</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Map</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.util.Map.Entry</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Program</span> <span class="o">{</span>
+
+    <span class="cm">/**</span>
+<span class="cm">     * @param args</span>
+<span class="cm">     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">getFruitByTypeName</span><span class="o">(</span><span class="n">FruitType</span><span class="o">.</span><span class="na">banana</span><span class="o">);</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">showAll</span><span class="o">();</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">getFruitByTypeName</span><span class="o">(</span><span class="n">FruitType</span><span class="o">.</span><span class="na">apple</span><span class="o">);</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">showAll</span><span class="o">();</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">getFruitByTypeName</span><span class="o">(</span><span class="n">FruitType</span><span class="o">.</span><span class="na">banana</span><span class="o">);</span>
+        <span class="n">Fruit</span><span class="o">.</span><span class="na">showAll</span><span class="o">();</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">enum</span> <span class="n">FruitType</span> <span class="o">{</span>
+    <span class="n">none</span><span class="o">,</span>
+    <span class="n">apple</span><span class="o">,</span>
+    <span class="n">banana</span><span class="o">,</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">Fruit</span> <span class="o">{</span>
+
+    <span class="kd">private</span> <span class="kd">static</span> <span class="n">Map</span><span class="o">&lt;</span><span class="n">FruitType</span><span class="o">,</span> <span class="n">Fruit</span><span class="o">&gt;</span> <span class="n">types</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
+    
+    <span class="cm">/**</span>
+<span class="cm">     * Using a private constructor to force the use of the factory method.</span>
+<span class="cm">     * @param type</span>
+<span class="cm">     */</span>
+    <span class="kd">private</span> <span class="nf">Fruit</span><span class="o">(</span><span class="n">FruitType</span> <span class="n">type</span><span class="o">)</span> <span class="o">{</span>
+    <span class="o">}</span>
+    
+    <span class="cm">/**</span>
+<span class="cm">     * Lazy Factory method, gets the Fruit instance associated with a certain</span>
+<span class="cm">     * type. Instantiates new ones as needed.</span>
+<span class="cm">     * @param type Any allowed fruit type, e.g. APPLE</span>
+<span class="cm">     * @return The Fruit instance associated with that type.</span>
+<span class="cm">     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="n">Fruit</span> <span class="nf">getFruitByTypeName</span><span class="o">(</span><span class="n">FruitType</span> <span class="n">type</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">Fruit</span> <span class="n">fruit</span><span class="o">;</span>
+                <span class="c1">// This has concurrency issues.  Here the read to types is not synchronized, </span>
+                <span class="c1">// so types.put and types.containsKey might be called at the same time.</span>
+                <span class="c1">// Don't be surprised if the data is corrupted.</span>
+        <span class="k">if</span> <span class="o">(!</span><span class="n">types</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">type</span><span class="o">))</span> <span class="o">{</span>
+            <span class="c1">// Lazy initialisation</span>
+            <span class="n">fruit</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Fruit</span><span class="o">(</span><span class="n">type</span><span class="o">);</span>
+            <span class="n">types</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">type</span><span class="o">,</span> <span class="n">fruit</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="c1">// OK, it's available currently</span>
+            <span class="n">fruit</span> <span class="o">=</span> <span class="n">types</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">type</span><span class="o">);</span>
+        <span class="o">}</span>
+        
+        <span class="k">return</span> <span class="n">fruit</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="cm">/**</span>
+<span class="cm">     * Lazy Factory method, gets the Fruit instance associated with a certain</span>
+<span class="cm">     * type. Instantiates new ones as needed. Uses double-checked locking </span>
+<span class="cm">     * pattern for using in highly concurrent environments.</span>
+<span class="cm">     * @param type Any allowed fruit type, e.g. APPLE</span>
+<span class="cm">     * @return The Fruit instance associated with that type.</span>
+<span class="cm">     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="n">Fruit</span> <span class="nf">getFruitByTypeNameHighConcurrentVersion</span><span class="o">(</span><span class="n">FruitType</span> <span class="n">type</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(!</span><span class="n">types</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">type</span><span class="o">))</span> <span class="o">{</span>
+            <span class="kd">synchronized</span> <span class="o">(</span><span class="n">types</span><span class="o">)</span> <span class="o">{</span>
+                <span class="c1">// Check again, after having acquired the lock to make sure</span>
+                <span class="c1">// the instance was not created meanwhile by another thread</span>
+                <span class="k">if</span> <span class="o">(!</span><span class="n">types</span><span class="o">.</span><span class="na">containsKey</span><span class="o">(</span><span class="n">type</span><span class="o">))</span> <span class="o">{</span>
+                    <span class="c1">// Lazy initialisation</span>
+                    <span class="n">types</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">type</span><span class="o">,</span> <span class="k">new</span> <span class="n">Fruit</span><span class="o">(</span><span class="n">type</span><span class="o">));</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        
+        <span class="k">return</span> <span class="n">types</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">type</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="cm">/**</span>
+<span class="cm">     * Displays all entered fruits.</span>
+<span class="cm">     */</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">showAll</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">types</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+ 
+           <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Number of instances made = "</span> <span class="o">+</span> <span class="n">types</span><span class="o">.</span><span class="na">size</span><span class="o">());</span>
+            
+            <span class="k">for</span> <span class="o">(</span><span class="n">Entry</span><span class="o">&lt;</span><span class="n">FruitType</span><span class="o">,</span> <span class="n">Fruit</span><span class="o">&gt;</span> <span class="n">entry</span> <span class="o">:</span> <span class="n">types</span><span class="o">.</span><span class="na">entrySet</span><span class="o">())</span> <span class="o">{</span>
+                <span class="n">String</span> <span class="n">fruit</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="na">getKey</span><span class="o">().</span><span class="na">toString</span><span class="o">();</span>
+                <span class="n">fruit</span> <span class="o">=</span> <span class="n">Character</span><span class="o">.</span><span class="na">toUpperCase</span><span class="o">(</span><span class="n">fruit</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="mi">0</span><span class="o">))</span> <span class="o">+</span> <span class="n">fruit</span><span class="o">.</span><span class="na">substring</span><span class="o">(</span><span class="mi">1</span><span class="o">);</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fruit</span><span class="o">);</span>
+            <span class="o">}</span>
+            
+            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p><b>Output</b><br/></p>
+<pre>
+Number of instances made = 1
+Banana
+
+Number of instances made = 2
+Banana
+Apple
+
+Number of instances made = 2
+Banana
+Apple
+</pre>
+<h3><span class="mw-headline" id="JavaScript">JavaScript</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=8" title="Edit section: JavaScript">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">var</span> <span class="nx">Fruit</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">types</span> <span class="o">=</span> <span class="p">{};</span>
+  <span class="kd">function</span> <span class="nx">Fruit</span><span class="p">()</span> <span class="p">{};</span>
+
+  <span class="c1">// count own properties in object</span>
+  <span class="kd">function</span> <span class="nx">count</span><span class="p">(</span><span class="nx">obj</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">keys</span><span class="p">(</span><span class="nx">obj</span><span class="p">).</span><span class="nx">length</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">_static</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">getFruit</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">types</span><span class="p">[</span><span class="nx">type</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'undefined'</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">types</span><span class="p">[</span><span class="nx">type</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Fruit</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="k">return</span> <span class="nx">types</span><span class="p">[</span><span class="nx">type</span><span class="p">];</span>
+    <span class="p">},</span>
+    <span class="nx">printCurrentTypes</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Number of instances made: '</span> <span class="o">+</span> <span class="nx">count</span><span class="p">(</span><span class="nx">types</span><span class="p">));</span>
+      <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">type</span> <span class="k">in</span> <span class="nx">types</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">type</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+
+  <span class="k">return</span> <span class="nx">_static</span><span class="p">;</span>
+
+<span class="p">})();</span>
+
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruit</span><span class="p">(</span><span class="s1">'Apple'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruit</span><span class="p">(</span><span class="s1">'Banana'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">getFruit</span><span class="p">(</span><span class="s1">'Apple'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="p">.</span><span class="nx">printCurrentTypes</span><span class="p">();</span>
+</pre></div>
+<p><b>Output</b><br/></p>
+<pre>
+Number of instances made: 1
+Apple
+
+Number of instances made: 2
+Apple
+Banana
+
+Number of instances made: 2
+Apple
+Banana
+</pre>
+<h3><span class="mw-headline" id="PHP">PHP</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=9" title="Edit section: PHP">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example of lazy initialization in <a href="/wiki/PHP" title="PHP">PHP</a> 5:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">&lt;?php</span>
+<span class="nb">header</span><span class="p">(</span><span class="s1">'Content-type:text/plain; charset=utf-8'</span><span class="p">);</span>
+
+<span class="k">class</span> <span class="nc">Fruit</span> <span class="p">{</span>
+    <span class="k">private</span> <span class="nv">$type</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">static</span> <span class="nv">$types</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+
+    <span class="k">private</span> <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$type</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">type</span> <span class="o">=</span> <span class="nv">$type</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="k">function</span> <span class="nf">getFruit</span><span class="p">(</span><span class="nv">$type</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Lazy initialization takes place here</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">isset</span><span class="p">(</span><span class="nx">self</span><span class="o">::</span><span class="nv">$types</span><span class="p">[</span><span class="nv">$type</span><span class="p">]))</span> <span class="p">{</span>
+            <span class="nx">self</span><span class="o">::</span><span class="nv">$types</span><span class="p">[</span><span class="nv">$type</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Fruit</span><span class="p">(</span><span class="nv">$type</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="k">return</span> <span class="nx">self</span><span class="o">::</span><span class="nv">$types</span><span class="p">[</span><span class="nv">$type</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="k">function</span> <span class="nf">printCurrentTypes</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">echo</span> <span class="s1">'Number of instances made: '</span> <span class="o">.</span> <span class="nb">count</span><span class="p">(</span><span class="nx">self</span><span class="o">::</span><span class="nv">$types</span><span class="p">)</span> <span class="o">.</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+        <span class="k">foreach</span> <span class="p">(</span><span class="nb">array_keys</span><span class="p">(</span><span class="nx">self</span><span class="o">::</span><span class="nv">$types</span><span class="p">)</span> <span class="k">as</span> <span class="nv">$key</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">echo</span> <span class="s2">"</span><span class="si">$key\n</span><span class="s2">"</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">echo</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">getFruit</span><span class="p">(</span><span class="s1">'Apple'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">printCurrentTypes</span><span class="p">();</span>
+
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">getFruit</span><span class="p">(</span><span class="s1">'Banana'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">printCurrentTypes</span><span class="p">();</span>
+
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">getFruit</span><span class="p">(</span><span class="s1">'Apple'</span><span class="p">);</span>
+<span class="nx">Fruit</span><span class="o">::</span><span class="na">printCurrentTypes</span><span class="p">();</span>
+
+<span class="cm">/*</span>
+<span class="cm">OUTPUT:</span>
+
+<span class="cm">Number of instances made: 1</span>
+<span class="cm">Apple</span>
+
+<span class="cm">Number of instances made: 2</span>
+<span class="cm">Apple</span>
+<span class="cm">Banana</span>
+
+<span class="cm">Number of instances made: 2</span>
+<span class="cm">Apple</span>
+<span class="cm">Banana</span>
+<span class="cm">*/</span>
+
+<span class="cp">?&gt;</span>
+</pre></div>
+<h3><span class="mw-headline" id="Python">Python</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=10" title="Edit section: Python">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">Fruit</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sort</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sort</span> <span class="o">=</span> <span class="n">sort</span>
+    
+<span class="k">class</span> <span class="nc">Fruits</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sorts</span> <span class="o">=</span> <span class="p">{}</span>
+    
+    <span class="k">def</span> <span class="nf">get_fruit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sort</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">sort</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">sorts</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">sorts</span><span class="p">[</span><span class="n">sort</span><span class="p">]</span> <span class="o">=</span> <span class="n">Fruit</span><span class="p">(</span><span class="n">sort</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">sorts</span><span class="p">[</span><span class="n">sort</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span>
+    <span class="n">fruits</span> <span class="o">=</span> <span class="n">Fruits</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">fruits</span><span class="o">.</span><span class="n">get_fruit</span><span class="p">(</span><span class="s1">'Apple'</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">fruits</span><span class="o">.</span><span class="n">get_fruit</span><span class="p">(</span><span class="s1">'Lime'</span><span class="p">))</span>
+</pre></div>
+<h3><span class="mw-headline" id="Ruby">Ruby</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=11" title="Edit section: Ruby">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a>, of lazily initializing an authentication token from a remote service like Google. The way that @auth_token is cached is also an example of <a href="/wiki/Memoization" title="Memoization">memoization</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="nb">require</span> <span class="s1">'net/http'</span>
+<span class="k">class</span> <span class="nc">Blogger</span>
+  <span class="k">def</span> <span class="nf">auth_token</span>
+    <span class="vi">@auth_token</span> <span class="o">||=</span>
+      <span class="p">(</span><span class="n">res</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">post_form</span><span class="p">(</span><span class="n">uri</span><span class="p">,</span> <span class="n">params</span><span class="p">))</span> <span class="o">&amp;&amp;</span>
+      <span class="n">get_token_from_http_response</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+  <span class="k">end</span>
+
+  <span class="c1"># get_token_from_http_response, uri and params are defined later in the class</span>
+<span class="k">end</span>
+
+<span class="n">b</span> <span class="o">=</span> <span class="no">Blogger</span><span class="o">.</span><span class="n">new</span>
+<span class="n">b</span><span class="o">.</span><span class="n">instance_variable_get</span><span class="p">(</span><span class="ss">:@auth_token</span><span class="p">)</span> <span class="c1"># returns nil</span>
+<span class="n">b</span><span class="o">.</span><span class="n">auth_token</span> <span class="c1"># returns token</span>
+<span class="n">b</span><span class="o">.</span><span class="n">instance_variable_get</span><span class="p">(</span><span class="ss">:@auth_token</span><span class="p">)</span> <span class="c1"># returns token</span>
+</pre></div>
+<h3><span class="mw-headline" id="Smalltalk">Smalltalk</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=12" title="Edit section: Smalltalk">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Here is an example in <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a>, of a typical <a class="mw-redirect" href="/wiki/Accessor_method" title="Accessor method">accessor method</a> to return the value of a variable using lazy initialization.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+    <span class="nv">height</span>
+        <span class="err">^</span><span class="nf">height</span> <span class="nf">ifNil:</span> [<span class="nv">height</span> <span class="o">:=</span> <span class="m">2.0</span>]<span class="p">.</span>
+</pre></div>
+<p>The 'non-lazy' alternative is to use an initialization method that is run when the object is created and then use a simpler accessor method to fetch the value.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+    <span class="nv">initialize</span>
+        <span class="nf">height</span> <span class="o">:=</span> <span class="m">2.0</span>
+
+    <span class="nf">height</span>
+        <span class="err">^</span><span class="nf">height</span>
+</pre></div>
+<p>Note that lazy initialization can also be used in non-<a class="mw-redirect" href="/wiki/Object-oriented_language" title="Object-oriented language">object-oriented languages</a>.</p>
+<h3><span class="mw-headline" id="Scala">Scala</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=13" title="Edit section: Scala">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a> has built-in support for lazy variable initiation.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="hll"> <span class="n">scala</span><span class="o">&gt;</span> <span class="k">val</span> <span class="n">x</span> <span class="k">=</span> <span class="o">{</span> <span class="n">println</span><span class="o">(</span><span class="s">"Hello"</span><span class="o">);</span> <span class="mi">99</span> <span class="o">}</span>
+</span> <span class="nc">Hello</span>
+ <span class="n">x</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">99</span>
+<span class="hll"> <span class="n">scala</span><span class="o">&gt;</span> <span class="k">lazy</span> <span class="k">val</span> <span class="n">y</span> <span class="k">=</span> <span class="o">{</span> <span class="n">println</span><span class="o">(</span><span class="s">"Hello!!"</span><span class="o">);</span> <span class="mi">31</span> <span class="o">}</span>
+</span> <span class="n">y</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="o">&lt;</span><span class="k">lazy</span><span class="o">&gt;</span>
+<span class="hll"> <span class="n">scala</span><span class="o">&gt;</span> <span class="n">y</span>
+</span> <span class="nc">Hello</span><span class="o">!!</span>
+ <span class="n">res2</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">31</span>
+<span class="hll"> <span class="n">scala</span><span class="o">&gt;</span> <span class="n">y</span>
+</span> <span class="n">res3</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">31</span>
+</pre></div>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=14" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy pattern</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton pattern</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=15" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external free" href="http://books.google.com/books?id=Qt-bRFetWw0C&amp;lpg=PA30&amp;ots=hW9ax5LeHb&amp;dq=scala%20lazy%20variables&amp;pg=PA30#v=onepage&amp;q=scala%20lazy%20variables&amp;f=false" rel="nofollow">http://books.google.com/books?id=Qt-bRFetWw0C&amp;lpg=PA30&amp;ots=hW9ax5LeHb&amp;dq=scala%20lazy%20variables&amp;pg=PA30#v=onepage&amp;q=scala%20lazy%20variables&amp;f=false</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Lazy_initialization&amp;action=edit&amp;section=16" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Article "<a class="external text" href="http://www.javaworld.com/javaworld/javatips/jw-javatip67.html" rel="nofollow">Java Tip 67: Lazy instantiation</a> - Balancing performance and resource usage" by <a class="new" href="/w/index.php?title=Philip_Bishop&amp;action=edit&amp;redlink=1" title="Philip Bishop (page does not exist)">Philip Bishop</a> and <a class="new" href="/w/index.php?title=Nigel_Warren&amp;action=edit&amp;redlink=1" title="Nigel Warren (page does not exist)">Nigel Warren</a></li>
+<li><a class="external text" href="http://javapractices.com/Topic34.cjp" rel="nofollow">Java code examples</a></li>
+<li><a class="external text" href="http://devx.com/tips/Tip/18007" rel="nofollow">Use Lazy Initialization to Conserve Resources</a></li>
+<li><a class="external text" href="http://c2.com/cgi/wiki?LazyInitialization" rel="nofollow">Description from the Portland Pattern Repository</a></li>
+<li><a class="external text" href="http://weblogs.java.net/blog/binod/archive/2005/09/lazy_initializa.html" rel="nofollow">Lazy Initialization of Application Server Services</a></li>
+<li><a class="external text" href="http://sourceforge.net/projects/jsiner" rel="nofollow">Lazy Inheritance in JavaScript</a></li>
+<li><a class="external text" href="http://labs.kaliko.com/2011/04/lazy-loading-in-c-net.html" rel="nofollow">Lazy Inheritance in C#</a></li>
+</ul>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:93427-0!*!0!!en!*!* and timestamp 20160926184519 and revision id 741316489
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Lazy_initialization&amp;oldid=741316489">https://en.wikipedia.org/w/index.php?title=Lazy_initialization&amp;oldid=741316489</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Lazy+initialization" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Lazy+initialization" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Lazy_initialization" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Lazy_initialization" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Lazy_initialization">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Lazy_initialization&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Lazy_initialization&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Lazy_initialization" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Lazy_initialization" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Lazy_initialization&amp;oldid=741316489" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Lazy_initialization&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q2599269" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Lazy_initialization&amp;id=741316489" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Lazy+initialization">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Lazy+initialization&amp;returnto=Lazy+initialization&amp;oldid=741316489&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Lazy_initialization&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D1%8A%D1%81%D0%BD%D0%B0_%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD)" hreflang="bg" lang="bg" title="Късна инициализация (шаблон) – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Lazy_initialization" hreflang="cs" lang="cs" title="Lazy initialization – Czech">Čeština</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D9%82%D8%AF%D8%A7%D8%B1%D8%AF%D9%87%DB%8C_%D8%A7%D9%88%D9%84%DB%8C%D9%87_%DA%A9%D8%A7%D9%87%D9%84%D8%A7%D9%86%D9%87" hreflang="fa" lang="fa" title="مقداردهی اولیه کاهلانه – Persian">فارسی</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Lazy_initialization" hreflang="it" lang="it" title="Lazy initialization – Italian">Italiano</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Lusta_inicializ%C3%A1ci%C3%B3_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Lusta inicializáció programtervezési minta – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Leniwe_inicjowanie_(wzorzec_projektowy)" hreflang="pl" lang="pl" title="Leniwe inicjowanie (wzorzec projektowy) – Polish">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Отложенная инициализация – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D0%B8%D0%B2%D0%B0_%D1%96%D0%BD%D1%96%D1%86%D1%96%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F" hreflang="uk" lang="uk" title="Лінива ініціалізація – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%83%B0%E6%80%A7%E5%88%9D%E5%A7%8B%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="惰性初始模式 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q2599269#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 September 2016, at 18:45.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Lazy_initialization&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.053",
+            "walltime": "0.156",
+            "ppvisitednodes": {
+                "value": 223,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 147,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 0,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 4,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%    3.968      1 Template:Reflist",
+                "100.00%    3.968      1 -total"
+            ]
+        },
+        "cachereport": {
+            "origin": "mw1226",
+            "timestamp": "20160926184458",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1240"});});</script>
+</body>
+</html>
+

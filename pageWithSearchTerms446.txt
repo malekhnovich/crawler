@@ -1,0 +1,526 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Architecture_description_language
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Architecture description language - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Architecture_description_language","wgTitle":"Architecture description language","wgCurRevisionId":734621119,"wgRevisionId":734621119,"wgArticleId":1799268,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from March 2012","Computer languages","Systems architecture","Software architecture","Architecture description language","Programming language classification"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Architecture_description_language","wgRelevantArticleId":1799268,"wgRequestId":"V-EVFApAMEwAAK1LJPAAAAAN","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q362356","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Architecture_description_language" rel="alternate"/>
+<link href="/w/index.php?title=Architecture_description_language&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Architecture_description_language&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Architecture_description_language" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Architecture_description_language rootpage-Architecture_description_language skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Architecture description language</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p><b>Architecture description languages</b> (<b>ADLs</b>) are used in several disciplines: <a class="mw-redirect" href="/wiki/System_engineering" title="System engineering">system engineering</a>, <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, and <a href="/wiki/Enterprise_modelling" title="Enterprise modelling">enterprise modelling</a> and engineering.</p>
+<p>The system engineering community uses an architecture description language as a language and/or a <a href="/wiki/Conceptual_model" title="Conceptual model">conceptual model</a> to describe and represent <a class="mw-redirect" href="/wiki/System_architecture" title="System architecture">system architectures</a>.</p>
+<p>The software engineering community uses an architecture description language as a <a href="/wiki/Computer_language" title="Computer language">computer language</a> to create a <a href="/wiki/Software_architecture_description" title="Software architecture description">description</a> of a <a href="/wiki/Software_architecture" title="Software architecture">software architecture</a>. In the case of a so-called <a class="mw-redirect" href="/wiki/Technical_architecture" title="Technical architecture">technical architecture</a>, the architecture must be communicated to software developers; a <a class="new" href="/w/index.php?title=Functional_architecture_(computer_science)&amp;action=edit&amp;redlink=1" title="Functional architecture (computer science) (page does not exist)">functional architecture</a> is communicated to various stakeholders and users. Some ADLs that have been developed are: <a class="new" href="/w/index.php?title=Acme_(ADL)&amp;action=edit&amp;redlink=1" title="Acme (ADL) (page does not exist)">Acme</a> (developed by <a href="/wiki/Carnegie_Mellon_University" title="Carnegie Mellon University">CMU</a>), <a class="mw-redirect" href="/wiki/Architecture_Analysis_and_Design_Language" title="Architecture Analysis and Design Language">AADL</a> (standardized by the <a class="mw-redirect" href="/wiki/Society_of_Automotive_Engineers" title="Society of Automotive Engineers">SAE</a>), <a class="new" href="/w/index.php?title=C2_(ADL)&amp;action=edit&amp;redlink=1" title="C2 (ADL) (page does not exist)">C2</a> (developed by <a href="/wiki/University_of_California,_Irvine" title="University of California, Irvine">UCI</a>), SBC-ADL (developed by <a class="mw-redirect" href="/wiki/National_Sun_Yat-Sen_University" title="National Sun Yat-Sen University">National Sun Yat-Sen University</a>), <a href="/wiki/Darwin_(ADL)" title="Darwin (ADL)">Darwin</a> (developed by <a href="/wiki/Imperial_College_London" title="Imperial College London">Imperial College London</a>), and <a href="/wiki/Wright_(ADL)" title="Wright (ADL)">Wright</a> (developed by CMU).</p>
+<p>The up-to-date list of currently existing architectural languages might be found at <a class="external text" href="http://www.di.univaq.it/malavolta/al/" rel="nofollow">Up-to-date list of ADLs</a>.</p>
+<p>The <a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">ISO/IEC/IEEE 42010</a><sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> document, <i>Systems and software engineering—Architecture description</i>, defines an architecture description language as "any form of expression for use in architecture descriptions" and specifies <a href="/wiki/ISO/IEC_42010#Architecture_Description_Language" title="ISO/IEC 42010">minimum requirements on ADLs</a>.</p>
+<p>The enterprise modelling and engineering community have also developed architecture description languages catered for at the enterprise level. Examples include <a href="/wiki/ArchiMate" title="ArchiMate">ArchiMate</a> (now a standard of <a href="/wiki/The_Open_Group" title="The Open Group">The Open Group</a>), <a href="/wiki/Jan_Dietz#DEMO" title="Jan Dietz">DEMO</a>, <a href="/wiki/Avolution" title="Avolution">ABACUS</a> (developed by the <a class="mw-redirect" href="/wiki/University_of_Technology,_Sydney" title="University of Technology, Sydney">University of Technology, Sydney</a>). These languages do not necessarily refer to software components, etc. Most of them, however, refer to an application architecture as the architecture that is communicated to the software engineers.</p>
+<p>Most of the writing below refers primarily to the perspective from the software engineering community.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Characteristics"><span class="tocnumber">3</span> <span class="toctext">Characteristics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Positive_elements_of_ADL"><span class="tocnumber">3.1</span> <span class="toctext">Positive elements of ADL</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Negative_elements_of_ADL"><span class="tocnumber">3.2</span> <span class="toctext">Negative elements of ADL</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Common_concepts_of_architecture"><span class="tocnumber">4</span> <span class="toctext">Common concepts of architecture</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Object_Connection_Architecture"><span class="tocnumber">4.1</span> <span class="toctext">Object Connection Architecture</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Interface_Connection_Architecture"><span class="tocnumber">4.2</span> <span class="toctext">Interface Connection Architecture</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Architecture_vs._Design"><span class="tocnumber">5</span> <span class="toctext">Architecture vs. Design</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Examples"><span class="tocnumber">6</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Approaches_to_architecture"><span class="tocnumber">7</span> <span class="toctext">Approaches to architecture</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Introduction">Introduction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=1" title="Edit section: Introduction">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A standard notation (ADL) for representing architectures helps promote mutual communication, the embodiment of early design decisions, and the creation of a transferable abstraction of a system. Architectures in the past were largely represented by box-and-line drawing annotated with such things as the nature of the component, properties, semantics of connections, and overall system behavior. ADLs result from a linguistic approach to the formal representation of architectures, and as such they address its shortcomings. Also important, sophisticated ADLs allow for early analysis and feasibility testing of architectural design decisions.</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>ADLs have been classified into three broad categories: box-and-line informal drawings, formal architecture description language, and UML-based notations. Box-and-line have been for a long time the most predominant means for describing SAs. While providing useful documentation, the level of informality limited the usefulness of the architecture description. A more rigorous way for describing SAs was required. Quoting Allen and Garlan (1997),<sup class="reference" id="cite_ref-Allen1997_2-0"><a href="#cite_note-Allen1997-2">[2]</a></sup> "while these [box-and-line] descriptions may provide useful documentation, the current level of informality limits their usefulness. Since it is generally imprecise what is meant by such architectural descriptions, it may be impossible to analyze an architecture for consistency or determine non-trivial properties of it. Moreover, there is no way to check that a system implementation is faithful to its architectural design." A similar conclusion is drawn in Perry and Wolf (1992),<sup class="reference" id="cite_ref-PERRY1992_3-0"><a href="#cite_note-PERRY1992-3">[3]</a></sup> which reports that: "Aside from providing clear and precise documentation, the primary purpose of specifications is to provide automated analysis of the documents and to expose various kinds of problems that would otherwise go undetected."</p>
+<p>Since then, a thread of research on formal languages for SA description has been carried out. Tens of formal ADLs have been proposed, each characterized by different conceptual architectural elements, different syntax or semantics, focusing on a specific operational domain, or only suitable for different analysis techniques. For example, domain-specific ADLs have been presented to deal with embedded and real-time systems (such as AADL,<sup class="reference" id="cite_ref-AADL_4-0"><a href="#cite_note-AADL-4">[4]</a></sup> EAST-ADL,<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> and EADL<sup class="reference" id="cite_ref-EADL_6-0"><a href="#cite_note-EADL-6">[6]</a></sup>), control-loop applications (DiaSpec<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup>), product line architectures (Koala<sup class="reference" id="cite_ref-KOALA_8-0"><a href="#cite_note-KOALA-8">[8]</a></sup>), and dynamic systems (Π-ADL<sup class="reference" id="cite_ref-Oquendo2004_9-0"><a href="#cite_note-Oquendo2004-9">[9]</a></sup>)). Analysis-specific ADLs have been proposed to deal with availability, reliability, security, resource consumption, data quality and real-time performance analysis (AADL, behavioral analysis (Fractal<sup class="reference" id="cite_ref-FRACTAL_10-0"><a href="#cite_note-FRACTAL-10">[10]</a></sup>)), and trustworthiness analysis (TADL<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup>).</p>
+<p>However, these efforts have not seen the desired adoption by industrial practice. Some reasons for this lack of industry adoption have been analyzed by Woods and Hilliard,<sup class="reference" id="cite_ref-Woods2005_12-0"><a href="#cite_note-Woods2005-12">[12]</a></sup> Pandey,<sup class="reference" id="cite_ref-Pandey2010_13-0"><a href="#cite_note-Pandey2010-13">[13]</a></sup> Clements,<sup class="reference" id="cite_ref-ClementsSurvey_14-0"><a href="#cite_note-ClementsSurvey-14">[14]</a></sup> and others: formal ADLs have been rarely integrated in the software life-cycle, they are seldom supported by mature tools, scarcely documented, focusing on very specific needs, and leaving no space for extensions enabling the addition of new features.</p>
+<p>As a way to overcome some of those limitations, UML has been indicated as a possible successor of existing ADLs. Many proposals have been presented to use or extend the UML to more properly model software architectures.<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup><sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<p>In fact, as highlighted in a recent study conducted with practitioners,<sup class="reference" id="cite_ref-IndustrySurvey_17-0"><a href="#cite_note-IndustrySurvey-17">[17]</a></sup> whilst practitioners are generally satisfied with the design capabilities provided by the languages they use, they are dissatisfied with the architectural language analysis features and their abilities to define extra-functional properties; architectural languages used in practice mostly originate from industrial development instead of from academic research; more formality and better usability are required of an architectural language.</p>
+<h2><span class="mw-headline" id="Characteristics">Characteristics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=3" title="Edit section: Characteristics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There is a large variety in ADLs developed by either academic or industrial groups. Many languages were not intended to be an ADL, but they turn out to be suitable for representing and analyzing an architecture. In principle ADLs differ from requirements languages, because ADLs are rooted in the <a class="mw-redirect" href="/wiki/Solution_space" title="Solution space">solution space</a>, whereas requirements describe problem spaces. They differ from programming languages, because ADLs do not bind architectural abstractions to specific point solutions. Modeling languages represent behaviors, where ADLs focus on representation of components. However, there are domain specific modeling languages (DSMLs) that focus on representation of components.</p>
+<p><b>Minimal requirements</b></p>
+<p><i>The language must:</i></p>
+<ul>
+<li>Be suitable for communicating an architecture to all interested parties</li>
+<li>Support the tasks of architecture creation, refinement and validation</li>
+<li>Provide a basis for further implementation, so it must be able to add information to the ADL specification to enable the final system specification to be derived from the ADL</li>
+<li>Provide the ability to represent most of the common architectural styles</li>
+<li>Support analytical capabilities or provide quick generating prototype implementations</li>
+</ul>
+<p><b>ADLs have in common:</b></p>
+<ul>
+<li>Graphical syntax with often a textual form and a formally defined syntax and semantics</li>
+<li>Features for modeling distributed systems</li>
+<li>Little support for capturing design information, except through general purpose annotation mechanisms</li>
+<li>Ability to represent hierarchical levels of detail including the creation of substructures by instantiating templates</li>
+</ul>
+<p><b>ADLs differ in their ability to:</b></p>
+<ul>
+<li>Handle real-time constructs, such as deadlines and task priorities, at the architectural level</li>
+<li>Support the specification of different architectural styles. Few handle object oriented class inheritance or dynamic architectures</li>
+<li>Support the analysis of the architecture</li>
+<li>Handle different instantiations of the same architecture, in relation to product line architectures</li>
+</ul>
+<h3><span class="mw-headline" id="Positive_elements_of_ADL">Positive elements of ADL</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=4" title="Edit section: Positive elements of ADL">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>ADLs are a formal way of representing architecture</li>
+<li>ADLs are intended to be both human and machine readable</li>
+<li>ADLs support describing a system at a higher level than previously possible</li>
+<li>ADLs permit analysis and assessment of architectures, for completeness, consistency, ambiguity, and performance</li>
+<li>ADLs can support automatic generation of software systems</li>
+</ul>
+<h3><span class="mw-headline" id="Negative_elements_of_ADL">Negative elements of ADL</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=5" title="Edit section: Negative elements of ADL">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>There is no universal agreement on what ADLs should represent, particularly as regards the behavior of the architecture</li>
+<li>Representations currently in use are relatively difficult to parse and are not supported by commercial tools</li>
+<li>Most ADLs tend to be very vertically optimized toward a particular kind of analysis</li>
+</ul>
+<h2><span class="mw-headline" id="Common_concepts_of_architecture">Common concepts of architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=6" title="Edit section: Common concepts of architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The ADL community generally agrees that Software Architecture is a set of components and the connections among them. But there are different kind of architectures like:</p>
+<h3><span class="mw-headline" id="Object_Connection_Architecture">Object Connection Architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=7" title="Edit section: Object Connection Architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Configuration consists of the interfaces and connections of an object-oriented system</li>
+<li>Interfaces specify the features that must be provided by modules conforming to an interface</li>
+<li>Connections represented by interfaces together with <a href="/wiki/Call_graph" title="Call graph">call graph</a></li>
+<li>Conformance usually enforced by the programming language
+<ul>
+<li>Decomposition — associating interfaces with unique modules</li>
+<li>Interface conformance — static checking of syntactic rules</li>
+<li>Communication integrity — visibility between modules</li>
+</ul>
+</li>
+</ul>
+<h3><span class="mw-headline" id="Interface_Connection_Architecture">Interface Connection Architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=8" title="Edit section: Interface Connection Architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Expands the role of interfaces and connections
+<ul>
+<li>Interfaces specify both "required" and "provided" features</li>
+<li>Connections are defined between "required" features and "provided" features</li>
+</ul>
+</li>
+<li>Consists of interfaces, connections and constraints
+<ul>
+<li>Constraints restrict behavior of interfaces and connections in an architecture</li>
+<li>Constraints in an architecture map to requirements for a system</li>
+</ul>
+</li>
+</ul>
+<p>Most ADLs implement an interface connection architecture.</p>
+<h2><span class="mw-headline" id="Architecture_vs._Design">Architecture vs. Design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=9" title="Edit section: Architecture vs. Design">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>What is the difference between architecture and design?</p>
+<p>Architecture, in the context of software systems, is roughly divided into categories, primarily software architecture, network architecture, and systems architecture. Within each of these categories, there is a tangible but fuzzy distinction between architecture and design. To draw this distinction as universally and clearly as possible, it is best to consider design as a noun rather than as a verb, so that the comparison is between two nouns.</p>
+<p>Design is the abstraction and specification of patterns and organs of functionality that have been or will be implemented. Architecture is a degree higher in both abstraction and granularity. Consequentially, architecture is also more topological in nature than design, in that it specifies where major components meet and how they relate to one another. Architecture focuses on the partitioning of major regions of functionality into high level components, where they will physically or virtually reside, what off-the-shelf components may be employed effectively, in general what interfaces each component will expose, what protocols will be employed between them, and what practices and high level patterns may best meet <a href="/wiki/Extensibility" title="Extensibility">extensibility</a>, <a href="/wiki/Maintainability" title="Maintainability">maintainability</a>, reliability, durability, <a href="/wiki/Scalability" title="Scalability">scalability</a>, and other non-functional objectives. Design is a detailing of these choices and a more concrete clarification of how functional requirements will be met through the delegation of pieces of that functionality to more granular components and how these smaller components will be organized within the larger ones.</p>
+<p>Oftentimes, a portion of architecture is done during the conceptualization of an application, system, or network and may appear in the non-functional sections of requirement documentation. Canonically, design is not specified in requirements, but is rather driven by them.</p>
+<p>The process of defining an architecture may involve heuristics, acquired by the architect or architectural team through experience within the domain. As with design, architecture often evolves through a series of iterations, and just as the wisdom of a high level design is often tested when low level design and implementation occurs, the wisdom of an architecture is tested during the specification of a high level design. In both cases, if the wisdom of the specification is called into question during detailing, another iteration of either architecture or design, as the case may be, may become necessary.</p>
+<p>In summary, the primary differences between architecture and design are ones of granularity and abstraction, and (consequentially) chronology. (Architecture generally precedes design, although overlap and circular iteration is a common reality.)</p>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=10" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Below the list gives the candidates for being the best<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (March 2012)">citation needed</span></a></i>]</sup> ADL to date.</p>
+<p>For an up-to-date list of currently existing architectural languages, please refer <a class="external text" href="http://www.di.univaq.it/malavolta/al/" rel="nofollow">Up-to-date list of ADLs</a>.</p>
+<ul>
+<li>Primary candidates
+<ul>
+<li><a class="external text" href="http://www.avolution.com.au" rel="nofollow">ABACUS (UTS)</a></li>
+<li><a class="external text" href="http://www-2.cs.cmu.edu/~acme/" rel="nofollow">ACME / ADML (CMU/USC)</a></li>
+<li><a class="external text" href="http://www.opengroup.org/architecture/adml/adml_home.htm" rel="nofollow">ADML (No longer in development)</a></li>
+<li><a class="external text" href="http://byadl.di.univaq.it" rel="nofollow">ByADL (Build Your ADL) - University of L'Aquila</a></li>
+<li><a class="external text" href="http://lepus.org.uk/" rel="nofollow">LePUS3 and Class-Z (University of Essex)</a></li>
+<li><a class="external text" href="http://complexevents.com/stanford/rapide/" rel="nofollow">Rapide (Stanford)</a></li>
+<li><a class="external text" href="http://www-2.cs.cmu.edu/afs/cs/project/able/www/wright/index.html" rel="nofollow">Wright (CMU)</a></li>
+<li>Unicon (CMU)</li>
+</ul>
+</li>
+<li>Secondary candidates
+<ul>
+<li><a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/able/www/aesop/aesop_home.html" rel="nofollow">Aesop (CMU)</a></li>
+<li>MetaH (Honeywell)</li>
+<li><a href="/wiki/Architecture_Analysis_%26_Design_Language" title="Architecture Analysis &amp; Design Language">AADL</a> (SAE) - <b>A</b>rchitecture <b>A</b>nalysis &amp; <b>D</b>esign <b>L</b>anguage</li>
+<li><a class="external text" href="http://www.ics.uci.edu/pub/arch/" rel="nofollow">C2 SADL</a> (UCI)</li>
+<li>SADL (SRI) - <b>S</b>ystem <b>A</b>rchitecture <b>D</b>escription <b>L</b>anguage</li>
+</ul>
+</li>
+<li>Others (unclassified)
+<ul>
+<li>Lileanna - <b>L</b>ibrary <b>I</b>nterconnect <b>L</b>anguage <b>E</b>xtended with <b>Ann</b>otated <b>A</b>da</li>
+<li><a class="external text" href="http://dually.di.univaq.it" rel="nofollow">Dually: Providing Architectural Languages and Tools Interoperability through Model Transformation Technologies</a></li>
+<li><a class="external text" href="http://archc.sourceforge.net/" rel="nofollow">ArchC</a> <a href="/wiki/SystemC" title="SystemC">SystemC</a>-like, focus on <a href="/wiki/Instruction_set" title="Instruction set">instruction sets</a> &amp; <a class="mw-redirect" href="/wiki/Memory_model_(computing)" title="Memory model (computing)">memory models</a>.</li>
+<li><a class="external text" href="http://caosd.lcc.uma.es/AO-ADL.htm" rel="nofollow">AO-ADL</a></li>
+<li><a class="external text" href="http://www.archimate.org" rel="nofollow">ArchiMate</a> An example of an ADL for enterprise architecture</li>
+<li><a class="external text" href="http://caosd.lcc.uma.es/CAM-DAOP/DAOP-ADL.htm" rel="nofollow">DAOP-ADL</a></li>
+<li><a class="external text" href="http://www.amazon.com/dp/3540291695" rel="nofollow">DEMO</a> Another example of an enterprise architecture ADL</li>
+<li><a class="external text" href="http://diaspec.bordeaux.inria.fr/" rel="nofollow">DiaSpec</a> an approach and tool to generate a distributed framework from a software architecture</li>
+<li><a class="external text" href="http://www.mcc.com/projects/ssepp" rel="nofollow">SSEP</a></li>
+<li><a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/vit/www/unicon/index.html" rel="nofollow">Unicon</a></li>
+<li><a class="external text" href="http://www.isr.uci.edu/projects/xarchuci/" rel="nofollow">xADL</a></li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="Approaches_to_architecture">Approaches to architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=11" title="Edit section: Approaches to architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Approaches to Architecture</p>
+<ul>
+<li>Academic Approach
+<ul>
+<li>focus on analytic evaluation of architectural models</li>
+<li>individual models</li>
+<li>rigorous modeling notations</li>
+<li>powerful analysis techniques</li>
+<li>depth over breadth</li>
+<li>special-purpose solutions</li>
+</ul>
+</li>
+<li>Industrial Approach
+<ul>
+<li>focus on wide range of development issues</li>
+<li>families of models</li>
+<li>practicality over rigor</li>
+<li>architecture as the big picture in development</li>
+<li>breadth over depth</li>
+<li>general-purpose solutions</li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Architecture_Analysis_and_Design_Language" title="Architecture Analysis and Design Language">AADL</a></li>
+<li><a href="/wiki/Darwin_(ADL)" title="Darwin (ADL)">Darwin</a></li>
+<li><a href="/wiki/Avolution" title="Avolution">ABACUS</a></li>
+<li><a href="/wiki/Scripting_language" title="Scripting language">Scripting language</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.iso-architecture.org/42010/docs/ISO-IEC-IEEE-latest-draft-42010.pdf" rel="nofollow">http://www.iso-architecture.org/42010/docs/ISO-IEC-IEEE-latest-draft-42010.pdf</a></span></li>
+<li id="cite_note-Allen1997-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-Allen1997_2-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Allen, R.; Garlan, D. (1997). "A formal basis for architectural connection". <i>ACM Transactions on Software Engineering and Methodology</i>. <b>6</b> (3): 213. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F258077.258078" rel="nofollow">10.1145/258077.258078</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=A+formal+basis+for+architectural+connection&amp;rft.aufirst=R.&amp;rft.au=Garlan%2C+D.&amp;rft.aulast=Allen&amp;rft.date=1997&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F258077.258078&amp;rft.issue=3&amp;rft.jtitle=ACM+Transactions+on+Software+Engineering+and+Methodology&amp;rft.pages=213&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=6"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-PERRY1992-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-PERRY1992_3-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Perry, D. E.; <a href="/wiki/Alexander_L._Wolf" title="Alexander L. Wolf">Wolf, A. L.</a> (1992). <a class="external text" href="http://users.ece.utexas.edu/~perry/work/papers/swa-sen.pdf" rel="nofollow">"Foundations for the study of software architecture"</a> <span style="font-size:85%;">(PDF)</span>. <i><a class="mw-redirect" href="/wiki/ACM_SIGSOFT_Software_Engineering_Notes" title="ACM SIGSOFT Software Engineering Notes">ACM SIGSOFT Software Engineering Notes</a></i>. <b>17</b> (4): 40. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F141874.141884" rel="nofollow">10.1145/141874.141884</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=Foundations+for+the+study+of+software+architecture&amp;rft.aufirst=D.+E.&amp;rft.aulast=Perry&amp;rft.au=Wolf%2C+A.+L.&amp;rft.date=1992&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fusers.ece.utexas.edu%2F~perry%2Fwork%2Fpapers%2Fswa-sen.pdf&amp;rft_id=info%3Adoi%2F10.1145%2F141874.141884&amp;rft.issue=4&amp;rft.jtitle=ACM+SIGSOFT+Software+Engineering+Notes&amp;rft.pages=40&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=17"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-AADL-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-AADL_4-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.aadl.info" rel="nofollow">"AADL"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.btitle=AADL&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.aadl.info&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.east-adl.info/" rel="nofollow">"AADL"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.btitle=AADL&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.east-adl.info%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-EADL-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-EADL_6-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Li, J.; Pilkington, N. T.; Xie, F.; Liu, Q. (2010). "Embedded architecture description language". <i>Journal of Systems and Software</i>. <b>83</b> (2): 235. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2Fj.jss.2009.09.043" rel="nofollow">10.1016/j.jss.2009.09.043</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=Embedded+architecture+description+language&amp;rft.aufirst=J.&amp;rft.aulast=Li&amp;rft.au=Liu%2C+Q.&amp;rft.au=Pilkington%2C+N.+T.&amp;rft.au=Xie%2C+F.&amp;rft.date=2010&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.jss.2009.09.043&amp;rft.issue=2&amp;rft.jtitle=Journal+of+Systems+and+Software&amp;rft.pages=235&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=83"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.diaspec.com/" rel="nofollow">"AADL"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.btitle=AADL&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.diaspec.com%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-KOALA-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-KOALA_8-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Van Ommering, R.; Van Der Linden, F.; Kramer, J.; Magee, J. (2000). "The Koala component model for consumer electronics software". <i>Computer</i>. <b>33</b> (3): 78. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2F2.825699" rel="nofollow">10.1109/2.825699</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=The+Koala+component+model+for+consumer+electronics+software&amp;rft.aufirst=R.&amp;rft.au=Kramer%2C+J.&amp;rft.aulast=Van+Ommering&amp;rft.au=Magee%2C+J.&amp;rft.au=Van+Der+Linden%2C+F.&amp;rft.date=2000&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2F2.825699&amp;rft.issue=3&amp;rft.jtitle=Computer&amp;rft.pages=78&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=33"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Oquendo2004-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Oquendo2004_9-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Oquendo, Flavio (2004). "π-ADL". <i>ACM SIGSOFT Software Engineering Notes</i>. <b>29</b> (3): 1. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F986710.986728" rel="nofollow">10.1145/986710.986728</a>. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a> <a class="external text" href="//www.worldcat.org/issn/0163-5948" rel="nofollow">0163-5948</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=%CF-ADL&amp;rft.aufirst=Flavio&amp;rft.aulast=Oquendo&amp;rft.date=2004&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F986710.986728&amp;rft.issn=0163-5948&amp;rft.issue=3&amp;rft.jtitle=ACM+SIGSOFT+Software+Engineering+Notes&amp;rft.pages=1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=29"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-FRACTAL-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-FRACTAL_10-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Bruneton, E.; Coupaye, T.; Leclercq, M.; Quéma, V.; Stefani, J. B. (2006). "The FRACTAL component model and its support in Java". <i>Software: Practice and Experience</i>. <b>36</b> (11–12): 1257. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1002%2Fspe.767" rel="nofollow">10.1002/spe.767</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=The+FRACTAL+component+model+and+its+support+in+Java&amp;rft.au=Coupaye%2C+T.&amp;rft.aufirst=E.&amp;rft.aulast=Bruneton&amp;rft.au=Leclercq%2C+M.&amp;rft.au=Qu%C3%A9ma%2C+V.&amp;rft.au=Stefani%2C+J.+B.&amp;rft.date=2006&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1002%2Fspe.767&amp;rft.issue=11%9312&amp;rft.jtitle=Software%3A+Practice+and+Experience&amp;rft.pages=1257&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=36"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://spectrum.library.concordia.ca/7057/" rel="nofollow">"TADL"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.btitle=TADL&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fspectrum.library.concordia.ca%2F7057%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Woods2005-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Woods2005_12-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Woods, E.; Hilliard, R. (2005). "Architecture Description Languages in Practice Session Report". <i>5th Working IEEE/IFIP Conference on Software Architecture (WICSA'05)</i>. p. 243. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FWICSA.2005.15" rel="nofollow">10.1109/WICSA.2005.15</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-7695-2548-2" title="Special:BookSources/0-7695-2548-2">0-7695-2548-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=Architecture+Description+Languages+in+Practice+Session+Report&amp;rft.aufirst=E.&amp;rft.au=Hilliard%2C+R.&amp;rft.aulast=Woods&amp;rft.btitle=5th+Working+IEEE%2FIFIP+Conference+on+Software+Architecture+%28WICSA%2705%29&amp;rft.date=2005&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FWICSA.2005.15&amp;rft.isbn=0-7695-2548-2&amp;rft.pages=243&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Pandey2010-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-Pandey2010_13-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Pandey, R. K. (2010). "Architectural description languages (ADLs) vs UML". <i>ACM SIGSOFT Software Engineering Notes</i>. <b>35</b> (3): 1. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F1764810.1764828" rel="nofollow">10.1145/1764810.1764828</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=Architectural+description+languages+%28ADLs%29+vs+UML&amp;rft.aufirst=R.+K.&amp;rft.aulast=Pandey&amp;rft.date=2010&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F1764810.1764828&amp;rft.issue=3&amp;rft.jtitle=ACM+SIGSOFT+Software+Engineering+Notes&amp;rft.pages=1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=35"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-ClementsSurvey-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-ClementsSurvey_14-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Clements, P. C. (1996). "A survey of architecture description languages". <i>Proceedings of the 8th International Workshop on Software Specification and Design</i>. pp. 16–00. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FIWSSD.1996.501143" rel="nofollow">10.1109/IWSSD.1996.501143</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-8186-7361-3" title="Special:BookSources/0-8186-7361-3">0-8186-7361-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=A+survey+of+architecture+description+languages&amp;rft.aufirst=P.+C.&amp;rft.aulast=Clements&amp;rft.btitle=Proceedings+of+the+8th+International+Workshop+on+Software+Specification+and+Design&amp;rft.date=1996&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FIWSSD.1996.501143&amp;rft.isbn=0-8186-7361-3&amp;rft.pages=16-00&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/04tr008.cfm" rel="nofollow">"Garlan_TR"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.btitle=Garlan_TR&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F04tr008.cfm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation book">Pérez-Martínez, J. E.; Sierra-Alonso, A. (2004). "UML 1.4 versus UML 2.0 as Languages to Describe Software Architectures". <i>Software Architecture</i>. Lecture Notes in Computer Science. <b>3047</b>. p. 88. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2F978-3-540-24769-2_7" rel="nofollow">10.1007/978-3-540-24769-2_7</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-540-22000-8" title="Special:BookSources/978-3-540-22000-8">978-3-540-22000-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=UML+1.4+versus+UML+2.0+as+Languages+to+Describe+Software+Architectures&amp;rft.aufirst=J.+E.&amp;rft.aulast=P%C3%A9rez-Mart%C3nez&amp;rft.au=Sierra-Alonso%2C+A.&amp;rft.btitle=Software+Architecture&amp;rft.date=2004&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-540-24769-2_7&amp;rft.isbn=978-3-540-22000-8&amp;rft.pages=88&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-IndustrySurvey-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-IndustrySurvey_17-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Malavolta, Ivano; Lago, Patricia; Muccini, Henry; Pelliccione, Patrizio; Tang, Antony (2013). "What Industry Needs from Architectural Languages: A Survey". <i>IEEE Transactions on Software Engineering</i>. <b>39</b> (6). <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FTSE.2012.74" rel="nofollow">10.1109/TSE.2012.74</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=What+Industry+Needs+from+Architectural+Languages%3A+A+Survey&amp;rft.aufirst=Ivano&amp;rft.au=Lago%2C+Patricia&amp;rft.aulast=Malavolta&amp;rft.au=Muccini%2C+Henry&amp;rft.au=Pelliccione%2C+Patrizio&amp;rft.au=Tang%2C+Antony&amp;rft.date=2013&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FTSE.2012.74&amp;rft.issue=6&amp;rft.jtitle=IEEE+Transactions+on+Software+Engineering&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=39"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Architecture_description_language&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation journal">"A Classification and Comparison Framework for Software Architecture Description Languages". <i>IEEE Transaction on Software Engineering</i>. <b>26</b> (1). January 2000. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.9588" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.106<wbr></wbr>.9588</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=A+Classification+and+Comparison+Framework+for+Software+Architecture+Description+Languages&amp;rft.date=2000-01&amp;rft.genre=article&amp;rft.issue=1&amp;rft.jtitle=IEEE+Transaction+on+Software+Engineering&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=26"><span style="display:none;"> </span></span></li>
+<li><cite class="citation journal">"What Industry Needs from Architectural Languages: A Survey". <i>IEEE Transaction on Software Engineering</i>. <b>39</b> (6). 2013. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FTSE.2012.74" rel="nofollow">10.1109/TSE.2012.74</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AArchitecture+description+language&amp;rft.atitle=What+Industry+Needs+from+Architectural+Languages%3A+A+Survey&amp;rft.date=2013&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FTSE.2012.74&amp;rft.issue=6&amp;rft.jtitle=IEEE+Transaction+on+Software+Engineering&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=39"><span style="display:none;"> </span></span></li>
+<li>Up-to-date list of currently existing architectural languages: <a class="external text" href="http://www.di.univaq.it/malavolta/al/" rel="nofollow">Up-to-date list of ADLs</a>.</li>
+<li><a class="external text" href="http://www.mrtc.mdh.se/han/FoPlan/ass2-bjornander.pdf" rel="nofollow">Architecture Description Languages</a> // Mälardalen University</li>
+<li><a class="external text" href="http://splc.sei.cmu.edu/library/assets/Survey_of_ADLs.pdf" rel="nofollow">A Survey of Architecture Description Languages</a> // Eighth International Workshop on Software Speciﬁcation and Design, Germany, March 1996</li>
+<li><a class="external text" href="http://www.avolution.com.au" rel="nofollow">ABACUS</a></li>
+<li><a class="external text" href="http://www.cs.cmu.edu/~acme" rel="nofollow">ACME</a></li>
+<li><a class="external text" href="http://www.mcc.com/projects/ssepp/adml" rel="nofollow">ADML</a></li>
+<li><a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/able/www/aesop/aesop_home.html" rel="nofollow">Aesop</a></li>
+<li><a class="external text" href="http://caosd.lcc.uma.es/AO-ADL.htm" rel="nofollow">AO-ADL</a></li>
+<li><a class="external text" href="http://www.archimate.org" rel="nofollow">ArchiMate</a> An example of an ADL for enterprise architecture</li>
+<li><a class="external text" href="http://byadl.di.univaq.it" rel="nofollow">ByADL (Build Your ADL) - University of L'Aquila</a></li>
+<li><a class="external text" href="http://www.ics.uci.edu/pub/arch/" rel="nofollow">C2 SADL</a></li>
+<li><a class="external text" href="http://caosd.lcc.uma.es/CAM-DAOP/DAOP-ADL.htm" rel="nofollow">DAOP-ADL</a></li>
+<li><a class="external text" href="http://www.amazon.com/dp/3540291695" rel="nofollow">DEMO</a> Another example of an enterprise architecture ADL</li>
+<li><a class="external text" href="http://diaspec.bordeaux.inria.fr/" rel="nofollow">DiaSpec</a> an approach and tool to generate a distributed framework from a software architecture</li>
+<li><a class="external text" href="http://dually.di.univaq.it" rel="nofollow">Dually - Providing Architectural Languages and Tools Interoperability through Model Transformation Technologies (2010), in: IEEE Transactions on Software Engineering, 36:1(119-140)</a></li>
+<li><a class="external text" href="http://complexevents.com/stanford/rapide/" rel="nofollow">Rapide</a></li>
+<li><a class="external text" href="http://www.mcc.com/projects/ssepp" rel="nofollow">SSEP</a></li>
+<li><a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/vit/www/unicon/index.html" rel="nofollow">Unicon</a></li>
+<li><a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/able/www/wright/index.html" rel="nofollow">Wright</a></li>
+</ul>
+<div aria-labelledby="Types_of_.D1.81omputer_languages" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Computer_language" title="Template:Computer language"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Computer_language" title="Template talk:Computer language"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Computer_language&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Types_of_.D1.81omputer_languages" style="font-size:114%">Types of <a href="/wiki/Computer_language" title="Computer language">сomputer languages</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Types</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Architecture description</strong></li>
+<li><a href="/wiki/Hardware_description_language" title="Hardware description language">Hardware description</a></li>
+<li><a class="mw-redirect" href="/wiki/Knowledge_representation_language" title="Knowledge representation language">Knowledge representation</a></li>
+<li><a href="/wiki/Markup_language" title="Markup language">Markup</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling</a></li>
+<li><a href="/wiki/Programming_language" title="Programming language">Programming language</a></li>
+<li><a href="/wiki/Query_language" title="Query language">Query</a></li>
+<li><a href="/wiki/Specification_language" title="Specification language">Specification</a></li>
+<li><a href="/wiki/Style_sheet_language" title="Style sheet language">Stylesheet</a></li>
+<li><a href="/wiki/Transformation_language" title="Transformation language">Transformation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">See also</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Category:Lists_of_computer_languages" title="Category:Lists of computer languages">Category:Lists of computer languages</a></li>
+<li><a href="/wiki/Category:Lists_of_programming_languages" title="Category:Lists of programming languages">Category:Lists of programming languages</a></li>
+<li><a href="/wiki/List_of_programming_languages_by_type" title="List of programming languages by type">List of programming languages by type</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1799268-0!*!0!!en!*!* and timestamp 20160926002823 and revision id 734621119
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Architecture_description_language&amp;oldid=734621119">https://en.wikipedia.org/w/index.php?title=Architecture_description_language&amp;oldid=734621119</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Computer_languages" title="Category:Computer languages">Computer languages</a></li><li><a href="/wiki/Category:Systems_architecture" title="Category:Systems architecture">Systems architecture</a></li><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="/wiki/Category:Architecture_description_language" title="Category:Architecture description language">Architecture description language</a></li><li><a href="/wiki/Category:Programming_language_classification" title="Category:Programming language classification">Programming language classification</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_March_2012" title="Category:Articles with unsourced statements from March 2012">Articles with unsourced statements from March 2012</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Architecture+description+language" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Architecture+description+language" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Architecture_description_language" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Architecture_description_language" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Architecture_description_language">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Architecture_description_language&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Architecture_description_language&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Architecture_description_language" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Architecture_description_language" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Architecture_description_language&amp;oldid=734621119" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Architecture_description_language&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q362356" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Architecture_description_language&amp;id=734621119" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Architecture+description+language">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Architecture+description+language&amp;returnto=Architecture+description+language&amp;oldid=734621119&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Architecture_description_language&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Architecture_Description_Language" hreflang="de" lang="de" title="Architecture Description Language – German">Deutsch</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B2%D8%A8%D8%A7%D9%86_%D8%AA%D9%88%D8%B5%DB%8C%D9%81_%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C" hreflang="fa" lang="fa" title="زبان توصیف معماری – Persian">فارسی</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E" hreflang="ja" lang="ja" title="アーキテクチャ記述言語 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%BE_%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA" hreflang="sr" lang="sr" title="Архитектонско описни језик – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%9E%B6%E6%9E%84%E6%8F%8F%E8%BF%B0%E8%AF%AD%E8%A8%80" hreflang="zh" lang="zh" title="架构描述语言 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q362356#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 August 2016, at 16:01.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Architecture_description_language&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.180",
+            "walltime": "0.220",
+            "ppvisitednodes": {
+                "value": 986,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 35267,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 572,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  183.519      1 -total",
+                " 55.40%  101.677      1 Template:Reflist",
+                " 38.35%   70.388     10 Template:Cite_journal",
+                " 30.85%   56.616      1 Template:Citation_needed",
+                " 23.75%   43.583      1 Template:Fix",
+                " 14.70%   26.979      2 Template:Category_handler",
+                "  7.45%   13.670      1 Template:Delink",
+                "  6.72%   12.338      5 Template:Cite_web",
+                "  5.64%   10.346      3 Template:Cite_book",
+                "  5.27%    9.674      1 Template:Computer_language"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.093",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3677846,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1270",
+            "timestamp": "20160926002823",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1241"});});</script>
+</body>
+</html>
+

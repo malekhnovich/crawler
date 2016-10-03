@@ -1,0 +1,948 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Algorithmic_skeleton
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Algorithmic skeleton - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algorithmic_skeleton","wgTitle":"Algorithmic skeleton","wgCurRevisionId":725026212,"wgRevisionId":725026212,"wgArticleId":25478461,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Uses authors parameter","Use dmy dates from June 2013","Concurrent programming languages","Parallel computing","C++ libraries"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Algorithmic_skeleton","wgRelevantArticleId":25478461,"wgRequestId":"V-FwoApAMFQAAB@7dYEAAAAX","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q4724366","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Algorithmic_skeleton" rel="alternate"/>
+<link href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Algorithmic_skeleton" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Algorithmic_skeleton rootpage-Algorithmic_skeleton skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Algorithmic skeleton</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Computing" title="Computing">computing</a>, <b>algorithmic skeletons</b> (a.k.a. Parallelism Patterns) are a high-level <a href="/wiki/Parallel_programming_model" title="Parallel programming model">parallel programming model</a> for parallel and distributed computing.</p>
+<p>Algorithmic skeletons take advantage of common programming patterns to hide the complexity of parallel and distributed applications. Starting from a basic set of patterns (skeletons), more complex patterns can be built by combining the basic ones.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Well-known_skeleton_patterns"><span class="tocnumber">3</span> <span class="toctext">Well-known skeleton patterns</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Example_program"><span class="tocnumber">4</span> <span class="toctext">Example program</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Frameworks_and_libraries"><span class="tocnumber">5</span> <span class="toctext">Frameworks and libraries</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#ASSIST"><span class="tocnumber">5.1</span> <span class="toctext">ASSIST</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#CO2P3S"><span class="tocnumber">5.2</span> <span class="toctext">CO2P3S</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Calcium_.26_Skandium"><span class="tocnumber">5.3</span> <span class="toctext">Calcium &amp; Skandium</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Eden"><span class="tocnumber">5.4</span> <span class="toctext">Eden</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#eSkel"><span class="tocnumber">5.5</span> <span class="toctext">eSkel</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#FastFlow"><span class="tocnumber">5.6</span> <span class="toctext">FastFlow</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#HDC"><span class="tocnumber">5.7</span> <span class="toctext">HDC</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#HOC-SA"><span class="tocnumber">5.8</span> <span class="toctext">HOC-SA</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#JaSkel"><span class="tocnumber">5.9</span> <span class="toctext">JaSkel</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Lithium_.26_Muskel"><span class="tocnumber">5.10</span> <span class="toctext">Lithium &amp; Muskel</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Mallba"><span class="tocnumber">5.11</span> <span class="toctext">Mallba</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Marrow"><span class="tocnumber">5.12</span> <span class="toctext">Marrow</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Muesli"><span class="tocnumber">5.13</span> <span class="toctext">Muesli</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#P3L.2C_SkIE.2C_SKElib"><span class="tocnumber">5.14</span> <span class="toctext">P3L, SkIE, SKElib</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#PAS_and_EPAS"><span class="tocnumber">5.15</span> <span class="toctext">PAS and EPAS</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#SBASCO"><span class="tocnumber">5.16</span> <span class="toctext">SBASCO</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#SCL"><span class="tocnumber">5.17</span> <span class="toctext">SCL</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#SkePU"><span class="tocnumber">5.18</span> <span class="toctext">SkePU</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#SKiPPER_.26_QUAFF"><span class="tocnumber">5.19</span> <span class="toctext">SKiPPER &amp; QUAFF</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#SkeTo"><span class="tocnumber">5.20</span> <span class="toctext">SkeTo</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Skil"><span class="tocnumber">5.21</span> <span class="toctext">Skil</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#STAPL_Skeleton_Framework"><span class="tocnumber">5.22</span> <span class="toctext">STAPL Skeleton Framework</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#T4P"><span class="tocnumber">5.23</span> <span class="toctext">T4P</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#Frameworks_comparison"><span class="tocnumber">6</span> <span class="toctext">Frameworks comparison</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The most outstanding feature of algorithmic skeletons, which differentiates them from other high-level parallel programming models, is that orchestration and synchronization of the parallel activities is implicitly defined by the skeleton patterns. Programmers do not have to specify the synchronizations between the application's sequential parts. This yields two implications. First, as the communication/data access patterns are known in advance, cost models can be applied to schedule skeletons programs.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> Second, that algorithmic skeleton programming reduces the number of errors when compared to traditional lower-level parallel programming models (Threads, MPI).</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Algorithmic skeletons were first introduced by Murray Cole in 1989.<sup class="reference" id="cite_ref-cole_thesis_2-0"><a href="#cite_note-cole_thesis-2">[2]</a></sup> Several frameworks have been proposed by different research groups using different techniques such as functional, imperative, custom and object oriented languages. A recent survey of algorithmic skeleton frameworks can be found in González-Vélez &amp; Leyton.<sup class="reference" id="cite_ref-survey_2010_3-0"><a href="#cite_note-survey_2010-3">[3]</a></sup></p>
+<h2><span class="mw-headline" id="Well-known_skeleton_patterns">Well-known skeleton patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=3" title="Edit section: Well-known skeleton patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>This section describes some well-known Algorithmic Skeleton patterns. Additionally, the patterns signature in the <a class="external text" href="http://skandium.niclabs.cl" rel="nofollow">Skandium</a> library is provided for clarity.</p>
+<ul>
+<li><b>FARM</b> is also known as <b>master-slave</b>. Farm represents task replication where the execution of different tasks by the same farm are replicated and executed in parallel.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">Farm</span><span class="o">(</span><span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">skeleton</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>PIPE</b> represents staged computation. Different tasks can be computed simultaneously on different pipe stages. A pipe can have a variable number of stages, each stage of a pipe may be a nested skeleton pattern. Note that an n-stage pipe can be composed by nesting n-1 two-stage pipes.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="o">&lt;</span><span class="n">X</span><span class="o">&gt;</span> <span class="nf">Pipe</span><span class="o">(</span><span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">X</span><span class="o">&gt;</span> <span class="n">stage1</span><span class="o">,</span> <span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">X</span><span class="o">&gt;</span> <span class="n">stage2</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>FOR</b> represents fixed iteration, where a task is executed a fixed number of times. In some implementations the executions may take place in parallel.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">For</span><span class="o">(</span><span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">X</span><span class="o">&gt;</span> <span class="n">skeleton</span><span class="o">,</span> <span class="kt">int</span> <span class="n">times</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>WHILE</b> represents conditional iteration, where a given skeleton is executed until a condition is met.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="nf">While</span><span class="o">(</span><span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">skeleton</span><span class="o">,</span> <span class="n">Condition</span><span class="o">&lt;</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">condition</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>IF</b> represents conditional branching, where the execution choice between two skeleton patterns is decided by a condition.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">If</span><span class="o">(</span><span class="n">Condition</span><span class="o">&lt;</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">condition</span><span class="o">,</span> <span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">trueCase</span><span class="o">,</span> <span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">falseCase</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>MAP</b> represents <i>split</i>, <i>execute</i>, <i>merge</i> computation. A task is divided into sub-tasks, sub-tasks are executed in parallel according to a given skeleton, and finally sub-task's results are merged to produce the original task's result.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="o">&lt;</span><span class="n">X</span><span class="o">,</span><span class="n">Y</span><span class="o">&gt;</span> <span class="nf">Map</span><span class="o">(</span><span class="n">Split</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">X</span><span class="o">&gt;</span> <span class="n">split</span><span class="o">,</span> <span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">X</span><span class="o">,</span><span class="n">Y</span><span class="o">&gt;</span> <span class="n">skeleton</span><span class="o">,</span> <span class="n">Merge</span><span class="o">&lt;</span><span class="n">Y</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">merge</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>D&amp;C</b> represents divide and conquer parallelism. A task is recursively sub-divided until a condition is met, then the sub-task is executed and results are merged while the recursion is unwound.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">DaC</span><span class="o">(</span><span class="n">Condition</span><span class="o">&lt;</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">condition</span><span class="o">,</span> <span class="n">Split</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">split</span><span class="o">,</span> <span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">skeleton</span><span class="o">,</span> <span class="n">Merge</span><span class="o">&lt;</span><span class="n">R</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">merge</span><span class="o">){...}</span>
+</pre></div>
+</li>
+<li><b>SEQ</b> does not represent parallelism, but it is often used a convenient tool to wrap code as the leaves of the skeleton nesting.
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="nf">Seq</span><span class="o">(</span><span class="n">Execute</span> <span class="o">&lt;</span><span class="n">P</span><span class="o">,</span><span class="n">R</span><span class="o">&gt;</span> <span class="n">execute</span><span class="o">){...}</span>
+</pre></div>
+</li>
+</ul>
+<h2><span class="mw-headline" id="Example_program">Example program</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=4" title="Edit section: Example program">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following example is based on the Java <a class="external text" href="http://skandium.niclabs.cl" rel="nofollow">Skandium</a> library for parallel programming.</p>
+<p>The objective is to implement an Algorithmic Skeleton-based parallel version of the <b>QuickSort</b> algorithm using the Divide and Conquer pattern. Notice that the high-level approach hides Thread management from the programmer.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// 1. Define the skeleton program</span>
+<span class="n">Skeleton</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">,</span> <span class="n">Range</span><span class="o">&gt;</span> <span class="n">sort</span> <span class="o">=</span>   <span class="k">new</span> <span class="n">DaC</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">,</span> <span class="n">Range</span><span class="o">&gt;(</span>
+    <span class="k">new</span> <span class="n">ShouldSplit</span><span class="o">(</span><span class="n">threshold</span><span class="o">,</span> <span class="n">maxTimes</span><span class="o">),</span>
+    <span class="k">new</span> <span class="n">SplitList</span><span class="o">(),</span>
+    <span class="k">new</span> <span class="n">Sort</span><span class="o">(),</span>
+    <span class="k">new</span> <span class="n">MergeList</span><span class="o">());</span>
+		
+<span class="c1">// 2. Input parameters</span>
+<span class="n">Future</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">&gt;</span> <span class="n">future</span> <span class="o">=</span> <span class="n">sort</span><span class="o">.</span><span class="na">input</span><span class="o">(</span><span class="k">new</span> <span class="n">Range</span><span class="o">(</span><span class="n">generate</span><span class="o">(...)));</span>
+	
+<span class="c1">// 3. Do something else here.</span>
+<span class="c1">// ...</span>
+	
+<span class="c1">// 4. Block for the results</span>
+<span class="n">Range</span> <span class="n">result</span> <span class="o">=</span> <span class="n">future</span><span class="o">.</span><span class="na">get</span><span class="o">();</span>
+</pre></div>
+<ol>
+<li>The first thing is to define a new instance of the skeleton with the functional code that fills the pattern (ShouldSplit, SplitList, Sort, MergeList). The functional code is written by the programmer without parallelism concerns.</li>
+<li>The second step is the input of data which triggers the computation. In this case Range is a class holding an array and two indexes which allow the representation of a subarray. For every data entered into the framework a new Future object is created. More than one Future can be entered into a skeleton simultaneously.</li>
+<li>The Future allows for asynchronous computation, as other tasks can be performed while the results are computed.</li>
+<li>We can retrieve the result of the computation, blocking if necessary (i.e. results not yet available).</li>
+</ol>
+<p>The functional codes in this example correspond to four types Condition, Split, Execute, and Merge.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">ShouldSplit</span> <span class="kd">implements</span> <span class="n">Condition</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">&gt;{</span>
+
+  <span class="kt">int</span> <span class="n">threshold</span><span class="o">,</span> <span class="n">maxTimes</span><span class="o">,</span> <span class="n">times</span><span class="o">;</span>
+  
+  <span class="kd">public</span> <span class="nf">ShouldSplit</span><span class="o">(</span><span class="kt">int</span> <span class="n">threshold</span><span class="o">,</span> <span class="kt">int</span> <span class="n">maxTimes</span><span class="o">){</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">threshold</span> <span class="o">=</span> <span class="n">threshold</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">maxTimes</span>  <span class="o">=</span> <span class="n">maxTimes</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">times</span>     <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+  <span class="o">}</span>
+	
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="kd">synchronized</span> <span class="kt">boolean</span> <span class="nf">condition</span><span class="o">(</span><span class="n">Range</span> <span class="n">r</span><span class="o">){</span>
+    <span class="k">return</span> <span class="n">r</span><span class="o">.</span><span class="na">right</span> <span class="o">-</span> <span class="n">r</span><span class="o">.</span><span class="na">left</span> <span class="o">&gt;</span> <span class="n">threshold</span> <span class="o">&amp;&amp;</span>
+    	   <span class="n">times</span><span class="o">++</span> <span class="o">&lt;</span> <span class="k">this</span><span class="o">.</span><span class="na">maxTimes</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>The ShouldSplit class implements the Condition interface. The function receives an input, Range r in this case, and returning true or false. In the context of the Divide and Conquer where this function will be used, this will decide whether a sub-array should be subdivided again or not.</p>
+<p>The SplitList class implements the split interface, which in this case divides an (sub-)array into smaller sub-arrays. The class uses a helper function <code>partition(...)</code> which implements the well-known QuickSort pivot and swap scheme.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">SplitList</span> <span class="kd">implements</span> <span class="n">Split</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">,</span> <span class="n">Range</span><span class="o">&gt;{</span>
+
+ <span class="nd">@Override</span>
+ <span class="kd">public</span> <span class="n">Range</span><span class="o">[]</span> <span class="nf">split</span><span class="o">(</span><span class="n">Range</span> <span class="n">r</span><span class="o">){</span>
+        
+    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">partition</span><span class="o">(</span><span class="n">r</span><span class="o">.</span><span class="na">array</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
+        
+    <span class="n">Range</span><span class="o">[]</span> <span class="n">intervals</span> <span class="o">=</span> <span class="o">{</span><span class="k">new</span> <span class="n">Range</span><span class="o">(</span><span class="n">r</span><span class="o">.</span><span class="na">array</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="o">),</span> 
+                         <span class="k">new</span> <span class="n">Range</span><span class="o">(</span><span class="n">r</span><span class="o">.</span><span class="na">array</span><span class="o">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">right</span><span class="o">)};</span>
+        
+    <span class="k">return</span> <span class="n">intervals</span><span class="o">;</span>
+ <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>The Sort class implements and Execute interface, and is in charge of sorting the sub-array specified by <code>Range r</code>. In this case we simply invoke Java's default (Arrays.sort) method for the given sub-array.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sort</span> <span class="kd">implements</span> <span class="n">Execute</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">,</span> <span class="n">Range</span><span class="o">&gt;</span> <span class="o">{</span>
+
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="n">Range</span> <span class="nf">execute</span><span class="o">(</span><span class="n">Range</span> <span class="n">r</span><span class="o">){</span>
+		
+    <span class="k">if</span> <span class="o">(</span><span class="n">r</span><span class="o">.</span><span class="na">right</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="o">.</span><span class="na">left</span><span class="o">)</span> <span class="k">return</span> <span class="n">r</span><span class="o">;</span>
+		
+    <span class="n">Arrays</span><span class="o">.</span><span class="na">sort</span><span class="o">(</span><span class="n">r</span><span class="o">.</span><span class="na">array</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">r</span><span class="o">.</span><span class="na">right</span><span class="o">+</span><span class="mi">1</span><span class="o">);</span>
+		
+    <span class="k">return</span> <span class="n">r</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>Finally, once a set of sub-arrays are sorted we merge the sub-array parts into a bigger array with the MergeList class which implements a Merge interface.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">MergeList</span> <span class="kd">implements</span> <span class="n">Merge</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">,</span> <span class="n">Range</span><span class="o">&gt;{</span>
+
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="n">Range</span> <span class="nf">merge</span><span class="o">(</span><span class="n">Range</span><span class="o">[]</span> <span class="n">r</span><span class="o">){</span>
+		
+    <span class="n">Range</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Range</span><span class="o">(</span> <span class="n">r</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">array</span><span class="o">,</span> <span class="n">r</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">left</span><span class="o">,</span> <span class="n">r</span><span class="o">[</span><span class="mi">1</span><span class="o">].</span><span class="na">right</span><span class="o">);</span>
+		
+    <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<h2><span class="mw-headline" id="Frameworks_and_libraries">Frameworks and libraries</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=5" title="Edit section: Frameworks and libraries">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="ASSIST">ASSIST</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=6" title="Edit section: ASSIST">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>ASSIST</b><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup><sup class="reference" id="cite_ref-assist_CMST2006_5-0"><a href="#cite_note-assist_CMST2006-5">[5]</a></sup> is a programming environment which provides programmers with a structured coordination language. The coordination language can express parallel programs as an arbitrary graph of software modules. The module graph describes how a set of modules interact with each other using a set of typed data streams. The modules can be sequential or parallel. Sequential modules can be written in C, C++, or Fortran; and parallel modules are programmed with a special ASSIST parallel module (<i>parmod</i>).</p>
+<p>AdHoc,<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> a hierarchical and fault-tolerant Distributed Shared Memory (DSM) system is used to interconnect streams of data between processing elements by providing a repository with: get/put/remove/execute operations. Research around AdHoc has focused on transparency, scalability, and fault-tolerance of the data repository.</p>
+<p>While not a classical skeleton framework, in the sense that no skeletons are provided, ASSIST's generic <i>parmod</i> can be specialized into classical skeletons such as: <i>farm</i>, <i>map</i>, etc. ASSIST also supports autonomic control of <i>parmods</i>s, and can be subject to a performance contract by dynamically adapting the number of resources used.</p>
+<h3><span class="mw-headline" id="CO2P3S">CO2P3S</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=7" title="Edit section: CO2P3S">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>CO2P3S</b> (Correct Object-Oriented Pattern-based Parallel Programming System), is a pattern oriented development environment,<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> which achieves parallelism using threads in Java.</p>
+<p><b>CO2P3S</b> is concerned with the complete development process of a parallel application. Programmers interact through a programming GUI to choose a pattern and its configuration options. Then, programmers fill the hooks required for the pattern, and new code is generated as a framework in Java for the parallel execution of the application. The generated framework uses three levels, in descending order of abstraction: patterns layer, intermediate code layer, and native code layer. Thus, advanced programmers may intervene the generated code at multiple levels to tune the performance of their applications. The generated code is mostly type safe, using the types provided by the programmer which do not require extension of superclass, but fails to be completely type safe such as in the reduce(..., Object reducer) method in the mesh pattern.</p>
+<p>The set of patterns supported in CO2P3S corresponds to method-sequence, distributor, mesh, and wavefront. Complex applications can be built by composing frameworks with their object references. Nevertheless, if no pattern is suitable, the MetaCO2P3S graphical tool addresses extensibility by allowing programmers to modify the pattern designs and introduce new patterns into CO2P3S.</p>
+<p>Support for distributed memory architectures in CO2P3S was introduced in later.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup> To use a distributed memory pattern, programmers must change the pattern's memory option from shared to distributed, and generate the new code. From the usage perspective, the distributed memory version of the code requires the management of remote exceptions.</p>
+<h3><span class="mw-headline" id="Calcium_.26_Skandium">Calcium &amp; Skandium</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=8" title="Edit section: Calcium &amp; Skandium">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Calcium</b> is greatly inspired by Lithium and Muskel. As such, it provides algorithmic skeleton programming as a Java library. Both task and data parallel skeletons are fully nestable; and are instantiated via parametric skeleton objects, not inheritance.</p>
+<p><b>Calcium</b> supports the execution of skeleton applications on top of the <a href="/wiki/ProActive" title="ProActive">ProActive</a> environment for distributed cluster like infrastructure. Additionally, Calcium has three distinctive features for algorithmic skeleton programming. First, a performance tuning model which helps programmers identify code responsible for performance bugs.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> Second, a type system for nestable skeletons which is proven to guaranty subject reduction properties and is implemented using Java Generics.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> Third, a transparent algorithmic skeleton file access model, which enables skeletons for data intensive applications.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></p>
+<p><a class="external text" href="http://skandium.niclabs.cl" rel="nofollow">Skandium</a> is a complete re-implementation of <b>Calcium</b> for multi-core computing. Programs written on <b>Skandium</b> may take advantage of shared memory to simplify parallel programming.<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup></p>
+<h3><span class="mw-headline" id="Eden">Eden</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=9" title="Edit section: Eden">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Eden</b><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup> is a parallel programming language for distributed memory environments, which extends Haskell. Processes are defined explicitly to achieve parallel programming, while their communications remain implicit. Processes communicate through unidirectional channels, which connect one writer to exactly one reader. Programmers only need to specify which data a processes depends on. Eden's process model provides direct control over process granularity, data distribution and communication topology.</p>
+<p><b>Eden</b> is not a skeleton language in the sense that skeletons are not provided as language constructs. Instead, skeletons are defined on top of Eden's lower-level process abstraction, supporting both task and data parallelism. So, contrary to most other approaches, Eden lets the skeletons be defined in the same language and at the same level, the skeleton instantiation is written: Eden itself. Because Eden is an extension of a functional language, Eden skeletons are <a class="mw-redirect" href="/wiki/Higher_order_function" title="Higher order function">higher order functions</a>. Eden introduces the concept of implementation skeleton, which is an architecture independent scheme that describes a parallel implementation of an algorithmic skeleton.</p>
+<h3><span class="mw-headline" id="eSkel">eSkel</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=10" title="Edit section: eSkel">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <b>Edinburgh Skeleton Library</b> (<b>eSkel</b>) is provided in C and runs on top of MPI. The first version of eSkel was described in,<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup> while a later version is presented in.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<p>In,<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> nesting-mode and interaction-mode for skeletons are defined. The nesting-mode can be either transient or persistent, while the interaction-mode can be either implicit or explicit. Transient nesting means that the nested skeleton is instantiated for each invocation and destroyed Afterwards, while persistent means that the skeleton is instantiated once and the same skeleton instance will be invoked throughout the application. Implicit interaction means that the flow of data between skeletons is completely defined by the skeleton composition, while explicit means that data can be generated or removed from the flow in a way not specified by the skeleton composition. For example, a skeleton that produces an output without ever receiving an input has explicit interaction.</p>
+<p>Performance prediction for scheduling and resource mapping, mainly for pipe-lines, has been explored by Benoit et al.<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup><sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup><sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup> They provided a performance model for each mapping, based on process algebra, and determine the best scheduling strategy based on the results of the model.</p>
+<p>More recent works have addressed the problem of adaptation on structured parallel programming,<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup> in particular for the pipe skeleton.<sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup><sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup></p>
+<h3><span class="mw-headline" id="FastFlow">FastFlow</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=11" title="Edit section: FastFlow">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a class="external text" href="http://mc-fastflow.sourceforge.net" rel="nofollow"><b>FastFlow</b></a> is a skeletal parallel programming framework specifically targeted to the development of streaming and data-parallel applications. Being initially developed to target <a href="/wiki/Multi-core_processor" title="Multi-core processor">multi-core</a> platforms, it has been successively extended to target heterogenous platforms composed of clusters of shared-memory platforms,<sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup><sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup> possibly equipped with computing accelerators such as NVidia GPGPUs, Xeon Phi, Tilera TILE64. The main design philosophy of <b>FastFlow</b> is to provide application designers with key features for parallel programming (e.g. time-to-market, portability, efficiency and performance portability) via suitable parallel programming abstractions and a carefully designed run-time support.<sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup> <b>FastFlow</b> is a general-purpose C++ programming framework for heterogenous parallel platforms. Like other high-level programming frameworks, such as Intel TBB and OpenMP, it simplifies the design and engineering of portable parallel applications. However, it has a clear edge in terms of expressiveness and performance with respect to other parallel programming frameworks in specific application scenarios, including, inter alia: fine-grain parallelism on cache-coherent shared-memory platforms; streaming applications; coupled usage of multi-core and accelerators. In other cases <b>FastFlow</b> is typically comparable to (and is some cases slightly faster than) state-of-the-art parallel programming frameworks such as Intel TBB, OpenMP, Cilk, etc.<sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup></p>
+<h3><span class="mw-headline" id="HDC">HDC</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=12" title="Edit section: HDC">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Higher-order Divide and Conquer</b> (<b>HDC</b>)<sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup> is a subset of the functional language <a href="/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a>. Functional programs are presented as polymorphic higher-order functions, which can be compiled into C/MPI, and linked with skeleton implementations. The language focus on divide and conquer paradigm, and starting from a general kind of divide and conquer skeleton, more specific cases with efficient implementations are derived. The specific cases correspond to: fixed recursion depth, constant recursion degree, multiple block recursion, elementwise operations, and correspondent communications<sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></p>
+<p><b>HDC</b> pays special attention to the subproblem's granularity and its relation with the number of Available processors. The total number of processors is a key parameter for the performance of the skeleton program as HDC strives to estimate an adequate assignment of processors for each part of the program. Thus, the performance of the application is strongly related with the estimated number of processors leading to either exceeding number of subproblems, or not enough parallelism to exploit available processors.</p>
+<h3><span class="mw-headline" id="HOC-SA">HOC-SA</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=13" title="Edit section: HOC-SA">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>HOC-SA is an <a class="external text" href="http://dev.globus.org/wiki/Guidelines#The_Globus_Incubator" rel="nofollow">Globus Incubator project</a>.<br/>
+HOC-SA stands for Higher-Order Components-Service Architecture. Higher-Order Components (<a class="external text" href="http://pvs.uni-muenster.de/pvs/forschung/hoc" rel="nofollow">HOCs</a>) have the aim of simplifying Grid application development.<br/>
+The objective of HOC-SA is to provide Globus users, who do not want to know about all the details of the Globus middleware (GRAM RSL documents, Web services and resource configuration etc.), with HOCs that provide a higher-level interface to the Grid than the core Globus Toolkit.<br/>
+HOCs are Grid-enabled skeletons, implemented as components on top of the Globus Toolkit, remotely accessibly via Web Services.<sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup></p>
+<h3><span class="mw-headline" id="JaSkel">JaSkel</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=14" title="Edit section: JaSkel">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>JaSkel</b><sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup> is a Java-based skeleton framework providing skeletons such as farm, pipe and heartbeat. Skeletons are specialized using inheritance. Programmers implement the abstract methods for each skeleton to provide their application specific code. Skeletons in JaSkel are provided in both sequential, concurrent and dynamic versions. For example, the concurrent farm can be used in shared memory environments (threads), but not in distributed environments (clusters) where the distributed farm should be used. To change from one version to the other, programmers must change their classes’ signature to inherit from a different skeleton. The nesting of skeletons uses the basic Java Object class, and therefore no type system is enforced during the skeleton composition.</p>
+<p>The distribution aspects of the computation are handled in <b>JaSkel</b> using AOP, more specifically the AspectJ implementation. Thus, <b>JaSkel</b> can be deployed on both cluster and Grid like infrastructures.<sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup> Nevertheless, a drawback of the <b>JaSkel</b> approach is that the nesting of the skeleton strictly relates to the deployment infrastructure. Thus, a double nesting of farm yields a better performance than a single farm on hierarchical infrastructures. This defeats the purpose of using AOP to separate the distribution and functional concerns of the skeleton program.</p>
+<h3><span class="mw-headline" id="Lithium_.26_Muskel">Lithium &amp; Muskel</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=15" title="Edit section: Lithium &amp; Muskel">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Lithium</b><sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup><sup class="reference" id="cite_ref-35"><a href="#cite_note-35">[35]</a></sup><sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup> and its successor <b>Muskel</b> are skeleton frameworks developed at University of Pisa, Italy. Both of them provide nestable skeletons to the programmer as Java libraries.The evaluation of a skeleton application follows a formal definition of operational semantics introduced by Aldinucci and Danelutto,<sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup><sup class="reference" id="cite_ref-38"><a href="#cite_note-38">[38]</a></sup> which can handle both task and data parallelism. The semantics describe both functional and parallel behavior of the skeleton language using a labeled transition system. Additionally, several performance optimization are applied such as: skeleton rewriting techniques [18, 10], task lookahead, and server-to-server lazy binding.<sup class="reference" id="cite_ref-39"><a href="#cite_note-39">[39]</a></sup></p>
+<p>At the implementation level, Lithium exploits macro-data flow<sup class="reference" id="cite_ref-40"><a href="#cite_note-40">[40]</a></sup><sup class="reference" id="cite_ref-41"><a href="#cite_note-41">[41]</a></sup> to achieve parallelism. When the input stream receives a new parameter, the skeleton program is processed to obtain a macro-data flow graph. The nodes of the graph are macro-data flow instructions (MDFi) which represent the sequential pieces of code provided by the programmer. Tasks are used to group together several MDFi, and are consumed by idle processing elements from a task pool. When the computation of the graph is concluded, the result is placed into the output stream and thus delivered back to the user.</p>
+<p><b>Muskel</b> also provides non-functional features such as Quality of Service (QoS);<sup class="reference" id="cite_ref-42"><a href="#cite_note-42">[42]</a></sup> security between task pool and interpreters;<sup class="reference" id="cite_ref-43"><a href="#cite_note-43">[43]</a></sup><sup class="reference" id="cite_ref-44"><a href="#cite_note-44">[44]</a></sup> and resource discovery, load balancing, and fault tolerance when interfaced with Java / Jini Parallel Framework (JJPF),<sup class="reference" id="cite_ref-45"><a href="#cite_note-45">[45]</a></sup> a distributed execution framework. <b>Muskel</b> also provides support for combining structured with unstructured programming<sup class="reference" id="cite_ref-46"><a href="#cite_note-46">[46]</a></sup> and recent research has addressed extensibility.<sup class="reference" id="cite_ref-47"><a href="#cite_note-47">[47]</a></sup></p>
+<h3><span class="mw-headline" id="Mallba">Mallba</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=16" title="Edit section: Mallba">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Mallba</b><sup class="reference" id="cite_ref-48"><a href="#cite_note-48">[48]</a></sup> is a library for combinatorial optimizations supporting exact, heuristic and hybrid search strategies.<sup class="reference" id="cite_ref-49"><a href="#cite_note-49">[49]</a></sup> Each strategy is implemented in Mallba as a generic skeleton which can be used by providing the required code. On the exact search algorithms Mallba provides branch-and-bound and dynamic-optimization skeletons. For local search heuristics Mallba supports: hill climbing, metropolis, simulated annealing, and tabu search; and also population based heuristics derived from evolutionary algorithms such as genetic algorithms, evolution strategy, and others (CHC). The hybrid skeletons combine strategies, such as: GASA, a mixture of genetic algorithm and simulated annealing, and CHCCES which combines CHC and ES.</p>
+<p>The skeletons are provided as a C++ library and are not nestable but type safe. A custom MPI abstraction layer is used, NetStream, which takes care of primitive data type marshalling, synchronization, etc. A skeleton may have multiple lower-level parallel implementations depending on the target architectures: sequential, LAN, and WAN. For example: centralized master-slave, distributed master-slave, etc.</p>
+<p><b>Mallba</b> also provides state variables which hold the state of the search skeleton. The state links the search with the environment, and can be accessed to inspect the evolution of the search and decide on future actions. For example, the state can be used to store the best solution found so far, or α, β values for branch and bound pruning.<sup class="reference" id="cite_ref-50"><a href="#cite_note-50">[50]</a></sup></p>
+<p>Compared with other frameworks, Mallba's usage of skeletons concepts is unique. Skeletons are provided as parametric search strategies rather than parametric parallelization patterns.</p>
+<h3><span class="mw-headline" id="Marrow">Marrow</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=17" title="Edit section: Marrow">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Marrow</b><sup class="reference" id="cite_ref-51"><a href="#cite_note-51">[51]</a></sup><sup class="reference" id="cite_ref-52"><a href="#cite_note-52">[52]</a></sup> is a C++ algorithmic skeleton framework for the orchestration of <a href="/wiki/OpenCL" title="OpenCL">OpenCL</a> computations in, possibly heterogeneous, multi-<a class="mw-redirect" href="/wiki/GPU" title="GPU">GPU</a> environments. It provides a set of both task and data-parallel skeletons that can be composed, through nesting, to build compound computations. The leaf nodes of the resulting composition trees represent the GPU computational kernels, while the remainder nodes denote the skeleton applied to the nested sub-tree. The framework takes upon itself the entire host-side orchestration required to correctly execute these trees in heterogeneous multi-GPU environments, including the proper ordering of the data-transfer and of the execution requests, and the communication required between the tree's nodes.</p>
+<p>Among Marrow's most distinguishable features are a set of skeletons previously unavailable in the GPU context, such as Pipeline and Loop, and the skeleton nesting ability - a feature also new in this context. Moreover, the framework introduces optimizations that overlap communication and computation, hence masking the latency imposed by the <a class="mw-redirect" href="/wiki/PCIe" title="PCIe">PCIe</a> bus.</p>
+<p>The parallel execution of a Marrow composition tree by multiple GPUs follows a data-parallel decomposition strategy, that concurrently applies the entire computational tree to different partitions of the input dataset. Other than expressing which kernel parameters may be decomposed and, when required, defining how the partial results should be merged, the programmer is completely abstracted from the underlying multi-GPU architecture.</p>
+<p>More information, as well as the source code, can be found at the <a class="external text" href="http://docentes.fct.unl.pt/p161/software/marrow-skeleton-framework" rel="nofollow">Marrow website</a></p>
+<h3><span class="mw-headline" id="Muesli">Muesli</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=18" title="Edit section: Muesli">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The Muenster Skeleton Library <b>Muesli</b><sup class="reference" id="cite_ref-53"><a href="#cite_note-53">[53]</a></sup><sup class="reference" id="cite_ref-54"><a href="#cite_note-54">[54]</a></sup> is a C++ template library which re-implements many of the ideas and concepts introduced in <a href="/wiki/Algorithmic_skeleton#Skil" title="Algorithmic skeleton">Skil</a>, e.g. higher order functions, currying, and polymorphic types <a class="external autonumber" href="http://www.wi.uni-muenster.de/pi/forschung/Skeletons/index.html" rel="nofollow">[1]</a>. It is build on top of <a href="/wiki/Message_Passing_Interface" title="Message Passing Interface">MPI</a> 1.2 and <a href="/wiki/OpenMP" title="OpenMP">OpenMP</a> 2.5 and supports, unlike many other skeleton libraries, both task and data parallel skeletons. Skeleton nesting (composition) is similar to the two tier approach of <a href="/wiki/Algorithmic_skeleton#P3L.2C_SkIE.2C_SKElib" title="Algorithmic skeleton">P3L</a>, i.e. task parallel skeletons can be nested arbitrarily while data parallel skeletons cannot, but may be used at the leaves of a task parallel nesting tree.<sup class="reference" id="cite_ref-55"><a href="#cite_note-55">[55]</a></sup> C++ templates are used to render skeletons polymorphic, but no type system is enforced. However, the library implements an automated serialization mechanism inspired by<sup class="reference" id="cite_ref-56"><a href="#cite_note-56">[56]</a></sup> such that, in addition to the standard MPI data types, arbitrary user-defined data types can be used within the skeletons. The supported task parallel skeletons<sup class="reference" id="cite_ref-57"><a href="#cite_note-57">[57]</a></sup> are Branch &amp; Bound,<sup class="reference" id="cite_ref-58"><a href="#cite_note-58">[58]</a></sup> Divide &amp; Conquer,<sup class="reference" id="cite_ref-59"><a href="#cite_note-59">[59]</a></sup><sup class="reference" id="cite_ref-60"><a href="#cite_note-60">[60]</a></sup> Farm,<sup class="reference" id="cite_ref-61"><a href="#cite_note-61">[61]</a></sup><sup class="reference" id="cite_ref-62"><a href="#cite_note-62">[62]</a></sup> and Pipe, auxiliary skeletons are Filter, Final, and Initial. Data parallel skeletons, such as fold (reduce), map, permute, zip, and their variants are implemented as higher order member functions of a distributed data structure. Currently, Muesli supports distributed data structures for arrays, matrices, and sparse matrices.<sup class="reference" id="cite_ref-63"><a href="#cite_note-63">[63]</a></sup></p>
+<p>As a unique feature, Muesli's data parallel skeletons automatically scale both on single- as well as on multi-core, multi-node cluster architectures.<sup class="reference" id="cite_ref-64"><a href="#cite_note-64">[64]</a></sup><sup class="reference" id="cite_ref-65"><a href="#cite_note-65">[65]</a></sup> Here, scalability across nodes and cores is ensured by simultaneously using MPI and OpenMP, respectively. However, this feature is optional in the sense that a program written with Muesli still compiles and runs on a single-core, multi-node cluster computer without changes to the source code, i.e. backward compatibility is guaranteed. This is ensured by providing a very thin OpenMP abstraction layer such that the support of multi-core architectures can be switched on/off by simply providing/omitting the OpenMP compiler flag when compiling the program. By doing so, virtually no overhead is introduced at runtime.</p>
+<h3><span class="mw-headline" id="P3L.2C_SkIE.2C_SKElib">P3L, SkIE, SKElib</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=19" title="Edit section: P3L, SkIE, SKElib">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>P3L</b><sup class="reference" id="cite_ref-66"><a href="#cite_note-66">[66]</a></sup> (Pisa Parallel Programming Language) is a skeleton based coordination language. <b>P3L</b> provides skeleton constructs which are used to coordinate the parallel or sequential execution of C code. A compiler named Anacleto<sup class="reference" id="cite_ref-67"><a href="#cite_note-67">[67]</a></sup> is provided for the language. Anacleto uses implementation templates to compile P3 L code into a target architecture. Thus, a skeleton can have several templates each optimized for a different architecture. A template implements a skeleton on a specific architecture and provides a parametric process graph with a performance model. The performance model can then be used to decide program transformations which can lead to performance optimizations.<sup class="reference" id="cite_ref-68"><a href="#cite_note-68">[68]</a></sup></p>
+<p>A <b>P3L</b> module corresponds to a properly defined skeleton construct with input and output streams, and other sub-modules or sequential C code. Modules can be nested using the two tier model, where the outer level is composed of task parallel skeletons, while data parallel skeletons may be used in the inner level [64]. Type verification is performed at the data flow level, when the programmer explicitly specifies the type of the input and output streams, and by specifying the flow of data between sub-modules.</p>
+<p><b>SkIE</b><sup class="reference" id="cite_ref-69"><a href="#cite_note-69">[69]</a></sup> (Skeleton-based Integrated Environment) is quite similar to <b>P3L</b>, as it is also based on a coordination language, but provides advanced features such as debugging tools, performance analysis, visualization and graphical user interface. Instead of directly using the coordination language, programmers interact with a graphical tool, where parallel modules based on skeletons can be composed.</p>
+<p><b>SKELib</b><sup class="reference" id="cite_ref-70"><a href="#cite_note-70">[70]</a></sup> builds upon the contributions of <b>P3L</b> and <b>SkIE</b> by inheriting, among others, the template system. It differs from them because a coordination language is no longer used, but instead skeletons are provided as a library in C, with performance similar as the one achieved in <b>P3L</b>. Contrary to <b>Skil</b>, another C like skeleton framework, type safety is not addressed in <b>SKELib</b>.</p>
+<h3><span class="mw-headline" id="PAS_and_EPAS">PAS and EPAS</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=20" title="Edit section: PAS and EPAS">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>PAS</b> (Parallel Architectural Skeletons) is a framework for skeleton programming developed in C++ and MPI.<sup class="reference" id="cite_ref-71"><a href="#cite_note-71">[71]</a></sup><sup class="reference" id="cite_ref-72"><a href="#cite_note-72">[72]</a></sup> Programmers use an extension of C++ to write their skeleton applications1 . The code is then passed through a Perl script which expands the code to pure C++ where skeletons are specialized through inheritance.</p>
+<p>In <b>PAS</b>, every skeleton has a Representative (Rep) object which must be provided by the programmer and is in charge of coordinating the skeleton's execution. Skeletons can be nested in a hierarchical fashion via the Rep objects. Besides the skeleton's execution, the Rep also explicitly manages the reception of data from the higher level skeleton, and the sending of data to the sub-skeletons. A parametrized communication/synchronization protocol is used to send and receive data between parent and sub-skeletons.</p>
+<p>An extension of PAS labeled as <b>SuperPas</b><sup class="reference" id="cite_ref-73"><a href="#cite_note-73">[73]</a></sup> and later as <b>EPAS</b><sup class="reference" id="cite_ref-74"><a href="#cite_note-74">[74]</a></sup> addresses skeleton extensibility concerns. With the <b>EPAS</b> tool, new skeletons can be added to <b>PAS</b>. A Skeleton Description Language (SDL) is used to describe the skeleton pattern by specifying the topology with respect to a virtual processor grid. The SDL can then be compiled into native C++ code, which can be used as any other skeleton.</p>
+<h3><span class="mw-headline" id="SBASCO">SBASCO</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=21" title="Edit section: SBASCO">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>SBASCO</b> (<b>Skeleton-BAsed Scientific COmponents</b>) is a programming environment oriented towards efficient development of parallel and distributed numerical applications.<sup class="reference" id="cite_ref-75"><a href="#cite_note-75">[75]</a></sup> <b>SBASCO</b> aims at integrating two programming models: skeletons and components with a custom composition language. An application view of a component provides a description of its interfaces (input and output type); while a configuration view provides, in addition, a description of the component's internal structure and processor layout. A component's internal structure can be defined using three skeletons: farm, pipe and multi-block.</p>
+<p><b>SBASCO'</b>s addresses domain decomposable applications through its multi-block skeleton. Domains are specified through arrays (mainly two dimensional), which are decomposed into sub-arrays with possible overlapping boundaries. The computation then takes place in an iterative BSP like fashion. The first stage consists of local computations, while the second stage performs boundary exchanges. A use case is presented for a reaction-diffusion problem in.<sup class="reference" id="cite_ref-76"><a href="#cite_note-76">[76]</a></sup></p>
+<p>Two type of components are presented in.<sup class="reference" id="cite_ref-77"><a href="#cite_note-77">[77]</a></sup> Scientific Components (SC) which provide the functional code; and Communication Aspect Components (CAC) which encapsulate non-functional behavior such as communication, distribution processor layout and replication. For example, SC components are connected to a CAC component which can act as a manager at runtime by dynamically re-mapping processors assigned to a SC. A use case showing improved performance when using CAC components is shown in.<sup class="reference" id="cite_ref-78"><a href="#cite_note-78">[78]</a></sup></p>
+<h3><span class="mw-headline" id="SCL">SCL</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=22" title="Edit section: SCL">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <b>Structured Coordination Language</b> (<b>SCL</b>)<sup class="reference" id="cite_ref-79"><a href="#cite_note-79">[79]</a></sup> was one of the earliest skeleton programming languages. It provides a co-ordination language approach for skeleton programming over software components. SCL is considered a base language, and was designed to be integrated with a host language, for example Fortran or C, used for developing sequential software components. In <b>SCL</b>, skeletons are classified into three types: <b>configuration</b>, <b>elementary</b> and <b>computation</b>. Configuration skeletons abstract patterns for commonly used data structures such as distributed arrays (ParArray). Elementary skeletons correspond to data parallel skeletons such as map, scan, and fold. Computation skeletons which abstract the control flow and correspond mainly to task parallel skeletons such as farm, SPMD, and iterateUntil. The coordination language approach was used in conjunction with performance models for programming traditional parallel machines as well as parallel heterogeneous machines that have different multiple cores on each processing node.<sup class="reference" id="cite_ref-80"><a href="#cite_note-80">[80]</a></sup></p>
+<h3><span class="mw-headline" id="SkePU">SkePU</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=23" title="Edit section: SkePU">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>SkePU</b><sup class="reference" id="cite_ref-81"><a href="#cite_note-81">[81]</a></sup> SkePU is a skeleton programming framework for multicore CPUs and multi-GPU systems. It is a C++ template library with six data-parallel and one task-parallel skeletons, two container types, and support for execution on multi-GPU systems both with CUDA and OpenCL. Recently, support for hybrid execution, performance-aware dynamic scheduling and load balancing is developed in SkePU by implementing a backend for the StarPU runtime system. SkePU is being extended for GPU clusters.</p>
+<h3><span class="mw-headline" id="SKiPPER_.26_QUAFF">SKiPPER &amp; QUAFF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=24" title="Edit section: SKiPPER &amp; QUAFF">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>SKiPPER</b> is a domain specific skeleton library for vision applications<sup class="reference" id="cite_ref-82"><a href="#cite_note-82">[82]</a></sup> which provides skeletons in CAML, and thus relies on CAML for type safety. Skeletons are presented in two ways: declarative and operational. Declarative skeletons are directly used by programmers, while their operational versions provide an architecture specific target implementation. From the runtime environment, CAML skeleton specifications, and application specific functions (provided in C by the programmer), new C code is generated and compiled to run the application on the target architecture. One of the interesting things about <b>SKiPPER</b> is that the skeleton program can be executed sequentially for debugging.</p>
+<p>Different approaches have been explored in <b>SKiPPER</b> for writing operational skeletons: static data-flow graphs, parametric process networks, hierarchical task graphs, and tagged-token data-flow graphs.<sup class="reference" id="cite_ref-83"><a href="#cite_note-83">[83]</a></sup></p>
+<p><b>QUAFF</b><sup class="reference" id="cite_ref-84"><a href="#cite_note-84">[84]</a></sup> is a more recent skeleton library written in C++ and MPI. QUAFF relies on template-based meta-programming techniques to reduce runtime overheads and perform skeleton expansions and optimizations at compilation time. Skeletons can be nested and sequential functions are stateful. Besides type checking, QUAFF takes advantage of C++ templates to generate, at compilation time, new C/MPI code. QUAFF is based on the CSP-model, where the skeleton program is described as a process network and production rules (single, serial, par, join).<sup class="reference" id="cite_ref-85"><a href="#cite_note-85">[85]</a></sup></p>
+<h3><span class="mw-headline" id="SkeTo">SkeTo</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=25" title="Edit section: SkeTo">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <b>SkeTo</b><sup class="reference" id="cite_ref-86"><a href="#cite_note-86">[86]</a></sup> project is a C++ library which achieves parallelization using MPI. SkeTo is different from other skeleton libraries because instead of providing nestable parallelism patterns, SkeTo provides parallel skeletons for parallel data structures such as: lists, trees,<sup class="reference" id="cite_ref-87"><a href="#cite_note-87">[87]</a></sup><sup class="reference" id="cite_ref-88"><a href="#cite_note-88">[88]</a></sup> and matrices.<sup class="reference" id="cite_ref-89"><a href="#cite_note-89">[89]</a></sup> The data structures are typed using templates, and several parallel operations can be invoked on them. For example, the list structure provides parallel operations such as: map, reduce, scan, zip, shift, etc...</p>
+<p>Additional research around SkeTo has also focused on optimizations strategies by transformation, and more recently domain specific optimizations.<sup class="reference" id="cite_ref-90"><a href="#cite_note-90">[90]</a></sup> For example, <b>SkeTo</b> provides a fusion transformation<sup class="reference" id="cite_ref-91"><a href="#cite_note-91">[91]</a></sup> which merges two successive function invocations into a single one, thus decreasing the function call overheads and avoiding the creation of intermediate data structures passed between functions.</p>
+<h3><span class="mw-headline" id="Skil">Skil</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=26" title="Edit section: Skil">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>Skil</b><sup class="reference" id="cite_ref-92"><a href="#cite_note-92">[92]</a></sup> is an imperative language for skeleton programming. Skeletons are not directly part of the language but are implemented with it. <b>Skil</b> uses a subset of C language which provides functional language like features such as higher order functions, curring and polymorphic types. When <b>Skil</b> is compiled, such features are eliminated and a regular C code is produced. Thus, <b>Skil</b> transforms polymorphic high order functions into monomorphic first order C functions. <b>Skil</b> does not support nestable composition of skeletons. Data parallelism is achieved using specific data parallel structures, for example to spread arrays among available processors. Filter skeletons can be used.</p>
+<h3><span class="mw-headline" id="STAPL_Skeleton_Framework">STAPL Skeleton Framework</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=27" title="Edit section: STAPL Skeleton Framework">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <b>STAPL Skeleton Framework</b> <sup class="reference" id="cite_ref-93"><a href="#cite_note-93">[93]</a></sup> skeletons are defined as parametric data flow graphs, letting them scale beyond 100,000 cores. In addition, this framework addresses composition of skeletons as point-to-point composition of their corresponding data flow graphs through the notion of ports, allowing new skeletons to be easily added to the framework. As a result, this framework eliminate the need for reimplementation and global synchronizations in composed skeletons. <b>STAPL Skeleton Framework</b> supports nested composition and can switch between parallel and sequential execution in each level of nesting. This framework benefits from scalable implementation of STAPL parallel containers <sup class="reference" id="cite_ref-94"><a href="#cite_note-94">[94]</a></sup> and can run skeletons on various containers including vectors, multidimensional arrays, and lists.</p>
+<h3><span class="mw-headline" id="T4P">T4P</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=28" title="Edit section: T4P">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>T4P</b> was one of the first systems introduced for skeleton programming.<sup class="reference" id="cite_ref-95"><a href="#cite_note-95">[95]</a></sup> The system relied heavily on functional programming properties, and five skeletons were defined as higher order functions: Divide-and-Conquer, Farm, Map, Pipe and RaMP. A program could have more than one implementation, each using a combination of different skeletons. Furthermore, each skeleton could have different parallel implementations. A methodology based on functional program transformations guided by performance models of the skeletons was used to select the most appropriate skeleton to be used for the program as well as the most appropriate implementation of the skeleton.<sup class="reference" id="cite_ref-96"><a href="#cite_note-96">[96]</a></sup></p>
+<h2><span class="mw-headline" id="Frameworks_comparison">Frameworks comparison</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=29" title="Edit section: Frameworks comparison">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><b>Activity years</b> is the known activity years span. The dates represented in this column correspond to the first and last publication date of a related article in a scientific journal or conference proceeding. Note that a project may still be active beyond the activity span, and that we have failed to find a publication for it beyond the given date.</li>
+<li><b>Programming language</b> is the interface with which programmers interact to code their skeleton applications. These languages are diverse, encompassing paradigms such as: functional languages, coordination languages, markup languages, imperative languages, object oriented languages, and even graphical user interfaces. Inside the programming language, skeletons have been provided either as language constructs or libraries. Providing skeletons as language construct implies the development of a custom domain specific language and its compiler. This was clearly the stronger trend at the beginning of skeleton research. The more recent trend is to provide skeletons as libraries, in particular with object oriented languages such as C++ and Java.</li>
+<li><b>Execution language</b> is the language in which the skeleton applications are run or compiled. It was recognized very early that the programming languages (specially in the functional cases), were not efficient enough to execute the skeleton programs. Therefore, skeleton programming languages were simplified by executing skeleton application on other languages. Transformation processes were introduced to convert the skeleton applications (defined in the programming language) into an equivalent application on the target execution language. Different transformation processes were introduced, such as code generation or instantiation of lowerlevel skeletons (sometimes called operational skeletons) which were capable of interacting with a library in the execution language. The transformed application also gave the opportunity to introduce target architecture code, customized for performance, into the transformed application. Table 1 shows that a favorite for execution language has been the C language.</li>
+<li><b>Distribution library</b> provides the functionality to achieve parallel/distributed computations. The big favorite in this sense has been MPI, which is not surprising since it integrates well with the C language, and is probably the most used tool for parallelism in cluster computing. The dangers of directly programming with the distribution library are, of course, safely hidden away from the programmers who never interact with the distribution library. Recently, the trend has been to develop skeleton frameworks capable of interacting with more than one distribution library. For example, CO2 P3 S can use Threads, RMI or Sockets; Mallba can use Netstream or MPI; or JaSkel which uses AspectJ to execute the skeleton applications on different skeleton frameworks.</li>
+<li><b>Type safety</b> refers to the capability of detecting type incompatibility errors in skeleton program. Since the first skeleton frameworks were built on functional languages such as Haskell, type safety was simply inherited from the host language. Nevertheless, as custom languages were developed for skeleton programming, compilers had to be written to take type checking into consideration; which was not as difficult as skeleton nesting was not fully supported. Recently however, as we began to host skeleton frameworks on object oriented languages with full nesting, the type safety issue has resurfaced. Unfortunately, type checking has been mostly overlooked (with the exception of QUAFF), and specially in Java based skeleton frameworks.</li>
+<li><b>Skeleton nesting</b> is the capability of hierarchical composition of skeleton patterns. Skeleton Nesting was identified as an important feature in skeleton programming from the very beginning, because it allows the composition of more complex patterns starting from a basic set of simpler patterns. Nevertheless, it has taken the community a long time to fully support arbitrary nesting of skeletons, mainly because of the scheduling and type verification difficulties. The trend is clear that recent skeleton frameworks support full nesting of skeletons.</li>
+<li><b>File access</b> is the capability to access and manipulate files from an application. In the past, skeleton programming has proven useful mostly for computational intensive applications, where small amounts of data require big amounts of computation time. Nevertheless, many distributed applications require or produce large amounts of data during their computation. This is the case for astrophysics, particle physics, bio-informatics, etc. Thus, providing file transfer support that integrates with skeleton programming is a key concern which has been mostly overlooked.</li>
+<li><b>Skeleton set</b> is the list of supported skeleton patterns. Skeleton sets vary greatly from one framework to the other, and more shocking, some skeletons with the same name have different semantics on different frameworks. The most common skeleton patterns in the literature are probably farm, pipe, and map.</li>
+</ul>
+<table border="1" class="wikitable">
+<caption>Non-object oriented algorithmic skeleton frameworks</caption>
+<tr>
+<th></th>
+<th>Activity years</th>
+<th>Programming language</th>
+<th>Execution language</th>
+<th>Distribution library</th>
+<th>Type safe</th>
+<th>Skeleton nesting</th>
+<th>File access</th>
+<th>Skeleton set</th>
+</tr>
+<tr>
+<td>ASSIST</td>
+<td>2004–2007</td>
+<td>Custom control language</td>
+<td>C++</td>
+<td>TCP/IP + ssh/scp</td>
+<td>yes</td>
+<td>no</td>
+<td>explicit</td>
+<td>seq, parmod</td>
+</tr>
+<tr>
+<td>SBSACO</td>
+<td>2004–2006</td>
+<td>Custom composition language</td>
+<td>C++</td>
+<td>MPI</td>
+<td>yes</td>
+<td>yes</td>
+<td>no</td>
+<td>farm, pipe, multi-block</td>
+</tr>
+<tr>
+<td>eSkel</td>
+<td>2004–2005</td>
+<td>C</td>
+<td>C</td>
+<td>MPI</td>
+<td>no</td>
+<td> ?</td>
+<td>no</td>
+<td>pipeline, farm, deal, butterfly, hallowSwap</td>
+</tr>
+<tr>
+<td>HDC</td>
+<td>2004–2005</td>
+<td>Haskell subset</td>
+<td>C</td>
+<td>MPI</td>
+<td>yes</td>
+<td> ?</td>
+<td>no</td>
+<td>dcA, dcB, dcD, dcE, dcF, map, red, scan, filter</td>
+</tr>
+<tr>
+<td>SKELib</td>
+<td>2000-2000</td>
+<td>C</td>
+<td>C</td>
+<td>MPI</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>farm, pipe</td>
+</tr>
+<tr>
+<td>SkiPPER</td>
+<td>1999–2002</td>
+<td>CAML</td>
+<td>C</td>
+<td>SynDex</td>
+<td>yes</td>
+<td>limited</td>
+<td>no</td>
+<td>scm, df, tf, intermem</td>
+</tr>
+<tr>
+<td>SkIE</td>
+<td>1999-1999</td>
+<td>GUI/Custom control language</td>
+<td>C++</td>
+<td>MPI</td>
+<td>yes</td>
+<td>limited</td>
+<td>no</td>
+<td>pipe, farm, map, reduce, loop</td>
+</tr>
+<tr>
+<td>Eden</td>
+<td>1997–2011</td>
+<td>Haskell extension</td>
+<td>Haskell</td>
+<td>PVM/MPI</td>
+<td>yes</td>
+<td>yes</td>
+<td>no</td>
+<td>map, farm, workpool, nr, dc, pipe, iterUntil, torus, ring</td>
+</tr>
+<tr>
+<td>P3L</td>
+<td>1995–1998</td>
+<td>Custom control language</td>
+<td>C</td>
+<td>MPI</td>
+<td>yes</td>
+<td>limited</td>
+<td>no</td>
+<td>map, reduce, scan, comp, pipe, farm, seq, loop</td>
+</tr>
+<tr>
+<td>Skil</td>
+<td>1995–1998</td>
+<td>C subset</td>
+<td>C</td>
+<td> ?</td>
+<td>yes</td>
+<td>no</td>
+<td>no</td>
+<td>pardata, map, fold</td>
+</tr>
+<tr>
+<td>SCL</td>
+<td>1994–1999</td>
+<td>Custom control language</td>
+<td>Fortran/C</td>
+<td>MPI</td>
+<td>yes</td>
+<td>limited</td>
+<td>no</td>
+<td>map, scan, fold, farm, SPMD, iterateUntil</td>
+</tr>
+<tr>
+<td>T4P</td>
+<td>1990–1994</td>
+<td>Hope+</td>
+<td>Hope+</td>
+<td>CSTools</td>
+<td>yes</td>
+<td>limited</td>
+<td>no</td>
+<td>D&amp;C (Divide-and-Conquer), Map, Pipe, RaMP</td>
+</tr>
+</table>
+<table border="1" class="wikitable">
+<caption>Object oriented algorithmic skeleton frameworks</caption>
+<tr>
+<th></th>
+<th>Activity years</th>
+<th>Programming language</th>
+<th>Execution language</th>
+<th>Distribution library</th>
+<th>Type safe</th>
+<th>Skeleton nesting</th>
+<th>File access</th>
+<th>Skeleton set</th>
+</tr>
+<tr>
+<td>Skandium</td>
+<td>2009–2012</td>
+<td>Java</td>
+<td>Java</td>
+<td>Threads</td>
+<td>yes</td>
+<td>yes</td>
+<td>no</td>
+<td>seq, pipe, farm, for, while, map, d&amp;c, fork</td>
+</tr>
+<tr>
+<td>FastFlow</td>
+<td>2009–</td>
+<td>C++</td>
+<td>C++11 / CUDA / OpenCL</td>
+<td>C++11 threads / Posix threads / TCP-IP / OFED-IB / CUDA / OpenCL</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>Pipeline, Farm, ParallelFor, ParallelForReduce, MapReduce, StencilReduce, PoolEvolution, MacroDataFlow</td>
+</tr>
+<tr>
+<td>Calcium</td>
+<td>2006–2008</td>
+<td>Java</td>
+<td>Java</td>
+<td>ProActive</td>
+<td>yes</td>
+<td>yes</td>
+<td>yes</td>
+<td>seq, pipe, farm, for, while, map, d&amp;c, fork</td>
+</tr>
+<tr>
+<td>QUAFF</td>
+<td>2006–2007</td>
+<td>C++</td>
+<td>C</td>
+<td>MPI</td>
+<td>yes</td>
+<td>yes</td>
+<td>no</td>
+<td>seq, pipe, farm, scm, pardo</td>
+</tr>
+<tr>
+<td>JaSkel</td>
+<td>2006–2007</td>
+<td>Java</td>
+<td>Java/AspectJ</td>
+<td>MPP / RMI</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>farm, pipeline, heartbeat</td>
+</tr>
+<tr>
+<td>Muskel</td>
+<td>2005–2008</td>
+<td>Java</td>
+<td>Java</td>
+<td>RMI</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>farm, pipe, seq, + custom MDF Graphs</td>
+</tr>
+<tr>
+<td>HOC-SA</td>
+<td>2004–2008</td>
+<td>Java</td>
+<td>Java</td>
+<td>Globus, KOALA</td>
+<td>no</td>
+<td>no</td>
+<td>no</td>
+<td>farm, pipeline, wavefront</td>
+</tr>
+<tr>
+<td>SkeTo</td>
+<td>2003–2013</td>
+<td>C++</td>
+<td>C++</td>
+<td>MPI</td>
+<td>yes</td>
+<td>no</td>
+<td>no</td>
+<td>list, matrix, tree</td>
+</tr>
+<tr>
+<td>Mallba</td>
+<td>2002–2007</td>
+<td>C++</td>
+<td>C++</td>
+<td>NetStream / MPI</td>
+<td>yes</td>
+<td>no</td>
+<td>no</td>
+<td>exact, heuristic, hybrid</td>
+</tr>
+<tr>
+<td>Marrow</td>
+<td>2013-</td>
+<td>C++</td>
+<td>C++ plus OpenCL</td>
+<td>(none)</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>data parallel: map, map-reduce. task parallel: pipeline, loop, for</td>
+</tr>
+<tr>
+<td>Muesli</td>
+<td>2002–2013</td>
+<td>C++</td>
+<td>C++</td>
+<td>MPI / OpenMP</td>
+<td>yes</td>
+<td>yes</td>
+<td>no</td>
+<td>data parallel: fold, map, permute, scan, zip, and variants. task parallel: branch &amp; bound, divide &amp; conquer, farm, pipe. auxiliary: filter, final, initial</td>
+</tr>
+<tr>
+<td>Alt</td>
+<td>2002–2003</td>
+<td>Java/GworkflowDL</td>
+<td>Java</td>
+<td>Java RMI</td>
+<td>yes</td>
+<td>no</td>
+<td>no</td>
+<td>map, zip, reduction, scan, dh, replicate, apply, sort</td>
+</tr>
+<tr>
+<td>(E)PAS</td>
+<td>1999–2005</td>
+<td>C++ extension</td>
+<td>C++</td>
+<td>MPI</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>singleton, replication, compositional, pipeline, divideconquer, dataparallel</td>
+</tr>
+<tr>
+<td>Lithium</td>
+<td>1999–2004</td>
+<td>Java</td>
+<td>Java</td>
+<td>RMI</td>
+<td>no</td>
+<td>yes</td>
+<td>no</td>
+<td>pipe, map, farm, reduce</td>
+</tr>
+<tr>
+<td>CO2P3S</td>
+<td>1999–2003</td>
+<td>GUI/Java</td>
+<td>Java (generated)</td>
+<td>Threads / RMI / Sockets</td>
+<td>partial</td>
+<td>no</td>
+<td>no</td>
+<td>method-sequence, distributor, mesh, wavefront</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit&amp;section=30" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><i>K. Hammond and G. Michelson, editors.</i> "Research Directions in Parallel Functional Programming." Springer-Verlag, London, UK, 1999.</span></li>
+<li id="cite_note-cole_thesis-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-cole_thesis_2-0">^</a></b></span> <span class="reference-text"><i>Murray Cole.</i> "Algorithmic Skeletons: structured management of parallel computation" MIT Press, Cambdridge, MA, USA, 1989</span></li>
+<li id="cite_note-survey_2010-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-survey_2010_3-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Horacio González-Vélez and Mario Leyton (November–December 2010). <a class="external text" href="http://onlinelibrary.wiley.com/doi/10.1002/spe.1026/abstract" rel="nofollow">"A survey of algorithmic skeleton frameworks: high-level structured parallel programming enablers"</a>. <i>Software: Practice and Experience</i>. <b>40</b> (12): 1135–1160. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1002%2Fspe.1026" rel="nofollow">10.1002/spe.1026</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=A+survey+of+algorithmic+skeleton+frameworks%3A+high-level+structured+parallel+programming+enablers&amp;rft.date=2010-11%2F2010-12&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Fspe.1026%2Fabstract&amp;rft_id=info%3Adoi%2F10.1002%2Fspe.1026&amp;rft.issue=12&amp;rft.jtitle=Software%3A+Practice+and+Experience&amp;rft.pages=1135-1160&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=40"><span style="display:none;"> </span></span> <span class="citation-comment" style="display:none; color:#33aa33">CS1 maint: Uses authors parameter (<a href="/wiki/Category:CS1_maint:_Uses_authors_parameter" title="Category:CS1 maint: Uses authors parameter">link</a>)</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation journal">Vanneschi, M. (2002). "The programming model of ASSIST, an environment for parallel and distributed portable applications". <i>Parallel Computing</i>. <b>28</b> (12): 1709–1732. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2FS0167-8191%2802%2900188-6" rel="nofollow">10.1016/S0167-8191(02)00188-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=The+programming+model+of+ASSIST%2C+an+environment+for+parallel+and+distributed+portable+applications&amp;rft.aufirst=M.&amp;rft.aulast=Vanneschi&amp;rft.date=2002&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2FS0167-8191%2802%2900188-6&amp;rft.issue=12&amp;rft.jtitle=Parallel+Computing&amp;rft.pages=1709-1732&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=28"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-assist_CMST2006-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-assist_CMST2006_5-0">^</a></b></span> <span class="reference-text"><i>M. Aldinucci, M. Coppola, M. Danelutto, N. Tonellotto, M. Vanneschi, and C. Zoccolo.</i> "High level grid programming with ASSIST." Computational Methods in Science and Technology, 12(1):21–32, 2006.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">M. Aldinucci and M. Torquati. Accelerating apache farms through ad hoc distributed scalable object repository. In Proc. of 10th Intl. Euro-Par 2004 Parallel Processing, volume 3149 of LNCS, pages 596–605. Springer, 2004.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation book">Aldinucci, M.; Danelutto, M.; Antoniu, G.; Jan, M. (2008). "Fault-Tolerant Data Sharing for High-level Grid: A Hierarchical Storage Architecture". <i>Achievements in European Research on Grid Systems</i>. p. 67. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2F978-0-387-72812-4_6" rel="nofollow">10.1007/978-0-387-72812-4_6</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-387-72811-7" title="Special:BookSources/978-0-387-72811-7">978-0-387-72811-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Fault-Tolerant+Data+Sharing+for+High-level+Grid%3A+A+Hierarchical+Storage+Architecture&amp;rft.au=Antoniu%2C+G.&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=M.&amp;rft.au=Jan%2C+M.&amp;rft.aulast=Aldinucci&amp;rft.btitle=Achievements+in+European+Research+on+Grid+Systems&amp;rft.date=2008&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1007%2F978-0-387-72812-4_6&amp;rft.isbn=978-0-387-72811-7&amp;rft.pages=67&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">'S. MacDonald, J. Anvik, S. Bromling, J. Schaeffer, D. Szafron, and K. Tan.' "From patterns to frameworks to parallel programs." Parallel Comput., 28(12):1663–1683, 2002.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><i>K. Tan, D. Szafron, J. Schaeffer, J. Anvik, and S. MacDonald.</i> "Using generative design patterns to generate parallel code for a distributed memory environment." In PPoPP ’03: Proceedings of the ninth ACM SIGPLAN symposium on Principles and practice of parallel programming, pages 203–215, New York, NY, USA, 2003. ACM.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><i>D. Caromel and M. Leyton.</i> "Fine tuning algorithmic skeletons." In 13th International Euro-Par Conference: Parallel Processing, volume 4641 of Lecture Notes in Computer Science, pages 72–81. Springer-Verlag, 2007.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><i>D. Caromel, L. Henrio, and M. Leyton.</i> "Type safe algorithmic skeletons." In Proceedings of the 16th Euromicro Conference on Parallel, Distributed and Network-based Processing, pages 45–53, Toulouse, France, Feb. 2008. IEEE CS Press.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><i>D. Caromel and M. Leyton.</i> "A transparent non-invasive file data model for algorithmic skeletons." In 22nd International Parallel and Distributed Processing Symposium (IPDPS), pages 1–8, Miami, USA, March 2008. IEEE Computer Society.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><i>Mario Leyton, Jose M. Piquer.</i> "Skandium: Multi-core Programming with algorithmic skeletons", IEEE Euro-micro PDP 2010.</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><i>Rita Loogen and Yolanda Ortega-Mallén and Ricardo Peña-Marí.</i> "Parallel Functional Programming in Eden", Journal of Functional Programming, No. 15(2005),3, pages 431-475</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><i>Murray Cole.</i> "Bringing skeletons out of the closet: a pragmatic manifesto for skeletal parallel programming." Parallel Computing, 30(3):389–406, 2004.</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><i>A. Benoit, M. Cole, S. Gilmore, and J. Hillston.</i> "Flexible skeletal programming with eskel." In J. C. Cunha and P. D. Medeiros, editors, Euro-Par, volume 3648 of Lecture Notes in Computer Science, pages 761–770. Springer, 2005.</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><i>A. Benoit and M. Cole.</i> "Two fundamental concepts in skeletal parallel programming." In V. Sunderam, D. van Albada, P. Sloot, and J. Dongarra, editors, The International Confer-ence on Computational Science (ICCS 2005), Part II, LNCS 3515, pages 764–771. Springer Verlag, 2005.</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><i>A. Benoit, M. Cole, S. Gilmore, and J. Hillston.</i> Evaluating the performance of skeleton-based high level parallel programs. In M. Bubak, D. van Albada, P. Sloot, and J. Dongarra, editors, The International Conference on Computational Science (ICCS 2004), Part III, LNCS 3038, pages 289–296. Springer Verlag, 2004.</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><i>A. Benoit, M. Cole, S. Gilmore, and J. Hillston.</i> "Evaluating the performance of pipeline structured parallel programs with skeletons and process algebra." Scalable Computing: Practice and Experience, 6(4):1–16, December 2005.</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><i>A. Benoit, M. Cole, S. Gilmore, and J. Hillston.</i> "Scheduling skeleton-based grid applications using pepa and nws." The Computer Journal, Special issue on Grid Performability Modelling and Measurement, 48(3):369–378, 2005.</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><i>A. Benoit and Y. Robert.</i> "Mapping pipeline skeletons onto heterogeneous platforms." In ICCS’2007, the 7th International Conference on Computational Science, LNCS 4487, pages 591–598. Springer Verlag, 2007.</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><i>G. Yaikhom, M. Cole, S. Gilmore, and J. Hillston.</i> "A structural approach for modelling performance of systems using skeletons." Electr. Notes Theor. Comput. Sci., 190(3):167–183,2007.</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><i>H. Gonzalez-Velez and M. Cole</i>. "Towards fully adaptive pipeline parallelism for heterogeneous distributed environments." In Parallel and Distributed Processing and Applications, 4th International Symposium (ISPA), Lecture Notes in Computer Science, pages 916–926. Springer-Verlag, 2006.</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><i>H. Gonzalez-Velez and M. Cole.</i> "Adaptive structured parallelism for computational grids." In PPoPP ’07: Proceedings of the 12th ACM SIGPLAN symposium on Principles and practice of parallel programming, pages 140–141, New York, NY, USA, 2007. ACM.</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><cite class="citation conference">Aldinucci, M.; Campa, S.; Danelutto, M.; Kilpatrick, P.; Torquati, M. (2013). <i>Targeting Distributed Systems in FastFlow</i>. Euro-Par 2012: Parallel Processing Workshops. Lecture Notes in Computer Science. p. 47. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2F978-3-642-36949-0_7" rel="nofollow">10.1007/978-3-642-36949-0_7</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-642-36948-3" title="Special:BookSources/978-3-642-36948-3">978-3-642-36948-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.au=Campa%2C+S.&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=M.&amp;rft.au=Kilpatrick%2C+P.&amp;rft.aulast=Aldinucci&amp;rft.au=Torquati%2C+M.&amp;rft.btitle=Targeting+Distributed+Systems+in+FastFlow&amp;rft.date=2013&amp;rft.genre=conference&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-642-36949-0_7&amp;rft.isbn=978-3-642-36948-3&amp;rft.pages=47&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation conference">Aldinucci, M.; Spampinato, C.; Drocco, M.; Torquati, M.; Palazzo, S. (2012). <i>A parallel edge preserving algorithm for salt and pepper image denoising</i>. 3rd International Conference on Image Processing Theory, Tools and Applications (IPTA). p. 97. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FIPTA.2012.6469567" rel="nofollow">10.1109/IPTA.2012.6469567</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.au=Drocco%2C+M.&amp;rft.aufirst=M.&amp;rft.aulast=Aldinucci&amp;rft.au=Palazzo%2C+S.&amp;rft.au=Spampinato%2C+C.&amp;rft.au=Torquati%2C+M.&amp;rft.btitle=A+parallel+edge+preserving+algorithm+for+salt+and+pepper+image+denoising&amp;rft.date=2012&amp;rft.genre=conference&amp;rft_id=info%3Adoi%2F10.1109%2FIPTA.2012.6469567&amp;rft.pages=97&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation conference">Aldinucci, M.; Danelutto, M.; Kilpatrick, P.; Meneghin, M.; Torquati, M. (2012). <i>An Efficient Unbounded Lock-Free Queue for Multi-core Systems</i>. Euro-Par 2012 Parallel Processing. Lecture Notes in Computer Science. p. 662. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2F978-3-642-32820-6_65" rel="nofollow">10.1007/978-3-642-32820-6_65</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-642-32819-0" title="Special:BookSources/978-3-642-32819-0">978-3-642-32819-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=M.&amp;rft.au=Kilpatrick%2C+P.&amp;rft.aulast=Aldinucci&amp;rft.au=Meneghin%2C+M.&amp;rft.au=Torquati%2C+M.&amp;rft.btitle=An+Efficient+Unbounded+Lock-Free+Queue+for+Multi-core+Systems&amp;rft.date=2012&amp;rft.genre=conference&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-642-32820-6_65&amp;rft.isbn=978-3-642-32819-0&amp;rft.pages=662&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation book">Aldinucci, M.; Meneghin, M.; Torquati, M. (2010). "Efficient Smith-Waterman on Multi-core with Fast <i>Flow</i>". <i>2010 18th Euromicro Conference on Parallel, Distributed and Network-based Processing</i>. IEEE. p. 195. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FPDP.2010.93" rel="nofollow">10.1109/PDP.2010.93</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1-4244-5672-7" title="Special:BookSources/978-1-4244-5672-7">978-1-4244-5672-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Efficient+Smith-Waterman+on+Multi-core+with+Fast+Flow&amp;rft.aufirst=M.&amp;rft.aulast=Aldinucci&amp;rft.au=Meneghin%2C+M.&amp;rft.au=Torquati%2C+M.&amp;rft.btitle=2010+18th+Euromicro+Conference+on+Parallel%2C+Distributed+and+Network-based+Processing&amp;rft.date=2010&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FPDP.2010.93&amp;rft.isbn=978-1-4244-5672-7&amp;rft.pages=195&amp;rft.pub=IEEE&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><i>C. A. Herrmann and C. Lengauer.</i> "HDC: A higher-order language for divide-and-conquer." Parallel Processing Letters, 10(2–3):239–250, 2000.</span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><i>C. A. Herrmann.</i> The Skeleton-Based Parallelization of Divide-and-Conquer Recursions. PhD thesis, 2000. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/3897225565">ISBN 3-89722-556-5</a>.".</span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><i>J. Dünnweber, S. Gorlatch.</i> "Higher-Order Components for Grid Programming. Making Grids More Usable. ". Springer-Verlag, 2009. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/9783642008405">ISBN 978-3-642-00840-5</a></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><i>J. F. Ferreira, J. L. Sobral, and A. J. Proenca.</i> "Jaskel: A java skeleton-based framework for structured cluster and grid computing". In CCGRID ’06: Proceedings of the Sixth IEEE International Symposium on Cluster Computing and the Grid, pages 301–304, Washington, DC, USA, 2006. IEEE Computer Society.</span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><i>J. Sobral and A. Proenca.</i> "Enabling jaskel skeletons for clusters and computational grids." In IEEE Cluster. IEEE Press, 9 2007.</span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><i>M. Aldinucci and M. Danelutto.</i> "Stream parallel skeleton optimization." In Proc. of PDCS: Intl. Conference on Parallel and Distributed Computing and Systems, pages 955–962, Cambridge, Massachusetts, USA, Nov. 1999. IASTED, ACTA press.</span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><cite class="citation journal">Aldinucci, M.; Danelutto, M.; Teti, P. (2003). "An advanced environment supporting structured parallel programming in Java". <i>Future Generation Computer Systems</i>. <b>19</b> (5): 611. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2FS0167-739X%2802%2900172-3" rel="nofollow">10.1016/S0167-739X(02)00172-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=An+advanced+environment+supporting+structured+parallel+programming+in+Java&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=M.&amp;rft.aulast=Aldinucci&amp;rft.au=Teti%2C+P.&amp;rft.date=2003&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2FS0167-739X%2802%2900172-3&amp;rft.issue=5&amp;rft.jtitle=Future+Generation+Computer+Systems&amp;rft.pages=611&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=19"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><i>M. Danelutto and P. Teti.</i> "Lithium: A structured parallel programming environment in Java." In Proc. of ICCS: International Conference on Computational Science, volume 2330 of LNCS, pages 844–853. Springer Verlag, Apr. 2002.</span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><i>M. Aldinucci and M. Danelutto.</i> "An operational semantics for skeletons." In G. R. Joubert, W. E. Nagel, F. J. Peters, and W. V. Walter, editors, Parallel Computing: Software Technology, Algorithms, Architectures and Applications, PARCO 2003, volume 13 of Advances in Parallel Computing, pages 63–70, Dresden, Germany, 2004. Elsevier.</span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation journal">Aldinucci, M.; Danelutto, M. (2007). "Skeleton-based parallel programming: Functional and parallel semantics in a single shot☆". <i>Computer Languages, Systems &amp; Structures</i>. <b>33</b> (3-4): 179. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2Fj.cl.2006.07.004" rel="nofollow">10.1016/j.cl.2006.07.004</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Skeleton-based+parallel+programming%3A+Functional+and+parallel+semantics+in+a+single+shot%98%86&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=M.&amp;rft.aulast=Aldinucci&amp;rft.date=2007&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.cl.2006.07.004&amp;rft.issue=3-4&amp;rft.jtitle=Computer+Languages%2C+Systems+%26+Structures&amp;rft.pages=179&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=33"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><i>M. Aldinucci, M. Danelutto, and J. Dünnweber.</i> "Optimization techniques for implementing parallel skeletons in grid environments." In S. Gorlatch, editor, Proc. of CMPP: Intl. Workshop on Constructive Methods for Parallel Programming, pages 35–47, Stirling, Scotland, UK, July 2004. Universit ̈t Munster, Germany.</span></li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><i>M. Danelutto</i>. Efficient support for skeletons on workstation clusters. Parallel Processing Letters, 11(1):41–56, 2001.</span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text">M. Danelutto. "Dynamic run time support for skeletons." Technical report, 1999.</span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><i>M. Danelutto.</i> "Qos in parallel programming through application managers." In PDP ’05: Proceedings of the 13th Euromicro Conference on Parallel, Distributed and Network-Based Processing (PDP’05), pages 282–289, Washington, DC, USA, 2005. IEEE Computer Society.</span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><i>M. Aldinucci and M. Danelutto.</i> "The cost of security in skeletal systems." In P. D’Ambra and M. R. Guarracino, editors, Proc. of Intl. Euromicro PDP 2007: Parallel Distributed and network-based Processing, pages 213–220, Napoli, Italia, February 2007. IEEE.</span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><i>M. Aldinucci and M. Danelutto.</i> "Securing skeletal systems with limited performance penalty: the muskel experience." Journal of Systems Architecture, 2008.</span></li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><i>M. Danelutto and P. Dazzi.</i> "A Java/Jini framework supporting stream parallel computations." In Proc. of Intl. PARCO 2005: Parallel Computing, Sept. 2005.</span></li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><i>M. Danelutto and P. Dazzi.</i> "Joint structured/non-structured parallelism exploitation through data flow." In V. Alexandrov, D. van Albada, P. Sloot, and J. Dongarra, editors, Proc. of ICCS: International Conference on Computational Science, Workshop on Practical Aspects of High-level Parallel Programming, LNCS, Reading, UK, May 2006. Springer Verlag.</span></li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-47">^</a></b></span> <span class="reference-text"><i>M. Aldinucci, M. Danelutto, and P. Dazzi.</i> "Muskel: an expandable skeleton environment." Scalable Computing: Practice and Experience, 8(4):325–341, December 2007.</span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><i>E. Alba, F. Almeida, M. J. Blesa, J. Cabeza, C. Cotta, M. Diaz, I. Dorta, J. Gabarro, C. Leon, J. Luna, L. M. Moreno, C. Pablos, J. Petit, A. Rojas, and F. Xhafa.</i> "Mallba: A library of skeletons for combinatorial optimisation (research note)." In Euro-Par ’02: Proceedings of the 8th International Euro-Par Conference on Parallel Processing, pages 927–932, London, UK, 2002. Springer-Verlag.</span></li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text">E. Alba, F. Almeida, M. Blesa, C. Cotta, M. Diaz, I. Dorta, J. Gabarro, C. Leon, G. Luque, J. Petit, C. Rodriguez, A. Rojas, and F. Xhafa. Efficient parallel lan/wan algorithms for optimization: the mallba project. Parallel Computing, 32(5):415–440, 2006.</span></li>
+<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text"><i>E. Alba, G. Luque, J. Garcia-Nieto, G. Ordonez, and G. Leguizamon.</i> "Mallba a software library to design efficient optimisation algorithms." International Journal of Innovative Computing and Applications, 1(1):74–85, 2007.</span></li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text">"Ricardo Marques, Hervé Paulino, Fernando Alexandre, Pedro D. Medeiros." "Algorithmic Skeleton Framework for the Orchestration of GPU Computations." Euro-Par 2013: 874-885</span></li>
+<li id="cite_note-52"><span class="mw-cite-backlink"><b><a href="#cite_ref-52">^</a></b></span> <span class="reference-text">"Fernando Alexandre, Ricardo Marques, Hervé Paulino." "On the Support of Task-Parallel Algorithmic Skeletons for Multi-GPU Computing." ACM SAC 2014: 880-885</span></li>
+<li id="cite_note-53"><span class="mw-cite-backlink"><b><a href="#cite_ref-53">^</a></b></span> <span class="reference-text"><i>H. Kuchen and J. Striegnitz.</i> "Features from functional programming for a C++ skeleton library". Concurrency - Practice and Experience, 17(7-8):739-756, 2005.</span></li>
+<li id="cite_note-54"><span class="mw-cite-backlink"><b><a href="#cite_ref-54">^</a></b></span> <span class="reference-text"><i>Philipp Ciechanowicz, Michael Poldner, and Herbert Kuchen.</i> "The Muenster Skeleton Library Muesli - A Comprehensive Overview." ERCIS Working Paper No. 7, 2009</span></li>
+<li id="cite_note-55"><span class="mw-cite-backlink"><b><a href="#cite_ref-55">^</a></b></span> <span class="reference-text"><i>H. Kuchen and M. Cole</i>. "The integration of task and data parallel skeletons." Parallel Processing Letters, 12(2):141-155, 2002.</span></li>
+<li id="cite_note-56"><span class="mw-cite-backlink"><b><a href="#cite_ref-56">^</a></b></span> <span class="reference-text"><i>A. Alexandrescu.</i> "Modern C++ Design: Generic Programming and Design Patterns Applied". Addison-Wesley, 2001.</span></li>
+<li id="cite_note-57"><span class="mw-cite-backlink"><b><a href="#cite_ref-57">^</a></b></span> <span class="reference-text"><i>Michael Poldner.</i> "Task Parallel Algorithmic Skeletons." PhD Thesis, University of Münster, 2008.</span></li>
+<li id="cite_note-58"><span class="mw-cite-backlink"><b><a href="#cite_ref-58">^</a></b></span> <span class="reference-text"><i>Michael Poldner and Herbert Kuchen.</i> "Algorithmic Skeletons for Branch and Bound." Proceedings of the 1st International Conference on Software and Data Technology (ICSOFT), 1:291-300, 2006.</span></li>
+<li id="cite_note-59"><span class="mw-cite-backlink"><b><a href="#cite_ref-59">^</a></b></span> <span class="reference-text"><i>Michael Poldner and Herbert Kuchen.</i> "Optimizing Skeletal Stream Processing for Divide and Conquer." Proceedings of the 3rd International Conference on Software and Data Technologies (ICSOFT), 181-189, 2008.</span></li>
+<li id="cite_note-60"><span class="mw-cite-backlink"><b><a href="#cite_ref-60">^</a></b></span> <span class="reference-text"><i>Michael Poldner and Herbert Kuchen.</i> "Skeletons for Divide and Conquer." Proceedings of the IASTED International Conference on Parallel and Distributed Computing and Networks (PDCN), 181-188, 2008.</span></li>
+<li id="cite_note-61"><span class="mw-cite-backlink"><b><a href="#cite_ref-61">^</a></b></span> <span class="reference-text"><i>Michael Poldner and Herbert Kuchen.</i> "Scalable Farms." Proceedings of the International Conference on Parallel Processing (ParCo) 33:795-802, 2006.</span></li>
+<li id="cite_note-62"><span class="mw-cite-backlink"><b><a href="#cite_ref-62">^</a></b></span> <span class="reference-text"><i>Michael Poldner and Herbert Kuchen.</i> "On Implementing the Farm Skeleton." Parallel Processing Letters, 18(1):117-131, 2008.</span></li>
+<li id="cite_note-63"><span class="mw-cite-backlink"><b><a href="#cite_ref-63">^</a></b></span> <span class="reference-text"><i>Philipp Ciechanowicz.</i> "Algorithmic Skeletons for General Sparse Matrices." Proceedings of The 20th IASTED International Conference on Parallel and Distributed Computing and Systems (PDCS), 188-197, 2008.</span></li>
+<li id="cite_note-64"><span class="mw-cite-backlink"><b><a href="#cite_ref-64">^</a></b></span> <span class="reference-text"><i>Philipp Ciechanowicz, Philipp Kegel, Maraike Schellmann, Sergei Gorlatch, and Herbert Kuchen.</i> "Parallelizing the LM OSEM Image Reconstruction on Multi-Core Clusters." Parallel Computing: From Multicores and GPU's to Petascale, 19: 169-176, 2010.</span></li>
+<li id="cite_note-65"><span class="mw-cite-backlink"><b><a href="#cite_ref-65">^</a></b></span> <span class="reference-text"><i>Philipp Ciechanowicz and Herbert Kuchen.</i> "Enhancing Muesli's Data Parallel Skeletons for Multi-Core Computer Architectures". International Conference on High Performance Computing and Communications (HPCC), 108-113, 2010.</span></li>
+<li id="cite_note-66"><span class="mw-cite-backlink"><b><a href="#cite_ref-66">^</a></b></span> <span class="reference-text"><cite class="citation journal">Bacci, B.; Danelutto, M.; Orlando, S.; Pelagatti, S.; Vanneschi, M. (1995). "P3L: A structured high-level parallel language, and its structured support". <i>Concurrency: Practice and Experience</i>. <b>7</b> (3): 225. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1002%2Fcpe.4330070305" rel="nofollow">10.1002/cpe.4330070305</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=P3L%3A+A+structured+high-level+parallel+language%2C+and+its+structured+support&amp;rft.au=Danelutto%2C+M.&amp;rft.aufirst=B.&amp;rft.aulast=Bacci&amp;rft.au=Orlando%2C+S.&amp;rft.au=Pelagatti%2C+S.&amp;rft.au=Vanneschi%2C+M.&amp;rft.date=1995&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1002%2Fcpe.4330070305&amp;rft.issue=3&amp;rft.jtitle=Concurrency%3A+Practice+and+Experience&amp;rft.pages=225&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=7"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-67"><span class="mw-cite-backlink"><b><a href="#cite_ref-67">^</a></b></span> <span class="reference-text"><i>S. Ciarpaglini, M. Danelutto, L. Folchi, C. Manconi, and S. Pelagatti.</i> "ANACLETO: a template-based p3l compiler." In Proceedings of the Seventh Parallel Computing Workshop (PCW ’97), Australian National University, Canberra, August 1997.</span></li>
+<li id="cite_note-68"><span class="mw-cite-backlink"><b><a href="#cite_ref-68">^</a></b></span> <span class="reference-text">M. Aldinucci, M. Coppola, and M. Danelutto. Rewriting skeleton programs: How to evaluate the data-parallel stream-parallel tradeoff. In S. Gorlatch, editor, Proc of CMPP: Intl. Workshop on Constructive Methods for Parallel Programming, pages 44–58. Uni. Passau, Germany, May 1998.</span></li>
+<li id="cite_note-69"><span class="mw-cite-backlink"><b><a href="#cite_ref-69">^</a></b></span> <span class="reference-text"><i>B. Bacci, M. Danelutto, S. Pelagatti, and M. Vanneschi.</i> "Skie: a heterogeneous environment for HPC applications." Parallel Comput., 25(13-14):1827–1852, 1999.</span></li>
+<li id="cite_note-70"><span class="mw-cite-backlink"><b><a href="#cite_ref-70">^</a></b></span> <span class="reference-text"><i>M. Danelutto and M. Stigliani.</i> "Skelib: Parallel programming with skeletons in C." In Euro-Par ’00: Proceedings from the 6th International Euro-Par Conference on Parallel Processing, pages 1175–1184, London, UK, 2000. Springer-Verlag.</span></li>
+<li id="cite_note-71"><span class="mw-cite-backlink"><b><a href="#cite_ref-71">^</a></b></span> <span class="reference-text"><i>D. Goswami, A. Singh, and B. R. Preiss.</i> "From desgign patterns to parallel architectural skeletons." J. Parallel Distrib. Comput., 62(4):669–695, 2002.</span></li>
+<li id="cite_note-72"><span class="mw-cite-backlink"><b><a href="#cite_ref-72">^</a></b></span> <span class="reference-text"><i>D. Goswami, A. Singh, and B. R. Preiss.</i> "Using object-oriented techniques for realizing parallel architectural skeletons." In ISCOPE ’99: Proceedings of the Third International Symposium on Computing in Object-Oriented Parallel Environments, Lecture Notes in Computer Science, pages 130–141, London, UK, 1999. Springer-Verlag.</span></li>
+<li id="cite_note-73"><span class="mw-cite-backlink"><b><a href="#cite_ref-73">^</a></b></span> <span class="reference-text"><i>M. M. Akon, D. Goswami, and H. F. Li.</i> "Superpas: A parallel architectural skeleton model supporting extensibility and skeleton composition." In Parallel and Distributed Processing and Applications Second International Symposium, ISPA, Lecture Notes in Computer Science, pages 985–996. Springer-Verlag, 2004.</span></li>
+<li id="cite_note-74"><span class="mw-cite-backlink"><b><a href="#cite_ref-74">^</a></b></span> <span class="reference-text"><i>M. M. Akon, A. Singh, D. Goswami, and H. F. Li.</i> "Extensible parallel architectural skeletons." In High Performance Computing HiPC 2005, 12th International Conference, volume 3769 of Lecture Notes in Computer Science, pages 290–301, Goa, India, December 2005. Springer-Verlag.</span></li>
+<li id="cite_note-75"><span class="mw-cite-backlink"><b><a href="#cite_ref-75">^</a></b></span> <span class="reference-text"><i>M. Diaz, B. Rubio, E. Soler, and J. M. Troya.</i> "SBASCO: Skeleton-based scientific components." In PDP, pages 318–. IEEE Computer Society, 2004.</span></li>
+<li id="cite_note-76"><span class="mw-cite-backlink"><b><a href="#cite_ref-76">^</a></b></span> <span class="reference-text">M. Diaz, S. Romero, B. Rubio, E. Soler, and J. M. Troya. "Using SBASCO to solve reaction-diffusion equations in two-dimensional irregular domains." In Practical Aspects of High-Level Parallel Programming (PAPP), affiliated to the International Conference on Computational Science (ICCS), volume 3992 of Lecture Notes in Computer Science, pages 912–919. Springer, 2006.</span></li>
+<li id="cite_note-77"><span class="mw-cite-backlink"><b><a href="#cite_ref-77">^</a></b></span> <span class="reference-text"><i>M. Diaz, S. Romero, B. Rubio, E. Soler, and J. M. Troya.</i> "An aspect oriented framework for scientific component development." In PDP ’05: Proceedings of the 13th Euromicro Conference on Parallel, Distributed and Network-Based Processing, pages 290–296, Washington, DC, USA, 2005. IEEE Computer Society.</span></li>
+<li id="cite_note-78"><span class="mw-cite-backlink"><b><a href="#cite_ref-78">^</a></b></span> <span class="reference-text"><i>M. Diaz, S. Romero, B. Rubio, E. Soler, and J. M. Troya.</i> "Dynamic reconfiguration of scientific components using aspect oriented programming: A case study." In R. Meersman And Z. Tari, editors, On the Move to Meaningful Internet Systems 2006: CoopIS, DOA, GADA, and ODBASE, volume 4276 of Lecture Notes in Computer Science, pages 1351–1360. Springer-Verlag, 2006.</span></li>
+<li id="cite_note-79"><span class="mw-cite-backlink"><b><a href="#cite_ref-79">^</a></b></span> <span class="reference-text"><i>J. Darlington, Y. ke Guo, H. W. To, and J. Yang.</i> "Parallel skeletons for structured composition." In PPOPP ’95: Proceedings of the fifth ACM SIGPLAN symposium on Principles and practice of parallel programming, pages 19–28, New York, NY, USA, 1995. ACM.</span></li>
+<li id="cite_note-80"><span class="mw-cite-backlink"><b><a href="#cite_ref-80">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFJohn_DarlintonMoustafa_GhanemYike_GuoHing_Wing_To1996">John Darlinton; Moustafa Ghanem; Yike Guo; Hing Wing To (1996), "Guided Resource Organisation in Heterogeneous Parallel Computing", <i>Journal of High Performance Computing</i>, <b>4</b> (1): 13–23, <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4309" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.37<wbr></wbr>.4309</a></span></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Guided+Resource+Organisation+in+Heterogeneous+Parallel+Computing&amp;rft.au=Hing+Wing+To&amp;rft.au=John+Darlinton&amp;rft.au=Moustafa+Ghanem&amp;rft.au=Yike+Guo&amp;rft.date=1996&amp;rft.genre=article&amp;rft.issue=1&amp;rft.jtitle=Journal+of+High+Performance+Computing&amp;rft.pages=13-23&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=4"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-81"><span class="mw-cite-backlink"><b><a href="#cite_ref-81">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.ida.liu.se/~chrke/skepu" rel="nofollow">http://www.ida.liu.se/~chrke/skepu</a></span></li>
+<li id="cite_note-82"><span class="mw-cite-backlink"><b><a href="#cite_ref-82">^</a></b></span> <span class="reference-text"><i>J. Serot, D. Ginhac, and J. Derutin.</i> "SKiPPER: a skeleton-based parallel programming environment for real-time image processing applications." In V. Malyshkin, editor, 5th International Conference on Parallel Computing Technologies (PaCT-99), volume 1662 of LNCS,pages 296–305. Springer, 6–10 September 1999.</span></li>
+<li id="cite_note-83"><span class="mw-cite-backlink"><b><a href="#cite_ref-83">^</a></b></span> <span class="reference-text"><i>J. Serot and D. Ginhac.</i> "Skeletons for parallel image processing : an overview of the SKiPPER project". Parallel Computing, 28(12):1785–1808, Dec 2002.</span></li>
+<li id="cite_note-84"><span class="mw-cite-backlink"><b><a href="#cite_ref-84">^</a></b></span> <span class="reference-text"><i>J. Falcou, J. Serot, T. Chateau, and J. T. Lapreste.</i> "Quaff: efficient c++ design for parallel skeletons." Parallel Computing, 32(7):604–615, 2006.</span></li>
+<li id="cite_note-85"><span class="mw-cite-backlink"><b><a href="#cite_ref-85">^</a></b></span> <span class="reference-text"><i>J. Falcou and J. Serot.</i> "Formal semantics applied to the implementation of a skeleton-based parallel programming library." In G. R. Joubert, C. Bischof, F. J. Peters, T. Lippert, M. Bcker, P. Gibbon, and B. Mohr, editors, Parallel Computing: Architectures, Algorithms and Applications (Proc. of PARCO 2007, Julich, Germany), volume 38 of NIC, pages 243–252, Germany, September 2007. John von Neumann Institute for Computing.</span></li>
+<li id="cite_note-86"><span class="mw-cite-backlink"><b><a href="#cite_ref-86">^</a></b></span> <span class="reference-text"><i>K. Matsuzaki, H. Iwasaki, K. Emoto, and Z. Hu.</i> "A library of constructive skeletons for sequential style of parallel programming." In InfoScale ’06: Proceedings of the 1st international conference on Scalable information systems, page 13, New York, NY, USA, 2006. ACM.</span></li>
+<li id="cite_note-87"><span class="mw-cite-backlink"><b><a href="#cite_ref-87">^</a></b></span> <span class="reference-text"><i>K. Matsuzaki, Z. Hu, and M. Takeichi.</i> "Parallelization with tree skeletons." In Euro-Par, volume 2790 of Lecture Notes in Computer Science, pages 789–798. Springer, 2003.</span></li>
+<li id="cite_note-88"><span class="mw-cite-backlink"><b><a href="#cite_ref-88">^</a></b></span> <span class="reference-text"><i>K. Matsuzaki, Z. Hu, and M. Takeichi.</i> "Parallel skeletons for manipulating general trees." Parallel Computation, 32(7):590–603, 2006.</span></li>
+<li id="cite_note-89"><span class="mw-cite-backlink"><b><a href="#cite_ref-89">^</a></b></span> <span class="reference-text"><i>K. Emoto, Z. Hu, K. Kakehi, and M. Takeichi.</i> "A compositional framework for developing parallel programs on two dimensional arrays." Technical report, Department of Mathematical Informatics, University of Tokyo, 2005.</span></li>
+<li id="cite_note-90"><span class="mw-cite-backlink"><b><a href="#cite_ref-90">^</a></b></span> <span class="reference-text"><i>K. Emoto, K. Matsuzaki, Z. Hu, and M. Takeichi.</i> "Domain-specific optimization strategy for skeleton programs." In Euro-Par, volume 4641 of Lecture Notes in Computer Science, pages 705–714. Springer, 2007.</span></li>
+<li id="cite_note-91"><span class="mw-cite-backlink"><b><a href="#cite_ref-91">^</a></b></span> <span class="reference-text"><i>K. Matsuzaki, K. Kakehi, H. Iwasaki, Z. Hu, and Y. Akashi.</i> "A fusion-embedded skeleton library." In M. Danelutto, M. Vanneschi, and D. Laforenza, editors, Euro-Par, volume 3149 of Lecture Notes in Computer Science, pages 644–653. Springer, 2004.</span></li>
+<li id="cite_note-92"><span class="mw-cite-backlink"><b><a href="#cite_ref-92">^</a></b></span> <span class="reference-text"><i>G. H. Botorog and H. Kuchen.</i> "Efficient high-level parallel programming." Theor. Comput. Sci., 196(1-2):71–107, 1998.</span></li>
+<li id="cite_note-93"><span class="mw-cite-backlink"><b><a href="#cite_ref-93">^</a></b></span> <span class="reference-text"><cite class="citation journal">Zandifar, Mani; Abduljabbar, Mustafa; Majidi, Alireza; Keyes, David; Amato, Nancy; Rauchwerger, Lawrence (2015). <a class="external text" href="http://dl.acm.org/citation.cfm?id=2751241" rel="nofollow">"Composing Algorithmic Skeletons to Express High-Performance Scientific Applications"</a>. <i>Proceedings of the 29th ACM on International Conference on Supercomputing</i>: 415–424. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F2751205.2751241" rel="nofollow">10.1145/2751205.2751241</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Composing+Algorithmic+Skeletons+to+Express+High-Performance+Scientific+Applications&amp;rft.au=Abduljabbar%2C+Mustafa&amp;rft.au=Amato%2C+Nancy&amp;rft.aufirst=Mani&amp;rft.au=Keyes%2C+David&amp;rft.aulast=Zandifar&amp;rft.au=Majidi%2C+Alireza&amp;rft.au=Rauchwerger%2C+Lawrence&amp;rft.date=2015&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D2751241&amp;rft_id=info%3Adoi%2F10.1145%2F2751205.2751241&amp;rft.jtitle=Proceedings+of+the+29th+ACM+on+International+Conference+on+Supercomputing&amp;rft.pages=415-424&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-94"><span class="mw-cite-backlink"><b><a href="#cite_ref-94">^</a></b></span> <span class="reference-text">"G. Tanase, et.al." "STAPL Parallel Container Framework" Proceeding PPoPP '11 Proceedings of the 16th ACM symposium on Principles and practice of parallel programming Pages 235-246</span></li>
+<li id="cite_note-95"><span class="mw-cite-backlink"><b><a href="#cite_ref-95">^</a></b></span> <span class="reference-text"><i>J. Darlington, A. J. Field, P. G. Harrison, P. H. J. Kelly, D. W. N. Sharp, and Q. Wu.</i> "Parallel programming using skeleton functions." In PARLE ’93: Proceedings of the 5th International PARLE Conference on Parallel Architectures and Languages Europe, pages 146–160, London, UK, 1993. Springer-Verlag.</span></li>
+<li id="cite_note-96"><span class="mw-cite-backlink"><b><a href="#cite_ref-96">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFJ._DarlintonM._GhanemH._W._To1993">J. Darlinton; M. Ghanem; H. W. To (1993), "Structured Parallel Programming", <i>In Programming Models for Massively Parallel Computers. IEEE Computer Society Press. 1993</i>, <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4610" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.37<wbr></wbr>.4610</a></span></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAlgorithmic+skeleton&amp;rft.atitle=Structured+Parallel+Programming&amp;rft.au=H.+W.+To&amp;rft.au=J.+Darlinton&amp;rft.au=M.+Ghanem&amp;rft.date=1993&amp;rft.genre=article&amp;rft.jtitle=In+Programming+Models+for+Massively+Parallel+Computers.+IEEE+Computer+Society+Press.+1993&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:25478461-0!*!0!!en!*!* and timestamp 20160926014335 and revision id 725026212
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Algorithmic_skeleton&amp;oldid=725026212">https://en.wikipedia.org/w/index.php?title=Algorithmic_skeleton&amp;oldid=725026212</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Concurrent_programming_languages" title="Category:Concurrent programming languages">Concurrent programming languages</a></li><li><a href="/wiki/Category:Parallel_computing" title="Category:Parallel computing">Parallel computing</a></li><li><a href="/wiki/Category:C%2B%2B_libraries" title="Category:C++ libraries">C++ libraries</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1_maint:_Uses_authors_parameter" title="Category:CS1 maint: Uses authors parameter">CS1 maint: Uses authors parameter</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_June_2013" title="Category:Use dmy dates from June 2013">Use dmy dates from June 2013</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Algorithmic+skeleton" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Algorithmic+skeleton" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Algorithmic_skeleton" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Algorithmic_skeleton" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Algorithmic_skeleton">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Algorithmic_skeleton&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Algorithmic_skeleton&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Algorithmic_skeleton" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Algorithmic_skeleton" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Algorithmic_skeleton&amp;oldid=725026212" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Algorithmic_skeleton&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q4724366" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Algorithmic_skeleton&amp;id=725026212" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Algorithmic+skeleton">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Algorithmic+skeleton&amp;returnto=Algorithmic+skeleton&amp;oldid=725026212&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Algorithmic_skeleton&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q4724366#sitelinks-wikipedia" title="Add interlanguage links">Add links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 13 June 2016, at 03:06.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Algorithmic_skeleton&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.327",
+            "walltime": "0.871",
+            "ppvisitednodes": {
+                "value": 1773,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 29309,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 327,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  802.883      1 -total",
+                " 23.03%  184.864      1 Template:Reflist",
+                "  8.28%   66.458      6 Template:Cite_journal",
+                "  4.38%   35.199      1 Template:Use_dmy_dates",
+                "  2.80%   22.503      2 Template:Citation",
+                "  1.99%   15.950      3 Template:Cite_conference",
+                "  1.43%   11.491      1 Template:DMCA",
+                "  1.40%   11.240      2 Template:Cite_book",
+                "  1.21%    9.741      1 Template:Dated_maintenance_category",
+                "  0.95%    7.635      2 Template:Citeseerx"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.088",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3054371,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1180",
+            "timestamp": "20160926014336",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1249"});});</script>
+</body>
+</html>
+

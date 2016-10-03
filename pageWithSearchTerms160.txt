@@ -1,0 +1,725 @@
+The following page is located at the url: https://commons.wikimedia.org/wiki/Category:Software_design_patterns
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Category:Software design patterns - Wikimedia Commons</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Category","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":14,"wgPageName":"Category:Software_design_patterns","wgTitle":"Software design patterns","wgCurRevisionId":141564400,"wgRevisionId":141564400,"wgArticleId":623234,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software design","Programming literature","Programming diagrams","Class diagrams"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Category:Software_design_patterns","wgRelevantArticleId":623234,"wgRequestId":"V-D@egpAMFwAAKEwVREAAABS","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgULSCurrentAutonym":"English","wgNoticeProject":"commons","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q8285793","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.action.view.categoryPage.styles":"ready","ext.categoryTree.css":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.helplink":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.pt":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mmv.head","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.gadget.AjaxQuickDelete%2CCollapsibleTemplates%2CLanguageSelect%2CLong-Image-Names-in-Categories%2CSlideshow%2CStockphoto%2CUploadWizard%2CWatchlistNotice%2CWikiMiniAtlas%2CZoomViewer%2Cfastcci%7Cext.tmh.thumbnail.styles%7Cext.uls.pt%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.action.view.categoryPage.styles%7Cmediawiki.helplink%2CsectionAnchor%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.page.gallery.styles%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<noscript><link href="/w/load.php?debug=false&amp;lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector" rel="stylesheet"/></noscript>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="/w/index.php?title=Category:Software_design_patterns&amp;action=edit" rel="alternate" title="Edit" type="application/x-wiki"/>
+<link href="/w/index.php?title=Category:Software_design_patterns&amp;action=edit" rel="edit" title="Edit"/>
+<link href="/static/apple-touch/commons.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/commons.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikimedia Commons" type="application/opensearchdescription+xml"/>
+<link href="//commons.wikimedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikimedia Commons Atom feed" type="application/atom+xml"/>
+<link href="https://commons.wikimedia.org/wiki/Category:Software_design_patterns" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-14 ns-subject page-Category_Software_design_patterns rootpage-Category_Software_design_patterns skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-mw-helplink"><a class="mw-helplink" href="/wiki/Commons:Categories" target="_blank">Help</a></div>
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Category:Software design patterns</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikimedia Commons, the free media repository</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div style="margin:1em auto;background:#f9f9f9;color:#696969;border:1px solid #aaa;padding:.5em;"><img alt="" data-file-height="200" data-file-width="200" height="16" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/16px-Wikipedia-logo.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/24px-Wikipedia-logo.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/32px-Wikipedia-logo.png 2x" width="16"/> The article <b>Software design patterns</b> on Wikipedia projects: <span style="white-space:nowrap"><small>(<tt title="English">en</tt>)</small> <span lang="en" style="unicode-bidi:embed" xml:lang="en"><a class="extiw" href="https://en.wikipedia.org/wiki/Design_pattern_(computer_science)" title="en:Design pattern (computer science)">Design pattern (computer science)</a></span> <b>·</b></span><br/>
+<span style="white-space:nowrap"><small>(<b><tt title="Afrikaans">af</tt></b>)</small> <span lang="af" style="unicode-bidi:embed" xml:lang="af"><a class="extiw" href="https://af.wikipedia.org/wiki/Ontwerpspatroon_(rekenaarwetenskap)" title="af:Ontwerpspatroon (rekenaarwetenskap)">Ontwerpspatroon (rekenaarwetenskap)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Alemannisch">als</tt></b>)</small> <span lang="gsw" style="unicode-bidi:embed" xml:lang="gsw"><a class="extiw" href="https://als.wikipedia.org/wiki/Entwurfsmuster" title="als:Entwurfsmuster">Entwurfsmuster</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="العربية">ar</tt></b>)</small> <span lang="ar" style="unicode-bidi:embed" xml:lang="ar"><a class="extiw" href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%A7%D8%B0%D8%AC_%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_(%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA)" title="ar:نماذج التصميم (هندسة البرمجيات)">نماذج التصميم (هندسة البرمجيات)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="asturianu">ast</tt></b>)</small> <span lang="ast" style="unicode-bidi:embed" xml:lang="ast"><a class="extiw" href="https://ast.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1u" title="ast:Patrón de diseñu">Patrón de diseñu</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="български">bg</tt></b>)</small> <span lang="bg" style="unicode-bidi:embed" xml:lang="bg"><a class="extiw" href="https://bg.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%B7%D0%B0_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" title="bg:Шаблони за дизайн">Шаблони за дизайн</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="bosanski">bs</tt></b>)</small> <span lang="bs" style="unicode-bidi:embed" xml:lang="bs"><a class="extiw" href="https://bs.wikipedia.org/wiki/Ra%C4%8Dunarska_dizajn_%C5%A1ema" title="bs:Računarska dizajn šema">Računarska dizajn šema</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="català">ca</tt></b>)</small> <span lang="ca" style="unicode-bidi:embed" xml:lang="ca"><a class="extiw" href="https://ca.wikipedia.org/wiki/Patr%C3%B3_de_disseny_(inform%C3%A0tica)" title="ca:Patró de disseny (informàtica)">Patró de disseny (informàtica)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="čeština">cs</tt></b>)</small> <span lang="cs" style="unicode-bidi:embed" xml:lang="cs"><a class="extiw" href="https://cs.wikipedia.org/wiki/N%C3%A1vrhov%C3%BD_vzor" title="cs:Návrhový vzor">Návrhový vzor</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="dansk">da</tt></b>)</small> <span lang="da" style="unicode-bidi:embed" xml:lang="da"><a class="extiw" href="https://da.wikipedia.org/wiki/Design_pattern" title="da:Design pattern">Design pattern</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Deutsch">de</tt></b>)</small> <span lang="de" style="unicode-bidi:embed" xml:lang="de"><a class="extiw" href="https://de.wikipedia.org/wiki/Entwurfsmuster" title="de:Entwurfsmuster">Entwurfsmuster</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Ελληνικά">el</tt></b>)</small> <span lang="el" style="unicode-bidi:embed" xml:lang="el"><a class="extiw" href="https://el.wikipedia.org/wiki/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC_%CF%80%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B1" title="el:Σχεδιαστικά πρότυπα">Σχεδιαστικά πρότυπα</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="español">es</tt></b>)</small> <span lang="es" style="unicode-bidi:embed" xml:lang="es"><a class="extiw" href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o" title="es:Patrón de diseño">Patrón de diseño</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="فارسی">fa</tt></b>)</small> <span lang="fa" style="unicode-bidi:embed" xml:lang="fa"><a class="extiw" href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C_(%D8%AF%D8%A7%D9%86%D8%B4_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)" title="fa:الگوی طراحی (دانش رایانه)">الگوی طراحی (دانش رایانه)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="suomi">fi</tt></b>)</small> <span lang="fi" style="unicode-bidi:embed" xml:lang="fi"><a class="extiw" href="https://fi.wikipedia.org/wiki/Suunnittelumalli" title="fi:Suunnittelumalli">Suunnittelumalli</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="français">fr</tt></b>)</small> <span lang="fr" style="unicode-bidi:embed" xml:lang="fr"><a class="extiw" href="https://fr.wikipedia.org/wiki/Patron_de_conception" title="fr:Patron de conception">Patron de conception</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="עברית">he</tt></b>)</small> <span lang="he" style="unicode-bidi:embed" xml:lang="he"><a class="extiw" href="https://he.wikipedia.org/wiki/%D7%AA%D7%91%D7%A0%D7%99%D7%AA_%D7%A2%D7%99%D7%A6%D7%95%D7%91" title="he:תבנית עיצוב">תבנית עיצוב</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Bahasa Indonesia">id</tt></b>)</small> <span lang="id" style="unicode-bidi:embed" xml:lang="id"><a class="extiw" href="https://id.wikipedia.org/wiki/Pola_desain" title="id:Pola desain">Pola desain</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="italiano">it</tt></b>)</small> <span lang="it" style="unicode-bidi:embed" xml:lang="it"><a class="extiw" href="https://it.wikipedia.org/wiki/Design_pattern" title="it:Design pattern">Design pattern</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="日本語">ja</tt></b>)</small> <span lang="ja" style="unicode-bidi:embed" xml:lang="ja"><a class="extiw" href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)" title="ja:デザインパターン (ソフトウェア)">デザインパターン (ソフトウェア)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="한국어">ko</tt></b>)</small> <span lang="ko" style="unicode-bidi:embed" xml:lang="ko"><a class="extiw" href="https://ko.wikipedia.org/wiki/%EB%94%94%EC%9E%90%EC%9D%B8_%ED%8C%A8%ED%84%B4" title="ko:디자인 패턴">디자인 패턴</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="lietuvių">lt</tt></b>)</small> <span lang="lt" style="unicode-bidi:embed" xml:lang="lt"><a class="extiw" href="https://lt.wikipedia.org/wiki/Projektavimo_pavyzdys" title="lt:Projektavimo pavyzdys">Projektavimo pavyzdys</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Nederlands">nl</tt></b>)</small> <span lang="nl" style="unicode-bidi:embed" xml:lang="nl"><a class="extiw" href="https://nl.wikipedia.org/wiki/Ontwerppatroon" title="nl:Ontwerppatroon">Ontwerppatroon</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="norsk bokmål">no</tt></b>)</small> <span lang="no" style="unicode-bidi:embed" xml:lang="no"><a class="extiw" href="https://no.wikipedia.org/wiki/Designm%C3%B8nster" title="no:Designmønster">Designmønster</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="polski">pl</tt></b>)</small> <span lang="pl" style="unicode-bidi:embed" xml:lang="pl"><a class="extiw" href="https://pl.wikipedia.org/wiki/Wzorzec_projektowy_(informatyka)" title="pl:Wzorzec projektowy (informatyka)">Wzorzec projektowy (informatyka)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="português">pt</tt></b>)</small> <span lang="pt" style="unicode-bidi:embed" xml:lang="pt"><a class="extiw" href="https://pt.wikipedia.org/wiki/Padr%C3%B5es_de_projeto_de_software" title="pt:Padrões de projeto de software">Padrões de projeto de software</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="русский">ru</tt></b>)</small> <span lang="ru" style="unicode-bidi:embed" xml:lang="ru"><a class="extiw" href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="ru:Шаблоны проектирования">Шаблоны проектирования</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Simple English">simple</tt></b>)</small> <span lang="en-x-simple" style="unicode-bidi:embed" xml:lang="en-x-simple"><a class="extiw" href="https://simple.wikipedia.org/wiki/Design_pattern" title="simple:Design pattern">Design pattern</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="svenska">sv</tt></b>)</small> <span lang="sv" style="unicode-bidi:embed" xml:lang="sv"><a class="extiw" href="https://sv.wikipedia.org/wiki/Designm%C3%B6nster" title="sv:Designmönster">Designmönster</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="ไทย">th</tt></b>)</small> <span lang="th" style="unicode-bidi:embed" xml:lang="th"><a class="extiw" href="https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%9E%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%99" title="th:ดีไซน์แพตเทิร์น">ดีไซน์แพตเทิร์น</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Türkçe">tr</tt></b>)</small> <span lang="tr" style="unicode-bidi:embed" xml:lang="tr"><a class="extiw" href="https://tr.wikipedia.org/wiki/Tasar%C4%B1m_%C3%B6r%C3%BCnt%C3%BCleri" title="tr:Tasarım örüntüleri">Tasarım örüntüleri</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="українська">uk</tt></b>)</small> <span lang="uk" style="unicode-bidi:embed" xml:lang="uk"><a class="extiw" href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" title="uk:Шаблони проектування програмного забезпечення">Шаблони проектування програмного забезпечення</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="Tiếng Việt">vi</tt></b>)</small> <span lang="vi" style="unicode-bidi:embed" xml:lang="vi"><a class="extiw" href="https://vi.wikipedia.org/wiki/M%E1%BA%ABu_thi%E1%BA%BFt_k%E1%BA%BF_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" title="vi:Mẫu thiết kế (khoa học máy tính)">Mẫu thiết kế (khoa học máy tính)</a></span> <b>·</b></span> <span style="white-space:nowrap"><small>(<b><tt title="中文">zh</tt></b>)</small> <span lang="zh" style="unicode-bidi:embed" xml:lang="zh"><a class="extiw" href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F" title="zh:软件设计模式">软件设计模式</a></span> <b>·</b></span> <span class="noprint plainlinks" style="white-space:nowrap"><small><a class="external text" href="//commons.wikimedia.org/w/index.php?title=Category:Software_design_patterns&amp;action=edit">+/−</a></small></span></div>
+<p><b><a class="extiw" href="https://en.wikipedia.org/wiki/Design_pattern_(computer_science)" title="w:Design pattern (computer science)">Design patterns</a></b> is a general reusable solution to some commonly occurring problem in software design.</p>
+<!-- Saved in parser cache with key commonswiki:pcache:idhash:623234-0!*!0!*!en!4!* and timestamp 20161002123258 and revision id 141564400
+ -->
+<div class="mw-category-generated" dir="ltr" lang="en"><div id="mw-subcategories">
+<h2>Subcategories</h2>
+<p>This category has the following 11 subcategories, out of 11 total.
+</p><div class="mw-content-ltr" dir="ltr" lang="en"><div class="mw-category"><div class="mw-category-group"><h3> </h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-state="collapsed" data-ct-title="Behavioral_software_design_patterns" style="display: none;" title="expand">►</span> </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Behavioral_software_design_patterns">Behavioral software design patterns</a>‎ <span dir="ltr" title="Contains 12 subcategories, 0 pages, and 0 files">(12 C)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li>
+<li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-state="collapsed" data-ct-title="Creational_software_design_patterns" style="display: none;" title="expand">►</span> </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Creational_software_design_patterns">Creational software design patterns</a>‎ <span dir="ltr" title="Contains 5 subcategories, 0 pages, and 0 files">(5 C)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li>
+<li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-state="collapsed" data-ct-title="Structural_software_design_patterns" style="display: none;" title="expand">►</span> </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Structural_software_design_patterns">Structural software design patterns</a>‎ <span dir="ltr" title="Contains 7 subcategories, 0 pages, and 0 files">(7 C)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>A</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Anti-patterns">Anti-patterns</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 7 files">(7 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li>
+<li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Archtype_pattern">Archtype pattern</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 2 files">(2 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>D</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Dependency_injection">Dependency injection</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 2 files">(2 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>L</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:LePUS3">LePUS3</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 21 files">(21 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>M</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Model-View-Controller_pattern">Model-View-Controller pattern</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 21 files">(21 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>N</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Nassi-Shneiderman_diagrams">Nassi-Shneiderman diagrams</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 44 files">(44 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>P</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Pipeline_(software)">Pipeline (software)</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 7 files">(7 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div><div class="mw-category-group"><h3>W</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Category:Wikilibros:Introducci%C3%B3n_a_Patrones_de_Dise%C3%B1o_en_C%2B%2B_con_Qt4">Wikilibros:Introducción a Patrones de Diseño en C++ con Qt4</a>‎ <span dir="ltr" title="Contains 0 subcategories, 0 pages, and 4 files">(4 F)</span></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</li></ul></div></div></div>
+</div><div id="mw-pages">
+<h2>Pages in category "Software design patterns"</h2>
+<p>This category contains only the following page.
+</p><div class="mw-content-ltr" dir="ltr" lang="en"><h3> </h3>
+<ul><li><a href="/wiki/Software_design_patterns" title="Software design patterns">Software design patterns</a></li></ul></div>
+</div><div id="mw-category-media">
+<h2>Media in category "Software design patterns"</h2>
+<p>The following 63 files are in this category, out of 63 total.
+</p><ul class="gallery mw-gallery-traditional">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:38px auto;"><a class="image" href="/wiki/File:PAtro_obajservaodr.png"><img alt="PAtro obajservaodr.png" data-file-height="675" data-file-width="1102" height="74" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/PAtro_obajservaodr.png/120px-PAtro_obajservaodr.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/PAtro_obajservaodr.png/180px-PAtro_obajservaodr.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/PAtro_obajservaodr.png/240px-PAtro_obajservaodr.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:PAtro_obajservaodr.png" title="File:PAtro obajservaodr.png">PAtro obajservaodr.png</a>
+108 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:32.5px auto;"><a class="image" href="/wiki/File:A_sample_Design_Structure_Matrix_(DSM).png"><img alt="A sample Design Structure Matrix (DSM).png" data-file-height="193" data-file-width="273" height="85" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png/120px-A_sample_Design_Structure_Matrix_%28DSM%29.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png/180px-A_sample_Design_Structure_Matrix_%28DSM%29.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A_sample_Design_Structure_Matrix_%28DSM%29.png/240px-A_sample_Design_Structure_Matrix_%28DSM%29.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:A_sample_Design_Structure_Matrix_(DSM).png" title="File:A sample Design Structure Matrix (DSM).png">A sample Design Structure Matrix (DSM).png</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:31px auto;"><a class="image" href="/wiki/File:Active_object_pl.svg"><img alt="Active object pl.svg" data-file-height="992" data-file-width="1346" height="88" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Active_object_pl.svg/120px-Active_object_pl.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Active_object_pl.svg/180px-Active_object_pl.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Active_object_pl.svg/240px-Active_object_pl.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Active_object_pl.svg" title="File:Active object pl.svg">Active object pl.svg</a>
+228 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49.5px auto;"><a class="image" href="/wiki/File:Active_record.png"><img alt="Active record.png" data-file-height="105" data-file-width="247" height="51" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Active_record.png/120px-Active_record.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Active_record.png/180px-Active_record.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Active_record.png/240px-Active_record.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Active_record.png" title="File:Active record.png">Active record.png</a>
+4 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Application_Controller.png"><img alt="Application Controller.png" data-file-height="762" data-file-width="704" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Application_Controller.png/111px-Application_Controller.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Application_Controller.png/166px-Application_Controller.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Application_Controller.png/222px-Application_Controller.png 2x" width="111"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Application_Controller.png" title="File:Application Controller.png">Application Controller.png</a>
+9 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:32.5px auto;"><a class="image" href="/wiki/File:ASPCORE.png"><img alt="ASPCORE.png" data-file-height="318" data-file-width="450" height="85" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ASPCORE.png/120px-ASPCORE.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ASPCORE.png/180px-ASPCORE.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ASPCORE.png/240px-ASPCORE.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:ASPCORE.png" title="File:ASPCORE.png">ASPCORE.png</a>
+50 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Codesign_process_improved_(11357217963).jpg"><img alt="Codesign process improved (11357217963).jpg" data-file-height="13302" data-file-width="9132" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Codesign_process_improved_%2811357217963%29.jpg/82px-Codesign_process_improved_%2811357217963%29.jpg" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Codesign_process_improved_%2811357217963%29.jpg/123px-Codesign_process_improved_%2811357217963%29.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Codesign_process_improved_%2811357217963%29.jpg/165px-Codesign_process_improved_%2811357217963%29.jpg 2x" width="82"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Codesign_process_improved_(11357217963).jpg" title="File:Codesign process improved (11357217963).jpg">Codesign process improved (11357217963).jpg</a>
+6.3 MB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:52.5px auto;"><a class="image" href="/wiki/File:Data_mapper.png"><img alt="Data mapper.png" data-file-height="148" data-file-width="398" height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Data_mapper.png/120px-Data_mapper.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Data_mapper.png/180px-Data_mapper.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Data_mapper.png/240px-Data_mapper.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Data_mapper.png" title="File:Data mapper.png">Data mapper.png</a>
+7 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:35px auto;"><a class="image" href="/wiki/File:DesignPatternServantFigure1.png"><img alt="DesignPatternServantFigure1.png" data-file-height="244" data-file-width="364" height="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/DesignPatternServantFigure1.png/120px-DesignPatternServantFigure1.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/DesignPatternServantFigure1.png/180px-DesignPatternServantFigure1.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/DesignPatternServantFigure1.png/240px-DesignPatternServantFigure1.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:DesignPatternServantFigure1.png" title="File:DesignPatternServantFigure1.png">DesignPatternServantFigure1.png</a>
+7 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:50px auto;"><a class="image" href="/wiki/File:DesignPatternServantFigure2.png"><img alt="DesignPatternServantFigure2.png" data-file-height="186" data-file-width="444" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/DesignPatternServantFigure2.png/120px-DesignPatternServantFigure2.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/DesignPatternServantFigure2.png/180px-DesignPatternServantFigure2.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/DesignPatternServantFigure2.png/240px-DesignPatternServantFigure2.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:DesignPatternServantFigure2.png" title="File:DesignPatternServantFigure2.png">DesignPatternServantFigure2.png</a>
+6 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:57px auto;"><a class="image" href="/wiki/File:Diamond_inheritance_layout.svg"><img alt="Diamond inheritance layout.svg" data-file-height="108" data-file-width="360" height="36" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Diamond_inheritance_layout.svg/120px-Diamond_inheritance_layout.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Diamond_inheritance_layout.svg/180px-Diamond_inheritance_layout.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Diamond_inheritance_layout.svg/240px-Diamond_inheritance_layout.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Diamond_inheritance_layout.svg" title="File:Diamond inheritance layout.svg">Diamond inheritance layout.svg</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Diamond_inheritance.svg"><img alt="Diamond inheritance.svg" data-file-height="270" data-file-width="180" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/80px-Diamond_inheritance.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/120px-Diamond_inheritance.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/160px-Diamond_inheritance.svg.png 2x" width="80"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Diamond_inheritance.svg" title="File:Diamond inheritance.svg">Diamond inheritance.svg</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:33px auto;"><a class="image" href="/wiki/File:DIPLayersPattern_v2.png"><img alt="DIPLayersPattern v2.png" data-file-height="457" data-file-width="652" height="84" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/DIPLayersPattern_v2.png/120px-DIPLayersPattern_v2.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/DIPLayersPattern_v2.png/180px-DIPLayersPattern_v2.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/DIPLayersPattern_v2.png/240px-DIPLayersPattern_v2.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:DIPLayersPattern_v2.png" title="File:DIPLayersPattern v2.png">DIPLayersPattern v2.png</a>
+13 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36.5px auto;"><a class="image" href="/wiki/File:DIPLayersPattern.png"><img alt="DIPLayersPattern.png" data-file-height="345" data-file-width="535" height="77" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DIPLayersPattern.png/120px-DIPLayersPattern.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DIPLayersPattern.png/180px-DIPLayersPattern.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DIPLayersPattern.png/240px-DIPLayersPattern.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:DIPLayersPattern.png" title="File:DIPLayersPattern.png">DIPLayersPattern.png</a>
+9 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:46.5px auto;"><a class="image" href="/wiki/File:Display_and_picking_views_of_a_menu.pdf"><img alt="Display and picking views of a menu.pdf" data-file-height="475" data-file-width="1006" height="57" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Display_and_picking_views_of_a_menu.pdf/page1-120px-Display_and_picking_views_of_a_menu.pdf.jpg" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Display_and_picking_views_of_a_menu.pdf/page1-180px-Display_and_picking_views_of_a_menu.pdf.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Display_and_picking_views_of_a_menu.pdf/page1-240px-Display_and_picking_views_of_a_menu.pdf.jpg 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Display_and_picking_views_of_a_menu.pdf" title="File:Display and picking views of a menu.pdf">Display and picking views of a menu.pdf</a>
+75 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:35.5px auto;"><a class="image" href="/wiki/File:Domain_model_class_diagram.png"><img alt="Domain model class diagram.png" data-file-height="262" data-file-width="396" height="79" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Domain_model_class_diagram.png/120px-Domain_model_class_diagram.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Domain_model_class_diagram.png/180px-Domain_model_class_diagram.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Domain_model_class_diagram.png/240px-Domain_model_class_diagram.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Domain_model_class_diagram.png" title="File:Domain model class diagram.png">Domain model class diagram.png</a>
+9 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:47px auto;"><a class="image" href="/wiki/File:Ejemplo_metodoPlantilla.png"><img alt="Ejemplo metodoPlantilla.png" data-file-height="217" data-file-width="467" height="56" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ejemplo_metodoPlantilla.png/120px-Ejemplo_metodoPlantilla.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ejemplo_metodoPlantilla.png/180px-Ejemplo_metodoPlantilla.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ejemplo_metodoPlantilla.png/240px-Ejemplo_metodoPlantilla.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Ejemplo_metodoPlantilla.png" title="File:Ejemplo metodoPlantilla.png">Ejemplo metodoPlantilla.png</a>
+11 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36.5px auto;"><a class="image" href="/wiki/File:Essence_of_Model_2.png"><img alt="Essence of Model 2.png" data-file-height="449" data-file-width="701" height="77" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Essence_of_Model_2.png/120px-Essence_of_Model_2.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Essence_of_Model_2.png/180px-Essence_of_Model_2.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Essence_of_Model_2.png/240px-Essence_of_Model_2.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Essence_of_Model_2.png" title="File:Essence of Model 2.png">Essence of Model 2.png</a>
+37 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:52.5px auto;"><a class="image" href="/wiki/File:Exemplo_de_Mediator.png"><img alt="Exemplo de Mediator.png" data-file-height="302" data-file-width="807" height="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Exemplo_de_Mediator.png/120px-Exemplo_de_Mediator.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Exemplo_de_Mediator.png/180px-Exemplo_de_Mediator.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Exemplo_de_Mediator.png/240px-Exemplo_de_Mediator.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Exemplo_de_Mediator.png" title="File:Exemplo de Mediator.png">Exemplo de Mediator.png</a>
+9 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:51px auto;"><a class="image" href="/wiki/File:Fixed_Property_Klassendiagramm.svg"><img alt="Fixed Property Klassendiagramm.svg" data-file-height="134" data-file-width="332" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Fixed_Property_Klassendiagramm.svg/120px-Fixed_Property_Klassendiagramm.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Fixed_Property_Klassendiagramm.svg/180px-Fixed_Property_Klassendiagramm.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Fixed_Property_Klassendiagramm.svg/240px-Fixed_Property_Klassendiagramm.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Fixed_Property_Klassendiagramm.svg" title="File:Fixed Property Klassendiagramm.svg">Fixed Property Klassendiagramm.svg</a>
+2 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:29.5px auto;"><a class="image" href="/wiki/File:Fond_cd.png"><img alt="Fond cd.png" data-file-height="500" data-file-width="660" height="91" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Fond_cd.png/120px-Fond_cd.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Fond_cd.png/180px-Fond_cd.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Fond_cd.png/240px-Fond_cd.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Fond_cd.png" title="File:Fond cd.png">Fond cd.png</a>
+6 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Gender_identity_pattern_infobox.png"><img alt="Gender identity pattern infobox.png" data-file-height="629" data-file-width="297" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gender_identity_pattern_infobox.png/56px-Gender_identity_pattern_infobox.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gender_identity_pattern_infobox.png/85px-Gender_identity_pattern_infobox.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gender_identity_pattern_infobox.png/113px-Gender_identity_pattern_infobox.png 2x" width="56"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Gender_identity_pattern_infobox.png" title="File:Gender identity pattern infobox.png">Gender identity pattern infobox.png</a>
+55 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:38.5px auto;"><a class="image" href="/wiki/File:Identity_map.png"><img alt="Identity map.png" data-file-height="241" data-file-width="396" height="73" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Identity_map.png/120px-Identity_map.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Identity_map.png/180px-Identity_map.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Identity_map.png/240px-Identity_map.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Identity_map.png" title="File:Identity map.png">Identity map.png</a>
+5 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:63px auto;"><a class="image" href="/wiki/File:Interceptor.VSD_Example.png"><img alt="Interceptor.VSD Example.png" data-file-height="97" data-file-width="481" height="24" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Interceptor.VSD_Example.png/120px-Interceptor.VSD_Example.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Interceptor.VSD_Example.png/180px-Interceptor.VSD_Example.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Interceptor.VSD_Example.png/240px-Interceptor.VSD_Example.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Interceptor.VSD_Example.png" title="File:Interceptor.VSD Example.png">Interceptor.VSD Example.png</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:64.5px auto;"><a class="image" href="/wiki/File:Interface_pattern.png"><img alt="Interface pattern.png" data-file-height="99" data-file-width="568" height="21" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Interface_pattern.png/120px-Interface_pattern.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Interface_pattern.png/180px-Interface_pattern.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Interface_pattern.png/240px-Interface_pattern.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Interface_pattern.png" title="File:Interface pattern.png">Interface pattern.png</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:48.5px auto;"><a class="image" href="/wiki/File:JoinPatternClassDiagram.png"><img alt="JoinPatternClassDiagram.png" data-file-height="253" data-file-width="571" height="53" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/JoinPatternClassDiagram.png/120px-JoinPatternClassDiagram.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/JoinPatternClassDiagram.png/180px-JoinPatternClassDiagram.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/JoinPatternClassDiagram.png/240px-JoinPatternClassDiagram.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:JoinPatternClassDiagram.png" title="File:JoinPatternClassDiagram.png">JoinPatternClassDiagram.png</a>
+22 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:JoinPatternFlowDiagram.png"><img alt="JoinPatternFlowDiagram.png" data-file-height="676" data-file-width="496" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/JoinPatternFlowDiagram.png/88px-JoinPatternFlowDiagram.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/JoinPatternFlowDiagram.png/132px-JoinPatternFlowDiagram.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/JoinPatternFlowDiagram.png/176px-JoinPatternFlowDiagram.png 2x" width="88"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:JoinPatternFlowDiagram.png" title="File:JoinPatternFlowDiagram.png">JoinPatternFlowDiagram.png</a>
+37 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:37.5px auto;"><a class="image" href="/wiki/File:Jw0721hmvc14.gif"><img alt="Jw0721hmvc14.gif" data-file-height="264" data-file-width="425" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Jw0721hmvc14.gif/120px-Jw0721hmvc14.gif" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Jw0721hmvc14.gif/180px-Jw0721hmvc14.gif 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Jw0721hmvc14.gif/240px-Jw0721hmvc14.gif 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Jw0721hmvc14.gif" title="File:Jw0721hmvc14.gif">Jw0721hmvc14.gif</a>
+7 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:45.5px auto;"><a class="image" href="/wiki/File:Listener_Pattern.png"><img alt="Listener Pattern.png" data-file-height="267" data-file-width="543" height="59" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Listener_Pattern.png/120px-Listener_Pattern.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Listener_Pattern.png/180px-Listener_Pattern.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Listener_Pattern.png/240px-Listener_Pattern.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Listener_Pattern.png" title="File:Listener Pattern.png">Listener Pattern.png</a>
+12 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:27.5px auto;"><a class="image" href="/wiki/File:Maintaining_Model_Integrity.png"><img alt="Maintaining Model Integrity.png" data-file-height="501" data-file-width="632" height="95" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/120px-Maintaining_Model_Integrity.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/180px-Maintaining_Model_Integrity.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Maintaining_Model_Integrity.png/240px-Maintaining_Model_Integrity.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Maintaining_Model_Integrity.png" title="File:Maintaining Model Integrity.png">Maintaining Model Integrity.png</a>
+27 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a class="image" href="/wiki/File:MMI-RusianDoll.png"><img alt="MMI-RusianDoll.png" data-file-height="768" data-file-width="1024" height="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/MMI-RusianDoll.png/120px-MMI-RusianDoll.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/MMI-RusianDoll.png/180px-MMI-RusianDoll.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/MMI-RusianDoll.png/240px-MMI-RusianDoll.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:MMI-RusianDoll.png" title="File:MMI-RusianDoll.png">MMI-RusianDoll.png</a>
+167 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:34px auto;"><a class="image" href="/wiki/File:Model_View_Presenter_GUI_Design_Pattern.png"><img alt="Model View Presenter GUI Design Pattern.png" data-file-height="214" data-file-width="312" height="82" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/120px-Model_View_Presenter_GUI_Design_Pattern.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/180px-Model_View_Presenter_GUI_Design_Pattern.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/240px-Model_View_Presenter_GUI_Design_Pattern.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Model_View_Presenter_GUI_Design_Pattern.png" title="File:Model View Presenter GUI Design Pattern.png">Model View Presenter GUI Design Pattern.png</a>
+11 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:28.5px auto;"><a class="image" href="/wiki/File:Model_View_Presenter.png"><img alt="Model View Presenter.png" data-file-height="394" data-file-width="507" height="93" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Model_View_Presenter.png/120px-Model_View_Presenter.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Model_View_Presenter.png/180px-Model_View_Presenter.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Model_View_Presenter.png/240px-Model_View_Presenter.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Model_View_Presenter.png" title="File:Model View Presenter.png">Model View Presenter.png</a>
+28 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a class="image" href="/wiki/File:Model_View_Presenter.svg"><img alt="Model View Presenter.svg" data-file-height="384" data-file-width="512" height="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Model_View_Presenter.svg/120px-Model_View_Presenter.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Model_View_Presenter.svg/180px-Model_View_Presenter.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Model_View_Presenter.svg/240px-Model_View_Presenter.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Model_View_Presenter.svg" title="File:Model View Presenter.svg">Model View Presenter.svg</a>
+54 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:47.5px auto;"><a class="image" href="/wiki/File:Multiton.svg"><img alt="Multiton.svg" data-file-height="106" data-file-width="230" height="55" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Multiton.svg/120px-Multiton.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Multiton.svg/180px-Multiton.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Multiton.svg/240px-Multiton.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Multiton.svg" title="File:Multiton.svg">Multiton.svg</a>
+5 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:No_diamond_inheritance.svg"><img alt="No diamond inheritance.svg" data-file-height="270" data-file-width="180" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/No_diamond_inheritance.svg/80px-No_diamond_inheritance.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/No_diamond_inheritance.svg/120px-No_diamond_inheritance.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/No_diamond_inheritance.svg/160px-No_diamond_inheritance.svg.png 2x" width="80"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:No_diamond_inheritance.svg" title="File:No diamond inheritance.svg">No diamond inheritance.svg</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:57px auto;"><a class="image" href="/wiki/File:Non-diamond_inheritance_layout.svg"><img alt="Non-diamond inheritance layout.svg" data-file-height="108" data-file-width="360" height="36" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Non-diamond_inheritance_layout.svg/120px-Non-diamond_inheritance_layout.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Non-diamond_inheritance_layout.svg/180px-Non-diamond_inheritance_layout.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Non-diamond_inheritance_layout.svg/240px-Non-diamond_inheritance_layout.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Non-diamond_inheritance_layout.svg" title="File:Non-diamond inheritance layout.svg">Non-diamond inheritance layout.svg</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:23px auto;"><a class="image" href="/wiki/File:Overview_Patterns_in_SW_Engineering_German.png"><img alt="Overview Patterns in SW Engineering German.png" data-file-height="528" data-file-width="607" height="104" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Overview_Patterns_in_SW_Engineering_German.png/120px-Overview_Patterns_in_SW_Engineering_German.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Overview_Patterns_in_SW_Engineering_German.png/180px-Overview_Patterns_in_SW_Engineering_German.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Overview_Patterns_in_SW_Engineering_German.png/240px-Overview_Patterns_in_SW_Engineering_German.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Overview_Patterns_in_SW_Engineering_German.png" title="File:Overview Patterns in SW Engineering German.png">Overview Patterns in SW Engineering German.png</a>
+53 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:32.5px auto;"><a class="image" href="/wiki/File:Pac-schema.png"><img alt="Pac-schema.png" data-file-height="425" data-file-width="600" height="85" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pac-schema.png/120px-Pac-schema.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pac-schema.png/180px-Pac-schema.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pac-schema.png/240px-Pac-schema.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Pac-schema.png" title="File:Pac-schema.png">Pac-schema.png</a>
+32 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:51.5px auto;"><a class="image" href="/wiki/File:Patron_criteria_csharp.png"><img alt="Patron criteria csharp.png" data-file-height="463" data-file-width="1183" height="47" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Patron_criteria_csharp.png/120px-Patron_criteria_csharp.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Patron_criteria_csharp.png/180px-Patron_criteria_csharp.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Patron_criteria_csharp.png/240px-Patron_criteria_csharp.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Patron_criteria_csharp.png" title="File:Patron criteria csharp.png">Patron criteria csharp.png</a>
+279 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:44px auto;"><a class="image" href="/wiki/File:Patron_criteria_general.png"><img alt="Patron criteria general.png" data-file-height="396" data-file-width="761" height="62" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Patron_criteria_general.png/120px-Patron_criteria_general.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Patron_criteria_general.png/180px-Patron_criteria_general.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Patron_criteria_general.png/240px-Patron_criteria_general.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Patron_criteria_general.png" title="File:Patron criteria general.png">Patron criteria general.png</a>
+141 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:43px auto;"><a class="image" href="/wiki/File:Patrondec5.png"><img alt="Patrondec5.png" data-file-height="295" data-file-width="549" height="64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Patrondec5.png/120px-Patrondec5.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Patrondec5.png/180px-Patrondec5.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Patrondec5.png/240px-Patrondec5.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Patrondec5.png" title="File:Patrondec5.png">Patrondec5.png</a>
+12 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Patrons_de_conception-fr.pdf"><img alt="Patrons de conception-fr.pdf" data-file-height="1754" data-file-width="1239" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Patrons_de_conception-fr.pdf/page1-85px-Patrons_de_conception-fr.pdf.jpg" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Patrons_de_conception-fr.pdf/page1-127px-Patrons_de_conception-fr.pdf.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Patrons_de_conception-fr.pdf/page1-169px-Patrons_de_conception-fr.pdf.jpg 2x" width="85"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Patrons_de_conception-fr.pdf" title="File:Patrons de conception-fr.pdf">Patrons de conception-fr.pdf</a>
+1.48 MB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:41px auto;"><a class="image" href="/wiki/File:Proactor.VSD_SequenceDiagram.png"><img alt="Proactor.VSD SequenceDiagram.png" data-file-height="325" data-file-width="577" height="68" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Proactor.VSD_SequenceDiagram.png/120px-Proactor.VSD_SequenceDiagram.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Proactor.VSD_SequenceDiagram.png/180px-Proactor.VSD_SequenceDiagram.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Proactor.VSD_SequenceDiagram.png/240px-Proactor.VSD_SequenceDiagram.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Proactor.VSD_SequenceDiagram.png" title="File:Proactor.VSD SequenceDiagram.png">Proactor.VSD SequenceDiagram.png</a>
+8 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a class="image" href="/wiki/File:Reference_Architecture_Patterns_2.GIF"><img alt="Reference Architecture Patterns 2.GIF" data-file-height="526" data-file-width="874" height="72" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Reference_Architecture_Patterns_2.GIF/120px-Reference_Architecture_Patterns_2.GIF" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Reference_Architecture_Patterns_2.GIF/180px-Reference_Architecture_Patterns_2.GIF 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Reference_Architecture_Patterns_2.GIF/240px-Reference_Architecture_Patterns_2.GIF 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Reference_Architecture_Patterns_2.GIF" title="File:Reference Architecture Patterns 2.GIF">Reference Architecture Patterns 2.GIF</a>
+23 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:40px auto;"><a class="image" href="/wiki/File:Reference_Architecture_Patterns_Part1.GIF"><img alt="Reference Architecture Patterns Part1.GIF" data-file-height="505" data-file-width="871" height="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reference_Architecture_Patterns_Part1.GIF/120px-Reference_Architecture_Patterns_Part1.GIF" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reference_Architecture_Patterns_Part1.GIF/180px-Reference_Architecture_Patterns_Part1.GIF 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reference_Architecture_Patterns_Part1.GIF/240px-Reference_Architecture_Patterns_Part1.GIF 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Reference_Architecture_Patterns_Part1.GIF" title="File:Reference Architecture Patterns Part1.GIF">Reference Architecture Patterns Part1.GIF</a>
+26 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:33.5px auto;"><a class="image" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_horizontally_aligned.svg"><img alt="Schematic Code Size Comparison On Visitor Pattern, horizontally aligned.svg" data-file-height="390" data-file-width="567" height="83" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg/120px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg/180px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg/240px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_horizontally_aligned.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_horizontally_aligned.svg" title="File:Schematic Code Size Comparison On Visitor Pattern, horizontally aligned.svg">Schematic Code Size Comparison On Visitor Pattern, horizontally aligned.svg</a>
+79 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_vertically_aligned,_annotated.svg"><img alt="Schematic Code Size Comparison On Visitor Pattern, vertically aligned, annotated.svg" data-file-height="939" data-file-width="248" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg/31px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg/47px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg/63px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned%2C_annotated.svg.png 2x" width="31"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_vertically_aligned,_annotated.svg" title="File:Schematic Code Size Comparison On Visitor Pattern, vertically aligned, annotated.svg">Schematic Code Size Comparison On Visitor Pattern, vertically aligned, annotated.svg</a>
+95 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_vertically_aligned.svg"><img alt="Schematic Code Size Comparison On Visitor Pattern, vertically aligned.svg" data-file-height="939" data-file-width="248" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg/31px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg/47px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg/63px-Schematic_Code_Size_Comparison_On_Visitor_Pattern%2C_vertically_aligned.svg.png 2x" width="31"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Schematic_Code_Size_Comparison_On_Visitor_Pattern,_vertically_aligned.svg" title="File:Schematic Code Size Comparison On Visitor Pattern, vertically aligned.svg">Schematic Code Size Comparison On Visitor Pattern, vertically aligned.svg</a>
+79 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a class="image" href="/wiki/File:ScrollbarInverseTransformationMDPC.pdf"><img alt="ScrollbarInverseTransformationMDPC.pdf" data-file-height="814" data-file-width="1350" height="72" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/ScrollbarInverseTransformationMDPC.pdf/page1-120px-ScrollbarInverseTransformationMDPC.pdf.jpg" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/ScrollbarInverseTransformationMDPC.pdf/page1-180px-ScrollbarInverseTransformationMDPC.pdf.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/ScrollbarInverseTransformationMDPC.pdf/page1-240px-ScrollbarInverseTransformationMDPC.pdf.jpg 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:ScrollbarInverseTransformationMDPC.pdf" title="File:ScrollbarInverseTransformationMDPC.pdf">ScrollbarInverseTransformationMDPC.pdf</a>
+17 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a class="image" href="/wiki/File:Specification_UML.png"><img alt="Specification UML.png" data-file-height="323" data-file-width="541" height="72" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Specification_UML.png/120px-Specification_UML.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Specification_UML.png/180px-Specification_UML.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Specification_UML.png/240px-Specification_UML.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Specification_UML.png" title="File:Specification UML.png">Specification UML.png</a>
+18 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a class="image" href="/wiki/File:Structure_of_Digital_Data_Cube_Framework.png"><img alt="Structure of Digital Data Cube Framework.png" data-file-height="720" data-file-width="960" height="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Structure_of_Digital_Data_Cube_Framework.png/120px-Structure_of_Digital_Data_Cube_Framework.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Structure_of_Digital_Data_Cube_Framework.png/180px-Structure_of_Digital_Data_Cube_Framework.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Structure_of_Digital_Data_Cube_Framework.png/240px-Structure_of_Digital_Data_Cube_Framework.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Structure_of_Digital_Data_Cube_Framework.png" title="File:Structure of Digital Data Cube Framework.png">Structure of Digital Data Cube Framework.png</a>
+21 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:37px auto;"><a class="image" href="/wiki/File:Table_module.png"><img alt="Table module.png" data-file-height="202" data-file-width="320" height="76" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Table_module.png/120px-Table_module.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Table_module.png/180px-Table_module.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Table_module.png/240px-Table_module.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Table_module.png" title="File:Table module.png">Table module.png</a>
+8 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:57px auto;"><a class="image" href="/wiki/File:Template_view.png"><img alt="Template view.png" data-file-height="148" data-file-width="497" height="36" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Template_view.png/120px-Template_view.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Template_view.png/180px-Template_view.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Template_view.png/240px-Template_view.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Template_view.png" title="File:Template view.png">Template view.png</a>
+13 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:44px auto;"><a class="image" href="/wiki/File:Thread_pool.svg"><img alt="Thread pool.svg" data-file-height="300" data-file-width="580" height="62" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/120px-Thread_pool.svg.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/180px-Thread_pool.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/240px-Thread_pool.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Thread_pool.svg" title="File:Thread pool.svg">Thread pool.svg</a>
+29 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:62.5px auto;"><a class="image" href="/wiki/File:Traditional_Layers_Pattern.png"><img alt="Traditional Layers Pattern.png" data-file-height="108" data-file-width="521" height="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Traditional_Layers_Pattern.png/120px-Traditional_Layers_Pattern.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Traditional_Layers_Pattern.png/180px-Traditional_Layers_Pattern.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Traditional_Layers_Pattern.png/240px-Traditional_Layers_Pattern.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Traditional_Layers_Pattern.png" title="File:Traditional Layers Pattern.png">Traditional Layers Pattern.png</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:60.5px auto;"><a class="image" href="/wiki/File:Transaction_script.png"><img alt="Transaction script.png" data-file-height="80" data-file-width="335" height="29" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Transaction_script.png/120px-Transaction_script.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Transaction_script.png/180px-Transaction_script.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Transaction_script.png/240px-Transaction_script.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Transaction_script.png" title="File:Transaction script.png">Transaction script.png</a>
+3 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:32.5px auto;"><a class="image" href="/wiki/File:Two_step_transform.png"><img alt="Two step transform.png" data-file-height="314" data-file-width="443" height="85" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Two_step_transform.png/120px-Two_step_transform.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Two_step_transform.png/180px-Two_step_transform.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Two_step_transform.png/240px-Two_step_transform.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Two_step_transform.png" title="File:Two step transform.png">Two step transform.png</a>
+9 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/File:UML_DP_Fabrique.png"><img alt="UML DP Fabrique.png" data-file-height="360" data-file-width="332" height="120" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/UML_DP_Fabrique.png/111px-UML_DP_Fabrique.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/UML_DP_Fabrique.png/166px-UML_DP_Fabrique.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/UML_DP_Fabrique.png/221px-UML_DP_Fabrique.png 2x" width="111"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:UML_DP_Fabrique.png" title="File:UML DP Fabrique.png">UML DP Fabrique.png</a>
+26 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:38px auto;"><a class="image" href="/wiki/File:UML_packages.png"><img alt="UML packages.png" data-file-height="350" data-file-width="564" height="74" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/UML_packages.png/120px-UML_packages.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/UML_packages.png/180px-UML_packages.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/UML_packages.png/240px-UML_packages.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:UML_packages.png" title="File:UML packages.png">UML packages.png</a>
+7 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a class="image" href="/wiki/File:WBS_portuguese.JPG"><img alt="WBS portuguese.JPG" data-file-height="373" data-file-width="623" height="72" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/WBS_portuguese.JPG/120px-WBS_portuguese.JPG" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/WBS_portuguese.JPG/180px-WBS_portuguese.JPG 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/WBS_portuguese.JPG/240px-WBS_portuguese.JPG 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:WBS_portuguese.JPG" title="File:WBS portuguese.JPG">WBS portuguese.JPG</a>
+34 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:48px auto;"><a class="image" href="/wiki/File:Whiteboard_Pattern_Architecture.png"><img alt="Whiteboard Pattern Architecture.png" data-file-height="292" data-file-width="643" height="54" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Whiteboard_Pattern_Architecture.png/120px-Whiteboard_Pattern_Architecture.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Whiteboard_Pattern_Architecture.png/180px-Whiteboard_Pattern_Architecture.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Whiteboard_Pattern_Architecture.png/240px-Whiteboard_Pattern_Architecture.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Whiteboard_Pattern_Architecture.png" title="File:Whiteboard Pattern Architecture.png">Whiteboard Pattern Architecture.png</a>
+16 KB<br/>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:51px auto;"><a class="image" href="/wiki/File:Xl_layer.png"><img alt="Xl layer.png" data-file-height="196" data-file-width="491" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Xl_layer.png/120px-Xl_layer.png" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Xl_layer.png/180px-Xl_layer.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Xl_layer.png/240px-Xl_layer.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<a class="galleryfilename galleryfilename-truncate" href="/wiki/File:Xl_layer.png" title="File:Xl layer.png">Xl layer.png</a>
+7 KB<br/>
+</div>
+</div></li>
+</ul>
+</div></div><noscript><img alt="" height="1" src="//commons.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://commons.wikimedia.org/w/index.php?title=Category:Software_design_patterns&amp;oldid=141564400">https://commons.wikimedia.org/w/index.php?title=Category:Software_design_patterns&amp;oldid=141564400</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Software_design" title="Category:Software design">Software design</a></li><li><a href="/wiki/Category:Programming_literature" title="Category:Programming literature">Programming literature</a></li><li><a href="/wiki/Category:Programming_diagrams" title="Category:Programming diagrams">Programming diagrams</a></li><li><a href="/wiki/Category:Class_diagrams" title="Category:Class diagrams">Class diagrams</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li class="active" id="pt-uls"><a class="uls-trigger autonym" href="#">English</a></li><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Category%3ASoftware+design+patterns" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Category%3ASoftware+design+patterns" title="You are encouraged to log in; however, it is not mandatory [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-category"><span><a accesskey="c" href="/wiki/Category:Software_design_patterns" title="View the category page [c]">Category</a></span></li>
+<li class="new" id="ca-talk"><span><a accesskey="t" href="/w/index.php?title=Category_talk:Software_design_patterns&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]">Discussion</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Category:Software_design_patterns">View</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Category:Software_design_patterns&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Category:Software_design_patterns&amp;action=history" title="Past revisions of this page [h]">History</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikimedia Commons [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search the pages for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigate</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-welcome"><a href="/wiki/Commons:Welcome">Welcome</a></li><li id="n-portal"><a href="/wiki/Commons:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-village-pump"><a href="/wiki/Commons:Village_pump">Village pump</a></li><li id="n-help"><a href="/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help center</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-participate-label" class="portal" id="p-participate" role="navigation">
+<h3 id="p-participate-label">Participate</h3>
+<div class="body">
+<ul>
+<li id="n-uploadbtn"><a href="/wiki/Commons:Upload">Upload file</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-latestfiles"><a href="/wiki/Special:NewFiles">Latest files</a></li><li id="n-randomimage"><a accesskey="x" href="/wiki/Special:Random/File" title="Load a random file [x]">Random file</a></li><li id="n-contact"><a href="/wiki/Commons:Contact_us">Contact us</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Category%3ASoftware+design+patterns">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Category%3ASoftware+design+patterns&amp;returnto=Category%3ASoftware+design+patterns&amp;oldid=141564400&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Category:Software_design_patterns&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-wikipedia"><a href="https://en.wikipedia.org/wiki/Category:Software_design_patterns" hreflang="en">Wikipedia</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Category:Software_design_patterns" title="A list of all wiki pages that link here [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Category:Software_design_patterns" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Category:Software_design_patterns&amp;oldid=141564400" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Category:Software_design_patterns&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q8285793" title="Link to connected data repository item [g]">Wikidata item</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">In Wikipedia</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D9%86%D9%85%D8%A7%D8%B0%D8%AC_%D8%AA%D8%B5%D9%85%D9%8A%D9%85_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA" hreflang="ar" lang="ar" title="تصنيف:نماذج تصميم البرمجيات – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%B7%D0%B0_%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%D0%B5%D0%BD_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" hreflang="bg" lang="bg" title="Категория:Шаблони за софтуерен дизайн – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Categoria:Patrons_de_disseny_de_programari" hreflang="ca" lang="ca" title="Categoria:Patrons de disseny de programari – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Kategorie:N%C3%A1vrhov%C3%A9_vzory" hreflang="cs" lang="cs" title="Kategorie:Návrhové vzory – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Kategorie:Entwurfsmuster" hreflang="de" lang="de" title="Kategorie:Entwurfsmuster – German">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC_%CF%80%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B1" hreflang="el" lang="el" title="Κατηγορία:Σχεδιαστικά πρότυπα – Greek">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Category:Software_design_patterns" hreflang="en" lang="en" title="Category:Software design patterns – English">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Patrones_de_dise%C3%B1o" hreflang="es" lang="es" title="Categoría:Patrones de diseño – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D8%A7%D9%84%DA%AF%D9%88%D9%87%D8%A7%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1" hreflang="fa" lang="fa" title="رده:الگوهای طراحی نرم‌افزار – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Patron_de_conception" hreflang="fr" lang="fr" title="Catégorie:Patron de conception – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Categor%C3%ADa:Patr%C3%B3ns_de_dese%C3%B1o" hreflang="gl" lang="gl" title="Categoría:Patróns de deseño – Galician">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%94:%D7%AA%D7%91%D7%A0%D7%99%D7%95%D7%AA_%D7%A2%D7%99%D7%A6%D7%95%D7%91" hreflang="he" lang="he" title="קטגוריה:תבניות עיצוב – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Kateg%C3%B3ria:Programtervez%C3%A9si_mint%C3%A1k" hreflang="hu" lang="hu" title="Kategória:Programtervezési minták – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BF%D5%A1%D5%BF%D5%A5%D5%A3%D5%B8%D6%80%D5%AB%D5%A1:%D4%BE%D6%80%D5%A1%D5%A3%D6%80%D5%A1%D5%BE%D5%B8%D6%80%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Կատեգորիա:Ծրագրավորման ձևանմուշներ – Armenian">Հայերեն</a></li><li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Categoria:Patronos_de_designo" hreflang="ia" lang="ia" title="Categoria:Patronos de designo – Interlingua">Interlingua</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Categoria:Pattern" hreflang="it" lang="it" title="Categoria:Pattern – Italian">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Category:%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3" hreflang="ja" lang="ja" title="Category:ソフトウェアパターン – Japanese">日本語</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A5%98:%EB%94%94%EC%9E%90%EC%9D%B8_%ED%8C%A8%ED%84%B4" hreflang="ko" lang="ko" title="분류:디자인 패턴 – Korean">한국어</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Categorie:Ontwerppatroon" hreflang="nl" lang="nl" title="Categorie:Ontwerppatroon – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Kategoria:Wzorce_projektowe" hreflang="pl" lang="pl" title="Kategoria:Wzorce projektowe – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Categoria:Padr%C3%B5es_de_projeto_de_software" hreflang="pt" lang="pt" title="Categoria:Padrões de projeto de software – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Категория:Шаблоны проектирования – Russian">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%9F%D1%80%D0%BE%D1%98%D0%B5%D0%BA%D1%82%D0%BD%D0%B8_%D1%83%D0%B7%D0%BE%D1%80%D1%86%D0%B8" hreflang="sr" lang="sr" title="Категорија:Пројектни узорци – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Kategori:Designm%C3%B6nster" hreflang="sv" lang="sv" title="Kategori:Designmönster – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Kategori:Yaz%C4%B1l%C4%B1m_tasar%C4%B1m_%C3%B6r%C3%BCnt%C3%BCleri" hreflang="tr" lang="tr" title="Kategori:Yazılım tasarım örüntüleri – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%8F:%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Категорія:Шаблони проектування програмного забезпечення – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Category:%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="Category:软件设计模式 – Chinese">中文</a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q8285793#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 6 December 2014, at 03:55.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike License</a>; additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy.</a></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Commons:Welcome" title="Commons:Welcome">About Wikimedia Commons</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Commons:General_disclaimer" title="Commons:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//commons.m.wikimedia.org/w/index.php?title=Category:Software_design_patterns&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mmv.bootstrap.autostart","mediawiki.action.view.postEdit","ext.categoryTree","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Slideshow","ext.gadget.ZoomViewer","ext.gadget.CollapsibleTemplates","ext.gadget.fastcci","ext.gadget.UploadWizard","ext.gadget.Long-Image-Names-in-Categories","ext.gadget.Stockphoto","ext.gadget.WatchlistNotice","ext.gadget.AjaxQuickDelete","ext.gadget.WikiMiniAtlas","ext.gadget.LanguageSelect","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.104",
+            "walltime": "0.107",
+            "ppvisitednodes": {
+                "value": 2451,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 24095,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2784,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 4,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%   88.678      1 Template:On_Wikipedia",
+                "100.00%   88.678      1 -total",
+                " 14.80%   13.126      1 Template:LangSwitch"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.003",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 524264,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1257",
+            "timestamp": "20161002123258",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":285,"wgHostname":"mw1257"});});</script>
+</body>
+</html>
+

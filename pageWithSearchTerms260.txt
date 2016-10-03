@@ -1,0 +1,613 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Executable_UML
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Executable UML - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Executable_UML","wgTitle":"Executable UML","wgCurRevisionId":737141566,"wgRevisionId":737141566,"wgArticleId":4849249,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Unified Modeling Language"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Executable_UML","wgRelevantArticleId":4849249,"wgRequestId":"V-CUxApAAD4AAVLMQZAAAAAV","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q5419762","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Executable_UML" rel="alternate"/>
+<link href="/w/index.php?title=Executable_UML&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Executable_UML&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Executable_UML" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Executable_UML rootpage-Executable_UML skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Executable UML</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p><b>Executable UML</b> (<b>xtUML</b> or <b>xUML</b>) is both a software development method and a highly abstract software language. The language "combines a subset of the UML (<a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a>) graphical notation with executable semantics and timing rules."<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> The Executable UML method is the successor to the <a href="/wiki/Shlaer%E2%80%93Mellor_method" title="Shlaer–Mellor method">Shlaer–Mellor method</a>.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>Executable UML models "can be run, <a href="/wiki/Software_testing" title="Software testing">tested</a>, debugged, and measured for performance.",<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> and can be <a href="/wiki/Compiler" title="Compiler">compiled</a> into a less abstract <a href="/wiki/Programming_language" title="Programming language">programming language</a> to target a specific <a href="/wiki/Implementation" title="Implementation">implementation</a>.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> Executable UML supports <a href="/wiki/Model-driven_architecture" title="Model-driven architecture">model-driven architecture</a> (MDA) through specification of <a href="/wiki/Platform-independent_model" title="Platform-independent model">platform-independent models</a>, and the <a href="/wiki/Compiler" title="Compiler">compilation</a> of the <a href="/wiki/Platform-independent_model" title="Platform-independent model">platform-independent models</a> into <a href="/wiki/Platform-specific_model" title="Platform-specific model">platform-specific models</a>.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Executable_UML_building_blocks"><span class="tocnumber">2</span> <span class="toctext">Executable UML building blocks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Domain_Chart"><span class="tocnumber">2.1</span> <span class="toctext">Domain Chart</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Class_diagram"><span class="tocnumber">2.2</span> <span class="toctext">Class diagram</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Statechart_Diagram"><span class="tocnumber">2.3</span> <span class="toctext">Statechart Diagram</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Action_Language"><span class="tocnumber">2.4</span> <span class="toctext">Action Language</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Model_testing_and_execution"><span class="tocnumber">2.5</span> <span class="toctext">Model testing and execution</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Model_compilation"><span class="tocnumber">2.6</span> <span class="toctext">Model compilation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Executable_UML_Key_Aspects"><span class="tocnumber">3</span> <span class="toctext">Executable UML Key Aspects</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#fUML_and_ALF"><span class="tocnumber">4</span> <span class="toctext">fUML and ALF</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Publications"><span class="tocnumber">6</span> <span class="toctext">Publications</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Executable UML is a higher level of <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a> than <a href="/wiki/Third-generation_programming_language" title="Third-generation programming language">third-generation programming languages</a>. This allows <a href="/wiki/Software_developer" title="Software developer">developers</a> to develop at the level of abstraction of the application.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> The Executable UML aims for <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a>. This is supposed to increase ease of <a href="/wiki/Code_reuse" title="Code reuse">reuse</a> and to lower the cost of <a href="/wiki/Software_development" title="Software development">software development</a>. This also enables Executable UML domains to be <a href="/wiki/Cross-platform" title="Cross-platform">cross-platform</a>. That means it is not tied to any specific programming language, platform or technology.</p>
+<p>Executable UML also allows for translation of <a href="/wiki/Platform-independent_model" title="Platform-independent model">platform-independent models</a> (PIM) into <a href="/wiki/Platform-specific_model" title="Platform-specific model">platform-specific models</a> (PSM). The Executable UML method enables valuing the model as <a href="/wiki/Intellectual_property" title="Intellectual property">intellectual property</a>, since the model is a fully executable solution for the problem space.</p>
+<p>Actions are specified in <a href="/wiki/Action_(UML)" title="Action (UML)">action language</a>. This means that the automatic generation of implementation code from Executable UML models can be output in an optimized form.</p>
+<p>Executable UML is intended to serve as executable code as well as documentation. The models are a graphical, executable specification of the problem space that is compiled into a target <a href="/wiki/Implementation" title="Implementation">implementation</a>. They are also intended to be <a class="mw-redirect" href="/wiki/Human-readable" title="Human-readable">human-readable</a>.</p>
+<h2><span class="mw-headline" id="Executable_UML_building_blocks">Executable UML building blocks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=2" title="Edit section: Executable UML building blocks">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A <a href="/wiki/Application_software" title="Application software">system</a> is composed of multiple subject matters, known as <i>domains</i> in Executable UML terms. Executable UML is used to model a domain at the level of <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a> of its subject matter independent of implementation concerns. The resulting domain model is represented by the following elements:</p>
+<ul>
+<li>The <i>domain chart</i> provides a view of the <a href="/wiki/Aspect_(computer_programming)" title="Aspect (computer programming)">domain</a> being modeled, and the dependencies it has on other domains.</li>
+<li>The <i>class diagram</i> defines the <a href="/wiki/Class_(computer_programming)" title="Class (computer programming)">classes</a> and class <a href="/wiki/Association_(object-oriented_programming)" title="Association (object-oriented programming)">associations</a> for the domain.</li>
+<li>The <i>statechart diagram</i> defines the <a href="/wiki/Finite-state_machine" title="Finite-state machine">states</a>, events, and state transitions for a class or class instance.</li>
+<li>The <i>action language</i> defines the actions or operations that perform processing on model elements.</li>
+</ul>
+<h3><span class="mw-headline" id="Domain_Chart">Domain Chart</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=3" title="Edit section: Domain Chart">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Executable UML requires identification of the domains (also known as: <a href="/wiki/Aspect_(computer_programming)" title="Aspect (computer programming)">aspects</a><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> or <a href="/wiki/Concern_(computer_science)" title="Concern (computer science)">concerns</a>) of the system. "Each domain is an autonomous world inhabited by conceptual entities"<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup> Each domain can be modeled independent of the other domains in the system, enabling a <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a>. As an example, domains for an automated teller system may include the following:</p>
+<ul>
+<li>The application domain model of the automated teller's <a href="/wiki/Business_logic" title="Business logic">business logic</a>.</li>
+<li>The <a href="/wiki/Computer_security" title="Computer security">security</a> domain model of various issues regarding system security (such as <a href="/wiki/Authentication" title="Authentication">authentication</a> and <a href="/wiki/Encryption" title="Encryption">encryption</a>).</li>
+<li>The data access domain model of methods for external <a href="/wiki/Data_(computing)" title="Data (computing)">data</a> usage.</li>
+<li>The <a class="mw-redirect" href="/wiki/Data_logging" title="Data logging">logging</a> domain model of the various methods through which the system can or must log information.</li>
+<li>The <a href="/wiki/User_interface" title="User interface">user interface</a> domain model of the user interactions with the system.</li>
+<li>The <a href="/wiki/Computing_platform" title="Computing platform">architecture</a> domain model of the <a href="/wiki/Implementation" title="Implementation">implemented</a> of the Executable UML model on the system's <a href="/wiki/Computer_hardware" title="Computer hardware">hardware</a> and <a href="/wiki/Software" title="Software">software</a> platforms.</li>
+</ul>
+<p>The <i>separation of concerns</i> enables each domain to be developed and verified independently of the other domains in the system by the respective domain experts.</p>
+<p>The connections between domains are called <i>bridges</i>. "A bridge is a layering dependency between domains".<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> This means that the domains can place requirements upon other domains. It is recommended that bridges are agreed upon by the different domain experts.</p>
+<p>A domain can be marked as <i>realized</i> to indicate that the domain exists and does not need to be modeled. For example, a data access domain that uses a <a href="/wiki/MySQL" title="MySQL">MySQL</a> database would be marked as realized.</p>
+<h3><span class="mw-headline" id="Class_diagram">Class diagram</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=4" title="Edit section: Class diagram">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">See also: <a href="/wiki/Class_diagram" title="Class diagram">Class diagram</a></div>
+<p>Conceptual entities, such as tangible things, roles, incidents, interactions, and specifications, specific to the domain being modeled are abstracted into <i>classes</i>. Classes can have <i>attributes</i> and <i>operations</i>.</p>
+<p>The relationships between these classes will be indicated with <i>associations</i> and <i>generalizations</i>. An association may require further abstraction as an <i>Association Class</i>.</p>
+<p>Constraints on the class diagram can be written in both Action Language and <a href="/wiki/Object_Constraint_Language" title="Object Constraint Language">Object Constraint Language</a> (OCL).</p>
+<p>The Executable UML method limits the UML elements that can be used in an Executable UML class diagram.</p>
+<p>An Executable UML class diagram is meant to expose information about the domain. Too much complexity in the statechart diagrams is a good indicator that the class diagram should be reworked.</p>
+<h3><span class="mw-headline" id="Statechart_Diagram">Statechart Diagram</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=5" title="Edit section: Statechart Diagram">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">See also: <a href="/wiki/Finite-state_machine" title="Finite-state machine">Finite-state machine</a> and <a href="/wiki/State_diagram" title="State diagram">State diagram</a></div>
+<p>Classes have lifecycles which are modeled in Executable UML with a <a href="/wiki/State_diagram" title="State diagram">statechart diagram</a>. The statechart diagram defines the <i>states</i>, <i>transitions</i>, <i>events</i>, and <i>procedures</i> that define a class' behaviour.</p>
+<p>Each state has only one procedure that is executed upon <a href="/wiki/Moore_machine" title="Moore machine">entry into that state</a>. A procedure is composed of actions, which are specified in an action language.</p>
+<h3><span class="mw-headline" id="Action_Language">Action Language</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=6" title="Edit section: Action Language">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The class and state models by themselves can only provide a static view of the domain. In order to have an executable model, there must be a way to create class instances, establish associations, perform operations on attributes, call state events, etc. In Executable UML, this is done using an action language that conforms to the UML Action Semantics.</p>
+<p>Action Semantics was added to the UML specification in 2001. The Action Semantics RFP was based on previous work in action languages supporting the <a href="/wiki/Shlaer%E2%80%93Mellor_method" title="Shlaer–Mellor method">Shlaer–Mellor method</a>. Existing action languages are Object Action Language (OAL), Shlaer–Mellor Action Language (SMALL), Action Specification Language (ASL), That Action Language (TALL), Starr's Concise Relational Action Language (SCRALL), Platform-independent Action Language (PAL) and PathMATE Action Language (PAL). SCRALL is the only one that is a graphical action language.</p>
+<h3><span class="mw-headline" id="Model_testing_and_execution">Model testing and execution</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=7" title="Edit section: Model testing and execution">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Once a domain is modeled, it can be <a href="/wiki/Software_testing" title="Software testing">tested</a> independent of the target <a href="/wiki/Implementation" title="Implementation">implementation</a> by executing the model. Each domain can be <a href="/wiki/Verification_and_validation" title="Verification and validation">verified and validated</a> independent of any other domain. This allows <a href="/wiki/Software_bug" title="Software bug">errors</a> detected to be associated with the domain and independent of other system concerns.</p>
+<p><a class="mw-redirect" href="/wiki/Static_testing" title="Static testing">Verification</a> will involve such things as human <a href="/wiki/Peer_review" title="Peer review">review</a> of the models, performed by experts in the relevant domain, and automated checking of the Executable UML semantics. i.e., checking that the Executable UML model complies with the Executable UML <a href="/wiki/Meta" title="Meta">metamodel</a>.</p>
+<p><a href="/wiki/Dynamic_testing" title="Dynamic testing">Validation</a> will typically involve use of an Executable UML tool to execute the model. The execution can occur either before or after model compilation.</p>
+<h3><span class="mw-headline" id="Model_compilation">Model compilation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=8" title="Edit section: Model compilation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In order to support execution on the target <a href="/wiki/Implementation" title="Implementation">implementation</a>, the domain model must be translated into a less <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstract</a> form. This translation process is called <i>model compilation</i>. Most model <a class="mw-redirect" href="/wiki/Compilation_(programming)" title="Compilation (programming)">compilers</a> target a known <a href="/wiki/Programming_language" title="Programming language">programming language</a>, because this allows reuse of existing <a href="/wiki/Compiler" title="Compiler">compiler</a> technologies.</p>
+<p><a href="/wiki/Program_optimization" title="Program optimization">Optimizing</a> the domain models for target <a href="/wiki/Implementation" title="Implementation">implementation</a> reasons will reduce the level of <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a>, adversely affect domain independence, and increase the cost of <a href="/wiki/Code_reuse" title="Code reuse">reuse</a>. In executable UML, <a class="mw-redirect" href="/wiki/Optimization_(computer_science)" title="Optimization (computer science)">optimizations</a> are done by the model <a class="mw-redirect" href="/wiki/Compilation_(programming)" title="Compilation (programming)">compiler</a> either automatically or through <i>marking</i>. Marking allows specific model elements to be targeted for specific lower-level <a href="/wiki/Implementation" title="Implementation">implementations</a>, and allows for broader architectural decisions, such as specifying that <a href="/wiki/Container_(abstract_data_type)" title="Container (abstract data type)">collections</a> of objects should be <a href="/wiki/Implementation" title="Implementation">implemented</a> as a <a href="/wiki/Doubly_linked_list" title="Doubly linked list">doubly linked list</a>.</p>
+<p>In <a href="/wiki/Model-driven_architecture" title="Model-driven architecture">MDA</a> terms, the model <a class="mw-redirect" href="/wiki/Compilation_(programming)" title="Compilation (programming)">compiler</a> creates the <a href="/wiki/Platform-specific_model" title="Platform-specific model">PSM</a>. The separation between the <a href="/wiki/Platform-independent_model" title="Platform-independent model">PIM</a> and <a href="/wiki/Platform-specific_model" title="Platform-specific model">PSM</a> in Executable UML disables the ability to <a href="/wiki/Round-trip_engineering" title="Round-trip engineering">round-trip engineer</a> the model, and deters modifications to the <a href="/wiki/Platform-specific_model" title="Platform-specific model">PSM</a>.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></p>
+<h2><span class="mw-headline" id="Executable_UML_Key_Aspects">Executable UML Key Aspects</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=9" title="Edit section: Executable UML Key Aspects">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Executable UML defines execution semantics for a subset of the UML. Key aspects of the Executable UML subset include the following:</p>
+<ul>
+<li>No support for implementation specific constructs, like aggregation and composition.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></li>
+<li>Generalizations are always notated as {complete, disjoint}.</li>
+<li>Associations between classes are <i>always</i> named, have verb phrases on both ends specifying the roles, and have multiplicity specified on both ends.</li>
+<li>Multiplicities on association ends are restricted to 0..1 (zero to one), * (zero to many), 1 (exactly one), or 1..* (one to many).</li>
+<li><a href="/wiki/Data_type" title="Data type">Data types</a> are restricted to the following core data types: boolean, string, integer, real, date, timestamp, and arbitrary_id, or one of the following domain-specific data types: numeric, string, enumerated, and composite. Domain-specific numeric and string data types can represent subsets of the core data types. The domain-specific composite data type is to always be treated as a single unit within the domain. e.g., a <i>MailingAddress</i> composite data type could be declared, but city information couldn't be extracted from it.</li>
+<li><a href="/wiki/Constraint_(information_theory)" title="Constraint (information theory)">Constraints</a> on the Executable UML models can either be represented as <a href="/wiki/Object_Constraint_Language" title="Object Constraint Language">Object Constraint Language</a> (OCL) or action language.</li>
+</ul>
+<h2><span class="mw-headline" id="fUML_and_ALF">fUML and ALF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=10" title="Edit section: fUML and ALF">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <a href="/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a> has recently standardized the <a class="mw-redirect" href="/wiki/FUML" title="FUML">Foundational UML (fUML)</a>. fUML is strongly influenced by Executable UML, but <em><a class="mw-redirect" href="/wiki/FUML" title="FUML">Foundational UML (fUML)</a> is a not the Executable UML that is covered in this article!</em> See <a href="/wiki/Talk:Executable_UML#Is_fUML_Executable_UML.3F" title="Talk:Executable UML">Discussion</a>.</p>
+<p>Action Language for Foundational UML (ALF), is a new standard action language proposed by the <a href="/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a>.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Aspect_(computer_programming)" title="Aspect (computer programming)">Aspect (computer programming)</a></li>
+<li><a href="/wiki/Automatic_programming" title="Automatic programming">Automatic programming</a></li>
+<li><a href="/wiki/Code_generation_(compiler)" title="Code generation (compiler)">Code generation (compiler)</a></li>
+<li><a href="/wiki/Model-driven_architecture" title="Model-driven architecture">Model-driven architecture</a> (MDA)</li>
+<li><a href="/wiki/Model-driven_engineering" title="Model-driven engineering">Model-driven engineering</a> (MDE)</li>
+</ul>
+<h2><span class="mw-headline" id="Publications">Publications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=12" title="Edit section: Publications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Gerry Boyd (2003) "<a class="external text" href="http://www.devx.com/enterprise/Article/10717" rel="nofollow">Executable UML: Diagrams for the Future</a>." published at <i>devx.com</i>, February 5, 2003.</li>
+<li>Shayne Flint, and <a href="/wiki/Clive_Boughton" title="Clive Boughton">Clive Boughton</a> (2003) "Executable/translatable UML and Systems Engineering." <i>Practical Approaches for Complex Systems (SETE 2003)</i>.</li>
+<li>Shayne Flint, Henry Gardner, and <a href="/wiki/Clive_Boughton" title="Clive Boughton">Clive Boughton</a> (2004). "<a class="external text" href="http://crpit.com/confpapers/CRPITV30Flint.pdf" rel="nofollow">Executable/Translatable UML in computing education</a>." <i>Proceedings of the Sixth Australasian Conference on Computing Education-Volume 30</i>. Australian Computer Society, Inc.</li>
+<li><cite class="citation book">H.S. Lahman (2011). <i>Model-Based Development: Applications</i>. Addison-Wesley Professional. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-77407-8" title="Special:BookSources/0-321-77407-8">0-321-77407-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=H.S.+Lahman&amp;rft.btitle=Model-Based+Development%3A+Applications&amp;rft.date=2011&amp;rft.genre=book&amp;rft.isbn=0-321-77407-8&amp;rft.pub=Addison-Wesley+Professional&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book"><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a> &amp; Marc Balcer (2002). <i>Executable UML: A Foundation for Model-Driven Architecture</i>. Addison Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-74804-5" title="Special:BookSources/0-201-74804-5">0-201-74804-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=Stephen+J.+Mellor+%26+Marc+Balcer&amp;rft.btitle=Executable+UML%3A+A+Foundation+for+Model-Driven+Architecture&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=0-201-74804-5&amp;rft.pub=Addison+Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <a class="external text" href="http://www.informit.com/articles/article.aspx?p=28274" rel="nofollow">Chapter 1</a> online</li>
+<li><cite class="citation"><a class="external text" href="https://web.archive.org/web/20100209114705/http://embedded.com/story/OEG20030115S0043" rel="nofollow"><i>Executable and Translatable UML</i></a>, archived from <a class="external text" href="http://www.embedded.com/story/OEG20030115S0043" rel="nofollow">the original</a> on 2010-02-09<span class="reference-accessdate">, retrieved <span class="nowrap">2015-08-25</span></span></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.btitle=Executable+and+Translatable+UML&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.embedded.com%2Fstory%2FOEG20030115S0043&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a> (2004). <a class="external text" href="http://www.techonline.com/community/tech_topic/36794" rel="nofollow">"Introduction to Executable and Translatable UML"</a>. TechOnLine<span class="reference-accessdate">. Retrieved <span class="nowrap">2006-04-25</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=Stephen+J.+Mellor&amp;rft.btitle=Introduction+to+Executable+and+Translatable+UML&amp;rft.date=2004&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.techonline.com%2Fcommunity%2Ftech_topic%2F36794&amp;rft.pub=TechOnLine&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a> (2004). <a class="external text" href="http://www.cs.iit.edu/~oaldawud/AOM/AOM2003/Stephen-AOSD.pdf" rel="nofollow">"A Framework for Aspect-Oriented Modelling"</a> <span style="font-size:85%;">(PDF)</span>. Project Technology, Inc<span class="reference-accessdate">. Retrieved <span class="nowrap">2006-04-25</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=Stephen+J.+Mellor&amp;rft.btitle=A+Framework+for+Aspect-Oriented+Modelling&amp;rft.date=2004&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.iit.edu%2F~oaldawud%2FAOM%2FAOM2003%2FStephen-AOSD.pdf&amp;rft.pub=Project+Technology%2C+Inc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Chris Raistrick; et al. (2004). <i>Model Driven Architecture with Executable UML</i>. Cambridge University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-521-53771-1" title="Special:BookSources/0-521-53771-1">0-521-53771-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=Chris+Raistrick&amp;rft.btitle=Model+Driven+Architecture+with+Executable+UML&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-521-53771-1&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Leon Starr (2002). <i>Executable UML:How to Build Class Models</i>. Prentice-Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-13-067479-6" title="Special:BookSources/0-13-067479-6">0-13-067479-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.au=Leon+Starr&amp;rft.btitle=Executable+UML%3AHow+to+Build+Class+Models&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=0-13-067479-6&amp;rft.pub=Prentice-Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Starr 2002, p. 3.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">G. O'Keefe (2006) "Dynamic Logic Semantics for UML Consistency" in: <i>Model-Driven Architecture - Foundations and Applications: Second European Conference, ECMDA-FA 2006, Bilbao, Spain, July 10–13, 2006, Proceedings</i>. Arend Rensink eds. p. 124</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Starr 2002, p. 3.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, section 1.4.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, section 1.5.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Raistrick et al. 2004, sections 2.3.3 and 2.3.4.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, section 1.1.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, section 3.4.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, p. 14.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, p. 35.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, chapter 9.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Mellor and Balcer 2002, p. xxx.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Executable_UML&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation web"><a class="external text" href="http://tech.groups.yahoo.com/group/executableuml/" rel="nofollow">"executableuml Yahoo! Groups"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.btitle=executableuml+Yahoo%21+Groups&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftech.groups.yahoo.com%2Fgroup%2Fexecutableuml%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://tech.groups.yahoo.com/group/ExecutableUMLTools/" rel="nofollow">"Executable UML Tools Yahoo! Groups"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AExecutable+UML&amp;rft.btitle=Executable+UML+Tools+Yahoo%21+Groups&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftech.groups.yahoo.com%2Fgroup%2FExecutableUMLTools%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="http://www.pathfindermda.com/MDAdemo.html" rel="nofollow"><i>Animated Introduction - Executable UML through MDA Explained (4 minutes)</i></a> at PathfinderMDA.com</li>
+</ul>
+<div aria-labelledby="Unified_Modeling_Language" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="3" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:UML" title="Template:UML"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:UML" title="Template talk:UML"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:UML&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Unified_Modeling_Language" style="font-size:114%"><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Actors</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i>Organizations</i>
+<ul>
+<li><a href="/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a></li>
+<li><a class="new" href="/w/index.php?title=Category:UML_Partners&amp;action=edit&amp;redlink=1" title="Category:UML Partners (page does not exist)">UML Partners</a></li>
+</ul>
+</li>
+<li><i>Persons</i>
+<ul>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="9" style="width:0%;padding:0px 0px 0px 2px">
+<div><a href="/wiki/Use_case_diagram" title="Use case diagram"><img alt="Use case restaurant model.svg" data-file-height="496" data-file-width="496" height="100" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Use_case_restaurant_model.svg/100px-Use_case_restaurant_model.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Use_case_restaurant_model.svg/150px-Use_case_restaurant_model.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Use_case_restaurant_model.svg/200px-Use_case_restaurant_model.svg.png 2x" width="100"/></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row">Object oriented</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object-oriented programming</a></li>
+<li><a href="/wiki/Object-oriented_analysis_and_design" title="Object-oriented analysis and design">Object-oriented analysis and design</a></li>
+<li><a href="/wiki/Object-oriented_modeling" title="Object-oriented modeling">Object-oriented modeling</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Structure</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Actor_(UML)" title="Actor (UML)">Actor</a></li>
+<li><a href="/wiki/Attribute_(computing)" title="Attribute (computing)">Attribute</a></li>
+<li><a href="/wiki/Artifact_(UML)" title="Artifact (UML)">Artifact</a></li>
+<li><a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">Class</a></li>
+<li><a href="/wiki/Component_(UML)" title="Component (UML)">Component</a></li>
+<li><a class="mw-redirect" href="/wiki/Interface_(object-oriented_programming)" title="Interface (object-oriented programming)">Interface</a></li>
+<li><a href="/wiki/Object_(computer_science)" title="Object (computer science)">Object</a></li>
+<li><a href="/wiki/Package_(UML)" title="Package (UML)">Package</a></li>
+<li><a href="/wiki/Profile_diagram" title="Profile diagram">Profile diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Behavior</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Activity_(UML)" title="Activity (UML)">Activity</a></li>
+<li><a href="/wiki/Event_(UML)" title="Event (UML)">Event</a></li>
+<li><a href="/wiki/Message_passing" title="Message passing">Message</a></li>
+<li><a class="mw-redirect" href="/wiki/Method_(computer_science)" title="Method (computer science)">Method</a></li>
+<li><a href="/wiki/State_(computer_science)" title="State (computer science)">State</a></li>
+<li><a href="/wiki/Use_case" title="Use case">Use case</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Relationships</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Object_composition#Aggregation" title="Object composition">Aggregation</a></li>
+<li><a href="/wiki/Association_(object-oriented_programming)" title="Association (object-oriented programming)">Association</a></li>
+<li><a href="/wiki/Object_composition" title="Object composition">Composition</a></li>
+<li><a class="mw-redirect" href="/wiki/Coupling_(computer_science)" title="Coupling (computer science)">Dependency</a></li>
+<li><a href="/wiki/Generalization" title="Generalization">Generalization</a> (or <a class="mw-redirect" href="/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)">Inheritance</a>)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Extensibility</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Profile_(UML)" title="Profile (UML)">Profile</a></li>
+<li><a href="/wiki/Stereotype_(UML)" title="Stereotype (UML)">Stereotype</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Class_diagram#Multiplicity" title="Class diagram">Multiplicity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Diagrams</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row">Structure</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Class_diagram" title="Class diagram">Class</a></li>
+<li><a href="/wiki/Component_diagram" title="Component diagram">Component</a></li>
+<li><a href="/wiki/Composite_structure_diagram" title="Composite structure diagram">Composite structure</a></li>
+<li><a href="/wiki/Deployment_diagram" title="Deployment diagram">Deployment</a></li>
+<li><a href="/wiki/Object_diagram" title="Object diagram">Object</a></li>
+<li><a href="/wiki/Package_diagram" title="Package diagram">Package</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Behaviour</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Activity_diagram" title="Activity diagram">Activity</a></li>
+<li><a href="/wiki/UML_state_machine" title="UML state machine">State Machine</a></li>
+<li><a class="mw-redirect" href="/wiki/Use_case_diagram" title="Use case diagram">Use case</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Interaction</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Communication_diagram" title="Communication diagram">Communications</a></li>
+<li><a href="/wiki/Sequence_diagram" title="Sequence diagram">Sequence</a></li>
+<li><a href="/wiki/Interaction_overview_diagram" title="Interaction overview diagram">Interaction overview</a></li>
+<li><a href="/wiki/Timing_diagram_(Unified_Modeling_Language)" title="Timing diagram (Unified Modeling Language)">Timing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Derived languages</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">Systems Modeling Language (SysML)</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_eXchange_Format" title="UML eXchange Format">UML eXchange Format (UXF)</a></li>
+<li><a href="/wiki/XML_Metadata_Interchange" title="XML Metadata Interchange">XML Metadata Interchange (XMI)</a></li>
+<li><strong class="selflink">Executable UML (xUML)</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other topics</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Glossary_of_Unified_Modeling_Language_terms" title="Glossary of Unified Modeling Language terms">Glossary of UML terms</a></li>
+<li><a class="mw-redirect" href="/wiki/IBM_Rational_Unified_Process" title="IBM Rational Unified Process">Rational Unified Process</a></li>
+<li><a class="mw-redirect" href="/wiki/Comparison_of_Unified_Modeling_Language_tools" title="Comparison of Unified Modeling Language tools">Comparison of UML tools</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_colors" title="UML colors">UML colors</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:4849249-0!*!0!!en!4!* and timestamp 20161001041904 and revision id 737141566
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Executable_UML&amp;oldid=737141566">https://en.wikipedia.org/w/index.php?title=Executable_UML&amp;oldid=737141566</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Unified_Modeling_Language" title="Category:Unified Modeling Language">Unified Modeling Language</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Executable+UML" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Executable+UML" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Executable_UML" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Executable_UML" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Executable_UML">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Executable_UML&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Executable_UML&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Executable_UML" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Executable_UML" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Executable_UML&amp;oldid=737141566" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Executable_UML&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q5419762" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Executable_UML&amp;id=737141566" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Executable+UML">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Executable+UML&amp;returnto=Executable+UML&amp;oldid=737141566&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Executable_UML&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-wikiquote"><a href="https://en.wikiquote.org/wiki/Executable_UML" hreflang="en">Wikiquote</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q5419762#sitelinks-wikipedia" title="Add interlanguage links">Add links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 1 September 2016, at 00:38.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Executable_UML&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.175",
+            "walltime": "0.190",
+            "ppvisitednodes": {
+                "value": 700,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 42246,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 102,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 7,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  132.695      1 -total",
+                " 34.80%   46.176      4 Template:Cite_book",
+                " 15.56%   20.641      2 Template:See_also",
+                " 14.71%   19.514      1 Template:UML",
+                " 14.51%   19.250      3 Template:Navbox",
+                " 13.32%   17.669      4 Template:Cite_web",
+                "  9.48%   12.579      1 Template:Reflist",
+                "  8.54%   11.329      1 Template:Citation",
+                "  1.28%    1.702      1 Template:Em",
+                "  1.14%    1.510      1 Template:Column-count"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.064",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2644366,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1239",
+            "timestamp": "20161001041904",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":175,"wgHostname":"mw1267"});});</script>
+</body>
+</html>
+

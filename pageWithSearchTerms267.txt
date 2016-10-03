@@ -1,0 +1,906 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Capability Maturity Model Integration - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Capability_Maturity_Model_Integration","wgTitle":"Capability Maturity Model Integration","wgCurRevisionId":735671761,"wgRevisionId":735671761,"wgArticleId":1288948,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles to be merged from October 2015","All articles to be merged","All articles with unsourced statements","Articles with unsourced statements from November 2013","Commons category with local link same as on Wikidata","Articles with DMOZ links","Use dmy dates from February 2011","Maturity models","Software development process","Standards","Carnegie Mellon University software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Capability_Maturity_Model_Integration","wgRelevantArticleId":1288948,"wgRequestId":"V-FSBApAEKgAACtEoPEAAAAN","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q428361","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Capability_Maturity_Model_Integration" rel="alternate"/>
+<link href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Capability_Maturity_Model_Integration rootpage-Capability_Maturity_Model_Integration skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Capability Maturity Model Integration</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">"CMMI" redirects here. For the US government organization, see <a href="/wiki/Center_for_Medicare_and_Medicaid_Innovation" title="Center for Medicare and Medicaid Innovation">Center for Medicare and Medicaid Innovation</a>.</div>
+<table class="metadata plainlinks ambox ambox-move" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="20" data-file-width="50" height="20" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Merge-arrows.svg/50px-Merge-arrows.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Merge-arrows.svg/75px-Merge-arrows.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/52/Merge-arrows.svg/100px-Merge-arrows.svg.png 2x" width="50"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">It has been suggested that this article be <a href="/wiki/Wikipedia:Merging" title="Wikipedia:Merging">merged</a> with <i><a href="/wiki/Capability_Maturity_Model" title="Capability Maturity Model">Capability Maturity Model</a></i>. (<a href="/wiki/Talk:Capability_Maturity_Model_Integration" title="Talk:Capability Maturity Model Integration">Discuss</a>) <small><i>Proposed since October 2015.</i></small></span></td>
+</tr>
+</table>
+<p><b>Capability Maturity Model Integration</b> (<b>CMMI</b>) is a process improvement training and appraisal program. Administered by the <b>CMMI Institute</b>, a <a href="/wiki/Subsidiary" title="Subsidiary">subsidiary</a> of <a href="/wiki/ISACA" title="ISACA">ISACA</a>, it was developed at <a href="/wiki/Carnegie_Mellon_University" title="Carnegie Mellon University">Carnegie Mellon University</a> (CMU). It is required by many <a href="/wiki/United_States_Department_of_Defense" title="United States Department of Defense">DoD</a> and U.S. Government contracts, especially in <a href="/wiki/Software_development" title="Software development">software development</a>. CMU claims CMMI can be used to guide process improvement across a project, division, or an entire organization. CMMI defines the following maturity levels for processes: Initial, Managed and Defined. Currently supported is <a class="new" href="/w/index.php?title=CMMI_Version_1.3&amp;action=edit&amp;redlink=1" title="CMMI Version 1.3 (page does not exist)">CMMI Version 1.3</a>. CMMI is registered in the U.S. Patent and Trademark Office by CMU.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#CMMI_Overview"><span class="tocnumber">1</span> <span class="toctext">CMMI Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#CMMI_topics"><span class="tocnumber">3</span> <span class="toctext">CMMI topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#CMMI_representation"><span class="tocnumber">3.1</span> <span class="toctext">CMMI representation</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#CMMI_model_framework"><span class="tocnumber">3.2</span> <span class="toctext">CMMI model framework</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Maturity_levels_in_CMMI_for_services"><span class="tocnumber">3.3</span> <span class="toctext">Maturity levels in CMMI for services</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#CMMI_models"><span class="tocnumber">3.4</span> <span class="toctext">CMMI models</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Appraisal"><span class="tocnumber">3.5</span> <span class="toctext">Appraisal</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#CMMI_Security_Guides"><span class="tocnumber">3.6</span> <span class="toctext">CMMI Security Guides</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Applications"><span class="tocnumber">4</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Official_sources"><span class="tocnumber">7</span> <span class="toctext">Official sources</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="CMMI_Overview">CMMI Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=1" title="Edit section: CMMI Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:502px;"><a class="image" href="/wiki/File:Characteristics_of_Capability_Maturity_Model.svg"><img alt="" class="thumbimage" data-file-height="600" data-file-width="800" height="375" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Characteristics_of_Capability_Maturity_Model.svg/500px-Characteristics_of_Capability_Maturity_Model.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Characteristics_of_Capability_Maturity_Model.svg/750px-Characteristics_of_Capability_Maturity_Model.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Characteristics_of_Capability_Maturity_Model.svg/1000px-Characteristics_of_Capability_Maturity_Model.svg.png 2x" width="500"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Characteristics_of_Capability_Maturity_Model.svg" title="Enlarge"></a></div>
+Characteristics of the Maturity levels.<sup class="reference" id="cite_ref-Go08_1-0"><a href="#cite_note-Go08-1">[1]</a></sup></div>
+</div>
+</div>
+<p>CMMI currently addresses three areas of interest:</p>
+<ol>
+<li>Product and service development — CMMI for Development (CMMI-DEV),</li>
+<li>Service establishment, management, — CMMI for Services (CMMI-SVC), and</li>
+<li>Product and service acquisition — CMMI for Acquisition (CMMI-ACQ).</li>
+</ol>
+<p>CMMI was developed by a group of experts from industry, government, and the <a href="/wiki/Software_Engineering_Institute" title="Software Engineering Institute">Software Engineering Institute</a> (SEI) at CMU. CMMI models provide guidance for developing or improving processes that meet the business goals of an organization. A CMMI model may also be used as a framework for appraising the process maturity of the organization.<sup class="reference" id="cite_ref-Go08_1-1"><a href="#cite_note-Go08-1">[1]</a></sup> By January of 2013, the entire CMMI product suite was transferred from the SEI to the CMMI Institute, a newly created organization at Carnegie Mellon.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>CMMI originated in software engineering but has been highly generalized over the years to embrace other areas of interest, such as the development of hardware products, the delivery of all kinds of services, and the acquisition of products and services. The word "software" does not appear in definitions of CMMI. This generalization of improvement concepts makes CMMI extremely abstract. It is not as specific to software engineering as its predecessor, the Software CMM (CMM, see below).</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>CMMI was developed by the CMMi project, which aimed to improve the usability of maturity models by integrating many different models into one framework. The project consisted of members of industry, government and the Carnegie Mellon Software Engineering Institute (SEI). The main sponsors included the Office of the Secretary of Defense (<a href="/wiki/Office_of_the_Secretary_of_Defense" title="Office of the Secretary of Defense">OSD</a>) and the <a href="/wiki/National_Defense_Industrial_Association" title="National Defense Industrial Association">National Defense Industrial Association</a>.</p>
+<p>CMMI is the successor of the <a class="mw-redirect" href="/wiki/Capability_maturity_model" title="Capability maturity model">capability maturity model</a> (CMM) or Software CMM. The CMM was developed from 1987 until 1997. In 2002, CMMI Version 1.1 was released, Version 1.2 followed in August 2006, and <a class="new" href="/w/index.php?title=CMMI_Version_1.3&amp;action=edit&amp;redlink=1" title="CMMI Version 1.3 (page does not exist)">CMMI Version 1.3</a> in November 2010. Some of the major changes in CMMI V1.3 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> are the support of Agile Software Development,<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> improvements to high maturity practices <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> and alignment of the representation (staged and continuous).<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></p>
+<p>According to the <a href="/wiki/Software_Engineering_Institute" title="Software Engineering Institute">Software Engineering Institute</a> (SEI, 2008), CMMI helps "integrate traditionally separate organizational functions, set process improvement goals and priorities, provide guidance for quality processes, and provide a point of reference for appraising current processes."<sup class="reference" id="cite_ref-SEI08_7-0"><a href="#cite_note-SEI08-7">[7]</a></sup></p>
+<p>In March 2016, the CMMI Institute was acquired by <a href="/wiki/ISACA" title="ISACA">ISACA</a>.</p>
+<h2><span class="mw-headline" id="CMMI_topics">CMMI topics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=3" title="Edit section: CMMI topics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="CMMI_representation">CMMI representation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=4" title="Edit section: CMMI representation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>CMMI exists in two representations: continuous and staged.<sup class="reference" id="cite_ref-Go08_1-2"><a href="#cite_note-Go08-1">[1]</a></sup> The continuous representation is designed to allow the user to focus on the specific processes that are considered important for the organization's immediate business objectives, or those to which the organization assigns a high degree of risks. The staged representation is designed to provide a standard sequence of improvements, and can serve as a basis for comparing the maturity of different projects and organizations. The staged representation also provides for an easy migration from the SW-CMM to CMMI.<sup class="reference" id="cite_ref-Go08_1-3"><a href="#cite_note-Go08-1">[1]</a></sup></p>
+<h3><span class="mw-headline" id="CMMI_model_framework">CMMI model framework</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=5" title="Edit section: CMMI model framework">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">For more details on this topic, see <a href="/wiki/Process_area_(CMMI)" title="Process area (CMMI)">Process area (CMMI)</a>.</div>
+<p>Depending on the CMMI areas of interest (acquisition, services, development) used, the process areas it contains will vary.<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> <a href="/wiki/Process_area_(CMMI)" title="Process area (CMMI)">Process areas</a> are the areas that will be covered by the organization's processes. The table below lists the collection of seventeen CMMI core process areas that are present for all CMMI areas of interest in <a class="new" href="/w/index.php?title=CMMI_Version_1.3&amp;action=edit&amp;redlink=1" title="CMMI Version 1.3 (page does not exist)">CMMI Version 1.3</a>.</p>
+<table class="wikitable sortable" style="background:lightyellow">
+<caption>Capability Maturity Model Integration (CMMI) Core Process Areas</caption>
+<tr>
+<th style="background:lightblue">Abbreviation</th>
+<th style="background:lightblue">Name</th>
+<th style="background:lightblue">Area</th>
+<th style="background:lightblue">Maturity Level</th>
+</tr>
+<tr>
+<td>CAR</td>
+<td>Causal Analysis and Resolution</td>
+<td>Support</td>
+<td style="text-align:center;">5</td>
+</tr>
+<tr>
+<td>CM</td>
+<td>Configuration Management</td>
+<td>Support</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>DAR</td>
+<td>Decision Analysis and Resolution</td>
+<td>Support</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>IPM</td>
+<td>Integrated Project Management</td>
+<td>Project Management</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>MA</td>
+<td>Measurement and Analysis</td>
+<td>Support</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>OPD</td>
+<td>Organizational Process Definition</td>
+<td>Process Management</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>OPF</td>
+<td>Organizational Process Focus</td>
+<td>Process Management</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>OPM</td>
+<td>Organizational Performance Management</td>
+<td>Process Management</td>
+<td style="text-align:center;">5</td>
+</tr>
+<tr>
+<td>OPP</td>
+<td>Organizational Process Performance</td>
+<td>Process Management</td>
+<td style="text-align:center;">4</td>
+</tr>
+<tr>
+<td>OT</td>
+<td>Organizational Training</td>
+<td>Process Management</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>PMC</td>
+<td>Project Monitoring and Control</td>
+<td>Project Management</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>PP</td>
+<td>Project Planning</td>
+<td>Project Management</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>PPQA</td>
+<td>Process and Product Quality Assurance</td>
+<td>Support</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>QPM</td>
+<td>Quantitative Project Management</td>
+<td>Project Management</td>
+<td style="text-align:center;">4</td>
+</tr>
+<tr>
+<td>REQM</td>
+<td>Requirements Management</td>
+<td>Project Management</td>
+<td style="text-align:center;">2</td>
+</tr>
+<tr>
+<td>RSKM</td>
+<td>Risk Management</td>
+<td>Project Management</td>
+<td style="text-align:center;">3</td>
+</tr>
+<tr>
+<td>SAM</td>
+<td>Supplier Agreement Management</td>
+<td>Support</td>
+<td style="text-align:center;">2</td>
+</tr>
+</table>
+<h3><span class="mw-headline" id="Maturity_levels_in_CMMI_for_services">Maturity levels in CMMI for services</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=6" title="Edit section: Maturity levels in CMMI for services">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The process areas below and their maturity levels are listed for the CMMI for Services model:</p>
+<p><b>Maturity Level 2 - Managed</b></p>
+<ul>
+<li>CM - Configuration Management</li>
+<li>MA - Measurement and Analysis</li>
+<li>PPQA - Process and Product Quality Assurance</li>
+<li>REQM - Requirements Management</li>
+<li>SAM - Supplier Agreement Management</li>
+<li>SD - Service Delivery</li>
+<li>WMC - Work Monitoring and Control</li>
+<li>WP - Work Planning</li>
+</ul>
+<p><b>Maturity Level 3 - Defined</b></p>
+<ul>
+<li>CAM - Capacity and Availability Management</li>
+<li>DAR - Decision Analysis and Resolution</li>
+<li>IRP - Incident Resolution and Prevention</li>
+<li>IWM - Integrated Work Managements</li>
+<li>OPD - Organizational Process Definition</li>
+<li>OPF - Organizational Process Focus</li>
+<li>OT - Organizational Training</li>
+<li>RSKM - Risk Management</li>
+<li>SCON - Service Continuity</li>
+<li>SSD - Service System Development</li>
+<li>SST - Service System Transition</li>
+<li>STSM - Strategic Service Management</li>
+</ul>
+<p><b>Maturity Level 4 - Quantitatively Managed</b></p>
+<ul>
+<li>OPP - Organizational Process Performance</li>
+<li>QWM - Quantitative Work Management</li>
+</ul>
+<p><b>Maturity Level 5 - Optimizing</b></p>
+<ul>
+<li>CAR - Causal Analysis and Resolution</li>
+<li>OPM - Organizational Performance Management</li>
+</ul>
+<h3><span class="mw-headline" id="CMMI_models">CMMI models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=7" title="Edit section: CMMI models">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>CMMI best practices are published in documents called models, each of which addresses a different area of interest. The current release, <a class="new" href="/w/index.php?title=CMMI_Version_1.3&amp;action=edit&amp;redlink=1" title="CMMI Version 1.3 (page does not exist)">CMMI Version 1.3</a>, provides models for three areas of interest: development, acquisition, and services.</p>
+<ul>
+<li>CMMI for Development (<a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr033.cfm" rel="nofollow">CMMI-DEV</a>), v1.3 was released in November 2010. It addresses product and service development processes.</li>
+<li>CMMI for Acquisition (<a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr032.cfm" rel="nofollow">CMMI-ACQ</a>), v1.3 was released in November 2010. It addresses supply chain management, acquisition, and outsourcing processes in government and industry.</li>
+<li>CMMI for Services (<a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr034.cfm" rel="nofollow">CMMI-SVC</a>), v1.3 was released in November 2010. It addresses guidance for delivering services within an organization and to external customers.</li>
+</ul>
+<h3><span class="mw-headline" id="Appraisal">Appraisal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=8" title="Edit section: Appraisal">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>An organization cannot be certified in CMMI; instead, an organization is <i>appraised</i>. Depending on the type of appraisal, the organization can be awarded a maturity level rating (1-5) or a capability level achievement profile.</p>
+<p>Many organizations find value in measuring their progress by conducting an appraisal. Appraisals are typically conducted for one or more of the following reasons:</p>
+<ol>
+<li>To determine how well the organization’s processes compare to CMMI best practices, and to identify areas where improvement can be made</li>
+<li>To inform external customers and suppliers of how well the organization’s processes compare to CMMI best practices</li>
+<li>To meet the contractual requirements of one or more customers</li>
+</ol>
+<p>Appraisals of organizations using a CMMI model<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup> must conform to the requirements defined in the Appraisal Requirements for CMMI (ARC) document. There are three classes of appraisals, A, B and C, which focus on identifying improvement opportunities and comparing the organization’s processes to CMMI best practices. Of these, class A appraisal is the most formal and is the only one that can result in a level rating. Appraisal teams use a CMMI model and ARC-conformant appraisal method to guide their evaluation of the organization and their reporting of conclusions. The appraisal results can then be used (e.g., by a process group) to plan improvements for the organization.</p>
+<p>The <a href="/wiki/Standard_CMMI_Appraisal_Method_for_Process_Improvement" title="Standard CMMI Appraisal Method for Process Improvement">Standard CMMI Appraisal Method for Process Improvement</a> (SCAMPI) is an appraisal method that meets all of the ARC requirements.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> Results of a SCAMPI appraisal may be published (if the appraised organization approves) on the CMMI Web site of the SEI: <a class="external text" href="https://sas.cmmiinstitute.com/pars/" rel="nofollow">Published SCAMPI Appraisal Results</a>. SCAMPI also supports the conduct of <a class="mw-redirect" href="/wiki/ISO_15504" title="ISO 15504">ISO/IEC 15504</a>, also known as <a class="mw-redirect" href="/wiki/The_SPICE_project" title="The SPICE project">SPICE</a> (Software Process Improvement and Capability Determination), assessments etc.</p>
+<p>This approach promotes that members of the EPG and PATs be trained in the CMMI, that an informal (SCAMPI C) appraisal be performed, and that process areas be prioritized for improvement. More modern approaches, that involve the deployment of commercially available, CMMI-compliant processes, can significantly reduce the time to achieve compliance. SEI has maintained statistics on the "time to move up" for organizations adopting the earlier Software CMM as well as CMMI.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> These statistics indicate that, since 1987, the median times to move from Level 1 to Level 2 is 23 months, and from Level 2 to Level 3 is an additional 20 months. Since the release of the CMMI, the median times to move from Level 1 to Level 2 is 5 months, with median movement to Level 3 another 21 months. These statistics are updated and published every six months in a maturity profile.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2013)">citation needed</span></a></i>]</sup></p>
+<p>The Software Engineering Institute’s (SEI) Team Software Process methodology and the use of CMMI models can be used to raise the maturity level. A new product called Accelerated Improvement Method<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup> (AIM) combines the use of CMMI and the TSP.<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup></p>
+<h3><span class="mw-headline" id="CMMI_Security_Guides">CMMI Security Guides</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=9" title="Edit section: CMMI Security Guides">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>To address user security concerns, two unofficial security guides are available. <i>Considering the Case for Security Content in CMMI for Services</i> has one process area, Security Management.<sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup> <i>Security by Design with CMMI for Development, Version 1.3</i> has the following process areas:</p>
+<ul>
+<li>OPSD - Organizational Preparedness for Secure Development</li>
+<li>SMP - Secure Management in Projects</li>
+<li>SRTS - Security Requirements and Technical Solution</li>
+<li>SVV - Security Verification and Validation</li>
+</ul>
+<p>While they do not affect maturity or capability levels, these process areas can be reported in appraisal results.<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=10" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The SEI published that 60 organizations measured increases of performance in the categories of cost, schedule, productivity, quality and customer satisfaction.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup> The median increase in performance varied between 14% (customer satisfaction) and 62% (productivity). However, the CMMI model mostly deals with <i>what</i> processes should be implemented, and not so much with <i>how</i> they can be implemented. These results do not guarantee that applying CMMI will increase performance in every organization. A small company with few resources may be less likely to benefit from CMMI; this view is supported by the <a class="external text" href="http://www.sei.cmu.edu/library/assets/2005sepCMMI.pdf" rel="nofollow">process maturity profile</a> (page 10). Of the small organizations (&lt;25 employees), 70.5% are assessed at level 2: Managed, while 52.8% of the organizations with 1001–2000 employees are rated at the highest level (5: Optimizing).</p>
+<p>Interestingly, Turner &amp; Jain (2002) argue that although it is obvious there are large differences between CMMI and <a href="/wiki/Agile_software_development" title="Agile software development">agile methods</a>, both approaches have much in common. They believe neither way is the 'right' way to develop software, but that there are phases in a project where one of the two is better suited. They suggest one should combine the different fragments of the methods into a new hybrid method. Sutherland et al. (2007) assert that a combination of <a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a> and CMMI brings more adaptability and predictability than either one alone. David J. Anderson (2005) gives hints on how to interpret CMMI in an agile manner.</p>
+<p>CMMI Roadmaps,<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> which are a goal-driven approach to selecting and deploying relevant process areas from the CMMI-DEV model, can provide guidance and focus for effective CMMI adoption. There are several CMMI roadmaps for the continuous representation, each with a specific set of improvement goals. Examples are the CMMI Project Roadmap,<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup> CMMI Product and Product Integration Roadmaps <sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup> and the CMMI Process and Measurements Roadmaps.<sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup> These roadmaps combine the strengths of both the staged and the continuous representations.</p>
+<p>The combination of the project management technique <a href="/wiki/Earned_value_management" title="Earned value management">earned value management</a> (EVM) with CMMI has been described (<a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/02tn016.cfm" rel="nofollow">Solomon, 2002</a>). To conclude with a similar use of CMMI, Extreme Programming (<a class="mw-redirect" href="/wiki/Extreme_Programming" title="Extreme Programming">XP</a>), a software engineering method, has been evaluated with CMM/CMMI (Nawrocki et al., 2002). For example, the XP requirements management approach, which relies on oral communication, was evaluated as not compliant with CMMI.</p>
+<p>CMMI can be appraised using two different approaches: staged and continuous. The staged approach yields appraisal results as one of five <i>maturity levels.</i> The continuous approach yields one of four <i>capability levels.</i> The differences in these approaches are felt only in the appraisal; the best practices are equivalent and result in equivalent process improvement results.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="new" href="/w/index.php?title=CMMI_Version_1.3&amp;action=edit&amp;redlink=1" title="CMMI Version 1.3 (page does not exist)">CMMI Version 1.3</a></li>
+<li><a href="/wiki/Software_Engineering_Process_Group" title="Software Engineering Process Group">Software Engineering Process Group</a></li>
+<li><a href="/wiki/Capability_Immaturity_Model" title="Capability Immaturity Model">Capability Immaturity Model</a></li>
+<li><a href="/wiki/Capability_Maturity_Model" title="Capability Maturity Model">Capability Maturity Model</a></li>
+<li><a href="/wiki/Enterprise_Architecture_Assessment_Framework" title="Enterprise Architecture Assessment Framework">Enterprise Architecture Assessment Framework</a></li>
+<li><a href="/wiki/People_Capability_Maturity_Model" title="People Capability Maturity Model">People Capability Maturity Model</a></li>
+<li><a href="/wiki/Process_area_(CMMI)" title="Process area (CMMI)">Process area (CMMI)</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=12" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Go08-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Go08_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Go08_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Go08_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Go08_1-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text">Sally Godfrey (2008) <a class="external text" href="http://software.gsfc.nasa.gov/docs/What%20is%20CMMI.ppt" rel="nofollow">What is CMMI ?</a>. NASA presentation. Accessed 8 dec 2008.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a class="external autonumber" href="http://www.sei.cmu.edu/cmmi/" rel="nofollow">[1]</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2011/cmmi-v1-3-summing-up/" rel="nofollow">Major changes in CMMI Version 1.3</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-agile/" rel="nofollow">CMMI V1.3: Agile</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-released-high-maturity-clarified/" rel="nofollow">CMMI V1.3, High Maturity Practices Clarified</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-deploying-the-cmmi/" rel="nofollow">Deploying the CMMI V1.3</a></span></li>
+<li id="cite_note-SEI08-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-SEI08_7-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.sei.cmu.edu/cmmi/" rel="nofollow">CMMI Overview</a>. Software Engineering Institute. Accessed 16 February 2011.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/tools/cmmi-v1-3-process-areas/" rel="nofollow">Overview of the CMMI Version 1.3 Process Areas</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">For the latest published CMMI appraisal results see the <a class="external text" href="http://sas.sei.cmu.edu/pars/" rel="nofollow">SEI Web site</a>.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/06hb002.cfm" rel="nofollow">"Standard CMMI Appraisal Method for Process Improvement (SCAMPISM) A, Version 1.2: Method Definition Document"</a>. <i>CMU/SEI-2006-HB-002</i>. Software Engineering Institute. 2006<span class="reference-accessdate">. Retrieved <span class="nowrap">23 September</span> 2006</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=Standard+CMMI+Appraisal+Method+for+Process+Improvement+%28SCAMPISM%29+A%2C+Version+1.2%3A+Method+Definition+Document&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F06hb002.cfm&amp;rft.jtitle=CMU%2FSEI-2006-HB-002&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/cmmi/casestudies/profiles/cmmi.cfm" rel="nofollow">"Process Maturity Profile"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-02-16</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=Process+Maturity+Profile&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Fcmmi%2Fcasestudies%2Fprofiles%2Fcmmi.cfm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.sei.cmu.edu/process/high-performance.cfm" rel="nofollow">http://www.sei.cmu.edu/process/high-performance.cfm</a></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.sei.cmu.edu/tsp/" rel="nofollow">http://www.sei.cmu.edu/tsp/</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Eileer Forrester and Kieran Doyle. Considering the Case for Security Content in CMMI for Services (October 2010)</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">Siemens AG Corporate Technology. <i>Security by Design with CMMI for Development, Version 1.3</i>, (May 2013)</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/cmmi/research/results/" rel="nofollow">"CMMI Performance Results of CMMI"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2006-09-23</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=CMMI+Performance+Results+of+CMMI&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Fcmmi%2Fresearch%2Fresults%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/08tn010.cfm" rel="nofollow">CMMI Roadmaps</a></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-the-cmmi-project-roadmap/" rel="nofollow">CMMI Project Roadmap</a></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-the-cmmi-product-and-product-integration-roadmaps/" rel="nofollow">CMMI Product and Product Integration Roadmaps</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.benlinders.com/2010/cmmi-v1-3-the-cmmi-process-and-measurement-roadmaps/" rel="nofollow">CMMI Process and Measurements Roadmaps</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Official_sources">Official sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=13" title="Edit section: Official sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl>
+<dt>SEI reports</dt>
+</dl>
+<ul>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr033.cfm" rel="nofollow">"CMMI for Development, Version 1.3"</a> <span style="font-size:85%;">(PDF)</span>. <i>CMMI-DEV (Version 1.3, November 2010)</i>. Carnegie Mellon University Software Engineering Institute. 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=CMMI+for+Development%2C+Version+1.3&amp;rft.date=2010&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F10tr033.cfm&amp;rft.jtitle=CMMI-DEV+%28Version+1.3%2C+November+2010%29&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr032.cfm" rel="nofollow">"CMMI for Acquisition, Version 1.3"</a> <span style="font-size:85%;">(PDF)</span>. <i>CMMI-ACQ (Version 1.3, November 2010)</i>. Carnegie Mellon University Software Engineering Institute. 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=CMMI+for+Acquisition%2C+Version+1.3&amp;rft.date=2010&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F10tr032.cfm&amp;rft.jtitle=CMMI-ACQ+%28Version+1.3%2C+November+2010%29&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/10tr034.cfm" rel="nofollow">"CMMI for Services, Version 1.3"</a> <span style="font-size:85%;">(PDF)</span>. <i>CMMI-SVC (Version 1.3, November 2010)</i>. Carnegie Mellon University Software Engineering Institute. 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=CMMI+for+Services%2C+Version+1.3&amp;rft.date=2010&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F10tr034.cfm&amp;rft.jtitle=CMMI-SVC+%28Version+1.3%2C+November+2010%29&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/cmmi/casestudies/profiles/cmmi.cfm" rel="nofollow">"Process Maturity Profile (Current and Past Releases)"</a> <span style="font-size:85%;">(PDF)</span>. <i>CMMI for Development SCAMPI Class A Appraisal Results</i>. Software Engineering Institute<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=Process+Maturity+Profile+%28Current+and+Past+Releases%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Fcmmi%2Fcasestudies%2Fprofiles%2Fcmmi.cfm&amp;rft.jtitle=CMMI+for+Development+SCAMPI+Class+A+Appraisal+Results&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/06tr011.cfm" rel="nofollow">"Appraisal Requirements for CMMI, Version 1.2 (ARC, V1.2)"</a> <span style="font-size:85%;">(PDF)</span>. Carnegie Mellon University Software Engineering Institute. 2006<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=Appraisal+Requirements+for+CMMI%2C+Version+1.2+%28ARC%2C+V1.2%29&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F06tr011.cfm&amp;rft.pub=Carnegie+Mellon+University+Software+Engineering+Institute&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/06hb002.cfm" rel="nofollow">"Standard CMMI Appraisal Method for Process Improvement (SCAMPI) A Versiions 1.2: Method Definition Document"</a> <span style="font-size:85%;">(doc)</span>. Carnegie Mellon University Software Engineering Institute. 2006<span class="reference-accessdate">. Retrieved <span class="nowrap">22 August</span> 2006</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=Standard+CMMI+Appraisal+Method+for+Process+Improvement+%28SCAMPI%29+A+Versiions+1.2%3A+Method+Definition+Document&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F06hb002.cfm&amp;rft.pub=Carnegie+Mellon+University+Software+Engineering+Institute&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web">CMMI Guidebook Acquirer Team (2007). <a class="external text" href="http://www.sei.cmu.edu/library/abstracts/reports/07tr004.cfm" rel="nofollow">"Understanding and Leveraging a Supplier's CMMI Efforts: A Guidebook for Acquirers"</a> <span style="font-size:85%;">(PDF)</span>. <i>CMU/SEI-2007-TR-004</i>. Software Engineering Institute<span class="reference-accessdate">. Retrieved <span class="nowrap">23 August</span> 2007</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.atitle=Understanding+and+Leveraging+a+Supplier%27s+CMMI+Efforts%3A+A+Guidebook+for+Acquirers&amp;rft.au=CMMI+Guidebook+Acquirer+Team&amp;rft.date=2007&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Flibrary%2Fabstracts%2Freports%2F07tr004.cfm&amp;rft.jtitle=CMU%2FSEI-2007-TR-004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+</ul>
+<dl>
+<dt>SEI Web pages</dt>
+</dl>
+<ul>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/cmmi/tools/cmmiv1-3/" rel="nofollow">"CMMI Version 1.3 Information Center"</a>. Software Engineering Institute. 2011<span class="reference-accessdate">. Retrieved <span class="nowrap">16 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=CMMI+Version+1.3+Information+Center&amp;rft.date=2011&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Fcmmi%2Ftools%2Fcmmiv1-3%2F&amp;rft.pub=Software+Engineering+Institute&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.sei.cmu.edu/partners/directory/organization/index.cfm" rel="nofollow">"SEI Partner List"</a>. Software Engineering Institute<span class="reference-accessdate">. Retrieved <span class="nowrap">28 October</span> 2006</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=SEI+Partner+List&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Fpartners%2Fdirectory%2Forganization%2Findex.cfm&amp;rft.pub=Software+Engineering+Institute&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://sas.sei.cmu.edu/pars/pars_detail.aspx?a=16167" rel="nofollow">"Optimiza formal announcement as CMMI-L3 and published on SEI website."</a>. Software Engineering Institute<span class="reference-accessdate">. Retrieved <span class="nowrap">15 March</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACapability+Maturity+Model+Integration&amp;rft.btitle=Optimiza+formal+announcement+as+CMMI-L3+and+published+on+SEI+website.&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fsas.sei.cmu.edu%2Fpars%2Fpars_detail.aspx%3Fa%3D16167&amp;rft.pub=Software+Engineering+Institute&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="https://sas.cmmiinstitute.com/pars/" rel="nofollow">SCAMPI Appraisal Results</a>. The complete SEI list of published SCAMPI appraisal results.</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Capability_Maturity_Model_Integration" title="commons:Category:Capability Maturity Model Integration">Capability Maturity Model Integration</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://cmmiinstitute.com" rel="nofollow">CMMI Institute</a>, official website</li>
+<li><a class="external text" href="https://www.dmoz.org/Computers/Programming/Methodologies/Capability_Maturity_Model" rel="nofollow">Capability Maturity Model Integration</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+</ul>
+<div aria-labelledby="Carnegie_Mellon_University" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="3" scope="col" style="background-color:#990000;color:white; border:2px solid #464646;">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Carnegie_Mellon_University" title="Template:Carnegie Mellon University"><abbr style="background-color:#990000;color:white; border:2px solid #464646;;;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Carnegie_Mellon_University" title="Template talk:Carnegie Mellon University"><abbr style="background-color:#990000;color:white; border:2px solid #464646;;;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Carnegie_Mellon_University&amp;action=edit"><abbr style="background-color:#990000;color:white; border:2px solid #464646;;;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Carnegie_Mellon_University" style="font-size:114%"><a href="/wiki/Carnegie_Mellon_University" title="Carnegie Mellon University"><span style="color:white">Carnegie Mellon University</span></a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;"><a href="/wiki/Carnegie_Mellon_University#Schools_and_divisions" title="Carnegie Mellon University"><span style="color:white">Academics</span></a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Carnegie_Mellon_College_of_Engineering" title="Carnegie Mellon College of Engineering">College of Engineering</a></li>
+<li><a href="/wiki/Carnegie_Mellon_College_of_Fine_Arts" title="Carnegie Mellon College of Fine Arts">College of Fine Arts</a></li>
+<li><a href="/wiki/Dietrich_College_of_Humanities_and_Social_Sciences" title="Dietrich College of Humanities and Social Sciences">Dietrich College of Humanities and Social Sciences</a></li>
+<li><a href="/wiki/Heinz_College" title="Heinz College">H. John Heinz III College</a></li>
+<li><a href="/wiki/Mellon_College_of_Science" title="Mellon College of Science">Mellon College of Science</a></li>
+<li><a href="/wiki/Carnegie_Mellon_School_of_Computer_Science" title="Carnegie Mellon School of Computer Science">School of Computer Science</a></li>
+<li><a href="/wiki/Tepper_School_of_Business" title="Tepper School of Business">Tepper School of Business</a></li>
+<li><a href="/wiki/Margaret_Morrison_Carnegie_College" title="Margaret Morrison Carnegie College">Margaret Morrison Carnegie College (defunct)</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="11" style="width:0%;padding:0px 0px 0px 2px">
+<div><a class="image" href="/wiki/File:Andrew_Carnegie,_three-quarter_length_portrait,_seated,_facing_slightly_left,_1913.jpg"><img alt="Andrew Carnegie, three-quarter length portrait, seated, facing slightly left, 1913.jpg" data-file-height="3000" data-file-width="2574" height="122" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg/105px-Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg/158px-Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg/210px-Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg 2x" width="105"/></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;"><a href="/wiki/Carnegie_Mellon_University#International_activities" title="Carnegie Mellon University"><span style="color:white">Branch Campuses</span></a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Carnegie_Mellon_University,_Australia" title="Carnegie Mellon University, Australia">Australia</a></li>
+<li><a href="/wiki/Carnegie_Mellon_University_in_Qatar" title="Carnegie Mellon University in Qatar">Qatar</a></li>
+<li><a class="new" href="/w/index.php?title=Carnegie_Mellon_University_Rwanda&amp;action=edit&amp;redlink=1" title="Carnegie Mellon University Rwanda (page does not exist)">Rwanda</a></li>
+<li><a href="/wiki/Carnegie_Mellon_Silicon_Valley" title="Carnegie Mellon Silicon Valley">Silicon Valley</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;"><a href="/wiki/Carnegie_Mellon_University#Student_life" title="Carnegie Mellon University"><span style="color:white">Student life</span></a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Carnegie_Mellon_University_traditions" title="Carnegie Mellon University traditions">Traditions</a></li>
+<li><a href="/wiki/Fraternities_and_sororities_at_Carnegie_Mellon_University" title="Fraternities and sororities at Carnegie Mellon University">Greek Life</a></li>
+<li><a href="/wiki/Scotch%27n%27Soda" title="Scotch'n'Soda">Scotch'n'Soda</a></li>
+<li><a href="/wiki/Miller_Gallery_at_Carnegie_Mellon_University" title="Miller Gallery at Carnegie Mellon University">Miller Gallery</a></li>
+<li><a href="/wiki/The_Tartan" title="The Tartan">The Tartan</a></li>
+<li><a href="/wiki/WRCT" title="WRCT">WRCT</a></li>
+<li><a href="/wiki/University_Athletic_Association" title="University Athletic Association">University Athletic Association</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;"><a href="/wiki/Carnegie_Mellon_University#Research" title="Carnegie Mellon University"><span style="color:white">Research</span></a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Pittsburgh_Supercomputing_Center" title="Pittsburgh Supercomputing Center">Pittsburgh Supercomputing Center</a></li>
+<li><a href="/wiki/Software_Engineering_Institute" title="Software Engineering Institute">Software Engineering Institute</a></li>
+<li><a href="/wiki/Robotics_Institute" title="Robotics Institute">Robotics Institute</a></li>
+<li><a class="mw-redirect" href="/wiki/Carnegie_Mellon_Human_Computer_Interaction_Institute" title="Carnegie Mellon Human Computer Interaction Institute">Human Computer Interaction Institute</a></li>
+<li><a href="/wiki/Computational_Biology_Department" title="Computational Biology Department">Computational Biology Department</a></li>
+<li><a href="/wiki/Language_Technologies_Institute" title="Language Technologies Institute">Language Technologies Institute</a></li>
+<li><a href="/wiki/Pittsburgh_Life_Sciences_Greenhouse" title="Pittsburgh Life Sciences Greenhouse">Pittsburgh Life Sciences Greenhouse</a></li>
+<li><a href="/wiki/Carnegie_School" title="Carnegie School">Carnegie School</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;"><a href="/wiki/Carnegie_Mellon_University#Alumni_and_faculty" title="Carnegie Mellon University"><span style="color:white">People</span></a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Andrew_Carnegie" title="Andrew Carnegie">Andrew Carnegie</a></li>
+<li><a href="/wiki/Mellon_family" title="Mellon family">Mellon family</a></li>
+<li><a href="/wiki/List_of_Carnegie_Mellon_University_people" title="List of Carnegie Mellon University people">Alumni and faculty</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background-color:#990000;color:white; border:2px solid #464646;">Projects and legacies</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Alice_(software)" title="Alice (software)">Alice</a></li>
+<li><a href="/wiki/Andrew_Project" title="Andrew Project">Andrew Project</a></li>
+<li><a href="/wiki/BLISS" title="BLISS">BLISS</a></li>
+<li><strong class="selflink">CMMI</strong></li>
+<li><a href="/wiki/Mach_(kernel)" title="Mach (kernel)">Mach</a></li>
+<li><a href="/wiki/3M_computer" title="3M computer">3M computer</a></li>
+<li><a href="/wiki/Center_for_PostNatural_History" title="Center for PostNatural History">Center for PostNatural History</a></li>
+<li><a href="/wiki/Conflict_Kitchen" title="Conflict Kitchen">Conflict Kitchen</a></li>
+<li><a href="/wiki/Robot_Hall_of_Fame" title="Robot Hall of Fame">Robot Hall of Fame</a></li>
+<li><i><a href="/wiki/Waffle_Shop:_A_Reality_Show" title="Waffle Shop: A Reality Show">Waffle Shop: A Reality Show</a></i></li>
+<li><a href="/wiki/YinzCam" title="YinzCam">YinzCam</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><strong class="selflink">CMMI</strong></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1288948-0!*!0!!en!4!* and timestamp 20160930190204 and revision id 735671761
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Capability_Maturity_Model_Integration&amp;oldid=735671761">https://en.wikipedia.org/w/index.php?title=Capability_Maturity_Model_Integration&amp;oldid=735671761</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Maturity_models" title="Category:Maturity models">Maturity models</a></li><li><a href="/wiki/Category:Software_development_process" title="Category:Software development process">Software development process</a></li><li><a href="/wiki/Category:Standards" title="Category:Standards">Standards</a></li><li><a href="/wiki/Category:Carnegie_Mellon_University_software" title="Category:Carnegie Mellon University software">Carnegie Mellon University software</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_to_be_merged_from_October_2015" title="Category:Articles to be merged from October 2015">Articles to be merged from October 2015</a></li><li><a href="/wiki/Category:All_articles_to_be_merged" title="Category:All articles to be merged">All articles to be merged</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2013" title="Category:Articles with unsourced statements from November 2013">Articles with unsourced statements from November 2013</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_DMOZ_links" title="Category:Articles with DMOZ links">Articles with DMOZ links</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_February_2011" title="Category:Use dmy dates from February 2011">Use dmy dates from February 2011</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Capability+Maturity+Model+Integration" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Capability+Maturity+Model+Integration" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Capability_Maturity_Model_Integration" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Capability_Maturity_Model_Integration" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Capability_Maturity_Model_Integration">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Capability_Maturity_Model_Integration" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Capability_Maturity_Model_Integration" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;oldid=735671761" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q428361" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Capability_Maturity_Model_Integration&amp;id=735671761" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Capability+Maturity+Model+Integration">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Capability+Maturity+Model+Integration&amp;returnto=Capability+Maturity+Model+Integration&amp;oldid=735671761&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Capability_Maturity_Model_Integration&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Capability_Maturity_Model_Integration" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D9%83%D8%A7%D9%85%D9%84_%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%86%D8%B6%D9%88%D8%AC_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B1%D8%A9" hreflang="ar" lang="ar" title="تكامل نموذج نضوج المقدرة – Arabic">العربية</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Integraci%C3%B3_de_Models_de_Maduresa_de_Capacitats" hreflang="ca" lang="ca" title="Integració de Models de Maduresa de Capacitats – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/CMMI" hreflang="cs" lang="cs" title="CMMI – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="de" lang="de" title="Capability Maturity Model Integration – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="es" lang="es" title="Capability Maturity Model Integration – Spanish">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="fr" lang="fr" title="Capability Maturity Model Integration – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%8A%A5%EB%A0%A5_%EC%84%B1%EC%88%99%EB%8F%84_%ED%86%B5%ED%95%A9_%EB%AA%A8%EB%8D%B8" hreflang="ko" lang="ko" title="능력 성숙도 통합 모델 – Korean">한국어</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/CMMI" hreflang="id" lang="id" title="CMMI – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/CMMI" hreflang="he" lang="he" title="CMMI – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/CMMI" hreflang="hu" lang="hu" title="CMMI – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E8%83%BD%E5%8A%9B%E6%88%90%E7%86%9F%E5%BA%A6%E3%83%A2%E3%83%87%E3%83%AB%E7%B5%B1%E5%90%88" hreflang="ja" lang="ja" title="能力成熟度モデル統合 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="no" lang="no" title="Capability Maturity Model Integration – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-uz"><a href="https://uz.wikipedia.org/wiki/CMMI" hreflang="uz" lang="uz" title="CMMI – Uzbek">Oʻzbekcha/ўзбекча</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/CMMI" hreflang="pt" lang="pt" title="CMMI – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/CMMI" hreflang="ru" lang="ru" title="CMMI – Russian">Русский</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/CMMI" hreflang="sk" lang="sk" title="CMMI – Slovak">Slovenčina</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/CMMI" hreflang="fi" lang="fi" title="CMMI – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="sv" lang="sv" title="Capability Maturity Model Integration – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%92%E0%AE%B0%E0%AF%81%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%A3%E0%AF%88%E0%AE%A8%E0%AF%8D%E0%AE%A4_%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%AE%E0%AF%88_%E0%AE%AE%E0%AF%81%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%8D%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF_%E0%AE%92%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AF%81" hreflang="ta" lang="ta" title="ஒருங்கிணைந்த செயல்வல்லமை முதிர்ச்சி ஒப்புரு – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/Capability_Maturity_Model_Integration" hreflang="th" lang="th" title="Capability Maturity Model Integration – Thai">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/CMMI" hreflang="tr" lang="tr" title="CMMI – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/CMMI" hreflang="uk" lang="uk" title="CMMI – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%83%BD%E5%8A%9B%E6%88%90%E7%86%9F%E5%BA%A6%E6%A8%A1%E5%9E%8B%E9%9B%86%E6%88%90" hreflang="zh" lang="zh" title="能力成熟度模型集成 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q428361#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 22 August 2016, at 09:28.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Capability_Maturity_Model_Integration&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.260",
+            "walltime": "0.338",
+            "ppvisitednodes": {
+                "value": 1791,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 72761,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2262,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 4,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  276.934      1 -total",
+                " 20.94%   58.001     13 Template:Cite_web",
+                " 17.03%   47.156      3 Template:Navbox",
+                " 16.36%   45.302      1 Template:Merge",
+                " 16.26%   45.019      1 Template:Reflist",
+                " 12.23%   33.874      1 Template:Commons_category",
+                " 10.48%   29.024      1 Template:Redirect",
+                " 10.46%   28.980      1 Template:Mbox",
+                " 10.04%   27.795      1 Template:Carnegie_Mellon",
+                "  8.66%   23.972      1 Template:Fact"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.102",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 5056874,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1275",
+            "timestamp": "20160930190205",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":95,"wgHostname":"mw1213"});});</script>
+</body>
+</html>
+

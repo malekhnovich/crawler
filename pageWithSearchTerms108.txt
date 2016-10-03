@@ -1,0 +1,377 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Refactoring
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Code refactoring - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Code_refactoring","wgTitle":"Code refactoring","wgCurRevisionId":738421351,"wgRevisionId":738421351,"wgArticleId":25871,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from July 2016","Articles with unsourced statements from November 2014","Articles with DMOZ links","Extreme programming","Code refactoring","Technology neologisms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Code_refactoring","wgRelevantArticleId":25871,"wgRequestId":"V-BLDwpAAD8AAV7udk4AAAAJ","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Refactoring","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Code_refactoring","wgWikibaseItemId":"Q116877","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Code_refactoring" rel="alternate"/>
+<link href="/w/index.php?title=Code_refactoring&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Code_refactoring&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Code_refactoring" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Code_refactoring rootpage-Code_refactoring skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Code refactoring</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Refactoring&amp;redirect=no" title="Refactoring">Refactoring</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">
+<div class="hatnote" role="note"><span class="plainlinks selfreference noprint">"Refactor" redirects here. For the use of "refactor" on Wikipedia, see <a href="/wiki/Wikipedia:Refactoring_talk_pages" title="Wikipedia:Refactoring talk pages">Wikipedia:Refactoring talk pages</a>.</span></div>
+</div>
+<p><b>Code refactoring</b> is the process of restructuring existing computer code—changing the <i><a href="/wiki/Decomposition_(computer_science)" title="Decomposition (computer science)">factoring</a></i>—without changing its external behavior. Refactoring improves <i><a href="/wiki/Non-functional_requirement" title="Non-functional requirement">nonfunctional</a></i> attributes of the <a href="/wiki/Software" title="Software">software</a>. Advantages include improved code <a href="/wiki/Readability" title="Readability">readability</a> and reduced <a href="/wiki/Cyclomatic_complexity" title="Cyclomatic complexity">complexity</a>; these can improve <a href="/wiki/Source_code" title="Source code">source-code</a> <a href="/wiki/Maintainability" title="Maintainability">maintainability</a> and create a more expressive internal <a href="/wiki/Software_architecture" title="Software architecture">architecture</a> or <a href="/wiki/Object_model" title="Object model">object model</a> to improve <a href="/wiki/Extensibility" title="Extensibility">extensibility</a>. Typically, refactoring applies a series of standardised basic <i>micro-refactorings</i>, each of which is (usually) a tiny change in a <a href="/wiki/Computer_program" title="Computer program">computer program</a>'s source code that either preserves the behaviour of the software, or at least does not modify its conformance to <a href="/wiki/Functional_requirement" title="Functional requirement">functional requirements</a>. Many <a class="mw-redirect" href="/wiki/Development_environment_(software_development_process)" title="Development environment (software development process)">development environments</a> provide automated support for performing the mechanical aspects of these basic refactorings. If done extremely well, code refactoring may also resolve hidden, dormant, or undiscovered <a class="mw-redirect" href="/wiki/Computer_bug" title="Computer bug">computer bugs</a> or <a href="/wiki/Vulnerability_(computing)" title="Vulnerability (computing)">vulnerabilities</a> in the system by simplifying the underlying logic and eliminating unnecessary levels of complexity. If done poorly it may fail the requirement that external functionality not be changed, introduce new bugs, or both.</p>
+<blockquote class="templatequote">
+<p>By continuously improving the design of code, we make it easier and easier to work with. This is in sharp contrast to what typically happens: little refactoring and a great deal of attention paid to expediently adding new features. If you get into the hygienic habit of refactoring continuously, you'll find that it is easier to extend and maintain code.</p>
+<div class="templatequotecite"><cite>— Joshua Kerievsky, <i>Refactoring to Patterns</i><sup class="reference" id="cite_ref-kerievsky_1-0"><a href="#cite_note-kerievsky-1">[1]</a></sup></cite></div>
+</blockquote>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#List_of_refactoring_techniques"><span class="tocnumber">2</span> <span class="toctext">List of refactoring techniques</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Hardware_refactoring"><span class="tocnumber">3</span> <span class="toctext">Hardware refactoring</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Automated_code_refactoring"><span class="tocnumber">5</span> <span class="toctext">Automated code refactoring</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Further_reading"><span class="tocnumber">8</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Refactoring is usually motivated by noticing a <a href="/wiki/Code_smell" title="Code smell">code smell</a>.<sup class="reference" id="cite_ref-fowler_2-0"><a href="#cite_note-fowler-2">[2]</a></sup> For example the method at hand may be very long, or it may be a near duplicate of another nearby method. Once recognized, such problems can be addressed by <i>refactoring</i> the source code, or transforming it into a new form that behaves the same as before but that no longer "smells". For a long routine, one or more smaller subroutines can be extracted; or for duplicate routines, the duplication can be removed and replaced with one shared function. Failure to perform refactoring can result in accumulating <a href="/wiki/Technical_debt" title="Technical debt">technical debt</a>; on the other hand, refactoring is one of the primary means of repaying technical debt.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p>There are two general categories of benefits to the activity of refactoring.</p>
+<ol>
+<li>Maintainability. It is easier to fix bugs because the source code is easy to read and the intent of its author is easy to grasp.<sup class="reference" id="cite_ref-martin_4-0"><a href="#cite_note-martin-4">[4]</a></sup> This might be achieved by reducing large monolithic routines into a set of individually concise, well-named, single-purpose methods. It might be achieved by moving a method to a more appropriate class, or by removing misleading comments.</li>
+<li>Extensibility. It is easier to extend the capabilities of the application if it uses recognizable <a class="mw-redirect" href="/wiki/Design_patterns" title="Design patterns">design patterns</a>, and it provides some flexibility where none before may have existed.<sup class="reference" id="cite_ref-kerievsky_1-1"><a href="#cite_note-kerievsky-1">[1]</a></sup></li>
+</ol>
+<p>Before refactoring a section of code, a solid set of automatic <a href="/wiki/Unit_testing" title="Unit testing">unit tests</a> is needed. The tests are used to demonstrate that the behavior of the module is correct before the refactoring.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2016)">citation needed</span></a></i>]</sup> If a test fails, it is generally best to fix the test first; if this is not done, it is hard to distinguish between failures introduced by refactoring and failures that were already present. After refactoring, the tests are run again to verify the refactoring did not break the tests. Unit tests cannot prove that there are no bugs, but the important point is that this process can be cost-effective: good unit tests can catch enough errors to make them worthwhile and to make refactoring safe enough.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2016)">citation needed</span></a></i>]</sup></p>
+<p>The process is then an iterative cycle of making a small <a href="/wiki/Program_transformation" title="Program transformation">program transformation</a>, testing it to ensure correctness, and making another small transformation. If at any point a test fails, the last small change is undone and repeated in a different way. Through many small steps the program moves from where it was to where you want it to be. For this very iterative process to be practical, the tests must run very quickly, or the programmer would have to spend a large fraction of his or her time waiting for the tests to finish. Proponents of <a href="/wiki/Extreme_programming" title="Extreme programming">extreme programming</a> and other <a href="/wiki/Agile_software_development" title="Agile software development">agile software development</a> describe this activity as an integral part of the <a href="/wiki/Software_development_process" title="Software development process">software development cycle</a>.</p>
+<h2><span class="mw-headline" id="List_of_refactoring_techniques">List of refactoring techniques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=2" title="Edit section: List of refactoring techniques">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Here are some examples of micro-refactorings; some of these may only apply to certain languages or language types. A longer list can be found in Fowler's refactoring book<sup class="reference" id="cite_ref-fowler_2-1"><a href="#cite_note-fowler-2">[2]</a></sup> and website.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> Many development environments provide automated support for these micro-refactorings. For instance, a programmer could click on the name of a variable and then select the "Encapsulate field" refactoring from a context menu. The IDE would then prompt for additional details, typically with sensible defaults and a preview of the code changes. After confirmation by the programmer it would carry out the required changes throughout the code.</p>
+<ul>
+<li>Techniques that allow for more <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a>
+<ul>
+<li><a href="/wiki/Field_encapsulation" title="Field encapsulation">Encapsulate Field</a> – force code to access the field with getter and setter methods</li>
+<li><a href="/wiki/Type_generalization" title="Type generalization">Generalize Type</a> – create more general types to allow for more code sharing</li>
+<li>Replace type-checking code with State/Strategy<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></li>
+<li>Replace conditional with <a href="/wiki/Polymorphism_(computer_science)" title="Polymorphism (computer science)">polymorphism</a> <sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></li>
+</ul>
+</li>
+<li>Techniques for breaking code apart into more logical pieces
+<ul>
+<li>Componentization breaks code down into reusable semantic units that present clear, well-defined, simple-to-use interfaces.</li>
+<li><a class="mw-redirect" href="/wiki/Extract_Class" title="Extract Class">Extract Class</a> moves part of the code from an existing class into a new class.</li>
+<li>Extract Method, to turn part of a larger <a class="mw-redirect" href="/wiki/Method_(computer_science)" title="Method (computer science)">method</a> into a new method. By breaking down code in smaller pieces, it is more easily understandable. This is also applicable to <a class="mw-redirect" href="/wiki/Function_(programming)" title="Function (programming)">functions</a>.</li>
+</ul>
+</li>
+<li>Techniques for improving names and location of code
+<ul>
+<li>Move Method or Move Field – move to a more appropriate <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">Class</a> or source file</li>
+<li><a class="mw-redirect" href="/wiki/Rename_Method" title="Rename Method">Rename Method</a> or Rename Field – changing the name into a new one that better reveals its purpose</li>
+<li><a href="/wiki/Pull_Up_refactoring" title="Pull Up refactoring">Pull Up</a> – in <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">OOP</a>, move to a <a class="mw-redirect" href="/wiki/Superclass_(computer_science)" title="Superclass (computer science)">superclass</a></li>
+<li><a href="/wiki/Push_Down" title="Push Down">Push Down</a> – in <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">OOP</a>, move to a <a class="mw-redirect" href="/wiki/Subclass_(computer_science)" title="Subclass (computer science)">subclass</a></li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="Hardware_refactoring">Hardware refactoring</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=3" title="Edit section: Hardware refactoring">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>While the term <i>refactoring</i> originally referred exclusively to refactoring of software code, in recent years code written in <a href="/wiki/Hardware_description_language" title="Hardware description language">hardware description languages</a> (HDLs) has also been refactored. The term <i>hardware refactoring</i> is used as a shorthand term for refactoring of code in hardware description languages. Since HDLs are not considered to be <a href="/wiki/Programming_language" title="Programming language">programming languages</a> by most hardware engineers,<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> hardware refactoring is to be considered a separate field from traditional code refactoring.</p>
+<p>Automated refactoring of analog hardware descriptions (in <a href="/wiki/VHDL-AMS" title="VHDL-AMS">VHDL-AMS</a>) has been proposed by Zeng and Huss.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup> In their approach, refactoring preserves the simulated behavior of a hardware design. The non-functional measurement that improves is that refactored code can be processed by standard synthesis tools, while the original code cannot. Refactoring of digital HDLs, albeit manual refactoring, has also been investigated by <a href="/wiki/Synopsys" title="Synopsys">Synopsys</a> <a href="/wiki/Fellow" title="Fellow">fellow</a> Mike Keating.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup><sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> His target is to make complex systems easier to understand, which increases the designers' productivity.</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=4" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Although refactoring code has been done informally for years, <a href="/wiki/Bill_Griswold" title="Bill Griswold">William Griswold</a>'s 1991 Ph.D. dissertation<sup class="reference" id="cite_ref-griswold-thesis_12-0"><a href="#cite_note-griswold-thesis-12">[12]</a></sup> is one of the first major academic works on refactoring functional and procedural programs, followed by <a href="/wiki/William_Opdyke" title="William Opdyke">William Opdyke</a>'s 1992 dissertation<sup class="reference" id="cite_ref-opdyke-thesis_13-0"><a href="#cite_note-opdyke-thesis-13">[13]</a></sup> on the refactoring of object-oriented programs,<sup class="reference" id="cite_ref-etymology_14-0"><a href="#cite_note-etymology-14">[14]</a></sup> although all the theory and machinery have long been available as <a href="/wiki/Program_transformation" title="Program transformation">program transformation</a> systems. All of these resources provide a catalog of common methods for refactoring; a refactoring method has a description of how to apply the <a href="/wiki/Scientific_method" title="Scientific method">method</a> and indicators for when you should (or should not) apply the method.</p>
+<p><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>'s book <i>Refactoring: Improving the Design of Existing Code</i><sup class="reference" id="cite_ref-fowler_2-2"><a href="#cite_note-fowler-2">[2]</a></sup> is the canonical reference.</p>
+<p>The first known use of the term "refactoring" in the published literature was in a September, 1990 article by <a href="/wiki/William_Opdyke" title="William Opdyke">William Opdyke</a> and <a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a>.<sup class="reference" id="cite_ref-opdyke90_15-0"><a href="#cite_note-opdyke90-15">[15]</a></sup> Griswold's Ph.D. thesis,<sup class="reference" id="cite_ref-griswold-thesis_12-1"><a href="#cite_note-griswold-thesis-12">[12]</a></sup> Opdyke's Ph.D. thesis,<sup class="reference" id="cite_ref-opdyke-thesis_13-1"><a href="#cite_note-opdyke-thesis-13">[13]</a></sup> published in 1992, also used this term.<sup class="reference" id="cite_ref-etymology_14-1"><a href="#cite_note-etymology-14">[14]</a></sup></p>
+<p>The term "factoring" has been used in the <a href="/wiki/Forth_(programming_language)" title="Forth (programming language)">Forth</a> community since at least the early 1980s. Chapter Six of <a class="new" href="/w/index.php?title=Leo_Brodie_(programmer)&amp;action=edit&amp;redlink=1" title="Leo Brodie (programmer) (page does not exist)">Leo Brodie</a>'s book <i><a class="new" href="/w/index.php?title=Thinking_Forth&amp;action=edit&amp;redlink=1" title="Thinking Forth (page does not exist)">Thinking Forth</a></i> (1984) is dedicated to the subject.</p>
+<p>In extreme programming, the Extract Method refactoring technique has essentially the same meaning as factoring in Forth; to break down a "word" (or <a class="mw-redirect" href="/wiki/Function_(programming)" title="Function (programming)">function</a>) into smaller, more easily maintained functions.</p>
+<p>Refactorings can also be reconstructed<sup class="reference" id="cite_ref-weissgerber2006_16-0"><a href="#cite_note-weissgerber2006-16">[16]</a></sup> posthoc to produce concise descriptions of complex software changes recorded in software repositories like CVS or SVN.</p>
+<h2><span class="mw-headline" id="Automated_code_refactoring">Automated code refactoring</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=5" title="Edit section: Automated code refactoring">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Many software <a href="/wiki/Text_editor" title="Text editor">editors</a> and <a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDEs</a> have automated refactoring support. Here is a list of a few of these editors, or so-called <a class="mw-redirect" href="/wiki/Refactoring_Browser" title="Refactoring Browser">refactoring browsers</a>.</p>
+<ul>
+<li><a href="/wiki/IntelliJ_IDEA" title="IntelliJ IDEA">IntelliJ IDEA</a> (for <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>)</li>
+<li><a class="mw-redirect" href="/wiki/WebStorm" title="WebStorm">WebStorm</a> (for <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>)</li>
+<li><a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse</a> (for <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, and to a lesser extent, C++, PHP, Ruby and JavaScript)</li>
+<li><a href="/wiki/NetBeans" title="NetBeans">NetBeans</a> (for Java)</li>
+<li><a href="/wiki/JDeveloper" title="JDeveloper">JDeveloper</a> (for Java)</li>
+<li><a class="mw-redirect" href="/wiki/Embarcadero_Delphi" title="Embarcadero Delphi">Embarcadero Delphi</a></li>
+<li><a class="mw-redirect" href="/wiki/Visual_Studio" title="Visual Studio">Visual Studio</a> (for .NET and C++)</li>
+<li><a href="/wiki/CodeRush" title="CodeRush">CodeRush</a> (addon for Visual Studio)</li>
+<li><a href="/wiki/Visual_Assist" title="Visual Assist">Visual Assist</a> (addon for Visual Studio with refactoring support for C# and C++)</li>
+<li><a href="/wiki/DMS_Software_Reengineering_Toolkit" title="DMS Software Reengineering Toolkit">DMS Software Reengineering Toolkit</a> (Implements large-scale refactoring for C, C++, C#, COBOL, Java, PHP and other languages)</li>
+<li><a href="/wiki/Photran" title="Photran">Photran</a> (a <a href="/wiki/Fortran" title="Fortran">Fortran</a> plugin for the <a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse IDE</a>)</li>
+<li><a href="/wiki/Xcode" title="Xcode">Xcode</a> (for C, <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a>, and <a href="/wiki/Swift_(programming_language)" title="Swift (programming language)">Swift</a>)<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="https://stackoverflow.com/questions/24133664/xcode-can-only-refactor-c-and-objective-c-code-how-to-rename-swift-class-name-i says they don't support Swift refactoring (November 2014)">citation needed</span></a></i>]</sup></li>
+<li><a href="/wiki/AppCode" title="AppCode">AppCode</a> (for <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a>, C and C++)</li>
+<li><a href="/wiki/PyCharm" title="PyCharm">PyCharm</a> (for <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>)</li>
+<li><a href="/wiki/Wing_IDE" title="Wing IDE">Wing IDE</a> (for <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>)</li>
+<li><a href="/wiki/PyDev" title="PyDev">PyDev</a> (for <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>)</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Code_review" title="Code review">Code review</a></li>
+<li><a href="/wiki/Database_refactoring" title="Database refactoring">Database refactoring</a></li>
+<li><a href="/wiki/Decomposition_(computer_science)" title="Decomposition (computer science)">Decomposition (computer science)</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">Design pattern (computer science)</a></li>
+<li><a class="mw-redirect" href="/wiki/Obfuscated_code" title="Obfuscated code">Obfuscated code</a></li>
+<li><a href="/wiki/Software_peer_review" title="Software peer review">Software peer review</a></li>
+<li><a href="/wiki/Prefactoring" title="Prefactoring">Prefactoring</a></li>
+<li><a href="/wiki/Separation_of_concerns" title="Separation of concerns">Separation of concerns</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">Test-driven development</a></li>
+<li><a href="/wiki/Modular_programming" title="Modular programming">Modular programming</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-kerievsky-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-kerievsky_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-kerievsky_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Kerievsky, Joshua (2004). <i>Refactoring to Patterns</i>. Addison Wesley.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Joshua&amp;rft.aulast=Kerievsky&amp;rft.btitle=Refactoring+to+Patterns&amp;rft.date=2004&amp;rft.genre=book&amp;rft.pub=Addison+Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-fowler-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-fowler_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-fowler_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-fowler_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Fowler, Martin (1999). <i>Refactoring: Improving the design of existing code</i>. Addison Wesley.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Martin&amp;rft.aulast=Fowler&amp;rft.btitle=Refactoring%3A+Improving+the+design+of+existing+code&amp;rft.date=1999&amp;rft.genre=book&amp;rft.pub=Addison+Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">Suryanarayana, Girish (November 2014). <a class="external text" href="http://www.amazon.com/Refactoring-Software-Design-Smells-Technical/dp/0128013974" rel="nofollow"><i>Refactoring for Software Design Smells</i></a>. Morgan Kaufmann. p. 258. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0128013977" title="Special:BookSources/978-0128013977">978-0128013977</a><span class="reference-accessdate">. Retrieved <span class="nowrap">30 January</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Girish&amp;rft.aulast=Suryanarayana&amp;rft.btitle=Refactoring+for+Software+Design+Smells&amp;rft.date=2014-11&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.amazon.com%2FRefactoring-Software-Design-Smells-Technical%2Fdp%2F0128013974&amp;rft.isbn=978-0128013977&amp;rft.pages=258&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-martin-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-martin_4-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Martin, Robert (2009). <i>Clean Code</i>. Prentice Hall.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Robert&amp;rft.aulast=Martin&amp;rft.btitle=Clean+Code&amp;rft.date=2009&amp;rft.genre=book&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a class="external text" href="http://refactoring.com/catalog/index.html" rel="nofollow">Refactoring techniques in Fowler's refactoring Website</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="http://refactoring.com/catalog/replaceTypeCodeWithStateStrategy.html" rel="nofollow">Replace type-checking code with State/Strategy</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a class="external text" href="http://refactoring.com/catalog/replaceConditionalWithPolymorphism.html" rel="nofollow">Replace conditional with polymorphism</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a class="mw-redirect" href="/wiki/Hardware_description_languages#HDL_and_programming_languages" title="Hardware description languages">Hardware description languages#HDL and programming languages</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Kaiping Zeng, Sorin A. Huss, "Architecture refinements by code refactoring of behavioral VHDL-AMS models". ISCAS 2006</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">M. Keating :"Complexity, Abstraction, and the Challenges of Designing Complex Systems", in DAC'08 tutorial <a class="external autonumber" href="http://www.dac.com/events/eventdetails.aspx?id=77-130" rel="nofollow">[1]</a>"Bridging a Verification Gap: C++ to RTL for Practical Design"</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">M. Keating, P. Bricaud: <i>Reuse Methodology Manual for System-on-a-Chip Designs</i>, Kluwer Academic Publishers, 1999.</span></li>
+<li id="cite_note-griswold-thesis-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-griswold-thesis_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-griswold-thesis_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation thesis"><a href="/wiki/Bill_Griswold" title="Bill Griswold">Griswold, William G</a> (July 1991). <a class="external text" href="http://cseweb.ucsd.edu/~wgg/Abstracts/gristhesis.pdf" rel="nofollow"><i>Program Restructuring as an Aid to Software Maintenance</i></a> <span style="font-size:85%;">(PDF)</span> (Ph.D. thesis). University of Washington<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-12-24</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=William+G&amp;rft.aulast=Griswold&amp;rft.date=1991-07&amp;rft.degree=Ph.D.&amp;rft_id=http%3A%2F%2Fcseweb.ucsd.edu%2F~wgg%2FAbstracts%2Fgristhesis.pdf&amp;rft.inst=University+of+Washington&amp;rft.title=Program+Restructuring+as+an+Aid+to+Software+Maintenance&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-opdyke-thesis-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-opdyke-thesis_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-opdyke-thesis_13-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation thesis"><a href="/wiki/William_Opdyke" title="William Opdyke">Opdyke, William F</a> (June 1992). <a class="external text" href="ftp://st.cs.uiuc.edu/pub/papers/refactoring/opdyke-thesis.ps.Z" rel="nofollow"><i>Refactoring Object-Oriented Frameworks</i></a> <span style="font-size:85%;">(compressed Postscript)</span> (Ph.D. thesis). University of Illinois at Urbana-Champaign<span class="reference-accessdate">. Retrieved <span class="nowrap">2008-02-12</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=William+F&amp;rft.aulast=Opdyke&amp;rft.date=1992-06&amp;rft.degree=Ph.D.&amp;rft_id=ftp%3A%2F%2Fst.cs.uiuc.edu%2Fpub%2Fpapers%2Frefactoring%2Fopdyke-thesis.ps.Z&amp;rft.inst=University+of+Illinois+at+Urbana-Champaign&amp;rft.title=Refactoring+Object-Oriented+Frameworks&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-etymology-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-etymology_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-etymology_14-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://martinfowler.com/bliki/EtymologyOfRefactoring.html" rel="nofollow">Martin Fowler, "MF Bliki: EtymologyOfRefactoring"</a></span></li>
+<li id="cite_note-opdyke90-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-opdyke90_15-0">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/William_Opdyke" title="William Opdyke">Opdyke, William F.</a>; Johnson, Ralph E. (September 1990). "Refactoring: An Aid in Designing Application Frameworks and Evolving Object-Oriented Systems". <i>Proceedings of the Symposium on Object Oriented Programming Emphasizing Practical Applications (SOOPPA)</i>. ACM.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.atitle=Refactoring%3A+An+Aid+in+Designing+Application+Frameworks+and+Evolving+Object-Oriented+Systems&amp;rft.aufirst=William+F.&amp;rft.au=Johnson%2C+Ralph+E.&amp;rft.aulast=Opdyke&amp;rft.btitle=Proceedings+of+the+Symposium+on+Object+Oriented+Programming+Emphasizing+Practical+Applications+%28SOOPPA%29&amp;rft.date=1990-09&amp;rft.genre=conference&amp;rft.pub=ACM&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-weissgerber2006-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-weissgerber2006_16-0">^</a></b></span> <span class="reference-text"><cite class="citation conference">Weißgerber, Peter; Diehl, S. (2006). <a class="external text" href="http://www.st.uni-trier.de/~diehl/pubs/ase06.pdf" rel="nofollow">"Identifying Refactorings from Source-Code Changes"</a> <span style="font-size:85%;">(PDF)</span>. <i>Proceedings of 21st IEEE/ACM International Conference on Automated Software Engineering (ASE 2006)</i>. ACM.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.atitle=Identifying+Refactorings+from+Source-Code+Changes&amp;rft.au=Diehl%2C+S.&amp;rft.aufirst=Peter&amp;rft.aulast=Wei%C3%9Fgerber&amp;rft.btitle=Proceedings+of+21st+IEEE%2FACM+International+Conference+on+Automated+Software+Engineering+%28ASE+2006%29&amp;rft.date=2006&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.st.uni-trier.de%2F~diehl%2Fpubs%2Fase06.pdf&amp;rft.pub=ACM&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=8" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation book"><a href="/wiki/Martin_Fowler" title="Martin Fowler">Fowler, Martin</a> (1999). <i>Refactoring. Improving the Design of Existing Code</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-48567-2" title="Special:BookSources/0-201-48567-2">0-201-48567-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Martin&amp;rft.aulast=Fowler&amp;rft.btitle=Refactoring.+Improving+the+Design+of+Existing+Code&amp;rft.date=1999&amp;rft.genre=book&amp;rft.isbn=0-201-48567-2&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Wake, William C. (2003). <i>Refactoring Workbook</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-10929-5" title="Special:BookSources/0-321-10929-5">0-321-10929-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=William+C.&amp;rft.aulast=Wake&amp;rft.btitle=Refactoring+Workbook&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=0-321-10929-5&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li>Mens, Tom and Tourwé, Tom (2004) <a class="external text" href="http://doi.ieeecomputersociety.org/10.1109/TSE.2004.1265817" rel="nofollow"><i>A Survey of Software Refactoring</i></a>, IEEE Transactions on Software Engineering, February 2004 (vol. 30 no. 2), pp. 126–139</li>
+<li><cite class="citation book">Feathers, Michael C (2004). <i>Working Effectively with Legacy Code</i>. Prentice Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-13-117705-2" title="Special:BookSources/0-13-117705-2">0-13-117705-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Michael+C&amp;rft.aulast=Feathers&amp;rft.btitle=Working+Effectively+with+Legacy+Code&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-13-117705-2&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Kerievsky, Joshua (2004). <i>Refactoring To Patterns</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-21335-1" title="Special:BookSources/0-321-21335-1">0-321-21335-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Joshua&amp;rft.aulast=Kerievsky&amp;rft.btitle=Refactoring+To+Patterns&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-321-21335-1&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Arsenovski, Danijel (2008). <i>Professional Refactoring in Visual Basic</i>. Wrox. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-470-17979-1" title="Special:BookSources/0-470-17979-1">0-470-17979-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Danijel&amp;rft.aulast=Arsenovski&amp;rft.btitle=Professional+Refactoring+in+Visual+Basic&amp;rft.date=2008&amp;rft.genre=book&amp;rft.isbn=0-470-17979-1&amp;rft.pub=Wrox&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Arsenovski, Danijel (2009). <i>Professional Refactoring in C# and ASP.NET</i>. Wrox. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-470-43452-9" title="Special:BookSources/978-0-470-43452-9">978-0-470-43452-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Danijel&amp;rft.aulast=Arsenovski&amp;rft.btitle=Professional+Refactoring+in+C%23+and+ASP.NET&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=978-0-470-43452-9&amp;rft.pub=Wrox&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Ritchie, Peter (2010). <i>Refactoring with Visual Studio 2010</i>. Packt. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1-84968-010-3" title="Special:BookSources/978-1-84968-010-3">978-1-84968-010-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACode+refactoring&amp;rft.aufirst=Peter&amp;rft.aulast=Ritchie&amp;rft.btitle=Refactoring+with+Visual+Studio+2010&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=978-1-84968-010-3&amp;rft.pub=Packt&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Code_refactoring&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://c2.com/cgi/wiki?WhatIsRefactoring" rel="nofollow">What Is Refactoring?</a> (c2.com article)</li>
+<li><a class="external text" href="http://refactoring.com/" rel="nofollow">Martin Fowler's homepage about refactoring</a></li>
+<li><a class="external text" href="https://www.dmoz.org/Computers/Programming/Methodologies/Refactoring" rel="nofollow">Refactoring</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+</ul>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:25871-0!*!0!!en!*!* and timestamp 20160930200904 and revision id 738421351
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Code_refactoring&amp;oldid=738421351">https://en.wikipedia.org/w/index.php?title=Code_refactoring&amp;oldid=738421351</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Extreme_programming" title="Category:Extreme programming">Extreme programming</a></li><li><a href="/wiki/Category:Code_refactoring" title="Category:Code refactoring">Code refactoring</a></li><li><a href="/wiki/Category:Technology_neologisms" title="Category:Technology neologisms">Technology neologisms</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2016" title="Category:Articles with unsourced statements from July 2016">Articles with unsourced statements from July 2016</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2014" title="Category:Articles with unsourced statements from November 2014">Articles with unsourced statements from November 2014</a></li><li><a href="/wiki/Category:Articles_with_DMOZ_links" title="Category:Articles with DMOZ links">Articles with DMOZ links</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Code+refactoring" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Code+refactoring" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Code_refactoring" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Code_refactoring" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Code_refactoring">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Code_refactoring&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Code_refactoring&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Code_refactoring" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Code_refactoring" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Code_refactoring&amp;oldid=738421351" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Code_refactoring&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q116877" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Code_refactoring&amp;id=738421351" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Code+refactoring">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Code+refactoring&amp;returnto=Code+refactoring&amp;oldid=738421351&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Code_refactoring&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9_%D9%87%D9%8A%D9%83%D9%84%D8%A9_%D8%A7%D9%84%D9%83%D9%88%D8%AF" hreflang="ar" lang="ar" title="إعادة هيكلة الكود – Arabic">العربية</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/%D0%A0%D1%8D%D1%84%D0%B0%D0%BA%D1%82%D0%B0%D1%80%D1%8B%D0%BD%D0%B3" hreflang="be-x-old" lang="be-x-old" title="Рэфактарынг – беларуская (тарашкевіца)‎">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%BA%D0%BE%D0%B4" hreflang="bg" lang="bg" title="Преработка на код – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Refacci%C3%B3" hreflang="ca" lang="ca" title="Refacció – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Refaktorov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Refaktorování – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Refactoring" hreflang="da" lang="da" title="Refactoring – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Refactoring" hreflang="de" lang="de" title="Refactoring – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n" hreflang="es" lang="es" title="Refactorización – Spanish">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/R%C3%A9usinage_de_code" hreflang="fr" lang="fr" title="Réusinage de code – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Refactorizaci%C3%B3n" hreflang="gl" lang="gl" title="Refactorización – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81" hreflang="ko" lang="ko" title="리팩토링 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Refaktoriranje_koda" hreflang="hr" lang="hr" title="Refaktoriranje koda – Croatian">Hrvatski</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Refaktorisasi_kode" hreflang="id" lang="id" title="Refaktorisasi kode – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Refactoring" hreflang="it" lang="it" title="Refactoring – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Refactoring" hreflang="he" lang="he" title="Refactoring – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Pertvarkymas_(programavimas)" hreflang="lt" lang="lt" title="Pertvarkymas (programavimas) – Lithuanian">Lietuvių</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Refactoren" hreflang="nl" lang="nl" title="Refactoren – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0)" hreflang="ja" lang="ja" title="リファクタリング (プログラミング) – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Refaktorering" hreflang="no" lang="no" title="Refaktorering – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Refaktoryzacja" hreflang="pl" lang="pl" title="Refaktoryzacja – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Refatora%C3%A7%C3%A3o" hreflang="pt" lang="pt" title="Refatoração – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Refactorizare_de_cod" hreflang="ro" lang="ro" title="Refactorizare de cod – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3" hreflang="ru" lang="ru" title="Рефакторинг – Russian">Русский</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Refaktorointi" hreflang="fi" lang="fi" title="Refaktorointi – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Omstrukturering_av_kod" hreflang="sv" lang="sv" title="Omstrukturering av kod – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3" hreflang="uk" lang="uk" title="Рефакторинг – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/C%E1%BA%A3i_ti%E1%BA%BFn_m%C3%A3_ngu%E1%BB%93n" hreflang="vi" lang="vi" title="Cải tiến mã nguồn – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84" hreflang="zh" lang="zh" title="代码重构 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q116877#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 September 2016, at 21:21.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Code_refactoring&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.200",
+            "walltime": "0.243",
+            "ppvisitednodes": {
+                "value": 1251,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 29387,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2438,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 3,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  214.284      1 -total",
+                " 30.35%   65.044      1 Template:Reflist",
+                " 30.13%   64.573      3 Template:Fix",
+                " 26.26%   56.265     11 Template:Cite_book",
+                " 24.40%   52.288      2 Template:Cn",
+                " 16.70%   35.781      3 Template:Delink",
+                " 11.70%   25.072      6 Template:Category_handler",
+                " 11.55%   24.755      1 Template:Selfref",
+                " 10.91%   23.373      1 Template:Hatnote",
+                "  9.63%   20.638      1 Template:Citation_needed"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.105",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4184614,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1275",
+            "timestamp": "20160930200904",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":162,"wgHostname":"mw1268"});});</script>
+</body>
+</html>
+

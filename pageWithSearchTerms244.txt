@@ -1,0 +1,772 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Data_modeling
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Data modeling - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Data_modeling","wgTitle":"Data modeling","wgCurRevisionId":737453344,"wgRevisionId":737453344,"wgArticleId":759422,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with Wayback Machine links","Use mdy dates from March 2016","Wikipedia articles incorporating text from the National Institute of Standards and Technology","Commons category with local link same as on Wikidata","Data modeling"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Data_modeling","wgRelevantArticleId":759422,"wgRequestId":"V-EvvgpAIDQAAEI2DmoAAADV","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q367664","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Data_modeling" rel="alternate"/>
+<link href="/w/index.php?title=Data_modeling&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Data_modeling&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Data_modeling" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Data_modeling rootpage-Data_modeling skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Data modeling</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:422px;"><a class="image" href="/wiki/File:4-3_Data_Modelling_Today.svg"><img alt="" class="thumbimage" data-file-height="596" data-file-width="812" height="308" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/4-3_Data_Modelling_Today.svg/420px-4-3_Data_Modelling_Today.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/4-3_Data_Modelling_Today.svg/630px-4-3_Data_Modelling_Today.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/4-3_Data_Modelling_Today.svg/840px-4-3_Data_Modelling_Today.svg.png 2x" width="420"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:4-3_Data_Modelling_Today.svg" title="Enlarge"></a></div>
+The data modeling process. The figure illustrates the way data models are developed and used today. A <a href="/wiki/Conceptual_schema" title="Conceptual schema">conceptual data model</a> is developed based on the data <a href="/wiki/Requirement" title="Requirement">requirements</a> for the application that is being developed, perhaps in the context of an <a href="/wiki/Activity_diagram" title="Activity diagram">activity model</a>. The data model will normally consist of entity types, attributes, relationships, integrity rules, and the definitions of those objects. This is then used as the start point for interface or database design.<sup class="reference" id="cite_ref-MW99_1-0"><a href="#cite_note-MW99-1">[1]</a></sup></div>
+</div>
+</div>
+<p><b>Data modeling</b> in <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> is the process of creating a <a href="/wiki/Data_model" title="Data model">data model</a> for an <a href="/wiki/Information_system" title="Information system">information system</a> by applying formal data modeling techniques.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Data_modeling_topics"><span class="tocnumber">2</span> <span class="toctext">Data modeling topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Data_models"><span class="tocnumber">2.1</span> <span class="toctext">Data models</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Conceptual.2C_logical_and_physical_schemas"><span class="tocnumber">2.2</span> <span class="toctext">Conceptual, logical and physical schemas</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Data_modeling_process"><span class="tocnumber">2.3</span> <span class="toctext">Data modeling process</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Modeling_methodologies"><span class="tocnumber">2.4</span> <span class="toctext">Modeling methodologies</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Entity_relationship_diagrams"><span class="tocnumber">2.5</span> <span class="toctext">Entity relationship diagrams</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Generic_data_modeling"><span class="tocnumber">2.6</span> <span class="toctext">Generic data modeling</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Semantic_data_modeling"><span class="tocnumber">2.7</span> <span class="toctext">Semantic data modeling</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Further_reading"><span class="tocnumber">5</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Data modeling is a <a href="/wiki/Software_development_process" title="Software development process">process</a> used to define and analyze data <a href="/wiki/Requirement" title="Requirement">requirements</a> needed to support the <a href="/wiki/Business_process" title="Business process">business processes</a> within the scope of corresponding information systems in organizations. Therefore, the process of data modeling involves professional data modelers working closely with business stakeholders, as well as potential users of the information system.</p>
+<p>There are three different types of data models produced while progressing from requirements to the actual database to be used for the information system.<sup class="reference" id="cite_ref-RS001_2-0"><a href="#cite_note-RS001-2">[2]</a></sup> The data requirements are initially recorded as a <a href="/wiki/Conceptual_schema" title="Conceptual schema">conceptual data model</a> which is essentially a set of technology independent specifications about the data and is used to discuss initial requirements with the business stakeholders. The <a class="mw-redirect" href="/wiki/Conceptual_modeling" title="Conceptual modeling">conceptual model</a> is then translated into a <a href="/wiki/Logical_data_model" title="Logical data model">logical data model</a>, which documents structures of the data that can be implemented in databases. Implementation of one conceptual data model may require multiple logical data models. The last step in data modeling is transforming the logical data model to a <a href="/wiki/Physical_data_model" title="Physical data model">physical data model</a> that organizes the data into tables, and accounts for access, performance and storage details. Data modeling defines not just data elements, but also their structures and the relationships between them.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p>Data modeling techniques and methodologies are used to model data in a standard, consistent, predictable manner in order to manage it as a resource. The use of data modeling standards is strongly recommended for all projects requiring a standard means of defining and analyzing data within an organization, e.g., using data modeling:</p>
+<ul>
+<li>to assist business analysts, programmers, testers, manual writers, IT package selectors, engineers, managers, related organizations and clients to understand and use an agreed semi-formal model the concepts of the organization and how they relate to one another</li>
+<li>to manage data as a resource</li>
+<li>for the integration of information systems</li>
+<li>for designing databases/data warehouses (aka data repositories)</li>
+</ul>
+<p>Data modeling may be performed during various types of projects and in multiple phases of projects. Data models are progressive; there is no such thing as the final data model for a business or application. Instead a data model should be considered a living document that will change in response to a changing business. The data models should ideally be stored in a repository so that they can be retrieved, expanded, and edited over time. <a href="/wiki/Jeffrey_L._Whitten" title="Jeffrey L. Whitten">Whitten</a> et al. (2004) determined two types of data modeling:<sup class="reference" id="cite_ref-WBD04_4-0"><a href="#cite_note-WBD04-4">[4]</a></sup></p>
+<ul>
+<li>Strategic data modeling: This is part of the creation of an information systems strategy, which defines an overall vision and architecture for information systems is defined. <a href="/wiki/Information_engineering" title="Information engineering">Information engineering</a> is a methodology that embraces this approach.</li>
+<li>Data modeling during systems analysis: In <a href="/wiki/Systems_analysis" title="Systems analysis">systems analysis</a> logical data models are created as part of the development of new databases.</li>
+</ul>
+<p>Data modeling is also used as a technique for detailing business <a href="/wiki/Requirement" title="Requirement">requirements</a> for specific <a href="/wiki/Database" title="Database">databases</a>. It is sometimes called <i>database modeling</i> because a <a href="/wiki/Data_model" title="Data model">data model</a> is eventually implemented in a database.<sup class="reference" id="cite_ref-WBD04_4-1"><a href="#cite_note-WBD04-4">[4]</a></sup></p>
+<h2><span class="mw-headline" id="Data_modeling_topics">Data modeling topics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=2" title="Edit section: Data modeling topics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Data_models">Data models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=3" title="Edit section: Data models">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Data_model" title="Data model">Data model</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:3-4_Data_model_roles.svg"><img alt="" class="thumbimage" data-file-height="477" data-file-width="741" height="206" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/3-4_Data_model_roles.svg/320px-3-4_Data_model_roles.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/3-4_Data_model_roles.svg/480px-3-4_Data_model_roles.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/93/3-4_Data_model_roles.svg/640px-3-4_Data_model_roles.svg.png 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:3-4_Data_model_roles.svg" title="Enlarge"></a></div>
+How data models deliver benefit.<sup class="reference" id="cite_ref-MW99_1-1"><a href="#cite_note-MW99-1">[1]</a></sup></div>
+</div>
+</div>
+<p>Data models provide a structure for <a href="/wiki/Data" title="Data">data</a> used within <a href="/wiki/Information_system" title="Information system">information systems</a> by providing specific definition and format. If a data model is used consistently across systems then compatibility of data can be achieved. If the same data structures are used to store and access data then different applications can share data seamlessly. The results of this are indicated in the diagram. However, systems and interfaces are often expensive to build, operate, and maintain. They may also constrain the business rather than support it. This may occur when the quality of the data models implemented in systems and interfaces is poor.<sup class="reference" id="cite_ref-MW99_1-2"><a href="#cite_note-MW99-1">[1]</a></sup></p>
+<ul>
+<li>Business rules, specific to how things are done in a particular place, are often fixed in the structure of a data model. This means that small changes in the way business is conducted lead to large changes in computer systems and interfaces. So, business rules need to be implemented in a flexible way that does not result in complicated dependencies, rather the data model should be flexible enough so that changes in the business can be implemented within the data model in a relatively quick and efficient way.</li>
+<li>Entity types are often not identified, or are identified incorrectly. This can lead to replication of data, data structure and functionality, together with the attendant costs of that duplication in development and maintenance.Therefore, data definitions should be made as explicit and easy to understand as possible to minimize misinterpretation and duplication.</li>
+<li>Data models for different systems are arbitrarily different. The result of this is that complex interfaces are required between systems that share data. These interfaces can account for between 25-70% of the cost of current systems. Required interfaces should be considered inherently while designing a data model, as a data model on its own would not be usable without interfaces within different systems.</li>
+<li>Data cannot be shared electronically with customers and suppliers, because the structure and meaning of data has not been standardised. To obtain optimal value from an implemented data model, it is very important to define standards that will ensure that data models will both meet business needs and be consistent.<sup class="reference" id="cite_ref-MW99_1-3"><a href="#cite_note-MW99-1">[1]</a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Conceptual.2C_logical_and_physical_schemas">Conceptual, logical and physical schemas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=4" title="Edit section: Conceptual, logical and physical schemas">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:4-2_ANSI-SPARC_three_level_architecture.svg"><img alt="" class="thumbimage" data-file-height="431" data-file-width="653" height="211" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/4-2_ANSI-SPARC_three_level_architecture.svg/320px-4-2_ANSI-SPARC_three_level_architecture.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/4-2_ANSI-SPARC_three_level_architecture.svg/480px-4-2_ANSI-SPARC_three_level_architecture.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/4-2_ANSI-SPARC_three_level_architecture.svg/640px-4-2_ANSI-SPARC_three_level_architecture.svg.png 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:4-2_ANSI-SPARC_three_level_architecture.svg" title="Enlarge"></a></div>
+The ANSI/SPARC three level architecture. This shows that a data model can be an external model (or view), a conceptual model, or a physical model. This is not the only way to look at data models, but it is a useful way, particularly when comparing models.<sup class="reference" id="cite_ref-MW99_1-4"><a href="#cite_note-MW99-1">[1]</a></sup></div>
+</div>
+</div>
+<p>In 1975 <a href="/wiki/American_National_Standards_Institute" title="American National Standards Institute">ANSI</a> described three kinds of data-model <i>instance</i>:<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<ul>
+<li><a href="/wiki/Conceptual_schema" title="Conceptual schema">Conceptual schema</a>: describes the semantics of a domain (the scope of the model). For example, it may be a model of the interest area of an organization or of an industry. This consists of entity classes, representing kinds of things of significance in the domain, and relationships assertions about associations between pairs of entity classes. A conceptual schema specifies the kinds of facts or propositions that can be expressed using the model. In that sense, it defines the allowed expressions in an artificial "language" with a scope that is limited by the scope of the model. Simply described, a conceptual schema is the first step in organizing the data requirements.</li>
+<li><a class="mw-redirect" href="/wiki/Logical_schema" title="Logical schema">Logical schema</a>: describes the structure of some domain of information. This consists of descriptions of (for example) tables, columns, object-oriented classes, and XML tags. The logical schema and conceptual schema are sometimes implemented as one and the same.<sup class="reference" id="cite_ref-RS001_2-1"><a href="#cite_note-RS001-2">[2]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Physical_schema" title="Physical schema">Physical schema</a>: describes the physical means used to store data. This is concerned with partitions, CPUs, <a href="/wiki/Tablespace" title="Tablespace">tablespaces</a>, and the like.</li>
+</ul>
+<p>According to ANSI, this approach allows the three perspectives to be relatively independent of each other. Storage technology can change without affecting either the logical or the conceptual schema. The table/column structure can change without (necessarily) affecting the conceptual schema. In each case, of course, the structures must remain consistent across all schemas of the same data model.</p>
+<h3><span class="mw-headline" id="Data_modeling_process">Data modeling process</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=5" title="Edit section: Data modeling process">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:362px;"><a class="image" href="/wiki/File:Data_modeling_context.svg"><img alt="" class="thumbimage" data-file-height="507" data-file-width="638" height="286" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Data_modeling_context.svg/360px-Data_modeling_context.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Data_modeling_context.svg/540px-Data_modeling_context.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Data_modeling_context.svg/720px-Data_modeling_context.svg.png 2x" width="360"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Data_modeling_context.svg" title="Enlarge"></a></div>
+Data modeling in the context of <a href="/wiki/Business_process" title="Business process">Business Process</a> Integration.<sup class="reference" id="cite_ref-SS93_6-0"><a href="#cite_note-SS93-6">[6]</a></sup></div>
+</div>
+</div>
+<p>In the context of <a href="/wiki/Business_process_modeling#Business_process_integration" title="Business process modeling">business process integration</a> (see figure), data modeling complements <a href="/wiki/Business_process_modeling" title="Business process modeling">business process modeling</a>, and ultimately results in database generation.<sup class="reference" id="cite_ref-SS93_6-1"><a href="#cite_note-SS93-6">[6]</a></sup></p>
+<p>The process of designing a database involves producing the previously described three types of schemas - conceptual, logical, and physical. The database design documented in these schemas are converted through a <a class="mw-redirect" href="/wiki/Data_Definition_Language" title="Data Definition Language">Data Definition Language</a>, which can then be used to generate a database. A fully attributed data model contains detailed attributes (descriptions) for every entity within it. The term "database design" can describe many different parts of the design of an overall <a class="mw-redirect" href="/wiki/Database_system" title="Database system">database system</a>. Principally, and most correctly, it can be thought of as the logical design of the base data structures used to store the data. In the <a href="/wiki/Relational_model" title="Relational model">relational model</a> these are the <a href="/wiki/Table_(database)" title="Table (database)">tables</a> and <a class="mw-redirect" href="/wiki/View_(database)" title="View (database)">views</a>. In an <a href="/wiki/Object_database" title="Object database">object database</a> the entities and relationships map directly to object classes and named relationships. However, the term "database design" could also be used to apply to the overall process of designing, not just the base data structures, but also the forms and queries used as part of the overall database application within the <a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">Database Management System</a> or DBMS.</p>
+<p>In the process, system <a class="mw-redirect" href="/wiki/Interface_(computer_science)" title="Interface (computer science)">interfaces</a> account for 25% to 70% of the development and support costs of current systems. The primary reason for this cost is that these systems do not share a common data model. If data models are developed on a system by system basis, then not only is the same analysis repeated in overlapping areas, but further analysis must be performed to create the interfaces between them. Most systems within an organization contain the same basic data, redeveloped for a specific purpose. Therefore, an efficiently designed basic data model can minimize rework with minimal modifications for the purposes of different systems within the organization<sup class="reference" id="cite_ref-MW99_1-5"><a href="#cite_note-MW99-1">[1]</a></sup></p>
+<h3><span class="mw-headline" id="Modeling_methodologies">Modeling methodologies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=6" title="Edit section: Modeling methodologies">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Data models represent information areas of interest. While there are many ways to create data models, according to <a class="new" href="/w/index.php?title=Len_Silverston&amp;action=edit&amp;redlink=1" title="Len Silverston (page does not exist)">Len Silverston</a> (1997)<sup class="reference" id="cite_ref-SIG97_7-0"><a href="#cite_note-SIG97-7">[7]</a></sup> only two modeling methodologies stand out, top-down and bottom-up:</p>
+<ul>
+<li>Bottom-up models or View Integration models are often the result of a <a class="mw-redirect" href="/wiki/Reengineering_(software)" title="Reengineering (software)">reengineering</a> effort. They usually start with existing data structures forms, fields on application screens, or reports. These models are usually physical, application-specific, and incomplete from an <a href="/wiki/Enterprise_architecture" title="Enterprise architecture">enterprise perspective</a>. They may not promote data sharing, especially if they are built without reference to other parts of the organization.<sup class="reference" id="cite_ref-SIG97_7-1"><a href="#cite_note-SIG97-7">[7]</a></sup></li>
+<li>Top-down <a href="/wiki/Logical_data_model" title="Logical data model">logical data models</a>, on the other hand, are created in an abstract way by getting information from people who know the subject area. A system may not implement all the entities in a logical model, but the model serves as a reference point or template.<sup class="reference" id="cite_ref-SIG97_7-2"><a href="#cite_note-SIG97-7">[7]</a></sup></li>
+</ul>
+<p>Sometimes models are created in a mixture of the two methods: by considering the data needs and structure of an application and by consistently referencing a subject-area model. Unfortunately, in many environments the distinction between a logical data model and a physical data model is blurred. In addition, some <a href="/wiki/Computer-aided_software_engineering" title="Computer-aided software engineering">CASE</a> tools don’t make a distinction between logical and <a href="/wiki/Physical_data_model" title="Physical data model">physical data models</a>.<sup class="reference" id="cite_ref-SIG97_7-3"><a href="#cite_note-SIG97-7">[7]</a></sup></p>
+<h3><span class="mw-headline" id="Entity_relationship_diagrams">Entity relationship diagrams</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=7" title="Edit section: Entity relationship diagrams">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Entity-relationship_model" title="Entity-relationship model">Entity-relationship model</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:552px;"><a class="image" href="/wiki/File:B_5_1_IDEF1X_Diagram.jpg"><img alt="" class="thumbimage" data-file-height="762" data-file-width="774" height="541" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/B_5_1_IDEF1X_Diagram.jpg/550px-B_5_1_IDEF1X_Diagram.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/c/ca/B_5_1_IDEF1X_Diagram.jpg 1.5x" width="550"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:B_5_1_IDEF1X_Diagram.jpg" title="Enlarge"></a></div>
+Example of an <a href="/wiki/IDEF1X" title="IDEF1X">IDEF1X</a> Entity relationship diagrams used to model IDEF1X itself. The name of the view is mm. The domain hierarchy and constraints are also given. The constraints are expressed as sentences in the formal theory of the meta model.<sup class="reference" id="cite_ref-FIPS184_8-0"><a href="#cite_note-FIPS184-8">[8]</a></sup></div>
+</div>
+</div>
+<p>There are several notations for data modeling. The actual model is frequently called "Entity relationship model", because it depicts data in terms of the entities and relationships described in the <a href="/wiki/Data" title="Data">data</a>.<sup class="reference" id="cite_ref-WBD04_4-2"><a href="#cite_note-WBD04-4">[4]</a></sup> An entity-relationship model (ERM) is an abstract conceptual representation of structured data. Entity-relationship modeling is a relational schema <a href="/wiki/Database_model" title="Database model">database modeling</a> method, used in <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> to produce a type of <a href="/wiki/Conceptual_schema" title="Conceptual schema">conceptual data model</a> (or <a href="/wiki/Semantic_data_model" title="Semantic data model">semantic data model</a>) of a system, often a <a href="/wiki/Relational_database" title="Relational database">relational database</a>, and its requirements in a <a class="mw-redirect" href="/wiki/Top-down" title="Top-down">top-down</a> fashion.</p>
+<p>These models are being used in the first stage of <a href="/wiki/Information_system" title="Information system">information system</a> design during the <a href="/wiki/Requirements_analysis" title="Requirements analysis">requirements analysis</a> to describe information needs or the type of <a href="/wiki/Information" title="Information">information</a> that is to be stored in a <a href="/wiki/Database" title="Database">database</a>. The <a href="/wiki/Data_model" title="Data model">data modeling</a> technique can be used to describe any <a class="mw-redirect" href="/wiki/Ontology_(computer_science)" title="Ontology (computer science)">ontology</a> (i.e. an overview and classifications of used terms and their relationships) for a certain <a href="/wiki/Domain_of_discourse" title="Domain of discourse">universe of discourse</a> i.e. area of interest.</p>
+<p>Several techniques have been developed for the design of data models. While these methodologies guide data modelers in their work, two different people using the same methodology will often come up with very different results. Most notable are:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Bachman_diagram" title="Bachman diagram">Bachman diagrams</a></li>
+<li><a href="/wiki/Barker%27s_notation" title="Barker's notation">Barker's notation</a></li>
+<li><a class="mw-redirect" href="/wiki/Entity-relationship_model" title="Entity-relationship model">Chen's Notation</a></li>
+<li><a class="mw-redirect" href="/wiki/Data_Vault_Modeling" title="Data Vault Modeling">Data Vault Modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Extended_Backus%E2%80%93Naur_form" title="Extended Backus–Naur form">Extended Backus–Naur form</a></li>
+<li><a href="/wiki/IDEF1X" title="IDEF1X">IDEF1X</a></li>
+<li><a href="/wiki/Object-relational_mapping" title="Object-relational mapping">Object-relational mapping</a></li>
+<li><a class="mw-redirect" href="/wiki/Object-Role_Modeling" title="Object-Role Modeling">Object-Role Modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Relational_Model" title="Relational Model">Relational Model</a></li>
+<li><a href="/wiki/Relational_Model/Tasmania" title="Relational Model/Tasmania">Relational Model/Tasmania</a></li>
+</ul>
+<h3><span class="mw-headline" id="Generic_data_modeling">Generic data modeling</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=8" title="Edit section: Generic data modeling">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Generic_data_model" title="Generic data model">Generic data model</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:HL7_Reference_Information_Model.jpg"><img alt="" class="thumbimage" data-file-height="403" data-file-width="550" height="234" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/HL7_Reference_Information_Model.jpg/320px-HL7_Reference_Information_Model.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/HL7_Reference_Information_Model.jpg/480px-HL7_Reference_Information_Model.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f8/HL7_Reference_Information_Model.jpg 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:HL7_Reference_Information_Model.jpg" title="Enlarge"></a></div>
+Example of a Generic data model.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></div>
+</div>
+</div>
+<p>Generic data models are generalizations of conventional <a href="/wiki/Data_model" title="Data model">data models</a>. They define standardized general relation types, together with the kinds of things that may be related by such a relation type. The definition of generic data model is similar to the definition of a natural language. For example, a generic data model may define relation types such as a 'classification relation', being a <a href="/wiki/Binary_relation" title="Binary relation">binary relation</a> between an individual thing and a kind of thing (a class) and a 'part-whole relation', being a binary relation between two things, one with the role of part, the other with the role of whole, regardless the kind of things that are related.</p>
+<p>Given an extensible list of classes, this allows the classification of any individual thing and to specify part-whole relations for any individual object. By standardization of an extensible list of relation types, a generic data model enables the expression of an unlimited number of kinds of facts and will approach the capabilities of natural languages. Conventional data models, on the other hand, have a fixed and limited domain scope, because the instantiation (usage) of such a model only allows expressions of kinds of facts that are predefined in the model.</p>
+<h3><span class="mw-headline" id="Semantic_data_modeling">Semantic data modeling</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=9" title="Edit section: Semantic data modeling">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Semantic_data_model" title="Semantic data model">Semantic data model</a></div>
+<p>The logical data structure of a DBMS, whether hierarchical, network, or relational, cannot totally satisfy the requirements for a conceptual definition of data because it is limited in scope and biased toward the implementation strategy employed by the DBMS.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:A2_4_Semantic_Data_Models.jpg"><img alt="" class="thumbimage" data-file-height="333" data-file-width="608" height="175" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/A2_4_Semantic_Data_Models.jpg/320px-A2_4_Semantic_Data_Models.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/A2_4_Semantic_Data_Models.jpg/480px-A2_4_Semantic_Data_Models.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a7/A2_4_Semantic_Data_Models.jpg 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:A2_4_Semantic_Data_Models.jpg" title="Enlarge"></a></div>
+Semantic data models.<sup class="reference" id="cite_ref-FIPS184_8-1"><a href="#cite_note-FIPS184-8">[8]</a></sup></div>
+</div>
+</div>
+<p>Therefore, the need to define data from a conceptual view has led to the development of <a href="/wiki/Semantic_data_model" title="Semantic data model">semantic data modeling</a> techniques. That is, techniques to define the meaning of data within the context of its interrelationships with other data. As illustrated in the figure the real world, in terms of resources, ideas, events, etc., are symbolically defined within physical data stores. A semantic data model is an <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a> which defines how the stored symbols relate to the real world. Thus, the model must be a true representation of the real world.<sup class="reference" id="cite_ref-FIPS184_8-2"><a href="#cite_note-FIPS184-8">[8]</a></sup></p>
+<p>A semantic data model can be used to serve many purposes, such as:<sup class="reference" id="cite_ref-FIPS184_8-3"><a href="#cite_note-FIPS184-8">[8]</a></sup></p>
+<ul>
+<li>planning of data resources</li>
+<li>building of shareable databases</li>
+<li>evaluation of vendor software</li>
+<li>integration of existing databases</li>
+</ul>
+<p>The overall goal of semantic data models is to capture more meaning of data by integrating relational concepts with more powerful <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a> concepts known from the <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial Intelligence</a> field. The idea is to provide high level modeling primitives as integral part of a data model in order to facilitate the representation of real world situations.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Architectural_pattern_(computer_science)" title="Architectural pattern (computer science)">Architectural pattern (computer science)</a></li>
+<li><a href="/wiki/Comparison_of_data_modeling_tools" title="Comparison of data modeling tools">Comparison of data modeling tools</a></li>
+<li><a href="/wiki/Data_(computing)" title="Data (computing)">Data (computing)</a></li>
+<li><a href="/wiki/Data_dictionary" title="Data dictionary">Data dictionary</a></li>
+<li><a href="/wiki/Document_modelling" title="Document modelling">Document modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Information_Management" title="Information Management">Information Management</a></li>
+<li><a href="/wiki/Informative_modelling" title="Informative modelling">Informative modeling</a></li>
+<li><a href="/wiki/Metadata_modeling" title="Metadata modeling">Metadata modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Three_schema_approach" title="Three schema approach">Three schema approach</a></li>
+<li><a href="/wiki/Zachman_Framework" title="Zachman Framework">Zachman Framework</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><img alt="" data-file-height="196" data-file-width="196" height="12" src="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/12px-PD-icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/18px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/PD-icon.svg/24px-PD-icon.svg.png 2x" width="12"/> This article incorporates <a href="/wiki/Copyright_status_of_work_by_the_U.S._government" title="Copyright status of work by the U.S. government">public domain material</a> from websites or documents of the <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a>.</p>
+<div class="reflist columns references-column-width" style="-moz-column-width: 33em; -webkit-column-width: 33em; column-width: 33em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-MW99-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-MW99_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-MW99_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-MW99_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-MW99_1-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-MW99_1-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-MW99_1-5"><sup><i><b>f</b></i></sup></a></span> <span class="reference-text">Matthew West and Julian Fowler (1999). <a class="external text" href="https://sites.google.com/site/drmatthewwest/publications/princ03.pdf" rel="nofollow">Developing High Quality Data Models</a>. The European Process Industries STEP Technical Liaison Executive (EPISTLE).</span></li>
+<li id="cite_note-RS001-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-RS001_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-RS001_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Simison, Graeme. C. &amp; Witt, Graham. C. (2005).<i>Data Modeling Essentials</i>.3rd Edition. Morgan Kauffman Publishers. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0126445516">ISBN 0-12-644551-6</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a class="external text" href="http://knowledge.fhwa.dot.gov/tam/aashto.nsf/All+Documents/4825476B2B5C687285256B1F00544258/$FILE/DIGloss.pdf" rel="nofollow">Data Integration Glossary</a> <a class="external text" href="https://web.archive.org/web/20090320001015/http://knowledge.fhwa.dot.gov/tam/aashto.nsf/All+Documents/4825476B2B5C687285256B1F00544258/$FILE/DIGloss.pdf" rel="nofollow">Archived</a> March 20, 2009, at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>., U.S. Department of Transportation, August 2001.</span></li>
+<li id="cite_note-WBD04-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-WBD04_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-WBD04_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-WBD04_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a class="mw-redirect" href="/wiki/Whitten,_Jeffrey_L." title="Whitten, Jeffrey L.">Whitten, Jeffrey L.</a>; <a href="/wiki/Lonnie_D._Bentley" title="Lonnie D. Bentley">Lonnie D. Bentley</a>, <a href="/wiki/Kevin_C._Dittman" title="Kevin C. Dittman">Kevin C. Dittman</a>. (2004). <i>Systems Analysis and Design Methods</i>. 6th edition. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/025619906X">ISBN 0-256-19906-X</a>.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">American National Standards Institute. 1975. <i>ANSI/X3/SPARC Study Group on Data Base Management Systems; Interim Report</i>. FDT (Bulletin of ACM SIGMOD) 7:2.</span></li>
+<li id="cite_note-SS93-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-SS93_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SS93_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Paul R. Smith &amp; Richard Sarfaty (1993). <a class="external text" href="http://www.osti.gov/energycitations/purl.cover.jsp;jsessionid=6192EDBFBAB7DCED13883C55F221221A?purl=/10160331-YhIRrY/" rel="nofollow">Creating a strategic plan for configuration management using Computer Aided Software Engineering (CASE) tools.</a> Paper For 1993 National DOE/Contractors and Facilities CAD/CAE User's Group.</span></li>
+<li id="cite_note-SIG97-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-SIG97_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SIG97_7-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-SIG97_7-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-SIG97_7-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text">Len Silverston, W.H.Inmon, Kent Graziano (2007). <i>The Data Model Resource Book</i>. Wiley, 1997. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0471153648">ISBN 0-471-15364-8</a>. Reviewed by <a class="external text" href="http://www.tdan.com/view-book-reviews/5593" rel="nofollow">Van Scott on tdan.com</a>. Accessed November 1, 2008.</span></li>
+<li id="cite_note-FIPS184-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-FIPS184_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FIPS184_8-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FIPS184_8-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-FIPS184_8-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://www.itl.nist.gov/fipspubs/idef1x.doc" rel="nofollow">FIPS Publication 184</a> released of IDEF1X by the Computer Systems Laboratory of the National Institute of Standards and Technology (NIST). December 21, 1993.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Amnon Shabo (2006). <a class="external text" href="http://healthit.hhs.gov/portal/server.pt?open=512&amp;objID=1263&amp;mode=2" rel="nofollow">Clinical genomics data standards for pharmacogenetics and pharmacogenomics</a>.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">"Semantic data modeling" In: <i>Metaclasses and Their Application</i>. Book Series Lecture Notes in Computer Science. Publisher Springer Berlin / Heidelberg. Volume Volume 943/1995.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=12" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>J.H. ter Bekke (1991). <i>Semantic Data Modeling in Relational Environments</i></li>
+<li>John Vincent Carlis, Joseph D. Maguire (2001). <i>Mastering Data Modeling: A User-driven Approach</i>.</li>
+<li>Alan Chmura, J. Mark Heumann (2005). <i>Logical Data Modeling: What it is and how to Do it</i>.</li>
+<li>Martin E. Modell (1992). <i>Data Analysis, Data Modeling, and Classification</i>.</li>
+<li>M. Papazoglou, Stefano Spaccapietra, Zahir Tari (2000). <i>Advances in Object-oriented Data Modeling</i>.</li>
+<li>G. Lawrence Sanders (1995). <i>Data Modeling</i></li>
+<li>Graeme C. Simsion, Graham C. Witt (2005). <i>Data Modeling Essentials'</i></li>
+<li>Matthew West (2011) <i>Developing High Quality Data Models</i></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Data_modeling&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Data_modeling" title="commons:Category:Data modeling">Data modeling</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://www.agiledata.org/essays/agileDataModeling.html" rel="nofollow">Agile/Evolutionary Data Modeling</a></li>
+<li><a class="external text" href="http://www.softdevarticles.com/modules/weblinks/viewcat.php?cid=21" rel="nofollow">Data modeling articles</a></li>
+<li><a class="external text" href="http://www.methodsandtools.com/archive/archive.php?id=9" rel="nofollow">Database Modelling in UML</a></li>
+<li><a class="external text" href="http://www.agiledata.org/essays/dataModeling101.html" rel="nofollow">Data Modeling 101</a></li>
+<li><a class="external text" href="http://www.jhterbekke.net/SemanticDataModeling.html" rel="nofollow">Semantic data modeling</a></li>
+<li><a class="external text" href="http://www.cems.uwe.ac.uk/~tdrewry/modeling.htm" rel="nofollow">System Development, Methodologies and Modeling</a> Notes on by Tony Drewry</li>
+<li><a class="external text" href="http://www.omg.org/cgi-bin/doc?ab/05-12-02" rel="nofollow">Request For Proposal - Information Management Metamodel (IMM)</a> of the Object Management Group</li>
+<li><a class="external text" href="http://www.ipl.com/papers/Data%20modelling%20is%20NOT%20JUST%20for%20DBMS%20part%201.pdf" rel="nofollow">Data Modeling is NOT just for DBMS's Part 1</a> Chris Bradley</li>
+<li><a class="external text" href="http://www.ipl.com/papers/Data%20modelling%20is%20NOT%20JUST%20for%20DBMS%20part%202.pdf" rel="nofollow">Data Modeling is NOT just for DBMS's Part 2</a> Chris Bradley</li>
+</ul>
+<div aria-labelledby="Data_model" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Data_model" title="Template:Data model"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Data_model" title="Template talk:Data model"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Data_model&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Data_model" style="font-size:114%"><a href="/wiki/Data_model" title="Data model">Data model</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Main</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_architecture" title="Data architecture">Architecture</a></li>
+<li><strong class="selflink">Modeling</strong></li>
+<li><a href="/wiki/Data_structure" title="Data structure">Structure</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Schemas</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Conceptual_schema" title="Conceptual schema">Conceptual</a></li>
+<li><a href="/wiki/Logical_data_model" title="Logical data model">Logical</a></li>
+<li><a class="mw-redirect" href="/wiki/Physical_schema" title="Physical schema">Physical</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Types</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_model" title="Database model">Database</a></li>
+<li><a href="/wiki/Data_structure_diagram" title="Data structure diagram">Data structure diagram</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">Entity–relationship model</a> (<a href="/wiki/Enhanced_entity%E2%80%93relationship_model" title="Enhanced entity–relationship model">enhanced</a>)</li>
+<li><a href="/wiki/Data_model_(GIS)" title="Data model (GIS)">Geographic</a></li>
+<li><a href="/wiki/Generic_data_model" title="Generic data model">Generic</a></li>
+<li><a href="/wiki/Semantic_data_model" title="Semantic data model">Semantic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related models</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_flow_diagram" title="Data flow diagram">Data flow diagram</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Object-role_modeling" title="Object-role modeling">Object-role modeling</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">See also</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_design" title="Database design">Database design</a></li>
+<li><a href="/wiki/Business_process_modeling" title="Business process modeling">Business process modeling</a></li>
+<li><a href="/wiki/Core_architecture_data_model" title="Core architecture data model">Core architecture data model</a></li>
+<li><a href="/wiki/Enterprise_modelling" title="Enterprise modelling">Enterprise modelling</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Process_modeling" title="Process modeling">Process modeling</a></li>
+<li><a href="/wiki/XML_schema" title="XML schema">XML schema</a></li>
+<li><a href="/wiki/Data_Format_Description_Language" title="Data Format Description Language">Data Format Description Language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Data modeling</strong></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:759422-0!*!0!!en!4!* and timestamp 20160929055351 and revision id 737453344
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Data_modeling&amp;oldid=737453344">https://en.wikipedia.org/w/index.php?title=Data_modeling&amp;oldid=737453344</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Data_modeling" title="Category:Data modeling">Data modeling</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_Wayback_Machine_links" title="Category:Articles with Wayback Machine links">Articles with Wayback Machine links</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_March_2016" title="Category:Use mdy dates from March 2016">Use mdy dates from March 2016</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_text_from_the_National_Institute_of_Standards_and_Technology" title="Category:Wikipedia articles incorporating text from the National Institute of Standards and Technology">Wikipedia articles incorporating text from the National Institute of Standards and Technology</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Data+modeling" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Data+modeling" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Data_modeling" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Data_modeling" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Data_modeling">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Data_modeling&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Data_modeling&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Data_modeling" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Data_modeling" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Data_modeling&amp;oldid=737453344" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Data_modeling&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q367664" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Data_modeling&amp;id=737453344" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Data+modeling">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Data+modeling&amp;returnto=Data+modeling&amp;oldid=737453344&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Data_modeling&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Data_modeling" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%B0%D8%AC%D8%A9_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA" hreflang="ar" lang="ar" title="نمذجة البيانات – Arabic">العربية</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Datov%C3%A9_modelov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Datové modelování – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Datenmodellierung" hreflang="de" lang="de" title="Datenmodellierung – German">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9C%CE%BF%CE%BD%CF%84%CE%B5%CE%BB%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7_%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CF%89%CE%BD" hreflang="el" lang="el" title="Μοντελοποίηση δεδομένων – Greek">Ελληνικά</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D8%AF%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_%D8%AF%D8%A7%D8%AF%D9%87" hreflang="fa" lang="fa" title="مدل‌سازی داده – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Mod%C3%A9lisation_des_donn%C3%A9es" hreflang="fr" lang="fr" title="Modélisation des données – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%AA%A8%EB%8D%B8%EB%A7%81" hreflang="ko" lang="ko" title="데이터 모델링 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%A1%E0%A5%87%E0%A4%9F%E0%A4%BE_%E0%A4%AE%E0%A5%89%E0%A4%A1%E0%A4%B2%E0%A4%BF%E0%A4%82%E0%A4%97" hreflang="hi" lang="hi" title="डेटा मॉडलिंग – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Modellazione_dei_dati" hreflang="it" lang="it" title="Modellazione dei dati – Italian">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0" hreflang="ja" lang="ja" title="データモデリング – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Modelagem_de_dados" hreflang="pt" lang="pt" title="Modelagem de dados – Portuguese">Português</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/Data_modeling" hreflang="sq" lang="sq" title="Data modeling – Albanian">Shqip</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Tietomallinnus" hreflang="fi" lang="fi" title="Tietomallinnus – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AE%B0%E0%AE%B5%E0%AF%81_%E0%AE%AE%E0%AE%BE%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="தரவு மாதிரியாக்கம் – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%A1%E0%B1%87%E0%B0%9F%E0%B0%BE_%E0%B0%AE%E0%B1%8B%E0%B0%A1%E0%B0%B2%E0%B0%BF%E0%B0%82%E0%B0%97%E0%B1%8D" hreflang="te" lang="te" title="డేటా మోడలింగ్ – Telugu">తెలుగు</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Veri_modelleme" hreflang="tr" lang="tr" title="Veri modelleme – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B4%D0%B0%D0%BD%D0%B8%D1%85" hreflang="uk" lang="uk" title="Моделювання даних – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BB%BA%E6%A8%A1" hreflang="zh" lang="zh" title="数据建模 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q367664#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 2 September 2016, at 21:52.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Data_modeling&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.296",
+            "walltime": "0.369",
+            "ppvisitednodes": {
+                "value": 1193,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 40110,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1237,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  244.763      1 -total",
+                " 27.25%   66.693      3 Template:Navbox",
+                " 21.28%   52.081      1 Template:Software_engineering",
+                " 20.30%   49.691      1 Template:Use_mdy_dates",
+                " 14.99%   36.678      1 Template:Commons_category",
+                " 13.48%   32.996      1 Template:Reflist",
+                "  9.09%   22.256      1 Template:Navbox_subgroup",
+                "  8.15%   19.953      4 Template:Main",
+                "  6.28%   15.364      1 Template:DMCA",
+                "  5.63%   13.779      1 Template:Data_model"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.047",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1712782,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1201",
+            "timestamp": "20160929055351",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":93,"wgHostname":"mw1182"});});</script>
+</body>
+</html>
+

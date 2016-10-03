@@ -1,0 +1,1251 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Module_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Module pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Module_pattern","wgTitle":"Module pattern","wgCurRevisionId":731478744,"wgRevisionId":731478744,"wgArticleId":35016502,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from July 2014","All articles lacking in-text citations","Software design patterns","Articles with example C Sharp code","Articles with example Java code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Module_pattern","wgRelevantArticleId":35016502,"wgRequestId":"V-Bt8gpAICgAAE6YtQgAAABO","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q6889793","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Module_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Module_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Module_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Module_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Module_pattern rootpage-Module_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Module pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-style ambox-No_footnotes" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a>, related reading or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, <b>but its sources remain unclear because it lacks <a href="/wiki/Wikipedia:Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>. <span class="hide-when-compact">Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span> <small><i>(July 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, the <b>module pattern</b> is a <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">design pattern</a> used to implement the concept of <a class="extiw" href="https://en.wiktionary.org/wiki/Software_module" title="wiktionary:Software module">software modules</a>, defined by <a href="/wiki/Modular_programming" title="Modular programming">modular programming</a>, in a <a href="/wiki/Programming_language" title="Programming language">programming language</a> with incomplete direct support for the concept.</p>
+<p>This pattern can be implemented in several ways depending on the host programming language, such as the <a href="/wiki/Singleton_pattern" title="Singleton pattern">singleton design pattern</a>, object-oriented <a class="new" href="/w/index.php?title=Static_member&amp;action=edit&amp;redlink=1" title="Static member (page does not exist)">static members</a> in a <a class="mw-redirect" href="/wiki/Class_(software)" title="Class (software)">class</a> and procedural global functions. In Python, the pattern is built into the language, and each .py file is automatically a module.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition_.26_Structure"><span class="tocnumber">1</span> <span class="toctext">Definition &amp; Structure</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Concept"><span class="tocnumber">2</span> <span class="toctext">Concept</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Features"><span class="tocnumber">3</span> <span class="toctext">Features</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Implementations"><span class="tocnumber">4</span> <span class="toctext">Implementations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Object-oriented_programming_languages"><span class="tocnumber">4.1</span> <span class="toctext">Object-oriented programming languages</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Java"><span class="tocnumber">4.1.1</span> <span class="toctext">Java</span></a>
+<ul>
+<li class="toclevel-4 tocsection-7"><a href="#Definition"><span class="tocnumber">4.1.1.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-4 tocsection-8"><a href="#Implementation"><span class="tocnumber">4.1.1.2</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-9"><a href="#C.23_.28C_Sharp_.Net.29"><span class="tocnumber">4.1.2</span> <span class="toctext">C# (C Sharp .Net)</span></a>
+<ul>
+<li class="toclevel-4 tocsection-10"><a href="#Definition_2"><span class="tocnumber">4.1.2.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-4 tocsection-11"><a href="#Implementation_2"><span class="tocnumber">4.1.2.2</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Prototype-based_programming_languages"><span class="tocnumber">4.2</span> <span class="toctext">Prototype-based programming languages</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#JavaScript"><span class="tocnumber">4.2.1</span> <span class="toctext">JavaScript</span></a>
+<ul>
+<li class="toclevel-4 tocsection-14"><a href="#Definition_3"><span class="tocnumber">4.2.1.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-4 tocsection-15"><a href="#Implementation_3"><span class="tocnumber">4.2.1.2</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#Procedural_programming_languages"><span class="tocnumber">4.3</span> <span class="toctext">Procedural programming languages</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#PHP_.28procedural.29"><span class="tocnumber">4.3.1</span> <span class="toctext">PHP (procedural)</span></a>
+<ul>
+<li class="toclevel-4 tocsection-18"><a href="#Definition_4"><span class="tocnumber">4.3.1.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-4 tocsection-19"><a href="#Implementation_4"><span class="tocnumber">4.3.1.2</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-20"><a href="#C"><span class="tocnumber">4.3.2</span> <span class="toctext">C</span></a>
+<ul>
+<li class="toclevel-4 tocsection-21"><a href="#Definition_header_module"><span class="tocnumber">4.3.2.1</span> <span class="toctext">Definition header module</span></a></li>
+<li class="toclevel-4 tocsection-22"><a href="#Definition_body_module"><span class="tocnumber">4.3.2.2</span> <span class="toctext">Definition body module</span></a></li>
+<li class="toclevel-4 tocsection-23"><a href="#Implementation_5"><span class="tocnumber">4.3.2.3</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-24"><a href="#Procedural_Pascal"><span class="tocnumber">4.3.3</span> <span class="toctext">Procedural Pascal</span></a>
+<ul>
+<li class="toclevel-4 tocsection-25"><a href="#Definition_5"><span class="tocnumber">4.3.3.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-4 tocsection-26"><a href="#Implementation_6"><span class="tocnumber">4.3.3.2</span> <span class="toctext">Implementation</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#Comparisons_to_other_concepts"><span class="tocnumber">5</span> <span class="toctext">Comparisons to other concepts</span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="#Namespaces"><span class="tocnumber">5.1</span> <span class="toctext">Namespaces</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Classes_and_namespaces"><span class="tocnumber">5.2</span> <span class="toctext">Classes and namespaces</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#Singleton_classes_and_namespaces"><span class="tocnumber">5.3</span> <span class="toctext">Singleton classes and namespaces</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Relationship_with_other_design_patterns"><span class="tocnumber">5.4</span> <span class="toctext">Relationship with other design patterns</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-32"><a href="#Module_as_a_design_pattern"><span class="tocnumber">6</span> <span class="toctext">Module as a design pattern</span></a></li>
+<li class="toclevel-1 tocsection-33"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Definition_.26_Structure">Definition &amp; Structure</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=1" title="Edit section: Definition &amp; Structure">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <i>module software design pattern</i> provides the features and syntactic structure defined by the modular programming paradigm to programming languages that have incomplete support for the concept.</p>
+<div class="center">
+<div class="thumb tnone">
+<div class="thumbinner" style="width:502px;"><a class="image" href="/wiki/File:Module-software-design-pattern.png"><img alt="The object module pattern expressed in UML." class="thumbimage" data-file-height="1056" data-file-width="1632" height="324" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Module-software-design-pattern.png/500px-Module-software-design-pattern.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Module-software-design-pattern.png/750px-Module-software-design-pattern.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Module-software-design-pattern.png/1000px-Module-software-design-pattern.png 2x" width="500"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Module-software-design-pattern.png" title="Enlarge"></a></div>
+The object module pattern expressed in <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a>.</div>
+</div>
+</div>
+</div>
+<h2><span class="mw-headline" id="Concept">Concept</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=2" title="Edit section: Concept">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In software development, source code can be organized into components that accomplish a particular function or contain everything necessary to accomplish a particular task. <a href="/wiki/Modular_programming" title="Modular programming">Modular programming</a> is one of those approaches.</p>
+<p>The concept of a "module" is not fully supported in many common programming languages.</p>
+<h2><span class="mw-headline" id="Features">Features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=3" title="Edit section: Features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In order to consider that a Singleton or any group of related code implements this pattern, the following features must be supplied:</p>
+<ul>
+<li>A portion of the code must have global or public access and be designed for use as global/public code. Additional private or protected code can be executed by the main public code.</li>
+<li>A module must have an initializer function that is equivalent to, or complementary to an <a class="new" href="/w/index.php?title=Object_constructor&amp;action=edit&amp;redlink=1" title="Object constructor (page does not exist)">object constructor</a> method. This feature is not supported by regular <a href="/wiki/Namespace" title="Namespace">namespaces</a>.</li>
+<li>A module must have a finalizer function that is equivalent to, or complementary to an object destructor method. This feature is not supported by regular namespaces.</li>
+<li>Supporting members may require initialization/finalization code that is executed by the module's initializer/finalizer function.</li>
+<li>Most members are functions that perform operations on elements external to the class, provided as arguments by calling functions. Such functions are "utilities", "tools" or "libraries".</li>
+</ul>
+<h2><span class="mw-headline" id="Implementations">Implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=4" title="Edit section: Implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The semantics and syntax of each programming language may affect the implementation of this pattern.</p>
+<h3><span class="mw-headline" id="Object-oriented_programming_languages">Object-oriented programming languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=5" title="Edit section: Object-oriented programming languages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=6" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Although <a class="mw-redirect" href="/wiki/Java_(language)" title="Java (language)">Java</a> supports the notion of a <i>namespace</i>, a reduced version of a module, some scenarios benefit from employing the design pattern instead of using namespaces.</p>
+<p>The following example uses the singleton pattern.</p>
+<h5><span class="mw-headline" id="Definition">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=7" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">package</span> <span class="nn">consoles</span><span class="o">;</span>
+
+<span class="kn">import</span> <span class="nn">java.io.InputStream</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.io.PrintStream</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="nc">MainModule</span> <span class="o">{</span>
+
+  <span class="kd">private</span> <span class="kd">static</span> <span class="n">MainModule</span> <span class="n">singleton</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+
+  <span class="kd">public</span> <span class="n">InputStream</span> <span class="n">input</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="n">PrintStream</span> <span class="n">output</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="n">PrintStream</span> <span class="n">error</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+
+  <span class="kd">public</span> <span class="nf">MainModule</span><span class="o">()</span> <span class="o">{</span>
+    <span class="c1">// does nothing on purpose !!!</span>
+  <span class="o">}</span>
+
+  <span class="c1">// ...</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="n">MainModule</span> <span class="nf">getSingleton</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">MainModule</span><span class="o">.</span><span class="na">singleton</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+       <span class="n">MainModule</span><span class="o">.</span><span class="na">singleton</span> <span class="o">=</span> <span class="k">new</span> <span class="n">MainModule</span><span class="o">();</span>
+    <span class="o">}</span>
+ 
+    <span class="k">return</span> <span class="n">MainModule</span><span class="o">.</span><span class="na">singleton</span><span class="o">;</span>
+  <span class="o">}</span>
+
+  <span class="c1">// ...</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">prepare</span><span class="o">()</span> <span class="o">{</span>
+    <span class="c1">//System.out.println("consoles::prepare();");</span>
+
+    <span class="k">this</span><span class="o">.</span><span class="na">input</span> <span class="o">=</span> <span class="k">new</span> <span class="n">InputStream</span><span class="o">();</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">output</span> <span class="o">=</span> <span class="k">new</span> <span class="n">PrintStream</span><span class="o">();</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">error</span> <span class="o">=</span> <span class="k">new</span> <span class="n">PrintStream</span><span class="o">();</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">unprepare</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">output</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">input</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">error</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+  
+    <span class="c1">//System.out.println("consoles::unprepare();");</span>
+  <span class="o">}</span>
+  
+  <span class="c1">// ...</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">printNewLine</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">printString</span><span class="o">(</span><span class="n">String</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">value</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">printInteger</span><span class="o">(</span><span class="kt">int</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">value</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">printBoolean</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">value</span><span class="o">);</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">scanNewLine</span><span class="o">()</span> <span class="o">{</span>
+    <span class="c1">// to-do: ...</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">scanString</span><span class="o">(</span><span class="n">String</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// to-do: ...</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">scanInteger</span><span class="o">(</span><span class="kt">int</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// to-do: ...</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">scanBoolean</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">value</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// to-do: ...</span>
+  <span class="o">}</span>
+  
+  <span class="c1">// ...</span>
+  
+<span class="o">}</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=8" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">consoles.*</span><span class="o">;</span>
+
+<span class="kd">class</span> <span class="nc">ConsoleDemo</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="n">MainModule</span> <span class="n">console</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">prepare</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">console</span> <span class="o">=</span> <span class="n">MainModule</span><span class="o">.</span><span class="na">getSingleton</span><span class="o">();</span>
+
+    <span class="n">console</span><span class="o">.</span><span class="na">prepare</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">unprepare</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">console</span><span class="o">.</span><span class="na">unprepare</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">execute</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">console</span><span class="o">.</span><span class="na">printString</span><span class="o">(</span><span class="s">"Hello World"</span><span class="o">);</span>
+    <span class="n">console</span><span class="o">.</span><span class="na">printNewLine</span><span class="o">();</span>
+    <span class="n">console</span><span class="o">.</span><span class="na">scanNewLine</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">prepare</span><span class="o">();</span>
+    <span class="n">execute</span><span class="o">(</span><span class="n">args</span><span class="o">);</span>
+    <span class="n">unprepare</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="C.23_.28C_Sharp_.Net.29">C# (C Sharp .Net)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=9" title="Edit section: C# (C Sharp .Net)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p><a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>, like Java, supports namespaces although the pattern remains useful in specific cases.</p>
+<p>The following example uses the singleton pattern.</p>
+<h5><span class="mw-headline" id="Definition_2">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=10" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="k">namespace</span> <span class="nn">Consoles</span> <span class="p">{</span>
+
+  <span class="k">public</span> <span class="k">sealed</span> <span class="k">class</span> <span class="nc">MainModule</span> <span class="p">{</span>
+    <span class="k">private</span> <span class="k">static</span> <span class="n">MainModule</span> <span class="n">Singleton</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+    <span class="k">public</span> <span class="n">InputStream</span> <span class="n">input</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+    <span class="k">public</span> <span class="n">OutputStream</span> <span class="n">output</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+    <span class="k">public</span> <span class="n">ErrorStream</span> <span class="n">error</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+
+    <span class="c1">// ...</span>
+
+    <span class="k">public</span> <span class="nf">MainModule</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="c1">// does nothing on purpose !!!</span>
+    <span class="p">}</span>
+
+    <span class="c1">// ...</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="n">MainModule</span> <span class="nf">getSingleton</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">MainModule</span><span class="p">.</span><span class="n">Singleton</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
+      <span class="p">{</span>
+         <span class="n">MainModule</span><span class="p">.</span><span class="n">Singleton</span> <span class="p">=</span> <span class="k">new</span> <span class="n">MainModule</span><span class="p">();</span>
+      <span class="p">}</span>
+
+      <span class="k">return</span> <span class="n">MainModule</span><span class="p">.</span><span class="n">Singleton</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// ...</span>
+
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">prepare</span><span class="p">()</span> <span class="p">{</span>
+      <span class="c1">//System.WriteLine("console::prepare();");</span>
+
+      <span class="k">this</span><span class="p">.</span><span class="n">input</span>  <span class="p">=</span> <span class="k">new</span> <span class="n">InputStream</span><span class="p">();</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">output</span> <span class="p">=</span> <span class="k">new</span> <span class="n">OutputStream</span><span class="p">();</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">error</span>  <span class="p">=</span> <span class="k">new</span> <span class="n">ErrorStream</span><span class="p">();</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">unprepare</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">output</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">input</span>  <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+      <span class="k">this</span><span class="p">.</span><span class="n">error</span>  <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+    
+      <span class="c1">//System.WriteLine("console::unprepare();");</span>
+    <span class="p">}</span>
+    
+    <span class="c1">// ...</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">printNewLine</span><span class="p">()</span> <span class="p">{</span>
+      <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">""</span><span class="p">);</span>
+    <span class="p">}</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">printString</span><span class="p">(</span><span class="n">String</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="n">Value</span><span class="p">);</span>
+    <span class="p">}</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">printInteger</span><span class="p">(</span><span class="n">Integer</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="n">Value</span><span class="p">);</span>
+    <span class="p">}</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">printBoolean</span><span class="p">(</span><span class="n">Boolean</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="n">Value</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ScanNewLine</span><span class="p">()</span> <span class="p">{</span>
+      <span class="c1">// to-do: ...</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ScanString</span><span class="p">(</span><span class="n">String</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// to-do: ...</span>
+    <span class="p">}</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ScanInteger</span><span class="p">(</span><span class="n">Integer</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// to-do: ...</span>
+    <span class="p">}</span>
+  
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">ScanBoolean</span><span class="p">(</span><span class="n">Boolean</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// to-do: ...</span>
+    <span class="p">}</span>
+    
+    <span class="c1">// ...</span>
+  
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation_2">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=11" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="k">class</span> <span class="nc">ConsoleDemo</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="n">Consoles</span><span class="p">.</span><span class="n">MainModule</span> <span class="n">Console</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+   
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">prepare</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="n">Console</span> <span class="p">=</span> <span class="n">Consoles</span><span class="p">.</span><span class="n">MainModule</span><span class="p">.</span><span class="n">getSingleton</span><span class="p">();</span>
+   
+      <span class="n">Console</span><span class="p">.</span><span class="n">prepare</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">unprepare</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">unprepare</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">execute</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">PrintString</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">);</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">PrintNewLine</span><span class="p">();</span>
+      <span class="n">Console</span><span class="p">.</span><span class="n">ScanNewLine</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">main</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="n">prepare</span><span class="p">();</span>
+      <span class="n">execute</span><span class="p">(</span><span class="n">args</span><span class="p">);</span>
+      <span class="n">unprepare</span><span class="p">();</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Prototype-based_programming_languages">Prototype-based programming languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=12" title="Edit section: Prototype-based programming languages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="JavaScript">JavaScript</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=13" title="Edit section: JavaScript">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> is commonly used to automate web pages.</p>
+<h5><span class="mw-headline" id="Definition_3">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=14" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">function</span> <span class="nx">ConsoleClass</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">Input</span>  <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">Output</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nb">Error</span>  <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+
+  <span class="c1">// ...</span>
+  
+  <span class="k">this</span><span class="p">.</span><span class="nx">prepare</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">Input</span>  <span class="o">=</span> <span class="k">new</span> <span class="nx">InputStream</span><span class="p">();</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">Output</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">OutputStream</span><span class="p">();</span>
+    <span class="k">this</span><span class="p">.</span><span class="nb">Error</span>  <span class="o">=</span> <span class="k">new</span> <span class="nx">ErrorStream</span><span class="p">();</span>
+  <span class="p">}</span>
+
+  <span class="k">this</span><span class="p">.</span><span class="nx">unprepare</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">Input</span>  <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">Output</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nb">Error</span>  <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+  <span class="p">}</span>
+  
+  <span class="c1">// ...</span>
+  
+  <span class="kd">var</span> <span class="nx">printNewLine</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that prints a new line</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">printString</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">printInteger</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">printBoolean</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">ScanNewLine</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that looks for a newline</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">ScanString</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that inputs data into parameters</span>
+  <span class="p">}</span>
+  
+  <span class="kd">var</span> <span class="nx">ScanInteger</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that inputs data into parameters</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">ScanBoolean</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">params</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that inputs data into parameters</span>
+  <span class="p">}</span>
+  
+  <span class="c1">// ...</span>
+  
+<span class="p">}</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation_3">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=15" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">function</span> <span class="nx">ConsoleDemo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">Console</span>  <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+
+  <span class="kd">var</span> <span class="nx">prepare</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">Console</span>  <span class="o">=</span> <span class="k">new</span> <span class="nx">ConsoleClass</span><span class="p">();</span>
+
+    <span class="nx">Console</span><span class="p">.</span><span class="nx">prepare</span><span class="p">();</span>
+  <span class="p">}</span>
+  
+  <span class="kd">var</span> <span class="nx">unprepare</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">Console</span><span class="p">.</span><span class="nx">unprepare</span><span class="p">();</span>  
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">run</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">Console</span><span class="p">.</span><span class="nx">printString</span><span class="p">(</span><span class="s2">"Hello World"</span><span class="p">);</span>
+    <span class="nx">Console</span><span class="p">.</span><span class="nx">printNewLine</span><span class="p">();</span>
+  <span class="p">}</span>
+
+  <span class="kd">var</span> <span class="nx">main</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">prepare</span><span class="p">();</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">run</span><span class="p">();</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">unprepare</span><span class="p">();</span>
+  <span class="p">}</span>  
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Procedural_programming_languages">Procedural programming languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=16" title="Edit section: Procedural programming languages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This pattern may be seen as a procedural extension to object-oriented languages.</p>
+<p>Although the procedural and modular programming paradigms are often used together, there are cases where a procedural programming language may not fully support modules, hence requiring a design pattern implementation.</p>
+<h4><span class="mw-headline" id="PHP_.28procedural.29">PHP (procedural)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=17" title="Edit section: PHP (procedural)">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This example applies to procedural <a href="/wiki/PHP" title="PHP">PHP</a> before namespaces (introduced in version 5.3.0). It is recommended that each member of a module is given a prefix related to the filename or module name in order to avoid identifier collisions.</p>
+<h5><span class="mw-headline" id="Definition_4">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=18" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">&lt;?php</span>
+  <span class="c1">// filename: console.php</span>
+
+  <span class="k">function</span> <span class="nf">console_prepare</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that prepares a "console"</span>
+  <span class="p">}</span>
+ 
+  <span class="k">function</span> <span class="nf">console_unprepare</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that unprepares a "console"</span>
+  <span class="p">}</span>
+
+  <span class="c1">// ...</span>
+  
+  <span class="k">function</span> <span class="nf">console_printNewLine</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that ouputs a new line</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_printString</span><span class="p">(</span><span class="cm">/* String */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_printInteger</span><span class="p">(</span><span class="cm">/* Integer */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_printBoolean</span><span class="p">(</span><span class="cm">/* Boolean */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that prints parameters</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_scanNewLine</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that looks for a new line</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_scanString</span><span class="p">(</span><span class="cm">/* String */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that stores data into parameters</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_scanInteger</span><span class="p">(</span><span class="cm">/* Integer */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that stores data into parameters</span>
+  <span class="p">}</span>
+  
+  <span class="k">function</span> <span class="nf">console_scanBoolean</span><span class="p">(</span><span class="cm">/* Boolean */</span> <span class="nx">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// code that stores data into parameters</span>
+  <span class="p">}</span>
+<span class="cp">?&gt;</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation_4">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=19" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cp">&lt;?php</span>
+    <span class="c1">// filename: consoledemo.php</span>
+
+    <span class="k">require_once</span><span class="p">(</span><span class="s2">"console.php"</span><span class="p">);</span>
+
+    <span class="k">function</span> <span class="nf">consoledemo_prepare</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="nx">console_prepare</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">function</span> <span class="nf">consoledemo_unprepare</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="nx">console_unprepare</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">function</span> <span class="nf">consoledemo_execute</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="nx">console_printString</span><span class="p">(</span><span class="s2">"Hello World"</span><span class="p">);</span>
+      <span class="nx">console_printNewLine</span><span class="p">();</span>
+        <span class="nx">console_scanNewLine</span><span class="p">();</span>
+    <span class="p">}</span>
+   
+    <span class="k">function</span> <span class="nf">consoledemo_main</span><span class="p">()</span>
+    <span class="p">{</span>
+      <span class="nx">consoledemo_prepare</span><span class="p">();</span>
+      <span class="nx">consoledemo_execute</span><span class="p">();</span>
+      <span class="nx">consoledemo_unprepare</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="cp">?&gt;</span>
+</pre></div>
+<h4><span class="mw-headline" id="C">C</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=20" title="Edit section: C">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Note that this example applies to procedural <a class="mw-redirect" href="/wiki/C_(language)" title="C (language)">C</a> without namespaces. It is recommended that each member of a module is given a prefix related to the filename or module name in order to avoid identifier collisions.</p>
+<h5><span class="mw-headline" id="Definition_header_module">Definition header module</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=21" title="Edit section: Definition header module">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="c1">// filename: "consoles.h"</span>
+
+  <span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;ctype.h&gt;</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_prepare</span><span class="p">();</span> 
+  <span class="kt">void</span> <span class="nf">consoles_unprepare</span><span class="p">();</span>
+
+  <span class="c1">// ...</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printNewLine</span><span class="p">();</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printString</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">Value</span><span class="p">);</span>  
+  <span class="kt">void</span> <span class="nf">consoles_printInteger</span><span class="p">(</span><span class="kt">int</span> <span class="n">Value</span><span class="p">);</span>  
+  <span class="kt">void</span> <span class="nf">consoles_printBoolean</span><span class="p">(</span><span class="kt">bool</span> <span class="n">Value</span><span class="p">);</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanNewLine</span><span class="p">();</span> 
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanString</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">Value</span><span class="p">);</span>  
+  <span class="kt">void</span> <span class="nf">consoles_scanInteger</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span> <span class="n">Value</span><span class="p">);</span>  
+  <span class="kt">void</span> <span class="nf">consoles_scanBoolean</span><span class="p">(</span><span class="kt">bool</span><span class="o">*</span> <span class="n">Value</span><span class="p">);</span>
+</pre></div>
+<h5><span class="mw-headline" id="Definition_body_module">Definition body module</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=22" title="Edit section: Definition body module">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="c1">// filename: "consoles.c"</span>
+
+  <span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;ctype.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;consoles.h&gt;</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_prepare</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that prepares console</span>
+  <span class="p">}</span>
+ 
+  <span class="kt">void</span> <span class="nf">consoles_unprepare</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// code that unprepares console</span>
+  <span class="p">}</span>
+
+  <span class="c1">// ...</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printNewLine</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printString</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+ <span class="n">printf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">Value</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printInteger</span><span class="p">(</span><span class="kt">int</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">Value</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_printBoolean</span><span class="p">(</span><span class="kt">bool</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Value</span><span class="p">)</span>
+ <span class="p">{</span>
+   <span class="n">printf</span><span class="p">(</span><span class="s">"true"</span><span class="p">);</span>
+ <span class="p">}</span>
+ <span class="k">else</span>
+ <span class="p">{</span>
+   <span class="n">printf</span><span class="p">(</span><span class="s">"false"</span><span class="p">);</span>
+ <span class="p">}</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanNewLine</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">getch</span><span class="p">();</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanString</span><span class="p">(</span><span class="kt">char</span><span class="o">*</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">Value</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanInteger</span><span class="p">(</span><span class="kt">int</span><span class="o">*</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="n">Value</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+  <span class="kt">void</span> <span class="nf">consoles_scanBoolean</span><span class="p">(</span><span class="kt">bool</span><span class="o">*</span> <span class="n">Value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">char</span> <span class="n">temp</span><span class="p">[</span><span class="mi">512</span><span class="p">];</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">temp</span><span class="p">);</span>
+ 
+ <span class="o">*</span><span class="n">Value</span> <span class="o">=</span> <span class="p">(</span><span class="n">strcmp</span><span class="p">(</span><span class="n">Temp</span><span class="p">,</span> <span class="s">"true"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="p">}</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation_5">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=23" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="c1">// filename: "consoledemo.c"</span>
+
+  <span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;ctype.h&gt;</span>
+  <span class="cp">#include</span> <span class="cpf">&lt;consoles.h&gt;</span>
+
+  <span class="kt">void</span> <span class="nf">consoledemo_prepare</span><span class="p">()</span>
+  <span class="p">{</span>
+    <span class="n">consoles_prepare</span><span class="p">();</span>
+  <span class="p">}</span>
+   
+  <span class="kt">void</span> <span class="nf">consoledemo_unprepare</span><span class="p">()</span>
+  <span class="p">{</span>
+    <span class="n">consoles_unprepare</span><span class="p">();</span>
+  <span class="p">}</span>
+   
+  <span class="kt">int</span> <span class="nf">consoledemo_execute</span><span class="p">()</span>
+  <span class="p">{</span>
+    <span class="n">consoles_printString</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">);</span>
+    <span class="n">consoles_printNewLine</span><span class="p">();</span>
+      <span class="n">consoles_scanNewLine</span><span class="p">();</span>
+   
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="p">}</span>
+   
+  <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+  <span class="p">{</span>
+    <span class="n">ErrorCode</span> <span class="n">Result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  
+    <span class="n">consoledemo_prepare</span><span class="p">();</span>
+    <span class="n">ErrorCode</span> <span class="o">=</span> <span class="n">consoledemo_execute</span><span class="p">();</span>
+    <span class="n">consoledemo_unprepare</span><span class="p">();</span>
+ 
+ <span class="k">return</span> <span class="n">ErrorCode</span><span class="p">;</span>
+  <span class="p">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Procedural_Pascal">Procedural Pascal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=24" title="Edit section: Procedural Pascal">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Note that this example applies to procedural non-modular Pascal. Many Pascal dialects have namespace support, called "unit (s)". Some dialects also support initialization and finalization.</p>
+<p>If namespaces are not supported, it is recommended to give all member names a prefix related to the filename or module name in order to prevent identifier collisions.</p>
+<h5><span class="mw-headline" id="Definition_5">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=25" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="k">unit</span> <span class="n">consoles</span><span class="o">;</span>
+  <span class="cm">(* filename: "consoles.pas" *)</span>
+
+  <span class="k">uses</span> <span class="n">crt</span><span class="o">;</span>
+
+  <span class="k">procedure</span> <span class="nf">prepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="cm">(* code that prepares console *)</span>
+  <span class="k">end</span><span class="o">;</span>
+ 
+  <span class="k">procedure</span> <span class="nf">unprepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="cm">(* code that unprepares console *)</span>
+  <span class="k">end</span><span class="o">;</span>
+
+  <span class="c1">// ...</span>
+  
+  <span class="k">procedure</span> <span class="nf">printNewLine</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="nb">WriteLn</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">printString</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="k">string</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">begin</span>
+ <span class="nb">Write</span><span class="p">(</span><span class="n">Value</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">printInteger</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="kt">integer</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">begin</span>
+ <span class="nb">Write</span><span class="p">(</span><span class="n">Value</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">printBoolean</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="kt">boolean</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Value</span><span class="p">)</span> <span class="k">then</span>
+ <span class="k">begin</span>
+     <span class="nb">Write</span><span class="p">(</span><span class="s">'true'</span><span class="p">)</span><span class="o">;</span>
+ <span class="k">end</span> <span class="k">else</span>
+ <span class="k">begin</span>
+     <span class="nb">Write</span><span class="p">(</span><span class="s">'false'</span><span class="p">)</span><span class="o">;</span>
+ <span class="k">end</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">scanNewLine</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="nb">SeekEoLn</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">scanString</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="k">string</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="nb">ReadLn</span><span class="p">(</span><span class="n">Value</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">scanInteger</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="kt">Integer</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="nb">ReadLn</span><span class="p">(</span><span class="n">Value</span><span class="p">)</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+  
+  <span class="k">procedure</span> <span class="nf">scanBoolean</span><span class="p">(</span><span class="n">Value</span><span class="o">:</span> <span class="kt">Boolean</span><span class="p">)</span><span class="o">;</span>
+    <span class="k">var</span> <span class="n">temp</span><span class="o">:</span> <span class="k">string</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="nb">ReadLn</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span><span class="o">;</span>
+ 
+    <span class="k">if</span> <span class="p">(</span><span class="n">Temp</span> <span class="o">=</span> <span class="s">'true'</span><span class="p">)</span> <span class="k">then</span>
+    <span class="k">begin</span>
+      <span class="n">Value</span> <span class="o">:=</span> <span class="k">true</span><span class="o">;</span>
+    <span class="k">end</span> <span class="k">else</span>
+    <span class="k">begin</span>
+      <span class="n">Value</span> <span class="o">:=</span> <span class="k">false</span><span class="o">;</span>
+    <span class="k">end</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+</pre></div>
+<h5><span class="mw-headline" id="Implementation_6">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=26" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="k">program</span> <span class="n">consoledemo</span><span class="o">;</span>
+  <span class="c1">// filename: "consoles.pas"</span>
+
+  <span class="k">uses</span> <span class="n">consoles</span><span class="o">;</span>
+
+  <span class="k">procedure</span> <span class="nf">prepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="n">consoles</span><span class="o">.</span><span class="n">prepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+   
+  <span class="k">procedure</span> <span class="nf">unprepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="n">consoles</span><span class="o">.</span><span class="n">unprepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+
+  <span class="k">function</span> <span class="nf">execute</span><span class="p">()</span><span class="o">:</span> <span class="kt">Integer</span><span class="o">;</span>
+  <span class="k">begin</span>
+    <span class="n">consoles</span><span class="o">.</span><span class="n">printString</span><span class="p">(</span><span class="s">'Hello World'</span><span class="p">)</span><span class="o">;</span>
+    <span class="n">consoles</span><span class="o">.</span><span class="n">printNewLine</span><span class="p">()</span><span class="o">;</span>
+      <span class="n">consoles</span><span class="o">.</span><span class="n">scanNewLine</span><span class="p">()</span><span class="o">;</span>
+   
+    <span class="n">execute</span> <span class="o">:=</span> <span class="mi">0</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">;</span>
+   
+  <span class="k">begin</span>
+    <span class="n">prepare</span><span class="p">()</span><span class="o">;</span>
+    <span class="n">execute</span><span class="p">()</span><span class="o">;</span>
+    <span class="n">unprepare</span><span class="p">()</span><span class="o">;</span>
+  <span class="k">end</span><span class="o">.</span>
+</pre></div>
+<h2><span class="mw-headline" id="Comparisons_to_other_concepts">Comparisons to other concepts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=27" title="Edit section: Comparisons to other concepts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Namespaces">Namespaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=28" title="Edit section: Namespaces">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Both <i>namespaces</i> and <i>modules</i> allow to group several related entities by a single identifier, and in some situations, used interchangeably. Those entities can be globally accessed. The main purpose of both concepts is the same.</p>
+<p>In some scenarios a namespace requires that the global elements that compose it are initialized and finalized by a function or method call.</p>
+<p>In many programming languages, <i>namespaces</i> are not directly intended to support an initialization process nor a finalization process, and are therefore not equivalent to modules. That limitation can be worked around in two ways. In <i>namespaces</i> that support global functions, a function for initialization and a function for finalization are coded directly, and called directly in the main program code.</p>
+<h3><span class="mw-headline" id="Classes_and_namespaces">Classes and namespaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=29" title="Edit section: Classes and namespaces">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Classes</i> are used sometimes used as or with <i>namespaces</i>. In programming languages that don't support namespaces (e.g., JavaScript) but do support classes and objects, classes are often used to substitute for namespaces. These classes are usually not instantiated and consist exclusively of static members.</p>
+<h3><span class="mw-headline" id="Singleton_classes_and_namespaces">Singleton classes and namespaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=30" title="Edit section: Singleton classes and namespaces">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In object-oriented programming languages where namespaces are incompletely supported, the <a href="/wiki/Singleton_pattern" title="Singleton pattern">singleton pattern</a> may be used instead of static members within a non-instantiable class.</p>
+<h3><span class="mw-headline" id="Relationship_with_other_design_patterns">Relationship with other design patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=31" title="Edit section: Relationship with other design patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The module pattern can be implemented using a specialization of the singleton pattern. However, other design patterns may be applied and combined, in the same class.</p>
+<p>This pattern can be used as a <i><a href="/wiki/Decorator_pattern" title="Decorator pattern">decorator</a></i>, a <i><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">flyweight</a></i>, or an <i><a href="/wiki/Adapter_pattern" title="Adapter pattern">adapter</a></i>.</p>
+<h2><span class="mw-headline" id="Module_as_a_design_pattern">Module as a design pattern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=32" title="Edit section: Module as a design pattern">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The Module pattern can be considered a <a href="/wiki/Creational_pattern" title="Creational pattern">creational pattern</a> and a <a href="/wiki/Structural_pattern" title="Structural pattern">structural pattern</a>. It manages the creation and organization of other elements, and groups them as the structural pattern does.</p>
+<p>An object that applies this pattern can provide the equivalent of a <i>namespace</i>, providing the initialization and finalization process of a <a class="new" href="/w/index.php?title=Static_class&amp;action=edit&amp;redlink=1" title="Static class (page does not exist)">static class</a> or a class with static members with cleaner, more concise <a href="/wiki/Syntax" title="Syntax">syntax</a> and <a href="/wiki/Semantics" title="Semantics">semantics</a>.</p>
+<p>It supports specific cases where a class or object can be considered structured, procedural data. And, vice versa, migrate structured, procedural data, and considered as object-oriented.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Module_pattern&amp;action=edit&amp;section=33" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Design_pattern" title="Design pattern">Design pattern</a></li>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i> (E. Gamma et al.)</li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton pattern</a></li>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter pattern</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:35016502-0!*!0!!en!4!* and timestamp 20160922055005 and revision id 731478744
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Module_pattern&amp;oldid=731478744">https://en.wikipedia.org/w/index.php?title=Module_pattern&amp;oldid=731478744</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_in-text_citations_from_July_2014" title="Category:Articles lacking in-text citations from July 2014">Articles lacking in-text citations from July 2014</a></li><li><a href="/wiki/Category:All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li><li><a href="/wiki/Category:Articles_with_example_C_Sharp_code" title="Category:Articles with example C Sharp code">Articles with example C Sharp code</a></li><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Module+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Module+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Module_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Module_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Module_pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Module_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Module_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Module_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Module_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Module_pattern&amp;oldid=731478744" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Module_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q6889793" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Module_pattern&amp;id=731478744" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Module+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Module+pattern&amp;returnto=Module+pattern&amp;oldid=731478744&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Module_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%84%D5%B8%D5%A4%D5%B8%D6%82%D5%AC_(%D5%B6%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7)" hreflang="hy" lang="hy" title="Մոդուլ (նախագծման ձևանմուշ) – Armenian">Հայերեն</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Modul_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Modul programtervezési minta – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)" hreflang="uk" lang="uk" title="Модуль (шаблон проектування) – Ukrainian">Українська</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q6889793#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 25 July 2016, at 16:43.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Module_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.080",
+            "walltime": "0.113",
+            "ppvisitednodes": {
+                "value": 755,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 31471,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1035,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 8,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%   69.057      1 -total",
+                " 56.75%   39.191      1 Template:No_footnotes",
+                " 35.92%   24.806      1 Template:Design_Patterns_Patterns",
+                " 35.15%   24.273      1 Template:Ambox",
+                " 33.23%   22.948      2 Template:Navbox",
+                " 14.82%   10.231      1 Template:Navbox_subgroup",
+                "  4.06%    2.801      1 Template:Main_other"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.019",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1157631,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1247",
+            "timestamp": "20160922055005",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":81,"wgHostname":"mw1170"});});</script>
+</body>
+</html>
+

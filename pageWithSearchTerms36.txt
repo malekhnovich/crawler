@@ -1,0 +1,965 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Builder_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Builder pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Builder_pattern","wgTitle":"Builder pattern","wgCurRevisionId":738945868,"wgRevisionId":738945868,"wgArticleId":164849,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from June 2015","Articles with unsourced statements from July 2015","All articles lacking reliable references","Articles lacking reliable references from June 2016","Software design patterns","Articles with example Java code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Builder_pattern","wgRelevantArticleId":164849,"wgRequestId":"V-BnjQpAAEMAAHiioJoAAABJ","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q765164","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Builder_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Builder_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Builder_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Builder_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Builder_pattern rootpage-Builder_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Builder pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>The <b>builder pattern</b> is an <a href="/wiki/Creational_pattern" title="Creational pattern">object creation</a> software <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">design pattern</a>. Unlike the <a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">abstract factory pattern</a> and the <a href="/wiki/Factory_method_pattern" title="Factory method pattern">factory method pattern</a> whose intention is to enable <a href="/wiki/Polymorphism_(computer_science)" title="Polymorphism (computer science)">polymorphism</a>, the intention of the builder pattern is to find a solution to the telescoping constructor <a href="/wiki/Anti-pattern" title="Anti-pattern">anti-pattern</a><sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="Needs reliable source. The GoF book describes a different purpose for the pattern. (June 2015)">citation needed</span></a></i>]</sup>. The telescoping constructor anti-pattern occurs when the increase of object constructor parameter combination leads to an exponential list of constructors. Instead of using numerous constructors, the builder pattern uses another object, a builder, that receives each initialization parameter step by step and then returns the resulting constructed object at once.</p>
+<p>The builder pattern has another benefit. It can be used for objects that contain flat data (<a href="/wiki/HTML" title="HTML">html</a> code, <a href="/wiki/SQL" title="SQL">SQL</a> query, <a href="/wiki/X.509" title="X.509">X.509</a> certificate...), that is to say, data that can't be easily edited. This type of data cannot be edited step by step and must be edited at once.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2015)">citation needed</span></a></i>]</sup></p>
+<p>Builder often builds a <a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a>. Often, designs start out using <a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory Method</a> (less complicated, more customizable, subclasses proliferate) and evolve toward <a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract Factory</a>, <a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a>, or Builder (more flexible, more complex) as the designer discovers where more flexibility is needed. Sometimes creational patterns are complementary: Builder can use one of the other patterns to implement which components are built. Builders are good candidates for a <a href="/wiki/Fluent_interface" title="Fluent interface">fluent interface</a>.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="noprint Inline-Template noprint Template-Fact" style="white-space:nowrap;">[<i><a class="mw-redirect" href="/wiki/Wikipedia:NOTRS" title="Wikipedia:NOTRS"><span title="Citation cites this Wikipedia page (June 2016)">better source needed</span></a></i>]</sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition"><span class="tocnumber">1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Advantages.5B3.5D"><span class="tocnumber">2</span> <span class="toctext">Advantages<sup>[3]</sup></span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Disadvantages.5B3.5D"><span class="tocnumber">3</span> <span class="toctext">Disadvantages<sup>[3]</sup></span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Structure"><span class="tocnumber">4</span> <span class="toctext">Structure</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Pseudocode"><span class="tocnumber">5</span> <span class="toctext">Pseudocode</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Examples"><span class="tocnumber">6</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#C.23"><span class="tocnumber">6.1</span> <span class="toctext">C#</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#C.2B.2B"><span class="tocnumber">6.2</span> <span class="toctext">C++</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Java"><span class="tocnumber">6.3</span> <span class="toctext">Java</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#PHP"><span class="tocnumber">6.4</span> <span class="toctext">PHP</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Definition">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=1" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The intent of the Builder design pattern is to separate the construction of a complex object from its representation. By doing so the same construction process can create different representations. <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<h2><span class="mw-headline" id="Advantages.5B3.5D">Advantages<sup class="reference" id="cite_ref-:0_3-0"><a href="#cite_note-:0-3">[3]</a></sup></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=2" title="Edit section: Advantages[3]">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Allows you to vary a product’s internal representation.</li>
+<li>Encapsulates code for construction and representation.</li>
+<li>Provides control over steps of construction process.</li>
+</ul>
+<h2><span class="mw-headline" id="Disadvantages.5B3.5D">Disadvantages<sup class="reference" id="cite_ref-:0_3-1"><a href="#cite_note-:0-3">[3]</a></sup></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=3" title="Edit section: Disadvantages[3]">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Requires creating a separate ConcreteBuilder for each different type of Product.</li>
+</ul>
+<h2><span class="mw-headline" id="Structure">Structure</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=4" title="Edit section: Structure">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="center">
+<div class="floatnone"><a class="image" href="/wiki/File:Builder_UML_class_diagram.svg" title="Builder Structure"><img alt="Builder Structure" data-file-height="480" data-file-width="1400" height="171" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Builder_UML_class_diagram.svg/500px-Builder_UML_class_diagram.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Builder_UML_class_diagram.svg/750px-Builder_UML_class_diagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Builder_UML_class_diagram.svg/1000px-Builder_UML_class_diagram.svg.png 2x" width="500"/></a></div>
+</div>
+<dl>
+<dt>Builder</dt>
+<dd>Abstract interface for creating objects (product).</dd>
+</dl>
+<dl>
+<dt>ConcreteBuilder</dt>
+<dd>Provides implementation for Builder. It is an <a class="mw-redirect" href="/wiki/Factory_(software_concept)" title="Factory (software concept)">object able to construct other objects</a>. Constructs and assembles parts to build the objects.</dd>
+</dl>
+<h2><span class="mw-headline" id="Pseudocode">Pseudocode</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=5" title="Edit section: Pseudocode">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>We have a <code>Car</code> class. The problem is that a car has many options. The combination of each option would lead to a huge list of constructors for this class. So we will create a builder class, <code>CarBuilder</code>. We will send to the <code>CarBuilder</code> each car option step by step and then construct the final car with the right options:</p>
+<pre>
+<b>class</b> Car <b>is</b>
+  Can have GPS, trip computer and various numbers of seats.
+  Can be a city car, a sports car, or a cabriolet.
+
+<b>class</b> CarBuilder <b>is</b>
+  <b>method</b> getResult() <b>is</b>
+      <b>output: </b> a <i>Car</i> with the right options
+    Construct and return the car.
+
+  <b>method</b> setSeats(number) <b>is</b>
+      <b>input: </b> the <i>number</i> of seats the car may have.
+    Tell the builder the number of seats.
+
+  <b>method</b> setCityCar() <b>is</b>
+    Make the builder remember that the car is a city car.
+
+  <b>method</b> setCabriolet() <b>is</b>
+    Make the builder remember that the car is a cabriolet.
+
+  <b>method</b> setSportsCar() <b>is</b>
+    Make the builder remember that the car is a sports car.
+
+  <b>method</b> setTripComputer() <b>is</b>
+    Make the builder remember that the car has a trip computer.
+
+  <b>method</b> unsetTripComputer() <b>is</b>
+    Make the builder remember that the car does not have a trip computer.
+
+  <b>method</b> setGPS() <b>is</b>
+    Make the builder remember that the car has a global positioning system.
+
+  <b>method</b> unsetGPS() <b>is</b>
+    Make the builder remember that the car does not have a global positioning system.
+
+<b>Construct</b> a CarBuilder called <i>carBuilder</i>
+carBuilder.setSeats(2)
+carBuilder.setSportsCar()
+carBuilder.setTripComputer()
+carBuilder.unsetGPS()
+car := carBuilder.getResult()
+</pre>
+<p>Of course one could dispense with Builder and just do this:</p>
+<pre>
+car = new Car();
+car.seats = 2;
+car.type = CarType.SportsCar;
+car.setTripComputer();
+car.unsetGPS();
+car.isValid();
+</pre>
+<p>So this indicates that the Builder pattern is more than just a means to limit constructor proliferation. It removes what could be a complex building process from being the responsibility of the user of the object that is built. It also allows for inserting new implementations of how an object is built without disturbing the client code.</p>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=6" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="C.23">C#</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=7" title="Edit section: C#">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">//Represents a product created by the builder</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">Car</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="nf">Car</span><span class="p">()</span>
+    <span class="p">{</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="kt">int</span> <span class="n">Wheels</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">Colour</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//The builder abstraction</span>
+<span class="k">public</span> <span class="k">interface</span> <span class="n">ICarBuilder</span>
+<span class="p">{</span>
+    <span class="c1">// Adding NotNull attribute to prevent null input argument</span>
+    <span class="k">void</span> <span class="nf">SetColour</span><span class="p">([</span><span class="n">NotNull</span><span class="p">]</span><span class="kt">string</span> <span class="n">colour</span><span class="p">);</span>
+
+    <span class="c1">// Adding NotNull attribute to prevent null input argument</span>
+    <span class="k">void</span> <span class="nf">SetWheels</span><span class="p">([</span><span class="n">NotNull</span><span class="p">]</span><span class="kt">int</span> <span class="n">count</span><span class="p">);</span>
+
+    <span class="n">Car</span> <span class="nf">GetResult</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="c1">//Concrete builder implementation</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">CarBuilder</span> <span class="p">:</span> <span class="n">ICarBuilder</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="n">Car</span> <span class="n">_car</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="nf">CarBuilder</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="n">_car</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Car</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">SetColour</span><span class="p">(</span><span class="kt">string</span> <span class="n">colour</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="n">_car</span><span class="p">.</span><span class="n">Colour</span> <span class="p">=</span> <span class="n">colour</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">SetWheels</span><span class="p">(</span><span class="kt">int</span> <span class="n">count</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="n">_car</span><span class="p">.</span><span class="n">Wheels</span> <span class="p">=</span> <span class="n">count</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="n">Car</span> <span class="nf">GetResult</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="n">_car</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//The director</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">CarBuildDirector</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="n">Car</span> <span class="nf">Construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">CarBuilder</span> <span class="n">builder</span> <span class="p">=</span> <span class="k">new</span> <span class="n">CarBuilder</span><span class="p">();</span>
+
+        <span class="n">builder</span><span class="p">.</span><span class="n">SetColour</span><span class="p">(</span><span class="s">"Red"</span><span class="p">);</span>
+        <span class="n">builder</span><span class="p">.</span><span class="n">SetWheels</span><span class="p">(</span><span class="m">4</span><span class="p">);</span>
+
+        <span class="k">return</span> <span class="n">builder</span><span class="p">.</span><span class="n">GetResult</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>The Director assembles a car instance in the example above, delegating the construction to a separate builder object.</p>
+<h3><span class="mw-headline" id="C.2B.2B">C++</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=8" title="Edit section: C++">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">////// Product declarations and inline impl. (possibly Product.h) //////</span>
+<span class="k">class</span> <span class="nc">Product</span><span class="p">{</span>
+	<span class="k">public</span><span class="o">:</span>
+		<span class="c1">// use this class to construct Product</span>
+		<span class="k">class</span> <span class="nc">Builder</span><span class="p">;</span>
+
+	<span class="k">private</span><span class="o">:</span>
+		<span class="c1">// variables in need of initialization to make valid object</span>
+		<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+		<span class="kt">float</span> <span class="n">f</span><span class="p">;</span>
+		<span class="kt">char</span> <span class="n">c</span><span class="p">;</span>
+
+		<span class="c1">// Only one simple constructor - rest is handled by Builder</span>
+		<span class="n">Product</span><span class="p">(</span> <span class="k">const</span> <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="k">const</span> <span class="kt">float</span> <span class="n">f</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span> <span class="n">c</span> <span class="p">)</span> <span class="o">:</span> <span class="n">i</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">f</span><span class="p">(</span><span class="n">f</span><span class="p">),</span> <span class="n">c</span><span class="p">(</span><span class="n">c</span><span class="p">){}</span>
+
+	<span class="k">public</span><span class="o">:</span>
+		<span class="c1">// Product specific functionality</span>
+		<span class="kt">void</span> <span class="n">print</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="nf">doSomething</span><span class="p">();</span>
+		<span class="kt">void</span> <span class="nf">doSomethingElse</span><span class="p">();</span>
+<span class="p">};</span>
+
+
+<span class="k">class</span> <span class="nc">Product</span><span class="o">::</span><span class="n">Builder</span><span class="p">{</span>
+	<span class="k">private</span><span class="o">:</span>
+		<span class="c1">// variables needed for construction of object of Product class</span>
+		<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+		<span class="kt">float</span> <span class="n">f</span><span class="p">;</span>
+		<span class="kt">char</span> <span class="n">c</span><span class="p">;</span>
+
+	<span class="k">public</span><span class="o">:</span>
+		<span class="c1">// default values for variables</span>
+		<span class="k">static</span> <span class="k">const</span> <span class="kt">int</span> <span class="n">defaultI</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+		<span class="k">static</span> <span class="k">const</span> <span class="kt">float</span> <span class="n">defaultF</span> <span class="o">=</span> <span class="mf">3.1415f</span><span class="p">;</span>
+		<span class="k">static</span> <span class="k">const</span> <span class="kt">char</span> <span class="n">defaultC</span> <span class="o">=</span> <span class="sc">'a'</span><span class="p">;</span>
+
+		<span class="c1">// create Builder with default values assigned</span>
+		<span class="c1">// (in C++11 they can be simply assigned above on declaration instead)</span>
+		<span class="n">Builder</span><span class="p">()</span> <span class="o">:</span> <span class="n">i</span><span class="p">(</span> <span class="n">defaultI</span> <span class="p">),</span> <span class="n">f</span><span class="p">(</span> <span class="n">defaultF</span> <span class="p">),</span> <span class="n">c</span><span class="p">(</span> <span class="n">defaultC</span> <span class="p">){}</span>
+
+		<span class="c1">// sets custom values for Product creation</span>
+		<span class="c1">// returns Builder for shorthand inline usage (same way as cout &lt;&lt;)</span>
+		<span class="n">Builder</span><span class="o">&amp;</span> <span class="n">setI</span><span class="p">(</span> <span class="k">const</span> <span class="kt">int</span> <span class="n">i</span> <span class="p">){</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span> <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span> <span class="p">}</span>
+		<span class="n">Builder</span><span class="o">&amp;</span> <span class="n">setF</span><span class="p">(</span> <span class="k">const</span> <span class="kt">float</span> <span class="n">f</span> <span class="p">){</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="p">;</span> <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span> <span class="p">}</span>
+		<span class="n">Builder</span><span class="o">&amp;</span> <span class="n">setC</span><span class="p">(</span> <span class="k">const</span> <span class="kt">char</span> <span class="n">c</span> <span class="p">){</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="p">;</span> <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span> <span class="p">}</span>
+
+		<span class="c1">// prepare specific frequently desired Product</span>
+		<span class="c1">// returns Builder for shorthand inline usage (same way as cout &lt;&lt;)</span>
+		<span class="n">Builder</span><span class="o">&amp;</span> <span class="n">setProductP</span><span class="p">(){</span>
+			<span class="k">this</span><span class="o">-&gt;</span><span class="n">i</span> <span class="o">=</span> <span class="mi">42</span><span class="p">;</span>
+			<span class="k">this</span><span class="o">-&gt;</span><span class="n">f</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.0f</span><span class="o">/</span><span class="mf">12.0f</span><span class="p">;</span>
+			<span class="k">this</span><span class="o">-&gt;</span><span class="n">c</span> <span class="o">=</span> <span class="sc">'@'</span><span class="p">;</span>
+
+			<span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+		<span class="p">}</span>
+
+		<span class="c1">// produce desired Product</span>
+		<span class="n">Product</span> <span class="n">build</span><span class="p">(){</span>
+			<span class="c1">// here optionaly check variable consistency</span>
+			<span class="c1">// and also if Product is buildable from given information</span>
+
+			<span class="k">return</span> <span class="n">Product</span><span class="p">(</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">i</span><span class="p">,</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">f</span><span class="p">,</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">c</span> <span class="p">);</span>
+		<span class="p">}</span>
+<span class="p">};</span>
+</pre></div>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">///// Product implementation (possibly Product.cpp) /////</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span>
+
+<span class="kt">void</span> <span class="n">Product</span><span class="o">::</span><span class="n">print</span><span class="p">(){</span>
+	<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Product internals dump:"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"i: "</span> <span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">i</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"f: "</span> <span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">f</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"c: "</span> <span class="o">&lt;&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">c</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">Product</span><span class="o">::</span><span class="n">doSomething</span><span class="p">(){}</span>
+<span class="kt">void</span> <span class="n">Product</span><span class="o">::</span><span class="n">doSomethingElse</span><span class="p">(){}</span>
+</pre></div>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">//////////////////// Usage of Builder (replaces Director from diagram)</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+	<span class="c1">// simple usage</span>
+	<span class="n">Product</span> <span class="n">p1</span> <span class="o">=</span> <span class="n">Product</span><span class="o">::</span><span class="n">Builder</span><span class="p">().</span><span class="n">setI</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">setF</span><span class="p">(</span><span class="mf">0.5f</span><span class="p">).</span><span class="n">setC</span><span class="p">(</span><span class="sc">'x'</span><span class="p">).</span><span class="n">build</span><span class="p">();</span>
+	<span class="n">p1</span><span class="p">.</span><span class="n">print</span><span class="p">();</span> <span class="c1">// test p1</span>
+
+	<span class="c1">// advanced usage</span>
+	<span class="n">Product</span><span class="o">::</span><span class="n">Builder</span> <span class="n">b</span><span class="p">;</span>
+	<span class="n">b</span><span class="p">.</span><span class="n">setProductP</span><span class="p">();</span>
+	<span class="n">Product</span> <span class="n">p2</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="n">build</span><span class="p">();</span> <span class="c1">// get Product P object</span>
+	<span class="n">b</span><span class="p">.</span><span class="n">setC</span><span class="p">(</span><span class="sc">'!'</span><span class="p">);</span> <span class="c1">// customize Product P</span>
+	<span class="n">Product</span> <span class="n">p3</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="n">build</span><span class="p">();</span>
+	<span class="n">p2</span><span class="p">.</span><span class="n">print</span><span class="p">();</span> <span class="c1">// test p2</span>
+	<span class="n">p3</span><span class="p">.</span><span class="n">print</span><span class="p">();</span> <span class="c1">// test p3</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=9" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="cm">/**</span>
+<span class="cm"> * Represents the product created by the builder.</span>
+<span class="cm"> */</span>
+<span class="kd">class</span> <span class="nc">Car</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="kt">int</span> <span class="n">wheels</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">color</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">Car</span><span class="o">()</span> <span class="o">{</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="s">"Car [wheels="</span> <span class="o">+</span> <span class="n">wheels</span> <span class="o">+</span> <span class="s">", color="</span> <span class="o">+</span> <span class="n">color</span> <span class="o">+</span> <span class="s">"]"</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getWheels</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">wheels</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setWheels</span><span class="o">(</span><span class="kt">int</span> <span class="n">wheels</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">wheels</span> <span class="o">=</span> <span class="n">wheels</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">getColor</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">color</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setColor</span><span class="o">(</span><span class="n">String</span> <span class="n">color</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">color</span> <span class="o">=</span> <span class="n">color</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="cm">/**</span>
+<span class="cm"> * The builder abstraction.</span>
+<span class="cm"> */</span>
+<span class="kd">interface</span> <span class="nc">CarBuilder</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">setWheels</span><span class="o">(</span><span class="kt">int</span> <span class="n">wheels</span><span class="o">);</span>
+    
+    <span class="kt">void</span> <span class="nf">setColor</span><span class="o">(</span><span class="n">String</span> <span class="n">color</span><span class="o">);</span>
+
+    <span class="n">Car</span> <span class="nf">getResult</span><span class="o">();</span>
+<span class="o">}</span>
+
+<span class="kd">class</span> <span class="nc">CarBuilderImpl</span> <span class="kd">implements</span> <span class="n">CarBuilder</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">Car</span> <span class="n">car</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">CarBuilderImpl</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">();</span>
+    <span class="o">}</span>
+    
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setWheels</span><span class="o">(</span><span class="kt">int</span> <span class="n">wheels</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">setWheels</span><span class="o">(</span><span class="n">wheels</span><span class="o">);</span>
+    <span class="o">}</span>
+    
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setColor</span><span class="o">(</span><span class="n">String</span> <span class="n">color</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">setColor</span><span class="o">(</span><span class="n">color</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="n">Car</span> <span class="nf">getResult</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">car</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">CarBuildDirector</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="n">CarBuilder</span> <span class="n">builder</span><span class="o">;</span>
+
+    <span class="kd">public</span> <span class="nf">CarBuildDirector</span><span class="o">(</span><span class="n">CarBuilder</span> <span class="n">builder</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">builder</span> <span class="o">=</span> <span class="n">builder</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="n">Car</span> <span class="nf">construct</span><span class="o">()</span> <span class="o">{</span>
+        <span class="n">builder</span><span class="o">.</span><span class="na">setWheels</span><span class="o">(</span><span class="mi">4</span><span class="o">);</span>
+        <span class="n">builder</span><span class="o">.</span><span class="na">setColor</span><span class="o">(</span><span class="s">"Red"</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">builder</span><span class="o">.</span><span class="na">getResult</span><span class="o">();</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">CarBuilder</span> <span class="n">builder</span> <span class="o">=</span> <span class="k">new</span> <span class="n">CarBuilderImpl</span><span class="o">();</span>
+        <span class="n">CarBuildDirector</span> <span class="n">carBuildDirector</span> <span class="o">=</span> <span class="k">new</span> <span class="n">CarBuildDirector</span><span class="o">(</span><span class="n">builder</span><span class="o">);</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">carBuildDirector</span><span class="o">.</span><span class="na">construct</span><span class="o">());</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="PHP">PHP</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=10" title="Edit section: PHP">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">abstract</span> <span class="k">class</span> <span class="nc">GetterSetter</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">__get</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nv">$method</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s1">'get%s'</span><span class="p">,</span> <span class="nb">ucfirst</span><span class="p">(</span><span class="nv">$name</span><span class="p">));</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">method_exists</span><span class="p">(</span><span class="nv">$this</span><span class="p">,</span> <span class="nv">$method</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="k">new</span> <span class="nx">Exception</span><span class="p">();</span>
+        <span class="p">}</span>
+
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="nv">$method</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">__set</span><span class="p">(</span><span class="nv">$name</span><span class="p">,</span> <span class="nv">$v</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nv">$method</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s1">'set%s'</span><span class="p">,</span> <span class="nb">ucfirst</span><span class="p">(</span><span class="nv">$name</span><span class="p">));</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">method_exists</span><span class="p">(</span><span class="nv">$this</span><span class="p">,</span> <span class="nv">$method</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="k">new</span> <span class="nx">Exception</span><span class="p">();</span>
+        <span class="p">}</span>
+
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="nv">$method</span><span class="p">(</span><span class="nv">$v</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//Represents a product created by the builder</span>
+<span class="k">class</span> <span class="nc">Car</span> <span class="k">extends</span> <span class="nx">GetterSetter</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="nv">$wheels</span><span class="p">;</span>
+    <span class="k">private</span> <span class="nv">$colour</span><span class="p">;</span>
+    
+    <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">setWheels</span><span class="p">(</span><span class="nv">$wheels</span><span class="p">)</span> 
+    <span class="p">{</span> 
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">wheels</span> <span class="o">=</span> <span class="nv">$wheels</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">getWheels</span><span class="p">()</span> 
+    <span class="p">{</span> 
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">wheels</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">setColour</span><span class="p">(</span><span class="nv">$colour</span><span class="p">)</span> 
+    <span class="p">{</span> 
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">colour</span> <span class="o">=</span> <span class="nv">$colour</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">getColour</span><span class="p">()</span> 
+    <span class="p">{</span> 
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">colour</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//The builder abstraction</span>
+<span class="k">interface</span> <span class="nx">ICarBuilder</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">SetColour</span><span class="p">(</span><span class="nv">$colour</span><span class="p">);</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">SetWheels</span><span class="p">(</span><span class="nv">$count</span><span class="p">);</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">GetResult</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="c1">//Concrete builder implementation</span>
+<span class="k">class</span> <span class="nc">CarBuilder</span> <span class="k">implements</span> <span class="nx">ICarBuilder</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="nv">$_car</span><span class="p">;</span>
+
+    <span class="k">function</span> <span class="nf">__construct</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">_car</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Car</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">SetColour</span><span class="p">(</span><span class="nv">$colour</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">_car</span><span class="o">-&gt;</span><span class="na">Colour</span> <span class="o">=</span> <span class="nv">$colour</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">SetWheels</span><span class="p">(</span><span class="nv">$count</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">_car</span><span class="o">-&gt;</span><span class="na">Wheels</span> <span class="o">=</span> <span class="nv">$count</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">GetResult</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">_car</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//The director</span>
+<span class="k">class</span> <span class="nc">CarBuildDirector</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="nv">$builder</span><span class="p">;</span>
+    
+    <span class="k">function</span> <span class="nf">__construct</span><span class="p">(</span><span class="nv">$color</span> <span class="o">=</span> <span class="s2">"White"</span><span class="p">,</span> <span class="nv">$wheels</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">builder</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CarBuilder</span><span class="p">();</span>
+
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">builder</span><span class="o">-&gt;</span><span class="na">SetColour</span><span class="p">(</span><span class="nv">$color</span><span class="p">);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">builder</span><span class="o">-&gt;</span><span class="na">SetWheels</span><span class="p">(</span><span class="nv">$wheels</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">GetResult</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">builder</span><span class="o">-&gt;</span><span class="na">GetResult</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Currying" title="Currying">Currying</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=12" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web">Nahavandipoor, Vandad. <a class="external text" href="https://github.com/vandadnp/swift-weekly/blob/master/issue05/README.md" rel="nofollow">"Swift Weekly - Issue 05 - The Builder Pattern and Fluent Interface"</a>. <i>Github.com</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABuilder+pattern&amp;rft.atitle=Swift+Weekly+-+Issue+05+-+The+Builder+Pattern+and+Fluent+Interface&amp;rft.aufirst=Vandad&amp;rft.aulast=Nahavandipoor&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Fvandadnp%2Fswift-weekly%2Fblob%2Fmaster%2Fissue05%2FREADME.md&amp;rft.jtitle=Github.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a class="mw-redirect" href="/wiki/Design_Patterns_(book)" title="Design Patterns (book)">Gang Of Four</a></span></li>
+<li id="cite_note-:0-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.classes.cs.uchicago.edu/archive/2010/winter/51023-1/presentations/ricetj_builder.pdf" rel="nofollow">"Index of /archive/2010/winter/51023-1/presentations"</a> <span style="font-size:85%;">(PDF)</span>. <i>www.classes.cs.uchicago.edu</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-03-03</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABuilder+pattern&amp;rft.atitle=Index+of+%2Farchive%2F2010%2Fwinter%2F51023-1%2Fpresentations&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.classes.cs.uchicago.edu%2Farchive%2F2010%2Fwinter%2F51023-1%2Fpresentations%2Fricetj_builder.pdf&amp;rft.jtitle=www.classes.cs.uchicago.edu&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+</ol>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Builder_pattern&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wikibooks-logo-en-noslogan.svg"><img alt="" class="noviewer" data-file-height="400" data-file-width="400" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" width="40"/></a></td>
+<td class="mbox-text plainlist">The Wikibook <i><a class="extiw" href="//en.wikibooks.org/wiki/Computer_Science_Design_Patterns" title="wikibooks:Computer Science Design Patterns">Computer Science Design Patterns</a></i> has a page on the topic of: <i><b><a class="extiw" href="//en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Builder" title="wikibooks:Computer Science Design Patterns/Builder">Builder implementations in various languages</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li>The JavaWorld article <a class="external text" href="http://www.javaworld.com/javaworld/jw-01-2004/jw-0102-toolbox.html" rel="nofollow">Build user interfaces without getters and setters</a> (<a href="/wiki/Allen_Holub" title="Allen Holub">Allen Holub</a>) shows the complete Java source code for a Builder.</li>
+<li><a class="external text" href="http://www.ddj.com/java/208403883?pgno=2" rel="nofollow">Item 2: Consider a builder</a> by Joshua Bloch</li>
+<li><a class="external text" href="http://www.patterns.pl/builder.html" rel="nofollow">Builder C++ implementation example</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><strong class="selflink">Builder</strong></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:164849-0!*!0!!en!4!* and timestamp 20161001063620 and revision id 738945868
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Builder_pattern&amp;oldid=738945868">https://en.wikipedia.org/w/index.php?title=Builder_pattern&amp;oldid=738945868</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_June_2015" title="Category:Articles with unsourced statements from June 2015">Articles with unsourced statements from June 2015</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2015" title="Category:Articles with unsourced statements from July 2015">Articles with unsourced statements from July 2015</a></li><li><a href="/wiki/Category:All_articles_lacking_reliable_references" title="Category:All articles lacking reliable references">All articles lacking reliable references</a></li><li><a href="/wiki/Category:Articles_lacking_reliable_references_from_June_2016" title="Category:Articles lacking reliable references from June 2016">Articles lacking reliable references from June 2016</a></li><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Builder+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Builder+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Builder_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Builder_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Builder_pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Builder_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Builder_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Builder_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Builder_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Builder_pattern&amp;oldid=738945868" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Builder_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q765164" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Builder_pattern&amp;id=738945868" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Builder+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Builder+pattern&amp;returnto=Builder+pattern&amp;oldid=738945868&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Builder_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Builder" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Builder" hreflang="en">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD)" hreflang="bg" lang="bg" title="Строител (шаблон) – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Builder" hreflang="ca" lang="ca" title="Builder – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Builder" hreflang="cs" lang="cs" title="Builder – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Erbauer_(Entwurfsmuster)" hreflang="de" lang="de" title="Erbauer (Entwurfsmuster) – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Builder_(patr%C3%B3n_de_dise%C3%B1o)" hreflang="es" lang="es" title="Builder (patrón de diseño) – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%B3%D8%A7%D8%B2%D9%86%D8%AF%D9%87" hreflang="fa" lang="fa" title="الگوی سازنده – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception)" hreflang="fr" lang="fr" title="Monteur (patron de conception) – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%B9%8C%EB%8D%94_%ED%8C%A8%ED%84%B4" hreflang="ko" lang="ko" title="빌더 패턴 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BF%D5%A1%D5%BC%D5%B8%D6%82%D6%81%D5%B8%D5%B2_(%D5%B6%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7)" hreflang="hy" lang="hy" title="Կառուցող (նախագծման ձևանմուշ) – Armenian">Հայերեն</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Builder" hreflang="it" lang="it" title="Builder – Italian">Italiano</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/%C3%89p%C3%ADt%C5%91_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Építő programtervezési minta – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Builder_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3" hreflang="ja" lang="ja" title="Builder パターン – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Budowniczy_(wzorzec_projektowy)" hreflang="pl" lang="pl" title="Budowniczy (wzorzec projektowy) – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Builder" hreflang="pt" lang="pt" title="Builder – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)" hreflang="ru" lang="ru" title="Строитель (шаблон проектирования) – Russian">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Byggare_(designm%C3%B6nster)" hreflang="sv" lang="sv" title="Byggare (designmönster) – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D1%96%D0%B2%D0%BD%D0%B8%D0%BA_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)" hreflang="uk" lang="uk" title="Будівник (шаблон проектування) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%94%9F%E6%88%90%E5%99%A8%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="生成器模式 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q765164#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 11 September 2016, at 22:47.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Builder_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.207",
+            "walltime": "0.259",
+            "ppvisitednodes": {
+                "value": 1161,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 39326,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 3206,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 3,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  200.657      1 -total",
+                " 39.97%   80.205      2 Template:Citation_needed",
+                " 35.89%   72.024      3 Template:Fix",
+                " 22.39%   44.926      2 Template:Cite_web",
+                " 18.31%   36.742      2 Template:Navbox",
+                " 17.71%   35.532      3 Template:Delink",
+                " 17.66%   35.440      1 Template:Design_Patterns_Patterns",
+                " 15.74%   31.584      5 Template:Category_handler",
+                "  7.87%   15.785      1 Template:Navbox_subgroup",
+                "  7.14%   14.329      1 Template:Better_source"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.087",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2407344,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1172",
+            "timestamp": "20161001063620",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":145,"wgHostname":"mw1272"});});</script>
+</body>
+</html>
+

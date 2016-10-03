@@ -1,0 +1,1195 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Software_Design_Description
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Software design description - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Software_design_description","wgTitle":"Software design description","wgCurRevisionId":705097630,"wgRevisionId":705097630,"wgArticleId":3771347,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from September 2014","All articles needing additional references","Software design","Software documentation","IEEE standards"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Software_design_description","wgRelevantArticleId":3771347,"wgRequestId":"V-EVMApAADgAACT4uEYAAABY","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Software_Design_Description","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Software_design_description","wgWikibaseItemId":"Q2297624","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Software_design_description" rel="alternate"/>
+<link href="/w/index.php?title=Software_design_description&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Software_design_description&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Software_design_description" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Software_design_description rootpage-Software_design_description skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Software design description</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Software_Design_Description&amp;redirect=no" title="Software Design Description">Software Design Description</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Software_design_description&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(September 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="vertical-navbox nowraplinks" style="float:right;clear:right;width:auto;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em;background:#ccf"><a class="mw-redirect" href="/wiki/IEEE" title="IEEE">IEEE</a> software life cycle</th>
+</tr>
+<tr>
+<td class="plainlist" style="padding:0 0.1em 0.4em;text-align:left">
+<ul>
+<li>SQA – <a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a> <a href="/wiki/Software_quality_assurance" title="Software quality assurance">IEEE 730</a></li>
+<li>SCM – <a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a> <a href="/wiki/Software_configuration_management" title="Software configuration management">IEEE 828</a></li>
+<li>STD – <a href="/wiki/Software_test_documentation" title="Software test documentation">Software test documentation</a> <a href="/wiki/Software_test_documentation" title="Software test documentation">IEEE 829</a></li>
+<li>SRS – <a href="/wiki/Software_requirements_specification" title="Software requirements specification">Software requirements specification</a> <a href="/wiki/Software_requirements_specification" title="Software requirements specification">IEEE 830</a></li>
+<li>V&amp;V – <a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a> <a href="/wiki/Software_verification_and_validation" title="Software verification and validation">IEEE 1012</a></li>
+<li>SDD – <strong class="selflink">Software design description</strong> <strong class="selflink">IEEE 1016</strong></li>
+<li>SPM – <a href="/wiki/Software_project_management" title="Software project management">Software project management</a> <a href="/wiki/Software_project_management" title="Software project management">IEEE 1058</a></li>
+<li>SUD – <a class="mw-redirect" href="/wiki/Software_user_documentation" title="Software user documentation">Software user documentation</a> <a class="mw-redirect" href="/wiki/IEEE_1063" title="IEEE 1063">IEEE 1063</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:IEEE_software_documents" title="Template:IEEE software documents"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:IEEE_software_documents" title="Template talk:IEEE software documents"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:IEEE_software_documents&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>A <b>software design description</b> (aka <b>software design document</b> or <b>SDD</b>) is a written description of a <a href="/wiki/Software" title="Software">software</a> product, that a software designer writes in order to give a <a href="/wiki/Software_development" title="Software development">software development</a> team overall guidance to the architecture of the software project. An SDD usually accompanies an architecture diagram with pointers to detailed feature specifications of smaller pieces of the design. Practically, the description is required to coordinate a large team under a single vision, needs to be a stable reference, and outline all parts of the software and how they will work.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Composition"><span class="tocnumber">1</span> <span class="toctext">Composition</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#IEEE_1016"><span class="tocnumber">2</span> <span class="toctext">IEEE 1016</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Composition">Composition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_design_description&amp;action=edit&amp;section=1" title="Edit section: Composition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The SDD usually contains the following information:</p>
+<ol>
+<li>The <i><a class="mw-redirect" href="/wiki/Data-driven_design" title="Data-driven design">data design</a></i> describes structures that reside within the software. Attributes and relationships between <a class="mw-redirect" href="/wiki/Data_object" title="Data object">data objects</a> dictate the choice of <a class="mw-redirect" href="/wiki/Data_structures" title="Data structures">data structures</a>.</li>
+<li>The <i><a href="/wiki/Software_architecture" title="Software architecture">architecture design</a></i> uses information flowing characteristics, and maps them into the program structure. The transformation mapping method is applied to exhibit distinct boundaries between incoming and outgoing data. The data flow diagrams allocate control input, processing and output along three separate modules.</li>
+<li>The <i><a class="mw-redirect" href="/wiki/Interface_design" title="Interface design">interface design</a></i> describes internal and external program interfaces, as well as the design of human interface. Internal and external interface designs are based on the information obtained from the analysis model.</li>
+<li>The <i><a href="/wiki/Procedural_design" title="Procedural design">procedural design</a></i> describes structured programming concepts using graphical, tabular and textual notations. These design mediums enable the designer to represent procedural detail, that facilitates translation to code. This blueprint for implementation forms the basis for all subsequent software engineering work.</li>
+</ol>
+<h2><span class="mw-headline" id="IEEE_1016">IEEE 1016</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_design_description&amp;action=edit&amp;section=2" title="Edit section: IEEE 1016">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><b>IEEE 1016-2009</b>, titled <i>IEEE Standard for Information Technology—Systems Design—Software Design Descriptions</i>,<sup class="reference" id="cite_ref-IEEE1016_1-0"><a href="#cite_note-IEEE1016-1">[1]</a></sup> is an <a class="mw-redirect" href="/wiki/IEEE" title="IEEE">IEEE</a> standard that specifies "the required information content and organization" for an SDD.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> IEEE 1016 does not specify the medium of an SDD; it is "applicable to automated databases and design description languages but can be used for paper documents and other means of descriptions."<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p>The 2009 edition was a major revision to IEEE 1016-1998, elevating it from recommended practice to full standard. This revision was modeled after <a href="/wiki/IEEE_1471" title="IEEE 1471">IEEE Std 1471-2000</a>, <i>Recommended Practice for Architectural Description of Software-intensive Systems</i>, extending the concepts of <a href="/wiki/IEEE_1471#IEEE_Conceptual_Framework_for_Architecture_Description" title="IEEE 1471">view, viewpoint, stakeholder, and concern</a> from architecture description to support documentation of high-level and detailed design and construction of software. [IEEE 1016, <i>Introduction</i>]</p>
+<p>Following the IEEE 1016 conceptual model, an SDD is organized into one or more design views. Each design view follows the conventions of its design viewpoint. IEEE 1016 defines the following design viewpoints for use:<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></p>
+<ul>
+<li>Context viewpoint</li>
+<li>Composition viewpoint</li>
+<li>Logical viewpoint</li>
+<li>Dependency viewpoint</li>
+<li>Information viewpoint</li>
+<li>Patterns use viewpoint</li>
+<li>Interface viewpoint</li>
+<li>Structure viewpoint</li>
+<li>Interaction viewpoint</li>
+<li>State dynamics viewpoint</li>
+<li>Algorithm viewpoint</li>
+<li>Resource viewpoint</li>
+</ul>
+<p>In addition, users of the standard are not limited to these viewpoints but may define their own.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_design_description&amp;action=edit&amp;section=3" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Game_design_document" title="Game design document">Game design document</a></li>
+<li><a href="/wiki/High-level_design" title="High-level design">High-level design</a></li>
+<li><a href="/wiki/Low-level_design" title="Low-level design">Low-level design</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_design_description&amp;action=edit&amp;section=4" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-IEEE1016-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-IEEE1016_1-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5167255&amp;isnumber=5167254" rel="nofollow">"IEEE Standard for Information Technology — Systems Design — Software Design Descriptions"</a>. IEEE. 2009-07-20<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-07-06</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+design+description&amp;rft.btitle=IEEE+Standard+for+Information+Technology+%94+Systems+Design+%94+Software+Design+Descriptions&amp;rft.date=2009-07-20&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D5167255%26isnumber%3D5167254&amp;rft.pub=IEEE&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">IEEE 1016, <i>Abstract</i>.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">IEEE 1016, <i>Abstract</i>.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">IEEE 1016, Clause 5.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">IEEE 1016, sub-clause 4.5.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_design_description&amp;action=edit&amp;section=5" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.iso-architecture.org/ieee-p1016/" rel="nofollow">IEEE 1016 website</a></li>
+</ul>
+<div aria-labelledby="Design" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design" title="Template:Design"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design" title="Template talk:Design"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Design" style="font-size:114%"><a href="/wiki/Design" title="Design">Design</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2" style="background:lemonchiffon;">
+<div>
+<ul>
+<li><a href="/wiki/Outline_of_design" title="Outline of design">Outline</a></li>
+<li><a href="/wiki/Portal:Design" title="Portal:Design">Portal</a></li>
+<li><a href="/wiki/Designer" title="Designer">Designer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Disciplines" style="font-size:114%">Disciplines</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Communication_design" title="Communication design">Communication<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Advertising" title="Advertising">Advertising</a></li>
+<li><a href="/wiki/Book_design" title="Book design">Book design</a></li>
+<li><a href="/wiki/Corporate_design" title="Corporate design">Corporate design</a></li>
+<li><a href="/wiki/Exhibit_design" title="Exhibit design">Exhibit design</a></li>
+<li><a href="/wiki/Film_title_design" title="Film title design">Film title design</a></li>
+<li><a href="/wiki/Graphic_design" title="Graphic design">Graphic design</a>
+<ul>
+<li><a href="/wiki/Environmental_graphic_design" title="Environmental graphic design">Environmental</a></li>
+<li><a href="/wiki/Motion_graphic_design" title="Motion graphic design">Motion</a></li>
+<li><a href="/wiki/Postage_stamp_design" title="Postage stamp design">Postage stamp design</a></li>
+<li><a href="/wiki/Print_design" title="Print design">Print design</a></li>
+<li><a href="/wiki/Sustainable_graphic_design" title="Sustainable graphic design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Illustration" title="Illustration">Illustration</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Instructional_design" title="Instructional design">Instructional design</a></li>
+<li><a href="/wiki/News_design" title="News design">News design</a></li>
+<li><a href="/wiki/Photography" title="Photography">Photography</a></li>
+<li><a href="/wiki/Retail_design" title="Retail design">Retail design</a></li>
+<li><a href="/wiki/Signage" title="Signage">Signage</a> / <a href="/wiki/Traffic_sign_design" title="Traffic sign design">Traffic sign design</a></li>
+<li><a href="/wiki/Typography" title="Typography">Typography</a> / <a href="/wiki/Type_design" title="Type design">Type design</a></li>
+<li><a href="/wiki/Video_design" title="Video design">Video design</a></li>
+<li><a href="/wiki/Visual_merchandising" title="Visual merchandising">Visual merchandising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Environmental_design" title="Environmental design">Environmental<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Architecture" title="Architecture">Architecture</a></li>
+<li><a href="/wiki/Architectural_lighting_design" title="Architectural lighting design">Architectural lighting design</a></li>
+<li><a href="/wiki/Building_design" title="Building design">Building design</a>
+<ul>
+<li><a href="/wiki/Passive_solar_building_design" title="Passive solar building design">Passive solar</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Ecological_design" title="Ecological design">Ecological design</a></li>
+<li><a href="/wiki/Environmental_impact_design" title="Environmental impact design">Environmental impact design</a></li>
+<li><a href="/wiki/Garden_design" title="Garden design">Garden design</a>
+<ul>
+<li><a href="/wiki/Computer-aided_garden_design" title="Computer-aided garden design">Computer-aided</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Healthy_community_design" title="Healthy community design">Healthy community design</a></li>
+<li><a href="/wiki/Hotel_design" title="Hotel design">Hotel design</a></li>
+<li><a href="/wiki/Interior_architecture" title="Interior architecture">Interior architecture</a></li>
+<li><a href="/wiki/Interior_design" title="Interior design">Interior design</a>
+<ul>
+<li><a href="/wiki/Experiential_interior_design" title="Experiential interior design">EID</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Keyline_design" title="Keyline design">Keyline design</a></li>
+<li><a href="/wiki/Landscape_architecture" title="Landscape architecture">Landscape architecture</a>
+<ul>
+<li><a href="/wiki/Sustainable_landscape_architecture" title="Sustainable landscape architecture">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Landscape_design" title="Landscape design">Landscape design</a></li>
+<li><a href="/wiki/Spatial_design" title="Spatial design">Spatial design</a></li>
+<li><a href="/wiki/Transition_design" title="Transition design">Transition design</a></li>
+<li><a href="/wiki/Urban_design" title="Urban design">Urban design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Industrial_design" title="Industrial design">Industrial<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Automotive_design" title="Automotive design">Automotive design</a></li>
+<li><a href="/wiki/Automotive_suspension_design" title="Automotive suspension design">Automotive suspension design</a></li>
+<li><a href="/wiki/CMF_design" title="CMF design">CMF design</a></li>
+<li><a href="/wiki/Corrugated_box_design" title="Corrugated box design">Corrugated box design</a></li>
+<li><a href="/wiki/Electric_guitar_design" title="Electric guitar design">Electric guitar design</a></li>
+<li><a href="/wiki/Furniture" title="Furniture">Furniture design</a>
+<ul>
+<li><a href="/wiki/Sustainable_furniture_design" title="Sustainable furniture design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Motorcycle_design" title="Motorcycle design">Motorcycle design</a></li>
+<li><a href="/wiki/Packaging_and_labeling" title="Packaging and labeling">Packaging and labeling</a></li>
+<li><a href="/wiki/Photographic_lens_design" title="Photographic lens design">Photographic lens design</a></li>
+<li><a href="/wiki/Product_design" title="Product design">Product design</a></li>
+<li><a class="mw-redirect" href="/wiki/Production_design" title="Production design">Production design</a></li>
+<li><a href="/wiki/Sensory_design" title="Sensory design">Sensory design</a></li>
+<li><a href="/wiki/Service_design" title="Service design">Service design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Interaction_design" title="Interaction design">Interaction<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Experience_design" title="Experience design">Experience design</a>
+<ul>
+<li><a href="/wiki/Employee_experience_design" title="Employee experience design">EED</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Game_design" title="Game design">Game design</a>
+<ul>
+<li><a href="/wiki/Level_design" title="Level design">Level design</a></li>
+<li><a href="/wiki/Video_game_design" title="Video game design">Video game design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Icon_design" title="Icon design">Icon design</a></li>
+<li><a href="/wiki/Immersive_design" title="Immersive design">Immersive design</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Sonic_interaction_design" title="Sonic interaction design">Sonic interaction design</a></li>
+<li><a href="/wiki/User_experience_design" title="User experience design">User experience design</a></li>
+<li><a href="/wiki/User_interface_design" title="User interface design">User interface design</a></li>
+<li><a href="/wiki/Web_design" title="Web design">Web design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+<a href="/wiki/Applied_arts" title="Applied arts">applied arts</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Public_art" title="Public art">Public art design</a></li>
+<li><a href="/wiki/Ceramic_art" title="Ceramic art">Ceramic</a> / <a href="/wiki/Glass_art" title="Glass art">glass design</a></li>
+<li><a href="/wiki/Fashion_design" title="Fashion design">Fashion design</a>
+<ul>
+<li><a href="/wiki/Costume_design" title="Costume design">Costume design</a></li>
+<li><a class="mw-redirect" href="/wiki/Jewelry_design" title="Jewelry design">Jewelry design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Floral_design" title="Floral design">Floral design</a></li>
+<li><a href="/wiki/Game_art_design" title="Game art design">Game art design</a></li>
+<li><a href="/wiki/Property_designer" title="Property designer">Property design</a></li>
+<li><a href="/wiki/Scenic_design" title="Scenic design">Scenic design</a></li>
+<li><a href="/wiki/Sound_design" title="Sound design">Sound design</a></li>
+<li><a href="/wiki/Lighting_designer" title="Lighting designer">Stage/set lighting design</a></li>
+<li><a href="/wiki/Textile_design" title="Textile design">Textile design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+design &amp; <a href="/wiki/Engineering" title="Engineering">engineering</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithm_design" title="Algorithm design">Algorithm design</a></li>
+<li><a href="/wiki/Boiler_design" title="Boiler design">Boiler design</a></li>
+<li><a href="/wiki/Conceptual_design" title="Conceptual design">Conceptual design</a></li>
+<li><a href="/wiki/Database_design" title="Database design">Database design</a></li>
+<li><a href="/wiki/Drug_design" title="Drug design">Drug design</a></li>
+<li><a href="/wiki/Electrical_system_design" title="Electrical system design">Electrical system design</a></li>
+<li><a href="/wiki/Design_of_experiments" title="Design of experiments">Experimental design</a></li>
+<li><a href="/wiki/Filter_design" title="Filter design">Filter design</a></li>
+<li><a href="/wiki/Job_design" title="Job design">Job design</a></li>
+<li><a href="/wiki/Integrated_circuit_design" title="Integrated circuit design">Integrated circuit design</a>
+<ul>
+<li><a href="/wiki/Circuit_design" title="Circuit design">Circuit design</a></li>
+<li><a href="/wiki/Physical_design_(electronics)" title="Physical design (electronics)">Physical design</a></li>
+<li><a href="/wiki/Power_network_design_(IC)" title="Power network design (IC)">Power network design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Nuclear_weapon_design" title="Nuclear weapon design">Nuclear weapon design</a></li>
+<li><a href="/wiki/Nucleic_acid_design" title="Nucleic acid design">Nucleic acid design</a></li>
+<li><a class="mw-redirect" href="/wiki/Organization_design" title="Organization design">Organization design</a></li>
+<li><a href="/wiki/Process_design" title="Process design">Process design</a></li>
+<li><a href="/wiki/Processor_design" title="Processor design">Processor design</a></li>
+<li><a href="/wiki/Protein_design" title="Protein design">Protein design</a></li>
+<li><a href="/wiki/Research_design" title="Research design">Research design</a></li>
+<li><a href="/wiki/Social_design" title="Social design">Social design</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Spacecraft_design" title="Spacecraft design">Spacecraft design</a></li>
+<li><a href="/wiki/Strategic_design" title="Strategic design">Strategic design</a></li>
+<li><a href="/wiki/Systems_design" title="Systems design">Systems design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Approaches" style="font-size:114%">Approaches</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Activity-centered_design" title="Activity-centered design">Activity-centered</a></li>
+<li><a href="/wiki/Adaptive_web_design" title="Adaptive web design">Adaptive web</a></li>
+<li><a href="/wiki/Affective_design" title="Affective design">Affective</a></li>
+<li><a href="/wiki/Design_by_committee" title="Design by committee">By committee</a></li>
+<li><a href="/wiki/Design_by_contract" title="Design by contract">By contract</a></li>
+<li><a href="/wiki/C-K_theory" title="C-K theory">C-K theory</a></li>
+<li><a href="/wiki/Design_closure" title="Design closure">Closure</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Co-design</a></li>
+<li><a href="/wiki/Concept-oriented_design" title="Concept-oriented design">Concept-oriented</a></li>
+<li><a href="/wiki/Configuration_design" title="Configuration design">Configuration</a></li>
+<li><a href="/wiki/Contextual_design" title="Contextual design">Contextual</a></li>
+<li><a href="/wiki/Continuous_design" title="Continuous design">Continuous</a></li>
+<li><a href="/wiki/Cradle-to-cradle_design" title="Cradle-to-cradle design">Cradle-to-cradle</a></li>
+<li><a href="/wiki/Creative_problem-solving" title="Creative problem-solving">Creative problem-solving</a></li>
+<li><a href="/wiki/Creativity_techniques" title="Creativity techniques">Creativity techniques</a></li>
+<li><a href="/wiki/Critical_design" title="Critical design">Critical</a>
+<ul>
+<li><a href="/wiki/Design_fiction" title="Design fiction">Design fiction</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Defensive_design" title="Defensive design">Defensive</a></li>
+<li><a href="/wiki/Design%E2%80%93bid%E2%80%93build" title="Design–bid–build">Design–bid–build</a></li>
+<li><a href="/wiki/Design%E2%80%93build" title="Design–build">Design–build</a>
+<ul>
+<li><a href="/wiki/Architect-led_design%E2%80%93build" title="Architect-led design–build">architect-led</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">Domain-driven</a></li>
+<li><a href="/wiki/Ecodesign" title="Ecodesign">Ecodesign</a></li>
+<li><a href="/wiki/Energy_neutral_design" title="Energy neutral design">Energy neutral</a></li>
+<li><a href="/wiki/Engineering_design_process" title="Engineering design process">Engineering design process</a>
+<ul>
+<li><a href="/wiki/Probabilistic_design" title="Probabilistic design">Probabilistic design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Error-tolerant_design" title="Error-tolerant design">Error-tolerant</a></li>
+<li><a class="mw-redirect" href="/wiki/Fault-tolerant_design" title="Fault-tolerant design">Fault-tolerant</a></li>
+<li><a href="/wiki/Framework-oriented_design" title="Framework-oriented design">Framework-oriented</a></li>
+<li><a href="/wiki/Design_for_assembly" title="Design for assembly">For assembly</a></li>
+<li><a href="/wiki/Design_for_behaviour_change" title="Design for behaviour change">For behaviour change</a></li>
+<li><a href="/wiki/Design_for_manufacturability" title="Design for manufacturability">For manufacturability</a></li>
+<li><a href="/wiki/Design_for_Six_Sigma" title="Design for Six Sigma">For Six Sigma</a></li>
+<li><a href="/wiki/Design_for_testing" title="Design for testing">For testing</a></li>
+<li><a href="/wiki/Design_for_X" title="Design for X">For X</a></li>
+<li><a href="/wiki/Functional_design" title="Functional design">Functional</a></li>
+<li><a href="/wiki/Generative_Design" title="Generative Design">Generative</a></li>
+<li><a href="/wiki/Geodesign" title="Geodesign">Geodesign</a></li>
+<li><a href="/wiki/High-level_design" title="High-level design">High-level</a></li>
+<li><a href="/wiki/Integrated_design" title="Integrated design">Integrated</a></li>
+<li><a href="/wiki/Integrated_topside_design" title="Integrated topside design">Integrated topside</a></li>
+<li><a href="/wiki/Intelligence-based_design" title="Intelligence-based design">Intelligence-based</a></li>
+<li><a href="/wiki/Iterative_design" title="Iterative design">Iterative</a></li>
+<li><a href="/wiki/KISS_principle" title="KISS principle">KISS principle</a></li>
+<li><a href="/wiki/Low-level_design" title="Low-level design">Low-level</a></li>
+<li><a href="/wiki/Metadesign" title="Metadesign">Metadesign</a></li>
+<li><a href="/wiki/Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="/wiki/Modular_design" title="Modular design">Modular</a></li>
+<li><a href="/wiki/New_Wave_(design)" title="New Wave (design)">New Wave</a></li>
+<li><a href="/wiki/Object-oriented_design" title="Object-oriented design">Object-oriented</a></li>
+<li><a href="/wiki/Open_design" title="Open design">Open</a></li>
+<li><a href="/wiki/Parametric_design" title="Parametric design">Parametric</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Participatory</a></li>
+<li><a href="/wiki/Platform-based_design" title="Platform-based design">Platform-based</a></li>
+<li><a href="/wiki/Policy-based_design" title="Policy-based design">Policy-based</a></li>
+<li><a href="/wiki/Process-centered_design" title="Process-centered design">Process-centered</a></li>
+<li><a href="/wiki/Public_interest_design" title="Public interest design">Public interest</a></li>
+<li><a href="/wiki/Rational_design" title="Rational design">Rational</a></li>
+<li><a href="/wiki/Regenerative_design" title="Regenerative design">Regenerative</a></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Research-based_design" title="Research-based design">Research-based</a></li>
+<li><a href="/wiki/Responsibility-driven_design" title="Responsibility-driven design">Responsibility-driven</a></li>
+<li><a href="/wiki/Responsive_web_design" title="Responsive web design">RWD</a></li>
+<li><a href="/wiki/Safe-life_design" title="Safe-life design">Safe-life</a></li>
+<li><a href="/wiki/Sustainable_design" title="Sustainable design">Sustainable</a></li>
+<li><a class="mw-redirect" href="/wiki/Systemic_Design" title="Systemic Design">Systemic</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Systems_Oriented_Design" title="Systems Oriented Design">SOD</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tableless_web_design" title="Tableless web design">Tableless web</a></li>
+<li><a href="/wiki/Theory_of_constraints" title="Theory of constraints">Theory of constraints</a></li>
+<li><a href="/wiki/Top-down_and_bottom-up_design" title="Top-down and bottom-up design">Top-down and bottom-up</a></li>
+<li><a href="/wiki/Transformation_design" title="Transformation design">Transformation</a></li>
+<li><a href="/wiki/Transgenerational_design" title="Transgenerational design">Transgenerational</a></li>
+<li><a href="/wiki/TRIZ" title="TRIZ">TRIZ</a></li>
+<li><a href="/wiki/Universal_design" title="Universal design">Universal</a>
+<ul>
+<li><a href="/wiki/Design_for_All_(in_ICT)" title="Design for All (in ICT)">Design for All</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Usage-centered_design" title="Usage-centered design">Usage-centered</a></li>
+<li><a href="/wiki/Use-centered_design" title="Use-centered design">Use-centered</a></li>
+<li><a href="/wiki/User-centered_design" title="User-centered design">User-centered</a>
+<ul>
+<li><a href="/wiki/Empathic_design" title="Empathic design">Empathic</a></li>
+</ul>
+</li>
+<li><a href="/wiki/User_innovation" title="User innovation">User innovation</a></li>
+<li><a href="/wiki/Value-driven_design" title="Value-driven design">Value-driven</a></li>
+<li><a href="/wiki/Value_sensitive_design" title="Value sensitive design">Value sensitive</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Privacy_by_Design" title="Privacy by Design">Privacy by</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_choice" title="Design choice">choice</a></li>
+<li><a href="/wiki/Design_computing" title="Design computing">computing</a></li>
+<li><a href="/wiki/Design_controls" title="Design controls">controls</a></li>
+<li><a href="/wiki/Design_flow_(EDA)" title="Design flow (EDA)">flow</a></li>
+<li><a href="/wiki/Design_leadership" title="Design leadership">leadership</a></li>
+<li><a href="/wiki/Design_management" title="Design management">management</a></li>
+<li><a href="/wiki/Design_marker" title="Design marker">marker</a></li>
+<li><a href="/wiki/Design_methods" title="Design methods">methods</a></li>
+<li><a href="/wiki/Design_pattern" title="Design pattern">pattern</a></li>
+<li><a href="/wiki/Design_research" title="Design research">research</a></li>
+<li><a href="/wiki/Design_science" title="Design science">science</a></li>
+<li><a href="/wiki/Design_strategy" title="Design strategy">strategy</a></li>
+<li><a href="/wiki/Design_theory" title="Design theory">theory</a></li>
+<li><a href="/wiki/Design_thinking" title="Design thinking">thinking</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="ToolsIntellectual_propertyOrganizationsAwards" style="font-size:114%">
+<div class="hlist">
+<ul>
+<li>Tools</li>
+<li>Intellectual property</li>
+<li>Organizations</li>
+<li>Awards</li>
+</ul>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Design_tool" title="Design tool">Tools</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithms-Aided_Design_(AAD)" title="Algorithms-Aided Design (AAD)">AAD</a></li>
+<li><a href="/wiki/Architectural_model" title="Architectural model">Architectural model</a></li>
+<li><a href="/wiki/Blueprint" title="Blueprint">Blueprint</a></li>
+<li><a href="/wiki/Comprehensive_layout" title="Comprehensive layout">Comprehensive layout</a></li>
+<li><a href="/wiki/Computer-aided_design" title="Computer-aided design">CAD</a>
+<ul>
+<li><a href="/wiki/Computer-aided_industrial_design" title="Computer-aided industrial design">CAID</a></li>
+<li><a href="/wiki/Virtual_home_design_software" title="Virtual home design software">Virtual home design software</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Computer-automated_design" title="Computer-automated design">CAutoD</a></li>
+<li><a href="/wiki/Design_quality_indicator" title="Design quality indicator">Design quality indicator</a></li>
+<li><a href="/wiki/Electronic_design_automation" title="Electronic design automation">Electronic design automation</a></li>
+<li><a href="/wiki/Flowchart" title="Flowchart">Flowchart</a></li>
+<li><a href="/wiki/Mockup" title="Mockup">Mockup</a></li>
+<li><a href="/wiki/Product_design_specification" title="Product design specification">Product design specification</a></li>
+<li><a href="/wiki/Prototype" title="Prototype">Prototype</a></li>
+<li><a href="/wiki/Sketch_(drawing)" title="Sketch (drawing)">Sketch</a></li>
+<li><a href="/wiki/Storyboard" title="Storyboard">Storyboard</a></li>
+<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li>
+<li><a href="/wiki/Web_design_program" title="Web design program">Web design program</a></li>
+<li><a href="/wiki/Website_wireframe" title="Website wireframe">Website wireframe</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Intellectual<br/>
+property</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Community_design" title="Community design">Community design</a></li>
+<li><a href="/wiki/Design_around" title="Design around">Design around</a></li>
+<li><a href="/wiki/Design_patent" title="Design patent">Design patent</a></li>
+<li><i><a href="/wiki/Geschmacksmuster" title="Geschmacksmuster">Geschmacksmuster</a></i></li>
+<li><a href="/wiki/Industrial_design_right" title="Industrial design right">Industrial design rights</a>
+<ul>
+<li><a href="/wiki/Industrial_design_rights_in_the_European_Union" title="Industrial design rights in the European Union">European Union</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Organizations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AIGA" title="AIGA">AIGA</a></li>
+<li><a href="/wiki/Chartered_Society_of_Designers" title="Chartered Society of Designers">Chartered Society of Designers</a></li>
+<li><a href="/wiki/Design_and_Industries_Association" title="Design and Industries Association">Design and Industries Association</a></li>
+<li><a href="/wiki/Design_Council" title="Design Council">Design Council</a></li>
+<li><a href="/wiki/International_Forum_Design" title="International Forum Design">International Forum Design</a></li>
+<li><a href="/wiki/The_Design_Society" title="The Design Society">The Design Society</a></li>
+<li><a href="/wiki/Design_Research_Society" title="Design Research Society">Design Research Society</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Awards</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/European_Design_Award" title="European Design Award">European Design Award</a></li>
+<li><a href="/wiki/German_Design_Award" title="German Design Award">German Design Award</a></li>
+<li><a href="/wiki/Good_Design_Award_(Chicago)" title="Good Design Award (Chicago)">Good Design Award (Chicago)</a></li>
+<li><a href="/wiki/Good_Design_Award_(Japan)" title="Good Design Award (Japan)">Good Design Award (Japan)</a></li>
+<li><a href="/wiki/Graphex" title="Graphex">Graphex</a></li>
+<li><a href="/wiki/IF_product_design_award" title="IF product design award">IF product design award</a></li>
+<li><a href="/wiki/James_Dyson_Award" title="James Dyson Award">James Dyson Award</a></li>
+<li><a href="/wiki/Prince_Philip_Designers_Prize" title="Prince Philip Designers Prize">Prince Philip Designers Prize</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Related_topics" style="font-size:114%">Related topics</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aesthetics" title="Aesthetics">Aesthetics</a></li>
+<li><a href="/wiki/Concept_art" title="Concept art">Concept art</a></li>
+<li><a href="/wiki/Creative_industries" title="Creative industries">Creative industries</a></li>
+<li><a href="/wiki/Cultural_icon" title="Cultural icon">Cultural icon</a></li>
+<li><a href="/wiki/.design" title=".design">.design</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Futures_studies" title="Futures studies">Futures studies</a></li>
+<li><a href="/wiki/Intelligent_design" title="Intelligent design">Intelligent design</a></li>
+<li><a href="/wiki/New_product_development" title="New product development">New product development</a></li>
+<li><a href="/wiki/Philosophy_of_design" title="Philosophy of design">Philosophy of design</a></li>
+<li><a href="/wiki/Process_simulation" title="Process simulation">Process simulation</a></li>
+<li><a href="/wiki/Slow_design" title="Slow design">Slow design</a></li>
+<li><a href="/wiki/STEAM_fields" title="STEAM fields">STEAM fields</a></li>
+<li><a class="mw-redirect" href="/wiki/Unintelligent_design" title="Unintelligent design">Unintelligent design</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a></li>
+<li><a href="/wiki/Wicked_problem" title="Wicked problem">Wicked problem</a></li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_brief" title="Design brief">brief</a></li>
+<li><a href="/wiki/Design_change" title="Design change">change</a></li>
+<li><a href="/wiki/Design_classic" title="Design classic">classic</a></li>
+<li><a href="/wiki/Design_director" title="Design director">director</a></li>
+<li><a href="/wiki/Design_education" title="Design education">education</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_elements_and_principles" title="Design elements and principles">elements and principles</a></li>
+<li><a href="/wiki/Design_engineer" title="Design engineer">engineer</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_firm" title="Design firm">firm</a></li>
+<li><a href="/wiki/Design_history" title="Design history">history</a></li>
+<li><a href="/wiki/Design_knowledge" title="Design knowledge">knowledge</a></li>
+<li><a href="/wiki/Design_language" title="Design language">language</a></li>
+<li><a href="/wiki/Design_life" title="Design life">life</a></li>
+<li><a href="/wiki/Design_load" title="Design load">load</a></li>
+<li><a href="/wiki/Design_museum" title="Design museum">museum</a></li>
+<li><a href="/wiki/Design_paradigm" title="Design paradigm">paradigm</a></li>
+<li><a href="/wiki/Design_rationale" title="Design rationale">rationale</a></li>
+<li><a href="/wiki/Design_review" title="Design review">review</a></li>
+<li><a href="/wiki/Design_specification" title="Design specification">specification</a></li>
+<li><a href="/wiki/Design_studio" title="Design studio">studio</a></li>
+<li><a href="/wiki/Design_technology" title="Design technology">technology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<ul>
+<li><a class="extiw" href="https://commons.wikimedia.org/wiki/category:Design" title="commons:category:Design"><span style="color:#002bb8">Commons</span></a></li>
+<li><a class="extiw" href="//en.wikibooks.org/wiki/Design" title="wikibooks:Design"><span style="color:#002bb8">Wikibooks</span></a></li>
+<li><a class="extiw" href="https://en.wikinews.org/wiki/Special:Search/Design" title="wikinews:Special:Search/Design"><span style="color:#002bb8">Wikinews</span></a></li>
+<li><a class="extiw" href="https://en.wikiquote.org/wiki/Design" title="wikiquote:Design"><span style="color:#002bb8">Wikiquote</span></a></li>
+<li><a class="extiw" href="https://en.wikisource.org/wiki/Category:Design" title="wikisource:Category:Design"><span style="color:#002bb8">Wikisource</span></a></li>
+<li><a class="extiw" href="https://en.wiktionary.org/wiki/Design" title="wiktionary:Design"><span style="color:#002bb8">Wiktionary</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="IEEE_standards" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:IEEE_standards" title="Template:IEEE standards"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:IEEE_standards" title="Template talk:IEEE standards"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:IEEE_standards&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="IEEE_standards" style="font-size:114%"><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Current</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IEEE-488" title="IEEE-488">488</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">730</a></li>
+<li><a href="/wiki/IEEE_floating_point" title="IEEE floating point">754</a>
+<ul>
+<li><a href="/wiki/IEEE_754_revision" title="IEEE 754 revision">Revision</a></li>
+</ul>
+</li>
+<li><a href="/wiki/IEEE_854-1987" title="IEEE 854-1987">854</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">828</a></li>
+<li><a href="/wiki/Software_test_documentation" title="Software test documentation">829</a></li>
+<li><a href="/wiki/Futurebus" title="Futurebus">896</a></li>
+<li><a href="/wiki/Single_UNIX_Specification" title="Single UNIX Specification">1003</a></li>
+<li><a href="/wiki/VMEbus" title="VMEbus">1014</a></li>
+<li><strong class="selflink">1016</strong></li>
+<li><a href="/wiki/VHDL" title="VHDL">1076</a></li>
+<li><a class="mw-redirect" href="/wiki/Joint_Test_Action_Group" title="Joint Test Action Group">1149.1</a></li>
+<li><a href="/wiki/PILOT" title="PILOT">1154</a></li>
+<li><a href="/wiki/IEEE_1164" title="IEEE 1164">1164</a></li>
+<li><a href="/wiki/Open_Firmware" title="Open Firmware">1275</a></li>
+<li><a href="/wiki/Distributed_Interactive_Simulation" title="Distributed Interactive Simulation">1278</a></li>
+<li><a href="/wiki/IEEE_1284" title="IEEE 1284">1284</a></li>
+<li><a href="/wiki/IEEE_1355" title="IEEE 1355">1355</a></li>
+<li><a href="/wiki/IEEE_1394" title="IEEE 1394">1394</a></li>
+<li><a href="/wiki/IEEE_1451" title="IEEE 1451">1451</a></li>
+<li><a href="/wiki/Standard_Delay_Format" title="Standard Delay Format">1497</a></li>
+<li><a class="mw-redirect" href="/wiki/High-level_architecture_(simulation)" title="High-level architecture (simulation)">1516</a></li>
+<li><a href="/wiki/IEEE_1541-2002" title="IEEE 1541-2002">1541</a></li>
+<li><a href="/wiki/IEEE_1547" title="IEEE 1547">1547</a></li>
+<li><a href="/wiki/IEEE_1584" title="IEEE 1584">1584</a></li>
+<li><a href="/wiki/Precision_Time_Protocol" title="Precision Time Protocol">1588</a></li>
+<li><a href="/wiki/Scalable_Coherent_Interface" title="Scalable Coherent Interface">1596</a></li>
+<li><a href="/wiki/Advanced_Library_Format" title="Advanced Library Format">1603</a></li>
+<li><a href="/wiki/IEEE_1613" title="IEEE 1613">1613</a></li>
+<li><a href="/wiki/SystemC" title="SystemC">1666</a></li>
+<li><a href="/wiki/IEEE_1667" title="IEEE 1667">1667</a></li>
+<li><a href="/wiki/IEEE_1675-2008" title="IEEE 1675-2008">1675</a></li>
+<li><a href="/wiki/IP-XACT" title="IP-XACT">1685</a></li>
+<li><a href="/wiki/SystemVerilog" title="SystemVerilog">1800</a></li>
+<li><a href="/wiki/Unified_Power_Format" title="Unified Power Format">1801</a></li>
+<li><a href="/wiki/DNP3" title="DNP3">1815</a></li>
+<li><a href="/wiki/Property_Specification_Language" title="Property Specification Language">1850</a></li>
+<li><a href="/wiki/DySPAN" title="DySPAN">1900</a></li>
+<li><a href="/wiki/IEEE_1901" title="IEEE 1901">1901</a></li>
+<li><a href="/wiki/RuBee" title="RuBee">1902</a></li>
+<li><a href="/wiki/Service_Interoperability_in_Ethernet_Passive_Optical_Networks" title="Service Interoperability in Ethernet Passive Optical Networks">1904</a></li>
+<li><a href="/wiki/IEEE_1905" title="IEEE 1905">1905</a></li>
+<li><a href="/wiki/IEEE_2030" title="IEEE 2030">2030</a></li>
+<li><a href="/wiki/ISO/IEEE_11073" title="ISO/IEEE 11073">11073</a></li>
+<li><a href="/wiki/IEEE_12207" title="IEEE 12207">12207</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">14764</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">16085</a></li>
+<li><a href="/wiki/Project_management" title="Project management">16326</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">29148</a></li>
+<li><a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">42010</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/IEEE_802" title="IEEE 802">802 series</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/IEEE_802.1" title="IEEE 802.1">802.1</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IEEE_802.1D" title="IEEE 802.1D">D</a></li>
+<li><a href="/wiki/IEEE_P802.1p" title="IEEE P802.1p">p</a></li>
+<li><a href="/wiki/IEEE_802.1Q" title="IEEE 802.1Q">Q</a></li>
+<li><a href="/wiki/Stream_Reservation_Protocol" title="Stream Reservation Protocol">Qat</a></li>
+<li><a href="/wiki/Provider_Backbone_Bridge_Traffic_Engineering" title="Provider Backbone Bridge Traffic Engineering">Qay</a></li>
+<li><a href="/wiki/Spanning_Tree_Protocol" title="Spanning Tree Protocol">w</a></li>
+<li><a href="/wiki/IEEE_802.1X" title="IEEE 802.1X">X</a></li>
+<li><a href="/wiki/Link_Layer_Discovery_Protocol" title="Link Layer Discovery Protocol">ab</a></li>
+<li><a href="/wiki/IEEE_802.1ad" title="IEEE 802.1ad">ad</a></li>
+<li><a href="/wiki/IEEE_802.1AE" title="IEEE 802.1AE">AE</a></li>
+<li><a href="/wiki/IEEE_802.1ag" title="IEEE 802.1ag">ag</a></li>
+<li><a href="/wiki/IEEE_802.1ah-2008" title="IEEE 802.1ah-2008">ah</a></li>
+<li><a href="/wiki/Multiple_Registration_Protocol" title="Multiple Registration Protocol">ak</a></li>
+<li><a href="/wiki/IEEE_802.1aq" title="IEEE 802.1aq">aq</a></li>
+<li><a href="/wiki/Link_aggregation" title="Link aggregation">ax</a></li>
+<li><a href="/wiki/Data_center_bridging#IEEE_Task_Group" title="Data center bridging">az</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/IEEE_802.11" title="IEEE 802.11">802.11</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IEEE_802.11a-1999" title="IEEE 802.11a-1999">a</a></li>
+<li><a href="/wiki/IEEE_802.11b-1999" title="IEEE 802.11b-1999">b</a></li>
+<li><a href="/wiki/IEEE_802.11c" title="IEEE 802.11c">c</a></li>
+<li><a href="/wiki/IEEE_802.11d-2001" title="IEEE 802.11d-2001">d</a></li>
+<li><a href="/wiki/IEEE_802.11e-2005" title="IEEE 802.11e-2005">e</a></li>
+<li><a href="/wiki/Inter-Access_Point_Protocol" title="Inter-Access Point Protocol">f</a></li>
+<li><a href="/wiki/IEEE_802.11g-2003" title="IEEE 802.11g-2003">g</a></li>
+<li><a href="/wiki/IEEE_802.11h-2003" title="IEEE 802.11h-2003">h</a></li>
+<li><a href="/wiki/IEEE_802.11i-2004" title="IEEE 802.11i-2004">i</a></li>
+<li><a href="/wiki/IEEE_802.11j-2004" title="IEEE 802.11j-2004">j</a></li>
+<li><a href="/wiki/IEEE_802.11k-2008" title="IEEE 802.11k-2008">k</a></li>
+<li><a href="/wiki/IEEE_802.11n-2009" title="IEEE 802.11n-2009">n</a></li>
+<li><a href="/wiki/IEEE_802.11p" title="IEEE 802.11p">p</a></li>
+<li><a href="/wiki/IEEE_802.11r-2008" title="IEEE 802.11r-2008">r</a></li>
+<li><a href="/wiki/IEEE_802.11s" title="IEEE 802.11s">s</a></li>
+<li><a href="/wiki/IEEE_802.11u" title="IEEE 802.11u">u</a></li>
+<li><a href="/wiki/IEEE_802.11v" title="IEEE 802.11v">v</a></li>
+<li><a href="/wiki/IEEE_802.11w-2009" title="IEEE 802.11w-2009">w</a></li>
+<li><a href="/wiki/IEEE_802.11y-2008" title="IEEE 802.11y-2008">y</a></li>
+<li><a href="/wiki/IEEE_802.11ac" title="IEEE 802.11ac">ac</a></li>
+<li><a href="/wiki/Wireless_Gigabit_Alliance" title="Wireless Gigabit Alliance">ad</a></li>
+<li><a href="/wiki/IEEE_802.11af" title="IEEE 802.11af">af</a></li>
+<li><a href="/wiki/IEEE_802.11ah" title="IEEE 802.11ah">ah</a></li>
+<li><a href="/wiki/IEEE_802.11ai" title="IEEE 802.11ai">ai</a></li>
+<li><a href="/wiki/IEEE_802.11ax" title="IEEE 802.11ax">ax</a></li>
+<li><a href="/wiki/IEEE_802.11ay" title="IEEE 802.11ay">ay</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<div>
+<ul>
+<li><a href="/wiki/IEEE_802.2" title="IEEE 802.2">.2</a></li>
+<li><a href="/wiki/IEEE_802.3" title="IEEE 802.3">.3</a></li>
+<li><a href="/wiki/Token_bus_network" title="Token bus network">.4</a></li>
+<li><a href="/wiki/Token_ring" title="Token ring">.5</a></li>
+<li><a href="/wiki/IEEE_802.6" title="IEEE 802.6">.6</a></li>
+<li><a href="/wiki/IEEE_802.7" title="IEEE 802.7">.7</a></li>
+<li><a href="/wiki/IEEE_802.8" title="IEEE 802.8">.8</a></li>
+<li><a href="/wiki/IEEE_802.9" title="IEEE 802.9">.9</a></li>
+<li><a href="/wiki/IEEE_802.10" title="IEEE 802.10">.10</a></li>
+<li><a href="/wiki/100BaseVG" title="100BaseVG">.12</a></li>
+<li><a href="/wiki/Cable_modem#IEEE_802.14" title="Cable modem">.14</a></li>
+<li><a href="/wiki/IEEE_802.15" title="IEEE 802.15">.15</a>
+<ul>
+<li><a href="/wiki/Bluetooth" title="Bluetooth">.1</a></li>
+<li><a href="/wiki/IEEE_802.15.4" title="IEEE 802.15.4">.4</a></li>
+<li><a href="/wiki/IEEE_802.15.4a" title="IEEE 802.15.4a">.4a</a></li>
+</ul>
+</li>
+<li><a href="/wiki/IEEE_802.16" title="IEEE 802.16">.16</a>
+<ul>
+<li><a href="/wiki/WiMAX" title="WiMAX">d · e</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Resilient_Packet_Ring" title="Resilient Packet Ring">.17</a></li>
+<li><a href="/wiki/IEEE_802.18" title="IEEE 802.18">.18</a></li>
+<li><a href="/wiki/IEEE_802.20" title="IEEE 802.20">.20</a></li>
+<li><a href="/wiki/IEEE_802.21" title="IEEE 802.21">.21</a></li>
+<li><a href="/wiki/IEEE_802.22" title="IEEE 802.22">.22</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Proposed</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IEEE_P1363" title="IEEE P1363">P1363</a></li>
+<li><a href="/wiki/IEEE_P1619" title="IEEE P1619">P1619</a></li>
+<li><a href="/wiki/Rosetta-lang" title="Rosetta-lang">P1699</a></li>
+<li><a href="/wiki/Universal_Power_Adapter_for_Mobile_Devices" title="Universal Power Adapter for Mobile Devices">P1823</a></li>
+<li><a href="/wiki/IEEE_P1906.1" title="IEEE P1906.1">P1906.1</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Superseded</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IEEE_754-1985" title="IEEE 754-1985">754-1985</a></li>
+<li><a href="/wiki/Software_requirements_specification" title="Software requirements specification">830</a></li>
+<li><a href="/wiki/IEEE_1219" title="IEEE 1219">1219</a></li>
+<li><a href="/wiki/Software_requirements_specification" title="Software requirements specification">1233</a></li>
+<li><a href="/wiki/Concept_of_operations" title="Concept of operations">1362</a></li>
+<li><a href="/wiki/Verilog" title="Verilog">1364</a></li>
+<li><a href="/wiki/IEEE_1471" title="IEEE 1471">1471</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<dl>
+<dt><i>See also</i></dt>
+<dd><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE Standards Association</a></dd>
+<dd><a href="/wiki/Category:IEEE_standards" title="Category:IEEE standards">Category:IEEE standards</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3771347-0!*!0!!en!4!* and timestamp 20160928073700 and revision id 705097630
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Software_design_description&amp;oldid=705097630">https://en.wikipedia.org/w/index.php?title=Software_design_description&amp;oldid=705097630</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design" title="Category:Software design">Software design</a></li><li><a href="/wiki/Category:Software_documentation" title="Category:Software documentation">Software documentation</a></li><li><a href="/wiki/Category:IEEE_standards" title="Category:IEEE standards">IEEE standards</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_September_2014" title="Category:Articles needing additional references from September 2014">Articles needing additional references from September 2014</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Software+design+description" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Software+design+description" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Software_design_description" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Software_design_description" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Software_design_description">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Software_design_description&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Software_design_description&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Software_design_description" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Software_design_description" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Software_design_description&amp;oldid=705097630" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Software_design_description&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q2297624" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Software_design_description&amp;id=705097630" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Software+design+description">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Software+design+description&amp;returnto=Software+design+description&amp;oldid=705097630&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Software_design_description&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Software_Design_Description" hreflang="de" lang="de" title="Software Design Description – German">Deutsch</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Software_Design_Description" hreflang="it" lang="it" title="Software Design Description – Italian">Italiano</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q2297624#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 February 2016, at 13:59.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Software_design_description&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.160",
+            "walltime": "0.220",
+            "ppvisitednodes": {
+                "value": 1395,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 128994,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 14328,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 9,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  140.583      1 -total",
+                " 32.91%   46.272      1 Template:Design",
+                " 30.14%   42.374      1 Template:Navbox_with_collapsible_sections",
+                " 25.23%   35.467      1 Template:Refimprove",
+                " 23.35%   32.822      1 Template:Reflist",
+                " 19.64%   27.605      1 Template:Cite_web",
+                " 16.69%   23.460      4 Template:Navbox",
+                " 15.96%   22.439      1 Template:Ambox",
+                " 10.62%   14.925      1 Template:IEEE_standards",
+                "  7.33%   10.306      1 Template:Navbox_subgroup"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.046",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2980432,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1243",
+            "timestamp": "20160928073700",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":137,"wgHostname":"mw1261"});});</script>
+</body>
+</html>
+

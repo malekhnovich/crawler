@@ -1,0 +1,785 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Design_Patterns
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Design Patterns - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Design_Patterns","wgTitle":"Design Patterns","wgCurRevisionId":737818758,"wgRevisionId":737818758,"wgArticleId":40394,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing reorganization from July 2013","Articles with peacock terms from July 2013","All articles with peacock terms","Articles needing additional references from August 2014","All articles needing additional references","Software design patterns","Software engineering books","1994 books","Addison-Wesley books"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Design_Patterns","wgRelevantArticleId":40394,"wgRequestId":"V-A8VQpAMFkAAAeZpOwAAAAC","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q1283101","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Design_Patterns" rel="alternate"/>
+<link href="/w/index.php?title=Design_Patterns&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Design_Patterns&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Design_Patterns" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Design_Patterns rootpage-Design_Patterns skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en"><i>Design Patterns</i></h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">Not to be confused with the concept of a <a href="/wiki/Design_pattern" title="Design pattern">design pattern</a>.</div>
+<table class="metadata plainlinks ambox ambox-content ambox-multiple_issues compact-ambox" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text">
+<div class="mw-collapsible" style="width:95%; margin: 0.2em 0;"><span class="mbox-text-span"><b>This article has multiple issues.</b> Please help <b><a class="external text" href="//en.wikipedia.org/w/index.php?title=Design_Patterns&amp;action=edit">improve it</a></b> or discuss these issues on the <b><a href="/wiki/Talk:Design_Patterns" title="Talk:Design Patterns">talk page</a></b>. <small><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove these template messages</a>)</i></small></span>
+<div class="mw-collapsible-content" style="margin-top: 0.3em;">
+<table class="metadata plainlinks ambox ambox-style" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="Ambox rewrite.svg" data-file-height="620" data-file-width="620" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ambox_rewrite.svg/40px-Ambox_rewrite.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ambox_rewrite.svg/60px-Ambox_rewrite.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ambox_rewrite.svg/80px-Ambox_rewrite.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>may be in need of reorganization to comply with Wikipedia's <a href="/wiki/Wikipedia:Manual_of_Style/Layout" title="Wikipedia:Manual of Style/Layout">layout guidelines</a></b>. <span class="hide-when-compact">Please help by <a class="external text" href="//en.wikipedia.org/w/index.php?title=Design_Patterns&amp;action=edit">editing the article</a> to make improvements to the overall structure.</span> <small><i>(July 2013)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-peacock" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article contains wording that <b><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Puffery" title="Wikipedia:Manual of Style/Words to watch">promotes the subject in a subjective manner</a> without imparting real information</b>. <span class="hide-when-compact">Please remove or replace such wording and instead of making proclamations about a subject's importance, use facts and attribution to demonstrate that importance.</span> <small><i>(July 2013)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Design_Patterns&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(August 2014)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+</div>
+</div>
+<small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></td>
+</tr>
+</table>
+<table class="infobox vcard" style="width:22em">
+<caption style="font-style:italic;padding-bottom:0.2em;">Design Patterns:<br/>
+Elements of Reusable <span class="nowrap">Object-Oriented</span> Software</caption>
+<tr>
+<td colspan="2" style="text-align:center"><a class="image" href="/wiki/File:Design_Patterns_cover.jpg"><img alt="Design Patterns cover.jpg" data-file-height="175" data-file-width="140" height="175" src="//upload.wikimedia.org/wikipedia/en/7/78/Design_Patterns_cover.jpg" width="140"/></a></td>
+</tr>
+<tr>
+<th scope="row">Author</th>
+<td>The "Gang of Four":<br/>
+<a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>,<br/>
+Richard Helm,<br/>
+<a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a>,<br/>
+<a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></td>
+</tr>
+<tr>
+<th scope="row">Country</th>
+<td>USA</td>
+</tr>
+<tr>
+<th scope="row">Subject</th>
+<td><a href="/wiki/Design_pattern" title="Design pattern">Design patterns</a>, <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a></td>
+</tr>
+<tr>
+<th scope="row">Publisher</th>
+<td><a href="/wiki/Addison-Wesley" title="Addison-Wesley">Addison-Wesley</a></td>
+</tr>
+<tr>
+<th scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Publication date</div>
+</th>
+<td>1994</td>
+</tr>
+<tr>
+<th scope="row">Pages</th>
+<td>395</td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a></th>
+<td><a href="/wiki/Special:BookSources/0-201-63361-2" title="Special:BookSources/0-201-63361-2">0-201-63361-2</a></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/OCLC#Identifiers_and_linked_data" title="OCLC"><abbr title="Online Computer Library Center number">OCLC</abbr></a></th>
+<td><a class="external text" href="//www.worldcat.org/oclc/31171684" rel="nofollow">31171684</a></td>
+</tr>
+<tr>
+<th scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Dewey_Decimal_Classification" title="Dewey Decimal Classification">Dewey Decimal</a></div>
+</th>
+<td>005.1/2 20</td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Library_of_Congress_Classification" title="Library of Congress Classification"><abbr title="Library of Congress Classification">LC Class</abbr></a></th>
+<td>QA76.64 .D47 1995</td>
+</tr>
+</table>
+<p><i><b>Design Patterns: Elements of Reusable Object-Oriented Software</b></i> is a <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> book describing <a href="/wiki/Software_design_pattern" title="Software design pattern">software design patterns</a>. The book's authors are <a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, Richard Helm, <a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a> and <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a> with a foreword by <a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a>. The book is divided into two parts, with the first two chapters exploring the capabilities and pitfalls of object-oriented programming, and the remaining chapters describing 23 classic <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">software design patterns</a>. The book includes examples in <a href="/wiki/C%2B%2B" title="C++">C++</a> and <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a>.</p>
+<p>It has been influential to the field of software engineering and is regarded as an important source for object-oriented design theory and practice. More than 500,000 copies have been sold in English and in 13 other languages. The authors are often referred to as the <b>Gang of Four</b> (<b>GoF</b>).<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Introduction.2C_Chapter_1"><span class="tocnumber">2</span> <span class="toctext">Introduction, Chapter 1</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Case_study.2C_Chapter_2"><span class="tocnumber">3</span> <span class="toctext">Case study, Chapter 2</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Document_Structure"><span class="tocnumber">3.1</span> <span class="toctext">Document Structure</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Formatting"><span class="tocnumber">3.2</span> <span class="toctext">Formatting</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Embellishing_the_User_Interface"><span class="tocnumber">3.3</span> <span class="toctext">Embellishing the User Interface</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Supporting_Multiple_Look-And-Feel_Standards"><span class="tocnumber">3.4</span> <span class="toctext">Supporting Multiple Look-And-Feel Standards</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Supporting_Multiple_Window_Systems"><span class="tocnumber">3.5</span> <span class="toctext">Supporting Multiple Window Systems</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#User_Operations"><span class="tocnumber">3.6</span> <span class="toctext">User Operations</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Spell_Check_and_Hyphenation"><span class="tocnumber">3.7</span> <span class="toctext">Spell Check and Hyphenation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Patterns_by_Type"><span class="tocnumber">4</span> <span class="toctext">Patterns by Type</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Creational"><span class="tocnumber">4.1</span> <span class="toctext">Creational</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Structural"><span class="tocnumber">4.2</span> <span class="toctext">Structural</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Behavioral"><span class="tocnumber">4.3</span> <span class="toctext">Behavioral</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Criticism"><span class="tocnumber">5</span> <span class="toctext">Criticism</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The book started at a <a href="/wiki/Birds_of_a_feather_(computing)" title="Birds of a feather (computing)">birds of a feather</a> (BoF) session at <a href="/wiki/OOPSLA" title="OOPSLA">OOPSLA</a> '90, "Towards an Architecture Handbook", run by Bruce Anderson, where Erich Gamma and Richard Helm met and discovered their common interest. They were later joined by Ralph Johnson and John Vlissides.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> The original publication date of the book was October 21, 1994 with a 1995 copyright, hence it is often cited with a 1995-year, despite being published in 1994. The book was first made available to the public at the OOPSLA meeting held in Portland, Oregon, in October 1994. In 2005 the ACM <a href="/wiki/SIGPLAN" title="SIGPLAN">SIGPLAN</a> awarded that year's Programming Languages Achievement Award to the authors, in recognition of the impact of their work "on programming practice and programming language design".<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> As of March 2012, the book was in its 40th printing.</p>
+<h2><span class="mw-headline" id="Introduction.2C_Chapter_1">Introduction, Chapter 1</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=2" title="Edit section: Introduction, Chapter 1">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Chapter 1 is a discussion of <a class="mw-redirect" href="/wiki/Object-oriented" title="Object-oriented">object-oriented</a> design techniques, based on the authors' experience, which they believe would lead to good object-oriented software design, including:</p>
+<ul>
+<li>"Program to an 'interface', not an '<b>implementation'</b>." (Gang of Four 1995:18)</li>
+<li><a href="/wiki/Composition_over_inheritance" title="Composition over inheritance">Composition over inheritance</a>: "Favor '<a href="/wiki/Object_composition" title="Object composition">object composition</a>' over '<a class="mw-redirect" href="/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)">class inheritance</a>'." (Gang of Four 1995:20)</li>
+</ul>
+<p>The authors claim the following as advantages of <a class="mw-redirect" href="/wiki/Interface_(computer_science)" title="Interface (computer science)">interfaces</a> over implementation:</p>
+<ul>
+<li>clients remain unaware of the specific types of objects they use, as long as the object adheres to the interface</li>
+<li>clients remain unaware of the classes that implement these objects; clients only know about the abstract class(es) defining the interface</li>
+</ul>
+<p>Use of an interface also leads to <a href="/wiki/Dynamic_dispatch" title="Dynamic dispatch">dynamic binding</a> and <a class="mw-redirect" href="/wiki/Polymorphism_in_object-oriented_programming" title="Polymorphism in object-oriented programming">polymorphism</a>, which are central features of object-oriented programming.</p>
+<p>The authors refer to <a href="/wiki/Inheritance_(object-oriented_programming)" title="Inheritance (object-oriented programming)">inheritance</a> as <i><a href="/wiki/White_box_(software_engineering)" title="White box (software engineering)">white-box</a> reuse</i>, with white-box referring to visibility, because the internals of parent classes are often visible to <a class="mw-redirect" href="/wiki/Subclass_(computer_science)" title="Subclass (computer science)">subclasses</a>. In contrast, the authors refer to <a href="/wiki/Object_composition" title="Object composition">object composition</a> (in which objects with well-defined interfaces are used dynamically at runtime by objects obtaining references to other objects) as <i><a href="/wiki/Black_box" title="Black box">black-box</a> reuse</i> because no internal details of composed objects need be visible in the code using them.</p>
+<p>The authors discuss the tension between inheritance and encapsulation at length and state that in their experience, designers overuse inheritance (Gang of Four 1995:20). The danger is stated as follows:</p>
+<dl>
+<dd>"Because inheritance exposes a <a class="mw-redirect" href="/wiki/Subclass_(computer_science)" title="Subclass (computer science)">subclass</a> to details of its parent's implementation, it's often said that 'inheritance breaks encapsulation'". (Gang of Four 1995:19)</dd>
+</dl>
+<p>They warn that the implementation of a subclass can become so bound up with the implementation of its parent class that any change in the parent's implementation will force the subclass to change. Furthermore, they claim that a way to avoid this is to inherit only from abstract classes—but then, they point out that there is minimal code reuse.</p>
+<p>Using inheritance is recommended mainly when adding to the functionality of existing components, reusing most of the old code and adding relatively small amounts of new code.</p>
+<p>To the authors, 'delegation' is an extreme form of object composition that can always be used to replace inheritance. Delegation involves two objects: a 'sender' passes itself to a 'delegate' to let the delegate refer to the sender. Thus the link between two parts of a system are established only at runtime, not at compile-time. The <a class="mw-redirect" href="/wiki/Callback_(computer_science)" title="Callback (computer science)">Callback</a> article has more information about delegation.</p>
+<p>The authors also discuss so-called <b>parameterized types</b>, which are also known as <a href="/wiki/Generic_programming" title="Generic programming">generics</a> (Ada, Eiffel, <a href="/wiki/Generics_in_Java" title="Generics in Java">Java</a>, C#, VB.NET, and Delphi) or templates (C++). These allow any type to be defined without specifying all the other types it uses—the unspecified types are supplied as 'parameters' at the point of use.</p>
+<p>The authors admit that delegation and parameterization are very powerful but add a warning:</p>
+<dl>
+<dd>"Dynamic, highly parameterized software is harder to understand and build than more static software." (Gang of Four 1995:21)</dd>
+</dl>
+<p>The authors further distinguish between '<a href="/wiki/Object_composition#Aggregation" title="Object composition">Aggregation</a>', where one object 'has' or 'is part of' another object (implying that an aggregate object and its owner have identical lifetimes) and <b>acquaintance</b>, where one object merely 'knows of' another object. Sometimes acquaintance is called 'association' or the 'using' relationship. Acquaintance objects may request operations of each other, but they aren't responsible for each other. Acquaintance is a weaker relationship than aggregation and suggests much <a href="/wiki/Loose_coupling" title="Loose coupling">looser coupling</a> between objects, which can often be desirable for maximum maintainability in a design.</p>
+<p>The authors employ the term 'toolkit' where others might today use 'class library', as in C# or Java. In their parlance, toolkits are the object-oriented equivalent of subroutine libraries, whereas a '<a href="/wiki/Software_framework" title="Software framework">framework</a>' is a set of cooperating classes that make up a reusable design for a specific class of software. They state that <b>applications</b> are hard to design, <b>toolkits</b> are harder, and <b>frameworks</b> are the hardest to design.</p>
+<h2><span class="mw-headline" id="Case_study.2C_Chapter_2">Case study, Chapter 2</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=3" title="Edit section: Case study, Chapter 2">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Chapter 2 is a step-by-step case study on "the design of a '<a href="/wiki/WYSIWYG" title="WYSIWYG">What-You-See-Is-What-You-Get</a>' (or 'WYSIWYG') document editor called Lexi." (pp33)</p>
+<p>The chapter goes through seven problems that must be addressed in order to properly design Lexi, including any constraints that must be followed. Each problem is analyzed in depth, and solutions are proposed. Each solution is explained in full, including <a class="mw-redirect" href="/wiki/Pseudo-code" title="Pseudo-code">pseudo-code</a> and a slightly modified version of <a class="mw-redirect" href="/wiki/Object_Modeling_Technique" title="Object Modeling Technique">Object Modeling Technique</a> where appropriate.</p>
+<p>Finally, each solution is associated directly with one or more design patterns. It is shown how the solution is a direct implementation of that design pattern.</p>
+<p>The seven problems (including their constraints) and their solutions (including the pattern(s) referenced), are as follows:</p>
+<h3><span class="mw-headline" id="Document_Structure">Document Structure</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=4" title="Edit section: Document Structure">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The document is "an arrangement of basic graphical elements" such as characters, lines, other shapes, etc., that "capture the total information content of the document"(pp35). The structure of the document contains a collection of these elements, and each element can in turn be a substructure of other elements.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>Text and graphics should be treated the same way (that is, graphics aren't a derived instance of text, nor vice versa)</li>
+<li>The implementation should treat complex and simple structures the same way. It should not have to know the difference between the two.</li>
+<li>Specific derivatives of abstract elements should have specialized analytical elements.</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>A <i>recursive composition</i> is a hierarchical structure of elements, that builds "increasingly complex elements out of simpler ones" (pp36). Each node in the structure knows of its own children and its parent. If an operation is to be performed on the whole structure, each node calls the operation on its children (recursively).</p>
+<p>This is an implementation of the <a href="/wiki/Composite_pattern" title="Composite pattern">composite pattern</a>, which is a collection of nodes. The node is an <a href="/wiki/Abstract_type" title="Abstract type">abstract base class</a>, and derivatives can either be leaves (singular), or collections of other nodes (which in turn can contain leaves or collection-nodes). When an operation is performed on the parent, that operation is recursively passed down the hierarchy.</p>
+<h3><span class="mw-headline" id="Formatting">Formatting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=5" title="Edit section: Formatting">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Formatting differs from structure. Formatting is a method of constructing a particular instance of the document's physical structure. This includes breaking text into lines, using hyphens, adjusting for margin widths, etc.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>Balance between (formatting) quality, speed and storage space</li>
+<li>Keep formatting independent (uncoupled) from the document structure.</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>A <i>Compositor</i> class will encapsulate the algorithm used to format a composition. Compositor is a subclass of the primitive object of the document's structure. A Compositor has an associated instance of a Composition object. When a Compositor runs its <code>Compose()</code>, it iterates through each element of its associated Composition, and rearranges the structure by inserting Row and Column objects as needed.</p>
+<p>The Compositor itself is an abstract class, allowing for derivative classes to use different formatting algorithms (such as double-spacing, wider margins, etc.)</p>
+<p>The <a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy Pattern</a> is used to accomplish this goal. A Strategy is a method of encapsulating multiple algorithms to be used based on a changing context. In this case, formatting should be different, depending on whether text, graphics, simple elements, etc., are being formatted.</p>
+<h3><span class="mw-headline" id="Embellishing_the_User_Interface">Embellishing the User Interface</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=6" title="Edit section: Embellishing the User Interface">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The ability to change the graphical interface that the user uses to interact with the document.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>Demarcate a page of text with a border around the editing area</li>
+<li>Scroll bars that let the user view different parts of the page</li>
+<li>User interface objects should not know about the embellishments</li>
+<li>Avoid an "explosion of classes" that would be caused by subclassing for "every possible combination of embellishments" and elements (p44)</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>The use of a <i>transparent enclosure</i> allows elements that augment the behaviour of composition to be added to a composition. These elements, such as Border and Scroller, are special subclasses of the singular element itself. This allows the composition to be augmented, effectively adding state-like elements. Since these augmentations are part of the structure, their appropriate <code>Operation()</code> will be called when the structure's <code>Operation()</code> is called. This means that the client does not need any special knowledge or interface with the structure in order to use the embellishments.</p>
+<p>This is a <a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator pattern</a>, one that adds responsibilities to an object without modifying the object itself.</p>
+<h3><span class="mw-headline" id="Supporting_Multiple_Look-And-Feel_Standards">Supporting Multiple Look-And-Feel Standards</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=7" title="Edit section: Supporting Multiple Look-And-Feel Standards">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Look_and_feel" title="Look and feel">Look-and-feel</a> refers to <a class="mw-redirect" href="/wiki/Platform_(computing)" title="Platform (computing)">platform</a>-specific UI standards. These standards "define guidelines for how applications appear and react to the user" (pp47).</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>The editor must implement standards of multiple platforms so that it is <a href="/wiki/Porting" title="Porting">portable</a></li>
+<li>Easily adapt to new and emergent standards</li>
+<li>Allow for run-time changing of look-and-feel (i.e.: No <a class="mw-redirect" href="/wiki/Hard_coded" title="Hard coded">hard-coding</a>)</li>
+<li>Have a set of abstract elemental subclasses for each category of elements (ScrollBar, Buttons, etc.)</li>
+<li>Have a set of concrete subclasses for each abstract subclass that can have a different look-and-feel standard. (ScrollBar having MotifScrollBar and PresentationScrollBar for Motif and Presentation look-and-feels)</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>Since object creation of different concrete objects cannot be done at runtime, the object creation process must be abstracted. This is done with an abstract guiFactory, which takes on the responsibility of creating UI elements. The abstract guiFactory has concrete implementations, such as MotifFactory, which creates concrete elements of the appropriate type (MotifScrollBar). In this way, the program need only ask for a ScrollBar and, at run-time, it will be given the correct concrete element.</p>
+<p>This is an <a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract Factory</a>. A regular factory creates concrete objects of one type. An abstract factory creates concrete objects of varying types, depending on the concrete implementation of the factory itself. Its ability to focus on not just concrete objects, but entire <i>families</i> of concrete objects "distinguishes it from other creational patterns, which involve only one kind of product object" (pp51).</p>
+<h3><span class="mw-headline" id="Supporting_Multiple_Window_Systems">Supporting Multiple Window Systems</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=8" title="Edit section: Supporting Multiple Window Systems">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Just as look-and-feel is different across platforms, so is the method of handling <a href="/wiki/Window_(computing)" title="Window (computing)">windows</a>. Each platform displays, lays out, handles input to and output from, and layers windows differently.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>The document editor must run on many of the "important and largely incompatible window systems" that exist (p. 52)</li>
+<li>An Abstract Factory cannot be used. Due to differing standards, there will not be a common abstract class for each type of widget.</li>
+<li>Do not create a new, nonstandard windowing system</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>It is possible to develop "our own abstract and concrete product classes", because "all window systems do generally the same thing" (p. 52). Each window system provides operations for drawing primitive shapes, iconifying/de-iconifying, resizing, and refreshing window contents.</p>
+<p>An abstract base <code>Window</code> class can be derived to the different types of existing windows, such as application, <a class="new" href="/w/index.php?title=Iconification&amp;action=edit&amp;redlink=1" title="Iconification (page does not exist)">iconified</a>, dialog. These classes will contain operations that are associated with windows, such as reshaping, graphically refreshing, etc. Each window contains elements, whose <code>Draw()</code> functions are called upon by the <code>Window</code>'s own draw-related functions.</p>
+<p>In order to avoid having to create platform-specific Window subclasses for every possible platform, an interface will be used. The <code>Window</code> class will implement a <code>Window</code> implementation (<code>WindowImp</code>) abstract class. This class will then in turn be derived into multiple platform-specific implementations, each with platform-specific operations. Hence, only one set of <code>Window</code> classes are needed for each type of <code>Window</code>, and only one set of <code>WindowImp</code> classes are needed for each platform (rather than the <a href="/wiki/Cartesian_product" title="Cartesian product">Cartesian product</a> of all available types and platforms). In addition, adding a new window type does not require any modification of platform implementation, or vice versa.</p>
+<p>This is a <a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge pattern</a>. <code>Window</code> and <code>WindowImp</code> are different, but related. <code>Window</code> deals with windowing in the program, and <code>WindowImp</code> deals with windowing on a platform. One of them can change without ever having to modify the other. The Bridge pattern allows these two "separate class hierarchies to work together even as they evolve independently" (p. 54).</p>
+<h3><span class="mw-headline" id="User_Operations">User Operations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=9" title="Edit section: User Operations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>All actions the user can take with the document, ranging from entering text, changing formatting, quitting, saving, etc.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>Operations must be accessed through different inputs, such as a menu option and a keyboard shortcut for the same command</li>
+<li>Each option has an interface, which should be modifiable</li>
+<li>Operations are implemented in several different classes</li>
+<li>In order to avoid coupling, there must not be a lot of dependencies between implementation and user interface classes.</li>
+<li>Undo and redo commands must be supported on most document changing operations, with <a href="/wiki/Zero_one_infinity_rule" title="Zero one infinity rule">no arbitrary limit</a> on the number of levels of undo</li>
+<li>Functions are not viable, since they don't undo/redo easily, are not easily associated with a state, and are hard to extend or reuse.</li>
+<li>Menus should be treated like hierarchical composite structures. Hence, a menu is a menu item that contains menu items which may contain other menu items, etc.</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>Each menu item, rather than being instantiated with a list of parameters, is instead done with a <i>Command</i> object.</p>
+<p>Command is an abstract object that only has a single abstract <code>Execute()</code> method. Derivative objects extend the <code>Execute()</code> method appropriately (i.e., the <code>PasteCommand.Execute()</code> would utilize the content's clipboard buffer). These objects can be used by widgets or buttons just as easily as they can be used by menu items.</p>
+<p>To support undo and redo, <code>Command</code> is also given <code>Unexecute()</code> and <code>Reversible()</code>. In derivative classes, the former contains code that will undo that command, and the latter returns a boolean value that defines if the command is undoable. <code>Reversible()</code> allows some commands to be non-undoable, such as a Save command.</p>
+<p>All executed <code>Commands</code> are kept in a list with a method of keeping a "present" marker directly after the most recently executed command. A request to undo will call the <code>Command.Unexecute()</code> directly before "present", then move "present" back one command. Conversely, a <code>Redo</code> request will call <code>Command.Execute()</code> after "present", and move "present" forward one.</p>
+<p>This <code>Command</code> approach is an implementation of the <a href="/wiki/Command_pattern" title="Command pattern">Command pattern</a>. It encapsulates requests in objects, and uses a common interface to access those requests. Thus, the client can handle different requests, and commands can be scattered throughout the application.</p>
+<h3><span class="mw-headline" id="Spell_Check_and_Hyphenation">Spell Check and Hyphenation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=10" title="Edit section: Spell Check and Hyphenation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This is the document editor's ability to textually analyze the contents of a document. Although there are many analyses that can be performed, spell check and hyphenation-formatting are the focus.</p>
+<p><b>Problems and Constraints</b></p>
+<ol>
+<li>Allow for multiple ways to check spelling and identify places for hyphenation</li>
+<li>Allow for expansion for future analysis (e.g., word count, grammar check)</li>
+<li>Be able to iterate through a text's contents without access to the text's actual structure (e.g., array, linked list, string)</li>
+<li>Allow for any manner of traversal of document (beginning to end, end to beginning, alphabetical order, etc.)</li>
+</ol>
+<p><b>Solution and Pattern</b></p>
+<p>Removing the integer-based index from the basic element allows for a different iteration interface to be implemented. This will require extra methods for traversal and object retrieval. These methods are put into an abstract <code>Iterator</code> interface. Each element then implements a derivation of the <code>Iterator</code>, depending on how that element keeps its list (<code>ArrayIterator</code>, <code>LinkListIterator</code>, etc.).</p>
+<p>Functions for traversal and retrieval are put into the abstract Iterator interface. Future Iterators can be derived based on the type of list they will be iterating through, such as Arrays or Linked Lists. Thus, no matter what type of indexing method any implementation of the element uses, it will have the appropriate Iterator.</p>
+<p>This is an implementation of the <a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator pattern</a>. It allows the client to traverse through any object collection, without needing to access the contents of the collection directly, or be concerned about the type of list the collection's structure uses.</p>
+<p>Now that traversal has been handled, it is possible to analyze the elements of a structure. It is not feasible to build each type of analysis into the element structure themselves; every element would need to be coded, and much of the code would be the same for similar elements.</p>
+<p>Instead, a generic <code>CheckMe()</code> method is built into the element's abstract class. Each Iterator is given a reference to a specific algorithm (such as spell check, grammar check, etc.). When that Iterator iterates through its collection, it calls each element's <code>CheckMe</code>, passing the specified algorithm. <code>CheckMe</code> then passes a reference to its element back to said algorithm for analysis.</p>
+<p>Thus, to perform a spell check, a front-to-end iterator would be given a reference to a <code>SpellCheck</code> object. The iterator would then access each element, executing its <code>CheckMe()</code> method with the <code>SpellCheck</code> parameter. Each <code>CheckMe</code> would then call the <code>SpellCheck</code>, passing a reference to the appropriate element.</p>
+<p>In this manner, any algorithm can be used with any traversal method, without hard-code coupling one with the other. For example, Find can be used as "find next" or "find previous", depending on if a "forward" iterator was used, or a "backwards" iterator.</p>
+<p>In addition, the algorithm themselves can be responsible for dealing with different elements. For example, a <code>SpellCheck</code> algorithm would ignore a <code>Graphic</code> element, rather than having to program every <code>Graphic</code>-derived element to not send themselves to a <code>SpellCheck</code>.</p>
+<h2><span class="mw-headline" id="Patterns_by_Type">Patterns by Type</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=11" title="Edit section: Patterns by Type">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Creational">Creational</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=12" title="Edit section: Creational">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Creational_pattern" title="Creational pattern">Creational pattern</a></div>
+<p><a href="/wiki/Creational_pattern" title="Creational pattern">Creational patterns</a> are ones that create objects for you, rather than having you instantiate objects directly. This gives your program more flexibility in deciding which objects need to be created for a given case.</p>
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory pattern</a> groups object factories that have a common theme.</li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder pattern</a> constructs complex objects by separating construction and representation.</li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method pattern</a> creates objects without specifying the exact class to create.</li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype pattern</a> creates objects by cloning an existing object.</li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton pattern</a> restricts object creation for a class to only one instance.</li>
+</ul>
+<h3><span class="mw-headline" id="Structural">Structural</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=13" title="Edit section: Structural">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.</p>
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a> allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.</li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a> decouples an abstraction from its implementation so that the two can vary independently.</li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a> composes zero-or-more similar objects so that they can be manipulated as one object.</li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a> dynamically adds/overrides behaviour in an existing method of an object.</li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a> provides a simplified interface to a large body of code.</li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a> reduces the cost of creating and manipulating a large number of similar objects.</li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a> provides a placeholder for another object to control access, reduce cost, and reduce complexity.</li>
+</ul>
+<h3><span class="mw-headline" id="Behavioral">Behavioral</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=14" title="Edit section: Behavioral">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Most of these design patterns are specifically concerned with communication between <b>objects</b>.</p>
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a> delegates commands to a chain of processing objects.</li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a> creates objects which encapsulate actions and parameters.</li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a> implements a specialized language.</li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a> accesses the elements of an object sequentially without exposing its underlying representation.</li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a> allows <a href="/wiki/Loose_coupling" title="Loose coupling">loose coupling</a> between classes by being the only class that has detailed knowledge of their methods.</li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a> provides the ability to restore an object to its previous state (undo).</li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a> is a publish/subscribe pattern which allows a number of observer objects to see an event.</li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a> allows an object to alter its behavior when its internal state changes.</li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a> allows one of a family of algorithms to be selected on-the-fly at runtime.</li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a> defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.</li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a> separates an algorithm from an object structure by moving the hierarchy of methods into one object.</li>
+</ul>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=15" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Significant criticism has been directed at the concept of <a href="/wiki/Software_design_pattern" title="Software design pattern">software design patterns</a> generally, and at <i>Design Patterns</i> specifically.</p>
+<p>A primary criticism of <i>Design Patterns</i> is that its patterns are simply workarounds for missing features in C++, replacing elegant abstract features with lengthy concrete patterns, essentially becoming a "human compiler" or "generating by hand the expansions of some macro".<sup class="reference" id="cite_ref-Graham2002_4-0"><a href="#cite_note-Graham2002-4">[4]</a></sup> <a href="/wiki/Peter_Norvig" title="Peter Norvig">Peter Norvig</a> demonstrates that 16 out of the 23 patterns in <i>Design Patterns</i> are simplified or eliminated (via direct language support) in <a href="/wiki/Lisp_(programming_language)" title="Lisp (programming language)">Lisp</a> or <a href="/wiki/Dylan_(programming_language)" title="Dylan (programming language)">Dylan</a>.<sup class="reference" id="cite_ref-Norvig1998_5-0"><a href="#cite_note-Norvig1998-5">[5]</a></sup> Related observations were made by Hannemann and <a href="/wiki/Gregor_Kiczales" title="Gregor Kiczales">Kiczales</a> who implemented several of the 23 design patterns using an <a href="/wiki/Aspect-oriented_programming" title="Aspect-oriented programming">aspect-oriented programming language</a> (AspectJ) and showed that code-level dependencies were removed from the implementations of 17 of the 23 design patterns and that aspect-oriented programming could simplify the implementations of design patterns.<sup class="reference" id="cite_ref-Hannemann_2002_6-0"><a href="#cite_note-Hannemann_2002-6">[6]</a></sup></p>
+<p>Paul Graham wrote:<sup class="reference" id="cite_ref-Graham2002_4-1"><a href="#cite_note-Graham2002-4">[4]</a></sup></p>
+<blockquote class="templatequote">
+<p>When I see patterns in my programs, I consider it a sign of trouble. The shape of a program should reflect only the problem it needs to solve. Any other regularity in the code is a sign, to me at least, that I'm using abstractions that aren't powerful enough-- often that I'm generating by hand the expansions of some macro that I need to write.</p>
+</blockquote>
+<p>There has also been humorous criticism, such as a show trial at OOPSLA '99 on 3 November 1999,<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[a]</a></sup> and a parody of the format, by <a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a>, entitled "<a class="external text" href="http://c2.com/cgi/wiki?KansasCityAirConditioner" rel="nofollow">Kansas City Air Conditioner</a>".</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design pattern</a></li>
+<li><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></li>
+<li><a href="/wiki/GRASP_(object-oriented_design)" title="GRASP (object-oriented design)">GRASP (object-oriented design)</a></li>
+<li><a href="/wiki/Pedagogical_patterns" title="Pedagogical patterns">Pedagogical patterns</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=17" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: lower-alpha;">
+<ol class="references">
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Presiding Magistrate Neil Harrison, Head Prosecuter <a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a>, Defending Barrister <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>, Court Baliff <a href="/wiki/Big_ball_of_mud" title="Big ball of mud">Brian Foote</a>; Richard Helm submitted a <a class="external text" href="http://www.laputan.org/patterns/helm.html" rel="nofollow">confession</a>, while the rest stood trial.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_Patterns&amp;action=edit&amp;section=18" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external text" href="http://c2.com/cgi/wiki?GangOfFour" rel="nofollow">Gang Of Four</a>, Content Creation Wiki for People Projects And Patterns in Software Development.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a class="external text" href="http://c2.com/cgi/wiki?RichardHelm" rel="nofollow">Richard Helm</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.sigplan.org/sites/default/files/report2005.pdf" rel="nofollow">SIGPLAN FY '05 Annual Report</a></span></li>
+<li id="cite_note-Graham2002-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-Graham2002_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Graham2002_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Graham, Paul</a> (2002). <a class="external text" href="http://www.paulgraham.com/icad.html" rel="nofollow"><i>Revenge of the Nerds</i></a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-08-11</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+Patterns&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.btitle=Revenge+of+the+Nerds&amp;rft.date=2002&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.paulgraham.com%2Ficad.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Norvig1998-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Norvig1998_5-0">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Peter_Norvig" title="Peter Norvig">Norvig, Peter</a> (1998). <a class="external text" href="http://www.norvig.com/design-patterns/" rel="nofollow"><i>Design Patterns in Dynamic Languages</i></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+Patterns&amp;rft.aufirst=Peter&amp;rft.aulast=Norvig&amp;rft.btitle=Design+Patterns+in+Dynamic+Languages&amp;rft.date=1998&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.norvig.com%2Fdesign-patterns%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Hannemann_2002-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Hannemann_2002_6-0">^</a></b></span> <span class="reference-text"><cite class="citation conference">Hannemann, Jan (2002). <a class="external text" href="http://hannemann.pbworks.com/w/page/16577895/Design%20Pattern" rel="nofollow"><i>Design pattern implementation in Java and AspectJ</i></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+Patterns&amp;rft.aufirst=Jan&amp;rft.aulast=Hannemann&amp;rft.btitle=Design+pattern+implementation+in+Java+and+AspectJ&amp;rft.date=2002&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fhannemann.pbworks.com%2Fw%2Fpage%2F16577895%2FDesign%2520Pattern&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.laputan.org/patterns/trial.html" rel="nofollow">Indictment</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.laputan.org/patterns/gang-of-four.html" rel="nofollow">The Show Trial of the Gang-of-Four</a>, <a href="/wiki/Big_ball_of_mud" title="Big ball of mud">Brian Foote</a></span></li>
+</ol>
+</div>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><strong class="selflink">Gang of Four<br/>
+patterns</strong></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><strong class="selflink">Design Patterns</strong></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:40394-0!*!0!!en!4!* and timestamp 20160930224047 and revision id 737818758
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Design_Patterns&amp;oldid=737818758">https://en.wikipedia.org/w/index.php?title=Design_Patterns&amp;oldid=737818758</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Software_engineering_books" title="Category:Software engineering books">Software engineering books</a></li><li><a href="/wiki/Category:1994_books" title="Category:1994 books">1994 books</a></li><li><a href="/wiki/Category:Addison-Wesley_books" title="Category:Addison-Wesley books">Addison-Wesley books</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_articles_needing_reorganization_from_July_2013" title="Category:Wikipedia articles needing reorganization from July 2013">Wikipedia articles needing reorganization from July 2013</a></li><li><a href="/wiki/Category:Articles_with_peacock_terms_from_July_2013" title="Category:Articles with peacock terms from July 2013">Articles with peacock terms from July 2013</a></li><li><a href="/wiki/Category:All_articles_with_peacock_terms" title="Category:All articles with peacock terms">All articles with peacock terms</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_August_2014" title="Category:Articles needing additional references from August 2014">Articles needing additional references from August 2014</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Design+Patterns" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Design+Patterns" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Design_Patterns" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Design_Patterns" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Design_Patterns">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Design_Patterns&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Design_Patterns&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Design_Patterns" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Design_Patterns" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Design_Patterns&amp;oldid=737818758" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Design_Patterns&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q1283101" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Design_Patterns&amp;id=737818758" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Design+Patterns">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Design+Patterns&amp;returnto=Design+Patterns&amp;oldid=737818758&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Design_Patterns&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AE%D8%B7%D8%B7_%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_(%D8%AD%D8%A7%D8%B3%D9%88%D8%A8)" hreflang="ar" lang="ar" title="خطط التصميم (حاسوب) – Arabic">العربية</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Entwurfsmuster_(Buch)" hreflang="de" lang="de" title="Entwurfsmuster (Buch) – German">Deutsch</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%D9%87%D8%A7%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C" hreflang="fa" lang="fa" title="الگوهای طراحی – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Design_Patterns" hreflang="fr" lang="fr" title="Design Patterns – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%94%94%EC%9E%90%EC%9D%B8_%ED%8C%A8%ED%84%B4_(%EC%B1%85)" hreflang="ko" lang="ko" title="디자인 패턴 (책) – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Design_Patterns" hreflang="it" lang="it" title="Design Patterns – Italian">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Design_Patterns" hreflang="nl" lang="nl" title="Design Patterns – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/Design_Patterns" hreflang="ru" lang="ru" title="Design Patterns – Russian">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Design_Patterns_(knjiga)" hreflang="sh" lang="sh" title="Design Patterns (knjiga) – Serbo-Croatian">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Design_Patterns" hreflang="sv" lang="sv" title="Design Patterns – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%BF%E0%AE%B0%E0%AE%B2%E0%AE%BF_%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" hreflang="ta" lang="ta" title="நிரலி வடிவமைப்பியல் – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Design_Patterns_(%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0)" hreflang="uk" lang="uk" title="Design Patterns (книга) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Design_Patterns" hreflang="vi" lang="vi" title="Design Patterns – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%9A%E5%8F%AF%E5%A4%8D%E7%94%A8%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%9F%BA%E7%A1%80" hreflang="zh" lang="zh" title="设计模式：可复用面向对象软件的基础 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q1283101#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 5 September 2016, at 06:21.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Design_Patterns&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.188",
+            "walltime": "0.261",
+            "ppvisitednodes": {
+                "value": 1899,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 68153,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 11786,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 16,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 3,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  202.623      1 -total",
+                " 29.98%   60.747      4 Template:Ambox",
+                " 25.60%   51.876      1 Template:Infobox_book",
+                " 24.09%   48.802      1 Template:Multiple_issues",
+                " 20.55%   41.641      1 Template:Infobox",
+                " 19.60%   39.714      2 Template:Reflist",
+                " 15.00%   30.398      3 Template:Cite_conference",
+                " 10.38%   21.027      2 Template:Navbox",
+                "  9.66%   19.569      1 Template:Design_Patterns_Patterns",
+                "  8.17%   16.549      1 Template:Main_article"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.065",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3161628,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1253",
+            "timestamp": "20160930224047",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1254"});});</script>
+</body>
+</html>
+

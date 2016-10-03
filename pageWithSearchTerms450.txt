@@ -1,0 +1,695 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Service-oriented_modeling#Service-oriented_modeling_framework
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Service-oriented modeling - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Service-oriented_modeling","wgTitle":"Service-oriented modeling","wgCurRevisionId":730341916,"wgRevisionId":730341916,"wgArticleId":12943175,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with reference errors","Pages with duplicate reference names","Articles needing additional references from February 2009","All articles needing additional references","Commons category with local link same as on Wikidata","Service-oriented (business computing)","Enterprise modelling"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Service-oriented_modeling","wgRelevantArticleId":12943175,"wgRequestId":"V-B7uApAIDAAABPoNwEAAABO","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q7455644","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.page.gallery.styles%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Service-oriented_modeling" rel="alternate"/>
+<link href="/w/index.php?title=Service-oriented_modeling&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Service-oriented_modeling&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Service-oriented_modeling" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Service-oriented_modeling rootpage-Service-oriented_modeling skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Service-oriented modeling</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:422px;"><a class="image" href="/wiki/File:SOMF_DA_Example5.jpg"><img alt="" class="thumbimage" data-file-height="248" data-file-width="626" height="166" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/SOMF_DA_Example5.jpg/420px-SOMF_DA_Example5.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/2/27/SOMF_DA_Example5.jpg 1.5x" width="420"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_DA_Example5.jpg" title="Enlarge"></a></div>
+Example of a Service-Oriented Modeling Framework (SOMF) Diagram.</div>
+</div>
+</div>
+<p><b>Service-oriented modeling</b> is the discipline of <a class="mw-redirect" href="/wiki/Scientific_modeling" title="Scientific modeling">modeling</a> business and software systems, for the purpose of designing and specifying <a href="/wiki/Service-orientation" title="Service-orientation">service-oriented</a> business systems within a variety of architectural styles, such as <a href="/wiki/Enterprise_architecture" title="Enterprise architecture">enterprise architecture</a>, <a class="mw-redirect" href="/wiki/Application_architecture" title="Application architecture">application architecture</a>, <a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">service-oriented architecture</a>, and <a href="/wiki/Cloud_computing" title="Cloud computing">cloud computing</a>.</p>
+<p>Any service-oriented modeling methodology typically includes a <a href="/wiki/Modeling_language" title="Modeling language">modeling language</a> that can be employed by both the 'problem domain organization' (the Business), and 'solution domain organization' (the <a class="mw-redirect" href="/wiki/Information_Technology" title="Information Technology">Information Technology</a> Department), whose unique perspectives typically influence the 'service' development life-cycle strategy and the projects implemented using that strategy.</p>
+<p>Service-oriented modeling typically strives to create models that provide a comprehensive view of the analysis, design, and architecture of all 'Software Entities' in an organization, which can be understood by individuals with diverse levels of business and technical understanding. Service-oriented modeling typically encourages viewing software entities as 'assets' (service-oriented assets), and refers to these assets collectively as 'services'.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Popular_approaches"><span class="tocnumber">1</span> <span class="toctext">Popular approaches</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Service-oriented_modeling_and_architecture"><span class="tocnumber">1.1</span> <span class="toctext">Service-oriented modeling and architecture</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Life_cycle_modeling_activities"><span class="tocnumber">1.1.1</span> <span class="toctext">Life cycle modeling activities</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-4"><a href="#Service-oriented_modeling_framework_.28SOMF.29"><span class="tocnumber">1.2</span> <span class="toctext">Service-oriented modeling framework (SOMF)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Language_modeling_generations"><span class="tocnumber">1.2.1</span> <span class="toctext">Language modeling generations</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Transformation_models"><span class="tocnumber">1.2.2</span> <span class="toctext">Transformation models</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Discipline-specific_modeling"><span class="tocnumber">1.2.3</span> <span class="toctext">Discipline-specific modeling</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Methodological_issues"><span class="tocnumber">2</span> <span class="toctext">Methodological issues</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Modeling_styles"><span class="tocnumber">2.1</span> <span class="toctext">Modeling styles</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Modeling_asset_patterns"><span class="tocnumber">2.2</span> <span class="toctext">Modeling asset patterns</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Modeling_notation"><span class="tocnumber">2.3</span> <span class="toctext">Modeling notation</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Service-oriented_conceptualization"><span class="tocnumber">2.4</span> <span class="toctext">Service-oriented conceptualization</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Examples"><span class="tocnumber">3</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Cloud_computing_modeling_capabilities"><span class="tocnumber">4</span> <span class="toctext">Cloud computing modeling capabilities</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Cloud_computing_modeling_examples"><span class="tocnumber">4.1</span> <span class="toctext">Cloud computing modeling examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Popular_approaches">Popular approaches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=1" title="Edit section: Popular approaches">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are many different approaches that have been proposed for service modeling, including SOMA and SOMF.</p>
+<h3><span class="mw-headline" id="Service-oriented_modeling_and_architecture">Service-oriented modeling and architecture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=2" title="Edit section: Service-oriented modeling and architecture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/IBM" title="IBM">IBM</a> announced service-oriented modeling and architecture (SOMA) as the first publicly announced SOA-related methodology in 2004.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> SOMA refers to the more general domain of service modeling necessary to design and create SOA. SOMA covers a broader scope and implements service-oriented analysis and design (SOAD) through the identification, specification and realization of services, components that realize those services (a.k.a. "service components"), and flows that can be used to compose services.</p>
+<p>SOMA includes an analysis and design method that extends traditional object-oriented and component-based analysis and design methods to include concerns relevant to and supporting SOA. It consists of three major phases of identification, specification and realization of the three main elements of SOA, namely, services, components that realize those services (aka service components) and flows that can be used to compose services.</p>
+<p>SOMA is an end-to-end SOA method for the identification, specification, realization and implementation of services (including information services), components, flows (processes/composition). SOMA builds on current techniques in areas such as domain analysis, functional areas grouping, variability-oriented analysis (VOA) process modeling, component-based development, object-oriented analysis and design and use case modeling. SOMA introduces new techniques such as goal-service modeling, service model creation and a service litmus test to help determine the granularity of a service.</p>
+<p>SOMA identifies services, component boundaries, flows, compositions, and information through complementary techniques which include domain decomposition, goal-service modeling and existing asset analysis.</p>
+<h4><span class="mw-headline" id="Life_cycle_modeling_activities">Life cycle modeling activities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=3" title="Edit section: Life cycle modeling activities">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Service-oriented modeling and architecture (SOMA) consists of the phases of identification, specification, realization, implementation, deployment and management in which the fundamental building blocks of SOA are identified then refined and implemented in each phase. The fundamental building blocks of SOA consists of services, components, flows and related to them, information, policy and contracts.</p>
+<h3><span class="mw-headline" id="Service-oriented_modeling_framework_.28SOMF.29">Service-oriented modeling framework (SOMF)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=4" title="Edit section: Service-oriented modeling framework (SOMF)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable" style="float: right; clear: right; width: 20em; margin-left: 1em;">
+<caption>Service-oriented modeling framework (SOMF) characteristics</caption>
+<tr>
+<td>
+<ul>
+<li>Driving modeling paradigm
+<ul>
+<li><a href="/wiki/Holism" title="Holism">Holistic</a></li>
+<li><a href="/wiki/Anthropomorphism" title="Anthropomorphism">Anthropomorphic</a></li>
+<li><a href="#Discipline-specific_modeling">Discipline-specific</a></li>
+<li><a class="mw-redirect" href="/wiki/3D_Modeling" title="3D Modeling">Virtual modeling</a></li>
+<li><a href="/wiki/Visual_modeling" title="Visual modeling">Visual modeling</a></li>
+<li><a href="#SOMF_Modeling_styles">Style</a> and <a href="/wiki/Design_pattern" title="Design pattern">pattern</a> oriented</li>
+<li>Modeling generations: <a href="#SOMF_Language_modeling_generations">as-is, to-be, used-to-be</a></li>
+<li><a class="mw-redirect" href="/wiki/Federated_Architecture" title="Federated Architecture">Federated Architecture</a></li>
+</ul>
+</li>
+<li>Architectural applications
+<ul>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Business_architecture" title="Business architecture">Business architecture</a></li>
+<li><a class="mw-redirect" href="/wiki/Application_Architecture" title="Application Architecture">Application Architecture</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service-oriented architecture</a> (SOA)</li>
+<li><a href="/wiki/Cloud_computing" title="Cloud computing">Cloud computing</a></li>
+</ul>
+</li>
+<li>Chief business goals
+<ul>
+<li>Asset <a href="/wiki/Consolidation_(business)" title="Consolidation (business)">consolidation</a></li>
+<li><a href="/wiki/Cost" title="Cost">Expenditure</a> reduction</li>
+<li><a href="/wiki/Time_to_market" title="Time to market">Time to market</a></li>
+<li><a href="/wiki/Business_agility" title="Business agility">Business agility</a></li>
+<li><a class="mw-redirect" href="/wiki/Business_IT_alignment" title="Business IT alignment">Business and IT alignment</a></li>
+</ul>
+</li>
+<li>Overall technological goals
+<ul>
+<li>Architecture <a href="/wiki/Flexibility_(engineering)" title="Flexibility (engineering)">flexibility</a></li>
+<li>Technological <a href="/wiki/Extensibility" title="Extensibility">extensibility</a></li>
+<li><a href="/wiki/Interoperability" title="Interoperability">Interoperable</a> implementations</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<p>SOMF has been devised by author <a href="/wiki/Michael_B.T._Bell" title="Michael B.T. Bell">Michael Bell</a> as a holistic and anthropomorphic modeling language for <a href="/wiki/Software_development" title="Software development">software development</a> that employs disciplines and a universal language to provide tactical and strategic solutions to enterprise problems.<sup class="reference" id="cite_ref-Bell_2-0"><a href="#cite_note-Bell-2">[2]</a></sup> The term "holistic language" pertains to a modeling language that can be employed to design any application, business and technological environment, either local or distributed. This universality may include design of application-level and enterprise-level solutions, including SOA landscapes, cloud computing, or big data environments. The term "anthropomorphic", on the other hand, affiliates the SOMF language with intuitiveness of implementation and simplicity of usage. Furthermore, The SOMF language and its notation has been adopted by Sparx <a href="/wiki/Enterprise_Architect_(software)" title="Enterprise Architect (software)">Enterprise Architect</a> modeling platform that enables business architects, technical architects, managers, modelers, developers, and business and technical analysts to pursue the chief SOMF life cycle disciplines.</p>
+<p>SOMF is a service-oriented development life cycle methodology, a <a href="/wiki/Service-oriented_modeling#Discipline-specific_modeling" title="Service-oriented modeling">discipline-specific modeling</a> process. It offers a number of modeling practices and disciplines that contribute to a successful service-oriented life cycle development and modeling during a project (see image on left).</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:SOMF_V_2.0.jpg"><img alt="" class="thumbimage" data-file-height="522" data-file-width="736" height="170" src="//upload.wikimedia.org/wikipedia/en/thumb/7/77/SOMF_V_2.0.jpg/240px-SOMF_V_2.0.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/7/77/SOMF_V_2.0.jpg/360px-SOMF_V_2.0.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/7/77/SOMF_V_2.0.jpg/480px-SOMF_V_2.0.jpg 2x" width="240"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_V_2.0.jpg" title="Enlarge"></a></div>
+SOMF Version 2.0</div>
+</div>
+</div>
+<p>It illustrates the major elements that identify the “what to do” aspects of a service development scheme. These are the modeling pillars that will enable practitioners to craft an effective project plan and to identify the milestones of a service-oriented initiative—either a small or large-scale business or a technological venture.</p>
+<p>The provided image thumb (on the left hand side) depicts the four sections of the modeling framework that identify the general direction and the corresponding units of work that make up a service-oriented modeling strategy: practices, environments, disciplines, and artifacts. These elements uncover the context of a modeling occupation and do not necessarily describe the process or the sequence of activities needed to fulfill modeling goals. These should be ironed out during the project plan – the service-oriented development life cycle strategy – that typically sets initiative boundaries, time frame, responsibilities and accountabilities, and achievable project milestones.</p>
+<h4><span class="mw-headline" id="Language_modeling_generations">Language modeling generations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=5" title="Edit section: Language modeling generations">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>SOMF introduces a transparency model by enabling three major modeling time frames, often named modeling generations:</p>
+<ul>
+<li>Used-to-be: Design scheme of software components and related environments that were deployed, configured, and used in the past</li>
+<li>As-is: Design of software components and corresponding environments that are currently being utilized</li>
+<li>To-be: Design of software components and corresponding environments that will be deployed, configured, and used in the future</li>
+</ul>
+<p>These three unique implementation generations can be viewed by SOMF diagrams and their corresponding perspectives to help practitioners to depict business and architectural decisions in the past, current, and future implementations. For example, an architect and a developer can describe the evolution of a system or an application since inception, and explain what were the architecture best practices that drove alterations to these software entities. This capability enables transparency of design and implementation. On the business side, modeling generations can help estimate return on investments and business value. Traceability of business investments and justifications to business initiatives can also be depicted by employing these modeling generations.</p>
+<h4><span class="mw-headline" id="Transformation_models">Transformation models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=6" title="Edit section: Transformation models">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:SOMF-Models.jpg"><img alt="" class="thumbimage" data-file-height="267" data-file-width="352" height="182" src="//upload.wikimedia.org/wikipedia/en/thumb/f/fe/SOMF-Models.jpg/240px-SOMF-Models.jpg" srcset="//upload.wikimedia.org/wikipedia/en/f/fe/SOMF-Models.jpg 1.5x" width="240"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF-Models.jpg" title="Enlarge"></a></div>
+SOMF Transformation Models</div>
+</div>
+</div>
+<p>SOMF offers eight models of implementation, also known as "Bell's Transformation Models", as depicted in the displayed image named SOMF transformation models. Each of these units of work, namely models, identify the methodology, process, platform, best practices, and disciplines by which a practitioner ought to accomplish a modeling task during a project. The illustrated ninth model is the Governance Model, which should be employed to manage the other eight models.</p>
+<p>Consider the overall charter of the SOMF implementation models:</p>
+<ul>
+<li><a class="new" href="/w/index.php?title=Discovery_model&amp;action=edit&amp;redlink=1" title="Discovery model (page does not exist)">Discovery model</a>: This model should be employed when ascertaining new software entities to provide a solution</li>
+<li><a class="new" href="/w/index.php?title=Analysis_model&amp;action=edit&amp;redlink=1" title="Analysis model (page does not exist)">Analysis model</a>: The analysis model is devised to inspect a software component's feasibility to offer a solution, help analyzing business and technical requirements, and assist with measuring the success of implementation</li>
+<li><a class="new" href="/w/index.php?title=Design_model&amp;action=edit&amp;redlink=1" title="Design model (page does not exist)">Design model</a>: Facilitates logical design of software entities; and contributes to component relationship, deployment compositions, and establishment of transactions</li>
+<li><a class="new" href="/w/index.php?title=Technical_architecture_model&amp;action=edit&amp;redlink=1" title="Technical architecture model (page does not exist)">Technical architecture model</a>: This model involves three major architecture perspectives: conceptual architecture, logical architecture, and physical architecture.</li>
+<li><a class="new" href="/w/index.php?title=Construction_model&amp;action=edit&amp;redlink=1" title="Construction model (page does not exist)">Construction model</a>: Assists with modeling practices during the source code implementation phase</li>
+<li><a class="new" href="/w/index.php?title=Quality_assurance_model&amp;action=edit&amp;redlink=1" title="Quality assurance model (page does not exist)">Quality assurance model</a>: Certifies software components for production and ensures stability of business and technical continuity</li>
+<li><a class="new" href="/w/index.php?title=Operations_model&amp;action=edit&amp;redlink=1" title="Operations model (page does not exist)">Operations model</a>: Enables a stable production environment and assures proper deployment and configuration of software entities</li>
+<li><a class="new" href="/w/index.php?title=Business_architecture_model&amp;action=edit&amp;redlink=1" title="Business architecture model (page does not exist)">Business architecture model</a>: This model fosters proper integration of contextual and structural business formations with software entities</li>
+<li><a class="new" href="/w/index.php?title=Governance_model&amp;action=edit&amp;redlink=1" title="Governance model (page does not exist)">Governance model</a>: Offers best practices, standards, and policies for all SOMF implementation models</li>
+</ul>
+<h4><span class="mw-headline" id="Discipline-specific_modeling">Discipline-specific modeling</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=7" title="Edit section: Discipline-specific modeling">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:SOMF-Life_Cycle_Activities.jpg"><img alt="" class="thumbimage" data-file-height="494" data-file-width="488" height="243" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/SOMF-Life_Cycle_Activities.jpg/240px-SOMF-Life_Cycle_Activities.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/SOMF-Life_Cycle_Activities.jpg/360px-SOMF-Life_Cycle_Activities.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/SOMF-Life_Cycle_Activities.jpg/480px-SOMF-Life_Cycle_Activities.jpg 2x" width="240"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF-Life_Cycle_Activities.jpg" title="Enlarge"></a></div>
+SOMF Life Cycle Activities</div>
+</div>
+</div>
+<p>SOMF is driven by the development process of services. This approach, also named discipline-specific modeling (DspM), enables business and information technology professionals to focus on modeling deliverables that correspond to a specific software development life cycle stage and event.</p>
+<p>The service-oriented modeling framework (SOMF) introduces five major life cycle modeling activities that drive a service evolution during design-time and run-time. At the design-time phase a service originates as a conceptual entity (conceptual service), later it transforms into a unit of analysis (analysis service), next it transitions into a contractual and logical entity (design service), and finally is established as a concrete service (solution service). The following identify the major contributions of the service-oriented modeling activities:</p>
+<ul>
+<li>Service-oriented discovery &amp; analysis modeling: Discover and analyze services for granularity, reusability, interoperability, loose-coupling, and identify consolidation opportunities.</li>
+<li>Service-oriented business integration modeling: Identify service integration and alignment opportunities with business domains' processes (organizations, products, geographical locations)</li>
+<li>Service-oriented logical design modeling: Establish service relationships and message exchange paths. Address service visibility. Craft service logical compositions. Model service transactions</li>
+<li>Service-oriented conceptual architecture modeling: Establish an application or enterprise architectural direction. Depict a technological environment. Craft a technological stack. Identify business ownership.</li>
+<li>Service-oriented logical architecture modeling: Integrate organizational software assets. Establish logical environment dependencies. Foster service reuse, <a href="/wiki/Loose_coupling" title="Loose coupling">loose coupling</a> and consolidation.</li>
+</ul>
+<h2><span class="mw-headline" id="Methodological_issues">Methodological issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=8" title="Edit section: Methodological issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Modeling_styles">Modeling styles</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=9" title="Edit section: Modeling styles">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:SOMF_Modeling_Beams.jpg"><img alt="" class="thumbimage" data-file-height="422" data-file-width="428" height="237" src="//upload.wikimedia.org/wikipedia/en/thumb/6/6a/SOMF_Modeling_Beams.jpg/240px-SOMF_Modeling_Beams.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/6a/SOMF_Modeling_Beams.jpg/360px-SOMF_Modeling_Beams.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/6/6a/SOMF_Modeling_Beams.jpg 2x" width="240"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_Modeling_Beams.jpg" title="Enlarge"></a></div>
+SOMF modeling styles</div>
+</div>
+</div>
+<p>How can a practitioner model a computing environment? In what type of forms can a group of services be arranged to enable an efficient integrated computing landscape? What would be the best message routes between a service consumer and provider? How can interoperability hurdles be mitigated? How can an organization discover a topology in which systems exchange messages?</p>
+<p>SOMF provides five major software modeling styles useful throughout a service life cycle (conceptualization, discovery and analysis, business integration, logical design, conceptual and logical architecture). These modeling styles: circular, hierarchical, network, bus, and star, are illustrated by corresponding "modeling beams"—connectors that link services to each other, can assist a software modeler with the following modeling aspects:</p>
+<ul>
+<li>Identify service relationships: contextual and technological affiliations</li>
+<li>Establish message routes between consumers and services</li>
+<li>Provide efficient service orchestration and choreography methods</li>
+<li>Create powerful service transaction and behavioral patterns</li>
+<li>Offer valuable service packaging solutions</li>
+</ul>
+<p>In the illustration on the right you will find the major five service-oriented modeling styles that SOMF offers. Each pattern identifies the various approaches and strategies that one should consider employing when modeling a service ecosystem.</p>
+<ul>
+<li><i>Circular modeling style</i>: enables message exchange in a circular fashion, rather than employing a controller to carry out the distribution of messages. The circular style also offers a conceptual method to affiliating services.</li>
+<li><i>Hierarchical modeling style</i>: offers a relationship pattern between services for the purpose of establishing transactions and message exchange routes between consumers and services. The hierarchical pattern founds parent/child associations between services.</li>
+<li><i>Network modeling style</i>: this pattern establishes “many to many” relationship between services, their peer services, and consumers. The network pattern accentuates on distributed environments and interoperable computing networks.</li>
+<li><i>Star modeling style</i>: the star pattern advocates arranging services in a star formation, in which the central service passes messages to its extending arms. The Star modeling style is often used in “multi casting” or “publish and subscribe” instances, where “solicitation” or “fire and forget” message styles are involved.</li>
+<li><i>Bus modeling style</i>: illustrates an intermediary service that connects consumers with service providers for the purpose of message exchange duties.</li>
+</ul>
+<h3><span class="mw-headline" id="Modeling_asset_patterns">Modeling asset patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=10" title="Edit section: Modeling asset patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The service-oriented modeling framework (SOMF) introduces four major software formations. These structures are software entities that habitually exist in our computing environments. In addition, the notion of a software component is further abstracted and represented by the universal "service" term, which can represent any organizational software asset, such as an object, a software module, a library component, an application, a business process, a database, a database store procedure or trigger, an <a href="/wiki/Enterprise_service_bus" title="Enterprise service bus">ESB</a>, a legacy implementation, a Web service, and more. Again, any of these software entities can be named "service". The image below illustrates these asset patterns.</p>
+<div class="center">
+<div class="floatnone"><a class="image" href="/wiki/File:SOMF_ASSETS_3D.png" title="SOMF Asset Patterns"><img alt="SOMF Asset Patterns" data-file-height="607" data-file-width="1024" height="296" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f7/SOMF_ASSETS_3D.png/500px-SOMF_ASSETS_3D.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f7/SOMF_ASSETS_3D.png/750px-SOMF_ASSETS_3D.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f7/SOMF_ASSETS_3D.png/1000px-SOMF_ASSETS_3D.png 2x" width="500"/></a></div>
+</div>
+<p>Thus, a service is classified by its contextual and structural attributes:</p>
+<ul>
+<li><i>Atomic service</i>: an indivisible software component that is too granular and executes fewer business or technical functionalities. An atomic formation is also a piece of software that typically is not subject to decomposition analysis activities and its business or technological functionality does not justify breakdown to smaller components. Examples: customer address service and checking account balance service.</li>
+<li><i><span id="Composite_service">Composite service</span></i>: a composite service structure aggregates smaller and fine-grained services. This hierarchical service formation is characteristically known as coarse-grained entity that encompasses more business or technical processes. A composite service may aggregate atomic or other composite services. Examples: customer checking service that aggregates smaller checking account and savings account services. An application that is composed of sub-systems, an ESB that is composed of routing, orchestration, and data transformation components.</li>
+<li><i>Service cluster</i>: this is a collection of distributed and related services that are gathered because of their mutual business or technological commonalities. A service cluster both affiliates services and combines their offerings to solve a business problem. A cluster structure can aggregate atomic as well as composite formations. Examples: A Mutual Funds service cluster that is composed of related and distributed mutual funds services. A Customer Support service cluster that offers automated bill payments, online account statements, and money transfer capabilities</li>
+<li><i>Cloud of Services</i>: a collection of services that are delivered by a cloud computing implementation. These services can be classified as Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and more.</li>
+</ul>
+<p>The below image illustrates these SOMF assets that are being modeled during the analysis phase of a project.</p>
+<div class="center">
+<div class="floatnone"><a class="image" href="/wiki/File:SOMF_Analysis_Assets_V2.jpg" title="SOMF Analysis Assets"><img alt="SOMF Analysis Assets" data-file-height="140" data-file-width="685" height="102" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f7/SOMF_Analysis_Assets_V2.jpg/500px-SOMF_Analysis_Assets_V2.jpg" srcset="//upload.wikimedia.org/wikipedia/en/f/f7/SOMF_Analysis_Assets_V2.jpg 1.5x" width="500"/></a></div>
+</div>
+<h3><span class="mw-headline" id="Modeling_notation">Modeling notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=11" title="Edit section: Modeling notation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>As previously discussed, each SOMF life cycle discipline also offers a specialized notation. For example, the service-oriented discovery and analysis discipline provides a notation to help model the analysis and identification of services.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> In addition, during the design phase the SOMF design notation offers symbols to help model a logical design, design composition, and a service transaction model.</p>
+<p>Let us take a look at the service-oriented discovery and analysis modeling notation. During the service identification and inspection a practitioner should pursue two types of modeling tasks: (1) Contextual analysis and modeling, and (2) Structural analysis and modeling. These activities are performed to produce a service-oriented analysis proposition.</p>
+<p>The below illustration identifies the contextual analysis and modeling operations (represented by analysis symbols)that can be employed to draft an analysis proposition diagram. These operations promote the core service-oriented analysis discipline best practices.</p>
+<div class="center">
+<div class="thumb tnone">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:SOMF_Contextual_Analysis_Notation.jpg"><img alt="" class="thumbimage" data-file-height="249" data-file-width="449" height="177" src="//upload.wikimedia.org/wikipedia/en/thumb/3/36/SOMF_Contextual_Analysis_Notation.jpg/320px-SOMF_Contextual_Analysis_Notation.jpg" srcset="//upload.wikimedia.org/wikipedia/en/3/36/SOMF_Contextual_Analysis_Notation.jpg 1.5x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_Contextual_Analysis_Notation.jpg" title="Enlarge"></a></div>
+Service-oriented contextual analysis notation - SOMF 2.0<sup class="reference" id="cite_ref-Bell2010p223_4-0"><a href="#cite_note-Bell2010p223-4">[4]</a></sup></div>
+</div>
+</div>
+</div>
+<p>Here is a short description for these symbols:</p>
+<ul>
+<li><i>Generalized:</i> Increases service abstraction level and broadens service offerings</li>
+<li><i>Specified:</i> Decreases service abstraction level and limits service offerings</li>
+<li><i>Expanded:</i> Expands service operations in a distributed environment</li>
+<li><i>Contracted:</i> Trims service operations in a distributed environment</li>
+</ul>
+<p>The below illustration, on the other hand, depicts the service-oriented structural analysis and modeling notation.</p>
+<div class="center">
+<div class="thumb tnone">
+<div class="thumbinner" style="width:502px;"><a class="image" href="/wiki/File:SOMF_Structural_Analysis_Notation.jpg"><img alt="" class="thumbimage" data-file-height="387" data-file-width="713" height="271" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/SOMF_Structural_Analysis_Notation.jpg/500px-SOMF_Structural_Analysis_Notation.jpg" srcset="//upload.wikimedia.org/wikipedia/en/a/a4/SOMF_Structural_Analysis_Notation.jpg 1.5x" width="500"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_Structural_Analysis_Notation.jpg" title="Enlarge"></a></div>
+Service-oriented tructural analysis notation - SOMF 2.0<sup class="reference" id="cite_ref-Bell2010p223_4-1"><a href="#cite_note-Bell2010p223-4">[4]</a></sup></div>
+</div>
+</div>
+</div>
+<p>Here is a short description for these symbols:</p>
+<ul>
+<li><i>Aggregated:</i> Depicts containment of services</li>
+<li><i>Unified:</i> Joins services by creating a new service</li>
+<li><i>Compounded:</i> Groups services that offer collaborative solution</li>
+<li><i>Decomposed:</i> Detaches a child service from its containing parent</li>
+<li><i>Subtracted:</i> Retires a service</li>
+<li><i>Transformed:</i> Converts a service structure to another formation (i.e. from Atomic to Composite, etc.,)</li>
+<li><i>Intersected:</i> Intersects two or more service clusters</li>
+<li><i>Overlapped:</i> Identifies the overlapping region between two or more service clusters</li>
+<li><i>Excluded:</i> Isolates the overlapping region of a two ore more intersected service clusters</li>
+<li><i>Clipped:</i> Isolates a service from a distributed environment</li>
+<li><i>Coupled:</i> Structurally couples two autonomous services in a distributed environment</li>
+<li><i>Decoupled:</i> Structurally separates two autonomous services in a distributed environment</li>
+<li><i>Cloned:</i> Duplicates an instance of a service by creating a new and identical service</li>
+<li><i>De-cloned:</i> Separates cloned services</li>
+<li><i>Bound:</i> Identifies a contract between two services</li>
+<li><i>Unbound:</i> Identifies a contract cancellation between two services</li>
+<li><i>Operation Numbering:</i> Illustrates the sequence of analysis and modeling operations</li>
+<li><i>Comment:</i> A place to put comments next to each asset or operation</li>
+</ul>
+<h3><span class="mw-headline" id="Service-oriented_conceptualization">Service-oriented conceptualization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=12" title="Edit section: Service-oriented conceptualization">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The service-oriented modeling framework (SOMF) advocates that practitioners devise conceptual services to bridge the communication gaps in an organization. These conceptual entities foster the creation of a common language, a vocabulary that can be used during projects to encourage asset reuse and consolidation. One of the most important aspects of the conceptual service paradigm is that it provides direction and defines the scope of a project or a business initiative.</p>
+<p>The conceptualization process then identifies six major “tools” that can facilitate the development of conceptual services.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<ul>
+<li>Concept attribution: this activity pertains to the collection of software products attributes that both describe service’s features and lead to the discovery of organizational taxonomy</li>
+<li>Concept classification: the categorization effort contributes to separation of concerns and the establishment of service identities. This is the process of identifying service dissimilarities</li>
+<li>Concept association: Unlike the classification activity, the association effort enables the discovery of service relationship. These can be business or technological affiliations</li>
+<li>Concept clustering: this discipline is about grouping related conceptual services that collaboratively provide a solution. Clustering is a conceptual operation that can encompass local, remote, and virtual services</li>
+<li>Concept generalization: to raise the abstraction level of a conceptual service, the generalization method increases the conceptual scope of a solution. This approach is typically used when a service scope is too narrow.</li>
+<li>Concept specification: the specification activity enables architects, modelers, and developers to reduce the abstraction level of a service and narrow its conceptual scope.</li>
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=13" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Let us now view a number of service analysis modeling examples.</p>
+<ul class="gallery mw-gallery-traditional center">
+<li class="gallerycaption">Click on small images for full-size version</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:49px auto;"><a class="image" href="/wiki/File:SOMF_DA_Example1.jpg"><img alt="" data-file-height="218" data-file-width="506" height="52" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/SOMF_DA_Example1.jpg/120px-SOMF_DA_Example1.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/SOMF_DA_Example1.jpg/180px-SOMF_DA_Example1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/SOMF_DA_Example1.jpg/240px-SOMF_DA_Example1.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>1. Service Aggregation Example</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:49px auto;"><a class="image" href="/wiki/File:SOMF_DA_Example2.jpg"><img alt="" data-file-height="218" data-file-width="506" height="52" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/SOMF_DA_Example2.jpg/120px-SOMF_DA_Example2.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/SOMF_DA_Example2.jpg/180px-SOMF_DA_Example2.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/SOMF_DA_Example2.jpg/240px-SOMF_DA_Example2.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>2. Service Decomposition Example</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:49px auto;"><a class="image" href="/wiki/File:SOMF_DA_Example3.jpg"><img alt="" data-file-height="218" data-file-width="506" height="52" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/SOMF_DA_Example3.jpg/120px-SOMF_DA_Example3.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/SOMF_DA_Example3.jpg/180px-SOMF_DA_Example3.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f9/SOMF_DA_Example3.jpg/240px-SOMF_DA_Example3.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>3. Service Subtraction Example</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:45.5px auto;"><a class="image" href="/wiki/File:SOMF_DA_Example4.jpg"><img alt="" data-file-height="248" data-file-width="506" height="59" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SOMF_DA_Example4.jpg/120px-SOMF_DA_Example4.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SOMF_DA_Example4.jpg/180px-SOMF_DA_Example4.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SOMF_DA_Example4.jpg/240px-SOMF_DA_Example4.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>4. Service Substitution Example</p>
+</div>
+</div>
+</li>
+</ul>
+<ul>
+<li>Use Case 1 depicts a simple aggregation case, in which atomic service A-1 is aggregated in composite service C-1 because of SOA best practice reasons.</li>
+<li>Use Case 2 describes service decomposition. Once again, this is because of an SOA best practice rule.</li>
+<li>Use Case 3 illustrates a service retirement (elimination) employing the “subtracted” analysis operation.</li>
+<li>Use Case 4 represents a common business substitution operation. Atomic service A-3 was retired and replaced with atomic service A-2.</li>
+</ul>
+<h2><span class="mw-headline" id="Cloud_computing_modeling_capabilities">Cloud computing modeling capabilities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=14" title="Edit section: Cloud computing modeling capabilities">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:SOMF_Cloud_Computing_Model.jpg"><img alt="" class="thumbimage" data-file-height="433" data-file-width="529" height="164" src="//upload.wikimedia.org/wikipedia/en/thumb/1/1f/SOMF_Cloud_Computing_Model.jpg/200px-SOMF_Cloud_Computing_Model.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1f/SOMF_Cloud_Computing_Model.jpg/300px-SOMF_Cloud_Computing_Model.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1f/SOMF_Cloud_Computing_Model.jpg/400px-SOMF_Cloud_Computing_Model.jpg 2x" width="200"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOMF_Cloud_Computing_Model.jpg" title="Enlarge"></a></div>
+SOMF Cloud Computing Model</div>
+</div>
+</div>
+<p>The SOMF cloud computing modeling notation, also known as CCMN, helps illustrate a service architecture scheme whose participating services interact and collaborate in a cloud boundary or beyond. “Cloud boundary” pertains to cloud offerings, which typically provide software, infrastructure, and platform type of services. The term “beyond”, however, implies that any consumer, such as organizations, applications, or remote services can also be a part of the cloud computing venture if they subscribe to the cloud’s services.</p>
+<p>This overall servicing vision embodies the general notion: “everything is a service”, as illustrated on the far right. The ability to abstract services in spite of their location, interoperability challenges, or deployment difficulties, the SOMF cloud computing model represents an elastic cloud computing environment, nimble enough to adapt to changes, and meet time-to-market.</p>
+<h3><span class="mw-headline" id="Cloud_computing_modeling_examples">Cloud computing modeling examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=15" title="Edit section: Cloud computing modeling examples">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The introduced examples illustrate cloud design diagrams produced in various software development life cycle stages. In addition, these examples introduce three major cloud modeling spaces, each of which helps modelers to describe service interoperability, integration, message exchange, and collaboration in a deployment environment:</p>
+<ul>
+<li>Service Containment Space: a modeling space that identifies aggregated service formations, such as composite service or service cluster</li>
+<li>IntraCloud Space: identifies the architecture boundary of a cloud landscape</li>
+<li>ExtraCloud Space: defines service architecture/s external to a cloud boundary</li>
+<li>Organizational Boundary: a modeling area dedicated to service modeling, typically owned by an organization</li>
+</ul>
+<ul class="gallery mw-gallery-traditional center">
+<li class="gallerycaption">Click on small images for full-size version</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:19px auto;"><a class="image" href="/wiki/File:CCMN_Service_Relationships.jpg"><img alt="" data-file-height="494" data-file-width="529" height="112" src="//upload.wikimedia.org/wikipedia/en/thumb/b/b8/CCMN_Service_Relationships.jpg/120px-CCMN_Service_Relationships.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/b8/CCMN_Service_Relationships.jpg/180px-CCMN_Service_Relationships.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/b8/CCMN_Service_Relationships.jpg/240px-CCMN_Service_Relationships.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>1. Cloud Logical Design Service Relationships Diagram</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:15px auto;"><a class="image" href="/wiki/File:CCMN_Design_Composition.jpg"><img alt="" data-file-height="650" data-file-width="470" height="120" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a5/CCMN_Design_Composition.jpg/87px-CCMN_Design_Composition.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a5/CCMN_Design_Composition.jpg/130px-CCMN_Design_Composition.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a5/CCMN_Design_Composition.jpg/173px-CCMN_Design_Composition.jpg 2x" width="87"/></a></div>
+</div>
+<div class="gallerytext">
+<p>2. Cloud Logical Design Composition Diagram</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:43.5px auto;"><a class="image" href="/wiki/File:CCMN_Cloud_Anaysis.jpg"><img alt="" data-file-height="434" data-file-width="830" height="63" src="//upload.wikimedia.org/wikipedia/en/thumb/e/ef/CCMN_Cloud_Anaysis.jpg/120px-CCMN_Cloud_Anaysis.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/e/ef/CCMN_Cloud_Anaysis.jpg/180px-CCMN_Cloud_Anaysis.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/e/ef/CCMN_Cloud_Anaysis.jpg/240px-CCMN_Cloud_Anaysis.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>3. Cloud Analysis Proposition Diagram</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:32px auto;"><a class="image" href="/wiki/File:CCMN_Cloud_Delivery_Model.jpg"><img alt="" data-file-height="517" data-file-width="722" height="86" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9b/CCMN_Cloud_Delivery_Model.jpg/120px-CCMN_Cloud_Delivery_Model.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9b/CCMN_Cloud_Delivery_Model.jpg/180px-CCMN_Cloud_Delivery_Model.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9b/CCMN_Cloud_Delivery_Model.jpg/240px-CCMN_Cloud_Delivery_Model.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>4. Cloud Delivery Model Diagram</p>
+</div>
+</div>
+</li>
+<li class="gallerybox" style="width: 155px">
+<div style="width: 155px">
+<div class="thumb" style="width: 150px;">
+<div style="margin:25.5px auto;"><a class="image" href="/wiki/File:CCMN_Geo_Cloud_Deployment.jpg"><img alt="" data-file-height="494" data-file-width="596" height="99" src="//upload.wikimedia.org/wikipedia/en/thumb/2/2f/CCMN_Geo_Cloud_Deployment.jpg/120px-CCMN_Geo_Cloud_Deployment.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/2/2f/CCMN_Geo_Cloud_Deployment.jpg/180px-CCMN_Geo_Cloud_Deployment.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/2/2f/CCMN_Geo_Cloud_Deployment.jpg/240px-CCMN_Geo_Cloud_Deployment.jpg 2x" width="120"/></a></div>
+</div>
+<div class="gallerytext">
+<p>5. Cloud Deployment Diagram</p>
+</div>
+</div>
+</li>
+</ul>
+<ul>
+<li>Example 1 depicts (simple and high-level) a logical design relationship diagram, which illustrates associations between three services (composite, atomic, and service cluster), each of which reside within a distinct organizational boundary: North Side Inc., East Side Inc., and West Side Inc. These organizations communicate to a design public cloud by “apparent bidirectional” connectors, depicting the message paths between these entities</li>
+<li>Example 2 shows a logical design composition diagram which illustrates detail offerings of a cloud, denoted by the IntraCloud Space (a space allocated to services within a cloud), which contains two composite services, a service cluster, and an atomic service, forming a circular message delivery path by using <a href="#SOMF_Modeling_styles">circular beams</a> type of connectors that form a message exchange pattern). The ExtraCloud Space (a space allocated to services outside of a cloud), on the other hand, contains services that are not offered by the cloud: a composite service and two atomic services, communicating by <a href="#SOMF_modeling_styles">network beams</a> (type of connectors that form a message exchange pattern). Finally, the IntraCloud Space and the ExtraCloud Space are linked by the network beam, depicting relationship between two composite services, each of which located on the opposite side of the aisle</li>
+<li>Example 3 shows an analysis proposition diagram, typically created during the analysis phase of a project, in which two organizations exchange messages over a network: Public Cloud Inc. and New York Computers Inc. The former contains an IntraCloud and ExtraCloud spaces, offering various aggregated services bound by contracts. The later contains a private cloud that consists of a service cluster and a composite service. These two organizations are bound by a contract supported by two different composite services, each of which resides in one organizational boundary</li>
+<li>Example 4 illustrates a general cloud delivery model diagram in which a community cloud delivers two types of services: Software as a Service (SaaS) and Platform as a Service (PaaS). Note the attributes of each of the delivery model.</li>
+<li>Example 5 depicts a cloud computing deployment diagram that contains three different geographical locations: Continent, Region, and Zone.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Layered_queueing_network" title="Layered queueing network">Layered queueing network</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=17" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Bieberstein et al., Executing SOA: A Practical Guide for the Service-Oriented Architect (Paperback), IBM Press books, 978-0132353748</span></li>
+<li id="cite_note-Bell-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-Bell_2-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Bell, Michael (2008). "Introduction to Service-Oriented Modeling". <i>Service-Oriented Modeling: Service Analysis, Design, and Architecture</i>. Wiley &amp; Sons. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-470-14111-3" title="Special:BookSources/978-0-470-14111-3">978-0-470-14111-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.atitle=Introduction+to+Service-Oriented+Modeling&amp;rft.aufirst=Michael&amp;rft.aulast=Bell&amp;rft.btitle=Service-Oriented+Modeling%3A+Service+Analysis%2C+Design%2C+and+Architecture&amp;rft.date=2008&amp;rft.genre=bookitem&amp;rft.isbn=978-0-470-14111-3&amp;rft.pub=Wiley+%26+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Michael Bell (2010). <i>SOA Modeling Patterns for Service-Oriented Discovery and Analysis</i> p.223, 305</span></li>
+<li id="cite_note-Bell2010p223-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-Bell2010p223_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Bell2010p223_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Michael Bell (2010). <i>SOA Modeling Patterns</i>. p. 223 <span class="error mw-ext-cite-error" dir="ltr" lang="en" xml:lang="en">Cite error: Invalid <code>&lt;ref&gt;</code> tag; name "Bell2010p223" defined multiple times with different content (see the <a href="/wiki/Help:Cite_errors/Cite_error_references_duplicate_key" title="Help:Cite errors/Cite error references duplicate key">help page</a>).</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Michael Bell (2008). <i>Service-Oriented Modeling</i> p.88-89</span></li>
+</ol>
+</div>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Service-oriented_modeling&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(February 2009)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=18" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Luba Cherbakov et al. (2005). "<a class="external text" href="http://ieeexplore.ieee.org/search/freesrchabstract.jsp?tp=&amp;arnumber=5386696&amp;queryText%3Dcherbakov%26openedRefinements%3D*%26searchField%3DSearch+All" rel="nofollow">Impact of service orientation at the business level</a>". IBM Systems Journal Oct 2005</li>
+<li>Ali Arsanjani (2004). "<a class="external text" href="http://www.ibm.com/developerworks/library/ws-soa-design1/" rel="nofollow">Service-Oriented Modeling &amp; Architecture</a>". IBM Online article, 09 Nov 2004.</li>
+<li>Jenny Ang, Luba Cherbakov, Mamdouh Ibrahim (2005). "<a class="external text" href="http://www.ibm.com/developerworks/webservices/library/ws-antipatterns/" rel="nofollow">SOA antipatterns</a>". IBM Online article, Nov 2005.</li>
+<li>Ali Arsanjani et al. (2008). "<a class="external text" href="http://ieeexplore.ieee.org/search/freesrchabstract.jsp?tp=&amp;arnumber=5386496&amp;queryText%3DSOMA%26openedRefinements%3D*%26searchField%3DSearch+All" rel="nofollow">SOMA: A method for developing service-oriented solutions</a> ". IBM systems Journal Oct 2008</li>
+<li>Jim Amsden (2006). "<a class="external text" href="http://www.omg.org/news/meetings/tc/special-events-dc/soa-pdf/Amsden-SOA_Profile_RFP.pdf" rel="nofollow">UML Profile and Metamodel for Services RFP</a>". OMG Paper</li>
+<li>Michael Bell (2008). <i>Service-Oriented Modeling: Service Analysis, Design, and Architecture</i>. Wiley.</li>
+<li>Michael Bell (2010). <i>SOA Modeling Patterns for Service Oriented Discovery and Analysis</i>. Wiley &amp; Sons</li>
+<li>Birol Berkem (2008). "<a class="external text" href="http://www.jot.fm/issues/issue_2008_11/column6.pdf" rel="nofollow">From The Business Motivation Model (BMM) To Service Oriented Architecture (SOA)</a>" In: <i>Journal of Object Technology</i> Vol 7, no. 8</li>
+<li><a href="/wiki/M._Brian_Blake" title="M. Brian Blake">M. Brian Blake</a> (2007). "<a class="external text" href="http://www.cs.georgetown.edu/~blakeb/pubs/blake_IEEESoftware2007_proof.pdf" rel="nofollow">Decomposing Composition: Service-Oriented Software Engineers</a>". In: <i>IEEE Software</i>. Nov/Dec 2007. pp. 68–77.</li>
+<li>Dick A. Quartel, Maarten W. Steen, Stanislav Pokraev, Marten J. Sinderen, COSMO: A conceptual framework for service modelling and refinement, Information Systems Frontiers, v.9 n.2-3, p. 225-244, July 2007</li>
+<li>Luba Cherbakov et al. (2006). "<a class="external text" href="http://www.ibm.com/developerworks/webservices/library/ws-soa-in-action/" rel="nofollow">SOA in action inside IBM, Part 1: SOA case studies</a>". IBM developerWorks</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_modeling&amp;action=edit&amp;section=19" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Service-oriented_modeling" title="commons:Category:Service-oriented modeling">Service-oriented modeling</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Conceptualization_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Conceptualization Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Conceptualization+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Conceptualization_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Discovery_and_Analysis_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Discovery and Analysis Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Discovery+and+Analysis+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Discovery_and_Analysis_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Business_Integration_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Business Integration Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Business+Integration+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Business_Integration_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Logical_Design_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Logical Design Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Logical+Design+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Logical_Design_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Architecture_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Software Architecture Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Software+Architecture+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Architecture_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_2.1_Cloud_Computing_Toolbox_Model_Language_Specifications.pdf" rel="nofollow">"SOMF 2.1 Service-Oriented Cloud Computing Toolbox Model Specifications"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+2.1+Service-Oriented+Cloud+Computing+Toolbox+Model+Specifications&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_2.1_Cloud_Computing_Toolbox_Model_Language_Specifications.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<ul>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pdf/SOMF_ANALYSIS_MODELING.pdf" rel="nofollow">"SOMF Examples"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+Examples&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpdf%2FSOMF_ANALYSIS_MODELING.pdf&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="http://www.modelingconcepts.com/pages/download.htm" rel="nofollow">"SOMF Examples &amp; Language Notation"</a> <span style="font-size:85%;">(Softcopy)</span>. Methodologies Corporation.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+modeling&amp;rft.btitle=SOMF+Examples+%26+Language+Notation&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.modelingconcepts.com%2Fpages%2Fdownload.htm&amp;rft.pub=Methodologies+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:12943175-0!*!0!!en!4!* and timestamp 20160930032047 and revision id 730341916
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Service-oriented_modeling&amp;oldid=730341916">https://en.wikipedia.org/w/index.php?title=Service-oriented_modeling&amp;oldid=730341916</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Service-oriented_(business_computing)" title="Category:Service-oriented (business computing)">Service-oriented (business computing)</a></li><li><a href="/wiki/Category:Enterprise_modelling" title="Category:Enterprise modelling">Enterprise modelling</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Pages_with_reference_errors" title="Category:Pages with reference errors">Pages with reference errors</a></li><li><a href="/wiki/Category:Pages_with_duplicate_reference_names" title="Category:Pages with duplicate reference names">Pages with duplicate reference names</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_February_2009" title="Category:Articles needing additional references from February 2009">Articles needing additional references from February 2009</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Service-oriented+modeling" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Service-oriented+modeling" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Service-oriented_modeling" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Service-oriented_modeling" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Service-oriented_modeling">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Service-oriented_modeling&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Service-oriented_modeling&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Service-oriented_modeling" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Service-oriented_modeling" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Service-oriented_modeling&amp;oldid=730341916" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Service-oriented_modeling&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q7455644" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Service-oriented_modeling&amp;id=730341916" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Service-oriented+modeling">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Service-oriented+modeling&amp;returnto=Service-oriented+modeling&amp;oldid=730341916&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Service-oriented_modeling&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Service-oriented_modeling" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q7455644#sitelinks-wikipedia" title="Add interlanguage links">Add links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 18 July 2016, at 11:55.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Service-oriented_modeling&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.234",
+            "walltime": "0.307",
+            "ppvisitednodes": {
+                "value": 678,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 21277,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1288,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  234.078      1 -total",
+                " 40.41%   94.601      1 Template:Reflist",
+                " 23.58%   55.202      1 Template:Cite_book",
+                " 21.22%   49.664      2 Template:Broken_ref",
+                " 14.35%   33.599      1 Template:Commons_category",
+                " 14.27%   33.412      1 Template:Refimprove",
+                " 13.97%   32.692      8 Template:Cite_web",
+                " 12.06%   28.220      1 Template:Ambox",
+                "  4.56%   10.681      1 Template:Commons",
+                "  3.84%    8.987      1 Template:Sister_project"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.077",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3104151,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1219",
+            "timestamp": "20160930032047",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1178"});});</script>
+</body>
+</html>
+

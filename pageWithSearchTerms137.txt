@@ -1,0 +1,584 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Active_record_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Active record pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Active_record_pattern","wgTitle":"Active record pattern","wgCurRevisionId":738695101,"wgRevisionId":738695101,"wgArticleId":2885246,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with minor POV problems","Articles with minor POV problems from May 2012","All articles with unsourced statements","Articles with unsourced statements from May 2015","Software design patterns","Architectural pattern (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Active_record_pattern","wgRelevantArticleId":2885246,"wgRequestId":"V-EmNQpAIDgAAAs0qZsAAAAE","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q344181","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Active_record_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Active_record_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Active_record_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Active_record_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Active_record_pattern rootpage-Active_record_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Active record pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, the <b>active record pattern</b> is an <a class="mw-redirect" href="/wiki/Architectural_pattern_(computer_science)" title="Architectural pattern (computer science)">architectural pattern</a> found in software that stores in-memory object data in <a href="/wiki/Relational_database" title="Relational database">relational databases</a>. It was named by <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a> in his 2003 book <i>Patterns of Enterprise Application Architecture</i>.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> The interface of an object conforming to this pattern would include functions such as Insert, Update, and Delete, plus properties that correspond more or less directly to the columns in the underlying database table.</p>
+<p>The active record pattern is an approach to accessing data in a <a href="/wiki/Database" title="Database">database</a>. A <a class="mw-redirect" href="/wiki/Database_table" title="Database table">database table</a> or <a class="mw-redirect" href="/wiki/View_(database)" title="View (database)">view</a> is wrapped into a <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">class</a>. Thus, an <a href="/wiki/Object_(computer_science)" title="Object (computer science)">object</a> instance is tied to a single row in the table. After creation of an object, a new row is added to the table upon save. Any object loaded gets its information from the database. When an object is updated, the corresponding row in the table is also updated. The wrapper class implements <a class="mw-redirect" href="/wiki/Accessor" title="Accessor">accessor</a> <a href="/wiki/Method_(computer_programming)" title="Method (computer programming)">methods</a> or properties for each column in the table or view.</p>
+<p>This pattern is commonly used by object persistence tools and in <a href="/wiki/Object-relational_mapping" title="Object-relational mapping">object-relational mapping</a> (ORM). Typically, <a href="/wiki/Foreign_key" title="Foreign key">foreign key</a> relationships will be exposed as an object instance of the appropriate type via a property.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Implementations"><span class="tocnumber">1</span> <span class="toctext">Implementations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#ColdFusion"><span class="tocnumber">1.1</span> <span class="toctext">ColdFusion</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#PHP"><span class="tocnumber">1.2</span> <span class="toctext">PHP</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Ruby"><span class="tocnumber">1.3</span> <span class="toctext">Ruby</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Java"><span class="tocnumber">1.4</span> <span class="toctext">Java</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Dart"><span class="tocnumber">1.5</span> <span class="toctext">Dart</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Other_languages"><span class="tocnumber">1.6</span> <span class="toctext">Other languages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Criticism"><span class="tocnumber">2</span> <span class="toctext">Criticism</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Testability"><span class="tocnumber">2.1</span> <span class="toctext">Testability</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Single_Responsibility_Principle_and_Separation_of_Concerns"><span class="tocnumber">2.2</span> <span class="toctext">Single Responsibility Principle and Separation of Concerns</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Implementations">Implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=1" title="Edit section: Implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Implementations of the concept can be found in various <a href="/wiki/Software_framework" title="Software framework">frameworks</a> for many programming environments. For example, if in a database there is a table <code>parts</code> with columns <code>name</code> (string type) and <code>price</code> (number type), and the Active Record pattern is implemented in the class <code>Part</code>, the pseudo-code</p>
+<pre>
+part = new Part()
+part.name = "Sample part"
+part.price = 123.45
+part.save()
+</pre>
+<p>will create a new row in the <code>parts</code> table with the given values, and is roughly equivalent to the <a href="/wiki/SQL" title="SQL">SQL</a> command</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">parts</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">price</span><span class="p">)</span> <span class="k">VALUES</span> <span class="p">(</span><span class="s1">'Sample part'</span><span class="p">,</span> <span class="mi">123</span><span class="p">.</span><span class="mi">45</span><span class="p">);</span>
+</pre></div>
+<p>Conversely, the class can be used to query the database:</p>
+<pre>
+b = Part.find_first("name", "gearbox")
+</pre>
+<p>This will find a new <code>Part</code> object based on the first matching row from the <code>parts</code> table whose <code>name</code> column has the value "gearbox". The SQL command used might be similar to the following, depending on the SQL implementation details of the database:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">parts</span> <span class="k">WHERE</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">'gearbox'</span> <span class="k">LIMIT</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">-- MySQL or PostgreSQL</span>
+</pre></div>
+<h3><span class="mw-headline" id="ColdFusion">ColdFusion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=2" title="Edit section: ColdFusion">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a class="mw-redirect" href="/wiki/ColdFusion" title="ColdFusion">ColdFusion</a> has an open source implementation of the active record pattern.</p>
+<p>The <a href="/wiki/ColdFusion_on_Wheels" title="ColdFusion on Wheels">ColdFusion on Wheels</a> framework has an implementation of the active record pattern. It is open source and has the added advantage of requiring no complex configuration.</p>
+<h3><span class="mw-headline" id="PHP">PHP</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=3" title="Edit section: PHP">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>PHP ActiveRecord is one <a class="mw-redirect" href="/wiki/Open-source" title="Open-source">open-source</a> library designed to fulfill the active record pattern.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>Several open-source <a href="/wiki/PHP" title="PHP">PHP</a> frameworks also bundle their own <a href="/wiki/Object-relational_mapping" title="Object-relational mapping">ORM</a> implementing the active record pattern. Most implementations support relationships, behaviors, <a class="mw-redirect" href="/wiki/Input_validation" title="Input validation">validation</a>, <a href="/wiki/Serialization" title="Serialization">serialization</a> and support for multiple data sources.</p>
+<ul>
+<li><a class="new" href="/w/index.php?title=Boiler_MVC&amp;action=edit&amp;redlink=1" title="Boiler MVC (page does not exist)">Boiler</a>, an <a class="mw-redirect" href="/wiki/MVC_model" title="MVC model">MVC</a> framework for PHP, contains a set of tools for auto-generation of active record models.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> The project, designed for data-centered projects, aims to automate as much of the development process as possible,<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> using <a href="/wiki/Apache_Ant" title="Apache Ant">Apache Ant</a>. Although a new addition to Open Source market,<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> the project is already in use in many live applications, both commercially and open. The framework currently only supports <a href="/wiki/MySQL" title="MySQL">MySQL</a> though the developers have reported some commercial work in Postgres.</li>
+<li><a class="new" href="/w/index.php?title=Cygnite_PHP_Framework&amp;action=edit&amp;redlink=1" title="Cygnite PHP Framework (page does not exist)">Cygnite PHP Framework</a>'s default database layer implements Active Record pattern which closely resemble with <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>.<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></li>
+<li><a href="/wiki/Laravel" title="Laravel">Laravel</a> contains an ORM called 'Eloquent' which implements the active record pattern, closely resembling that of <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a> <sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></li>
+<li><a href="/wiki/CakePHP" title="CakePHP">CakePHP</a>'s ORM implements the active record pattern,<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> but as of version 2.x queries return arrays of data, with levels of <b>related data</b> as required. Version 3.0 uses objects.</li>
+<li><a href="/wiki/Lithium_(software)" title="Lithium (software)">Lithium</a>'s ORM implements active record.</li>
+<li><a href="/wiki/Symfony" title="Symfony">Symfony</a>'s default database layer and ORM "<a href="/wiki/Doctrine_(PHP)" title="Doctrine (PHP)">Doctrine</a>" does not implement active record but rather a <a href="/wiki/Data_mapper_pattern" title="Data mapper pattern">data mapper</a> approach.</li>
+<li><span id="codeigniter"><a href="/wiki/EllisLab#CodeIgniter" title="EllisLab">CodeIgniter</a></span> has a query builder it calls "ActiveRecord", but which does not implement the Active Record pattern. Instead, it implements what the user guide refers to as a modified version of the pattern. The Active Record functionality in CodeIgniter can be achieved by using either CodeIgniter DataMapper library or CodeIgniter Gas ORM library.</li>
+<li><a href="/wiki/Yii" title="Yii">Yii</a>'s ORM also implements the active record pattern.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></li>
+<li><a href="/wiki/Propel_(PHP)" title="Propel (PHP)">Propel</a> also implements the active record pattern.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup></li>
+<li>Paris is A lightweight Active Record implementation for PHP5, built on top of Idiorm.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Ruby">Ruby</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=4" title="Edit section: Ruby">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a> library ActiveRecord implements ORM. It creates a <a href="/wiki/Persistence_(computer_science)" title="Persistence (computer science)">persistable</a> domain model from business objects and database tables, where logic and data are presented as a unified package. ActiveRecord adds <a class="mw-redirect" href="/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)">inheritance</a> and <a href="/wiki/Association_(object-oriented_programming)" title="Association (object-oriented programming)">associations</a> to the pattern above, solving two substantial limitations of that pattern. A set of macros acts as a domain language for the latter, and the <a href="/wiki/Single_Table_Inheritance" title="Single Table Inheritance">Single Table Inheritance</a> pattern is integrated for the former; thus, ActiveRecord increases the functionality of the active record pattern approach to database interaction. ActiveRecord is the default ‘model’ component of the <a class="mw-redirect" href="/wiki/Model-view-controller" title="Model-view-controller">model-view-controller</a> web-application framework <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, and is also a stand-alone ORM package for other Ruby applications. In both forms, it was conceived of by <a href="/wiki/David_Heinemeier_Hansson" title="David Heinemeier Hansson">David Heinemeier Hansson</a>, and has been improved upon by a number of contributors.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></p>
+<p>Other, less popular ORMs have been released since ActiveRecord first took the stage. For example, <a class="mw-redirect" href="/wiki/DataMapper_(Ruby)" title="DataMapper (Ruby)">DataMapper</a> and <a class="new" href="/w/index.php?title=Sequel_(Ruby)&amp;action=edit&amp;redlink=1" title="Sequel (Ruby) (page does not exist)">Sequel</a> show major improvements over the original ActiveRecord framework.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Neutral_point_of_view" title="Wikipedia:Neutral point of view"><span title="This statement is possibly biased. (May 2012)">neutrality</span></a> is <a href="/wiki/Talk:Active_record_pattern" title="Talk:Active record pattern">disputed</a></i>]</sup> As a response to their release and adoption by the Rails community, Ruby on Rails v3.0 is independent of an ORM system, so Rails users can easily plug in DataMapper or Sequel to use as their ORM of choice.</p>
+<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=5" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java language</a> implements the Active Record pattern via the <a href="/wiki/ActiveJDBC" title="ActiveJDBC">ActiveJDBC</a> library. ActiveJDBC is an implementation of Active Record design pattern inspired by <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a> ActiveRecord. ActiveJDBC is lightweight, fast, small and does not require any configuration.</p>
+<p><a href="/wiki/ActiveJPA" title="ActiveJPA">ActiveJPA</a> and <a href="/wiki/Java_Object_Oriented_Querying" title="Java Object Oriented Querying">jOOQ (for Java Object Oriented Querying)</a> implements the Active record pattern, combining active records with <a href="/wiki/Automatic_programming" title="Automatic programming">source code generation</a> and a querying DSL similar to <a href="/wiki/SQL" title="SQL">SQL</a> allowing for retrieving active records using complex SQL statements.</p>
+<p>The <a class="mw-redirect" href="/wiki/Play_framework" title="Play framework">Play framework</a> is a Java web framework which implements the Active Record pattern, using ideas from <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>.</p>
+<p><a class="external text" href="https://github.com/doe300/jactiverecord" rel="nofollow">JActiveRecord</a> is yet another library providing easy <a href="/wiki/Object-relational_mapping" title="Object-relational mapping">ORM</a> mapping for Java, inspired by <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a> ActiveRecord but more focused on Java's type-safety.</p>
+<h3><span class="mw-headline" id="Dart">Dart</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=6" title="Edit section: Dart">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <a href="/wiki/Dart_(programming_language)" title="Dart (programming language)">Dart</a> language implements the Active Record pattern via the <a class="external text" href="https://github.com/HannesRammer/Dartabase/tree/master/dartabase_migration" rel="nofollow">Dartabase Migration</a> and <a class="external text" href="https://github.com/HannesRammer/Dartabase/tree/master/dartabase_model" rel="nofollow">Dartabase Model</a> packages</p>
+<p><a class="external text" href="https://github.com/HannesRammer/Dartabase/tree/master/dartabase_migration" rel="nofollow">Dartabase Migration</a> Serverside Database Object Models for simple data manipulation currently supporting MySQL/PGSQL inspired by Ruby on Rails Migration</p>
+<p><a class="external text" href="https://github.com/HannesRammer/Dartabase/tree/master/dartabase_model" rel="nofollow">Dartabase Model</a> Serverside Database migration for simple version controlled database structure manipulation currently supporting MySQL/PGSQL inspired by Ruby on Rails Model now console and GUI (build in Polymer 1.0)</p>
+<h3><span class="mw-headline" id="Other_languages">Other languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=7" title="Edit section: Other languages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>There are several open source implementations of the Active Record pattern in other languages, including <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> (e.g., <a class="new" href="/w/index.php?title=ActiveJS&amp;action=edit&amp;redlink=1" title="ActiveJS (page does not exist)">ActiveJS</a>'s Active Record<sup class="reference" id="cite_ref-ActiveJS_13-0"><a href="#cite_note-ActiveJS-13">[13]</a></sup>), <a href="/wiki/Perl" title="Perl">Perl</a> (<a href="/wiki/DBIx::Class" title="DBIx::Class">DBIx::Class</a>), <a href="/wiki/ActionScript" title="ActionScript">ActionScript</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="/wiki/Haxe" title="Haxe">Haxe</a> (SPOD<sup class="reference" id="cite_ref-HaxeSPOD_14-0"><a href="#cite_note-HaxeSPOD-14">[14]</a></sup>), <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>,<sup class="reference" id="cite_ref-CastleActiveRecord_15-0"><a href="#cite_note-CastleActiveRecord-15">[15]</a></sup> <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a><sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup> and <a href="/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a>.<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup></p>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=8" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Testability">Testability</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=9" title="Edit section: Testability">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Due to the coupling of database interaction and application logic when using the active record pattern, unit testing an active record object without a database becomes difficult<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (May 2015)">citation needed</span></a></i>]</sup>. The negative effects on testability in the active record pattern can be minimized by using <a href="/wiki/Mock_object" title="Mock object">mocking</a> or <a href="/wiki/Dependency_injection" title="Dependency injection">dependency injection</a> frameworks to substitute the real data tier with a simulated one<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (May 2015)">citation needed</span></a></i>]</sup>.</p>
+<h3><span class="mw-headline" id="Single_Responsibility_Principle_and_Separation_of_Concerns">Single Responsibility Principle and Separation of Concerns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=10" title="Edit section: Single Responsibility Principle and Separation of Concerns">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Another critique of the active record pattern is that, also due to the strong coupling of database interaction and application logic, an active record object does not follow the <a href="/wiki/Single_responsibility_principle" title="Single responsibility principle">single responsibility principle</a> and <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a> as opposed to <a href="/wiki/Multitier_architecture" title="Multitier architecture">multitier architecture</a> which properly addresses these practices. Because of this, the active record pattern is best and most often employed in simple applications that are all forms-over-data with <a href="/wiki/Create,_read,_update_and_delete" title="Create, read, update and delete">CRUD</a> functionality, or only as one part of an architecture. Typically that part is data access and why several ORMs implement the active record pattern.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Business_object" title="Business object">Business object</a></li>
+<li><a href="/wiki/Create,_read,_update_and_delete" title="Create, read, update and delete">CRUD</a></li>
+<li><a href="/wiki/Data_mapper_pattern" title="Data mapper pattern">Data mapper pattern</a></li>
+<li><a href="/wiki/Object-relational_mapping" title="Object-relational mapping">Object-relational mapping</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=12" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 35em; -webkit-column-width: 35em; column-width: 35em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Fowler, Martin (2003). <a class="external text" href="https://books.google.com/books?id=FyWZt5DdvFkC&amp;lpg=PA1&amp;dq=Patterns%20of%20Enterprise%20Application%20Architecture%20by%20Martin%20Fowler&amp;pg=PT187#v=onepage&amp;q=active%20record&amp;f=false" rel="nofollow"><i>Patterns of enterprise application architecture</i></a>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-321-12742-6" title="Special:BookSources/978-0-321-12742-6">978-0-321-12742-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.aufirst=Martin&amp;rft.aulast=Fowler&amp;rft.btitle=Patterns+of+enterprise+application+architecture&amp;rft.date=2003&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DFyWZt5DdvFkC%26lpg%3DPA1%26dq%3DPatterns%2520of%2520Enterprise%2520Application%2520Architecture%2520by%2520Martin%2520Fowler%26pg%3DPT187%23v%3Donepage%26q%3Dactive%2520record%26f%3Dfalse&amp;rft.isbn=978-0-321-12742-6&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.phpactiverecord.org/" rel="nofollow">"PHP ActiveRecord"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=PHP+ActiveRecord&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.phpactiverecord.org%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.bluelightstudios.co.uk/tutorial-4-models/" rel="nofollow">"Boiler Documentation: Models"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Boiler+Documentation%3A+Models&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bluelightstudios.co.uk%2Ftutorial-4-models%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.youtube.com/watch?v=M7PG2rTYDGA" rel="nofollow">"YouTube demonstration of automation tools"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=YouTube+demonstration+of+automation+tools&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DM7PG2rTYDGA&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/ivebeenlinuxed/Boiler" rel="nofollow">"Open Source Code, hosted on Github"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Open+Source+Code%2C+hosted+on+Github&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Fivebeenlinuxed%2FBoiler&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.cygniteframework.com/2014/06/active-record.html" rel="nofollow">"Cygnite Framework Documentation: Active Record"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Cygnite+Framework+Documentation%3A+Active+Record&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cygniteframework.com%2F2014%2F06%2Factive-record.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://laravel.com/docs/eloquent" rel="nofollow">"Laravel Documentation: Eloquent ORM"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Laravel+Documentation%3A+Eloquent+ORM&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Flaravel.com%2Fdocs%2Feloquent&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://stanford.wikia.com/wiki/CakePHP_(most_popular_PHP_framework)" rel="nofollow">"CakePHP (most popular PHP framework)"</a>. <i>Stanford University Wiki</i>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.atitle=CakePHP+%28most+popular+PHP+framework%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fstanford.wikia.com%2Fwiki%2FCakePHP_%28most_popular_PHP_framework%29&amp;rft.jtitle=Stanford+University+Wiki&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.yiiframework.com/doc/guide/1.1/en/database.ar" rel="nofollow">"The Definitive Guide to Yii: Active Record"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=The+Definitive+Guide+to+Yii%3A+Active+Record&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.yiiframework.com%2Fdoc%2Fguide%2F1.1%2Fen%2Fdatabase.ar&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://propelorm.org/documentation/reference/active-record.html" rel="nofollow">"Propel: Active Record Reference"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Propel%3A+Active+Record+Reference&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fpropelorm.org%2Fdocumentation%2Freference%2Factive-record.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/j4mie/paris" rel="nofollow">"Github: j4mie/paris"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Github%3A+j4mie%2Fparis&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Fj4mie%2Fparis&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/rails/rails/tree/master/activerecord" rel="nofollow">"Ruby Active Record"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2013-04-12</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Ruby+Active+Record&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Frails%2Frails%2Ftree%2Fmaster%2Factiverecord&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-ActiveJS-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-ActiveJS_13-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.activejs.org/activerecord/ActiveRecord/index.html" rel="nofollow">"ActiveJS Active Record"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2011-07-28</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=ActiveJS+Active+Record&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.activejs.org%2Factiverecord%2FActiveRecord%2Findex.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-HaxeSPOD-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-HaxeSPOD_14-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://haxe.org/manual/spod" rel="nofollow">"SPOD Macros"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2013-01-09</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=SPOD+Macros&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fhaxe.org%2Fmanual%2Fspod&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-CastleActiveRecord-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-CastleActiveRecord_15-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.castleproject.org/projects/activerecord/" rel="nofollow">"Castle ActiveRecord"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">14 January</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Castle+ActiveRecord&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.castleproject.org%2Fprojects%2Factiverecord%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/mneorr/Objective-Record" rel="nofollow">"Objective Record"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">14 January</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Objective+Record&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Fmneorr%2FObjective-Record&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/aselab/scala-activerecord" rel="nofollow">"Scala Active Record"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">4 December</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AActive+record+pattern&amp;rft.btitle=Scala+Active+Record&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Faselab%2Fscala-activerecord&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Active_record_pattern&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="https://github.com/rails/rails/tree/master/activerecord" rel="nofollow">Ruby implementation</a></li>
+<li><a class="external text" href="https://metacpan.org/module/DBIx::Class" rel="nofollow">DBIx::Class Perl Implementation</a></li>
+<li><a class="external text" href="http://www.phpactiverecord.org/" rel="nofollow">PHP implementation</a></li>
+<li><a class="external text" href="http://www.castleproject.org/projects/activerecord/" rel="nofollow">.NET implementation</a></li>
+<li><a class="external text" href="https://code.google.com/p/air-activerecord/" rel="nofollow">AIR Active Record project home</a></li>
+<li><a class="external text" href="https://github.com/scandio/troba/blob/master/doc/active-record-extension.md" rel="nofollow">troba Active record extension</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><strong class="selflink">Active record</strong></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2885246-0!*!0!!en!*!* and timestamp 20160910142850 and revision id 738695101
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Active_record_pattern&amp;oldid=738695101">https://en.wikipedia.org/w/index.php?title=Active_record_pattern&amp;oldid=738695101</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Architectural_pattern_(computer_science)" title="Category:Architectural pattern (computer science)">Architectural pattern (computer science)</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_minor_POV_problems" title="Category:All articles with minor POV problems">All articles with minor POV problems</a></li><li><a href="/wiki/Category:Articles_with_minor_POV_problems_from_May_2012" title="Category:Articles with minor POV problems from May 2012">Articles with minor POV problems from May 2012</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_May_2015" title="Category:Articles with unsourced statements from May 2015">Articles with unsourced statements from May 2015</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Active+record+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Active+record+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Active_record_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Active_record_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Active_record_pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Active_record_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Active_record_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Active_record_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Active_record_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Active_record_pattern&amp;oldid=738695101" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Active_record_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q344181" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Active_record_pattern&amp;id=738695101" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Active+record+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Active+record+pattern&amp;returnto=Active+record+pattern&amp;oldid=738695101&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Active_record_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Active_Record" hreflang="cs" lang="cs" title="Active Record – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Active_Record" hreflang="de" lang="de" title="Active Record – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Active_record" hreflang="es" lang="es" title="Active record – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%AB%D8%A8%D8%AA_%DA%A9%D9%86%D8%B4%D9%88%D8%B1" hreflang="fa" lang="fa" title="الگوی ثبت کنشور – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Active_record" hreflang="fr" lang="fr" title="Active record – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Active_record" hreflang="gl" lang="gl" title="Active record – Galician">Galego</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Pola_active_record" hreflang="id" lang="id" title="Pola active record – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Active_record_patroon" hreflang="nl" lang="nl" title="Active record patroon – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Active_Record" hreflang="ja" lang="ja" title="Active Record – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Active_record" hreflang="pt" lang="pt" title="Active record – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/ActiveRecord" hreflang="ru" lang="ru" title="ActiveRecord – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Active_Record" hreflang="uk" lang="uk" title="Active Record – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Active_Record" hreflang="zh" lang="zh" title="Active Record – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q344181#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 10 September 2016, at 14:28.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Active_record_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.352",
+            "walltime": "0.409",
+            "ppvisitednodes": {
+                "value": 1479,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 51584,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2475,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  325.749      1 -total",
+                " 53.62%  174.667      1 Template:Reflist",
+                " 31.16%  101.500     16 Template:Cite_web",
+                " 25.83%   84.143      3 Template:Fix",
+                " 20.15%   65.630      1 Template:POV_statement",
+                " 13.50%   43.983      2 Template:Citation_needed",
+                " 12.94%   42.162      1 Template:Cite_book",
+                " 12.89%   41.994      5 Template:Category_handler",
+                " 11.42%   37.192      1 Template:Design_Patterns_Patterns",
+                " 11.08%   36.078      3 Template:Delink"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.178",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4013933,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1202",
+            "timestamp": "20160910142850",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1186"});});</script>
+</body>
+</html>
+

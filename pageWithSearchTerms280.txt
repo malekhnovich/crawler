@@ -1,0 +1,784 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Fred_Brooks
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Fred Brooks - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Fred_Brooks","wgTitle":"Fred Brooks","wgCurRevisionId":724723155,"wgRevisionId":724723155,"wgArticleId":11652,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing potentially dated statements from 2013","All articles containing potentially dated statements","Commons category with page title same as on Wikidata","Wikipedia articles with VIAF identifiers","Wikipedia articles with LCCN identifiers","Wikipedia articles with ISNI identifiers","Wikipedia articles with GND identifiers","Wikipedia articles with BNF identifiers","American computer scientists","American software engineers","American technology writers","1931 births","Living people","Virtual reality pioneers","Fellows of the Association for Computing Machinery","Fellows of the British Computer Society","Guggenheim Fellows","IBM employees","IBM Research computer scientists","Members of the United States National Academy of Engineering","Members of the United States National Academy of Sciences","Members of the Royal Netherlands Academy of Arts and Sciences","National Medal of Technology recipients","Turing Award laureates","University of North Carolina at Chapel Hill faculty","Duke University alumni","Harvard University alumni","People from Durham, North Carolina","20th-century American engineers","21st-century American engineers","20th-century American mathematicians","21st-century American mathematicians","20th-century American scientists","21st-century American scientists"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Fred_Brooks","wgRelevantArticleId":11652,"wgRequestId":"V-FmfwpAMEsAAEWrDGkAAAAF","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q92609","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.scripts%2Cstyles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Fred_Brooks" rel="alternate"/>
+<link href="/w/index.php?title=Fred_Brooks&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Fred_Brooks&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Fred_Brooks" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Fred_Brooks rootpage-Fred_Brooks skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Fred Brooks</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">For other people named Frederick Brooks, see <a class="mw-disambig" href="/wiki/Frederick_Brooks_(disambiguation)" title="Frederick Brooks (disambiguation)">Frederick Brooks (disambiguation)</a>.</div>
+<table class="infobox vcard" style="width:22em">
+<tr>
+<th colspan="2" style="text-align:center;font-size:125%;font-weight:bold"><span class="fn">Fred Brooks</span></th>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center;padding-bottom:0.5em;"><a class="image" href="/wiki/File:Fred_Brooks.jpg"><img alt="Fred Brooks.jpg" data-file-height="3008" data-file-width="2000" height="331" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Brooks.jpg/220px-Fred_Brooks.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Brooks.jpg/330px-Fred_Brooks.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Brooks.jpg/440px-Fred_Brooks.jpg 2x" width="220"/></a></td>
+</tr>
+<tr>
+<th scope="row">Born</th>
+<td>Frederick Phillips Brooks, Jr.<br/>
+<span style="display:none">(<span class="bday">1931-04-19</span>)</span> April 19, 1931 <span class="noprint ForceAgeToShow">(age 85)</span><br/>
+<a href="/wiki/Durham,_North_Carolina" title="Durham, North Carolina">Durham</a>, North Carolina</td>
+</tr>
+<tr>
+<th scope="row">Fields</th>
+<td class="category"><a class="mw-redirect" href="/wiki/Computer_Science" title="Computer Science">Computer Science</a><br/>
+<a class="mw-redirect" href="/wiki/Operating_systems" title="Operating systems">Operating systems</a><br/>
+<a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></td>
+</tr>
+<tr>
+<th scope="row">Institutions</th>
+<td><a class="mw-redirect" href="/wiki/International_Business_Machines" title="International Business Machines">IBM</a><sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><br/>
+<a href="/wiki/University_of_North_Carolina_at_Chapel_Hill" title="University of North Carolina at Chapel Hill">University of North Carolina at Chapel Hill</a><br/>
+<a href="/wiki/Duke_University" title="Duke University">Duke University</a><br/>
+<a href="/wiki/Harvard_University" title="Harvard University">Harvard University</a></td>
+</tr>
+<tr>
+<th scope="row"><span class="nowrap"><a href="/wiki/Alma_mater" title="Alma mater">Alma mater</a></span></th>
+<td><a href="/wiki/Duke_University" title="Duke University">Duke University</a> (undergraduate)<br/>
+<a href="/wiki/Harvard_University" title="Harvard University">Harvard University</a> (postgraduate)</td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Thesis" title="Thesis">Thesis</a></th>
+<td><a class="external text" href="http://search.proquest.com/docview/301934402" rel="nofollow"><i>The Analytic Design of Automatic Data Processing Systems</i></a> <span style="font-size:90%;">(1956)</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="/wiki/Doctoral_advisor" title="Doctoral advisor">Doctoral advisor</a></th>
+<td><a href="/wiki/Howard_H._Aiken" title="Howard H. Aiken">Howard Aiken</a><sup class="reference" id="cite_ref-mathgene_2-0"><a href="#cite_note-mathgene-2">[2]</a></sup></td>
+</tr>
+<tr>
+<th scope="row">Doctoral students</th>
+<td>
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">List</div>
+<ul class="NavContent" style="list-style: none none; margin-left: 0; text-align: left; font-size: 105%; margin-top: 0; margin-bottom: 0; line-height: inherit;">
+<li style="line-height: inherit; margin: 0">Luv Kohli<br/>
+Jeremy Wendt<br/>
+Jason Jerald<br/>
+Eric Burns<br/>
+Sharif Razzaque<br/>
+Paul M. Zimmons<br/>
+Alexandra Bokinsky<br/>
+Ben Lok<br/>
+Brent Insko<br/>
+Michael Meehan<br/>
+Kevin Arthur<br/>
+Rui Bastos<br/>
+David Luebke<br/>
+Mark R. Mine<br/>
+Richard L. Holloway<br/>
+Jeffrey P. Hultquist<br/>
+Elton P. Amburn<br/>
+Russell M. Taylor II<br/>
+Amitabh Varshney<br/>
+Lawrence D. Bergman<br/>
+James Che-Ming Chung<br/>
+Penny L. Rheingans<br/>
+Mark C. Surles<br/>
+John M. Airey<br/>
+Ming Ouh-young<br/>
+Russell Tuck<br/>
+Mark C. Davis<br/>
+<a href="/wiki/Andrew_Glassner" title="Andrew Glassner">Andrew S. Glassner</a><br/>
+Thomas V. Williams<br/>
+James S. Lipscomb<br/>
+F. Donelson Smith<br/>
+Thomas H. Dunigan, Jr.<br/>
+Edward G. Britton<br/>
+Paul J. Kilpatrick<br/>
+Cheryl C. Sneeringer<br/>
+James W. Sneeringer IV<br/>
+Craig J. Mudge<br/>
+William V. Wright<br/>
+Jan S. Prokop<br/>
+Alfred Paul Oliver<br/>
+William Y. Stevens<br/>
+<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup><sup class="reference" id="cite_ref-mathgene_2-1"><a href="#cite_note-mathgene-2">[2]</a></sup></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row">Known for</th>
+<td><a class="mw-redirect" href="/wiki/OS/360" title="OS/360">OS/360</a><br/>
+<i><a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a></i><sup class="reference" id="cite_ref-mmm_5-0"><a href="#cite_note-mmm-5">[5]</a></sup></td>
+</tr>
+<tr>
+<th scope="row">Notable awards</th>
+<td>
+<div class="plainlist">
+<ul>
+<li><a href="/wiki/IEEE_John_von_Neumann_Medal" title="IEEE John von Neumann Medal">IEEE John von Neumann Medal</a> <small>(1993)</small></li>
+<li><a href="/wiki/Turing_Award" title="Turing Award">Turing Award</a> <small>(1999)</small></li>
+<li><a href="/wiki/Computer_History_Museum" title="Computer History Museum">Computer History Museum</a> Fellow <small>(2001)</small></li>
+<li><a href="/wiki/Turing_Lecture" title="Turing Lecture">Turing Lecture</a> <small>(2005)</small></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center"><b>Website</b><br/>
+<span class="url"><a class="external text" href="//www.cs.unc.edu/~brooks" rel="nofollow">www<wbr></wbr>.cs<wbr></wbr>.unc<wbr></wbr>.edu<wbr></wbr>/~brooks</a></span></td>
+</tr>
+</table>
+<p><b>Frederick Phillips Brooks, Jr.</b> (born April 19, 1931) is an American computer architect, <a href="/wiki/Software_engineer" title="Software engineer">software engineer</a>, and <a href="/wiki/Computer_scientist" title="Computer scientist">computer scientist</a>, best known for managing the development of <a href="/wiki/IBM" title="IBM">IBM</a>'s <a class="mw-redirect" href="/wiki/System/360" title="System/360">System/360</a> family of computers and the <a class="mw-redirect" href="/wiki/OS/360" title="OS/360">OS/360</a> software support package, then later writing candidly about the process in his seminal book <i><a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a></i>.<sup class="reference" id="cite_ref-mmm_5-1"><a href="#cite_note-mmm-5">[5]</a></sup> Brooks has received many awards, including the <a class="mw-redirect" href="/wiki/National_Medal_of_Technology" title="National Medal of Technology">National Medal of Technology</a> in 1985 and the <a href="/wiki/Turing_Award" title="Turing Award">Turing Award</a> in 1999.<sup class="reference" id="cite_ref-dblp_6-0"><a href="#cite_note-dblp-6">[6]</a></sup><sup class="reference" id="cite_ref-Shustek2015_7-0"><a href="#cite_note-Shustek2015-7">[7]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Education"><span class="tocnumber">1</span> <span class="toctext">Education</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Career_and_research"><span class="tocnumber">2</span> <span class="toctext">Career and research</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Service_and_memberships"><span class="tocnumber">2.1</span> <span class="toctext">Service and memberships</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Awards_and_honors"><span class="tocnumber">2.2</span> <span class="toctext">Awards and honors</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Personal_life"><span class="tocnumber">3</span> <span class="toctext">Personal life</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Education">Education</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=1" title="Edit section: Education">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Born in <a href="/wiki/Durham,_North_Carolina" title="Durham, North Carolina">Durham</a>, North Carolina, he attended <a href="/wiki/Duke_University" title="Duke University">Duke University</a>, graduating in 1953 with a <a href="/wiki/Bachelor_of_Science" title="Bachelor of Science">Bachelor of Science</a> degree in <a href="/wiki/Physics" title="Physics">Physics</a>, and he received a <a href="/wiki/Doctor_of_Philosophy" title="Doctor of Philosophy">Ph.D.</a> in Applied Mathematics (Computer Science) from <a href="/wiki/Harvard_University" title="Harvard University">Harvard University</a> in 1956, supervised by <a href="/wiki/Howard_H._Aiken" title="Howard H. Aiken">Howard Aiken</a>.<sup class="reference" id="cite_ref-mathgene_2-2"><a href="#cite_note-mathgene-2">[2]</a></sup></p>
+<h2><span class="mw-headline" id="Career_and_research">Career and research</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=2" title="Edit section: Career and research">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Brooks joined <a href="/wiki/IBM" title="IBM">IBM</a> in 1956, working in <a href="/wiki/Poughkeepsie,_New_York" title="Poughkeepsie, New York">Poughkeepsie</a>, New York and <a href="/wiki/Yorktown,_New_York" title="Yorktown, New York">Yorktown</a>, New York. He worked on the architecture of the <a href="/wiki/IBM_7030_Stretch" title="IBM 7030 Stretch">IBM 7030 Stretch</a>, a $10m scientific supercomputer of which nine were sold, and the <a href="/wiki/IBM_7950_Harvest" title="IBM 7950 Harvest">IBM 7950 Harvest</a> computer for the National Security Agency. Subsequently, he became manager for the development of the <a class="mw-redirect" href="/wiki/System/360" title="System/360">System/360</a> family of computers and the <a class="mw-redirect" href="/wiki/OS/360" title="OS/360">OS/360</a> software package. During this time he coined the term <a href="/wiki/Computer_architecture" title="Computer architecture">computer architecture</a>.</p>
+<p>It was in <i>The Mythical Man-Month</i> that Brooks made the now-famous statement: "Adding manpower to a late software project makes it later." This has since come to be known as <i><a class="mw-redirect" href="/wiki/Brooks%27s_law" title="Brooks's law">Brooks's law</a></i>. In addition to <i>The Mythical Man-Month</i>, Brooks is also known for the paper <i><a href="/wiki/No_Silver_Bullet" title="No Silver Bullet">No Silver Bullet</a> — Essence and Accident in Software Engineering</i>.</p>
+<p>In 1964, Brooks accepted an invitation to come to the <a href="/wiki/University_of_North_Carolina_at_Chapel_Hill" title="University of North Carolina at Chapel Hill">University of North Carolina at Chapel Hill</a> and found the University's computer science department. He chaired it for 20 years. As of 2013<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Fred_Brooks&amp;action=edit">[update]</a></sup> he was still engaged in active research there, primarily in <a class="mw-redirect" href="/wiki/Virtual_environments" title="Virtual environments">virtual environments</a><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> and <a href="/wiki/Scientific_visualization" title="Scientific visualization">scientific visualization</a>.<sup class="reference" id="cite_ref-IBM_archive_9-0"><a href="#cite_note-IBM_archive-9">[9]</a></sup></p>
+<p>In a 2010 interview by Kevin Kelly for an article<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> in Wired Magazine, Brooks was asked "What do you consider your greatest technological achievement?" Brooks responded "The most important single decision I ever made was to change the IBM 360 series from a 6-<a href="/wiki/Bit" title="Bit">bit</a> <a href="/wiki/Byte" title="Byte">byte</a> to an 8-bit byte, thereby enabling the use of lowercase letters. That change propagated everywhere."</p>
+<p>A "20th anniversary" edition of <i><a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a></i> with four additional chapters was published in 1995.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></p>
+<p>As well as <i><a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a></i><sup class="reference" id="cite_ref-mmm_5-2"><a href="#cite_note-mmm-5">[5]</a></sup> Brooks has authored or co-authored many books and <a href="/wiki/Peer_review" title="Peer review">peer reviewed</a> papers<sup class="reference" id="cite_ref-dblp_6-1"><a href="#cite_note-dblp-6">[6]</a></sup> including <i>Automatic Data Processing</i>,<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup> <a href="/wiki/No_Silver_Bullet" title="No Silver Bullet">No Silver Bullet</a>,<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup> <i>Computer Architecture</i>,<sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup> and <i>The Design of Design</i>.<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></p>
+<p>His contributions to <a href="/wiki/Human%E2%80%93computer_interaction" title="Human–computer interaction">Human–computer interaction</a> are described in Ben Shneiderman's HCI pioneers website.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<h3><span class="mw-headline" id="Service_and_memberships">Service and memberships</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=3" title="Edit section: Service and memberships">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Brooks has served on a number of US national boards and committees.<sup class="reference" id="cite_ref-homepage_17-0"><a href="#cite_note-homepage-17">[17]</a></sup></p>
+<ul>
+<li><a href="/wiki/Defense_Science_Board" title="Defense Science Board">Defense Science Board</a> (1983–86)</li>
+<li>Member, Artificial Intelligence Task Force (1983–84)</li>
+<li>Chairman, Military Software Task Force (1985–87)</li>
+<li>Member, Computers in Simulation and Training Task Force (1986–87)</li>
+<li><a href="/wiki/National_Science_Board" title="National Science Board">National Science Board</a> (1987–1992)</li>
+</ul>
+<h3><span class="mw-headline" id="Awards_and_honors">Awards and honors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=4" title="Edit section: Awards and honors">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In chronological order:<sup class="reference" id="cite_ref-homepage_17-1"><a href="#cite_note-homepage-17">[17]</a></sup></p>
+<div class="div-col columns column-count column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li>Fellow, Institute of Electrical and Electronic Engineers (1968)</li>
+<li><a class="mw-redirect" href="/wiki/McDowell_Award" title="McDowell Award">McDowell Award</a> for Outstanding Contribution to the Computer Art, IEEE Computer Group (1970)</li>
+<li>Computer Sciences Distinguished Information Services Award, Information Technology Professionals (1970)</li>
+<li><a href="/wiki/Guggenheim_Fellowship" title="Guggenheim Fellowship">Guggenheim Fellowship</a> for studies on computer architecture and human factors of computer systems, <a class="mw-redirect" href="/wiki/Cambridge_University" title="Cambridge University">Cambridge University</a>, England (1975)</li>
+<li>Member, <a href="/wiki/National_Academy_of_Engineering" title="National Academy of Engineering">National Academy of Engineering</a> (1976)</li>
+<li>Fellow, <a href="/wiki/American_Academy_of_Arts_and_Sciences" title="American Academy of Arts and Sciences">American Academy of Arts and Sciences</a> (1976)</li>
+<li>Computer Pioneer Award, <a href="/wiki/IEEE_Computer_Society" title="IEEE Computer Society">IEEE Computer Society</a> (1982)</li>
+<li><a href="/wiki/National_Medal_of_Technology_and_Innovation" title="National Medal of Technology and Innovation">National Medal of Technology and Innovation</a> (1985)</li>
+<li>Thomas Jefferson Award, <a href="/wiki/University_of_North_Carolina_at_Chapel_Hill" title="University of North Carolina at Chapel Hill">University of North Carolina at Chapel Hill</a> (1986)</li>
+<li>Distinguished Service Award, <a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">Association for Computing Machinery</a> (1987)</li>
+<li>Harry Goode Memorial Award, <a href="/wiki/American_Federation_of_Information_Processing_Societies" title="American Federation of Information Processing Societies">American Federation of Information Processing Societies</a> (1989)</li>
+<li>Foreign Member, <a href="/wiki/Royal_Netherlands_Academy_of_Arts_and_Sciences" title="Royal Netherlands Academy of Arts and Sciences">Royal Netherlands Academy of Arts and Sciences</a> (1991)<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></li>
+<li>Honorary Doctor of Technical Science, Swiss Federal Institute of Technology, ETH Zurich (1991)</li>
+<li><a class="mw-redirect" href="/wiki/John_von_Neumann_Medal" title="John von Neumann Medal">John von Neumann Medal</a>, Institute of Electrical and Electronics Engineers (1993)</li>
+<li>Fellow (initial inductee), <a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">Association for Computing Machinery</a> (1994)</li>
+<li>Distinguished Fellow, British Computer Society (1994)</li>
+<li>Foreign Member of the <a href="/wiki/Royal_Academy_of_Engineering" title="Royal Academy of Engineering">Royal Academy of Engineering</a>, UK (1994)</li>
+<li><a class="mw-redirect" href="/wiki/Allen_Newell_Award_for_Research_Excellence" title="Allen Newell Award for Research Excellence">Allen Newell Award</a>, Association for Computing Machinery (1994)</li>
+<li><a class="mw-redirect" href="/wiki/The_Franklin_Institute_Awards" title="The Franklin Institute Awards">Bower Award and Prize in Science</a>, Franklin Institute (1995)</li>
+<li>CyberEdge Journal Annual Sutherland Award (April 1997)</li>
+<li><a class="mw-redirect" href="/wiki/A._M._Turing_Award" title="A. M. Turing Award">A. M. Turing Award</a>, Association for Computing Machinery (1999)</li>
+<li>Member, <a class="mw-redirect" href="/wiki/National_Academy_of_Science" title="National Academy of Science">National Academy of Science</a> (2001)</li>
+<li>Received the <a href="/wiki/Computer_History_Museum" title="Computer History Museum">Computer History Museum</a>'s Fellow Award, for his contributions to computer architecture, operating systems, and software engineering.<sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup> (2001)</li>
+<li><a class="mw-redirect" href="/wiki/Eckert-Mauchly_Award" title="Eckert-Mauchly Award">Eckert-Mauchly Award</a>, Association for Computing Machinery and The Institute of Electrical and Electronics Engineers–Computer Society (2004)</li>
+<li>IEEE Virtual Reality Career Award (2010)</li>
+</ul>
+</div>
+<p>In January 2005 he gave the <a href="/wiki/Turing_Lecture" title="Turing Lecture">Turing Lecture</a> on the subject of "Collaboration and Telecollaboration in Design". In 1994 he was inducted as a Fellow of the <a href="/wiki/Association_for_Computing_Machinery" title="Association for Computing Machinery">Association for Computing Machinery</a>.</p>
+<h2><span class="mw-headline" id="Personal_life">Personal life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=5" title="Edit section: Personal life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Brooks is an evangelical Christian who is active with <a href="/wiki/InterVarsity_Christian_Fellowship" title="InterVarsity Christian Fellowship">InterVarsity Christian Fellowship</a>.<sup class="reference" id="cite_ref-unc_20-0"><a href="#cite_note-unc-20">[20]</a></sup></p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 26em; -webkit-column-width: 26em; column-width: 26em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brooks, F. P. (1960). "The execute operations---a fourth mode of instruction sequencing". <i>Communications of the ACM</i>. <b>3</b> (3): 168. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F367149.367168" rel="nofollow">10.1145/367149.367168</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=The+execute+operations---a+fourth+mode+of+instruction+sequencing&amp;rft.aufirst=F.+P.&amp;rft.aulast=Brooks&amp;rft.date=1960&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F367149.367168&amp;rft.issue=3&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=168&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=3"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-mathgene-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-mathgene_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-mathgene_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-mathgene_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://www.genealogy.ams.org/id.php?id=25260" rel="nofollow">Fred Brooks</a> at the <a href="/wiki/Mathematics_Genealogy_Project" title="Mathematics Genealogy Project">Mathematics Genealogy Project</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://cs.unc.edu/newspublications/doctoral-dissertations/" rel="nofollow">"Doctoral Dissertations — Department of Computer Science"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">7 January</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=Doctoral+Dissertations+%94+Department+of+Computer+Science&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fcs.unc.edu%2Fnewspublications%2Fdoctoral-dissertations%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.cs.unc.edu/~brooks/FPB_PhD%20Stu.04.2007.pdf" rel="nofollow">"Frederick P. Brooks, Jr. - PhD Students"</a> <span style="font-size:85%;">(PDF)</span>. Computer Science Department, University of North Carolina at Chapel Hill<span class="reference-accessdate">. Retrieved <span class="nowrap">23 October</span> 2013</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=Frederick+P.+Brooks%2C+Jr.+-+PhD+Students&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.unc.edu%2F~brooks%2FFPB_PhD%2520Stu.04.2007.pdf&amp;rft.pub=Computer+Science+Department%2C+University+of+North+Carolina+at+Chapel+Hill&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-mmm-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-mmm_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-mmm_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-mmm_5-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Brooks, Frederick P. (1975). <i>The mythical man-month: essays on software engineering</i>. Reading, Mass: Addison-Wesley Pub. Co. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-00650-2" title="Special:BookSources/0-201-00650-2">0-201-00650-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.au=Brooks%2C+Frederick+P.&amp;rft.btitle=The+mythical+man-month%3A+essays+on+software+engineering&amp;rft.date=1975&amp;rft.genre=book&amp;rft.isbn=0-201-00650-2&amp;rft.place=Reading%2C+Mass&amp;rft.pub=Addison-Wesley+Pub.+Co&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-dblp-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-dblp_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dblp_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://dblp.org/pers/b/Brooks_Jr=:Frederick_P=" rel="nofollow">Fred Brooks</a> at <a href="/wiki/DBLP" title="DBLP">DBLP</a> Bibliography Server</span></li>
+<li id="cite_note-Shustek2015-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Shustek2015_7-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Shustek, Len (2015). "An interview with Fred Brooks". <i>Communications of the ACM</i>. <b>58</b> (11): 36–40. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F2822519" rel="nofollow">10.1145/2822519</a>. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a> <a class="external text" href="//www.worldcat.org/issn/0001-0782" rel="nofollow">0001-0782</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=An+interview+with+Fred+Brooks&amp;rft.aufirst=Len&amp;rft.aulast=Shustek&amp;rft.date=2015&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F2822519&amp;rft.issn=0001-0782&amp;rft.issue=11&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=36-40&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=58"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brooks, Jr., Frederick P. (1999). <a class="external text" href="http://www.cs.unc.edu/~brooks/WhatsReal.pdf" rel="nofollow">"What's Real About Virtual Reality"</a> <span style="font-size:85%;">(PDF)</span>. <i>Computer Graphics &amp; Applications</i>. <a class="mw-redirect" href="/wiki/IEEE" title="IEEE">IEEE</a>. <b>19</b> (6): 16–27<span class="reference-accessdate">. Retrieved <span class="nowrap">22 January</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=What%27s+Real+About+Virtual+Reality&amp;rft.aufirst=Frederick+P.&amp;rft.aulast=Brooks%2C+Jr.&amp;rft.date=1999&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cs.unc.edu%2F~brooks%2FWhatsReal.pdf&amp;rft.issue=6&amp;rft.jtitle=Computer+Graphics+%26+Applications&amp;rft.pages=16-27&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=19"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-IBM_archive-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-IBM_archive_9-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www-03.ibm.com/ibm/history/exhibits/builders/builders_brooksjr.html" rel="nofollow">"IBM Archives - Frederick P. Brooks, Jr."</a>. IBM<span class="reference-accessdate">. Retrieved <span class="nowrap">6 August</span> 2010</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=IBM+Archives+-+Frederick+P.+Brooks%2C+Jr.&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww-03.ibm.com%2Fibm%2Fhistory%2Fexhibits%2Fbuilders%2Fbuilders_brooksjr.html&amp;rft.pub=IBM&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation news">Kelly, Kevin (July 28, 2010). <a class="external text" href="http://www.wired.com/magazine/2010/07/ff_fred_brooks/" rel="nofollow">"Master Planner: Fred Brooks Shows How to Design Anything"</a>. Wired<span class="reference-accessdate">. Retrieved <span class="nowrap">10 February</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=Master+Planner%3A+Fred+Brooks+Shows+How+to+Design+Anything&amp;rft.aufirst=Kevin&amp;rft.aulast=Kelly&amp;rft.date=2010-07-28&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.wired.com%2Fmagazine%2F2010%2F07%2Fff_fred_brooks%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.robelle.com/smugbook/manmonth.html" rel="nofollow">"The Mythical Man-Month, A Book Review"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">6 August</span> 2010</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=The+Mythical+Man-Month%2C+A+Book+Review&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.robelle.com%2Fsmugbook%2Fmanmonth.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation book">Iverson, Kenneth E.; Brooks, Frederick P. (1969). <i>Automatic data processing: System/360 edition</i>. New York: Wiley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-471-10605-4" title="Special:BookSources/0-471-10605-4">0-471-10605-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.au=Brooks%2C+Frederick+P.&amp;rft.au=Iverson%2C+Kenneth+E.&amp;rft.btitle=Automatic+data+processing%3A+System%2F360+edition&amp;rft.date=1969&amp;rft.genre=book&amp;rft.isbn=0-471-10605-4&amp;rft.place=New+York&amp;rft.pub=Wiley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation journal">Brooks, F. P. , J. (1987). <a class="external text" href="http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf" rel="nofollow">"No Silver Bullet—Essence and Accidents of Software Engineering"</a> <span style="font-size:85%;">(PDF)</span>. <i>Computer</i>. <b>20</b> (4): 10. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMC.1987.1663532" rel="nofollow">10.1109/MC.1987.1663532</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=No+Silver+Bullet%94Essence+and+Accidents+of+Software+Engineering&amp;rft.aufirst=F.+P.+%2C+J.&amp;rft.aulast=Brooks&amp;rft.date=1987&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Ffaculty.salisbury.edu%2F~xswang%2FResearch%2FPapers%2FSERelated%2Fno-silver-bullet.pdf&amp;rft_id=info%3Adoi%2F10.1109%2FMC.1987.1663532&amp;rft.issue=4&amp;rft.jtitle=Computer&amp;rft.pages=10&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=20"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation book">Brooks, Frederick P.; Blaauw, Gerrit A. (1997). <i>Computer architecture: concepts and evolution</i>. Boston: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-10557-8" title="Special:BookSources/0-201-10557-8">0-201-10557-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.au=Blaauw%2C+Gerrit+A.&amp;rft.au=Brooks%2C+Frederick+P.&amp;rft.btitle=Computer+architecture%3A+concepts+and+evolution&amp;rft.date=1997&amp;rft.genre=book&amp;rft.isbn=0-201-10557-8&amp;rft.place=Boston&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation book">Brooks, Frederick P. (2010). <i>The Design of Design: Essays from a Computer Scientist</i>. Reading, MA: Addison-Wesley Professional. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-36298-8" title="Special:BookSources/0-201-36298-8">0-201-36298-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.au=Brooks%2C+Frederick+P.&amp;rft.btitle=The+Design+of+Design%3A+Essays+from+a+Computer+Scientist&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=0-201-36298-8&amp;rft.place=Reading%2C+MA&amp;rft.pub=Addison-Wesley+Professional&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://hcipioneers.wordpress.com" rel="nofollow">"Encounters with HCI Pioneers - A Personal Photo Journal"</a>. <i>Encounters with HCI Pioneers - A Personal Photo Journal</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-02-08</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.atitle=Encounters+with+HCI+Pioneers+-+A+Personal+Photo+Journal&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fhcipioneers.wordpress.com&amp;rft.jtitle=Encounters+with+HCI+Pioneers+-+A+Personal+Photo+Journal&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-homepage-17"><span class="mw-cite-backlink">^ <a href="#cite_ref-homepage_17-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-homepage_17-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://www.cs.unc.edu/~brooks/" rel="nofollow">Home Page</a>, Frederick P. Brooks, Jr.</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.knaw.nl/en/members/foreign-members/3952" rel="nofollow">"F.P. Brooks"</a>. Royal Netherlands Academy of Arts and Sciences<span class="reference-accessdate">. Retrieved <span class="nowrap">17 July</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=F.P.+Brooks&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.knaw.nl%2Fen%2Fmembers%2Fforeign-members%2F3952&amp;rft.pub=Royal+Netherlands+Academy+of+Arts+and+Sciences&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.computerhistory.org/fellowawards/hall/bios/Frederick,Brooks/" rel="nofollow">"Frederick P. Brooks — CHM Fellow Award Winner"</a>. Computerhistory.org. 30 March 2015<span class="reference-accessdate">. Retrieved <span class="nowrap">30 March</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AFred+Brooks&amp;rft.btitle=Frederick+P.+Brooks+%94+CHM+Fellow+Award+Winner&amp;rft.date=2015-03-30&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.computerhistory.org%2Ffellowawards%2Fhall%2Fbios%2FFrederick%2CBrooks%2F&amp;rft.pub=Computerhistory.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-unc-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-unc_20-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://cs.unc.edu/people/frederick-p-brooks-jr/" rel="nofollow">Faculty Biography</a> at UNC.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Fred_Brooks&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="image" href="/wiki/File:Wikiquote-logo.svg"><img alt="" class="noviewer" data-file-height="355" data-file-width="300" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/13px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/20px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/27px-Wikiquote-logo.svg.png 2x" width="13"/></a> Quotations related to <a class="extiw" href="https://en.wikiquote.org/wiki/Special:Search/Fred_Brooks" title="wikiquote:Special:Search/Fred Brooks">Fred Brooks</a> at Wikiquote</li>
+</ul>
+<table class="mbox-small-left plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Fred_Brooks" title="commons:Category:Fred Brooks">Fred Brooks</a></b></i>.</td>
+</tr>
+</table>
+<p><br/></p>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><strong class="selflink">Fred Brooks</strong></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="A._M._Turing_Award_laureates" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Turing_Award_laureates" title="Template:Turing Award laureates"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Turing_Award_laureates" title="Template talk:Turing Award laureates"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Turing_Award_laureates&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="A._M._Turing_Award_laureates" style="font-size:114%"><a href="/wiki/Turing_Award" title="Turing Award">A. M. Turing Award</a> laureates</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Alan_Perlis" title="Alan Perlis">Alan Perlis</a> <small>(1966)</small></li>
+<li><a href="/wiki/Maurice_Wilkes" title="Maurice Wilkes">Maurice Vincent Wilkes</a> <small>(1967)</small></li>
+<li><a href="/wiki/Richard_Hamming" title="Richard Hamming">Richard Hamming</a> <small>(1968)</small></li>
+<li><a href="/wiki/Marvin_Minsky" title="Marvin Minsky">Marvin Minsky</a> <small>(1969)</small></li>
+<li><a href="/wiki/James_H._Wilkinson" title="James H. Wilkinson">James H. Wilkinson</a> <small>(1970)</small></li>
+<li><a href="/wiki/John_McCarthy_(computer_scientist)" title="John McCarthy (computer scientist)">John McCarthy</a> <small>(1971)</small></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a> <small>(1972)</small></li>
+<li><a href="/wiki/Charles_Bachman" title="Charles Bachman">Charles Bachman</a> <small>(1973)</small></li>
+<li><a href="/wiki/Donald_Knuth" title="Donald Knuth">Donald Knuth</a> <small>(1974)</small></li>
+<li><a href="/wiki/Allen_Newell" title="Allen Newell">Allen Newell</a> / <a href="/wiki/Herbert_A._Simon" title="Herbert A. Simon">Herbert A. Simon</a> <small>(1975)</small></li>
+<li><a href="/wiki/Michael_O._Rabin" title="Michael O. Rabin">Michael O. Rabin</a> / <a href="/wiki/Dana_Scott" title="Dana Scott">Dana Scott</a> <small>(1976)</small></li>
+<li><a href="/wiki/John_Backus" title="John Backus">John Backus</a> <small>(1977)</small></li>
+<li><a href="/wiki/Robert_W._Floyd" title="Robert W. Floyd">Robert W. Floyd</a> <small>(1978)</small></li>
+<li><a href="/wiki/Kenneth_E._Iverson" title="Kenneth E. Iverson">Kenneth E. Iverson</a> <small>(1979)</small></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">Tony Hoare</a> <small>(1980)</small></li>
+<li><a href="/wiki/Edgar_F._Codd" title="Edgar F. Codd">Edgar F. Codd</a> <small>(1981)</small></li>
+<li><a href="/wiki/Stephen_Cook" title="Stephen Cook">Stephen Cook</a> <small>(1982)</small></li>
+<li><a href="/wiki/Ken_Thompson" title="Ken Thompson">Ken Thompson</a> / <a href="/wiki/Dennis_Ritchie" title="Dennis Ritchie">Dennis Ritchie</a> <small>(1983)</small></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a> <small>(1984)</small></li>
+<li><a href="/wiki/Richard_M._Karp" title="Richard M. Karp">Richard Karp</a> <small>(1985)</small></li>
+<li><a href="/wiki/John_Hopcroft" title="John Hopcroft">John Hopcroft</a> / <a href="/wiki/Robert_Tarjan" title="Robert Tarjan">Robert Tarjan</a> <small>(1986)</small></li>
+<li><a href="/wiki/John_Cocke" title="John Cocke">John Cocke</a> <small>(1987)</small></li>
+<li><a href="/wiki/Ivan_Sutherland" title="Ivan Sutherland">Ivan Sutherland</a> <small>(1988)</small></li>
+<li><a href="/wiki/William_Kahan" title="William Kahan">William Kahan</a> <small>(1989)</small></li>
+<li><a href="/wiki/Fernando_J._Corbat%C3%B3" title="Fernando J. Corbató">Fernando J. Corbató</a> <small>(1990)</small></li>
+<li><a href="/wiki/Robin_Milner" title="Robin Milner">Robin Milner</a> <small>(1991)</small></li>
+<li><a href="/wiki/Butler_Lampson" title="Butler Lampson">Butler Lampson</a> <small>(1992)</small></li>
+<li><a href="/wiki/Juris_Hartmanis" title="Juris Hartmanis">Juris Hartmanis</a> / <a href="/wiki/Richard_E._Stearns" title="Richard E. Stearns">Richard E. Stearns</a> <small>(1993)</small></li>
+<li><a href="/wiki/Edward_Feigenbaum" title="Edward Feigenbaum">Edward Feigenbaum</a> / <a href="/wiki/Raj_Reddy" title="Raj Reddy">Raj Reddy</a> <small>(1994)</small></li>
+<li><a href="/wiki/Manuel_Blum" title="Manuel Blum">Manuel Blum</a> <small>(1995)</small></li>
+<li><a href="/wiki/Amir_Pnueli" title="Amir Pnueli">Amir Pnueli</a> <small>(1996)</small></li>
+<li><a href="/wiki/Douglas_Engelbart" title="Douglas Engelbart">Douglas Engelbart</a> <small>(1997)</small></li>
+<li><a href="/wiki/Jim_Gray_(computer_scientist)" title="Jim Gray (computer scientist)">Jim Gray</a> <small>(1998)</small></li>
+<li><strong class="selflink">Fred Brooks</strong> <small>(1999)</small></li>
+<li><a href="/wiki/Andrew_Yao" title="Andrew Yao">Andrew Yao</a> <small>(2000)</small></li>
+<li><a href="/wiki/Ole-Johan_Dahl" title="Ole-Johan Dahl">Ole-Johan Dahl</a> / <a href="/wiki/Kristen_Nygaard" title="Kristen Nygaard">Kristen Nygaard</a> <small>(2001)</small></li>
+<li><a href="/wiki/Ron_Rivest" title="Ron Rivest">Ron Rivest</a> / <a href="/wiki/Adi_Shamir" title="Adi Shamir">Adi Shamir</a> / <a href="/wiki/Leonard_Adleman" title="Leonard Adleman">Leonard Adleman</a> <small>(2002)</small></li>
+<li><a href="/wiki/Alan_Kay" title="Alan Kay">Alan Kay</a> <small>(2003)</small></li>
+<li><a href="/wiki/Vint_Cerf" title="Vint Cerf">Vint Cerf</a> / <a href="/wiki/Bob_Kahn" title="Bob Kahn">Bob Kahn</a> <small>(2004)</small></li>
+<li><a href="/wiki/Peter_Naur" title="Peter Naur">Peter Naur</a> <small>(2005)</small></li>
+<li><a href="/wiki/Frances_E._Allen" title="Frances E. Allen">Frances E. Allen</a> <small>(2006)</small></li>
+<li><a href="/wiki/Edmund_M._Clarke" title="Edmund M. Clarke">Edmund M. Clarke</a> / <a href="/wiki/E._Allen_Emerson" title="E. Allen Emerson">E. Allen Emerson</a> / <a href="/wiki/Joseph_Sifakis" title="Joseph Sifakis">Joseph Sifakis</a> <small>(2007)</small></li>
+<li><a href="/wiki/Barbara_Liskov" title="Barbara Liskov">Barbara Liskov</a> <small>(2008)</small></li>
+<li><a href="/wiki/Charles_P._Thacker" title="Charles P. Thacker">Charles P. Thacker</a> <small>(2009)</small></li>
+<li><a href="/wiki/Leslie_Valiant" title="Leslie Valiant">Leslie G. Valiant</a> <small>(2010)</small></li>
+<li><a href="/wiki/Judea_Pearl" title="Judea Pearl">Judea Pearl</a> <small>(2011)</small></li>
+<li><a href="/wiki/Shafi_Goldwasser" title="Shafi Goldwasser">Shafi Goldwasser</a> / <a href="/wiki/Silvio_Micali" title="Silvio Micali">Silvio Micali</a> <small>(2012)</small></li>
+<li><a href="/wiki/Leslie_Lamport" title="Leslie Lamport">Leslie Lamport</a> <small>(2013)</small></li>
+<li><a href="/wiki/Michael_Stonebraker" title="Michael Stonebraker">Michael Stonebraker</a> <small>(2014)</small></li>
+<li><a href="/wiki/Martin_Hellman" title="Martin Hellman">Martin Hellman</a> / <a href="/wiki/Whitfield_Diffie" title="Whitfield Diffie">Whitfield Diffie</a> <small>(2015)</small></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a class="external text" href="//www.worldcat.org/identities/containsVIAFID/34570690" rel="nofollow">WorldCat Identities</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Virtual_International_Authority_File" title="Virtual International Authority File">VIAF</a>: <span class="uid"><a class="external text" href="https://viaf.org/viaf/34570690" rel="nofollow">34570690</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/names/n88643438" rel="nofollow">n88643438</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/International_Standard_Name_Identifier" title="International Standard Name Identifier">ISNI</a>: <span class="uid"><a class="external text" href="http://isni.org/isni/0000000110530599" rel="nofollow">0000 0001 1053 0599</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/111196531" rel="nofollow">111196531</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Syst%C3%A8me_universitaire_de_documentation" title="Système universitaire de documentation">SUDOC</a>: <span class="uid"><a class="external text" href="http://www.idref.fr/034701192" rel="nofollow">034701192</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb125427921" rel="nofollow">cb125427921</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb125427921" rel="nofollow">(data)</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Mathematics_Genealogy_Project" title="Mathematics Genealogy Project">MGP</a>: <span class="uid"><a class="external text" href="http://www.genealogy.ams.org/id.php?id=25260" rel="nofollow">25260</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/National_Diet_Library" title="National Diet Library">NDL</a>: <span class="uid"><a class="external text" href="http://id.ndl.go.jp/auth/ndlna/00434488" rel="nofollow">00434488</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/National_Library_of_the_Czech_Republic" title="National Library of the Czech Republic">NKC</a>: <span class="uid"><a class="external text" href="http://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ntk2010599348&amp;CON_LNG=ENG" rel="nofollow">ntk2010599348</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11652-0!*!0!!en!4!* and timestamp 20161002195647 and revision id 724723155
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Fred_Brooks&amp;oldid=724723155">https://en.wikipedia.org/w/index.php?title=Fred_Brooks&amp;oldid=724723155</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:American_computer_scientists" title="Category:American computer scientists">American computer scientists</a></li><li><a href="/wiki/Category:American_software_engineers" title="Category:American software engineers">American software engineers</a></li><li><a href="/wiki/Category:American_technology_writers" title="Category:American technology writers">American technology writers</a></li><li><a href="/wiki/Category:1931_births" title="Category:1931 births">1931 births</a></li><li><a href="/wiki/Category:Living_people" title="Category:Living people">Living people</a></li><li><a href="/wiki/Category:Virtual_reality_pioneers" title="Category:Virtual reality pioneers">Virtual reality pioneers</a></li><li><a href="/wiki/Category:Fellows_of_the_Association_for_Computing_Machinery" title="Category:Fellows of the Association for Computing Machinery">Fellows of the Association for Computing Machinery</a></li><li><a href="/wiki/Category:Fellows_of_the_British_Computer_Society" title="Category:Fellows of the British Computer Society">Fellows of the British Computer Society</a></li><li><a href="/wiki/Category:Guggenheim_Fellows" title="Category:Guggenheim Fellows">Guggenheim Fellows</a></li><li><a href="/wiki/Category:IBM_employees" title="Category:IBM employees">IBM employees</a></li><li><a href="/wiki/Category:IBM_Research_computer_scientists" title="Category:IBM Research computer scientists">IBM Research computer scientists</a></li><li><a href="/wiki/Category:Members_of_the_United_States_National_Academy_of_Engineering" title="Category:Members of the United States National Academy of Engineering">Members of the United States National Academy of Engineering</a></li><li><a href="/wiki/Category:Members_of_the_United_States_National_Academy_of_Sciences" title="Category:Members of the United States National Academy of Sciences">Members of the United States National Academy of Sciences</a></li><li><a href="/wiki/Category:Members_of_the_Royal_Netherlands_Academy_of_Arts_and_Sciences" title="Category:Members of the Royal Netherlands Academy of Arts and Sciences">Members of the Royal Netherlands Academy of Arts and Sciences</a></li><li><a href="/wiki/Category:National_Medal_of_Technology_recipients" title="Category:National Medal of Technology recipients">National Medal of Technology recipients</a></li><li><a href="/wiki/Category:Turing_Award_laureates" title="Category:Turing Award laureates">Turing Award laureates</a></li><li><a href="/wiki/Category:University_of_North_Carolina_at_Chapel_Hill_faculty" title="Category:University of North Carolina at Chapel Hill faculty">University of North Carolina at Chapel Hill faculty</a></li><li><a href="/wiki/Category:Duke_University_alumni" title="Category:Duke University alumni">Duke University alumni</a></li><li><a href="/wiki/Category:Harvard_University_alumni" title="Category:Harvard University alumni">Harvard University alumni</a></li><li><a href="/wiki/Category:People_from_Durham,_North_Carolina" title="Category:People from Durham, North Carolina">People from Durham, North Carolina</a></li><li><a href="/wiki/Category:20th-century_American_engineers" title="Category:20th-century American engineers">20th-century American engineers</a></li><li><a href="/wiki/Category:21st-century_American_engineers" title="Category:21st-century American engineers">21st-century American engineers</a></li><li><a href="/wiki/Category:20th-century_American_mathematicians" title="Category:20th-century American mathematicians">20th-century American mathematicians</a></li><li><a href="/wiki/Category:21st-century_American_mathematicians" title="Category:21st-century American mathematicians">21st-century American mathematicians</a></li><li><a href="/wiki/Category:20th-century_American_scientists" title="Category:20th-century American scientists">20th-century American scientists</a></li><li><a href="/wiki/Category:21st-century_American_scientists" title="Category:21st-century American scientists">21st-century American scientists</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2013" title="Category:Articles containing potentially dated statements from 2013">Articles containing potentially dated statements from 2013</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Commons_category_with_page_title_same_as_on_Wikidata" title="Category:Commons category with page title same as on Wikidata">Commons category with page title same as on Wikidata</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_VIAF_identifiers" title="Category:Wikipedia articles with VIAF identifiers">Wikipedia articles with VIAF identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_LCCN_identifiers" title="Category:Wikipedia articles with LCCN identifiers">Wikipedia articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_ISNI_identifiers" title="Category:Wikipedia articles with ISNI identifiers">Wikipedia articles with ISNI identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_BNF_identifiers" title="Category:Wikipedia articles with BNF identifiers">Wikipedia articles with BNF identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Fred+Brooks" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Fred+Brooks" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Fred_Brooks" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Fred_Brooks" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Fred_Brooks">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Fred_Brooks&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Fred_Brooks&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Fred_Brooks" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Fred_Brooks" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Fred_Brooks&amp;oldid=724723155" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Fred_Brooks&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q92609" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Fred_Brooks&amp;id=724723155" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Fred+Brooks">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Fred+Brooks&amp;returnto=Fred+Brooks&amp;oldid=724723155&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Fred_Brooks&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Fred_Brooks" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikiquote"><a href="https://en.wikiquote.org/wiki/Fred_Brooks" hreflang="en">Wikiquote</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%81%D8%B1%D9%8A%D8%AF_%D8%A8%D8%B1%D9%88%D9%83%D8%B3" hreflang="ar" lang="ar" title="فريد بروكس – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A1_%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%95%E0%A7%8D%E2%80%8C%E0%A6%B8" hreflang="bn" lang="bn" title="ফ্রেড ব্রুক্‌স – Bengali">বাংলা</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Fred_Brooks" hreflang="ca" lang="ca" title="Fred Brooks – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Frederick_Brooks" hreflang="cs" lang="cs" title="Frederick Brooks – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Fred_Brooks" hreflang="da" lang="da" title="Fred Brooks – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Frederick_P._Brooks" hreflang="de" lang="de" title="Frederick P. Brooks – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Frederick_Brooks" hreflang="es" lang="es" title="Frederick Brooks – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%AF%D8%B1%DB%8C%DA%A9_%D8%A8%D8%B1%D9%88%DA%A9%D8%B2" hreflang="fa" lang="fa" title="فردریک بروکز – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Frederick_Brooks" hreflang="fr" lang="fr" title="Frederick Brooks – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EB%8D%94%EB%A6%AD_%EB%B8%8C%EB%A3%A9%EC%8A%A4" hreflang="ko" lang="ko" title="프레더릭 브룩스 – Korean">한국어</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Frederick_P._Brooks" hreflang="id" lang="id" title="Frederick P. Brooks – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%93_%D7%91%D7%A8%D7%95%D7%A7%D7%A1" hreflang="he" lang="he" title="פרד ברוקס – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-ht"><a href="https://ht.wikipedia.org/wiki/Fred_Brooks" hreflang="ht" lang="ht" title="Fred Brooks – Haitian Creole">Kreyòl ayisyen</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Freds_Brukss" hreflang="lv" lang="lv" title="Freds Brukss – Latvian">Latviešu</a></li><li class="interlanguage-link interwiki-mg"><a href="https://mg.wikipedia.org/wiki/Frederick_Brooks" hreflang="mg" lang="mg" title="Frederick Brooks – Malagasy">Malagasy</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Frederick_Brooks" hreflang="nl" lang="nl" title="Frederick Brooks – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%87%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%83%96%E3%83%AB%E3%83%83%E3%82%AF%E3%82%B9" hreflang="ja" lang="ja" title="フレデリック・ブルックス – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Fred_Brooks" hreflang="no" lang="no" title="Fred Brooks – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Fred_Brooks" hreflang="pl" lang="pl" title="Fred Brooks – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Fred_Brooks" hreflang="pt" lang="pt" title="Fred Brooks – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Frederick_Brooks" hreflang="ro" lang="ro" title="Frederick Brooks – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%83%D0%BA%D1%81,_%D0%A4%D1%80%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA" hreflang="ru" lang="ru" title="Брукс, Фредерик – Russian">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Fred_Brooks" hreflang="simple" lang="simple" title="Fred Brooks – Simple English">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Frederick_Brooks" hreflang="sk" lang="sk" title="Frederick Brooks – Slovak">Slovenčina</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%A4%D1%80%D0%B5%D0%B4_%D0%91%D1%80%D1%83%D0%BA%D1%81" hreflang="sr" lang="sr" title="Фред Брукс – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Fred_Brooks" hreflang="sh" lang="sh" title="Fred Brooks – Serbo-Croatian">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Fred_Brooks" hreflang="fi" lang="fi" title="Fred Brooks – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Fred_Brooks" hreflang="tr" lang="tr" title="Fred Brooks – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A4%D1%80%D0%B5%D0%B4_%D0%91%D1%80%D1%83%D0%BA%D1%81" hreflang="uk" lang="uk" title="Фред Брукс – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E4%BD%9B%E7%91%9E%E5%BE%B7%C2%B7%E5%B8%83%E9%AD%AF%E5%85%8B%E6%96%AF" hreflang="zh" lang="zh" title="佛瑞德·布魯克斯 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q92609#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 11 June 2016, at 02:07.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Fred_Brooks&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.300",
+            "walltime": "0.371",
+            "ppvisitednodes": {
+                "value": 2235,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 84608,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 4645,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 16,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  303.180      1 -total",
+                " 40.25%  122.037      1 Template:Reflist",
+                " 18.92%   57.356      1 Template:Infobox_scientist",
+                " 16.22%   49.186      1 Template:Infobox",
+                " 11.41%   34.607      4 Template:Cite_journal",
+                "  9.81%   29.738      3 Template:Navbox",
+                "  8.35%   25.313      1 Template:Software_engineering",
+                "  8.17%   24.769      1 Template:Commons_category",
+                "  7.62%   23.089      7 Template:Cite_web",
+                "  6.90%   20.931      1 Template:Commons"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.101",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4392230,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1240",
+            "timestamp": "20161002195647",
+            "ttl": 3600,
+            "transientcontent": true
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":456,"wgHostname":"mw1240"});});</script>
+</body>
+</html>
+

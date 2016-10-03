@@ -1,0 +1,579 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Performance_engineering
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Performance engineering - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Performance_engineering","wgTitle":"Performance engineering","wgCurRevisionId":738413514,"wgRevisionId":738413514,"wgArticleId":6615610,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from March 2009","All articles needing additional references","Information technology management","Performance management","Software optimization"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Performance_engineering","wgRelevantArticleId":6615610,"wgRequestId":"V-A-sgpAAEMAAcU3KCUAAACI","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q4117135","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Performance_engineering" rel="alternate"/>
+<link href="/w/index.php?title=Performance_engineering&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Performance_engineering&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Performance_engineering" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Performance_engineering rootpage-Performance_engineering skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Performance engineering</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p><b>Performance engineering</b> or <b>SPE</b> (<b>Systems Performance Engineering</b> or <b>Software Performance Engineering</b>) within <a href="/wiki/Systems_engineering" title="Systems engineering">systems engineering</a>, encompasses the set of roles, skills, activities, practices, tools, and deliverables applied at every phase of the <a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">systems development life cycle</a> which ensures that a solution will be designed, implemented, and operationally supported to meet the <a href="/wiki/Non-functional_requirement" title="Non-functional requirement">non-functional requirements</a> for performance (such as <a href="/wiki/Throughput" title="Throughput">throughput</a>, <a href="/wiki/Latency_(engineering)" title="Latency (engineering)">latency</a>, or <a href="/wiki/Computer_memory" title="Computer memory">memory</a> usage).</p>
+<p>It may be alternatively referred to as <i>software performance engineering</i> or <a href="/wiki/Application_performance_engineering" title="Application performance engineering">application performance engineering</a> within <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>. As the connection between application success and business success continues to gain recognition, particularly in the mobile space, application performance engineering has taken on a preventative and perfective<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> role within the software development life cycle. As such, the term is typically used to describe the processes, people and technologies required to effectively test non-functional requirements, ensure adherence to service levels and optimize application performance prior to deployment.</p>
+<p>The term <i>performance engineering</i> encompasses more than just the software and supporting infrastructure, and as such the term performance engineering is preferable from a macro view. Adherence to the non-functional requirements is also validated post-deployment by monitoring the production systems. This is part of <a href="/wiki/IT_service_management" title="IT service management">IT service management</a> (see also <a class="mw-redirect" href="/wiki/Information_Technology_Infrastructure_Library" title="Information Technology Infrastructure Library">ITIL</a>).</p>
+<p>Performance engineering has become a separate discipline at a number of large corporations, with tasking separate but parallel to Systems Engineering. It is pervasive, involving people from multiple organizational units; but predominantly within the <a href="/wiki/Information_technology" title="Information technology">information technology</a> organization.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Performance_engineering_objectives"><span class="tocnumber">1</span> <span class="toctext">Performance engineering objectives</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Performance_engineering_approach"><span class="tocnumber">2</span> <span class="toctext">Performance engineering approach</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Inception"><span class="tocnumber">2.1</span> <span class="toctext">Inception</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Elaboration"><span class="tocnumber">2.2</span> <span class="toctext">Elaboration</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Construction"><span class="tocnumber">2.3</span> <span class="toctext">Construction</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Transition"><span class="tocnumber">2.4</span> <span class="toctext">Transition</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Service_management"><span class="tocnumber">3</span> <span class="toctext">Service management</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Service_level_management"><span class="tocnumber">3.1</span> <span class="toctext">Service level management</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Capacity_management"><span class="tocnumber">3.2</span> <span class="toctext">Capacity management</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Problem_management"><span class="tocnumber">3.3</span> <span class="toctext">Problem management</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Monitoring"><span class="tocnumber">4</span> <span class="toctext">Monitoring</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Performance_engineering_objectives">Performance engineering objectives</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=1" title="Edit section: Performance engineering objectives">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Increase business revenue by ensuring the system can process transactions within the requisite timeframe</li>
+<li>Eliminate system failure requiring scrapping and writing off the system development effort due to performance objective failure</li>
+<li>Eliminate late system deployment due to performance issues</li>
+<li>Eliminate avoidable system rework due to performance issues</li>
+<li>Eliminate avoidable system tuning efforts</li>
+<li>Avoid additional and unnecessary hardware acquisition costs</li>
+<li>Reduce increased software maintenance costs due to performance problems in production</li>
+<li>Reduce increased software maintenance costs due to software impacted by ad hoc performance fixes</li>
+<li>Reduce additional operational overhead for handling system issues due to performance problems</li>
+<li>Identify future bottlenecks by simulation over prototype</li>
+</ul>
+<h2><span class="mw-headline" id="Performance_engineering_approach">Performance engineering approach</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=2" title="Edit section: Performance engineering approach">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Because this discipline is applied within multiple methodologies, the following activities will occur within differently specified phases. However, if the phases of the <a class="mw-redirect" href="/wiki/IBM_Rational_Unified_Process" title="IBM Rational Unified Process">rational unified process</a> (RUP) are used as a framework, then the activities will occur as follows:</p>
+<h3><span class="mw-headline" id="Inception">Inception</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=3" title="Edit section: Inception">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>During this first conceptual phase of a program or project, critical <a href="/wiki/Business_process" title="Business process">business processes</a> are identified. Typically they are classified as critical based upon revenue value, cost savings, or other assigned business value. This classification is done by the business unit, not the IT organization.</p>
+<p>High level risks that may impact system performance are identified and described at this time. An example might be known performance risks for a particular vendor system.</p>
+<p>Finally performance activities, roles, and deliverables are identified for the Elaboration phase. Activities and resource loading are incorporated into the Elaboration phase project plans.</p>
+<h3><span class="mw-headline" id="Elaboration">Elaboration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=4" title="Edit section: Elaboration">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>During this defining phase, the critical business processes are decomposed to critical <a class="mw-redirect" href="/wiki/Use_cases" title="Use cases">use cases</a>. Such use cases will be decomposed further, as needed, to single page (screen) transitions. These are the use cases that will be subjected to script driven <a class="mw-disambig" href="/wiki/Performance_testing" title="Performance testing">performance testing</a>.</p>
+<p>The type of requirements that relate to Performance Engineering are the <a class="mw-redirect" href="/wiki/Non-functional_requirements" title="Non-functional requirements">non-functional requirements</a>, or NFR. While a functional requirement relates to <b>what</b> business operations are to be performed, a performance related non-functional requirement will relate to <b>how fast</b> that business operation performs under defined circumstances.</p>
+<p>The concept of "defined circumstances" is vital. For example:</p>
+<ul>
+<li>Invalid – the system should respond to user input within 10 seconds.</li>
+<li>Valid – for use case ABC the system will respond to a valid user entry within 5 seconds for a median load of 250 active users and 2000 logged in users 95% of the time; or within 10 seconds for a peak load of 500 active users and 4000 logged in users 90% of the time.</li>
+</ul>
+<p>Note the critical difference between the two specifications. The first example provides no conditions. The second clearly identifies the conditions under which the system is to perform. The second example may have a <a class="mw-redirect" href="/wiki/Service_level_agreement" title="Service level agreement">service level agreement</a>, the first should not. The capacity planners and architects can actually design and build a system to meet the criteria for the valid nonfunctional requirement – but not for the invalid one. Testers may build a reliable performance test for the second example, but not for the invalid example.</p>
+<p>Each critical use case must have an associated NFR. If, for a given use case, no existing NFR is applicable, a new NFR specific to that use case must be created.</p>
+<p>Non functional requirements are not limited to use cases. The overall <b>system volumetrics</b> must be specified. These will describe the overall system load over a specified time period, defining how many of each type of business transaction will be executed per unit of time. Commonly volumetrics describe a typical business day, and then are broken down for each hour. This will describe how system load will vary over the course of the day. For example: 1200 of transaction A, 300 of transaction B, 3300 of transaction C, etc. for a given business day; then in hour 1 so many executions of A, B, C etc., in hour 2 so many transaction executions, and so on. The information is often formatted in a tabular form for clarity. If different user classes are executing the transactions, this information will also be incorporated in the NFR documentation. Finally, the transactions may be classified as to general type, normally being user interaction, report generation, and batch processing.</p>
+<p>The system volumetrics documented in the NFR documentation will be used as inputs for both <a href="/wiki/Load_testing" title="Load testing">load testing</a> and <a href="/wiki/Stress_testing" title="Stress testing">stress testing</a> of the system during the <a href="/wiki/Software_performance_testing" title="Software performance testing">performance test</a>. Computer scientist have been using all kinds of approaches, e.g., Queueing Theory, to develop performance evaluation models. <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup><sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p>At this point it is suggested that performance modeling be performed using the use case information as input. This may be done using a performance lab, and using prototypes and mockups of the "to be" system; or a vendor provided modeling tool may be used; or even merely a spreadsheet workbook, where each use case is modeled in a single sheet, and a summary sheet is used to provide high level information for all of the use cases.</p>
+<p>It is recommended that <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a> <a class="mw-redirect" href="/wiki/Sequence_diagrams" title="Sequence diagrams">sequence diagrams</a> be generated at the physical tier level for each use case. The physical tiers are represented by the vertical object columns, and the message communication between the tiers by the horizontal arrows. Timing information should be associated with each horizontal arrow; this should correlate with the performance model.</p>
+<p>Some performance engineering activities related to performance testing should be executed in this phase. They include validating a performance <a href="/wiki/Test_strategy" title="Test strategy">test strategy</a>, developing a performance test plan, determining the sizing of test data sets, developing a performance test data plan, and identifying performance test scenarios.</p>
+<p>For any system of significant impact, a monitoring plan and a monitoring design are developed in this phase. Performance engineering applies a subset of activities related to performance monitoring, both for the performance test environment as well as for the production environment.</p>
+<p>The risk document generated in the previous phase is revisited here. A risk mitigation plan is determined for each identified performance risk; and time, cost, and responsibility is determined and documented.</p>
+<p>Finally performance activities, roles, and deliverables are identified for the Construction phase. Activities and resource loading are incorporated into the Construction phase project plans. These will be elaborated for each iteration.</p>
+<h3><span class="mw-headline" id="Construction">Construction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=5" title="Edit section: Construction">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Early in this phase a number of performance tool related activities are required. These include:</p>
+<ul>
+<li>Identify key development team members as subject matter experts for the selected tools</li>
+<li>Specify a <a class="mw-redirect" href="/wiki/Profiler_(computer_science)" title="Profiler (computer science)">profiling</a> tool for the development/component unit test environment</li>
+<li>Specify an automated unit (component) performance test tool for the development/component unit test environment; this is used when no GUI yet exists to drive the components under development</li>
+<li>Specify an automated tool for driving server-side unit (components) for the development/component unit test environment</li>
+<li>Specify an automated multi-user capable script-driven end-to-end tool for the development/component unit test environment; this is used to execute screen-driven use cases</li>
+<li>Identify a database test data load tool for the development/component unit test environment; this is required to ensure that the database optimizer chooses correct execution paths and to enable reinitializing and reloading the database as needed</li>
+<li>Deploy the performance tools for the development team</li>
+<li>Presentations and training must be given to development team members on the selected tools</li>
+</ul>
+<p>A member of the performance engineering practice and the development technical team leads should work together to identify performance-oriented best practices for the development team. Ideally the development organization should already have a body of best practices, but often these do not include or emphasize those best practices that impact system performance.</p>
+<p>The concept of application instrumentation should be introduced here with the participation of the IT Monitoring organization. Several vendor monitoring systems have performance capabilities, these normally operate at the operating system, network, and server levels; e.g. CPU utilization, memory utilization, disk I/O, and for J2EE servers the JVM performance including garbage collection.</p>
+<p>But this type of monitoring does not permit the tracking of use case level performance. To reach this level of monitoring capability may require that the application itself be instrumented. Alternatively, a monitoring toolset that works at the switch level may be used. (Examples might be <a class="mw-redirect" href="/wiki/TeaLeaf" title="TeaLeaf">TeaLeaf</a>'s Cx technology, <a href="/wiki/Quest_Software" title="Quest Software">Quest Software</a>'s Foglight, <a href="/wiki/Hewlett-Packard" title="Hewlett-Packard">Hewlett-Packard</a>'s RUM, <a href="/wiki/NetQoS" title="NetQoS">NetQoS</a>'s SuperAgent, or <a href="/wiki/Compuware" title="Compuware">Compuware</a>'s agentless ClientVantage.) The monitoring group should have specified the requirements in a previous phase, and should work with the development team to ensure that use case level monitoring is built in.</p>
+<p>The group responsible for infrastructural <a href="/wiki/Performance_tuning" title="Performance tuning">performance tuning</a> should have an established "base model" checklist to tune the operating systems, network, servers (application, web, database, load balancer, etc.), and any message queueing software. Then as the performance test team starts to gather data, they should commence tuning the environment more specifically for the system to be deployed. This requires the active support of subject matter experts, for example, database tuning normally requires a DBA who has special skills in that area.</p>
+<p>The performance test team normally does not execute performance tests in the development environment, but rather in a specialized pre-deployment environment that is configured to be as close as possible to the planned production environment. This team will execute <a class="mw-disambig" href="/wiki/Performance_testing" title="Performance testing">performance testing</a> against <a href="/wiki/Test_case" title="Test case">test cases</a>, validating that the critical use cases conform to the specified non-functional requirements. The team will execute <a href="/wiki/Load_testing" title="Load testing">load testing</a> against a normally expected (median) load as well as a peak load. They will often run <a class="mw-disambig" href="/wiki/Stress_test" title="Stress test">stress tests</a> that will identify the system bottlenecks. The data gathered, and the analyses, will be fed back to the group that does performance tuning. Where necessary, the system will be tuned to bring nonconforming tests into conformance with the non-functional requirements.</p>
+<p>If performance engineering has been properly applied at each iteration and phase of the project to this point, hopefully this will be sufficient to enable the system to receive performance certification. However, if for some reason (perhaps proper performance engineering working practices were not applied) there are tests that cannot be tuned into compliance, then it will be necessary to return portions of the system to development for refactoring. In some cases the problem can be resolved with additional hardware, but adding more hardware leads quickly to diminishing returns.</p>
+<p>For example: suppose we can improve 70% of a module by parallelizing it, and run on 4 CPUs instead of 1 CPU. If α is the fraction of a calculation that is sequential, and (1-α) is the fraction that can be parallelized, then the maximum speedup that can be achieved by using P processors is given according to <a class="mw-redirect" href="/wiki/Amdahl%27s_Law" title="Amdahl's Law">Amdahl's Law</a>: <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mi>α<!-- α --></mi>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>α<!-- α --></mi>
+</mrow>
+<mi>P</mi>
+</mfrac>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {1}{\alpha +{\frac {1-\alpha }{P}}}}}</annotation>
+</semantics>
+</math></span><img alt="\frac{1}{\alpha+\frac{1-\alpha}{P}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1c33b85c3730e69e05ddca00e9cb30040a58e338" style="vertical-align: -3.505ex; width:9.196ex; height:6.843ex;"/></span></p>
+<p>In this example we would get: 1/(.3+(1-.3)/4)=2.105. So for quadrupling the processing power we only doubled the performance (from 1 to 2.105). And we are now well on the way to diminishing returns. If we go on to double the computing power again from 4 to 8 processors we get 1/(.3+(1-.3)/8)=2.581. So now by doubling the processing power again we only got a performance improvement of about one fifth (from 2.105 to 2.581).</p>
+<h3><span class="mw-headline" id="Transition">Transition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=6" title="Edit section: Transition">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>During this final phase the system is deployed to the production environment. A number of preparatory steps are required. These include:</p>
+<ul>
+<li>Configuring the operating systems, network, servers (application, web, database, load balancer, etc.), and any message queueing software according to the base checklists and the optimizations identified in the performance test environment</li>
+<li>Ensuring all performance monitoring software is deployed and configured</li>
+<li>Running Statistics on the database after the production data load is completed</li>
+</ul>
+<p>Once the new system is deployed, ongoing operations pick up performance activities, including:</p>
+<ul>
+<li>Validating that weekly and monthly performance reports indicate that critical use cases perform within the specified non functional requirement criteria</li>
+<li>Where use cases are falling outside of NFR criteria, submit defects</li>
+<li>Identify projected trends from monthly and quarterly reports, and on a quarterly basis, execute <a href="/wiki/Capacity_planning" title="Capacity planning">capacity planning</a> management activities</li>
+</ul>
+<h2><span class="mw-headline" id="Service_management">Service management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=7" title="Edit section: Service management">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In the operational domain (post production deployment) performance engineering focuses primarily within three areas: <a href="/wiki/ITIL#Service_level_management" title="ITIL">service level management</a>, <a href="/wiki/ITIL#Capacity_management" title="ITIL">capacity management</a>, and <a href="/wiki/ITIL#Problem_management" title="ITIL">problem management</a>.</p>
+<h3><span class="mw-headline" id="Service_level_management">Service level management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=8" title="Edit section: Service level management">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the service level management area, performance engineering is concerned with <a class="mw-redirect" href="/wiki/Service_level_agreement" title="Service level agreement">service level agreements</a> and the associated systems monitoring that serves to validate service level compliance, detect problems, and identify trends. For example, when real user monitoring is deployed it is possible to ensure that user transactions are being executed in conformance with specified non-functional requirements. Transaction response time is logged in a database such that queries and reports can be run against the data. This permits trend analysis that can be useful for capacity management. When user transactions fall out of band, the events should generate alerts so that attention may be applied to the situation.</p>
+<h3><span class="mw-headline" id="Capacity_management">Capacity management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=9" title="Edit section: Capacity management">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>For capacity management, performance engineering focuses on ensuring that the systems will remain within performance compliance. This means executing <a href="/wiki/Trend_analysis" title="Trend analysis">trend analysis</a> on historical monitoring generated data, such that the future time of non compliance is predictable. For example, if a system is showing a trend of slowing transaction processing (which might be due to growing data set sizes, or increasing numbers of concurrent users, or other factors) then at some point the system will no longer meet the criteria specified within the service level agreements. Capacity management is charged with ensuring that additional capacity is added in advance of that point (additional CPUs, more memory, new database indexing, et cetera) so that the trend lines are reset and the system will remain within the specified performance range.</p>
+<h3><span class="mw-headline" id="Problem_management">Problem management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=10" title="Edit section: Problem management">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Within the problem management domain, the performance engineering practices are focused on resolving the root cause of performance related problems. These typically involve system tuning, changing operating system or device parameters, or even refactoring the application software to resolve poor performance due to poor design or bad coding practices.</p>
+<h2><span class="mw-headline" id="Monitoring">Monitoring</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=11" title="Edit section: Monitoring">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>To ensure that there is proper feedback validating that the system meets the NFR specified performance metrics, any major system needs a monitoring subsystem. The planning, design, installation, configuration, and control of the monitoring subsystem is specified by an appropriately defined Monitoring Process. The benefits are as follows:</p>
+<ol>
+<li>It is possible to establish service level agreements at the use case level.</li>
+<li>It is possible to turn on and turn off monitoring at periodic points or to support problem resolution.</li>
+<li>It enables the generation of regular reports.</li>
+<li>It enables the ability to track trends over time – such as the impact of increasing user loads and growing data sets on use case level performance.</li>
+</ol>
+<p>The trend analysis component of this cannot be undervalued. This functionality, properly implemented, will enable predicting when a given application undergoing gradually increasing user loads and growing data sets will exceed the specified non functional performance requirements for a given use case. This permits proper management budgeting, acquisition of, and deployment of the required resources to keep the system running within the parameters of the non functional performance requirements.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.diplom.de/MA-Thesis__Master-17047/Integration_of_Performance_Management_into_the_Application_Lifecycle.html" rel="nofollow">Integration of Performance Management in Information Technology Infrastructure Library</a> (ITIL)</li>
+<li><a href="/wiki/Java_performance" title="Java performance">Java performance</a></li>
+<li><a class="mw-redirect" href="/wiki/Non-functional_requirements" title="Non-functional requirements">Non-functional requirements</a></li>
+<li><a class="mw-disambig" href="/wiki/Performance_testing" title="Performance testing">Performance testing</a></li>
+<li><a href="/wiki/Performance_tuning" title="Performance tuning">Performance tuning</a></li>
+<li><a href="/wiki/Scalability" title="Scalability">Scalability</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Software_performance_testing" title="Software performance testing">Software performance testing</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/Use_cases" title="Use cases">Use cases</a></li>
+<li><a href="/wiki/Web_performance" title="Web performance">Web performance</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">"Banking Industry Lessons Learned in Outsourcing Testing Services," Gartner. August 2, 2012.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web">Bianchi, Giuseppe (2000). <a class="external text" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=840210&amp;tag=1" rel="nofollow">"Performance analysis of the IEEE 802.11 distributed coordination function"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APerformance+engineering&amp;rft.aufirst=Giuseppe&amp;rft.aulast=Bianchi&amp;rft.btitle=Performance+analysis+of+the+IEEE+802.11+distributed+coordination+function&amp;rft.date=2000&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D840210%26tag%3D1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web">Shi, Zhefu; Beard, Cory; Mitchell, Ken (2009). <a class="external text" href="http://www.sciencedirect.com/science/article/pii/S0166531609000236" rel="nofollow">"Analytical Models for Understanding Misbehavior and MAC Friendliness in CSMA Networks"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APerformance+engineering&amp;rft.au=Beard%2C+Cory&amp;rft.aufirst=Zhefu&amp;rft.aulast=Shi&amp;rft.au=Mitchell%2C+Ken&amp;rft.btitle=Analytical+Models+for+Understanding+Misbehavior+and+MAC+Friendliness+in+CSMA+Networks&amp;rft.date=2009&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0166531609000236&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Performance_engineering&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(March 2009)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Performance_engineering&amp;action=edit&amp;section=14" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www1.practicalperformanceanalyst.com" rel="nofollow">Practical Performance Analyst - Performance Engineering Community &amp; Body Of Knowledge</a></li>
+<li><a class="external text" href="http://www.mindtree.com/downloads/MindTree%20-%20Performance%20Engineering%20Flyer.pdf" rel="nofollow">Performance Engineering Methodology</a></li>
+<li><a class="external text" href="http://www-128.ibm.com/developerworks/rational/library/4215.html" rel="nofollow">A Performance Engineering Strategy</a></li>
+<li><a class="external text" href="http://test.cmg.org/conference/cmg2004/awards/4083.pdf" rel="nofollow">A Performance Process Maturity Model</a></li>
+<li><a class="external text" href="http://www.amazon.com/Every-Computer-Performance-Book-Computers/dp/1482657759/" rel="nofollow">The Every Computer Performance Book</a></li>
+<li><a class="external text" href="http://webdiis.unizar.es/CRPetri/papers/jcampos/03_MC_SERP.pdf" rel="nofollow">Exploring UML for Performance Engineering</a></li>
+<li><a class="external text" href="http://fortuitous.com/docs/primers/PE_Model_Intro.pdf" rel="nofollow">Introduction to Modeling Based Performance Engineering</a></li>
+<li><a class="external text" href="http://www.ins.com/assets/A6BE9064-50DC-4E00-9B52-BA265DA722D6.pdf" rel="nofollow">Leveraging ITIL to Improve Application Performance</a></li>
+<li><a class="external text" href="https://web.archive.org/web/20120211011904/http://channel9.msdn.com/wiki/default.aspx/PerformanceWiki.PerformanceEngineering" rel="nofollow">Patterns &amp; Practices Performance Engineering</a></li>
+<li><a class="external text" href="http://www.perfeng.com/papers/pdcp.pdf" rel="nofollow">Performance and Scalability of Distributed Software Architectures</a></li>
+<li><a class="external text" href="http://www.perfeng.com/papers/bestprac.pdf" rel="nofollow">Performance Engineering Best Practices (High Level)</a></li>
+<li><a class="external text" href="http://delivery.acm.org/10.1145/340000/336553/p189-pooley.pdf?key1=336553&amp;key2=4989881611&amp;coll=GUIDE&amp;dl=GUIDE,ACM&amp;CFID=11111111&amp;CFTOKEN=2222222" rel="nofollow">Software Engineering and Performance: A Road-map</a></li>
+<li><a class="external text" href="http://fortuitous.com/docs/whitepapers/Performance_Cost.pdf" rel="nofollow">The Vicious Cycle of Computer Systems Performance and IT Operational Costs</a></li>
+<li><a class="external text" href="http://blogs.technet.com/winserverperformance/" rel="nofollow">Microsoft Windows Server Performance Team</a></li>
+<li><a class="external text" href="http://www.cmg.org/measureit/issues/mit23/m_23_2.html" rel="nofollow">Gathering Performance Requirements</a></li>
+<li><a class="external text" href="http://sergeibaranov.sys-con.com/node/46513" rel="nofollow">Performance Testing Web Services: Strategies and Best Practices</a></li>
+<li><a class="external text" href="http://www.cmg.org/measureit/issues/mit49/m_49_12.html" rel="nofollow">Performance Evaluation of an Air Traffic Control System using the Application Response Measurement (ARM) Standard</a></li>
+</ul>
+<div aria-labelledby="Systems_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Systems_engineering" title="Template:Systems engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Systems_engineering" title="Template talk:Systems engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Systems_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Systems_engineering" style="font-size:114%"><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Subfields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace engineering</a></li>
+<li><a href="/wiki/Biological_systems_engineering" title="Biological systems engineering">Biological systems engineering</a></li>
+<li><a href="/wiki/Configuration_management" title="Configuration management">Configuration management</a></li>
+<li><a href="/wiki/Earth_systems_engineering_and_management" title="Earth systems engineering and management">Earth systems engineering and management</a></li>
+<li><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical engineering</a></li>
+<li><a href="/wiki/Enterprise_systems_engineering" title="Enterprise systems engineering">Enterprise systems engineering</a></li>
+<li><strong class="selflink">Performance engineering</strong></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Safety_engineering" title="Safety engineering">Safety engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Processes</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/System_integration" title="System integration">System integration</a></li>
+<li><a href="/wiki/Verification_and_validation" title="Verification and validation">Verification and validation</a></li>
+<li><a href="/wiki/Design_review" title="Design review">Design review</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Business_process" title="Business process">Business process</a></li>
+<li><a href="/wiki/System" title="System">System</a></li>
+<li><a href="/wiki/System_lifecycle" title="System lifecycle">System lifecycle</a></li>
+<li><a href="/wiki/V-Model" title="V-Model">V-Model</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">Systems development life cycle</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Tools</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Decision-making" title="Decision-making">Decision-making</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function modelling</a></li>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Optimization</a></li>
+<li><a href="/wiki/Planning" title="Planning">Planning</a></li>
+<li><a href="/wiki/Statistics" title="Statistics">Statistical analysis</a></li>
+<li><a href="/wiki/System_dynamics" title="System dynamics">System dynamics</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">Systems Modeling Language</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems modeling</a></li>
+<li><a href="/wiki/Work_breakdown_structure" title="Work breakdown structure">Work breakdown structure</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/James_S._Albus" title="James S. Albus">James S. Albus</a></li>
+<li><a href="/wiki/Wernher_von_Braun" title="Wernher von Braun">Wernher von Braun</a></li>
+<li><a href="/wiki/Harold_Chestnut" title="Harold Chestnut">Harold Chestnut</a></li>
+<li><a href="/wiki/Arthur_David_Hall_III" title="Arthur David Hall III">Arthur David Hall III</a></li>
+<li><a href="/wiki/Derek_Hitchins" title="Derek Hitchins">Derek Hitchins</a></li>
+<li><a href="/wiki/Robert_E._Machol" title="Robert E. Machol">Robert E. Machol</a></li>
+<li><a href="/wiki/Simon_Ramo" title="Simon Ramo">Simon Ramo</a></li>
+<li><a href="/wiki/Joseph_Francis_Shea" title="Joseph Francis Shea">Joseph Francis Shea</a></li>
+<li><a href="/wiki/John_N._Warfield" title="John N. Warfield">John N. Warfield</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Control_engineering" title="Control engineering">Control engineering</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial engineering</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Quality_management" title="Quality management">Quality management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <b><a href="/wiki/Category:Systems_engineering" title="Category:Systems engineering">Category</a></b></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Systems_engineering" title="commons:Category:Systems engineering">Commons</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:6615610-0!*!0!!en!4!*!math=5 and timestamp 20160929030347 and revision id 738413514
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Performance_engineering&amp;oldid=738413514">https://en.wikipedia.org/w/index.php?title=Performance_engineering&amp;oldid=738413514</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Information_technology_management" title="Category:Information technology management">Information technology management</a></li><li><a href="/wiki/Category:Performance_management" title="Category:Performance management">Performance management</a></li><li><a href="/wiki/Category:Software_optimization" title="Category:Software optimization">Software optimization</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_March_2009" title="Category:Articles needing additional references from March 2009">Articles needing additional references from March 2009</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Performance+engineering" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Performance+engineering" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Performance_engineering" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Performance_engineering" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Performance_engineering">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Performance_engineering&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Performance_engineering&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Performance_engineering" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Performance_engineering" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Performance_engineering&amp;oldid=738413514" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Performance_engineering&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q4117135" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Performance_engineering&amp;id=738413514" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Performance+engineering">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Performance+engineering&amp;returnto=Performance+engineering&amp;oldid=738413514&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Performance_engineering&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A3%D8%AF%D8%A7%D8%A1" hreflang="ar" lang="ar" title="هندسة الأداء – Arabic">العربية</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%84%B1%EB%8A%A5_%EA%B3%B5%ED%95%99" hreflang="ko" lang="ko" title="성능 공학 – Korean">한국어</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B8%D1%8F_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8" hreflang="ru" lang="ru" title="Инженерия производительности – Russian">Русский</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q4117135#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 September 2016, at 20:23.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Performance_engineering&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","ext.math.scripts","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.092",
+            "walltime": "0.152",
+            "ppvisitednodes": {
+                "value": 372,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 19575,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 10,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 6,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%   84.376      1 -total",
+                " 49.18%   41.500      1 Template:Reflist",
+                " 44.19%   37.285      2 Template:Cite_web",
+                " 32.43%   27.364      1 Template:Refimprove",
+                " 27.61%   23.296      1 Template:Ambox",
+                " 18.21%   15.361      1 Template:Systems_Engineering",
+                " 14.75%   12.442      1 Template:Navbox",
+                "  6.28%    5.298      2 Template:Icon"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.036",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2037786,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1252",
+            "timestamp": "20160929030347",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1272"});});</script>
+</body>
+</html>
+

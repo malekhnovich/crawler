@@ -1,0 +1,1306 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Database_design
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Database design - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Database_design","wgTitle":"Database design","wgCurRevisionId":742172829,"wgRevisionId":742172829,"wgArticleId":1040387,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Commons category with local link different than on Wikidata","Articles with DMOZ links","Database management systems","Databases","Database theory"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Database_design","wgRelevantArticleId":1040387,"wgRequestId":"V-EdbgpAMFcAAIl01KkAAABD","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q1049878","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.scripts%2Cstyles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Database_design" rel="alternate"/>
+<link href="/w/index.php?title=Database_design&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Database_design&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Database_design" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Database_design rootpage-Database_design skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Database design</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p><b>Database design</b> is the process of producing a detailed <a href="/wiki/Data_model" title="Data model">data model</a> of <a href="/wiki/Database" title="Database">database</a>. This <a href="/wiki/Data_model" title="Data model">data model</a> contains all the needed logical and physical design choices and physical storage parameters needed to generate a design in a <a href="/wiki/Data_definition_language" title="Data definition language">data definition language</a>, which can then be used to create a database. A fully attributed data model contains detailed attributes for each entity.</p>
+<p>The term database design can be used to describe many different parts of the design of an overall <a class="mw-redirect" href="/wiki/Database_system" title="Database system">database system</a>. Principally, and most correctly, it can be thought of as the logical design of the base data structures used to store the data. In the <a href="/wiki/Relational_model" title="Relational model">relational model</a> these are the <a class="mw-redirect" href="/wiki/Database_table" title="Database table">tables</a> and <a class="mw-redirect" href="/wiki/Database_view" title="Database view">views</a>. In an <a href="/wiki/Object_database" title="Object database">object database</a> the entities and relationships map directly to object classes and named relationships. However, the term database design could also be used to apply to the overall process of designing, not just the base data structures, but also the forms and queries used as part of the overall database application within the <a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">database management system</a> (DBMS).<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<p>The process of doing database design generally consists of a number of steps which will be carried out by the database designer. Usually, the designer must:</p>
+<ul>
+<li>Determine the data to be stored in the database.</li>
+<li>Determine the relationships between the different data elements.</li>
+<li>Superimpose a logical structure upon the data on the basis of these relationships.<sup class="reference" id="cite_ref-Teorey.2C_T.J._2009_2-0"><a href="#cite_note-Teorey.2C_T.J._2009-2">[2]</a></sup></li>
+</ul>
+<p>Within the <a href="/wiki/Relational_model" title="Relational model">relational model</a> the final step above can generally be broken down into two further steps, that of determining the grouping of information within the system, generally determining what are the basic objects about which information is being stored, and then determining the relationships between these groups of information, or objects. This step is not necessary with an <a href="/wiki/Object_database" title="Object database">Object database</a>.<sup class="reference" id="cite_ref-Teorey.2C_T.J._2009_2-1"><a href="#cite_note-Teorey.2C_T.J._2009-2">[2]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Determining_data_to_be_stored"><span class="tocnumber">1</span> <span class="toctext">Determining data to be stored</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Determining_data_relationships"><span class="tocnumber">2</span> <span class="toctext">Determining data relationships</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Logically_structuring_data"><span class="tocnumber">3</span> <span class="toctext">Logically structuring data</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#ER_diagram_.28entity-relationship_model.29"><span class="tocnumber">4</span> <span class="toctext">ER diagram (entity-relationship model)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#A_design_process_suggestion_for_Microsoft_Access.5B4.5D"><span class="tocnumber">5</span> <span class="toctext">A design process suggestion for Microsoft Access<sup>[4]</sup></span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Normalization"><span class="tocnumber">6</span> <span class="toctext">Normalization</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Conceptual_schema"><span class="tocnumber">6.1</span> <span class="toctext">Conceptual schema</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Schema_refinement"><span class="tocnumber">6.2</span> <span class="toctext">Schema refinement</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Physical_design"><span class="tocnumber">6.3</span> <span class="toctext">Physical design</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Determining_data_to_be_stored">Determining data to be stored</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=1" title="Edit section: Determining data to be stored">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In a majority of cases, a person who is doing the design of a database is a person with expertise in the area of database design, rather than expertise in the domain from which the data to be stored is drawn e.g. financial information, biological information etc. Therefore, the data to be stored in the database must be determined in cooperation with a person who does have expertise in that domain, and who is aware of what data must be stored within the system.</p>
+<p>This process is one which is generally considered part of <a href="/wiki/Requirements_analysis" title="Requirements analysis">requirements analysis</a>, and requires skill on the part of the database designer to elicit the needed information from those with the domain knowledge. This is because those with the necessary domain knowledge frequently cannot express clearly what their system requirements for the database are as they are unaccustomed to thinking in terms of the discrete data elements which must be stored. Data to be stored can be determined by Requirement Specification.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<h2><span class="mw-headline" id="Determining_data_relationships">Determining data relationships</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=2" title="Edit section: Determining data relationships">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Once a database designer is aware of the data which is to be stored within the database, they must then determine where dependency is within the data. Sometimes when data is changed you can be changing other data that is not visible. For example, in a list of names and addresses, assuming a situation where multiple people can have the same address, but one person cannot have more than one address, the address is dependent upon the name. When provided a name and the list the address can be uniquely determined; however, the inverse does not hold - when given an address and the list, a name cannot be uniquely determined because multiple people can reside at an address. Because an address is determined by a name, an address is considered dependent on a name.</p>
+<p>(NOTE: A common misconception is that the <a href="/wiki/Relational_model" title="Relational model">relational model</a> is so called because of the stating of relationships between data elements therein. This is not true. The relational model is so named because it is based upon the mathematical structures known as <a class="mw-redirect" href="/wiki/Relation_(mathematics)" title="Relation (mathematics)">relations</a>.)</p>
+<h2><span class="mw-headline" id="Logically_structuring_data">Logically structuring data</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=3" title="Edit section: Logically structuring data">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Logical_schema" title="Logical schema">Logical schema</a></div>
+<p>Once the relationships and dependencies amongst the various pieces of information have been determined, it is possible to arrange the data into a logical structure which can then be mapped into the storage objects supported by the <a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">database management system</a>. In the case of <a class="mw-redirect" href="/wiki/Relational_databases" title="Relational databases">relational databases</a> the storage objects are <a class="mw-redirect" href="/wiki/Database_table" title="Database table">tables</a> which store data in rows and columns. In an <a href="/wiki/Object_database" title="Object database">Object database</a> the storage objects correspond directly to the objects used by the <a class="mw-redirect" href="/wiki/Object-oriented_programming_language" title="Object-oriented programming language">Object-oriented programming language</a> used to write the applications that will manage and access the data. The relationships may be defined as attributes of the object classes involved or as methods that operate on the object classes.</p>
+<p>The way this mapping is generally performed is such that each set of related data which depends upon a single object, whether real or abstract, is placed in a table. Relationships between these dependent objects is then stored as links between the various objects.</p>
+<p>Each table may represent an implementation of either a logical object or a relationship joining one or more instances of one or more logical objects. Relationships between tables may then be stored as links connecting child tables with parents. Since complex logical relationships are themselves tables they will probably have links to more than one parent.</p>
+<h2><span class="mw-headline" id="ER_diagram_.28entity-relationship_model.29">ER diagram (entity-relationship model)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=4" title="Edit section: ER diagram (entity-relationship model)">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:ER_Diagram_MMORPG.png"><img alt="" class="thumbimage" data-file-height="1425" data-file-width="1600" height="285" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/ER_Diagram_MMORPG.png/320px-ER_Diagram_MMORPG.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/ER_Diagram_MMORPG.png/480px-ER_Diagram_MMORPG.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/ER_Diagram_MMORPG.png/640px-ER_Diagram_MMORPG.png 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:ER_Diagram_MMORPG.png" title="Enlarge"></a></div>
+A sample Entity-relationship diagram</div>
+</div>
+</div>
+<p>Database designs also include ER (<a class="mw-redirect" href="/wiki/Entity-relationship_model" title="Entity-relationship model">entity-relationship model</a>) diagrams. An ER diagram is a diagram that helps to design databases in an efficient way.</p>
+<p>Attributes in ER diagrams are usually modeled as an oval with the name of the attribute, linked to the entity or relationship that contains the attribute.</p>
+<h2><span class="mw-headline" id="A_design_process_suggestion_for_Microsoft_Access.5B4.5D">A design process suggestion for Microsoft Access<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=5" title="Edit section: A design process suggestion for Microsoft Access[4]">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol>
+<li><b>Determine the purpose of the database</b> - This helps prepare for the remaining steps.</li>
+<li><b>Find and organize the information required</b> - Gather all of the types of information to record in the database, such as product name and order number.</li>
+<li><b>Divide the information into tables</b> - Divide information items into major entities or subjects, such as Products or Orders. Each subject then becomes a table.</li>
+<li><b>Turn information items into columns</b> - Decide what information needs to be stored in each table. Each item becomes a field, and is displayed as a column in the table. For example, an Employees table might include fields such as Last Name and Hire Date.</li>
+<li><b>Specify primary keys</b> - Choose each table’s primary key. The primary key is a column, or a set of columns, that is used to uniquely identify each row. An example might be Product ID or Order ID.</li>
+<li><b>Set up the table relationships</b> - Look at each table and decide how the data in one table is related to the data in other tables. Add fields to tables or create new tables to clarify the relationships, as necessary.</li>
+<li><b>Refine the design</b> - Analyze the design for errors. Create tables and add a few records of sample data. Check if results come from the tables as expected. Make adjustments to the design, as needed.</li>
+<li><b>Apply the <a href="/wiki/Database_normalization" title="Database normalization">normalization rules</a></b> - Apply the data normalization rules to see if tables are structured correctly. Make adjustments to the tables</li>
+</ol>
+<h2><span class="mw-headline" id="Normalization">Normalization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=6" title="Edit section: Normalization">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Database_normalization" title="Database normalization">Database normalization</a></div>
+<p>In the field of <a href="/wiki/Relational_database" title="Relational database">relational database</a> design, <i>normalization</i> is a systematic way of ensuring that a database structure is suitable for general-purpose querying and free of certain undesirable characteristics—insertion, update, and deletion anomalies that could lead to loss of <a href="/wiki/Data_integrity" title="Data integrity">data integrity</a>.</p>
+<p>A standard piece of database design guidance is that the designer should create a fully normalized design; selective <a href="/wiki/Denormalization" title="Denormalization">denormalization</a> can subsequently be performed, but only for <a href="/wiki/Computer_performance" title="Computer performance">performance</a> reasons. However, some modeling disciplines, such as the <a href="/wiki/Dimensional_modeling" title="Dimensional modeling">dimensional modeling</a> approach to <a href="/wiki/Data_warehouse" title="Data warehouse">data warehouse</a> design, explicitly recommend non-normalized designs, i.e. designs that in large part do not adhere to 3NF. Normalization consists of normal forms that are 1NF,2NF,3NF,BOYCE-CODD NF (3.5NF),4NF and 5NF</p>
+<h3><span class="mw-headline" id="Conceptual_schema">Conceptual schema</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=7" title="Edit section: Conceptual schema">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Conceptual_schema" title="Conceptual schema">Conceptual schema</a></div>
+<h3><span class="mw-headline" id="Schema_refinement">Schema refinement</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=8" title="Edit section: Schema refinement">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Schema refinement of the database specifies that the data is normalized to reduce data insufficiency and conflicts.</p>
+<h3><span class="mw-headline" id="Physical_design">Physical design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=9" title="Edit section: Physical design">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Physical_schema" title="Physical schema">Physical schema</a></div>
+<p>The physical design of the database specifies the physical configuration of the database on the storage media. This includes detailed specification of <a href="/wiki/Data_element" title="Data element">data elements</a>, <a href="/wiki/Data_type" title="Data type">data types</a>, <a class="mw-redirect" href="/wiki/Index_(database)" title="Index (database)">indexing</a> options and other parameters residing in the DBMS <a href="/wiki/Data_dictionary" title="Data dictionary">data dictionary</a>. It is the detailed design of a system that includes modules &amp; the database's hardware &amp; software specifications of the system.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Database_normalization" title="Database normalization">Database normalization</a></li>
+<li><a href="/wiki/Relational_database" title="Relational database">Relational database</a></li>
+<li><a href="/wiki/Relational_model" title="Relational model">Relational model</a></li>
+<li><a class="mw-redirect" href="/wiki/POOD" title="POOD">POOD</a> (<a href="/wiki/Principle_of_orthogonal_design" title="Principle of orthogonal design">Principle of orthogonal design</a>)</li>
+<li><a href="/wiki/The_Third_Manifesto" title="The Third Manifesto">The Third Manifesto</a></li>
+<li><a class="mw-redirect" href="/wiki/Concept_mapping" title="Concept mapping">Concept mapping</a></li>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Entity-relationship_model" title="Entity-relationship model">Entity-relationship model</a></li>
+<li><a class="mw-redirect" href="/wiki/Entity-attribute-value_model" title="Entity-attribute-value model">Entity-attribute-value model</a></li>
+<li><a class="mw-redirect" href="/wiki/Object-relationship_modeling" title="Object-relationship modeling">Object-relationship modeling</a></li>
+<li><a href="/wiki/Object-role_modeling" title="Object-role modeling">Object-role modeling</a></li>
+<li><a class="mw-redirect" href="/wiki/Knowledge_representation" title="Knowledge representation">Knowledge representation</a></li>
+<li><a href="/wiki/Logical_data_model" title="Logical data model">Logical data model</a></li>
+<li><a class="mw-redirect" href="/wiki/Mindmap" title="Mindmap">Mindmap</a></li>
+<li><a href="/wiki/Physical_data_model" title="Physical data model">Physical data model</a></li>
+<li><a href="/wiki/Semantic_Web" title="Semantic Web">Semantic Web</a></li>
+<li><a class="mw-redirect" href="/wiki/Three_schema_approach" title="Three schema approach">Three schema approach</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Gehani, N. (2006). The Database Book: Principles and practice using MySQL. 1st ed., Summit, NJ.: Silicon Press</span></li>
+<li id="cite_note-Teorey.2C_T.J._2009-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Teorey.2C_T.J._2009_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Teorey.2C_T.J._2009_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Teorey, T.J., Lightstone, S.S., et al., (2009). Database Design: Know it all.1st ed. Burlington, MA.: Morgan Kaufmann Publishers</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Teorey, T.; Lightstone, S. and Nadeau, T.(2005) <i>Database Modeling &amp; Design: Logical Design</i>, 4th edition, Morgan Kaufmann Press. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0126853525">ISBN 0-12-685352-5</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Database design basics. (n.d.). Database design basics. Retrieved May 1, 2010, from <a class="external free" href="https://support.office.com/en-US/article/Database-design-basics-EB2159CF-1E30-401A-8084-BD4F9C9CA1F5" rel="nofollow">https://support.office.com/en-US/article/Database-design-basics-EB2159CF-1E30-401A-8084-BD4F9C9CA1F5</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=12" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>S. Lightstone, T. Teorey, T. Nadeau, “Physical Database Design: the database professional's guide to exploiting indexes, views, storage, and more”, Morgan Kaufmann Press, 2007. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0123693896">ISBN 0-12-369389-6</a></li>
+<li>M. Hernandez, "<a class="external text" href="http://www.informit.com/store/database-design-for-mere-mortals-a-hands-on-guide-to-9780321884497" rel="nofollow">Database Design for Mere Mortals</a>: A Hands-On Guide to Relational Database Design", 3rd Edition, Addison-Wesley Professional, 2013. <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0321884493">ISBN 0-321-88449-3</a></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Database_design&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Database" title="commons:Category:Database">Database</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external autonumber" href="http://www.sqlteam.com/article/database-design-and-modeling-fundamentals" rel="nofollow">[1]</a></li>
+<li><a class="external autonumber" href="https://support.office.com/en-US/article/Database-design-basics-EB2159CF-1E30-401A-8084-BD4F9C9CA1F5" rel="nofollow">[2]</a></li>
+<li><a class="external text" href="http://databases.about.com/od/specificproducts/a/normalization.htm" rel="nofollow">Database Normalization Basics</a> by Mike Chapple (About.com)</li>
+<li><a class="external text" href="http://www.databasejournal.com/sqletc/article.php/1428511" rel="nofollow">Database Normalization Intro</a>, <a class="external text" href="http://www.databasejournal.com/sqletc/article.php/26861_1474411_1" rel="nofollow">Part 2</a></li>
+<li><cite class="citation web"><a class="external text" href="https://web.archive.org/web/20110606025027/http://dev.mysql.com/tech-resources/articles/intro-to-normalization.html" rel="nofollow">"An Introduction to Database Normalization"</a>. Archived from <a class="external text" href="http://dev.mysql.com/tech-resources/articles/intro-to-normalization.html" rel="nofollow">the original</a> on 2011-06-06<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-02-25</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADatabase+design&amp;rft.btitle=An+Introduction+to+Database+Normalization&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdev.mysql.com%2Ftech-resources%2Farticles%2Fintro-to-normalization.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation web"><a class="external text" href="https://web.archive.org/web/20100106115112/http://www.utexas.edu/its/archive/windows/database/datamodeling/rm/rm7.html" rel="nofollow">"Normalization"</a>. Archived from <a class="external text" href="http://www.utexas.edu/its/windows/database/datamodeling/rm/rm7.html" rel="nofollow">the original</a> on 2010-01-06<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-02-25</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADatabase+design&amp;rft.btitle=Normalization&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.utexas.edu%2Fits%2Fwindows%2Fdatabase%2Fdatamodeling%2Frm%2Frm7.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="http://www.keenesystems.com/Services/DatabaseDesign.aspx" rel="nofollow">Developing Database Solutions</a></li>
+<li><a class="external text" href="http://tinycc.me/DybeLE" rel="nofollow">Efficient Database Design</a></li>
+<li><a class="external text" href="http://en.tekstenuitleg.net/articles/software/database-design-tutorial/intro.html" rel="nofollow">Relational database design tutorial</a></li>
+<li><a class="external text" href="https://www.dmoz.org/Computers/Data_Formats/Database" rel="nofollow">Database design</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+</ul>
+<div aria-labelledby="Database" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Database" title="Template:Database"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Database" title="Template talk:Database"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Database&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Database" style="font-size:114%"><a href="/wiki/Database" title="Database">Database</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Main</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database#Major_database_usage_requirements" title="Database">Requirements</a></li>
+<li><a href="/wiki/Database_theory" title="Database theory">Theory</a></li>
+<li><a href="/wiki/Database_model" title="Database model">Models</a></li>
+<li><a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">Database management system</a></li>
+<li><a href="/wiki/Database_machine" title="Database machine">Machine</a></li>
+<li><a href="/wiki/Database_server" title="Database server">Server</a></li>
+<li><a href="/wiki/Database_application" title="Database application">Application</a></li>
+<li><a href="/wiki/Database_connection" title="Database connection">Connection</a>
+<ul>
+<li><a href="/wiki/Datasource" title="Datasource">datasource</a></li>
+<li><a class="mw-redirect" href="/wiki/Data_Source_Name" title="Data Source Name">DSN</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Database_administrator" title="Database administrator">Administrator</a></li>
+<li><a href="/wiki/Lock_(database)" title="Lock (database)">Lock</a></li>
+<li><a href="/wiki/Category:Types_of_databases" title="Category:Types of databases">Types</a></li>
+<li><a href="/wiki/Comparison_of_database_tools" title="Comparison of database tools">Tools</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Database#Database_languages" title="Database">Languages</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_definition_language" title="Data definition language">Data definition</a></li>
+<li><a href="/wiki/Data_manipulation_language" title="Data manipulation language">Data manipulation</a></li>
+<li><a href="/wiki/Query_language" title="Query language">Query</a>
+<ul>
+<li><a href="/wiki/Information_retrieval_query_language" title="Information retrieval query language">information retrieval</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Database_security" title="Database security">Security</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_activity_monitoring" title="Database activity monitoring">Activity monitoring</a></li>
+<li><a href="/wiki/Database_audit" title="Database audit">Audit</a></li>
+<li><a href="/wiki/Database_forensics" title="Database forensics">Forensics</a></li>
+<li><a href="/wiki/Negative_database" title="Negative database">Negative database</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><strong class="selflink">Design</strong></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">Entities and relationships</a> (and <a href="/wiki/Enhanced_entity%E2%80%93relationship_model" title="Enhanced entity–relationship model">Enhanced</a> notation)</li>
+<li><a href="/wiki/Database_normalization" title="Database normalization">Normalization</a></li>
+<li><a href="/wiki/Database_refactoring" title="Database refactoring">Refactoring</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Programming</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_abstraction_layer" title="Database abstraction layer">Abstraction layer</a></li>
+<li><a href="/wiki/Object-relational_mapping" title="Object-relational mapping">Object-relational mapping</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Management</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_virtualization" title="Database virtualization">Virtualization</a></li>
+<li><a href="/wiki/Database_tuning" title="Database tuning">Tuning</a>
+<ul>
+<li><a href="/wiki/Database_caching" title="Database caching">caching</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Data_migration#Database_migration" title="Data migration">Migration</a></li>
+<li><a href="/wiki/Database_preservation" title="Database preservation">Preservation</a></li>
+<li><a class="mw-redirect" href="/wiki/Database_integrity" title="Database integrity">Integrity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">See also</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database-centric_architecture" title="Database-centric architecture">Database-centric architecture</a></li>
+<li><a href="/wiki/Intelligent_database" title="Intelligent database">Intelligent database</a></li>
+<li><a href="/wiki/Two-phase_locking" title="Two-phase locking">Two-phase locking</a></li>
+<li><a href="/wiki/Locks_with_ordered_sharing" title="Locks with ordered sharing">Locks with ordered sharing</a></li>
+<li><a href="/wiki/Load_file" title="Load file">Load file</a></li>
+<li><a href="/wiki/Database_publishing" title="Database publishing">Publishing</a></li>
+<li><a href="/wiki/Halloween_Problem" title="Halloween Problem">Halloween Problem</a></li>
+<li><a href="/wiki/Log_shipping" title="Log shipping">Log shipping</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<ul>
+<li><b><img alt="Wikipedia book" data-file-height="185" data-file-width="180" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" title="Wikipedia book" width="16"/> <a href="/wiki/Book:Databases" title="Book:Databases">Book</a></b></li>
+<li><b><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Databases" title="Category:Databases">Category</a></b></li>
+<li><b><img alt="WikiProject" data-file-height="100" data-file-width="100" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="WikiProject" width="16"/> <a href="/wiki/Wikipedia:WikiProject_Databases" title="Wikipedia:WikiProject Databases">WikiProject</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Database_management_systems" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Databases" title="Template:Databases"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Databases" title="Template talk:Databases"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Databases&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Database_management_systems" style="font-size:114%"><a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">Database management systems</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Types</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/List_of_object_database_management_systems" title="List of object database management systems">Object-oriented</a>
+<ul>
+<li><a href="/wiki/Comparison_of_object_database_management_systems" title="Comparison of object database management systems">comparison</a></li>
+</ul>
+</li>
+<li><a href="/wiki/List_of_relational_database_management_systems" title="List of relational database management systems">Relational</a>
+<ul>
+<li><a href="/wiki/Comparison_of_relational_database_management_systems" title="Comparison of relational database management systems">comparison</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Document-oriented_database" title="Document-oriented database">Document-oriented</a></li>
+<li><a href="/wiki/Graph_database" title="Graph database">Graph</a></li>
+<li><a href="/wiki/NoSQL" title="NoSQL">NoSQL</a></li>
+<li><a href="/wiki/NewSQL" title="NewSQL">NewSQL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database" title="Database">Database</a></li>
+<li><a href="/wiki/ACID" title="ACID">ACID</a></li>
+<li><a href="/wiki/Armstrong%27s_axioms" title="Armstrong's axioms">Armstrong's axioms</a></li>
+<li><a href="/wiki/CAP_theorem" title="CAP theorem">CAP theorem</a></li>
+<li><a href="/wiki/Create,_read,_update_and_delete" title="Create, read, update and delete">CRUD</a></li>
+<li><a href="/wiki/Null_(SQL)" title="Null (SQL)">Null</a></li>
+<li><a class="mw-redirect" href="/wiki/Candidate_key_(Template)" title="Candidate key (Template)">Candidate key</a></li>
+<li><a href="/wiki/Foreign_key" title="Foreign key">Foreign key</a></li>
+<li><a class="mw-redirect" href="/wiki/Superkey_(Template)" title="Superkey (Template)">Superkey</a></li>
+<li><a href="/wiki/Surrogate_key" title="Surrogate key">Surrogate key</a></li>
+<li><a href="/wiki/Unique_key" title="Unique key">Unique key</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Objects</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Relation_(database)" title="Relation (database)">Relation</a>
+<ul>
+<li><a href="/wiki/Table_(database)" title="Table (database)">table</a></li>
+<li><a href="/wiki/Column_(database)" title="Column (database)">column</a></li>
+<li><a href="/wiki/Row_(database)" title="Row (database)">row</a></li>
+</ul>
+</li>
+<li><a href="/wiki/View_(SQL)" title="View (SQL)">View</a></li>
+<li><a href="/wiki/Database_transaction" title="Database transaction">Transaction</a></li>
+<li><a href="/wiki/Transaction_log" title="Transaction log">Transaction log</a></li>
+<li><a href="/wiki/Database_trigger" title="Database trigger">Trigger</a></li>
+<li><a class="mw-redirect" href="/wiki/Index_(database)" title="Index (database)">Index</a></li>
+<li><a href="/wiki/Stored_procedure" title="Stored procedure">Stored procedure</a></li>
+<li><a href="/wiki/Cursor_(databases)" title="Cursor (databases)">Cursor</a></li>
+<li><a href="/wiki/Partition_(database)" title="Partition (database)">Partition</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Components</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Concurrency_control" title="Concurrency control">Concurrency control</a></li>
+<li><a href="/wiki/Data_dictionary" title="Data dictionary">Data dictionary</a></li>
+<li><a href="/wiki/Java_Database_Connectivity" title="Java Database Connectivity">JDBC</a></li>
+<li><a href="/wiki/XQuery_API_for_Java" title="XQuery API for Java">XQJ</a></li>
+<li><a href="/wiki/Open_Database_Connectivity" title="Open Database Connectivity">ODBC</a></li>
+<li><a href="/wiki/Query_language" title="Query language">Query language</a></li>
+<li><a class="mw-redirect" href="/wiki/Query_optimizer" title="Query optimizer">Query optimizer</a></li>
+<li><a href="/wiki/Query_plan" title="Query plan">Query plan</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Functions</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_administration_and_automation" title="Database administration and automation">Administration and automation</a></li>
+<li><a href="/wiki/Query_optimization" title="Query optimization">Query optimization</a></li>
+<li><a class="mw-redirect" href="/wiki/Database_replication" title="Database replication">Replication</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related topics</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Database_model" title="Database model">Database models</a></li>
+<li><a href="/wiki/Database_normalization" title="Database normalization">Database normalization</a></li>
+<li><a href="/wiki/Database_storage_structures" title="Database storage structures">Database storage</a></li>
+<li><a class="mw-redirect" href="/wiki/Distributed_database_management_system" title="Distributed database management system">Distributed DBMS</a></li>
+<li><a href="/wiki/Federated_database_system" title="Federated database system">Federated database system</a></li>
+<li><a href="/wiki/Referential_integrity" title="Referential integrity">Referential integrity</a></li>
+<li><a href="/wiki/Relational_algebra" title="Relational algebra">Relational algebra</a></li>
+<li><a href="/wiki/Relational_calculus" title="Relational calculus">Relational calculus</a></li>
+<li><a href="/wiki/Relational_database" title="Relational database">Relational database</a></li>
+<li><a href="/wiki/Relational_database_management_system" title="Relational database management system">Relational DBMS</a></li>
+<li><a href="/wiki/Relational_model" title="Relational model">Relational model</a></li>
+<li><a href="/wiki/Object-relational_database" title="Object-relational database">Object-relational database</a></li>
+<li><a href="/wiki/Transaction_processing" title="Transaction processing">Transaction processing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Design" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design" title="Template:Design"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design" title="Template talk:Design"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Design" style="font-size:114%"><a href="/wiki/Design" title="Design">Design</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2" style="background:lemonchiffon;">
+<div>
+<ul>
+<li><a href="/wiki/Outline_of_design" title="Outline of design">Outline</a></li>
+<li><a href="/wiki/Portal:Design" title="Portal:Design">Portal</a></li>
+<li><a href="/wiki/Designer" title="Designer">Designer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Disciplines" style="font-size:114%">Disciplines</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Communication_design" title="Communication design">Communication<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Advertising" title="Advertising">Advertising</a></li>
+<li><a href="/wiki/Book_design" title="Book design">Book design</a></li>
+<li><a href="/wiki/Corporate_design" title="Corporate design">Corporate design</a></li>
+<li><a href="/wiki/Exhibit_design" title="Exhibit design">Exhibit design</a></li>
+<li><a href="/wiki/Film_title_design" title="Film title design">Film title design</a></li>
+<li><a href="/wiki/Graphic_design" title="Graphic design">Graphic design</a>
+<ul>
+<li><a href="/wiki/Environmental_graphic_design" title="Environmental graphic design">Environmental</a></li>
+<li><a href="/wiki/Motion_graphic_design" title="Motion graphic design">Motion</a></li>
+<li><a href="/wiki/Postage_stamp_design" title="Postage stamp design">Postage stamp design</a></li>
+<li><a href="/wiki/Print_design" title="Print design">Print design</a></li>
+<li><a href="/wiki/Sustainable_graphic_design" title="Sustainable graphic design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Illustration" title="Illustration">Illustration</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Instructional_design" title="Instructional design">Instructional design</a></li>
+<li><a href="/wiki/News_design" title="News design">News design</a></li>
+<li><a href="/wiki/Photography" title="Photography">Photography</a></li>
+<li><a href="/wiki/Retail_design" title="Retail design">Retail design</a></li>
+<li><a href="/wiki/Signage" title="Signage">Signage</a> / <a href="/wiki/Traffic_sign_design" title="Traffic sign design">Traffic sign design</a></li>
+<li><a href="/wiki/Typography" title="Typography">Typography</a> / <a href="/wiki/Type_design" title="Type design">Type design</a></li>
+<li><a href="/wiki/Video_design" title="Video design">Video design</a></li>
+<li><a href="/wiki/Visual_merchandising" title="Visual merchandising">Visual merchandising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Environmental_design" title="Environmental design">Environmental<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Architecture" title="Architecture">Architecture</a></li>
+<li><a href="/wiki/Architectural_lighting_design" title="Architectural lighting design">Architectural lighting design</a></li>
+<li><a href="/wiki/Building_design" title="Building design">Building design</a>
+<ul>
+<li><a href="/wiki/Passive_solar_building_design" title="Passive solar building design">Passive solar</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Ecological_design" title="Ecological design">Ecological design</a></li>
+<li><a href="/wiki/Environmental_impact_design" title="Environmental impact design">Environmental impact design</a></li>
+<li><a href="/wiki/Garden_design" title="Garden design">Garden design</a>
+<ul>
+<li><a href="/wiki/Computer-aided_garden_design" title="Computer-aided garden design">Computer-aided</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Healthy_community_design" title="Healthy community design">Healthy community design</a></li>
+<li><a href="/wiki/Hotel_design" title="Hotel design">Hotel design</a></li>
+<li><a href="/wiki/Interior_architecture" title="Interior architecture">Interior architecture</a></li>
+<li><a href="/wiki/Interior_design" title="Interior design">Interior design</a>
+<ul>
+<li><a href="/wiki/Experiential_interior_design" title="Experiential interior design">EID</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Keyline_design" title="Keyline design">Keyline design</a></li>
+<li><a href="/wiki/Landscape_architecture" title="Landscape architecture">Landscape architecture</a>
+<ul>
+<li><a href="/wiki/Sustainable_landscape_architecture" title="Sustainable landscape architecture">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Landscape_design" title="Landscape design">Landscape design</a></li>
+<li><a href="/wiki/Spatial_design" title="Spatial design">Spatial design</a></li>
+<li><a href="/wiki/Transition_design" title="Transition design">Transition design</a></li>
+<li><a href="/wiki/Urban_design" title="Urban design">Urban design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Industrial_design" title="Industrial design">Industrial<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Automotive_design" title="Automotive design">Automotive design</a></li>
+<li><a href="/wiki/Automotive_suspension_design" title="Automotive suspension design">Automotive suspension design</a></li>
+<li><a href="/wiki/CMF_design" title="CMF design">CMF design</a></li>
+<li><a href="/wiki/Corrugated_box_design" title="Corrugated box design">Corrugated box design</a></li>
+<li><a href="/wiki/Electric_guitar_design" title="Electric guitar design">Electric guitar design</a></li>
+<li><a href="/wiki/Furniture" title="Furniture">Furniture design</a>
+<ul>
+<li><a href="/wiki/Sustainable_furniture_design" title="Sustainable furniture design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Motorcycle_design" title="Motorcycle design">Motorcycle design</a></li>
+<li><a href="/wiki/Packaging_and_labeling" title="Packaging and labeling">Packaging and labeling</a></li>
+<li><a href="/wiki/Photographic_lens_design" title="Photographic lens design">Photographic lens design</a></li>
+<li><a href="/wiki/Product_design" title="Product design">Product design</a></li>
+<li><a class="mw-redirect" href="/wiki/Production_design" title="Production design">Production design</a></li>
+<li><a href="/wiki/Sensory_design" title="Sensory design">Sensory design</a></li>
+<li><a href="/wiki/Service_design" title="Service design">Service design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Interaction_design" title="Interaction design">Interaction<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Experience_design" title="Experience design">Experience design</a>
+<ul>
+<li><a href="/wiki/Employee_experience_design" title="Employee experience design">EED</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Game_design" title="Game design">Game design</a>
+<ul>
+<li><a href="/wiki/Level_design" title="Level design">Level design</a></li>
+<li><a href="/wiki/Video_game_design" title="Video game design">Video game design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Icon_design" title="Icon design">Icon design</a></li>
+<li><a href="/wiki/Immersive_design" title="Immersive design">Immersive design</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Sonic_interaction_design" title="Sonic interaction design">Sonic interaction design</a></li>
+<li><a href="/wiki/User_experience_design" title="User experience design">User experience design</a></li>
+<li><a href="/wiki/User_interface_design" title="User interface design">User interface design</a></li>
+<li><a href="/wiki/Web_design" title="Web design">Web design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+<a href="/wiki/Applied_arts" title="Applied arts">applied arts</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Public_art" title="Public art">Public art design</a></li>
+<li><a href="/wiki/Ceramic_art" title="Ceramic art">Ceramic</a> / <a href="/wiki/Glass_art" title="Glass art">glass design</a></li>
+<li><a href="/wiki/Fashion_design" title="Fashion design">Fashion design</a>
+<ul>
+<li><a href="/wiki/Costume_design" title="Costume design">Costume design</a></li>
+<li><a class="mw-redirect" href="/wiki/Jewelry_design" title="Jewelry design">Jewelry design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Floral_design" title="Floral design">Floral design</a></li>
+<li><a href="/wiki/Game_art_design" title="Game art design">Game art design</a></li>
+<li><a href="/wiki/Property_designer" title="Property designer">Property design</a></li>
+<li><a href="/wiki/Scenic_design" title="Scenic design">Scenic design</a></li>
+<li><a href="/wiki/Sound_design" title="Sound design">Sound design</a></li>
+<li><a href="/wiki/Lighting_designer" title="Lighting designer">Stage/set lighting design</a></li>
+<li><a href="/wiki/Textile_design" title="Textile design">Textile design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+design &amp; <a href="/wiki/Engineering" title="Engineering">engineering</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithm_design" title="Algorithm design">Algorithm design</a></li>
+<li><a href="/wiki/Boiler_design" title="Boiler design">Boiler design</a></li>
+<li><a href="/wiki/Conceptual_design" title="Conceptual design">Conceptual design</a></li>
+<li><strong class="selflink">Database design</strong></li>
+<li><a href="/wiki/Drug_design" title="Drug design">Drug design</a></li>
+<li><a href="/wiki/Electrical_system_design" title="Electrical system design">Electrical system design</a></li>
+<li><a href="/wiki/Design_of_experiments" title="Design of experiments">Experimental design</a></li>
+<li><a href="/wiki/Filter_design" title="Filter design">Filter design</a></li>
+<li><a href="/wiki/Job_design" title="Job design">Job design</a></li>
+<li><a href="/wiki/Integrated_circuit_design" title="Integrated circuit design">Integrated circuit design</a>
+<ul>
+<li><a href="/wiki/Circuit_design" title="Circuit design">Circuit design</a></li>
+<li><a href="/wiki/Physical_design_(electronics)" title="Physical design (electronics)">Physical design</a></li>
+<li><a href="/wiki/Power_network_design_(IC)" title="Power network design (IC)">Power network design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Nuclear_weapon_design" title="Nuclear weapon design">Nuclear weapon design</a></li>
+<li><a href="/wiki/Nucleic_acid_design" title="Nucleic acid design">Nucleic acid design</a></li>
+<li><a class="mw-redirect" href="/wiki/Organization_design" title="Organization design">Organization design</a></li>
+<li><a href="/wiki/Process_design" title="Process design">Process design</a></li>
+<li><a href="/wiki/Processor_design" title="Processor design">Processor design</a></li>
+<li><a href="/wiki/Protein_design" title="Protein design">Protein design</a></li>
+<li><a href="/wiki/Research_design" title="Research design">Research design</a></li>
+<li><a href="/wiki/Social_design" title="Social design">Social design</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Spacecraft_design" title="Spacecraft design">Spacecraft design</a></li>
+<li><a href="/wiki/Strategic_design" title="Strategic design">Strategic design</a></li>
+<li><a href="/wiki/Systems_design" title="Systems design">Systems design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Approaches" style="font-size:114%">Approaches</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Activity-centered_design" title="Activity-centered design">Activity-centered</a></li>
+<li><a href="/wiki/Adaptive_web_design" title="Adaptive web design">Adaptive web</a></li>
+<li><a href="/wiki/Affective_design" title="Affective design">Affective</a></li>
+<li><a href="/wiki/Design_by_committee" title="Design by committee">By committee</a></li>
+<li><a href="/wiki/Design_by_contract" title="Design by contract">By contract</a></li>
+<li><a href="/wiki/C-K_theory" title="C-K theory">C-K theory</a></li>
+<li><a href="/wiki/Design_closure" title="Design closure">Closure</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Co-design</a></li>
+<li><a href="/wiki/Concept-oriented_design" title="Concept-oriented design">Concept-oriented</a></li>
+<li><a href="/wiki/Configuration_design" title="Configuration design">Configuration</a></li>
+<li><a href="/wiki/Contextual_design" title="Contextual design">Contextual</a></li>
+<li><a href="/wiki/Continuous_design" title="Continuous design">Continuous</a></li>
+<li><a href="/wiki/Cradle-to-cradle_design" title="Cradle-to-cradle design">Cradle-to-cradle</a></li>
+<li><a href="/wiki/Creative_problem-solving" title="Creative problem-solving">Creative problem-solving</a></li>
+<li><a href="/wiki/Creativity_techniques" title="Creativity techniques">Creativity techniques</a></li>
+<li><a href="/wiki/Critical_design" title="Critical design">Critical</a>
+<ul>
+<li><a href="/wiki/Design_fiction" title="Design fiction">Design fiction</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Defensive_design" title="Defensive design">Defensive</a></li>
+<li><a href="/wiki/Design%E2%80%93bid%E2%80%93build" title="Design–bid–build">Design–bid–build</a></li>
+<li><a href="/wiki/Design%E2%80%93build" title="Design–build">Design–build</a>
+<ul>
+<li><a href="/wiki/Architect-led_design%E2%80%93build" title="Architect-led design–build">architect-led</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">Domain-driven</a></li>
+<li><a href="/wiki/Ecodesign" title="Ecodesign">Ecodesign</a></li>
+<li><a href="/wiki/Energy_neutral_design" title="Energy neutral design">Energy neutral</a></li>
+<li><a href="/wiki/Engineering_design_process" title="Engineering design process">Engineering design process</a>
+<ul>
+<li><a href="/wiki/Probabilistic_design" title="Probabilistic design">Probabilistic design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Error-tolerant_design" title="Error-tolerant design">Error-tolerant</a></li>
+<li><a class="mw-redirect" href="/wiki/Fault-tolerant_design" title="Fault-tolerant design">Fault-tolerant</a></li>
+<li><a href="/wiki/Framework-oriented_design" title="Framework-oriented design">Framework-oriented</a></li>
+<li><a href="/wiki/Design_for_assembly" title="Design for assembly">For assembly</a></li>
+<li><a href="/wiki/Design_for_behaviour_change" title="Design for behaviour change">For behaviour change</a></li>
+<li><a href="/wiki/Design_for_manufacturability" title="Design for manufacturability">For manufacturability</a></li>
+<li><a href="/wiki/Design_for_Six_Sigma" title="Design for Six Sigma">For Six Sigma</a></li>
+<li><a href="/wiki/Design_for_testing" title="Design for testing">For testing</a></li>
+<li><a href="/wiki/Design_for_X" title="Design for X">For X</a></li>
+<li><a href="/wiki/Functional_design" title="Functional design">Functional</a></li>
+<li><a href="/wiki/Generative_Design" title="Generative Design">Generative</a></li>
+<li><a href="/wiki/Geodesign" title="Geodesign">Geodesign</a></li>
+<li><a href="/wiki/High-level_design" title="High-level design">High-level</a></li>
+<li><a href="/wiki/Integrated_design" title="Integrated design">Integrated</a></li>
+<li><a href="/wiki/Integrated_topside_design" title="Integrated topside design">Integrated topside</a></li>
+<li><a href="/wiki/Intelligence-based_design" title="Intelligence-based design">Intelligence-based</a></li>
+<li><a href="/wiki/Iterative_design" title="Iterative design">Iterative</a></li>
+<li><a href="/wiki/KISS_principle" title="KISS principle">KISS principle</a></li>
+<li><a href="/wiki/Low-level_design" title="Low-level design">Low-level</a></li>
+<li><a href="/wiki/Metadesign" title="Metadesign">Metadesign</a></li>
+<li><a href="/wiki/Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="/wiki/Modular_design" title="Modular design">Modular</a></li>
+<li><a href="/wiki/New_Wave_(design)" title="New Wave (design)">New Wave</a></li>
+<li><a href="/wiki/Object-oriented_design" title="Object-oriented design">Object-oriented</a></li>
+<li><a href="/wiki/Open_design" title="Open design">Open</a></li>
+<li><a href="/wiki/Parametric_design" title="Parametric design">Parametric</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Participatory</a></li>
+<li><a href="/wiki/Platform-based_design" title="Platform-based design">Platform-based</a></li>
+<li><a href="/wiki/Policy-based_design" title="Policy-based design">Policy-based</a></li>
+<li><a href="/wiki/Process-centered_design" title="Process-centered design">Process-centered</a></li>
+<li><a href="/wiki/Public_interest_design" title="Public interest design">Public interest</a></li>
+<li><a href="/wiki/Rational_design" title="Rational design">Rational</a></li>
+<li><a href="/wiki/Regenerative_design" title="Regenerative design">Regenerative</a></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Research-based_design" title="Research-based design">Research-based</a></li>
+<li><a href="/wiki/Responsibility-driven_design" title="Responsibility-driven design">Responsibility-driven</a></li>
+<li><a href="/wiki/Responsive_web_design" title="Responsive web design">RWD</a></li>
+<li><a href="/wiki/Safe-life_design" title="Safe-life design">Safe-life</a></li>
+<li><a href="/wiki/Sustainable_design" title="Sustainable design">Sustainable</a></li>
+<li><a class="mw-redirect" href="/wiki/Systemic_Design" title="Systemic Design">Systemic</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Systems_Oriented_Design" title="Systems Oriented Design">SOD</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tableless_web_design" title="Tableless web design">Tableless web</a></li>
+<li><a href="/wiki/Theory_of_constraints" title="Theory of constraints">Theory of constraints</a></li>
+<li><a href="/wiki/Top-down_and_bottom-up_design" title="Top-down and bottom-up design">Top-down and bottom-up</a></li>
+<li><a href="/wiki/Transformation_design" title="Transformation design">Transformation</a></li>
+<li><a href="/wiki/Transgenerational_design" title="Transgenerational design">Transgenerational</a></li>
+<li><a href="/wiki/TRIZ" title="TRIZ">TRIZ</a></li>
+<li><a href="/wiki/Universal_design" title="Universal design">Universal</a>
+<ul>
+<li><a href="/wiki/Design_for_All_(in_ICT)" title="Design for All (in ICT)">Design for All</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Usage-centered_design" title="Usage-centered design">Usage-centered</a></li>
+<li><a href="/wiki/Use-centered_design" title="Use-centered design">Use-centered</a></li>
+<li><a href="/wiki/User-centered_design" title="User-centered design">User-centered</a>
+<ul>
+<li><a href="/wiki/Empathic_design" title="Empathic design">Empathic</a></li>
+</ul>
+</li>
+<li><a href="/wiki/User_innovation" title="User innovation">User innovation</a></li>
+<li><a href="/wiki/Value-driven_design" title="Value-driven design">Value-driven</a></li>
+<li><a href="/wiki/Value_sensitive_design" title="Value sensitive design">Value sensitive</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Privacy_by_Design" title="Privacy by Design">Privacy by</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_choice" title="Design choice">choice</a></li>
+<li><a href="/wiki/Design_computing" title="Design computing">computing</a></li>
+<li><a href="/wiki/Design_controls" title="Design controls">controls</a></li>
+<li><a href="/wiki/Design_flow_(EDA)" title="Design flow (EDA)">flow</a></li>
+<li><a href="/wiki/Design_leadership" title="Design leadership">leadership</a></li>
+<li><a href="/wiki/Design_management" title="Design management">management</a></li>
+<li><a href="/wiki/Design_marker" title="Design marker">marker</a></li>
+<li><a href="/wiki/Design_methods" title="Design methods">methods</a></li>
+<li><a href="/wiki/Design_pattern" title="Design pattern">pattern</a></li>
+<li><a href="/wiki/Design_research" title="Design research">research</a></li>
+<li><a href="/wiki/Design_science" title="Design science">science</a></li>
+<li><a href="/wiki/Design_strategy" title="Design strategy">strategy</a></li>
+<li><a href="/wiki/Design_theory" title="Design theory">theory</a></li>
+<li><a href="/wiki/Design_thinking" title="Design thinking">thinking</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="ToolsIntellectual_propertyOrganizationsAwards" style="font-size:114%">
+<div class="hlist">
+<ul>
+<li>Tools</li>
+<li>Intellectual property</li>
+<li>Organizations</li>
+<li>Awards</li>
+</ul>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Design_tool" title="Design tool">Tools</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithms-Aided_Design_(AAD)" title="Algorithms-Aided Design (AAD)">AAD</a></li>
+<li><a href="/wiki/Architectural_model" title="Architectural model">Architectural model</a></li>
+<li><a href="/wiki/Blueprint" title="Blueprint">Blueprint</a></li>
+<li><a href="/wiki/Comprehensive_layout" title="Comprehensive layout">Comprehensive layout</a></li>
+<li><a href="/wiki/Computer-aided_design" title="Computer-aided design">CAD</a>
+<ul>
+<li><a href="/wiki/Computer-aided_industrial_design" title="Computer-aided industrial design">CAID</a></li>
+<li><a href="/wiki/Virtual_home_design_software" title="Virtual home design software">Virtual home design software</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Computer-automated_design" title="Computer-automated design">CAutoD</a></li>
+<li><a href="/wiki/Design_quality_indicator" title="Design quality indicator">Design quality indicator</a></li>
+<li><a href="/wiki/Electronic_design_automation" title="Electronic design automation">Electronic design automation</a></li>
+<li><a href="/wiki/Flowchart" title="Flowchart">Flowchart</a></li>
+<li><a href="/wiki/Mockup" title="Mockup">Mockup</a></li>
+<li><a href="/wiki/Product_design_specification" title="Product design specification">Product design specification</a></li>
+<li><a href="/wiki/Prototype" title="Prototype">Prototype</a></li>
+<li><a href="/wiki/Sketch_(drawing)" title="Sketch (drawing)">Sketch</a></li>
+<li><a href="/wiki/Storyboard" title="Storyboard">Storyboard</a></li>
+<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li>
+<li><a href="/wiki/Web_design_program" title="Web design program">Web design program</a></li>
+<li><a href="/wiki/Website_wireframe" title="Website wireframe">Website wireframe</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Intellectual<br/>
+property</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Community_design" title="Community design">Community design</a></li>
+<li><a href="/wiki/Design_around" title="Design around">Design around</a></li>
+<li><a href="/wiki/Design_patent" title="Design patent">Design patent</a></li>
+<li><i><a href="/wiki/Geschmacksmuster" title="Geschmacksmuster">Geschmacksmuster</a></i></li>
+<li><a href="/wiki/Industrial_design_right" title="Industrial design right">Industrial design rights</a>
+<ul>
+<li><a href="/wiki/Industrial_design_rights_in_the_European_Union" title="Industrial design rights in the European Union">European Union</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Organizations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AIGA" title="AIGA">AIGA</a></li>
+<li><a href="/wiki/Chartered_Society_of_Designers" title="Chartered Society of Designers">Chartered Society of Designers</a></li>
+<li><a href="/wiki/Design_and_Industries_Association" title="Design and Industries Association">Design and Industries Association</a></li>
+<li><a href="/wiki/Design_Council" title="Design Council">Design Council</a></li>
+<li><a href="/wiki/International_Forum_Design" title="International Forum Design">International Forum Design</a></li>
+<li><a href="/wiki/The_Design_Society" title="The Design Society">The Design Society</a></li>
+<li><a href="/wiki/Design_Research_Society" title="Design Research Society">Design Research Society</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Awards</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/European_Design_Award" title="European Design Award">European Design Award</a></li>
+<li><a href="/wiki/German_Design_Award" title="German Design Award">German Design Award</a></li>
+<li><a href="/wiki/Good_Design_Award_(Chicago)" title="Good Design Award (Chicago)">Good Design Award (Chicago)</a></li>
+<li><a href="/wiki/Good_Design_Award_(Japan)" title="Good Design Award (Japan)">Good Design Award (Japan)</a></li>
+<li><a href="/wiki/Graphex" title="Graphex">Graphex</a></li>
+<li><a href="/wiki/IF_product_design_award" title="IF product design award">IF product design award</a></li>
+<li><a href="/wiki/James_Dyson_Award" title="James Dyson Award">James Dyson Award</a></li>
+<li><a href="/wiki/Prince_Philip_Designers_Prize" title="Prince Philip Designers Prize">Prince Philip Designers Prize</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Related_topics" style="font-size:114%">Related topics</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aesthetics" title="Aesthetics">Aesthetics</a></li>
+<li><a href="/wiki/Concept_art" title="Concept art">Concept art</a></li>
+<li><a href="/wiki/Creative_industries" title="Creative industries">Creative industries</a></li>
+<li><a href="/wiki/Cultural_icon" title="Cultural icon">Cultural icon</a></li>
+<li><a href="/wiki/.design" title=".design">.design</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Futures_studies" title="Futures studies">Futures studies</a></li>
+<li><a href="/wiki/Intelligent_design" title="Intelligent design">Intelligent design</a></li>
+<li><a href="/wiki/New_product_development" title="New product development">New product development</a></li>
+<li><a href="/wiki/Philosophy_of_design" title="Philosophy of design">Philosophy of design</a></li>
+<li><a href="/wiki/Process_simulation" title="Process simulation">Process simulation</a></li>
+<li><a href="/wiki/Slow_design" title="Slow design">Slow design</a></li>
+<li><a href="/wiki/STEAM_fields" title="STEAM fields">STEAM fields</a></li>
+<li><a class="mw-redirect" href="/wiki/Unintelligent_design" title="Unintelligent design">Unintelligent design</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a></li>
+<li><a href="/wiki/Wicked_problem" title="Wicked problem">Wicked problem</a></li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_brief" title="Design brief">brief</a></li>
+<li><a href="/wiki/Design_change" title="Design change">change</a></li>
+<li><a href="/wiki/Design_classic" title="Design classic">classic</a></li>
+<li><a href="/wiki/Design_director" title="Design director">director</a></li>
+<li><a href="/wiki/Design_education" title="Design education">education</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_elements_and_principles" title="Design elements and principles">elements and principles</a></li>
+<li><a href="/wiki/Design_engineer" title="Design engineer">engineer</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_firm" title="Design firm">firm</a></li>
+<li><a href="/wiki/Design_history" title="Design history">history</a></li>
+<li><a href="/wiki/Design_knowledge" title="Design knowledge">knowledge</a></li>
+<li><a href="/wiki/Design_language" title="Design language">language</a></li>
+<li><a href="/wiki/Design_life" title="Design life">life</a></li>
+<li><a href="/wiki/Design_load" title="Design load">load</a></li>
+<li><a href="/wiki/Design_museum" title="Design museum">museum</a></li>
+<li><a href="/wiki/Design_paradigm" title="Design paradigm">paradigm</a></li>
+<li><a href="/wiki/Design_rationale" title="Design rationale">rationale</a></li>
+<li><a href="/wiki/Design_review" title="Design review">review</a></li>
+<li><a href="/wiki/Design_specification" title="Design specification">specification</a></li>
+<li><a href="/wiki/Design_studio" title="Design studio">studio</a></li>
+<li><a href="/wiki/Design_technology" title="Design technology">technology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<ul>
+<li><a class="extiw" href="https://commons.wikimedia.org/wiki/category:Design" title="commons:category:Design"><span style="color:#002bb8">Commons</span></a></li>
+<li><a class="extiw" href="//en.wikibooks.org/wiki/Design" title="wikibooks:Design"><span style="color:#002bb8">Wikibooks</span></a></li>
+<li><a class="extiw" href="https://en.wikinews.org/wiki/Special:Search/Design" title="wikinews:Special:Search/Design"><span style="color:#002bb8">Wikinews</span></a></li>
+<li><a class="extiw" href="https://en.wikiquote.org/wiki/Design" title="wikiquote:Design"><span style="color:#002bb8">Wikiquote</span></a></li>
+<li><a class="extiw" href="https://en.wikisource.org/wiki/Category:Design" title="wikisource:Category:Design"><span style="color:#002bb8">Wikisource</span></a></li>
+<li><a class="extiw" href="https://en.wiktionary.org/wiki/Design" title="wiktionary:Design"><span style="color:#002bb8">Wiktionary</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1040387-0!*!0!!en!4!* and timestamp 20161002144502 and revision id 742172829
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Database_design&amp;oldid=742172829">https://en.wikipedia.org/w/index.php?title=Database_design&amp;oldid=742172829</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Database_management_systems" title="Category:Database management systems">Database management systems</a></li><li><a href="/wiki/Category:Databases" title="Category:Databases">Databases</a></li><li><a href="/wiki/Category:Database_theory" title="Category:Database theory">Database theory</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Commons_category_with_local_link_different_than_on_Wikidata" title="Category:Commons category with local link different than on Wikidata">Commons category with local link different than on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_DMOZ_links" title="Category:Articles with DMOZ links">Articles with DMOZ links</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Database+design" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Database+design" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Database_design" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Database_design" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Database_design">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Database_design&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Database_design&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Database_design" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Database_design" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Database_design&amp;oldid=742172829" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Database_design&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q1049878" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Database_design&amp;id=742172829" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Database+design">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Database+design&amp;returnto=Database+design&amp;oldid=742172829&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Database_design&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Databases" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Datenbankdesign" hreflang="de" lang="de" title="Datenbankdesign – German">Deutsch</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%84%A4%EA%B3%84" hreflang="ko" lang="ko" title="데이터베이스 설계 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Adatb%C3%A1zis-tervez%C3%A9s" hreflang="hu" lang="hu" title="Adatbázis-tervezés – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E8%A8%AD%E8%A8%88" hreflang="ja" lang="ja" title="データベース設計 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B1%D0%B0%D0%B7_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" hreflang="ru" lang="ru" title="Проектирование баз данных – Russian">Русский</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q1049878#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 2 October 2016, at 03:32.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Database_design&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.192",
+            "walltime": "0.249",
+            "ppvisitednodes": {
+                "value": 1270,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 128185,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 13390,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 9,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  151.492      1 -total",
+                " 31.22%   47.301      1 Template:Design",
+                " 28.73%   43.528      1 Template:Navbox_with_collapsible_sections",
+                " 19.95%   30.229      2 Template:Cite_web",
+                " 15.96%   24.176      4 Template:Navbox",
+                " 15.36%   23.264      1 Template:Commons_category",
+                " 12.56%   19.020      4 Template:Main",
+                " 11.08%   16.789      1 Template:Database",
+                "  6.55%    9.925      1 Template:Commons",
+                "  5.89%    8.929      1 Template:Sister_project"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.050",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2595524,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1252",
+            "timestamp": "20161002144502",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":320,"wgHostname":"mw1252"});});</script>
+</body>
+</html>
+

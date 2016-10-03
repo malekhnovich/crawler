@@ -1,0 +1,1008 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Rendering_(computer_graphics)
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Rendering (computer graphics) - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Rendering_(computer_graphics)","wgTitle":"Rendering (computer graphics)","wgCurRevisionId":738760245,"wgRevisionId":738760245,"wgArticleId":6604,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from May 2010","All articles needing additional references","Vague or ambiguous time from February 2014","3D rendering"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Rendering_(computer_graphics)","wgRelevantArticleId":6604,"wgRequestId":"V-F0JQpAIC0AAB8bRscAAACW","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q176953","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Rendering_(computer_graphics)" rel="alternate"/>
+<link href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Rendering_(computer_graphics)" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Rendering_computer_graphics rootpage-Rendering_computer_graphics skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Rendering (computer graphics)</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">For 3-dimensional rendering, see <a href="/wiki/3D_rendering" title="3D rendering">3D rendering</a>. For rendering of HTML, see <a href="/wiki/Web_browser_engine" title="Web browser engine">web browser engine</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Render_Types.png"><img alt="" class="thumbimage" data-file-height="1935" data-file-width="640" height="665" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Render_Types.png/220px-Render_Types.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Render_Types.png/330px-Render_Types.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/01/Render_Types.png/440px-Render_Types.png 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Render_Types.png" title="Enlarge"></a></div>
+A variety of rendering techniques applied to a single 3D scene</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Glasses_800_edit.png"><img alt="" class="thumbimage" data-file-height="1536" data-file-width="2048" height="165" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Glasses_800_edit.png/220px-Glasses_800_edit.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Glasses_800_edit.png/330px-Glasses_800_edit.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Glasses_800_edit.png/440px-Glasses_800_edit.png 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Glasses_800_edit.png" title="Enlarge"></a></div>
+An image created by using <a href="/wiki/POV-Ray" title="POV-Ray">POV-Ray</a> 3.6</div>
+</div>
+</div>
+<p><b>Rendering</b> is the process of generating an image from a <a class="mw-redirect" href="/wiki/2D_model" title="2D model">2D</a> or <a class="mw-redirect" href="/wiki/3D_model" title="3D model">3D model</a> (or models in what collectively could be called a <i>scene</i> file) by means of <a href="/wiki/Computer_program" title="Computer program">computer programs</a>. Also, the results of such a model can be called a <b>rendering</b>. A scene file contains objects in a strictly defined language or <a href="/wiki/Data_structure" title="Data structure">data structure</a>; it would contain geometry, viewpoint, <a href="/wiki/Texture_mapping" title="Texture mapping">texture</a>, <a href="/wiki/Lighting" title="Lighting">lighting</a>, and <a href="/wiki/Shading" title="Shading">shading</a> information as a description of the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a <a href="/wiki/Digital_image" title="Digital image">digital image</a> or <a href="/wiki/Raster_graphics" title="Raster graphics">raster graphics</a> image file. The term "rendering" may be by analogy with an "artist's rendering" of a scene. Though the technical details of rendering methods vary, the general challenges to overcome in producing a 2D image from a 3D representation stored in a scene file are outlined as the <a href="/wiki/Graphics_pipeline" title="Graphics pipeline">graphics pipeline</a> along a rendering device, such as a <a href="/wiki/Graphics_processing_unit" title="Graphics processing unit">GPU</a>. A GPU is a purpose-built device able to assist a <a href="/wiki/Central_processing_unit" title="Central processing unit">CPU</a> in performing complex rendering calculations. If a scene is to look relatively realistic and predictable under virtual lighting, the rendering software should solve the <a href="/wiki/Rendering_equation" title="Rendering equation">rendering equation</a>. The rendering equation doesn't account for all lighting phenomena, but is a general lighting model for computer-generated imagery. 'Rendering' is also used to describe the process of calculating effects in a video editing program to produce final video output.</p>
+<p>Rendering is one of the major sub-topics of <a href="/wiki/3D_computer_graphics" title="3D computer graphics">3D computer graphics</a>, and in practice is always connected to the others. In the <a href="/wiki/Graphics_pipeline" title="Graphics pipeline">graphics pipeline</a>, it is the last major step, giving the final appearance to the models and animation. With the increasing sophistication of computer graphics since the 1970s, it has become a more distinct subject.</p>
+<p>Rendering has uses in <a href="/wiki/Architectural_rendering" title="Architectural rendering">architecture</a>, <a href="/wiki/Video_game" title="Video game">video games</a>, <a href="/wiki/Simulation" title="Simulation">simulators</a>, <a href="/wiki/Film" title="Film">movie</a> or TV <a href="/wiki/Visual_effects" title="Visual effects">visual effects</a>, and design visualization, each employing a different balance of features and techniques. As a product, a wide variety of renderers are available. Some are integrated into larger modeling and animation packages, some are stand-alone, some are free open-source projects. On the inside, a renderer is a carefully engineered program, based on a selective mixture of disciplines related to: <a href="/wiki/Optics" title="Optics">light physics</a>, <a href="/wiki/Visual_system" title="Visual system">visual perception</a>, <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>, and <a href="/wiki/Software_engineering" title="Software engineering">software development</a>.</p>
+<p>In the case of 3D graphics, rendering may be done slowly, as in <a class="mw-redirect" href="/wiki/Pre-rendered" title="Pre-rendered">pre-rendering</a>, or in realtime. Pre-rendering is a computationally intensive process that is typically used for movie creation, while <a href="/wiki/Real-time_computer_graphics" title="Real-time computer graphics">real-time</a> rendering is often done for 3D video games which rely on the use of graphics cards with 3D <a class="mw-redirect" href="/wiki/Hardware_accelerators" title="Hardware accelerators">hardware accelerators</a>.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Usage"><span class="tocnumber">1</span> <span class="toctext">Usage</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Features"><span class="tocnumber">2</span> <span class="toctext">Features</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Techniques"><span class="tocnumber">3</span> <span class="toctext">Techniques</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Scanline_rendering_and_rasterisation"><span class="tocnumber">3.1</span> <span class="toctext">Scanline rendering and rasterisation</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Ray_casting"><span class="tocnumber">3.2</span> <span class="toctext">Ray casting</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Ray_tracing"><span class="tocnumber">3.3</span> <span class="toctext">Ray tracing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Radiosity"><span class="tocnumber">4</span> <span class="toctext">Radiosity</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Sampling_and_filtering"><span class="tocnumber">5</span> <span class="toctext">Sampling and filtering</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Optimization"><span class="tocnumber">6</span> <span class="toctext">Optimization</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Optimizations_used_by_an_artist_when_a_scene_is_being_developed"><span class="tocnumber">6.1</span> <span class="toctext">Optimizations used by an artist when a scene is being developed</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Common_optimizations_for_real_time_rendering"><span class="tocnumber">6.2</span> <span class="toctext">Common optimizations for real time rendering</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Academic_core"><span class="tocnumber">7</span> <span class="toctext">Academic core</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#The_rendering_equation"><span class="tocnumber">7.1</span> <span class="toctext">The rendering equation</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#The_bidirectional_reflectance_distribution_function"><span class="tocnumber">7.2</span> <span class="toctext">The bidirectional reflectance distribution function</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Geometric_optics"><span class="tocnumber">7.3</span> <span class="toctext">Geometric optics</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Visual_perception"><span class="tocnumber">7.4</span> <span class="toctext">Visual perception</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Chronology_of_important_published_ideas"><span class="tocnumber">8</span> <span class="toctext">Chronology of important published ideas</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Further_reading"><span class="tocnumber">11</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#External_links"><span class="tocnumber">12</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Usage">Usage</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=1" title="Edit section: Usage">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>When the pre-image (a <a class="mw-redirect" href="/wiki/Wireframe_model" title="Wireframe model">wireframe</a> sketch usually) is complete, rendering is used, which adds in <a href="/wiki/Bitmap_textures" title="Bitmap textures">bitmap textures</a> or <a class="mw-redirect" href="/wiki/Procedural_textures" title="Procedural textures">procedural textures</a>, lights, <a href="/wiki/Bump_mapping" title="Bump mapping">bump mapping</a> and relative position to other objects. The result is a completed image the consumer or intended viewer sees.</p>
+<p>For movie animations, several images (frames) must be rendered, and stitched together in a program capable of making an animation of this sort. Most 3D image editing programs can do this.</p>
+<h2><span class="mw-headline" id="Features">Features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=2" title="Edit section: Features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A rendered image can be understood in terms of a number of visible features. Rendering <a href="/wiki/Research_and_development" title="Research and development">research and development</a> has been largely motivated by finding ways to simulate these efficiently. Some relate directly to particular algorithms and techniques, while others are produced together.</p>
+<ul>
+<li><a href="/wiki/Shading" title="Shading">Shading</a> –  how the color and brightness of a surface varies with lighting</li>
+<li><a href="/wiki/Texture_mapping" title="Texture mapping">Texture-mapping</a> –  a method of applying detail to surfaces</li>
+<li><a href="/wiki/Bump_mapping" title="Bump mapping">Bump-mapping</a> –  a method of simulating small-scale bumpiness on surfaces</li>
+<li><a href="/wiki/Distance_fog" title="Distance fog">Fogging/participating medium</a> –  how light dims when passing through non-clear atmosphere or air</li>
+<li><a href="/wiki/Shadow" title="Shadow">Shadows</a> –  the effect of obstructing light</li>
+<li><a class="mw-redirect" href="/wiki/Soft_shadows" title="Soft shadows">Soft shadows</a> –  varying darkness caused by partially obscured light sources</li>
+<li><a href="/wiki/Reflection_(computer_graphics)" title="Reflection (computer graphics)">Reflection</a> –  mirror-like or highly glossy reflection</li>
+<li><a class="mw-redirect" href="/wiki/Transparency_(optics)" title="Transparency (optics)">Transparency (optics)</a>, <a href="/wiki/Transparency_(graphic)" title="Transparency (graphic)">transparency (graphic)</a> or <a href="/wiki/Opacity_(optics)" title="Opacity (optics)">opacity</a> –  sharp transmission of light through solid objects</li>
+<li><a class="mw-redirect" href="/wiki/Translucency" title="Translucency">translucency</a> –  highly scattered transmission of light through solid objects</li>
+<li><a href="/wiki/Refraction" title="Refraction">refraction</a> –  bending of light associated with transparency</li>
+<li><a href="/wiki/Diffraction" title="Diffraction">diffraction</a> –  bending, spreading and interference of light passing by an object or aperture that disrupts the ray</li>
+<li><a href="/wiki/Global_illumination" title="Global illumination">indirect illumination</a> –  surfaces illuminated by light reflected off other surfaces, rather than directly from a light source (also known as global illumination)</li>
+<li><a href="/wiki/Caustic_(optics)" title="Caustic (optics)">caustics</a> (a form of indirect illumination) –  reflection of light off a shiny object, or focusing of light through a transparent object, to produce bright highlights on another object</li>
+<li><a href="/wiki/Depth_of_field" title="Depth of field">depth of field</a> –  objects appear blurry or out of focus when too far in front of or behind the object in focus</li>
+<li><a href="/wiki/Motion_blur" title="Motion blur">motion blur</a> –  objects appear blurry due to high-speed motion, or the motion of the camera</li>
+<li><a href="/wiki/Non-photorealistic_rendering" title="Non-photorealistic rendering">non-photorealistic rendering</a> –  rendering of scenes in an artistic style, intended to look like a painting or drawing</li>
+</ul>
+<h2><span class="mw-headline" id="Techniques">Techniques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=3" title="Edit section: Techniques">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Many rendering <b><span id="algorithms">algorithms</span></b> have been researched, and software used for rendering may employ a number of different techniques to obtain a final image.</p>
+<p><a class="mw-redirect" href="/wiki/Vectorization_(image_tracing)" title="Vectorization (image tracing)">Tracing</a> every <a href="/wiki/Photon" title="Photon">particle of light</a> in a scene is nearly always completely impractical and would take a stupendous amount of time. Even tracing a portion large enough to produce an image takes an inordinate amount of time if the sampling is not intelligently restricted.</p>
+<p>Therefore, a few loose families of more-efficient light transport modelling techniques have emerged:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Rasterization" title="Rasterization">rasterization</a>, including <a href="/wiki/Scanline_rendering" title="Scanline rendering">scanline rendering</a>, geometrically projects objects in the scene to an image plane, without advanced optical effects;</li>
+<li><a href="/wiki/Ray_casting" title="Ray casting">ray casting</a> considers the scene as observed from a specific point of view, calculating the observed image based only on geometry and very basic optical laws of reflection intensity, and perhaps using <a href="/wiki/Monte_Carlo_method" title="Monte Carlo method">Monte Carlo</a> techniques to reduce artifacts;</li>
+<li><a href="/wiki/Ray_tracing_(graphics)" title="Ray tracing (graphics)">ray tracing</a> is similar to ray casting, but employs more advanced optical simulation, and usually uses Monte Carlo techniques to obtain more realistic results at a speed that is often orders of magnitude slower.</li>
+</ul>
+<p>The fourth type of light transport technique, <a href="/wiki/Radiosity_(computer_graphics)" title="Radiosity (computer graphics)">radiosity</a> is not usually implemented as a rendering technique, but instead calculates the passage of light as it leaves the light source and illuminates surfaces. These surfaces are usually rendered to the display using one of the other three techniques.</p>
+<p>Most advanced software combines two or more of the techniques to obtain good-enough results at reasonable cost.</p>
+<p>Another distinction is between <a href="/wiki/Image_and_object_order_rendering" title="Image and object order rendering">image order</a> algorithms, which iterate over pixels of the image plane, and <a href="/wiki/Image_and_object_order_rendering" title="Image and object order rendering">object order</a> algorithms, which iterate over objects in the scene. Generally object order is more efficient, as there are usually fewer objects in a scene than pixels.</p>
+<h3><span class="mw-headline" id="Scanline_rendering_and_rasterisation"><span id="Rasterisation"></span>Scanline rendering and rasterisation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=4" title="Edit section: Scanline rendering and rasterisation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Rasterisation" title="Rasterisation">Rasterisation</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Latest_Rendering_of_the_E-ELT.jpg"><img alt="" class="thumbimage" data-file-height="2813" data-file-width="5000" height="124" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Latest_Rendering_of_the_E-ELT.jpg/220px-Latest_Rendering_of_the_E-ELT.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Latest_Rendering_of_the_E-ELT.jpg/330px-Latest_Rendering_of_the_E-ELT.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/14/Latest_Rendering_of_the_E-ELT.jpg/440px-Latest_Rendering_of_the_E-ELT.jpg 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Latest_Rendering_of_the_E-ELT.jpg" title="Enlarge"></a></div>
+Rendering of the <a href="/wiki/European_Extremely_Large_Telescope" title="European Extremely Large Telescope">European Extremely Large Telescope</a>.</div>
+</div>
+</div>
+<p>A high-level representation of an image necessarily contains elements in a different domain from pixels. These elements are referred to as <a class="mw-redirect" href="/wiki/Primitives_(computer_graphics)" title="Primitives (computer graphics)"><span id="primitive">primitive</span>s</a>. In a schematic drawing, for instance, line segments and curves might be primitives. In a graphical user interface, windows and buttons might be the primitives. In rendering of 3D models, triangles and polygons in space might be primitives.</p>
+<p>If a pixel-by-pixel (image order) approach to rendering is impractical or too slow for some task, then a primitive-by-primitive (object order) approach to rendering may prove useful. Here, one loops through each of the primitives, determines which pixels in the image it affects, and modifies those pixels accordingly. This is called <b>rasterization</b>, and is the rendering method used by all current <a class="mw-redirect" href="/wiki/Graphics_card" title="Graphics card">graphics cards</a>.</p>
+<p>Rasterization is frequently faster than pixel-by-pixel rendering. First, large areas of the image may be empty of primitives; rasterization will ignore these areas, but pixel-by-pixel rendering must pass through them. Second, rasterization can improve <a class="mw-redirect" href="/wiki/Cache_coherency" title="Cache coherency">cache coherency</a> and reduce redundant work by taking advantage of the fact that the pixels occupied by a single primitive tend to be contiguous in the image. For these reasons, rasterization is usually the approach of choice when <a href="/wiki/Interactivity" title="Interactivity">interactive</a> rendering is required; however, the pixel-by-pixel approach can often produce higher-quality images and is more versatile because it does not depend on as many assumptions about the image as rasterization.</p>
+<p>The older form of rasterization is characterized by rendering an entire face (primitive) as a single color. Alternatively, rasterization can be done in a more complicated manner by first rendering the vertices of a face and then rendering the pixels of that face as a blending of the vertex colors. This version of rasterization has overtaken the old method as it allows the graphics to flow without complicated textures (a rasterized image when used face by face tends to have a very block-like effect if not covered in complex textures; the faces are not smooth because there is no gradual color change from one primitive to the next). This newer method of rasterization utilizes the graphics card's more taxing shading functions and still achieves better performance because the simpler textures stored in memory use less space. Sometimes designers will use one rasterization method on some faces and the other method on others based on the angle at which that face meets other joined faces, thus increasing speed and not hurting the overall effect.</p>
+<h3><span class="mw-headline" id="Ray_casting">Ray casting</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=5" title="Edit section: Ray casting">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Ray_casting" title="Ray casting">Ray casting</a></div>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This section <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(May 2010)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p>In <b>ray casting</b> the geometry which has been modeled is parsed pixel by pixel, line by line, from the point of view outward, as if casting rays out from the point of view. Where an object is intersected, the color value at the point may be evaluated using several methods. In the simplest, the color value of the object at the point of intersection becomes the value of that pixel. The color may be determined from a <a href="/wiki/Texture_mapping" title="Texture mapping">texture-map</a>. A more sophisticated method is to modify the colour value by an illumination factor, but without calculating the relationship to a simulated light source. To reduce artifacts, a number of rays in slightly different directions may be averaged.</p>
+<p>Rough simulations of optical properties may be additionally employed: a simple calculation of the ray from the object to the point of view is made. Another calculation is made of the angle of incidence of light rays from the light source(s), and from these as well as the specified intensities of the light sources, the value of the pixel is calculated. Another simulation uses illumination plotted from a radiosity algorithm, or a combination of these two.</p>
+<p>Raycasting is primarily used for realtime simulations, such as those used in 3D computer games and cartoon animations, where detail is not important, or where it is more efficient to manually fake the details in order to obtain better performance in the computational stage. This is usually the case when a large number of frames need to be animated. The resulting surfaces have a characteristic 'flat' appearance when no additional tricks are used, as if objects in the scene were all painted with matte finish.</p>
+<h3><span class="mw-headline" id="Ray_tracing">Ray tracing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=6" title="Edit section: Ray tracing">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:SpiralSphereAndJuliaDetail1.jpg"><img alt="" class="thumbimage" data-file-height="480" data-file-width="480" height="250" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SpiralSphereAndJuliaDetail1.jpg/250px-SpiralSphereAndJuliaDetail1.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SpiralSphereAndJuliaDetail1.jpg/375px-SpiralSphereAndJuliaDetail1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/c/ca/SpiralSphereAndJuliaDetail1.jpg 2x" width="250"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SpiralSphereAndJuliaDetail1.jpg" title="Enlarge"></a></div>
+<i>Spiral Sphere and Julia, Detail</i>, a computer-generated image created by visual artist Robert W. McGregor using only <a href="/wiki/POV-Ray" title="POV-Ray">POV-Ray</a> 3.6 and its built-in scene description language.</div>
+</div>
+</div>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Ray_tracing_(graphics)" title="Ray tracing (graphics)">Ray tracing (graphics)</a></div>
+<p><b>Ray tracing</b> aims to simulate the natural flow of light, interpreted as particles. Often, ray tracing methods are utilized to approximate the solution to the <a href="/wiki/Rendering_equation" title="Rendering equation">rendering equation</a> by applying <a class="mw-redirect" href="/wiki/Monte_Carlo_methods" title="Monte Carlo methods">Monte Carlo methods</a> to it. Some of the most used methods are <a href="/wiki/Path_tracing" title="Path tracing">path tracing</a>, <a href="/wiki/Path_tracing#Bidirectional_path_tracing" title="Path tracing">bidirectional path tracing</a>, or <a href="/wiki/Metropolis_light_transport" title="Metropolis light transport">Metropolis light transport</a>, but also semi realistic methods are in use, like <a class="new" href="/w/index.php?title=Whitted_Style_Ray_Tracing&amp;action=edit&amp;redlink=1" title="Whitted Style Ray Tracing (page does not exist)">Whitted Style Ray Tracing</a>, or hybrids. While most implementations let light propagate on straight lines, applications exist to simulate relativistic spacetime effects.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<p>In a final, production quality rendering of a ray traced work, multiple rays are generally shot for each pixel, and traced not just to the first object of intersection, but rather, through a number of sequential 'bounces', using the known laws of optics such as "angle of incidence equals angle of reflection" and more advanced laws that deal with refraction and surface roughness.</p>
+<p>Once the ray either encounters a light source, or more probably once a set limiting number of bounces has been evaluated, then the surface illumination at that final point is evaluated using techniques described above, and the changes along the way through the various bounces evaluated to estimate a value observed at the point of view. This is all repeated for each sample, for each pixel.</p>
+<p>In <a class="mw-redirect" href="/wiki/Distribution_ray_tracing" title="Distribution ray tracing">distribution ray tracing</a>, at each point of intersection, multiple rays may be spawned. In <a href="/wiki/Path_tracing" title="Path tracing">path tracing</a>, however, only a single ray or none is fired at each intersection, utilizing the statistical nature of <a href="/wiki/Monte_Carlo" title="Monte Carlo">Monte Carlo</a> experiments.</p>
+<p>As a brute-force method, ray tracing has been too slow to consider for real-time, and until recently too slow even to consider for short films of any degree of quality, although it has been used for special effects sequences, and in advertising, where a short portion of high quality (perhaps even <a href="/wiki/Photorealism" title="Photorealism">photorealistic</a>) footage is required.</p>
+<p>However, efforts at optimizing to reduce the number of calculations needed in portions of a work where detail is not high or does not depend on ray tracing features have led to a realistic possibility of wider use of ray tracing. There is now some hardware accelerated ray tracing equipment, at least in prototype phase, and some game demos which show use of real-time software or hardware ray tracing.</p>
+<h2><span class="mw-headline" id="Radiosity">Radiosity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=7" title="Edit section: Radiosity">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Radiosity_(computer_graphics)" title="Radiosity (computer graphics)">Radiosity (computer graphics)</a></div>
+<p><b>Radiosity</b> is a method which attempts to simulate the way in which directly illuminated surfaces act as indirect light sources that illuminate other surfaces. This produces more realistic shading and seems to better capture the '<a href="/wiki/Shading#Ambient_lighting" title="Shading">ambience</a>' of an indoor scene. A classic example is the way that shadows 'hug' the corners of rooms.</p>
+<p>The optical basis of the simulation is that some diffused light from a given point on a given surface is reflected in a large spectrum of directions and illuminates the area around it.</p>
+<p>The simulation technique may vary in complexity. Many renderings have a very rough estimate of radiosity, simply illuminating an entire scene very slightly with a factor known as ambiance. However, when advanced radiosity estimation is coupled with a high quality ray tracing algorithm, images may exhibit convincing realism, particularly for indoor scenes.</p>
+<p>In advanced radiosity simulation, recursive, finite-element algorithms 'bounce' light back and forth between surfaces in the model, until some recursion limit is reached. The colouring of one surface in this way influences the colouring of a neighbouring surface, and vice versa. The resulting values of illumination throughout the model (sometimes including for empty spaces) are stored and used as additional inputs when performing calculations in a ray-casting or ray-tracing model.</p>
+<p>Due to the iterative/recursive nature of the technique, complex objects are particularly slow to emulate. Prior to the standardization of rapid radiosity calculation, some <a class="mw-redirect" href="/wiki/Digital_artists" title="Digital artists">digital artists</a> used a technique referred to loosely as <a href="/wiki/False_radiosity" title="False radiosity">false radiosity</a> by darkening areas of texture maps corresponding to corners, joints and recesses, and applying them via self-illumination or diffuse mapping for scanline rendering. Even now, advanced radiosity calculations may be reserved for calculating the ambiance of the room, from the light reflecting off walls, floor and ceiling, without examining the contribution that complex objects make to the radiosity—or complex objects may be replaced in the radiosity calculation with simpler objects of similar size and texture.</p>
+<p>Radiosity calculations are viewpoint independent which increases the computations involved, but makes them useful for all viewpoints. If there is little rearrangement of radiosity objects in the scene, the same radiosity data may be reused for a number of frames, making radiosity an effective way to improve on the flatness of ray casting, without seriously impacting the overall rendering time-per-frame.</p>
+<p>Because of this, radiosity is a prime component of leading real-time rendering methods, and has been used from beginning-to-end to create a large number of well-known recent feature-length animated 3D-cartoon films.</p>
+<h2><span class="mw-headline" id="Sampling_and_filtering">Sampling and filtering</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=8" title="Edit section: Sampling and filtering">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One problem that any rendering system must deal with, no matter which approach it takes, is the <b>sampling problem</b>. Essentially, the rendering process tries to depict a <a href="/wiki/Continuous_function" title="Continuous function">continuous function</a> from image space to colors by using a finite number of pixels. As a consequence of the <a href="/wiki/Nyquist%E2%80%93Shannon_sampling_theorem" title="Nyquist–Shannon sampling theorem">Nyquist–Shannon sampling theorem</a> (or Kotelnikov theorem), any spatial waveform that can be displayed must consist of at least two pixels, which is proportional to <a href="/wiki/Image_resolution" title="Image resolution">image resolution</a>. In simpler terms, this expresses the idea that an image cannot display details, peaks or troughs in color or intensity, that are smaller than one pixel.</p>
+<p>If a naive rendering algorithm is used without any filtering, high frequencies in the image function will cause ugly <a href="/wiki/Aliasing" title="Aliasing">aliasing</a> to be present in the final image. Aliasing typically manifests itself as <a href="/wiki/Jaggies" title="Jaggies">jaggies</a>, or jagged edges on objects where the pixel grid is visible. In order to remove aliasing, all rendering algorithms (if they are to produce good-looking images) must use some kind of <a href="/wiki/Low-pass_filter" title="Low-pass filter">low-pass filter</a> on the image function to remove high frequencies, a process called <a href="/wiki/Spatial_anti-aliasing" title="Spatial anti-aliasing">antialiasing</a>.</p>
+<h2><span class="mw-headline" id="Optimization">Optimization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=9" title="Edit section: Optimization">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Optimizations_used_by_an_artist_when_a_scene_is_being_developed">Optimizations used by an artist when a scene is being developed</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=10" title="Edit section: Optimizations used by an artist when a scene is being developed">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Due to the large number of calculations, a work in progress is usually only rendered in detail appropriate to the portion of the work being developed at a given time, so in the initial stages of modeling, wireframe and ray casting may be used, even where the target output is ray tracing with radiosity. It is also common to render only parts of the scene at high detail, and to remove objects that are not important to what is currently being developed.</p>
+<h3><span class="mw-headline" id="Common_optimizations_for_real_time_rendering">Common optimizations for real time rendering</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=11" title="Edit section: Common optimizations for real time rendering">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>For real-time, it is appropriate to simplify one or more common approximations, and tune to the exact parameters of the scenery in question, which is also tuned to the agreed parameters to get the most 'bang for the buck'.</p>
+<h2><span class="mw-headline" id="Academic_core">Academic core</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=12" title="Edit section: Academic core">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Unbiased_rendering" title="Unbiased rendering">Unbiased rendering</a></div>
+<p>The implementation of a realistic renderer always has some basic element of physical simulation or emulation — some computation which resembles or abstracts a real physical process.</p>
+<p>The term "<i>physically based</i>" indicates the use of physical models and approximations that are more general and widely accepted outside rendering. A particular set of related techniques have gradually become established in the rendering community.</p>
+<p>The basic concepts are moderately straightforward, but intractable to calculate; and a single elegant algorithm or approach has been elusive for more general purpose renderers. In order to meet demands of robustness, accuracy and practicality, an implementation will be a complex combination of different techniques.</p>
+<p>Rendering research is concerned with both the adaptation of scientific models and their efficient application.</p>
+<h3><span class="mw-headline" id="The_rendering_equation">The rendering equation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=13" title="Edit section: The rendering equation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Rendering_equation" title="Rendering equation">Rendering equation</a></div>
+<p>This is the key academic/theoretical concept in rendering. It serves as the most abstract formal expression of the non-perceptual aspect of rendering. All more complete algorithms can be seen as solutions to particular formulations of this equation.</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>L</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>o</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msub>
+<mi>L</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>e</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mo>∫<!-- ∫ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">Ω<!-- Ω --></mi>
+</mrow>
+</msub>
+<msub>
+<mi>f</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>r</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo>,</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<msub>
+<mi>L</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>n</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle L_{o}(x,{\vec {w}})=L_{e}(x,{\vec {w}})+\int _{\Omega }f_{r}(x,{\vec {w}}',{\vec {w}})L_{i}(x,{\vec {w}}')({\vec {w}}'\cdot {\vec {n}})\mathrm {d} {\vec {w}}'}</annotation>
+</semantics>
+</math></span><img alt="L_{o}(x,{\vec  w})=L_{e}(x,{\vec  w})+\int _{\Omega }f_{r}(x,{\vec  w}',{\vec  w})L_{i}(x,{\vec  w}')({\vec  w}'\cdot {\vec  n}){\mathrm  {d}}{\vec  w}'" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/db2401e801dc8aa57af24b2d7963be93c694411a" style="vertical-align: -2.338ex; width:57.458ex; height:5.843ex;"/></span></dd>
+</dl>
+<p>Meaning: at a particular position and direction, the outgoing light (L<sub>o</sub>) is the sum of the emitted light (L<sub>e</sub>) and the reflected light. The reflected light being the sum of the incoming light (L<sub>i</sub>) from all directions, multiplied by the surface reflection and incoming angle. By connecting outward light to inward light, via an interaction point, this equation stands for the whole 'light transport' — all the movement of light — in a scene.</p>
+<h3><span class="mw-headline" id="The_bidirectional_reflectance_distribution_function">The bidirectional reflectance distribution function</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=14" title="Edit section: The bidirectional reflectance distribution function">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <b><a href="/wiki/Bidirectional_reflectance_distribution_function" title="Bidirectional reflectance distribution function">bidirectional reflectance distribution function</a></b> (BRDF) expresses a simple model of light interaction with a surface as follows:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>f</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>r</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo>,</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<msub>
+<mi>L</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>r</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msub>
+<mi>L</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>n</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>w</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>′</mo>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f_{r}(x,{\vec {w}}',{\vec {w}})={\frac {\mathrm {d} L_{r}(x,{\vec {w}})}{L_{i}(x,{\vec {w}}')({\vec {w}}'\cdot {\vec {n}})\mathrm {d} {\vec {w}}'}}}</annotation>
+</semantics>
+</math></span><img alt="f_{r}(x,{\vec  w}',{\vec  w})={\frac  {{\mathrm  {d}}L_{r}(x,{\vec  w})}{L_{i}(x,{\vec  w}')({\vec  w}'\cdot {\vec  n}){\mathrm  {d}}{\vec  w}'}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aafdf28c09bc4cf7a5e44fe7a7342a7c517983a3" style="vertical-align: -3.005ex; width:35.319ex; height:6.843ex;"/></span></dd>
+</dl>
+<p>Light interaction is often approximated by the even simpler models: diffuse reflection and specular reflection, although both can ALSO be BRDFs.</p>
+<h3><span class="mw-headline" id="Geometric_optics">Geometric optics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=15" title="Edit section: Geometric optics">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Rendering is practically exclusively concerned with the particle aspect of light physics — known as <a class="mw-redirect" href="/wiki/Geometric_optics" title="Geometric optics">geometric optics</a>. Treating light, at its basic level, as particles bouncing around is a simplification, but appropriate: the wave aspects of light are negligible in most scenes, and are significantly more difficult to simulate. Notable wave aspect phenomena include diffraction (as seen in the colours of <a href="/wiki/Compact_disc" title="Compact disc">CDs</a> and <a href="/wiki/DVD" title="DVD">DVDs</a>) and polarisation (as seen in <a class="mw-redirect" href="/wiki/Liquid_crystal_display" title="Liquid crystal display">LCDs</a>). Both types of effect, if needed, are made by appearance-oriented adjustment of the reflection model.</p>
+<h3><span class="mw-headline" id="Visual_perception">Visual perception</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=16" title="Edit section: Visual perception">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Though it receives less attention, an understanding of <a class="mw-redirect" href="/wiki/Human_visual_perception" title="Human visual perception">human visual perception</a> is valuable to rendering. This is mainly because image displays and human perception have restricted ranges. A renderer can simulate an almost infinite range of light brightness and color, but current displays — movie screen, computer monitor, etc. — cannot handle so much, and something must be discarded or compressed. Human perception also has limits, and so does not need to be given large-range images to create realism. This can help solve the problem of fitting images into displays, and, furthermore, suggest what short-cuts could be used in the rendering simulation, since certain subtleties won't be noticeable. This related subject is <a href="/wiki/Tone_mapping" title="Tone mapping">tone mapping</a>.</p>
+<p>Mathematics used in rendering includes: <a href="/wiki/Linear_algebra" title="Linear algebra">linear algebra</a>, <a href="/wiki/Calculus" title="Calculus">calculus</a>, <a href="/wiki/Numerical_analysis" title="Numerical analysis">numerical mathematics</a>, <a href="/wiki/Digital_signal_processing" title="Digital signal processing">signal processing</a>, and <a class="mw-redirect" href="/wiki/Monte_Carlo_methods" title="Monte Carlo methods">Monte Carlo methods</a>.</p>
+<p><a class="external text" href="http://www.renderingcomunity.com" rel="nofollow">Rendering</a> for movies often takes place on a network of tightly connected computers known as a <a href="/wiki/Render_farm" title="Render farm">render farm</a>.</p>
+<p>The current<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items" title="Wikipedia:Manual of Style/Dates and numbers"><span title="The time period mentioned near this tag is ambiguous. (February 2014)">when?</span></a></i>]</sup> state of the art in 3-D image description for movie creation is the <a href="/wiki/Mental_Ray" title="Mental Ray">mental ray</a> <a href="/wiki/Scene_description_language" title="Scene description language">scene description language</a> designed at <a href="/wiki/Mental_Images" title="Mental Images">mental images</a> and <a href="/wiki/RenderMan_Shading_Language" title="RenderMan Shading Language">RenderMan Shading Language</a> designed at <a href="/wiki/Pixar" title="Pixar">Pixar</a>.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> (compare with simpler 3D fileformats such as <a href="/wiki/VRML" title="VRML">VRML</a> or <a href="/wiki/Application_programming_interface" title="Application programming interface">APIs</a> such as <a href="/wiki/OpenGL" title="OpenGL">OpenGL</a> and <a href="/wiki/DirectX" title="DirectX">DirectX</a> tailored for 3D hardware accelerators).</p>
+<p>Other renderers (including proprietary ones) can and are sometimes used, but most other renderers tend to miss one or more of the often needed features like good texture filtering, texture caching, programmable shaders, highend geometry types like hair, subdivision or nurbs surfaces with tesselation on demand, geometry caching, raytracing with geometry caching, high quality <a href="/wiki/Shadow_mapping" title="Shadow mapping">shadow mapping</a>, speed or patent-free implementations. Other highly sought features these days may include <a class="new" href="/w/index.php?title=Interactive_Photorealistic_Rendering&amp;action=edit&amp;redlink=1" title="Interactive Photorealistic Rendering (page does not exist)">IPR</a> and hardware rendering/shading.</p>
+<h2><span class="mw-headline" id="Chronology_of_important_published_ideas">Chronology of important published ideas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=17" title="Edit section: Chronology of important published ideas">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:ESTCube_orbiidil_2.jpg"><img alt="" class="thumbimage" data-file-height="4000" data-file-width="6480" height="136" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/ESTCube_orbiidil_2.jpg/220px-ESTCube_orbiidil_2.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/ESTCube_orbiidil_2.jpg/330px-ESTCube_orbiidil_2.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ce/ESTCube_orbiidil_2.jpg/440px-ESTCube_orbiidil_2.jpg 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:ESTCube_orbiidil_2.jpg" title="Enlarge"></a></div>
+Rendering of an <a href="/wiki/ESTCube-1" title="ESTCube-1">ESTCube-1</a> satellite</div>
+</div>
+</div>
+<div class="div-col columns column-width" style="-moz-column-width: 25em; -webkit-column-width: 25em; column-width: 25em;">
+<ul>
+<li>1968 <i><a href="/wiki/Ray_casting" title="Ray casting">Ray casting</a></i><sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></li>
+<li>1970 <i><a href="/wiki/Scanline_rendering" title="Scanline rendering">Scanline rendering</a></i><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></li>
+<li>1971 <i><a href="/wiki/Gouraud_shading" title="Gouraud shading">Gouraud shading</a></i><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></li>
+<li>1973 <i><a href="/wiki/Phong_shading" title="Phong shading">Phong shading</a></i><sup class="reference" id="cite_ref-phong_6-0"><a href="#cite_note-phong-6">[6]</a></sup><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></li>
+<li>1973 <i><a href="/wiki/Phong_reflection_model" title="Phong reflection model">Phong reflection</a></i><sup class="reference" id="cite_ref-phong_6-1"><a href="#cite_note-phong-6">[6]</a></sup></li>
+<li>1973 <i><a href="/wiki/Diffuse_reflection" title="Diffuse reflection">Diffuse reflection</a></i><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></li>
+<li>1973 <i><a href="/wiki/Specular_highlight" title="Specular highlight">Specular highlight</a></i><sup class="reference" id="cite_ref-phong_6-2"><a href="#cite_note-phong-6">[6]</a></sup></li>
+<li>1973 <i><a href="/wiki/Specular_reflection" title="Specular reflection">Specular reflection</a></i><sup class="reference" id="cite_ref-phong_6-3"><a href="#cite_note-phong-6">[6]</a></sup></li>
+<li>1974 <i><a href="/wiki/Sprite_(computer_graphics)" title="Sprite (computer graphics)">Sprites</a></i><sup class="reference" id="cite_ref-vintage3d_9-0"><a href="#cite_note-vintage3d-9">[9]</a></sup></li>
+<li>1974 <i><a href="/wiki/Scrolling" title="Scrolling">Scrolling</a></i><sup class="reference" id="cite_ref-vintage3d_9-1"><a href="#cite_note-vintage3d-9">[9]</a></sup></li>
+<li>1974 <i><a href="/wiki/Texture_mapping" title="Texture mapping">Texture mapping</a></i><sup class="reference" id="cite_ref-Catmull_thesis_10-0"><a href="#cite_note-Catmull_thesis-10">[10]</a></sup></li>
+<li>1974 <i><a href="/wiki/Z-buffering" title="Z-buffering">Z-buffering</a></i><sup class="reference" id="cite_ref-Catmull_thesis_10-1"><a href="#cite_note-Catmull_thesis-10">[10]</a></sup></li>
+<li>1976 <i><a class="mw-redirect" href="/wiki/Environment_mapping" title="Environment mapping">Environment mapping</a></i><sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></li>
+<li>1977 <i><a href="/wiki/Side-scrolling_video_game" title="Side-scrolling video game">Side-scrolling</a></i><sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup></li>
+<li>1977 <i><a href="/wiki/Shadow_volume" title="Shadow volume">Shadow volumes</a></i><sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup></li>
+<li>1978 <i>Shadow buffer</i><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup></li>
+<li>1978 <i><a href="/wiki/Bump_mapping" title="Bump mapping">Bump mapping</a></i><sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></li>
+<li>1979 <i><a class="mw-redirect" href="/wiki/Tile_engine" title="Tile engine">Tile map</a></i><sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></li>
+<li>1980 <i><a class="mw-redirect" href="/wiki/BSP_trees" title="BSP trees">BSP trees</a></i><sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup></li>
+<li>1980 <i><a href="/wiki/Ray_tracing_(graphics)" title="Ray tracing (graphics)">Ray tracing</a></i><sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></li>
+<li>1981 <i><a href="/wiki/Parallax_scrolling" title="Parallax scrolling">Parallax scrolling</a></i><sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup></li>
+<li>1981 <i><a href="/wiki/2.5D#Scaling_along_the_Z_axis" title="2.5D">Sprite zooming</a></i><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup></li>
+<li>1981 <i>Cook shader</i><sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup></li>
+<li>1983 <i><a href="/wiki/Mipmap" title="Mipmap">MIP maps</a></i><sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup></li>
+<li>1984 <i><a href="/wiki/Octree" title="Octree">Octree</a> ray tracing</i><sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup></li>
+<li>1984 <i><a href="/wiki/Alpha_compositing" title="Alpha compositing">Alpha compositing</a></i><sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup></li>
+<li>1984 <i><a href="/wiki/Distributed_ray_tracing" title="Distributed ray tracing">Distributed ray tracing</a></i><sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup></li>
+<li>1984 <i><a href="/wiki/Radiosity_(computer_graphics)" title="Radiosity (computer graphics)">Radiosity</a></i><sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup></li>
+<li>1985 <i><a href="/wiki/Parallax_scrolling#Raster_method" title="Parallax scrolling">Row/column scrolling</a></i><sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup></li>
+<li>1985 <i><a href="/wiki/Hemicube_(computer_graphics)" title="Hemicube (computer graphics)">Hemicube</a> radiosity</i><sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup></li>
+<li>1986 <i>Light source tracing</i><sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup></li>
+<li>1986 <i><a href="/wiki/Rendering_equation" title="Rendering equation">Rendering equation</a></i><sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></li>
+<li>1987 <i><a href="/wiki/Reyes_rendering" title="Reyes rendering">Reyes rendering</a></i><sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup></li>
+<li>1988 <i><a href="/wiki/Depth_perception" title="Depth perception">Depth cue</a></i><sup class="reference" id="cite_ref-s21_32-0"><a href="#cite_note-s21-32">[32]</a></sup></li>
+<li>1988 <i><a href="/wiki/Distance_fog" title="Distance fog">Distance fog</a></i><sup class="reference" id="cite_ref-s21_32-1"><a href="#cite_note-s21-32">[32]</a></sup></li>
+<li>1988 <i><a href="/wiki/Tiled_rendering" title="Tiled rendering">Tiled rendering</a></i><sup class="reference" id="cite_ref-s21_32-2"><a href="#cite_note-s21-32">[32]</a></sup></li>
+<li>1991 <i><a href="/wiki/Xiaolin_Wu%27s_line_algorithm" title="Xiaolin Wu's line algorithm">Xiaolin Wu line anti-aliasing</a></i><sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup><sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup></li>
+<li>1991 <i>Hierarchical radiosity</i><sup class="reference" id="cite_ref-35"><a href="#cite_note-35">[35]</a></sup></li>
+<li>1993 <i><a href="/wiki/Texture_filtering" title="Texture filtering">Texture filtering</a></i><sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup></li>
+<li>1993 <i><a href="/wiki/Texture_mapping#Perspective_correctness" title="Texture mapping">Perspective correction</a></i><sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup></li>
+<li>1993 <i><a href="/wiki/Transform,_clipping,_and_lighting" title="Transform, clipping, and lighting">Transform, clipping, and lighting</a></i><sup class="reference" id="cite_ref-magic_38-0"><a href="#cite_note-magic-38">[38]</a></sup></li>
+<li>1993 <i><a href="/wiki/Shading#Directional_lighting" title="Shading">Directional lighting</a></i><sup class="reference" id="cite_ref-magic_38-1"><a href="#cite_note-magic-38">[38]</a></sup></li>
+<li>1993 <i><a href="/wiki/Trilinear_interpolation" title="Trilinear interpolation">Trilinear interpolation</a></i><sup class="reference" id="cite_ref-magic_38-2"><a href="#cite_note-magic-38">[38]</a></sup></li>
+<li>1993 <i><a class="mw-redirect" href="/wiki/Z-culling" title="Z-culling">Z-culling</a></i><sup class="reference" id="cite_ref-magic_38-3"><a href="#cite_note-magic-38">[38]</a></sup></li>
+<li>1993 <i><a href="/wiki/Oren%E2%80%93Nayar_reflectance_model" title="Oren–Nayar reflectance model">Oren–Nayar reflectance</a></i><sup class="reference" id="cite_ref-oren-nayar_39-0"><a href="#cite_note-oren-nayar-39">[39]</a></sup></li>
+<li>1993 <i><a href="/wiki/Tone_mapping" title="Tone mapping">Tone mapping</a></i><sup class="reference" id="cite_ref-40"><a href="#cite_note-40">[40]</a></sup></li>
+<li>1993 <i><a href="/wiki/Subsurface_scattering" title="Subsurface scattering">Subsurface scattering</a></i><sup class="reference" id="cite_ref-41"><a href="#cite_note-41">[41]</a></sup></li>
+<li>1994 <i><a href="/wiki/Heightmap" title="Heightmap">Heightmap</a></i><sup class="reference" id="cite_ref-42"><a href="#cite_note-42">[42]</a></sup></li>
+<li>1995 <i><a href="/wiki/Hidden_surface_determination" title="Hidden surface determination">Hidden surface determination</a></i><sup class="reference" id="cite_ref-43"><a href="#cite_note-43">[43]</a></sup></li>
+<li>1995 <i><a href="/wiki/Photon_mapping" title="Photon mapping">Photon mapping</a></i><sup class="reference" id="cite_ref-44"><a href="#cite_note-44">[44]</a></sup></li>
+<li>1996 <i><a href="/wiki/Multisample_anti-aliasing" title="Multisample anti-aliasing">Multisample anti-aliasing</a></i><sup class="reference" id="cite_ref-45"><a href="#cite_note-45">[45]</a></sup></li>
+<li>1997 <i><a href="/wiki/Metropolis_light_transport" title="Metropolis light transport">Metropolis light transport</a></i><sup class="reference" id="cite_ref-46"><a href="#cite_note-46">[46]</a></sup></li>
+<li>1997 <i>Instant Radiosity</i><sup class="reference" id="cite_ref-47"><a href="#cite_note-47">[47]</a></sup></li>
+<li>1998 <i><a class="mw-redirect" href="/wiki/Hidden_surface_removal" title="Hidden surface removal">Hidden surface removal</a></i><sup class="reference" id="cite_ref-48"><a href="#cite_note-48">[48]</a></sup></li>
+<li>2002 <i><a href="/wiki/Precomputed_Radiance_Transfer" title="Precomputed Radiance Transfer">Precomputed Radiance Transfer</a></i><sup class="reference" id="cite_ref-49"><a href="#cite_note-49">[49]</a></sup></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=18" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><img alt="" class="noviewer" data-file-height="252" data-file-width="252" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/5-cell.gif/28px-5-cell.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/5-cell.gif/42px-5-cell.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d8/5-cell.gif/56px-5-cell.gif 2x" width="28"/></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:Computer_graphics" title="Portal:Computer graphics">Computer graphics portal</a></span></li>
+</ul>
+</div>
+<div class="div-col columns column-width" style="-moz-column-width: 25em; -webkit-column-width: 25em; column-width: 25em;">
+<ul>
+<li><a href="/wiki/2D_computer_graphics" title="2D computer graphics">2D computer graphics</a></li>
+<li><a href="/wiki/3D_computer_graphics" title="3D computer graphics">3D computer graphics</a></li>
+<li><a href="/wiki/3D_rendering" title="3D rendering">3D rendering</a></li>
+<li><a href="/wiki/Architectural_rendering" title="Architectural rendering">Architectural rendering</a></li>
+<li><a href="/wiki/Global_illumination" title="Global illumination">Global illumination</a></li>
+<li><a href="/wiki/Graphics_pipeline" title="Graphics pipeline">Graphics pipeline</a></li>
+<li><a class="mw-redirect" href="/wiki/High_dynamic_range_rendering" title="High dynamic range rendering">High dynamic range rendering</a></li>
+<li><a href="/wiki/Image-based_modeling_and_rendering" title="Image-based modeling and rendering">Image-based modeling and rendering</a></li>
+<li><a href="/wiki/Non-photorealistic_rendering" title="Non-photorealistic rendering">Non-photorealistic rendering</a></li>
+<li><a href="/wiki/Painter%27s_algorithm" title="Painter's algorithm">Painter's algorithm</a></li>
+<li><a class="mw-redirect" href="/wiki/Pre-rendered" title="Pre-rendered">Pre-rendered</a></li>
+<li><a href="/wiki/Raster_image_processor" title="Raster image processor">Raster image processor</a></li>
+<li><a href="/wiki/Radiosity_(computer_graphics)" title="Radiosity (computer graphics)">Radiosity</a></li>
+<li><a href="/wiki/Ray_tracing_(graphics)" title="Ray tracing (graphics)">Ray tracing</a></li>
+<li><a href="/wiki/Real-time_computer_graphics" title="Real-time computer graphics">Real-time computer graphics</a></li>
+<li><a href="/wiki/Reyes_rendering" title="Reyes rendering">Reyes</a></li>
+<li><a href="/wiki/Scanline_rendering" title="Scanline rendering">Scanline rendering/Scanline algorithm</a></li>
+<li><a href="/wiki/Software_rendering" title="Software rendering">Software rendering</a></li>
+<li><a href="/wiki/Sprite_(computer_graphics)" title="Sprite (computer graphics)">Sprite (computer graphics)</a></li>
+<li><a href="/wiki/Unbiased_rendering" title="Unbiased rendering">Unbiased rendering</a></li>
+<li><a href="/wiki/Vector_graphics" title="Vector graphics">Vector graphics</a></li>
+<li><a href="/wiki/VirtualGL" title="VirtualGL">VirtualGL</a></li>
+<li><a class="mw-redirect" href="/wiki/Virtual_model" title="Virtual model">Virtual model</a></li>
+<li><a href="/wiki/Virtual_studio" title="Virtual studio">Virtual studio</a></li>
+<li><a href="/wiki/Volume_rendering" title="Volume rendering">Volume rendering</a></li>
+<li><a href="/wiki/Z-buffering" title="Z-buffering">Z-buffer algorithms</a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=19" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation journal">"Relativistic Ray-Tracing: Simulating the Visual Appearance of Rapidly Moving Objects". <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.56.830" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.56<wbr></wbr>.830</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Relativistic+Ray-Tracing%3A+Simulating+the+Visual+Appearance+of+Rapidly+Moving+Objects&amp;rft.genre=article&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a class="external text" href="http://portal.acm.org/citation.cfm?id=1185817&amp;jmp=abstract&amp;coll=GUIDE&amp;dl=GUIDE" rel="nofollow">A brief introduction to RenderMan</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Arthur_Appel&amp;action=edit&amp;redlink=1" title="Arthur Appel (page does not exist)">Appel, A.</a> (1968). <a class="external text" href="http://graphics.stanford.edu/courses/Appel.pdf" rel="nofollow">"Some techniques for shading machine renderings of solids"</a> <span style="font-size:85%;">(PDF)</span>. <i>Proceedings of the Spring Joint Computer Conference</i>. pp. 37–49.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Some+techniques+for+shading+machine+renderings+of+solids&amp;rft.aufirst=A.&amp;rft.aulast=Appel&amp;rft.btitle=Proceedings+of+the+Spring+Joint+Computer+Conference&amp;rft.date=1968&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fgraphics.stanford.edu%2Fcourses%2FAppel.pdf&amp;rft.pages=37-49&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a class="new" href="/w/index.php?title=W._Jack_Bouknight&amp;action=edit&amp;redlink=1" title="W. Jack Bouknight (page does not exist)">Bouknight, W. J.</a> (1970). "A procedure for generation of three-dimensional half-tone computer graphics presentations". <i>Communications of the ACM</i>. <b>13</b> (9): 527–536. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F362736.362739" rel="nofollow">10.1145/362736.362739</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=A+procedure+for+generation+of+three-dimensional+half-tone+computer+graphics+presentations&amp;rft.aufirst=W.+J.&amp;rft.aulast=Bouknight&amp;rft.date=1970&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F362736.362739&amp;rft.issue=9&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=527-536&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=13"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Henri_Gouraud_(computer_scientist)" title="Henri Gouraud (computer scientist)">Gouraud, H.</a> (1971). <a class="external text" href="http://www.cs.uiowa.edu/~cwyman/classes/spring05-22C251/papers/ContinuousShadingOfCurvedSurfaces.pdf" rel="nofollow">"Continuous shading of curved surfaces"</a> <span style="font-size:85%;">(PDF)</span>. <i>IEEE Transactions on Computers</i>. <b>20</b> (6): 623–629. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2Ft-c.1971.223313" rel="nofollow">10.1109/t-c.1971.223313</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Continuous+shading+of+curved+surfaces&amp;rft.aufirst=H.&amp;rft.aulast=Gouraud&amp;rft.date=1971&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cs.uiowa.edu%2F~cwyman%2Fclasses%2Fspring05-22C251%2Fpapers%2FContinuousShadingOfCurvedSurfaces.pdf&amp;rft_id=info%3Adoi%2F10.1109%2Ft-c.1971.223313&amp;rft.issue=6&amp;rft.jtitle=IEEE+Transactions+on+Computers&amp;rft.pages=623-629&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=20"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-phong-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-phong_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-phong_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-phong_6-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-phong_6-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text">University of Utah School of Computing, <a class="external free" href="http://www.cs.utah.edu/school/history/#phong-ref" rel="nofollow">http://www.cs.utah.edu/school/history/#phong-ref</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Bui_Tuong_Phong" title="Bui Tuong Phong">Phong, B-T</a> (1975). <a class="external text" href="http://jesper.kalliope.org/blog/library/p311-phong.pdf" rel="nofollow">"Illumination for computer generated pictures"</a> <span style="font-size:85%;">(PDF)</span>. <i>Communications of the ACM</i>. <b>18</b> (6): 311–316. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F360825.360839" rel="nofollow">10.1145/360825.360839</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Illumination+for+computer+generated+pictures&amp;rft.aufirst=B-T&amp;rft.aulast=Phong&amp;rft.date=1975&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fjesper.kalliope.org%2Fblog%2Flibrary%2Fp311-phong.pdf&amp;rft_id=info%3Adoi%2F10.1145%2F360825.360839&amp;rft.issue=6&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=311-316&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=18"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Bui Tuong Phong, <a class="external text" href="http://www.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf" rel="nofollow">Illumination for computer generated pictures</a>, Communications of ACM 18 (1975), no. 6, 311–317.</span></li>
+<li id="cite_note-vintage3d-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-vintage3d_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-vintage3d_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external free" href="http://vintage3d.org/history.php" rel="nofollow">http://vintage3d.org/history.php</a></span></li>
+<li id="cite_note-Catmull_thesis-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-Catmull_thesis_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Catmull_thesis_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation thesis"><a href="/wiki/Edwin_Catmull" title="Edwin Catmull">Catmull, E.</a> (1974). <a class="external text" href="http://www.pixartouchbook.com/storage/catmull_thesis.pdf" rel="nofollow"><i>A subdivision algorithm for computer display of curved surfaces</i></a> <span style="font-size:85%;">(PDF)</span> (PhD thesis). University of Utah.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=E.&amp;rft.aulast=Catmull&amp;rft.date=1974&amp;rft.degree=PhD&amp;rft_id=http%3A%2F%2Fwww.pixartouchbook.com%2Fstorage%2Fcatmull_thesis.pdf&amp;rft.inst=University+of+Utah&amp;rft.title=A+subdivision+algorithm+for+computer+display+of+curved+surfaces&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a class="mw-redirect" href="/wiki/James_F._Blinn" title="James F. Blinn">Blinn, J.F.</a>; <a class="mw-redirect" href="/wiki/M._E._Newell" title="M. E. Newell">Newell, M.E.</a> (1976). "Texture and reflection in computer generated images". <i>Communications of the ACM</i>. <b>19</b>: 542–546. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F360349.360353" rel="nofollow">10.1145/360349.360353</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.87.8903" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.87<wbr></wbr>.8903</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Texture+and+reflection+in+computer+generated+images&amp;rft.aufirst=J.F.&amp;rft.aulast=Blinn&amp;rft.au=Newell%2C+M.E.&amp;rft.date=1976&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F360349.360353&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=542-546&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=19"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.arcade-museum.com/game_detail.php?game_id=12797" rel="nofollow">http://www.arcade-museum.com/game_detail.php?game_id=12797</a></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Franklin_C._Crow" title="Franklin C. Crow">Crow, F.C.</a> (1977). <a class="external text" href="http://design.osu.edu/carlson/history/PDFs/crow-shadows.pdf" rel="nofollow">"Shadow algorithms for computer graphics"</a> <span style="font-size:85%;">(PDF)</span>. <i>Computer Graphics (Proceedings of SIGGRAPH 1977)</i>. pp. 242–248.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Shadow+algorithms+for+computer+graphics&amp;rft.aufirst=F.C.&amp;rft.aulast=Crow&amp;rft.btitle=Computer+Graphics+%28Proceedings+of+SIGGRAPH+1977%29&amp;rft.date=1977&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fdesign.osu.edu%2Fcarlson%2Fhistory%2FPDFs%2Fcrow-shadows.pdf&amp;rft.pages=242-248&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Lance_Williams_(graphics_researcher)" title="Lance Williams (graphics researcher)">Williams, L.</a> (1978). "Casting curved shadows on curved surfaces". <i>Computer Graphics (Proceedings of SIGGRAPH 1978)</i>. pp. 270–274. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.134.8225" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.134<wbr></wbr>.8225</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Casting+curved+shadows+on+curved+surfaces&amp;rft.aufirst=L.&amp;rft.aulast=Williams&amp;rft.btitle=Computer+Graphics+%28Proceedings+of+SIGGRAPH+1978%29&amp;rft.date=1978&amp;rft.genre=conference&amp;rft.pages=270-274&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="mw-redirect" href="/wiki/James_F._Blinn" title="James F. Blinn">Blinn, J.F.</a> (1978). <a class="external text" href="http://research.microsoft.com/pubs/73939/p286-blinn.pdf" rel="nofollow"><i>Simulation of wrinkled surfaces</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 1978). pp. 286–292.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=J.F.&amp;rft.aulast=Blinn&amp;rft.btitle=Simulation+of+wrinkled+surfaces&amp;rft.date=1978&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F73939%2Fp286-blinn.pdf&amp;rft.pages=286-292&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a class="external free" href="https://books.google.com/books?id=oK3D4i5ldKgC&amp;pg=PA173" rel="nofollow">https://books.google.com/books?id=oK3D4i5ldKgC&amp;pg=PA173</a></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Henry_Fuchs" title="Henry Fuchs">Fuchs, H.</a>; <a class="new" href="/w/index.php?title=Zvi_M._Kedem&amp;action=edit&amp;redlink=1" title="Zvi M. Kedem (page does not exist)">Kedem, Z.M.</a>; <a class="new" href="/w/index.php?title=Bruce_F._Naylor&amp;action=edit&amp;redlink=1" title="Bruce F. Naylor (page does not exist)">Naylor, B.F.</a> (1980). <i>On visible surface generation by a priori tree structures</i>. Computer Graphics (Proceedings of SIGGRAPH 1980). pp. 124–133. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.112.4406" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.112<wbr></wbr>.4406</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=H.&amp;rft.au=Kedem%2C+Z.M.&amp;rft.aulast=Fuchs&amp;rft.au=Naylor%2C+B.F.&amp;rft.btitle=On+visible+surface+generation+by+a+priori+tree+structures&amp;rft.date=1980&amp;rft.genre=conference&amp;rft.pages=124-133&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a class="mw-redirect" href="/wiki/Turner_Whitted" title="Turner Whitted">Whitted, T.</a> (1980). "An improved illumination model for shaded display". <i>Communications of the ACM</i>. <b>23</b> (6): 343–349. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F358876.358882" rel="nofollow">10.1145/358876.358882</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.114.7629" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.114<wbr></wbr>.7629</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=An+improved+illumination+model+for+shaded+display&amp;rft.aufirst=T.&amp;rft.aulast=Whitted&amp;rft.date=1980&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F358876.358882&amp;rft.issue=6&amp;rft.jtitle=Communications+of+the+ACM&amp;rft.pages=343-349&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=23"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a class="external free" href="https://books.google.com/books?id=lB4PAwAAQBAJ&amp;pg=PA181" rel="nofollow">https://books.google.com/books?id=lB4PAwAAQBAJ&amp;pg=PA181</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.system16.com/hardware.php?id=690" rel="nofollow">http://www.system16.com/hardware.php?id=690</a></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Robert_L._Cook" title="Robert L. Cook">Cook, R.L.</a>; <a class="new" href="/w/index.php?title=Kenneth_E._Torrance&amp;action=edit&amp;redlink=1" title="Kenneth E. Torrance (page does not exist)">Torrance, K.E.</a> (1981). <i>A reflectance model for computer graphics</i>. Computer Graphics (Proceedings of SIGGRAPH 1981). pp. 307–316. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.7796" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.88<wbr></wbr>.7796</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=R.L.&amp;rft.aulast=Cook&amp;rft.au=Torrance%2C+K.E.&amp;rft.btitle=A+reflectance+model+for+computer+graphics&amp;rft.date=1981&amp;rft.genre=conference&amp;rft.pages=307-316&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Lance_Williams_(graphics_researcher)" title="Lance Williams (graphics researcher)">Williams, L.</a> (1983). <i>Pyramidal parametrics</i>. Computer Graphics (Proceedings of SIGGRAPH 1983). pp. 1–11. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.163.6298" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.163<wbr></wbr>.6298</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=L.&amp;rft.aulast=Williams&amp;rft.btitle=Pyramidal+parametrics&amp;rft.date=1983&amp;rft.genre=conference&amp;rft.pages=1-11&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Andrew_Glassner" title="Andrew Glassner">Glassner, A.S.</a> (1984). "Space subdivision for fast ray tracing". <i>IEEE Computer Graphics &amp; Applications</i>. <b>4</b> (10): 15–22. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2Fmcg.1984.6429331" rel="nofollow">10.1109/mcg.1984.6429331</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Space+subdivision+for+fast+ray+tracing&amp;rft.aufirst=A.S.&amp;rft.aulast=Glassner&amp;rft.date=1984&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2Fmcg.1984.6429331&amp;rft.issue=10&amp;rft.jtitle=IEEE+Computer+Graphics+%26+Applications&amp;rft.pages=15-22&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=4"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><cite class="citation conference">Porter, T.; <a href="/wiki/Tom_Duff" title="Tom Duff">Duff, T.</a> (1984). <a class="external text" href="http://keithp.com/~keithp/porterduff/p253-porter.pdf" rel="nofollow"><i>Compositing digital images</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 1984). pp. 253–259.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Duff%2C+T.&amp;rft.aufirst=T.&amp;rft.aulast=Porter&amp;rft.btitle=Compositing+digital+images&amp;rft.date=1984&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fkeithp.com%2F~keithp%2Fporterduff%2Fp253-porter.pdf&amp;rft.pages=253-259&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Robert_L._Cook" title="Robert L. Cook">Cook, R.L.</a>; Porter, T.; <a href="/wiki/Loren_Carpenter" title="Loren Carpenter">Carpenter, L.</a> (1984). <a class="external text" href="http://www.cs.rutgers.edu/~nealen/teaching/cs428_fall09/readings/cook84.pdf" rel="nofollow"><i>Distributed ray tracing</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 1984). pp. 137–145.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Carpenter%2C+L.&amp;rft.aufirst=R.L.&amp;rft.aulast=Cook&amp;rft.au=Porter%2C+T.&amp;rft.btitle=Distributed+ray+tracing&amp;rft.date=1984&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.cs.rutgers.edu%2F~nealen%2Fteaching%2Fcs428_fall09%2Freadings%2Fcook84.pdf&amp;rft.pages=137-145&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Cindy_M._Goral&amp;action=edit&amp;redlink=1" title="Cindy M. Goral (page does not exist)">Goral, C.</a>; <a class="new" href="/w/index.php?title=Kenneth_E._Torrance&amp;action=edit&amp;redlink=1" title="Kenneth E. Torrance (page does not exist)">Torrance, K.E.</a>; <a href="/wiki/Donald_P._Greenberg" title="Donald P. Greenberg">Greenberg, D.P.</a>; <a class="new" href="/w/index.php?title=Bennett_Battaile&amp;action=edit&amp;redlink=1" title="Bennett Battaile (page does not exist)">Battaile, B.</a> (1984). <i>Modeling the interaction of light between diffuse surfaces</i>. Computer Graphics (Proceedings of SIGGRAPH 1984). pp. 213–222. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.112.356" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.112<wbr></wbr>.356</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Battaile%2C+B.&amp;rft.aufirst=C.&amp;rft.au=Greenberg%2C+D.P.&amp;rft.aulast=Goral&amp;rft.au=Torrance%2C+K.E.&amp;rft.btitle=Modeling+the+interaction+of+light+between+diffuse+surfaces&amp;rft.date=1984&amp;rft.genre=conference&amp;rft.pages=213-222&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><a class="external free" href="http://cgfm2.emuviews.com/txt/s16tech.txt" rel="nofollow">http://cgfm2.emuviews.com/txt/s16tech.txt</a></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Michael_F._Cohen&amp;action=edit&amp;redlink=1" title="Michael F. Cohen (page does not exist)">Cohen, M.F.</a>; <a href="/wiki/Donald_P._Greenberg" title="Donald P. Greenberg">Greenberg, D.P.</a> (1985). <a class="external text" href="http://www.arnetminer.org/dev.do?m=downloadpdf&amp;url=http://arnetminer.org/pdf/PDFFiles2/--g---g-Index1255026826706/The%20hemi-cube%20%20a%20radiosity%20solution%20for%20complex%20environments1255058011060.pdf" rel="nofollow"><i>The hemi-cube: a radiosity solution for complex environments</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 1985). pp. 31–40. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F325165.325171" rel="nofollow">10.1145/325165.325171</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=M.F.&amp;rft.au=Greenberg%2C+D.P.&amp;rft.aulast=Cohen&amp;rft.btitle=The+hemi-cube%3A+a+radiosity+solution+for+complex+environments&amp;rft.date=1985&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.arnetminer.org%2Fdev.do%3Fm%3Ddownloadpdf%26url%3Dhttp%3A%2F%2Farnetminer.org%2Fpdf%2FPDFFiles2%2F--g---g-Index1255026826706%2FThe%2520hemi-cube%2520%2520a%2520radiosity%2520solution%2520for%2520complex%2520environments1255058011060.pdf&amp;rft_id=info%3Adoi%2F10.1145%2F325165.325171&amp;rft.pages=31-40&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=James_Arvo&amp;action=edit&amp;redlink=1" title="James Arvo (page does not exist)">Arvo, J.</a> (1986). <i>Backward ray tracing</i>. SIGGRAPH 1986 Developments in Ray Tracing course notes. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.581" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.31<wbr></wbr>.581</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=J.&amp;rft.aulast=Arvo&amp;rft.btitle=Backward+ray+tracing&amp;rft.date=1986&amp;rft.genre=conference&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Jim_Kajiya" title="Jim Kajiya">Kajiya, J.</a> (1986). <i>The rendering equation</i>. Computer Graphics (Proceedings of SIGGRAPH 1986). pp. 143–150. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.63.1402" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.63<wbr></wbr>.1402</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=J.&amp;rft.aulast=Kajiya&amp;rft.btitle=The+rendering+equation&amp;rft.date=1986&amp;rft.genre=conference&amp;rft.pages=143-150&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Robert_L._Cook" title="Robert L. Cook">Cook, R.L.</a>; <a href="/wiki/Loren_Carpenter" title="Loren Carpenter">Carpenter, L.</a>; <a href="/wiki/Edwin_Catmull" title="Edwin Catmull">Catmull, E.</a> (1987). <a class="external text" href="http://graphics.pixar.com/library/Reyes/paper.pdf" rel="nofollow"><i>The Reyes image rendering architecture</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 1987). pp. 95–102.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Carpenter%2C+L.&amp;rft.au=Catmull%2C+E.&amp;rft.aufirst=R.L.&amp;rft.aulast=Cook&amp;rft.btitle=The+Reyes+image+rendering+architecture&amp;rft.date=1987&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fgraphics.pixar.com%2Flibrary%2FReyes%2Fpaper.pdf&amp;rft.pages=95-102&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-s21-32"><span class="mw-cite-backlink">^ <a href="#cite_ref-s21_32-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-s21_32-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-s21_32-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a class="external free" href="http://mamedev.org/source/src/mame/drivers/namcos21.c.html" rel="nofollow">http://mamedev.org/source/src/mame/drivers/namcos21.c.html</a></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><cite class="citation journal">Wu, Xiaolin (July 1991). <a class="external text" href="http://portal.acm.org/citation.cfm?id=122734" rel="nofollow">"An efficient antialiasing technique"</a>. <i><a class="mw-redirect" href="/wiki/Computer_Graphics" title="Computer Graphics">Computer Graphics</a></i>. <b>25</b> (4): 143–152. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F127719.122734" rel="nofollow">10.1145/127719.122734</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-89791-436-8" title="Special:BookSources/0-89791-436-8">0-89791-436-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=An+efficient+antialiasing+technique&amp;rft.au=Wu%2C+Xiaolin&amp;rft.date=1991-07&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fportal.acm.org%2Fcitation.cfm%3Fid%3D122734&amp;rft_id=info%3Adoi%2F10.1145%2F127719.122734&amp;rft.isbn=0-89791-436-8&amp;rft.issue=4&amp;rft.jtitle=Computer+Graphics&amp;rft.pages=143-152&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=25"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><cite class="citation book">Wu, Xiaolin (1991). "Fast Anti-Aliased Circle Generation". In James Arvo (Ed.). <i>Graphics Gems II</i>. San Francisco: Morgan Kaufmann. pp. 446–450. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-12-064480-0" title="Special:BookSources/0-12-064480-0">0-12-064480-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Fast+Anti-Aliased+Circle+Generation&amp;rft.au=Wu%2C+Xiaolin&amp;rft.btitle=Graphics+Gems+II&amp;rft.date=1991&amp;rft.genre=bookitem&amp;rft.isbn=0-12-064480-0&amp;rft.pages=446-450&amp;rft.place=San+Francisco&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Pat_Hanrahan" title="Pat Hanrahan">Hanrahan, P.</a>; <a class="new" href="/w/index.php?title=David_Salzman&amp;action=edit&amp;redlink=1" title="David Salzman (page does not exist)">Salzman, D.</a>; <a class="new" href="/w/index.php?title=Larry_Aupperle&amp;action=edit&amp;redlink=1" title="Larry Aupperle (page does not exist)">Aupperle, L.</a> (1991). <i>A rapid hierarchical radiosity algorithm</i>. Computer Graphics (Proceedings of SIGGRAPH 1991). pp. 197–206. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.5694" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.93<wbr></wbr>.5694</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Aupperle%2C+L.&amp;rft.aufirst=P.&amp;rft.aulast=Hanrahan&amp;rft.au=Salzman%2C+D.&amp;rft.btitle=A+rapid+hierarchical+radiosity+algorithm&amp;rft.date=1991&amp;rft.genre=conference&amp;rft.pages=197-206&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><a class="external free" href="http://ign.com/articles/2009/04/21/ign-presents-the-history-of-sega?page=8" rel="nofollow">http://ign.com/articles/2009/04/21/ign-presents-the-history-of-sega?page=8</a></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.system16.com/hardware.php?id=713" rel="nofollow">http://www.system16.com/hardware.php?id=713</a></span></li>
+<li id="cite_note-magic-38"><span class="mw-cite-backlink">^ <a href="#cite_ref-magic_38-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-magic_38-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-magic_38-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-magic_38-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><a class="external free" href="http://www.system16.com/hardware.php?id=832" rel="nofollow">http://www.system16.com/hardware.php?id=832</a></span></li>
+<li id="cite_note-oren-nayar-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-oren-nayar_39-0">^</a></b></span> <span class="reference-text">M. Oren and S.K. Nayar, "<a class="external text" href="http://www1.cs.columbia.edu/CAVE/publications/pdfs/Oren_SIGGRAPH94.pdf" rel="nofollow">Generalization of Lambert's Reflectance Model</a>". SIGGRAPH. pp.239-246, Jul, 1994</span></li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a class="new" href="/w/index.php?title=Jack_Tumblin&amp;action=edit&amp;redlink=1" title="Jack Tumblin (page does not exist)">Tumblin, J.</a>; <a href="/wiki/Holly_Rushmeier" title="Holly Rushmeier">Rushmeier, H.E.</a> (1993). <a class="external text" href="http://smartech.gatech.edu/bitstream/handle/1853/3686/92-31.pdf?sequence=1" rel="nofollow">"Tone reproduction for realistic computer generated images"</a> <span style="font-size:85%;">(PDF)</span>. <i>IEEE Computer Graphics &amp; Applications</i>. <b>13</b> (6): 42–48. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2F38.252554" rel="nofollow">10.1109/38.252554</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Tone+reproduction+for+realistic+computer+generated+images&amp;rft.aufirst=J.&amp;rft.aulast=Tumblin&amp;rft.au=Rushmeier%2C+H.E.&amp;rft.date=1993&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fsmartech.gatech.edu%2Fbitstream%2Fhandle%2F1853%2F3686%2F92-31.pdf%3Fsequence%3D1&amp;rft_id=info%3Adoi%2F10.1109%2F38.252554&amp;rft.issue=6&amp;rft.jtitle=IEEE+Computer+Graphics+%26+Applications&amp;rft.pages=42-48&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=13"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Pat_Hanrahan" title="Pat Hanrahan">Hanrahan, P.</a>; <a class="new" href="/w/index.php?title=Wolfgang_Krueger&amp;action=edit&amp;redlink=1" title="Wolfgang Krueger (page does not exist)">Krueger, W.</a> (1993). <i>Reflection from layered surfaces due to subsurface scattering</i>. Computer Graphics (Proceedings of SIGGRAPH 1993). pp. 165–174. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.9761" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.57<wbr></wbr>.9761</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=P.&amp;rft.au=Krueger%2C+W.&amp;rft.aulast=Hanrahan&amp;rft.btitle=Reflection+from+layered+surfaces+due+to+subsurface+scattering&amp;rft.date=1993&amp;rft.genre=conference&amp;rft.pages=165-174&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.extentofthejam.com/pseudo/" rel="nofollow">http://www.extentofthejam.com/pseudo/</a></span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.hotchips.org/wp-content/uploads/hc_archives/hc07/3_Tue/HC7.S5/HC7.5.1.pdf" rel="nofollow">http://www.hotchips.org/wp-content/uploads/hc_archives/hc07/3_Tue/HC7.S5/HC7.5.1.pdf</a></span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a href="/wiki/Henrik_Wann_Jensen" title="Henrik Wann Jensen">Jensen, H.W.</a>; <a class="new" href="/w/index.php?title=Niels_J%C3%B8rgen_Christensen&amp;action=edit&amp;redlink=1" title="Niels Jørgen Christensen (page does not exist)">Christensen, N.J.</a> (1995). "Photon maps in bidirectional monte carlo ray tracing of complex objects". <i>Computers &amp; Graphics</i>. <b>19</b> (2): 215–224. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2F0097-8493%2894%2900145-o" rel="nofollow">10.1016/0097-8493(94)00145-o</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.97.2724" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.97<wbr></wbr>.2724</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=Photon+maps+in+bidirectional+monte+carlo+ray+tracing+of+complex+objects&amp;rft.au=Christensen%2C+N.J.&amp;rft.aufirst=H.W.&amp;rft.aulast=Jensen&amp;rft.date=1995&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2F0097-8493%2894%2900145-o&amp;rft.issue=2&amp;rft.jtitle=Computers+%26+Graphics&amp;rft.pages=215-224&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=19"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.system16.com/hardware.php?id=717" rel="nofollow">http://www.system16.com/hardware.php?id=717</a></span></li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Eric_Veach&amp;action=edit&amp;redlink=1" title="Eric Veach (page does not exist)">Veach, E.</a>; <a href="/wiki/Leonidas_J._Guibas" title="Leonidas J. Guibas">Guibas, L.</a> (1997). <i>Metropolis light transport</i>. Computer Graphics (Proceedings of SIGGRAPH 1997). pp. 65–76. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.944" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.88<wbr></wbr>.944</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=E.&amp;rft.au=Guibas%2C+L.&amp;rft.aulast=Veach&amp;rft.btitle=Metropolis+light+transport&amp;rft.date=1997&amp;rft.genre=conference&amp;rft.pages=65-76&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-47">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Alex_Keller&amp;action=edit&amp;redlink=1" title="Alex Keller (page does not exist)">Keller, A.</a> (1997). <i>Instant Radiosity</i>. Computer Graphics (Proceedings of SIGGRAPH 1997). pp. 49–56. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.240" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.15<wbr></wbr>.240</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=A.&amp;rft.aulast=Keller&amp;rft.btitle=Instant+Radiosity&amp;rft.date=1997&amp;rft.genre=conference&amp;rft.pages=49-56&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><a class="external free" href="http://web.archive.org/web/20070811102018/http://www3.sharkyextreme.com/hardware/reviews/video/neon250/2.shtml" rel="nofollow">http://web.archive.org/web/20070811102018/http://www3.sharkyextreme.com/hardware/reviews/video/neon250/2.shtml</a></span></li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a class="new" href="/w/index.php?title=Peter_Pike_Sloan&amp;action=edit&amp;redlink=1" title="Peter Pike Sloan (page does not exist)">Sloan, P.</a>; <a class="new" href="/w/index.php?title=Jan_Kautz&amp;action=edit&amp;redlink=1" title="Jan Kautz (page does not exist)">Kautz, J.</a>; <a class="new" href="/w/index.php?title=John_Snyder_(computer_scientist)&amp;action=edit&amp;redlink=1" title="John Snyder (computer scientist) (page does not exist)">Snyder, J.</a> (2002). <a class="external text" href="http://www.mpi-inf.mpg.de/~jnkautz/projects/prt/prtSIG02.pdf" rel="nofollow"><i>Precomputed Radiance Transfer for Real-Time Rendering in Dynamic, Low Frequency Lighting Environments</i></a> <span style="font-size:85%;">(PDF)</span>. Computer Graphics (Proceedings of SIGGRAPH 2002). pp. 527–536.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=P.&amp;rft.au=Kautz%2C+J.&amp;rft.aulast=Sloan&amp;rft.au=Snyder%2C+J.&amp;rft.btitle=Precomputed+Radiance+Transfer+for+Real-Time+Rendering+in+Dynamic%2C+Low+Frequency+Lighting+Environments&amp;rft.date=2002&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.mpi-inf.mpg.de%2F~jnkautz%2Fprojects%2Fprt%2FprtSIG02.pdf&amp;rft.pages=527-536&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=20" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="refbegin" style="">
+<ul>
+<li><cite class="citation book">Pharr, Matt; Humphreys, Greg (2004). <i>Physically based rendering from theory to implementation</i>. Amsterdam: Elsevier/Morgan Kaufmann. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-12-553180-X" title="Special:BookSources/0-12-553180-X">0-12-553180-X</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Matt&amp;rft.au=Humphreys%2C+Greg&amp;rft.aulast=Pharr&amp;rft.btitle=Physically+based+rendering+from+theory+to+implementation&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-12-553180-X&amp;rft.place=Amsterdam&amp;rft.pub=Elsevier%2FMorgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Shirley, Peter; Morley, R. Keith (2003). <i>Realistic ray tracing</i> (2 ed.). Natick, Mass.: AK Peters. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-56881-198-5" title="Special:BookSources/1-56881-198-5">1-56881-198-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Peter&amp;rft.aulast=Shirley&amp;rft.au=Morley%2C+R.+Keith&amp;rft.btitle=Realistic+ray+tracing&amp;rft.date=2003&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=1-56881-198-5&amp;rft.place=Natick%2C+Mass.&amp;rft.pub=AK+Peters&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Dutré, Philip; Bekaert, Philippe; Bala, Kavita (2003). <i>Advanced global illumination</i> ([Online-Ausg.] ed.). Natick, Mass.: A K Peters. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-56881-177-2" title="Special:BookSources/1-56881-177-2">1-56881-177-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Bala%2C+Kavita&amp;rft.au=Bekaert%2C+Philippe&amp;rft.aufirst=Philip&amp;rft.aulast=Dutr%C3%A9&amp;rft.btitle=Advanced+global+illumination&amp;rft.date=2003&amp;rft.edition=%5BOnline-Ausg.%5D&amp;rft.genre=book&amp;rft.isbn=1-56881-177-2&amp;rft.place=Natick%2C+Mass.&amp;rft.pub=A+K+Peters&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Akenine-Möller, Tomas; Haines, Eric (2004). <i>Real-time rendering</i> (2 ed.). Natick, Mass.: AK Peters. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-56881-182-9" title="Special:BookSources/1-56881-182-9">1-56881-182-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Tomas&amp;rft.au=Haines%2C+Eric&amp;rft.aulast=Akenine-M%C3%B6ller&amp;rft.btitle=Real-time+rendering&amp;rft.date=2004&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=1-56881-182-9&amp;rft.place=Natick%2C+Mass.&amp;rft.pub=AK+Peters&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Strothotte, Thomas; Schlechtweg, Stefan (2002). <i>Non-photorealistic computer graphics modeling, rendering, and animation</i> (2 ed.). San Francisco, CA: Morgan Kaufmann. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-55860-787-0" title="Special:BookSources/1-55860-787-0">1-55860-787-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Thomas&amp;rft.aulast=Strothotte&amp;rft.au=Schlechtweg%2C+Stefan&amp;rft.btitle=Non-photorealistic+computer+graphics+modeling%2C+rendering%2C+and+animation&amp;rft.date=2002&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=1-55860-787-0&amp;rft.place=San+Francisco%2C+CA&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Gooch, Bruce; Gooch, Amy (2001). <i>Non-photorealistic rendering</i>. Natick, Mass.: A K Peters. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-56881-133-0" title="Special:BookSources/1-56881-133-0">1-56881-133-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Bruce&amp;rft.au=Gooch%2C+Amy&amp;rft.aulast=Gooch&amp;rft.btitle=Non-photorealistic+rendering&amp;rft.date=2001&amp;rft.genre=book&amp;rft.isbn=1-56881-133-0&amp;rft.place=Natick%2C+Mass.&amp;rft.pub=A+K+Peters&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Jensen, Henrik Wann (2001). <i>Realistic image synthesis using photon mapping</i> ([Nachdr.] ed.). Natick, Mass.: AK Peters. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-56881-147-0" title="Special:BookSources/1-56881-147-0">1-56881-147-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Henrik+Wann&amp;rft.aulast=Jensen&amp;rft.btitle=Realistic+image+synthesis+using+photon+mapping&amp;rft.date=2001&amp;rft.edition=%5BNachdr.%5D&amp;rft.genre=book&amp;rft.isbn=1-56881-147-0&amp;rft.place=Natick%2C+Mass.&amp;rft.pub=AK+Peters&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Blinn, Jim (1996). <i>Jim Blinn's corner : a trip down the graphics pipeline</i>. San Francisco, Calif.: Morgan Kaufmann Publishers. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-55860-387-5" title="Special:BookSources/1-55860-387-5">1-55860-387-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Jim&amp;rft.aulast=Blinn&amp;rft.btitle=Jim+Blinn%27s+corner+%3A+a+trip+down+the+graphics+pipeline&amp;rft.date=1996&amp;rft.genre=book&amp;rft.isbn=1-55860-387-5&amp;rft.place=San+Francisco%2C+Calif.&amp;rft.pub=Morgan+Kaufmann+Publishers&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book"><a href="/wiki/Andrew_Glassner" title="Andrew Glassner">Glassner, Andrew S.</a> (2004). <i>Principles of digital image synthesis</i> (2 ed.). San Francisco, Calif.: Kaufmann. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-55860-276-3" title="Special:BookSources/1-55860-276-3">1-55860-276-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Andrew+S.&amp;rft.aulast=Glassner&amp;rft.btitle=Principles+of+digital+image+synthesis&amp;rft.date=2004&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=1-55860-276-3&amp;rft.place=San+Francisco%2C+Calif.&amp;rft.pub=Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Cohen, Michael F.; Wallace, John R. (1998). <i>Radiosity and realistic image synthesis</i> (3 ed.). Boston, Mass. [u.a.]: Academic Press Professional. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-12-178270-0" title="Special:BookSources/0-12-178270-0">0-12-178270-0</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.aufirst=Michael+F.&amp;rft.aulast=Cohen&amp;rft.au=Wallace%2C+John+R.&amp;rft.btitle=Radiosity+and+realistic+image+synthesis&amp;rft.date=1998&amp;rft.edition=3&amp;rft.genre=book&amp;rft.isbn=0-12-178270-0&amp;rft.place=Boston%2C+Mass.+%5Bu.a.%5D&amp;rft.pub=Academic+Press+Professional&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Foley, James D.; Van Dam; Feiner; Hughes (1990). <i>Computer graphics : principles and practice</i> (2 ed.). Reading, Mass.: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-12110-7" title="Special:BookSources/0-201-12110-7">0-201-12110-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.au=Feiner&amp;rft.aufirst=James+D.&amp;rft.au=Hughes&amp;rft.aulast=Foley&amp;rft.au=Van+Dam&amp;rft.btitle=Computer+graphics+%3A+principles+and+practice&amp;rft.date=1990&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=0-201-12110-7&amp;rft.place=Reading%2C+Mass.&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Andrew S. Glassner, ed. (1989). <i>An introduction to ray tracing</i> (3 ed.). London [u.a.]: Acad. Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-12-286160-4" title="Special:BookSources/0-12-286160-4">0-12-286160-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.btitle=An+introduction+to+ray+tracing&amp;rft.date=1989&amp;rft.edition=3&amp;rft.genre=book&amp;rft.isbn=0-12-286160-4&amp;rft.place=London+%5Bu.a.%5D&amp;rft.pub=Acad.+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation journal">Ward, Gregory J. (July 1994). <a class="external text" href="http://radsite.lbl.gov/radiance/papers/sg94.1/" rel="nofollow">"The RADIANCE Lighting Simulation and Rendering System"</a>. <i>SIGGRAPH 94</i>: 459–72.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARendering+%28computer+graphics%29&amp;rft.atitle=The+RADIANCE+Lighting+Simulation+and+Rendering+System&amp;rft.aufirst=Gregory+J.&amp;rft.aulast=Ward&amp;rft.date=1994-07&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fradsite.lbl.gov%2Fradiance%2Fpapers%2Fsg94.1%2F&amp;rft.jtitle=SIGGRAPH+94&amp;rft.pages=459-72&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit&amp;section=21" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wiktionary-logo-v2.svg"><img alt="" class="noviewer" data-file-height="391" data-file-width="391" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/80px-Wiktionary-logo-v2.svg.png 2x" width="40"/></a></td>
+<td class="mbox-text plainlist">Look up <i><b><a class="extiw" href="https://en.wiktionary.org/wiki/renderer" title="wiktionary:renderer">renderer</a></b></i> in Wiktionary, the free dictionary.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://www.gpurendering.com" rel="nofollow">GPU Rendering Magazine</a> Online CGI magazine about advantages of GPU rendering</li>
+<li><a class="external text" href="http://www.siggraph.org/" rel="nofollow">SIGGRAPH</a> The ACMs special interest group in graphics — the largest academic and professional association and conference.</li>
+<li><a class="external free" href="http://www.cs.brown.edu/~tor/" rel="nofollow">http://www.cs.brown.edu/~tor/</a> List of links to (recent) siggraph papers (and some others) on the web.</li>
+<li><a class="external free" href="http://www.3dmlstudio.com" rel="nofollow">http://www.3dmlstudio.com</a></li>
+<li><a class="external free" href="http://www.wegroups.eu" rel="nofollow">http://www.wegroups.eu</a></li>
+</ul>
+<div aria-labelledby="Visualization_of_technical_information" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Visualization" title="Template:Visualization"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Visualization" title="Template talk:Visualization"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Visualization&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Visualization_of_technical_information" style="font-size:114%"><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a> of technical information</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Biological_data_visualization" title="Biological data visualization">Biological data visualization</a></li>
+<li><a href="/wiki/Chemical_imaging" title="Chemical imaging">Chemical imaging</a></li>
+<li><a href="/wiki/Crime_mapping" title="Crime mapping">Crime mapping</a></li>
+<li><a href="/wiki/Data_visualization" title="Data visualization">Data visualization</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Educational visualization</a></li>
+<li><a href="/wiki/Flow_visualization" title="Flow visualization">Flow visualization</a></li>
+<li><a href="/wiki/Geovisualization" title="Geovisualization">Geovisualization</a></li>
+<li><a href="/wiki/Information_visualization" title="Information visualization">Information visualization</a></li>
+<li><a href="/wiki/Mathematical_diagram" title="Mathematical diagram">Mathematical visualization</a></li>
+<li><a href="/wiki/Medical_imaging" title="Medical imaging">Medical imaging</a></li>
+<li><a href="/wiki/Molecular_graphics" title="Molecular graphics">Molecular graphics</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Product visualization</a></li>
+<li><a href="/wiki/Scientific_visualization" title="Scientific visualization">Scientific visualization</a></li>
+<li><a href="/wiki/Software_visualization" title="Software visualization">Software visualization</a></li>
+<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li>
+<li><a href="/wiki/User_interface_design" title="User interface design">User interface design</a></li>
+<li><a href="/wiki/Visual_culture" title="Visual culture">Visual culture</a></li>
+<li><a href="/wiki/Volume_rendering" title="Volume rendering">Volume visualization</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Image types</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chart" title="Chart">Chart</a></li>
+<li><a href="/wiki/Diagram" title="Diagram">Diagram</a></li>
+<li><a href="/wiki/Engineering_drawing" title="Engineering drawing">Engineering drawing</a></li>
+<li><a href="/wiki/Graph_of_a_function" title="Graph of a function">Graph of a function</a></li>
+<li><a href="/wiki/Ideogram" title="Ideogram">Ideogram</a></li>
+<li><a href="/wiki/Map" title="Map">Map</a></li>
+<li><a href="/wiki/Photograph" title="Photograph">Photograph</a></li>
+<li><a href="/wiki/Pictogram" title="Pictogram">Pictogram</a></li>
+<li><a href="/wiki/Plot_(graphics)" title="Plot (graphics)">Plot</a></li>
+<li><a href="/wiki/Schematic" title="Schematic">Schematic</a></li>
+<li><a href="/wiki/Statistical_graphics" title="Statistical graphics">Statistical graphics</a></li>
+<li><a href="/wiki/Table_(information)" title="Table (information)">Table</a></li>
+<li><a href="/wiki/Technical_drawing#Technical_drawings_.28the_document.29" title="Technical drawing">Technical drawings</a></li>
+<li><a href="/wiki/Technical_illustration" title="Technical illustration">Technical illustration</a></li>
+<li><a href="/wiki/User_interface" title="User interface">User interface</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Jacques_Bertin" title="Jacques Bertin">Jacques Bertin</a></li>
+<li><a href="/wiki/Stuart_Card" title="Stuart Card">Stuart Card</a></li>
+<li><a href="/wiki/Thomas_A._DeFanti" title="Thomas A. DeFanti">Thomas A. DeFanti</a></li>
+<li><a href="/wiki/Michael_Friendly" title="Michael Friendly">Michael Friendly</a></li>
+<li><a href="/wiki/George_Furnas" title="George Furnas">George Furnas</a></li>
+<li><a href="/wiki/Nigel_Holmes" title="Nigel Holmes">Nigel Holmes</a></li>
+<li><a href="/wiki/Alan_MacEachren" title="Alan MacEachren">Alan MacEachren</a></li>
+<li><a href="/wiki/Jock_D._Mackinlay" title="Jock D. Mackinlay">Jock D. Mackinlay</a></li>
+<li><a href="/wiki/Michael_Maltz" title="Michael Maltz">Michael Maltz</a></li>
+<li><a href="/wiki/Bruce_H._McCormick" title="Bruce H. McCormick">Bruce H. McCormick</a></li>
+<li><a href="/wiki/Charles_Joseph_Minard" title="Charles Joseph Minard">Charles Joseph Minard</a></li>
+<li><a href="/wiki/Gaspard_Monge" title="Gaspard Monge">Gaspard Monge</a></li>
+<li><a href="/wiki/Otto_Neurath" title="Otto Neurath">Otto Neurath</a></li>
+<li><a href="/wiki/Florence_Nightingale" title="Florence Nightingale">Florence Nightingale</a></li>
+<li><a href="/wiki/Clifford_A._Pickover" title="Clifford A. Pickover">Clifford A. Pickover</a></li>
+<li><a href="/wiki/William_Playfair" title="William Playfair">William Playfair</a></li>
+<li><a href="/wiki/Adolphe_Quetelet" title="Adolphe Quetelet">Adolphe Quetelet</a></li>
+<li><a href="/wiki/George_G._Robertson" title="George G. Robertson">George G. Robertson</a></li>
+<li><a href="/wiki/Arthur_H._Robinson" title="Arthur H. Robinson">Arthur H. Robinson</a></li>
+<li><a href="/wiki/Lawrence_J._Rosenblum" title="Lawrence J. Rosenblum">Lawrence J. Rosenblum</a></li>
+<li><a href="/wiki/Ben_Shneiderman" title="Ben Shneiderman">Ben Shneiderman</a></li>
+<li><a href="/wiki/Edward_Tufte" title="Edward Tufte">Edward Tufte</a></li>
+<li><a href="/wiki/Fernanda_Vi%C3%A9gas" title="Fernanda Viégas">Fernanda Viégas</a></li>
+<li><a href="/wiki/Howard_Wainer" title="Howard Wainer">Howard Wainer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related topics</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Cartography" title="Cartography">Cartography</a></li>
+<li><a href="/wiki/Chartjunk" title="Chartjunk">Chartjunk</a></li>
+<li><a href="/wiki/Computer_graphics" title="Computer graphics">Computer graphics</a>
+<ul>
+<li><a href="/wiki/Computer_graphics_(computer_science)" title="Computer graphics (computer science)">in computer science</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Graph_drawing" title="Graph drawing">Graph drawing</a></li>
+<li><a href="/wiki/Graphic_design" title="Graphic design">Graphic design</a></li>
+<li><a href="/wiki/Graphic_organizer" title="Graphic organizer">Graphic organizer</a></li>
+<li><a href="/wiki/Imaging_science" title="Imaging science">Imaging science</a></li>
+<li><a href="/wiki/Infographic" title="Infographic">Information graphics</a></li>
+<li><a href="/wiki/Information_science" title="Information science">Information science</a></li>
+<li><a href="/wiki/Mental_image" title="Mental image">Mental visualisation</a></li>
+<li><a href="/wiki/Misleading_graph" title="Misleading graph">Misleading graph</a></li>
+<li><a href="/wiki/Neuroimaging" title="Neuroimaging">Neuroimaging</a></li>
+<li><a href="/wiki/Patent_drawing" title="Patent drawing">Patent drawing</a></li>
+<li><a href="/wiki/Scientific_modelling" title="Scientific modelling">Scientific modelling</a></li>
+<li><a href="/wiki/Spatial_analysis" title="Spatial analysis">Spatial analysis</a></li>
+<li><a href="/wiki/Visual_analytics" title="Visual analytics">Visual analytics</a></li>
+<li><a href="/wiki/Visual_perception" title="Visual perception">Visual perception</a></li>
+<li><a href="/wiki/Volume_cartography" title="Volume cartography">Volume cartography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:6604-0!*!0!!en!4!*!math=5 and timestamp 20160930160402 and revision id 738760245
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Rendering_(computer_graphics)&amp;oldid=738760245">https://en.wikipedia.org/w/index.php?title=Rendering_(computer_graphics)&amp;oldid=738760245</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:3D_rendering" title="Category:3D rendering">3D rendering</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_May_2010" title="Category:Articles needing additional references from May 2010">Articles needing additional references from May 2010</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Vague_or_ambiguous_time_from_February_2014" title="Category:Vague or ambiguous time from February 2014">Vague or ambiguous time from February 2014</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Rendering+%28computer+graphics%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Rendering+%28computer+graphics%29" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Rendering_(computer_graphics)" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Rendering_(computer_graphics)" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Rendering_(computer_graphics)">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Rendering_(computer_graphics)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Rendering_(computer_graphics)" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;oldid=738760245" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Rendering_(computer_graphics)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q176953" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Rendering_%28computer_graphics%29&amp;id=738760245" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Rendering+%28computer+graphics%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Rendering+%28computer+graphics%29&amp;returnto=Rendering+%28computer+graphics%29&amp;oldid=738760245&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Rendering_(computer_graphics)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%8A%D9%8A%D8%B1_(%D8%B1%D8%B3%D9%88%D9%85%D9%8A%D8%A7%D8%AA_%D8%AD%D8%A7%D8%B3%D9%88%D8%A8%D9%8A%D8%A9)" hreflang="ar" lang="ar" title="تصيير (رسوميات حاسوبية) – Arabic">العربية</a></li><li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Render" hreflang="az" lang="az" title="Render – Azerbaijani">Azərbaycanca</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B4%D1%8A%D1%80%D0%B8%D0%BD%D0%B3" hreflang="bg" lang="bg" title="Рендъринг – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Render_(ra%C4%8Dunarska_grafika)" hreflang="bs" lang="bs" title="Render (računarska grafika) – Bosnian">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Renderitzaci%C3%B3" hreflang="ca" lang="ca" title="Renderització – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Renderov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Renderování – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Rendere" hreflang="da" lang="da" title="Rendere – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Bildsynthese" hreflang="de" lang="de" title="Bildsynthese – German">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%A6%CF%89%CF%84%CE%BF%CF%81%CE%B5%CE%B1%CE%BB%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AE_%CE%B1%CF%80%CE%B5%CE%B9%CE%BA%CF%8C%CE%BD%CE%B9%CF%83%CE%B7" hreflang="el" lang="el" title="Φωτορεαλιστική απεικόνιση – Greek">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Renderizaci%C3%B3n" hreflang="es" lang="es" title="Renderización – Spanish">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Renderizazio" hreflang="eu" lang="eu" title="Renderizazio – Basque">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B1%D9%86%D8%AF%D8%B1%DB%8C%D9%86%DA%AF_(%DA%AF%D8%B1%D8%A7%D9%81%DB%8C%DA%A9_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87%E2%80%8C%D8%A7%DB%8C)" hreflang="fa" lang="fa" title="رندرینگ (گرافیک رایانه‌ای) – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Rendu_photor%C3%A9aliste" hreflang="fr" lang="fr" title="Rendu photoréaliste – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Renderizaci%C3%B3n" hreflang="gl" lang="gl" title="Renderización – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%A0%8C%EB%8D%94%EB%A7%81" hreflang="ko" lang="ko" title="렌더링 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A4%A1%E0%A4%B0" hreflang="hi" lang="hi" title="रेंडर – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Rendering_(grafik_komputer)" hreflang="id" lang="id" title="Rendering (grafik komputer) – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Rendering" hreflang="it" lang="it" title="Rendering – Italian">Italiano</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Render%C4%93%C5%A1ana" hreflang="lv" lang="lv" title="Renderēšana – Latvian">Latviešu</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Renderen" hreflang="nl" lang="nl" title="Renderen – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)" hreflang="ja" lang="ja" title="レンダリング (コンピュータ) – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Rendering_(datagrafikk)" hreflang="no" lang="no" title="Rendering (datagrafikk) – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Renderowanie" hreflang="pl" lang="pl" title="Renderowanie – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Renderiza%C3%A7%C3%A3o" hreflang="pt" lang="pt" title="Renderização – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3" hreflang="ru" lang="ru" title="Рендеринг – Russian">Русский</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Renderovanie" hreflang="sk" lang="sk" title="Renderovanie – Slovak">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Upodabljanje" hreflang="sl" lang="sl" title="Upodabljanje – Slovenian">Slovenščina</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Renderointi" hreflang="fi" lang="fi" title="Renderointi – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Rendering" hreflang="sv" lang="sv" title="Rendering – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C" hreflang="th" lang="th" title="การเร็นเดอร์ – Thai">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Render" hreflang="tr" lang="tr" title="Render – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3" hreflang="uk" lang="uk" title="Рендеринг – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/K%E1%BA%BFt_xu%E1%BA%A5t_%C4%91%E1%BB%93_h%E1%BB%8Da" hreflang="vi" lang="vi" title="Kết xuất đồ họa – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%B8%B2%E6%9F%93" hreflang="zh" lang="zh" title="渲染 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q176953#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 10 September 2016, at 22:25.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Rendering_(computer_graphics)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","ext.math.scripts","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.617",
+            "walltime": "0.751",
+            "ppvisitednodes": {
+                "value": 3203,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 99243,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2105,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  563.686      1 -total",
+                " 51.75%  291.716      1 Template:Reflist",
+                " 20.51%  115.614     19 Template:Cite_conference",
+                " 17.50%   98.666     11 Template:Cite_journal",
+                " 11.13%   62.760     13 Template:Cite_book",
+                "  6.94%   39.133      1 Template:Unreferenced_section",
+                "  5.89%   33.228      1 Template:Ambox",
+                "  5.39%   30.368     15 Template:Citeseerx",
+                "  5.13%   28.904      1 Template:When",
+                "  4.78%   26.949     15 Template:URL"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.293",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 5082262,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1178",
+            "timestamp": "20160930160403",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1175"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,1137 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Design_rationale
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Design rationale - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Design_rationale","wgTitle":"Design rationale","wgCurRevisionId":728518334,"wgRevisionId":728518334,"wgArticleId":10710154,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Argument mapping","Design","Software design"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Design_rationale","wgRelevantArticleId":10710154,"wgRequestId":"V-D3LwpAAEMAAF4zeBEAAACK","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q5264368","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Design_rationale" rel="alternate"/>
+<link href="/w/index.php?title=Design_rationale&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Design_rationale&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Design_rationale" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Design_rationale rootpage-Design_rationale skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Design rationale</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:362px;"><a class="image" href="/wiki/File:Decision_Based_Design_Structure.jpg"><img alt="" class="thumbimage" data-file-height="666" data-file-width="927" height="259" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Decision_Based_Design_Structure.jpg/360px-Decision_Based_Design_Structure.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Decision_Based_Design_Structure.jpg/540px-Decision_Based_Design_Structure.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/70/Decision_Based_Design_Structure.jpg/720px-Decision_Based_Design_Structure.jpg 2x" width="360"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Decision_Based_Design_Structure.jpg" title="Enlarge"></a></div>
+A Decision Based Design Structure, which spans the areas of <a class="mw-redirect" href="/wiki/Engineering_design" title="Engineering design">engineering design</a>, design rationale and <a href="/wiki/Decision_analysis" title="Decision analysis">decision analysis</a>.</div>
+</div>
+</div>
+<p>A <b>design rationale</b> is an explicit documentation of the <a href="/wiki/Reason" title="Reason">reasons</a> behind <a class="mw-redirect" href="/wiki/Decision_making" title="Decision making">decisions</a> made when <a href="/wiki/Design" title="Design">designing</a> a <a href="/wiki/System" title="System">system</a> or <a href="/wiki/Artifact_(software_development)" title="Artifact (software development)">artifact</a>. As initially developed by W.R. Kunz and <a href="/wiki/Horst_Rittel" title="Horst Rittel">Horst Rittel</a>, design rationale seeks to provide <a class="mw-redirect" href="/wiki/Argumentation" title="Argumentation">argumentation</a>-based structure to the political, collaborative process of addressing <a class="mw-redirect" href="/wiki/Wicked_problems" title="Wicked problems">wicked problems</a>.<sup class="reference" id="cite_ref-Kunz.2C_W._1970_1-0"><a href="#cite_note-Kunz.2C_W._1970-1">[1]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Key_concepts_in_design_rationale"><span class="tocnumber">3</span> <span class="toctext">Key concepts in design rationale</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Rationale_capture"><span class="tocnumber">3.1</span> <span class="toctext">Rationale capture</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Rationale_representation"><span class="tocnumber">3.2</span> <span class="toctext">Rationale representation</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Argumentation-based_models"><span class="tocnumber">3.3</span> <span class="toctext">Argumentation-based models</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Applications"><span class="tocnumber">4</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A design rationale is the explicit listing of <a class="mw-redirect" href="/wiki/Decision_making" title="Decision making">decisions</a> made during a <a class="mw-redirect" href="/wiki/Design_process" title="Design process">design process</a>, and the reasons why those decisions were made.<sup class="reference" id="cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-0"><a href="#cite_note-Jarczyk.2C_Alex_P._1992_pp._577-586-2">[2]</a></sup> Its primary goal is to support <a href="/wiki/Designer" title="Designer">designers</a> by providing a means to <a href="/wiki/Document" title="Document">record</a> and <a class="mw-redirect" href="/wiki/Communicate" title="Communicate">communicate</a> the argumentation and reasoning behind the design process.<sup class="reference" id="cite_ref-HoAt06_3-0"><a href="#cite_note-HoAt06-3">[3]</a></sup> It should therefore include:<sup class="reference" id="cite_ref-Lee97_4-0"><a href="#cite_note-Lee97-4">[4]</a></sup></p>
+<ul>
+<li>the reasons behind a design decision,</li>
+<li>the justification for it,</li>
+<li>the other alternatives considered,</li>
+<li>the trade offs evaluated, and</li>
+<li>the argumentation that led to the decision.</li>
+</ul>
+<p>Several science areas are involved in the study of design rationales, such as <a href="/wiki/Computer_science" title="Computer science">computer science</a><sup class="reference" id="cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-1"><a href="#cite_note-Jarczyk.2C_Alex_P._1992_pp._577-586-2">[2]</a></sup> <a href="/wiki/Cognitive_science" title="Cognitive science">cognitive science</a>,<sup class="reference" id="cite_ref-HoAt06_3-1"><a href="#cite_note-HoAt06-3">[3]</a></sup> <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">artificial intelligence</a>,<sup class="reference" id="cite_ref-BuBr00_5-0"><a href="#cite_note-BuBr00-5">[5]</a></sup> and <a href="/wiki/Knowledge_management" title="Knowledge management">knowledge management</a>.<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup> For supporting design rationale, various frameworks have been proposed, such as QOC, DRCS, <a href="/wiki/Issue-Based_Information_System" title="Issue-Based Information System">IBIS</a>, and DRL.</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>While argumentation formats can be traced back to <a href="/wiki/Stephen_Toulmin" title="Stephen Toulmin">Stephen Toulmin</a>'s work in the 1950s<sup class="reference" id="cite_ref-Toul50_7-0"><a href="#cite_note-Toul50-7">[7]</a></sup> datums, claims, warrants, backings and rebuttals, the origin of design rationale can be traced back to W.R. Kunz and <a href="/wiki/Horst_Rittel" title="Horst Rittel">Horst Rittel</a>'s<sup class="reference" id="cite_ref-Kunz.2C_W._1970_1-1"><a href="#cite_note-Kunz.2C_W._1970-1">[1]</a></sup> development of the <a href="/wiki/Issue-Based_Information_System" title="Issue-Based Information System">Issue-Based Information System</a> (IBIS) notation in 1970. Several variants on IBIS have since been proposed.</p>
+<ul>
+<li>The first was Procedural Hierarchy of Issues (PHI), first described in Ray McCall’s PhD Dissertation<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> although not named at the time.</li>
+<li>IBIS was also modified, in this case to support Software Engineering, by Potts &amp; Bruns.<sup class="reference" id="cite_ref-PoBu88_9-0"><a href="#cite_note-PoBu88-9">[9]</a></sup> The Potts &amp; Bruns approach was then extended by the Decision Representation Language (DRL).<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> which itself was extended by RATSpeak.<sup class="reference" id="cite_ref-BuBr00_5-1"><a href="#cite_note-BuBr00-5">[5]</a></sup></li>
+<li>Questions Options and Criteria (QOC), also known as Design Space Analysis<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup><sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup> is an alternative representation for argumentation-based rationale, as are Win-Win<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup> and the Decision Recommendation and Intent Model (DRIM).<sup class="reference" id="cite_ref-Pena-Mora.2C_F._1993_pp._213-221_14-0"><a href="#cite_note-Pena-Mora.2C_F._1993_pp._213-221-14">[14]</a></sup></li>
+</ul>
+<p>The first Rationale Management System (RMS) was PROTOCOL, which supported PHI, which was followed by other PHI-based systems MIKROPOLIS and PHIDIAS. The first system providing IBIS support was <a class="extiw" href="https://de.wikipedia.org/wiki/Hans_Dehlinger" title="de:Hans Dehlinger">Hans Dehlinger’s</a> STIEC.<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup> Rittel developed a small system in 1983 (also not published) and the better known <a class="mw-redirect" href="/wiki/GIBIS" title="GIBIS">gIBIS</a> (graphical IBIS) was developed in 1987.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<p>Not all successful DR approaches involve structured argumentation. For example, Carroll and Rosson's Scenario-Claims Analysis approach<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> captures rationale in scenarios that describe how the system is used and how well the system features support the user goals. Carroll and Rosson's approach to design rationale is intended to help designers of computer software and hardware identify underlying design tradeoffs and make inferences about the impact of potential design interventions.<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></p>
+<h2><span class="mw-headline" id="Key_concepts_in_design_rationale">Key concepts in design rationale</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=3" title="Edit section: Key concepts in design rationale">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are a number of ways to characterize DR approaches. Some key distinguishing features are how it is captured, how it is represented, and how it can be used.</p>
+<h3><span class="mw-headline" id="Rationale_capture">Rationale capture</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=4" title="Edit section: Rationale capture">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Rationale capture</i> is the process of acquiring rationale information to a rationale management</p>
+<dl>
+<dt>Capture methods</dt>
+</dl>
+<ul>
+<li>A method called “Reconstruction”<sup class="reference" id="cite_ref-Lee97_4-1"><a href="#cite_note-Lee97-4">[4]</a></sup> captures rationales in a raw form such as video, and then reconstruct them into a more structured form.<sup class="reference" id="cite_ref-BuBr98_19-0"><a href="#cite_note-BuBr98-19">[19]</a></sup> The advantage of Reconstruction method is that rationales can be carefully captured and capturing process won’t disrupt the designer. But this method might result in high cost and biases of the person producing the rationales</li>
+<li>The “Record-and-replay”<sup class="reference" id="cite_ref-Lee97_4-2"><a href="#cite_note-Lee97-4">[4]</a></sup> method simply captures rationales as they unfold. Rationales are synchronously captured in a <a class="mw-redirect" href="/wiki/Video_conference" title="Video conference">video conference</a> or asynchronously captured via <a href="/wiki/Bulletin_board" title="Bulletin board">bulletin board</a> or email-based discussion. If the system has informal and semi-formal representation, the method will be helpful.</li>
+<li>The “Methodological byproduct”<sup class="reference" id="cite_ref-Lee97_4-3"><a href="#cite_note-Lee97-4">[4]</a></sup> method captures rationales during the process of design following a schema. But it’s hard to design such a schema. The advantage of this method is its low cost.</li>
+<li>With a rich knowledge base(KB) created in advance, the “Apprentice”<sup class="reference" id="cite_ref-Lee97_4-4"><a href="#cite_note-Lee97-4">[4]</a></sup> method captures rationales by asking questions when confusing or disagreeing with the designer’s action. This method benefits not only the user but the system.</li>
+<li>In “Automatic Generation”<sup class="reference" id="cite_ref-Lee97_4-5"><a href="#cite_note-Lee97-4">[4]</a></sup> method, design rationales are automatically generated from an execution history at low cost. It has the ability in maintaining consistent and up-to-date rationales. But the cost of compiling the execution history is high due to the complexity and difficulty of some machine-learning problems.</li>
+<li>The “Historian”<sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup> method let a person or computer program watches all designer's actions but does not make suggestions. Rationales are captured during the design process.<sup class="reference" id="cite_ref-BuBr98_19-1"><a href="#cite_note-BuBr98-19">[19]</a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Rationale_representation">Rationale representation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=5" title="Edit section: Rationale representation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The choice of design rationale representation is very important to make sure that the rationales we capture is what we desire and we can use efficiently. According to the degree of formality, the approaches that are used to represent design rationale can be divided into three main categories: informal, semiformal, or formal.<sup class="reference" id="cite_ref-Lee97_4-6"><a href="#cite_note-Lee97-4">[4]</a></sup> In the informal representation, rationales can be recorded and captured by just using our traditionally accepted methods and media, such as word processors, audio and video records or even hand writings. However, these descriptions make it hard for automatic interpretation or other computer-based supports. In the formal representation, the rationale must be collected under a strict format so that the rationale can be interpreted and understood by computers. However, due to the strict format of rationale defined by formal representations, the contents can hardly be understood by human being and the process of capturing design rationale will require more efforts to finish, and therefore becomes more intrusive.</p>
+<p>Semiformal representations try to combine the advantages of informal and formal representations. On one hand, the information captured should be able to be processed by computers so that more computer based support can be provided. On the other hand, the procedure and method used to capture information of design rationale should not be very intrusive. In the system with a semiformal representation, the information expected is suggested and the users can capture rationale by following the instructions to either fill out the attributes according to some templates or just type into natural language descriptions.<sup class="reference" id="cite_ref-Lee97_4-7"><a href="#cite_note-Lee97-4">[4]</a></sup></p>
+<h3><span class="mw-headline" id="Argumentation-based_models">Argumentation-based models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=6" title="Edit section: Argumentation-based models">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<dl>
+<dt>The Toulmin model </dt>
+<dd>One commonly accepted way for semiformal design rationale representation is structuring design rationale as argumentation.<sup class="reference" id="cite_ref-BuBr00_5-2"><a href="#cite_note-BuBr00-5">[5]</a></sup> The earliest argumentation-based model used by many design rationale systems is the Toulmin model.<sup class="reference" id="cite_ref-Toul50_7-1"><a href="#cite_note-Toul50-7">[7]</a></sup> The <a href="/wiki/Stephen_Toulmin#The_Toulmin_Model_of_Argument" title="Stephen Toulmin">Toulmin model</a> defines the rules of design rationale argumentation with six steps:<sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup>
+<ol>
+<li>Claim is made;</li>
+<li>Supporting data are provided;</li>
+<li>Warrant provides evidence to the existing relations;</li>
+<li>Warrant can be supported by a backing;</li>
+<li>Model qualifiers (some, many, most, etc.) are provided;</li>
+<li>Possible rebuttals are also considered.</li>
+</ol>
+</dd>
+<dd>One advantage of Toulmin model is that it uses words and concepts which can be easily understood by most people.</dd>
+</dl>
+<dl>
+<dt>Issue-Based Information System (IBIS) </dt>
+<dd>Another important approach to argumentation of design rationale is Rittel and Kunz’s IBIS (<a href="/wiki/Issue-Based_Information_System" title="Issue-Based Information System">Issue-Based Information System</a>),<sup class="reference" id="cite_ref-Kunz.2C_W._1970_1-2"><a href="#cite_note-Kunz.2C_W._1970-1">[1]</a></sup> which is actually not a software system but an argumentative notation. It has been implemented in software form by <a class="mw-redirect" href="/wiki/GIBIS" title="GIBIS">gIBIS</a> (graphical IBIS), itIBIS (test-based IBIS), <a href="/wiki/Compendium_(software)" title="Compendium (software)">Compendium</a>, and other software.<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup><sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup> IBIS uses some rationale elements (denoted as nodes) such as issues, positions, arguments, resolutions and several relationships such as more general than, logical successor to, temporal successor to, replaces and similar to, to link the issue discussions.</dd>
+</dl>
+<dl>
+<dt>Procedural Hierarchy of Issues (PHI) </dt>
+<dd>PHI (Procedural Hierarchy of Issues)<sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup> extended IBIS to noncontroversial issues and redefined the relationships. PHI adds the subissue relationship which means one issue’s resolution depends on the resolution of another issue.</dd>
+</dl>
+<dl>
+<dt>Questions, Options, and Criteria (QOC) </dt>
+<dd>QOC (Questions, Options, and Criteria)<sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup> is used for design space analysis. Similar to IBIS, QOC identifies the key design problems as questions and possible answers to questions as options. In addition, QOC uses criteria to explicitly describe the methods to evaluate the options, such as the requirements to be satisfied or the properties desired. The options are linked with criteria positively or negatively and these links are defined as assessments.</dd>
+</dl>
+<dl>
+<dt>Decision Representation Language (DRL) </dt>
+<dd>DRL (Decision Representation Language)<sup class="reference" id="cite_ref-Lee91_26-0"><a href="#cite_note-Lee91-26">[26]</a></sup> extends the Potts and Bruns model of DR<sup class="reference" id="cite_ref-PoBu88_9-1"><a href="#cite_note-PoBu88-9">[9]</a></sup> and defines the primary elements as decision problems, alternatives, goals, claims and groups. Lee (1991) has argued that DRL is more expressive than other languages.<sup class="reference" id="cite_ref-Lee91_26-1"><a href="#cite_note-Lee91-26">[26]</a></sup> DRL focuses more on the representation of decision making and its rationale instead of on design rationale.</dd>
+</dl>
+<dl>
+<dt>RATSpeak </dt>
+<dd>Based on DRL, RATSpeak is developed and used as the representation language in SEURAT (Software Engineering Using RATionale).<sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup> RATSpeak takes into account requirements (functional and non-functional) as part of the arguments for alternatives to the decision problems. SEURAT also includes an Argument Ontology which is a hierarchy of argument types and includes the types of claims used in the system.</dd>
+</dl>
+<dl>
+<dt>WinWin Spiral Model </dt>
+<dd>The WinWin Spiral Model, which is used in the WinWin approach,<sup class="reference" id="cite_ref-BoKi06_28-0"><a href="#cite_note-BoKi06-28">[28]</a></sup> adds the WinWin negotiation activities, including identifying key stakeholders of the systems, and identifying the win conditions of each stakeholder and negotiation, into the front of each cycle of the <a href="/wiki/Spiral_model" title="Spiral model">spiral software development model</a><sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup> in order to achieve a mutually satisfactory (winwin) agreement for all stakeholders of the project.</dd>
+</dl>
+<dl>
+<dd>In the WinWin Spiral Model, the goals of each stakeholder are defined as Win conditions. Once there is a conflict between win conditions, it is captured as an Issue. Then the stakeholders invent Options and explore trade-offs to resolve the issue. When the issue is solved, an Agreement which satisfies the win conditions of stakeholders and captures the agreed option is achieved. Design rationale behind the decisions is captured during the process of the WinWin model and will be used by stakeholders and the designers to improve their later decision making.<sup class="reference" id="cite_ref-BoKi06_28-1"><a href="#cite_note-BoKi06-28">[28]</a></sup> The WinWin Spiral model reduces the overheads of the capture of design rationale by providing stakeholders a well-defined process to negotiate. In<sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup> an ontology of decision rationale is defined and their model utilizes the ontology to address the problem of supporting decision maintenance in the WinWin collaboration framework.</dd>
+</dl>
+<dl>
+<dt>Design Recommendation and Intent Model (DRIM) </dt>
+<dd>DRIM (Design Recommendation and Intent Model) is used in SHARED-DRIM.<sup class="reference" id="cite_ref-Pena-Mora.2C_F._1993_pp._213-221_14-1"><a href="#cite_note-Pena-Mora.2C_F._1993_pp._213-221-14">[14]</a></sup> The main structure of DRIM is a proposal which consists of the intents of each designer, the recommendations that satisfy the intents and the justifications of the recommendations. Negotiations are also needed when conflicts exist between the intents of different designers. The recommendation accepted becomes a design decision, and the rationale of the unaccepted but proposed recommendations are also recorded during this process, which can be useful during the iterative design and/or system maintenance.</dd>
+</dl>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=7" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Design rationale has the potential to be used in many different ways. One set of uses, defined by Burge and Brown (1998),<sup class="reference" id="cite_ref-BuBr98_19-2"><a href="#cite_note-BuBr98-19">[19]</a></sup> are:</p>
+<ul>
+<li>Design verification — The design rationale can be used to verify if the design decisions and the product itself are the reflection of what the designers and the users actually wanted.</li>
+<li>Design evaluation — The design rationale is used to evaluate the various design alternatives discussed during the design process.</li>
+<li>Design maintenance — The design rationale helps to determine the changes that are necessary to modify the design.</li>
+<li>Design reuse — The design rationale is used to determine how the existing design could be reused for a new requirement with or without any changes in it. If there is a need to modify the design, then the DR also suggests what needs to be modified in the design.</li>
+<li>Design teaching — The design rationale could be used as a resource to teach people who are unfamiliar with the design and the system.</li>
+<li>Design communication — The design rationale facilitates better communication among people who are involved in the design process and thus helps to come up with a better design.</li>
+<li>Design assistance — The design rationale could be used to verify the design decisions made during the design process.</li>
+<li>Design documentation — The design rationale is used to document the entire design process which involves the meeting room deliberations, alternatives discussed, reasons behind the design decisions and the product overview.</li>
+</ul>
+<p>DR is used by research communities in software engineering, mechanical design, artificial intelligence, civil engineering, and human-computer interaction research. In software engineering, it could be used to support the designers ideas during requirement analysis, capturing and documenting design meetings and predicting possible issues due to new design approach.<sup class="reference" id="cite_ref-DMM06_31-0"><a href="#cite_note-DMM06-31">[31]</a></sup> In civil engineering, it helps to coordinate the variety of work that the designers do at the same time in different areas of a construction project. It also help the designers to understand and respect each other’s ideas and resolve any possible issues.<sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup></p>
+<p>The DR can also be used by the project managers to maintain their project plan and the project status up to date. Also, the project team members who missed a design meeting can refer back the DR to learn what was discussed on a particular topic. The unresolved issues captured in DR could be used to organize further meetings on those topics.<sup class="reference" id="cite_ref-DMM06_31-1"><a href="#cite_note-DMM06-31">[31]</a></sup></p>
+<p>Design rationale helps the designers to avoid the same mistakes made in the previous design. This can also be helpful to avoid duplication of work.<sup class="reference" id="cite_ref-BuBr00_5-3"><a href="#cite_note-BuBr00-5">[5]</a></sup> In some cases DR could save time and money when a software system is upgraded from its previous versions.<sup class="reference" id="cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-2"><a href="#cite_note-Jarczyk.2C_Alex_P._1992_pp._577-586-2">[2]</a></sup></p>
+<p>There are several books and articles that provide excellent surveys of rationale approaches applied to HCI,<sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup> Engineering Design<sup class="reference" id="cite_ref-Lee97_4-8"><a href="#cite_note-Lee97-4">[4]</a></sup> and Software Engineering.<sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=8" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/IDEF6" title="IDEF6">IDEF6</a></li>
+<li><a href="/wiki/Method_engineering" title="Method engineering">Method engineering</a></li>
+<li><a href="/wiki/Problem_structuring_methods" title="Problem structuring methods">Problem structuring methods</a></li>
+<li><a href="/wiki/Theory_of_justification" title="Theory of justification">Theory of justification</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=9" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Kunz.2C_W._1970-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Kunz.2C_W._1970_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Kunz.2C_W._1970_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Kunz.2C_W._1970_1-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Kunz, W.; Rittel, H. (1970), <i>Issues as elements of information systems</i>. Working Paper 131, Center for Urban and Regional Development, University of California Berkeley</span></li>
+<li id="cite_note-Jarczyk.2C_Alex_P._1992_pp._577-586-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Jarczyk.2C_Alex_P._1992_pp._577-586_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Jarczyk, Alex P.; Löffler, Peter; Shipman III, Frank M. (1992), "Design Rationale for Software Engineering: A Survey", <i>25th Hawaii International Conference on System Sciences</i>, 2, pp. 577-586</span></li>
+<li id="cite_note-HoAt06-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-HoAt06_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-HoAt06_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Horner, J.; Atwood, M.E. (2006), "Effective Design Rationale: Understanding the Barriers", in Dutoit, A.H.; McCall, R.; Mistrík, I. et al., Rationale Management in Software Engineering, Springer Berlin Heidelberg, pp. 73-90</span></li>
+<li id="cite_note-Lee97-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-Lee97_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Lee97_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Lee97_4-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Lee97_4-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-Lee97_4-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-Lee97_4-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-Lee97_4-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-Lee97_4-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-Lee97_4-8"><sup><i><b>i</b></i></sup></a></span> <span class="reference-text">Lee, J. (1997). "Design Rationale Systems: Understanding the Issues". <i>IEEE Expert</i> 12 (3): 78–85</span></li>
+<li id="cite_note-BuBr00-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-BuBr00_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-BuBr00_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-BuBr00_5-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-BuBr00_5-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text">Burge, J.E.; Brown, D.C. (2000), "Reasoning with Design Rationale", in Gero, J., <i>Artificial Intelligence in Design '00</i>, Netherlands: Kluwer Academic Publ., pp. 611–629</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Xin, W.; Guangleng, X. (2001), "Design Rationale as Part of Corporate Technical Memory", <i>Systems, Man and Cybernetics</i>, pp. 1904 - 1908.</span></li>
+<li id="cite_note-Toul50-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Toul50_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Toul50_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="/wiki/Stephen_Toulmin" title="Stephen Toulmin">Stephen Toulmin</a> (1958). <i>The Uses of Argument</i>. Cambridge: Cambridge University Press.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">McCall, R. (1978), <i>On the structure and use of issue systems in design</i>, Doctoral Dissertation, University of California, Berkeley, University Microfilms</span></li>
+<li id="cite_note-PoBu88-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-PoBu88_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-PoBu88_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Potts, C.; Burns, G. (1988), "Recording the reasons for design decisions", <i>10th International Conference on Software Engineering</i> (ICSE '1988), pp. 418-427</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Lee, J. (1991), "Extending the Potts and Bruns model for recording design rationale", <i>Proceedings of the 13th International Conference on Software Engineering (ICSE '13)</i>, IEEE Computer Society Press, Los Alamitos, CA, pp. 114-125</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Maclean, A.; Young, RM.; Moran, T. (1989), "Design rationale: the argument behind the artifact", <i>SIGCHI Bull</i>. 20, pp. 247-252114-125</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Maclean, A.; Young, RM.; Bellotti, VME.; Moran, T. (1996), "Questions, Options, and Criteria: Elements of Design Space Analysis", in Moran, T.; Carroll, J., <i>Design Rationale Concepts, Techniques, and Use, Lawrence Erlbaum Associates</i>, pp. 53-106</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a>, Ross, R (1989). "Theory-W software project management: principles and examples.". <i>IEEE Transactions on Software Engineering</i> 18 (7): 902-916.</span></li>
+<li id="cite_note-Pena-Mora.2C_F._1993_pp._213-221-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-Pena-Mora.2C_F._1993_pp._213-221_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Pena-Mora.2C_F._1993_pp._213-221_14-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Pena-Mora, F.; Sriram, D.; Logcher, R. (1993), "SHARED-DRIMS: SHARED Design Recommendation-Intent Management System", <i>Proceedings Enabling Technologies Infrastructure for Collaborative Enterprise</i>, IEEE Press, Morgantown, WV, pp. 213-221</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">Dehlinger, H. (1978), Project STIEC: Systems Analysis of the Generation and Dissemination of Scientific and Technological Information in the European Community" <i>Report No. 26: Report on a Batch - Version of STIEC</i>, Heidelberg/Stuttgart</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">Conklin, J.; YakemBegemanovic, M. (1988). "gIBIS: A hypertext tool for exploratory policy discussion". <i>ACM Transactions on Office Information Systems</i> 6 (4): 303-331.</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Carroll, JM; Rosson, M (1992). "Getting around the task-artifact cycle: how to make claims and design by scenario". <i>ACM Trans. Inf. Syst</i>. 10 (2): 181-212</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Carroll, J. M., &amp; Rosson, M. B. (2003). Design rationale as theory. HCI models, theories, and frameworks: toward a multidisciplinary science, 431-461.</span></li>
+<li id="cite_note-BuBr98-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-BuBr98_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-BuBr98_19-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-BuBr98_19-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Burge, J.; Brown, D.C. (1998), <a class="external text" href="http://web.cs.wpi.edu/Research/aidg/DR-Rpt98.html" rel="nofollow"><i>Design Rationale: Types and Tools, Technical Report</i></a>, <a class="external text" href="http://web.cs.wpi.edu/Research/aidg/DR-Rpt98.html" rel="nofollow">Worchester Polytechnic Institute, Computer Science Dept.</a>, retrieved on 27 April 2007</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Chen, A.; McGinnis, B.; Ullman, D.; Dietterich, T. (1990), "Design History Knowledge Representation and Its Basic Computer Implementation", The 2nd International Conference on Design Theory and Methodology, Chicago, IL, pp. 175-185</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Reynolds, Chris (2000), <a class="external text" href="http://www.concentric.net/~Creyn266/COMM335/Toulmin.htm" rel="nofollow"><i>What is the Toulmin Model?</i></a> Paper at concentric.net.</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text">Conklin, J.; Yakemovic, K. (1991). "A Process-Oriented Approach to Design Rationale". <i>Human-Computer Interaction</i> 6 (3 &amp; 4): 357–391.</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation techreport"><a href="/wiki/Horst_Rittel" title="Horst Rittel">Rittel, Horst W. J.</a>; Noble, Douglas (January 1989). <a class="external text" href="http://cumincad.architexturez.net/system/files/pdf/ca71.content.pdf" rel="nofollow"><i>Issue-based information systems for design</i></a> <span style="font-size:85%;">(PDF)</span> (Technical report). Berkeley, CA: Institute of Urban and Regional Development, <a href="/wiki/University_of_California" title="University of California">University of California</a>. <a href="/wiki/OCLC" title="OCLC">OCLC</a> <a class="external text" href="//www.worldcat.org/oclc/20155825" rel="nofollow">20155825</a>. 492.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.aufirst=Horst+W.+J.&amp;rft.aulast=Rittel&amp;rft.au=Noble%2C+Douglas&amp;rft.btitle=Issue-based+information+systems+for+design&amp;rft.date=1989-01&amp;rft.genre=report&amp;rft_id=http%3A%2F%2Fcumincad.architexturez.net%2Fsystem%2Ffiles%2Fpdf%2Fca71.content.pdf&amp;rft_id=info%3Aoclcnum%2F20155825&amp;rft.place=Berkeley%2C+CA&amp;rft.pub=Institute+of+Urban+and+Regional+Development%2C+University+of+California&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">McCall, R.J. (1991). "PHI: A Conceptual Foundation for Design Hypermedia". <i>Design Studies</i> 12 (1): 30–41.</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">Maclean, A.; Young, RM.; Bellotti, VME.; Moran, T. (1996), "Questions, Options, and Criteria: Elements of Design Space Analysis", in Moran, T.; Carroll, J., <i>Design Rationale Concepts, Techniques, and Use</i>, Lawrence Erlbaum Associates, pp. 53-106</span></li>
+<li id="cite_note-Lee91-26"><span class="mw-cite-backlink">^ <a href="#cite_ref-Lee91_26-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Lee91_26-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Lee, J. (1991), "Extending the Potts and Bruns model for recording design rationale", <i>Proceedings of the 13th International Conference on Software Engineering</i> (ICSE '13), IEEE Computer Society Press, Los Alamitos, CA, pp. 114-125</span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text">Burge, J. (2005), <a class="external text" href="http://www.wpi.edu/Pubs/ETD/Available/etd-050205-085625/" rel="nofollow"><i>Software Engineering Using design RATionale</i></a>, Worchester Polytechnic Institute, Computer Science Dept</span></li>
+<li id="cite_note-BoKi06-28"><span class="mw-cite-backlink">^ <a href="#cite_ref-BoKi06_28-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-BoKi06_28-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a>; Kitapci, H. (2006), "The WinWin Approach: Using a Requirement Negotiation Tool for Rationale Capture and Use", in Dutoit, A.H.; McCall, R.; Mistrík, I. et al., <i>Rationale Management in Software Engineering</i>, Springer Berlin Heidelberg, pp. 173-190</span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a> (1998). <a class="external text" href="http://www.cs.usu.edu/~supratik/CS%205370/r5061.pdf" rel="nofollow">"A spiral model of software development and enhancement"</a>. <i>Computer</i> 21 (5): 61–72</span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text">Bose, P. (1995). "A Model for Decision Maintenance in the WinWin Collaboration Framework". <i>Knowledge Based Software Engineering</i> (KBSE '95).</span></li>
+<li id="cite_note-DMM06-31"><span class="mw-cite-backlink">^ <a href="#cite_ref-DMM06_31-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-DMM06_31-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Dutoit, A.; McCall, B.; Mistrik et al., eds. (2006), <i>Rationale Management in Software Engineering</i>, Springer pp.1-48.</span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text">Whelton, Michael; Ballard, Glenn; Tommelein, Iris (2007) <a class="external text" href="http://www.leanconstruction.org/pdf/DesignRationaleSystemsandProjectDefinitionIGLC9.pdf" rel="nofollow"><i>Application Of Design Rationale Systems To Project Definition – Establishing A Research Project</i>.</a> Retrieved on 27 April 2007</span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text">Moran, T.; Carroll, J., eds. (1996), <i>Design Rationale Concepts, Techniques, and Use</i>, Lawrence Erlbaum Associates,</span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text">Dutoit, Rationale Management in Software Engineering</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=10" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl>
+<dt>Books</dt>
+</dl>
+<ul>
+<li><cite class="citation book">Burge, JE; Carroll, JM; McCall R; Mistrík I (2008). <i>Rationale-Based Software Engineering</i>. Heidelberg: Springer-Verlag.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.au=Carroll%2C+JM&amp;rft.aufirst=JE&amp;rft.aulast=Burge&amp;rft.au=McCall+R&amp;rft.au=Mistr%C3k+I&amp;rft.btitle=Rationale-Based+Software+Engineering&amp;rft.date=2008&amp;rft.genre=book&amp;rft.place=Heidelberg&amp;rft.pub=Springer-Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Dutoit, AH; McCall R; Mistrík I; Paech B (2006). <i>Rationale Management in Software Engineering</i>. Heidelberg: Springer-Verlag.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.aufirst=AH&amp;rft.aulast=Dutoit&amp;rft.au=McCall+R&amp;rft.au=Mistr%C3k+I&amp;rft.au=Paech+B&amp;rft.btitle=Rationale+Management+in+Software+Engineering&amp;rft.date=2006&amp;rft.genre=book&amp;rft.place=Heidelberg&amp;rft.pub=Springer-Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Conklin, J (2005). <i>Dialogue Mapping</i>. Weinheim: Wiley-VCH Verlag.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.aufirst=J&amp;rft.aulast=Conklin&amp;rft.btitle=Dialogue+Mapping&amp;rft.date=2005&amp;rft.genre=book&amp;rft.place=Weinheim&amp;rft.pub=Wiley-VCH+Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Kirschner, PA; Buckingham-Shum SJ; Carr CS (2003). <i>Visualizing Argumentation: Software Tools for Collaborative and Educational Sense-Making</i>. London: Springer-Verlag.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.au=Buckingham-Shum+SJ&amp;rft.au=Carr+CS&amp;rft.aufirst=PA&amp;rft.aulast=Kirschner&amp;rft.btitle=Visualizing+Argumentation%3A+Software+Tools+for+Collaborative+and+Educational+Sense-Making&amp;rft.date=2003&amp;rft.genre=book&amp;rft.place=London&amp;rft.pub=Springer-Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Moran, T; Carroll J (1996). <i>Design Rationale Concepts, Techniques, and Use</i>. NJ: Lawrence Erlbaum Associates,.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADesign+rationale&amp;rft.au=Carroll+J&amp;rft.aufirst=T&amp;rft.aulast=Moran&amp;rft.btitle=Design+Rationale+Concepts%2C+Techniques%2C+and+Use&amp;rft.date=1996&amp;rft.genre=book&amp;rft.place=NJ&amp;rft.pub=Lawrence+Erlbaum+Associates%2C&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<dl>
+<dt>Special Issues</dt>
+</dl>
+<ul>
+<li>Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Special Issue: Fall 2008, Vol.22 No.4 Design Rationale <a class="external free" href="http://web.cs.wpi.edu/~aiedam/SpecialIssues/Burge-Bracewell.html" rel="nofollow">http://web.cs.wpi.edu/~aiedam/SpecialIssues/Burge-Bracewell.html</a></li>
+<li>Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Special Issue on Representing and Using Design Rationale, 1997, Vol.11 No.2, Cambridge University Press</li>
+</ul>
+<dl>
+<dt>Workshops</dt>
+</dl>
+<ul>
+<li>Second Workshop on SHAring and Reusing architectural Knowledge - Architecture, rationale, and Design Intent (SHARK/ADI 2007), (<a class="external text" href="http://www.cs.rug.nl/~paris/SHARK-ADI2007" rel="nofollow">RC.rug.nl</a>) as part of the 29th Int. Conf. on Software Engineering (ICSE 2007) (<a class="external text" href="http://web4.cs.ucl.ac.uk/icse07" rel="nofollow">CS.ucl.ac.uk</a>)</li>
+<li>Workshop on Design Rationale: Problems and Progress (<a class="external text" href="http://www.users.muohio.edu/burgeje/DRWorkshopDCC06.html" rel="nofollow">Muohio.edu</a>)</li>
+<li>Workshop Chairs: Janet Burge and Rob Bracewell, Held 9 July 2006 in conjunction with Design, Computing, and Cognition '06. Eindhoven, (<a class="external text" href="http://wwwfaculty.arch.usyd.edu.au/kcdc/conferences/dcc06/" rel="nofollow">wwwfaculty.arch.usyd.edu.au</a>) Netherlands</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Design_rationale&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://bcisive.austhink.com" rel="nofollow">Bcisive.austhink.com</a>: A commercial software package designed for design rationale and decision rationale more broadly. Graphical interface, sharing capabilities.</li>
+<li><a class="external text" href="http://compendium.open.ac.uk/institute/" rel="nofollow">Compendium</a>: A hypermedia tool that provides visual knowledge management capabilities based around IBIS. Free Java application, binary and source, with an active user community who meet annually.</li>
+<li><a class="external text" href="http://www3.imperial.ac.uk/designengineering/tools/designvue" rel="nofollow">designVUE</a>: A tool for visual knowledge capture based on IBIS and other methods. Free Java application.</li>
+<li><a class="external text" href="http://www.users.miamioh.edu/burgeje/SEURAT" rel="nofollow">SEURAT</a>: An Eclipse plug-in that integrates rationale capture and use with a software development environment. SEURAT is available as an open source project in github (<a class="external autonumber" href="https://github.com/burgeje/SEURAT" rel="nofollow">[1]</a>).</li>
+</ul>
+<div aria-labelledby="Design" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design" title="Template:Design"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design" title="Template talk:Design"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Design" style="font-size:114%"><a href="/wiki/Design" title="Design">Design</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2" style="background:lemonchiffon;">
+<div>
+<ul>
+<li><a href="/wiki/Outline_of_design" title="Outline of design">Outline</a></li>
+<li><a href="/wiki/Portal:Design" title="Portal:Design">Portal</a></li>
+<li><a href="/wiki/Designer" title="Designer">Designer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Disciplines" style="font-size:114%">Disciplines</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Communication_design" title="Communication design">Communication<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Advertising" title="Advertising">Advertising</a></li>
+<li><a href="/wiki/Book_design" title="Book design">Book design</a></li>
+<li><a href="/wiki/Corporate_design" title="Corporate design">Corporate design</a></li>
+<li><a href="/wiki/Exhibit_design" title="Exhibit design">Exhibit design</a></li>
+<li><a href="/wiki/Film_title_design" title="Film title design">Film title design</a></li>
+<li><a href="/wiki/Graphic_design" title="Graphic design">Graphic design</a>
+<ul>
+<li><a href="/wiki/Environmental_graphic_design" title="Environmental graphic design">Environmental</a></li>
+<li><a href="/wiki/Motion_graphic_design" title="Motion graphic design">Motion</a></li>
+<li><a href="/wiki/Postage_stamp_design" title="Postage stamp design">Postage stamp design</a></li>
+<li><a href="/wiki/Print_design" title="Print design">Print design</a></li>
+<li><a href="/wiki/Sustainable_graphic_design" title="Sustainable graphic design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Illustration" title="Illustration">Illustration</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Instructional_design" title="Instructional design">Instructional design</a></li>
+<li><a href="/wiki/News_design" title="News design">News design</a></li>
+<li><a href="/wiki/Photography" title="Photography">Photography</a></li>
+<li><a href="/wiki/Retail_design" title="Retail design">Retail design</a></li>
+<li><a href="/wiki/Signage" title="Signage">Signage</a> / <a href="/wiki/Traffic_sign_design" title="Traffic sign design">Traffic sign design</a></li>
+<li><a href="/wiki/Typography" title="Typography">Typography</a> / <a href="/wiki/Type_design" title="Type design">Type design</a></li>
+<li><a href="/wiki/Video_design" title="Video design">Video design</a></li>
+<li><a href="/wiki/Visual_merchandising" title="Visual merchandising">Visual merchandising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Environmental_design" title="Environmental design">Environmental<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Architecture" title="Architecture">Architecture</a></li>
+<li><a href="/wiki/Architectural_lighting_design" title="Architectural lighting design">Architectural lighting design</a></li>
+<li><a href="/wiki/Building_design" title="Building design">Building design</a>
+<ul>
+<li><a href="/wiki/Passive_solar_building_design" title="Passive solar building design">Passive solar</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Ecological_design" title="Ecological design">Ecological design</a></li>
+<li><a href="/wiki/Environmental_impact_design" title="Environmental impact design">Environmental impact design</a></li>
+<li><a href="/wiki/Garden_design" title="Garden design">Garden design</a>
+<ul>
+<li><a href="/wiki/Computer-aided_garden_design" title="Computer-aided garden design">Computer-aided</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Healthy_community_design" title="Healthy community design">Healthy community design</a></li>
+<li><a href="/wiki/Hotel_design" title="Hotel design">Hotel design</a></li>
+<li><a href="/wiki/Interior_architecture" title="Interior architecture">Interior architecture</a></li>
+<li><a href="/wiki/Interior_design" title="Interior design">Interior design</a>
+<ul>
+<li><a href="/wiki/Experiential_interior_design" title="Experiential interior design">EID</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Keyline_design" title="Keyline design">Keyline design</a></li>
+<li><a href="/wiki/Landscape_architecture" title="Landscape architecture">Landscape architecture</a>
+<ul>
+<li><a href="/wiki/Sustainable_landscape_architecture" title="Sustainable landscape architecture">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Landscape_design" title="Landscape design">Landscape design</a></li>
+<li><a href="/wiki/Spatial_design" title="Spatial design">Spatial design</a></li>
+<li><a href="/wiki/Transition_design" title="Transition design">Transition design</a></li>
+<li><a href="/wiki/Urban_design" title="Urban design">Urban design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Industrial_design" title="Industrial design">Industrial<br/>
+design</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Automotive_design" title="Automotive design">Automotive design</a></li>
+<li><a href="/wiki/Automotive_suspension_design" title="Automotive suspension design">Automotive suspension design</a></li>
+<li><a href="/wiki/CMF_design" title="CMF design">CMF design</a></li>
+<li><a href="/wiki/Corrugated_box_design" title="Corrugated box design">Corrugated box design</a></li>
+<li><a href="/wiki/Electric_guitar_design" title="Electric guitar design">Electric guitar design</a></li>
+<li><a href="/wiki/Furniture" title="Furniture">Furniture design</a>
+<ul>
+<li><a href="/wiki/Sustainable_furniture_design" title="Sustainable furniture design">Sustainable</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Motorcycle_design" title="Motorcycle design">Motorcycle design</a></li>
+<li><a href="/wiki/Packaging_and_labeling" title="Packaging and labeling">Packaging and labeling</a></li>
+<li><a href="/wiki/Photographic_lens_design" title="Photographic lens design">Photographic lens design</a></li>
+<li><a href="/wiki/Product_design" title="Product design">Product design</a></li>
+<li><a class="mw-redirect" href="/wiki/Production_design" title="Production design">Production design</a></li>
+<li><a href="/wiki/Sensory_design" title="Sensory design">Sensory design</a></li>
+<li><a href="/wiki/Service_design" title="Service design">Service design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Interaction_design" title="Interaction design">Interaction<br/>
+design</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Experience_design" title="Experience design">Experience design</a>
+<ul>
+<li><a href="/wiki/Employee_experience_design" title="Employee experience design">EED</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Game_design" title="Game design">Game design</a>
+<ul>
+<li><a href="/wiki/Level_design" title="Level design">Level design</a></li>
+<li><a href="/wiki/Video_game_design" title="Video game design">Video game design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Hardware_interface_design" title="Hardware interface design">Hardware interface design</a></li>
+<li><a href="/wiki/Icon_design" title="Icon design">Icon design</a></li>
+<li><a href="/wiki/Immersive_design" title="Immersive design">Immersive design</a></li>
+<li><a href="/wiki/Information_design" title="Information design">Information design</a></li>
+<li><a href="/wiki/Sonic_interaction_design" title="Sonic interaction design">Sonic interaction design</a></li>
+<li><a href="/wiki/User_experience_design" title="User experience design">User experience design</a></li>
+<li><a href="/wiki/User_interface_design" title="User interface design">User interface design</a></li>
+<li><a href="/wiki/Web_design" title="Web design">Web design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+<a href="/wiki/Applied_arts" title="Applied arts">applied arts</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Public_art" title="Public art">Public art design</a></li>
+<li><a href="/wiki/Ceramic_art" title="Ceramic art">Ceramic</a> / <a href="/wiki/Glass_art" title="Glass art">glass design</a></li>
+<li><a href="/wiki/Fashion_design" title="Fashion design">Fashion design</a>
+<ul>
+<li><a href="/wiki/Costume_design" title="Costume design">Costume design</a></li>
+<li><a class="mw-redirect" href="/wiki/Jewelry_design" title="Jewelry design">Jewelry design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Floral_design" title="Floral design">Floral design</a></li>
+<li><a href="/wiki/Game_art_design" title="Game art design">Game art design</a></li>
+<li><a href="/wiki/Property_designer" title="Property designer">Property design</a></li>
+<li><a href="/wiki/Scenic_design" title="Scenic design">Scenic design</a></li>
+<li><a href="/wiki/Sound_design" title="Sound design">Sound design</a></li>
+<li><a href="/wiki/Lighting_designer" title="Lighting designer">Stage/set lighting design</a></li>
+<li><a href="/wiki/Textile_design" title="Textile design">Textile design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Other<br/>
+design &amp; <a href="/wiki/Engineering" title="Engineering">engineering</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithm_design" title="Algorithm design">Algorithm design</a></li>
+<li><a href="/wiki/Boiler_design" title="Boiler design">Boiler design</a></li>
+<li><a href="/wiki/Conceptual_design" title="Conceptual design">Conceptual design</a></li>
+<li><a href="/wiki/Database_design" title="Database design">Database design</a></li>
+<li><a href="/wiki/Drug_design" title="Drug design">Drug design</a></li>
+<li><a href="/wiki/Electrical_system_design" title="Electrical system design">Electrical system design</a></li>
+<li><a href="/wiki/Design_of_experiments" title="Design of experiments">Experimental design</a></li>
+<li><a href="/wiki/Filter_design" title="Filter design">Filter design</a></li>
+<li><a href="/wiki/Job_design" title="Job design">Job design</a></li>
+<li><a href="/wiki/Integrated_circuit_design" title="Integrated circuit design">Integrated circuit design</a>
+<ul>
+<li><a href="/wiki/Circuit_design" title="Circuit design">Circuit design</a></li>
+<li><a href="/wiki/Physical_design_(electronics)" title="Physical design (electronics)">Physical design</a></li>
+<li><a href="/wiki/Power_network_design_(IC)" title="Power network design (IC)">Power network design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Nuclear_weapon_design" title="Nuclear weapon design">Nuclear weapon design</a></li>
+<li><a href="/wiki/Nucleic_acid_design" title="Nucleic acid design">Nucleic acid design</a></li>
+<li><a class="mw-redirect" href="/wiki/Organization_design" title="Organization design">Organization design</a></li>
+<li><a href="/wiki/Process_design" title="Process design">Process design</a></li>
+<li><a href="/wiki/Processor_design" title="Processor design">Processor design</a></li>
+<li><a href="/wiki/Protein_design" title="Protein design">Protein design</a></li>
+<li><a href="/wiki/Research_design" title="Research design">Research design</a></li>
+<li><a href="/wiki/Social_design" title="Social design">Social design</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Spacecraft_design" title="Spacecraft design">Spacecraft design</a></li>
+<li><a href="/wiki/Strategic_design" title="Strategic design">Strategic design</a></li>
+<li><a href="/wiki/Systems_design" title="Systems design">Systems design</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Approaches" style="font-size:114%">Approaches</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Activity-centered_design" title="Activity-centered design">Activity-centered</a></li>
+<li><a href="/wiki/Adaptive_web_design" title="Adaptive web design">Adaptive web</a></li>
+<li><a href="/wiki/Affective_design" title="Affective design">Affective</a></li>
+<li><a href="/wiki/Design_by_committee" title="Design by committee">By committee</a></li>
+<li><a href="/wiki/Design_by_contract" title="Design by contract">By contract</a></li>
+<li><a href="/wiki/C-K_theory" title="C-K theory">C-K theory</a></li>
+<li><a href="/wiki/Design_closure" title="Design closure">Closure</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Co-design</a></li>
+<li><a href="/wiki/Concept-oriented_design" title="Concept-oriented design">Concept-oriented</a></li>
+<li><a href="/wiki/Configuration_design" title="Configuration design">Configuration</a></li>
+<li><a href="/wiki/Contextual_design" title="Contextual design">Contextual</a></li>
+<li><a href="/wiki/Continuous_design" title="Continuous design">Continuous</a></li>
+<li><a href="/wiki/Cradle-to-cradle_design" title="Cradle-to-cradle design">Cradle-to-cradle</a></li>
+<li><a href="/wiki/Creative_problem-solving" title="Creative problem-solving">Creative problem-solving</a></li>
+<li><a href="/wiki/Creativity_techniques" title="Creativity techniques">Creativity techniques</a></li>
+<li><a href="/wiki/Critical_design" title="Critical design">Critical</a>
+<ul>
+<li><a href="/wiki/Design_fiction" title="Design fiction">Design fiction</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Defensive_design" title="Defensive design">Defensive</a></li>
+<li><a href="/wiki/Design%E2%80%93bid%E2%80%93build" title="Design–bid–build">Design–bid–build</a></li>
+<li><a href="/wiki/Design%E2%80%93build" title="Design–build">Design–build</a>
+<ul>
+<li><a href="/wiki/Architect-led_design%E2%80%93build" title="Architect-led design–build">architect-led</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">Domain-driven</a></li>
+<li><a href="/wiki/Ecodesign" title="Ecodesign">Ecodesign</a></li>
+<li><a href="/wiki/Energy_neutral_design" title="Energy neutral design">Energy neutral</a></li>
+<li><a href="/wiki/Engineering_design_process" title="Engineering design process">Engineering design process</a>
+<ul>
+<li><a href="/wiki/Probabilistic_design" title="Probabilistic design">Probabilistic design</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Error-tolerant_design" title="Error-tolerant design">Error-tolerant</a></li>
+<li><a class="mw-redirect" href="/wiki/Fault-tolerant_design" title="Fault-tolerant design">Fault-tolerant</a></li>
+<li><a href="/wiki/Framework-oriented_design" title="Framework-oriented design">Framework-oriented</a></li>
+<li><a href="/wiki/Design_for_assembly" title="Design for assembly">For assembly</a></li>
+<li><a href="/wiki/Design_for_behaviour_change" title="Design for behaviour change">For behaviour change</a></li>
+<li><a href="/wiki/Design_for_manufacturability" title="Design for manufacturability">For manufacturability</a></li>
+<li><a href="/wiki/Design_for_Six_Sigma" title="Design for Six Sigma">For Six Sigma</a></li>
+<li><a href="/wiki/Design_for_testing" title="Design for testing">For testing</a></li>
+<li><a href="/wiki/Design_for_X" title="Design for X">For X</a></li>
+<li><a href="/wiki/Functional_design" title="Functional design">Functional</a></li>
+<li><a href="/wiki/Generative_Design" title="Generative Design">Generative</a></li>
+<li><a href="/wiki/Geodesign" title="Geodesign">Geodesign</a></li>
+<li><a href="/wiki/High-level_design" title="High-level design">High-level</a></li>
+<li><a href="/wiki/Integrated_design" title="Integrated design">Integrated</a></li>
+<li><a href="/wiki/Integrated_topside_design" title="Integrated topside design">Integrated topside</a></li>
+<li><a href="/wiki/Intelligence-based_design" title="Intelligence-based design">Intelligence-based</a></li>
+<li><a href="/wiki/Iterative_design" title="Iterative design">Iterative</a></li>
+<li><a href="/wiki/KISS_principle" title="KISS principle">KISS principle</a></li>
+<li><a href="/wiki/Low-level_design" title="Low-level design">Low-level</a></li>
+<li><a href="/wiki/Metadesign" title="Metadesign">Metadesign</a></li>
+<li><a href="/wiki/Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="/wiki/Modular_design" title="Modular design">Modular</a></li>
+<li><a href="/wiki/New_Wave_(design)" title="New Wave (design)">New Wave</a></li>
+<li><a href="/wiki/Object-oriented_design" title="Object-oriented design">Object-oriented</a></li>
+<li><a href="/wiki/Open_design" title="Open design">Open</a></li>
+<li><a href="/wiki/Parametric_design" title="Parametric design">Parametric</a></li>
+<li><a href="/wiki/Participatory_design" title="Participatory design">Participatory</a></li>
+<li><a href="/wiki/Platform-based_design" title="Platform-based design">Platform-based</a></li>
+<li><a href="/wiki/Policy-based_design" title="Policy-based design">Policy-based</a></li>
+<li><a href="/wiki/Process-centered_design" title="Process-centered design">Process-centered</a></li>
+<li><a href="/wiki/Public_interest_design" title="Public interest design">Public interest</a></li>
+<li><a href="/wiki/Rational_design" title="Rational design">Rational</a></li>
+<li><a href="/wiki/Regenerative_design" title="Regenerative design">Regenerative</a></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Research-based_design" title="Research-based design">Research-based</a></li>
+<li><a href="/wiki/Responsibility-driven_design" title="Responsibility-driven design">Responsibility-driven</a></li>
+<li><a href="/wiki/Responsive_web_design" title="Responsive web design">RWD</a></li>
+<li><a href="/wiki/Safe-life_design" title="Safe-life design">Safe-life</a></li>
+<li><a href="/wiki/Sustainable_design" title="Sustainable design">Sustainable</a></li>
+<li><a class="mw-redirect" href="/wiki/Systemic_Design" title="Systemic Design">Systemic</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Systems_Oriented_Design" title="Systems Oriented Design">SOD</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tableless_web_design" title="Tableless web design">Tableless web</a></li>
+<li><a href="/wiki/Theory_of_constraints" title="Theory of constraints">Theory of constraints</a></li>
+<li><a href="/wiki/Top-down_and_bottom-up_design" title="Top-down and bottom-up design">Top-down and bottom-up</a></li>
+<li><a href="/wiki/Transformation_design" title="Transformation design">Transformation</a></li>
+<li><a href="/wiki/Transgenerational_design" title="Transgenerational design">Transgenerational</a></li>
+<li><a href="/wiki/TRIZ" title="TRIZ">TRIZ</a></li>
+<li><a href="/wiki/Universal_design" title="Universal design">Universal</a>
+<ul>
+<li><a href="/wiki/Design_for_All_(in_ICT)" title="Design for All (in ICT)">Design for All</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Usage-centered_design" title="Usage-centered design">Usage-centered</a></li>
+<li><a href="/wiki/Use-centered_design" title="Use-centered design">Use-centered</a></li>
+<li><a href="/wiki/User-centered_design" title="User-centered design">User-centered</a>
+<ul>
+<li><a href="/wiki/Empathic_design" title="Empathic design">Empathic</a></li>
+</ul>
+</li>
+<li><a href="/wiki/User_innovation" title="User innovation">User innovation</a></li>
+<li><a href="/wiki/Value-driven_design" title="Value-driven design">Value-driven</a></li>
+<li><a href="/wiki/Value_sensitive_design" title="Value sensitive design">Value sensitive</a>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Privacy_by_Design" title="Privacy by Design">Privacy by</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_choice" title="Design choice">choice</a></li>
+<li><a href="/wiki/Design_computing" title="Design computing">computing</a></li>
+<li><a href="/wiki/Design_controls" title="Design controls">controls</a></li>
+<li><a href="/wiki/Design_flow_(EDA)" title="Design flow (EDA)">flow</a></li>
+<li><a href="/wiki/Design_leadership" title="Design leadership">leadership</a></li>
+<li><a href="/wiki/Design_management" title="Design management">management</a></li>
+<li><a href="/wiki/Design_marker" title="Design marker">marker</a></li>
+<li><a href="/wiki/Design_methods" title="Design methods">methods</a></li>
+<li><a href="/wiki/Design_pattern" title="Design pattern">pattern</a></li>
+<li><a href="/wiki/Design_research" title="Design research">research</a></li>
+<li><a href="/wiki/Design_science" title="Design science">science</a></li>
+<li><a href="/wiki/Design_strategy" title="Design strategy">strategy</a></li>
+<li><a href="/wiki/Design_theory" title="Design theory">theory</a></li>
+<li><a href="/wiki/Design_thinking" title="Design thinking">thinking</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="ToolsIntellectual_propertyOrganizationsAwards" style="font-size:114%">
+<div class="hlist">
+<ul>
+<li>Tools</li>
+<li>Intellectual property</li>
+<li>Organizations</li>
+<li>Awards</li>
+</ul>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;"><a href="/wiki/Design_tool" title="Design tool">Tools</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithms-Aided_Design_(AAD)" title="Algorithms-Aided Design (AAD)">AAD</a></li>
+<li><a href="/wiki/Architectural_model" title="Architectural model">Architectural model</a></li>
+<li><a href="/wiki/Blueprint" title="Blueprint">Blueprint</a></li>
+<li><a href="/wiki/Comprehensive_layout" title="Comprehensive layout">Comprehensive layout</a></li>
+<li><a href="/wiki/Computer-aided_design" title="Computer-aided design">CAD</a>
+<ul>
+<li><a href="/wiki/Computer-aided_industrial_design" title="Computer-aided industrial design">CAID</a></li>
+<li><a href="/wiki/Virtual_home_design_software" title="Virtual home design software">Virtual home design software</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Computer-automated_design" title="Computer-automated design">CAutoD</a></li>
+<li><a href="/wiki/Design_quality_indicator" title="Design quality indicator">Design quality indicator</a></li>
+<li><a href="/wiki/Electronic_design_automation" title="Electronic design automation">Electronic design automation</a></li>
+<li><a href="/wiki/Flowchart" title="Flowchart">Flowchart</a></li>
+<li><a href="/wiki/Mockup" title="Mockup">Mockup</a></li>
+<li><a href="/wiki/Product_design_specification" title="Product design specification">Product design specification</a></li>
+<li><a href="/wiki/Prototype" title="Prototype">Prototype</a></li>
+<li><a href="/wiki/Sketch_(drawing)" title="Sketch (drawing)">Sketch</a></li>
+<li><a href="/wiki/Storyboard" title="Storyboard">Storyboard</a></li>
+<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li>
+<li><a href="/wiki/Web_design_program" title="Web design program">Web design program</a></li>
+<li><a href="/wiki/Website_wireframe" title="Website wireframe">Website wireframe</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Intellectual<br/>
+property</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Community_design" title="Community design">Community design</a></li>
+<li><a href="/wiki/Design_around" title="Design around">Design around</a></li>
+<li><a href="/wiki/Design_patent" title="Design patent">Design patent</a></li>
+<li><i><a href="/wiki/Geschmacksmuster" title="Geschmacksmuster">Geschmacksmuster</a></i></li>
+<li><a href="/wiki/Industrial_design_right" title="Industrial design right">Industrial design rights</a>
+<ul>
+<li><a href="/wiki/Industrial_design_rights_in_the_European_Union" title="Industrial design rights in the European Union">European Union</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Organizations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AIGA" title="AIGA">AIGA</a></li>
+<li><a href="/wiki/Chartered_Society_of_Designers" title="Chartered Society of Designers">Chartered Society of Designers</a></li>
+<li><a href="/wiki/Design_and_Industries_Association" title="Design and Industries Association">Design and Industries Association</a></li>
+<li><a href="/wiki/Design_Council" title="Design Council">Design Council</a></li>
+<li><a href="/wiki/International_Forum_Design" title="International Forum Design">International Forum Design</a></li>
+<li><a href="/wiki/The_Design_Society" title="The Design Society">The Design Society</a></li>
+<li><a href="/wiki/Design_Research_Society" title="Design Research Society">Design Research Society</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="background:lemonchiffon;">Awards</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/European_Design_Award" title="European Design Award">European Design Award</a></li>
+<li><a href="/wiki/German_Design_Award" title="German Design Award">German Design Award</a></li>
+<li><a href="/wiki/Good_Design_Award_(Chicago)" title="Good Design Award (Chicago)">Good Design Award (Chicago)</a></li>
+<li><a href="/wiki/Good_Design_Award_(Japan)" title="Good Design Award (Japan)">Good Design Award (Japan)</a></li>
+<li><a href="/wiki/Graphex" title="Graphex">Graphex</a></li>
+<li><a href="/wiki/IF_product_design_award" title="IF product design award">IF product design award</a></li>
+<li><a href="/wiki/James_Dyson_Award" title="James Dyson Award">James Dyson Award</a></li>
+<li><a href="/wiki/Prince_Philip_Designers_Prize" title="Prince Philip Designers Prize">Prince Philip Designers Prize</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-even hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-title" colspan="2" scope="col" style=";background:lemonchiffon;"><span style="float:left;width:6em"> </span>
+<div id="Related_topics" style="font-size:114%">Related topics</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aesthetics" title="Aesthetics">Aesthetics</a></li>
+<li><a href="/wiki/Concept_art" title="Concept art">Concept art</a></li>
+<li><a href="/wiki/Creative_industries" title="Creative industries">Creative industries</a></li>
+<li><a href="/wiki/Cultural_icon" title="Cultural icon">Cultural icon</a></li>
+<li><a href="/wiki/.design" title=".design">.design</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Futures_studies" title="Futures studies">Futures studies</a></li>
+<li><a href="/wiki/Intelligent_design" title="Intelligent design">Intelligent design</a></li>
+<li><a href="/wiki/New_product_development" title="New product development">New product development</a></li>
+<li><a href="/wiki/Philosophy_of_design" title="Philosophy of design">Philosophy of design</a></li>
+<li><a href="/wiki/Process_simulation" title="Process simulation">Process simulation</a></li>
+<li><a href="/wiki/Slow_design" title="Slow design">Slow design</a></li>
+<li><a href="/wiki/STEAM_fields" title="STEAM fields">STEAM fields</a></li>
+<li><a class="mw-redirect" href="/wiki/Unintelligent_design" title="Unintelligent design">Unintelligent design</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a></li>
+<li><a href="/wiki/Wicked_problem" title="Wicked problem">Wicked problem</a></li>
+</ul>
+<ul>
+<li>Design <a href="/wiki/Design_brief" title="Design brief">brief</a></li>
+<li><a href="/wiki/Design_change" title="Design change">change</a></li>
+<li><a href="/wiki/Design_classic" title="Design classic">classic</a></li>
+<li><a href="/wiki/Design_director" title="Design director">director</a></li>
+<li><a href="/wiki/Design_education" title="Design education">education</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_elements_and_principles" title="Design elements and principles">elements and principles</a></li>
+<li><a href="/wiki/Design_engineer" title="Design engineer">engineer</a></li>
+<li><a class="mw-redirect" href="/wiki/Design_firm" title="Design firm">firm</a></li>
+<li><a href="/wiki/Design_history" title="Design history">history</a></li>
+<li><a href="/wiki/Design_knowledge" title="Design knowledge">knowledge</a></li>
+<li><a href="/wiki/Design_language" title="Design language">language</a></li>
+<li><a href="/wiki/Design_life" title="Design life">life</a></li>
+<li><a href="/wiki/Design_load" title="Design load">load</a></li>
+<li><a href="/wiki/Design_museum" title="Design museum">museum</a></li>
+<li><a href="/wiki/Design_paradigm" title="Design paradigm">paradigm</a></li>
+<li><strong class="selflink">rationale</strong></li>
+<li><a href="/wiki/Design_review" title="Design review">review</a></li>
+<li><a href="/wiki/Design_specification" title="Design specification">specification</a></li>
+<li><a href="/wiki/Design_studio" title="Design studio">studio</a></li>
+<li><a href="/wiki/Design_technology" title="Design technology">technology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<ul>
+<li><a class="extiw" href="https://commons.wikimedia.org/wiki/category:Design" title="commons:category:Design"><span style="color:#002bb8">Commons</span></a></li>
+<li><a class="extiw" href="//en.wikibooks.org/wiki/Design" title="wikibooks:Design"><span style="color:#002bb8">Wikibooks</span></a></li>
+<li><a class="extiw" href="https://en.wikinews.org/wiki/Special:Search/Design" title="wikinews:Special:Search/Design"><span style="color:#002bb8">Wikinews</span></a></li>
+<li><a class="extiw" href="https://en.wikiquote.org/wiki/Design" title="wikiquote:Design"><span style="color:#002bb8">Wikiquote</span></a></li>
+<li><a class="extiw" href="https://en.wikisource.org/wiki/Category:Design" title="wikisource:Category:Design"><span style="color:#002bb8">Wikisource</span></a></li>
+<li><a class="extiw" href="https://en.wiktionary.org/wiki/Design" title="wiktionary:Design"><span style="color:#002bb8">Wiktionary</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Knowledge_management" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Knowledge_management" title="Template:Knowledge management"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Knowledge_management" title="Template talk:Knowledge management"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Knowledge_management&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Knowledge_management" style="font-size:114%"><a href="/wiki/Knowledge_management" title="Knowledge management">Knowledge management</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Main articles</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Personal_knowledge_management" title="Personal knowledge management">Personal knowledge management</a></li>
+<li><a href="/wiki/Knowledge_worker" title="Knowledge worker">Knowledge worker</a></li>
+<li><a href="/wiki/Intellectual_capital" title="Intellectual capital">Intellectual capital</a></li>
+<li><a href="/wiki/Chief_knowledge_officer" title="Chief knowledge officer">Chief knowledge officer</a></li>
+<li><a href="/wiki/Collective_intelligence" title="Collective intelligence">Collective intelligence</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related to electronic systems</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Enterprise_content_management" title="Enterprise content management">Enterprise content management</a></li>
+<li><a href="/wiki/Knowledge_management_software" title="Knowledge management software">Knowledge management software</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Community_of_practice" title="Community of practice">Community of practice</a></li>
+<li><strong class="selflink">Design rationale</strong></li>
+<li><a href="/wiki/Knowledge" title="Knowledge">Knowledge</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Journals</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Knowledge_Management_Research_and_Practice" title="Knowledge Management Research and Practice">Knowledge Management Research and Practice</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:10710154-0!*!0!!en!4!* and timestamp 20160916053328 and revision id 728518334
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Design_rationale&amp;oldid=728518334">https://en.wikipedia.org/w/index.php?title=Design_rationale&amp;oldid=728518334</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Argument_mapping" title="Category:Argument mapping">Argument mapping</a></li><li><a href="/wiki/Category:Design" title="Category:Design">Design</a></li><li><a href="/wiki/Category:Software_design" title="Category:Software design">Software design</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Design+rationale" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Design+rationale" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Design_rationale" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Design_rationale" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Design_rationale">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Design_rationale&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Design_rationale&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Design_rationale" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Design_rationale" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Design_rationale&amp;oldid=728518334" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Design_rationale&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q5264368" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Design_rationale&amp;id=728518334" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Design+rationale">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Design+rationale&amp;returnto=Design+rationale&amp;oldid=728518334&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Design_rationale&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q5264368#sitelinks-wikipedia" title="Add interlanguage links">Add links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 5 July 2016, at 22:44.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Design_rationale&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.240",
+            "walltime": "0.284",
+            "ppvisitednodes": {
+                "value": 1528,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 108641,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 13151,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 9,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  137.599      1 -total",
+                " 44.95%   61.853      1 Template:Reflist",
+                " 39.89%   54.889      1 Template:Design",
+                " 37.23%   51.224      1 Template:Navbox_with_collapsible_sections",
+                " 30.15%   41.483      1 Template:Cite_techreport",
+                " 12.30%   16.924      5 Template:Cite_book",
+                "  6.23%    8.571      3 Template:Navbox",
+                "  3.90%    5.370      1 Template:Hlist",
+                "  2.43%    3.350      1 Template:Knowledge_management",
+                "  0.81%    1.117      6 Template:Color"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.050",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2685274,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1268",
+            "timestamp": "20160916053328",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":123,"wgHostname":"mw1272"});});</script>
+</body>
+</html>
+

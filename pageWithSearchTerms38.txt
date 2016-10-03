@@ -1,0 +1,935 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Dependency_injection
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Dependency injection - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Dependency_injection","wgTitle":"Dependency injection","wgCurRevisionId":741676181,"wgRevisionId":741676181,"wgArticleId":1484696,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: external links","Commons category without a link on Wikidata","Software design patterns","Component-based software engineering","Software architecture","Articles with example Java code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Dependency_injection","wgRelevantArticleId":1484696,"wgRequestId":"V-B6VApAADgAAaJEMFYAAABU","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q635336","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Dependency_injection" rel="alternate"/>
+<link href="/w/index.php?title=Dependency_injection&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Dependency_injection&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Dependency_injection" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Dependency_injection rootpage-Dependency_injection skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Dependency injection</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, <b>dependency injection</b> is a <a href="/wiki/Software_design_pattern" title="Software design pattern">software design pattern</a> that implements <a href="/wiki/Inversion_of_control" title="Inversion of control">inversion of control</a> for resolving dependencies. A dependency is an <a href="/wiki/Object_(computer_science)" title="Object (computer science)">object</a> that can be used (a <a href="/wiki/Service_(systems_architecture)" title="Service (systems architecture)">service</a>). An injection is the passing of a dependency to a dependent object (a <a href="/wiki/Client_(computing)" title="Client (computing)">client</a>) that would use it. The service is made part of the client's <a href="/wiki/State_(computer_science)" title="State (computer science)">state</a>.<sup class="reference" id="cite_ref-JamesShore_1-0"><a href="#cite_note-JamesShore-1">[1]</a></sup> Passing the service to the client, rather than allowing a client to build or <a href="/wiki/Service_locator_pattern" title="Service locator pattern">find the service</a>, is the fundamental requirement of the pattern.</p>
+<p>Dependency injection allows a program design to follow the <a href="/wiki/Dependency_inversion_principle" title="Dependency inversion principle">dependency inversion principle</a>. The client delegates the responsibility of providing its dependencies to external code (the injector) . The client is not allowed to call the injector code.<sup class="reference" id="cite_ref-HollywoodPrinciple.c2_2-0"><a href="#cite_note-HollywoodPrinciple.c2-2">[2]</a></sup> It is the injecting code that constructs the services and calls the client to inject them. This means the client code does not need to know about the injecting code. The client does not need to know how to construct the services. The client does not need to know which actual services it is using. The client only needs to know about the intrinsic interfaces of the services because these define how the client may use the services. This separates the responsibilities of use and construction.</p>
+<p>There are three common means for a client to accept a dependency injection: <a href="/wiki/Mutator_method" title="Mutator method">setter</a>-, <a class="mw-redirect" href="/wiki/Interface_(object-oriented_programming)" title="Interface (object-oriented programming)">interface</a>- and <a href="/wiki/Constructor_(object-oriented_programming)" title="Constructor (object-oriented programming)">constructor</a>-based injection. Setter and constructor injection differ mainly by when they can be used. Interface injection differs in that the dependency is given a chance to control its own injection. All require that separate construction code (the injector) take responsibility for introducing a client and its dependencies to each other.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Taxonomy"><span class="tocnumber">1.1</span> <span class="toctext">Taxonomy</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Dependency_injection_frameworks"><span class="tocnumber">1.2</span> <span class="toctext">Dependency injection frameworks</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Advantages"><span class="tocnumber">1.3</span> <span class="toctext">Advantages</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Disadvantages"><span class="tocnumber">1.4</span> <span class="toctext">Disadvantages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Examples"><span class="tocnumber">2</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Without_dependency_injection"><span class="tocnumber">2.1</span> <span class="toctext">Without dependency injection</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Three_types_of_dependency_injection"><span class="tocnumber">2.2</span> <span class="toctext">Three types of dependency injection</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Other_types"><span class="tocnumber">2.2.1</span> <span class="toctext">Other types</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Constructor_injection"><span class="tocnumber">2.2.2</span> <span class="toctext">Constructor injection</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Setter_injection"><span class="tocnumber">2.2.3</span> <span class="toctext">Setter injection</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Interface_injection"><span class="tocnumber">2.2.4</span> <span class="toctext">Interface injection</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Constructor_injection_comparison"><span class="tocnumber">2.2.5</span> <span class="toctext">Constructor injection comparison</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Setter_injection_comparison"><span class="tocnumber">2.2.6</span> <span class="toctext">Setter injection comparison</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Interface_injection_comparison"><span class="tocnumber">2.2.7</span> <span class="toctext">Interface injection comparison</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#Assembling_examples"><span class="tocnumber">2.3</span> <span class="toctext">Assembling examples</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Assembly_comparison"><span class="tocnumber">2.4</span> <span class="toctext">Assembly comparison</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#AngularJS_example"><span class="tocnumber">2.5</span> <span class="toctext">AngularJS example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="quotebox" style="float: right; clear: right; margin: 0.5em 0 0.8em 1.4em; width:33%; padding: 6px; border: 1px solid #aaa; font-size: 88%; background-color: #F9F9F9;">
+<div class="" style="position: relative; text-align: left;">
+<div>
+<p><b>Dependency injection for five-year-olds</b></p>
+<p>When you go and get things out of the refrigerator for yourself, you can cause problems. You might leave the door open, you might get something Mommy or Daddy doesn't want you to have. You might even be looking for something we don't even have or which has expired.</p>
+<p>What you should be doing is stating a need, "I need something to drink with lunch," and then we will make sure you have something when you sit down to eat.</p>
+</div>
+</div>
+<cite style="display: block; text-align: left;">John Munsch, 28 October 2009.<sup class="reference" id="cite_ref-MarkSeeman2011P4_4-0"><a href="#cite_note-MarkSeeman2011P4-4">[4]</a></sup><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></cite></div>
+<p>Dependency injection separates the creation of a client's dependencies from the client's behavior, which allows program designs to be <a href="/wiki/Loose_coupling" title="Loose coupling">loosely</a> <a href="/wiki/Coupling_(computer_programming)" title="Coupling (computer programming)">coupled</a><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> and to follow the <a href="/wiki/Dependency_inversion_principle" title="Dependency inversion principle">dependency inversion</a> and <a href="/wiki/Single_responsibility_principle" title="Single responsibility principle">single responsibility principles</a>.<sup class="reference" id="cite_ref-MarkSeeman2011P4_4-1"><a href="#cite_note-MarkSeeman2011P4-4">[4]</a></sup><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup> It directly contrasts with the <a href="/wiki/Service_locator_pattern" title="Service locator pattern">service locator pattern</a>, which allows clients to know about the system they use to find dependencies.</p>
+<p>An injection, the basic unit of dependency injection, is not a new or a custom mechanism. It works in the same way that "<a href="/wiki/Parameter_(computer_programming)" title="Parameter (computer programming)">parameter passing</a>" works.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup> Referring to "parameter passing" as an injection carries the added implication that it's being done to isolate the client from details.</p>
+<p>An injection is also about what is in control of the passing (never the client) and is independent of how the passing is accomplished, whether by passing a reference or a value.</p>
+<p>Dependency injection involves four roles:</p>
+<ul>
+<li>the <b>service</b> object(s) to be used</li>
+<li>the <b>client</b> object that is depending on the services it uses</li>
+<li>the <a class="mw-redirect" href="/wiki/Interface_(object-oriented_programming)" title="Interface (object-oriented programming)"><b>interfaces</b></a> that define how the client may use the services</li>
+<li>the <b>injector</b>, which is responsible for constructing the services and injecting them into the client</li>
+</ul>
+<p>Any object that may be used can be considered a <b>service</b>. Any object that uses other objects can be considered a <b>client</b>. The names have nothing to do with what the objects are for and everything to do with the role the objects play in any one injection.</p>
+<p>The <b>interfaces</b> are the types the client expects its dependencies to be. At issue is what they make accessible. They may truly be interface types implemented by the services but also may be abstract classes or even the <a href="/wiki/Class_(computer_programming)#Abstract_and_Concrete" title="Class (computer programming)">concrete</a> services themselves, though this last would violate <a href="/wiki/Dependency_inversion_principle" title="Dependency inversion principle">DIP</a><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> and sacrifice the dynamic decoupling that enables testing. It's only required that the client does not know which they are and therefore never treats them as concrete, say by constructing or extending them.</p>
+<p>Given that the client has no concrete knowledge, so long as the what the client uses, the interfaces name and <a href="/wiki/Application_programming_interface" title="Application programming interface">API</a>, then the client won't need to change even if what is behind the interface changes. However, if the interface is <a href="/wiki/Code_refactoring" title="Code refactoring">refactored</a> from being a class to an interface type (or vice versa) the client will need to be recompiled.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> This is significant if the client and services are published separately. This unfortunate coupling is one that dependency injection cannot resolve.</p>
+<p>The <b>injector</b> introduces the services into the client. Often, it also constructs the client. An injector may connect together a very complex object graph by treating an object like a client and later as a service for another client. The injector may actually be many objects working together but may not be the client. The injector may be referred to by other names such as: assembler, provider, container, factory, builder, spring, construction code, or main.</p>
+<p>Dependency injection can be applied as a discipline, one that asks that all objects separate construction and behavior. Relying on a DI framework to perform construction can lead to forbidding the use of the <b>new</b> keyword, or, less strictly, only allow direct construction of <a href="/wiki/Value_object" title="Value object">value objects</a>.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup><sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup><sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></p>
+<h3><span class="mw-headline" id="Taxonomy">Taxonomy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=2" title="Edit section: Taxonomy">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a> (IoC) is more general than DI. Put simply, IoC means letting other code call you rather than insisting on doing the calling. An example of IoC without DI is the <a href="/wiki/Template_method_pattern" title="Template method pattern">template method pattern</a>. Here <a href="/wiki/Polymorphism_(computer_science)" title="Polymorphism (computer science)">polymorphism</a> is achieved through <a href="/wiki/Inheritance_(object-oriented_programming)#Subclasses_and_superclasses" title="Inheritance (object-oriented programming)">subclassing</a>, that is, <a href="/wiki/Inheritance_(object-oriented_programming)" title="Inheritance (object-oriented programming)">inheritance</a>.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<p>Dependency injection implements IoC through <a href="/wiki/Object_composition" title="Object composition">composition</a> so is often identical to that of the <a href="/wiki/Strategy_pattern" title="Strategy pattern">strategy pattern</a>, but while the strategy pattern is intended for dependencies to be interchangeable throughout an object's <a href="/wiki/Object_lifetime" title="Object lifetime">lifetime</a>, in dependency injection it may be that only a single instance of a dependency is used.<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> This still achieves polymorphism, but through <a href="/wiki/Delegation_pattern" title="Delegation pattern">delegation</a> and <a href="/wiki/Object_composition" title="Object composition">composition</a>.</p>
+<h3><span class="mw-headline" id="Dependency_injection_frameworks">Dependency injection frameworks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=3" title="Edit section: Dependency injection frameworks">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Application_framework" title="Application framework">Application frameworks</a> such as <a href="/wiki/Spring_Framework" title="Spring Framework">Spring</a>, <a class="mw-redirect" href="/wiki/Guice" title="Guice">Guice</a>, <a class="mw-redirect" href="/wiki/Play_framework" title="Play framework">Play framework</a>, <a class="external text" href="http://ruediste.github.io/salta/" rel="nofollow">Salta</a>, <a href="/wiki/HK2_DI_Kernel" title="HK2 DI Kernel">Glassfish HK2</a>, and <a href="/wiki/Managed_Extensibility_Framework" title="Managed Extensibility Framework">Managed Extensibility Framework</a> (MEF) support dependency injection but are not required to do dependency injection.<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup><sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup></p>
+<h3><span class="mw-headline" id="Advantages">Advantages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=4" title="Edit section: Advantages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Dependency injection allows a client the flexibility of being configurable. Only the client's behavior is fixed. The client may act on anything that supports the intrinsic interface the client expects.</li>
+<li>Dependency injection can be used to externalize a system's configuration details into configuration files allowing the system to be reconfigured without recompilation. Separate configurations can be written for different situations that require different implementations of components. This includes, but is not limited to, testing.</li>
+<li>Because dependency injection doesn't require any change in code behavior it can be applied to legacy code as a <a href="/wiki/Code_refactoring" title="Code refactoring">refactoring</a>. The result is clients that are more independent and that are easier to <a href="/wiki/Unit_testing" title="Unit testing">unit test</a> in isolation using <a href="/wiki/Method_stub" title="Method stub">stubs</a> or <a href="/wiki/Mock_object" title="Mock object">mock objects</a> that simulate other objects not under test. This ease of testing is often the first benefit noticed when using dependency injection.</li>
+<li>Dependency injection allows a client to remove all knowledge of a concrete implementation that it needs to use. This helps isolate the client from the impact of design changes and defects. It promotes reusability, testability and maintainability.<sup class="reference" id="cite_ref-JSR330_20-0"><a href="#cite_note-JSR330-20">[20]</a></sup></li>
+<li>Reduction of <a href="/wiki/Boilerplate_code" title="Boilerplate code">boilerplate code</a> in the application objects since all work to initialize or set up dependencies is handled by a provider component.<sup class="reference" id="cite_ref-JSR330_20-1"><a href="#cite_note-JSR330-20">[20]</a></sup></li>
+<li>Dependency injection allows concurrent or independent development. Two developers can independently develop <a href="/wiki/Class_(computer_programming)" title="Class (computer programming)">classes</a> that use each other, while only needing to know the interface the classes will communicate through. <a href="/wiki/Plug-in_(computing)" title="Plug-in (computing)">Plugins</a> are often developed by third party shops that never even talk to the developers who created the product that uses the plugins.</li>
+<li>Dependency Injection decreases coupling between a class and its dependency.<sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup><sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Disadvantages">Disadvantages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=5" title="Edit section: Disadvantages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Dependency injection creates clients that demand configuration details be supplied by construction code. This can be onerous when obvious defaults are available.</li>
+<li>Dependency injection can make code difficult to trace (read) because it separates behavior from construction. This means developers must refer to more files to follow how a system performs.</li>
+<li>Dependency injection typically requires more upfront development effort since one can not summon into being something right when and where it is needed but must ask that it be injected and then ensure that it has been injected.</li>
+<li>Dependency injection can cause an explosion of types, especially in languages that have explicit interface types, like Java and C# <sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup></li>
+<li>Dependency injection forces complexity to move out of classes and into the linkages between classes which might not always be desirable or easily managed.<sup class="reference" id="cite_ref-stackoverflow.com_24-0"><a href="#cite_note-stackoverflow.com-24">[24]</a></sup></li>
+<li>Ironically, dependency injection can encourage dependence on a dependency injection framework.<sup class="reference" id="cite_ref-stackoverflow.com_24-1"><a href="#cite_note-stackoverflow.com-24">[24]</a></sup><sup class="reference" id="cite_ref-sites.google.com_25-0"><a href="#cite_note-sites.google.com-25">[25]</a></sup><sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=6" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Without_dependency_injection">Without dependency injection</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=7" title="Edit section: Without dependency injection">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the following <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> example, the Client class contains a Service <a href="/wiki/Member_variable" title="Member variable">member variable</a> that is initialized by the Client <a href="/wiki/Constructor_(object-oriented_programming)" title="Constructor (object-oriented programming)">constructor</a>. The client controls which implementation of service is used and controls its construction. In this situation, the client is said to have a hard-coded dependency on ServiceExample.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// An example without dependency injection</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Client</span> <span class="o">{</span>
+    <span class="c1">// Internal reference to the service used by this client</span>
+    <span class="kd">private</span> <span class="n">Service</span> <span class="n">service</span><span class="o">;</span>
+
+    <span class="c1">// Constructor</span>
+    <span class="n">Client</span><span class="o">()</span> <span class="o">{</span>
+        <span class="c1">// Specify a specific implementation in the constructor instead of using dependency injection</span>
+        <span class="n">service</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Service</span><span class="o">();</span>
+    <span class="o">}</span>
+
+    <span class="c1">// Method within this client that uses the services</span>
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">greet</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="s">"Hello "</span> <span class="o">+</span> <span class="n">service</span><span class="o">.</span><span class="na">getName</span><span class="o">();</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>Dependency injection is an alternative technique to initialize the member variable rather than explicitly creating a service object as shown above.</p>
+<h3><span class="mw-headline" id="Three_types_of_dependency_injection">Three types of dependency injection</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=8" title="Edit section: Three types of dependency injection">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>There are at least three ways an object can receive a reference to an external module:<sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup></p>
+<ul>
+<li><i>constructor injection</i>: the dependencies are provided through a class constructor.</li>
+<li><i>setter injection</i>: the client exposes a setter method that the injector uses to inject the dependency.</li>
+<li><i>interface injection</i>: the dependency provides an injector method that will inject the dependency into any client passed to it. Clients must implement an interface that exposes a <a class="mw-redirect" href="/wiki/Setter_method" title="Setter method">setter method</a> that accepts the dependency.</li>
+</ul>
+<h4><span class="mw-headline" id="Other_types">Other types</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=9" title="Edit section: Other types">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>It is possible for DI frameworks to have other types of <i>injection</i> beyond those presented above.<sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup></p>
+<p>Testing frameworks may also use other types. Some modern testing frameworks do not even require that clients actively accept dependency injection thus making legacy code testable. In particular, in the Java language it is possible to use reflection to make private attributes public when testing and thus accept injections by assignment.<sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup></p>
+<p>Some attempts at Inversion of Control do not provide full removal of dependency but instead simply substitute one form of dependency for another. As a rule of thumb, if a programmer can look at nothing but the client code and tell what framework is being used, then the client has a hard-coded dependency on the framework.</p>
+<h4><span class="mw-headline" id="Constructor_injection">Constructor injection</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=10" title="Edit section: Constructor injection">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This method requires the client to provide a parameter in a <a href="/wiki/Constructor_(object-oriented_programming)" title="Constructor (object-oriented programming)">constructor</a> for the dependency.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Constructor</span>
+<span class="n">Client</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// Save the reference to the passed-in service inside this client</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Setter_injection">Setter injection</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=11" title="Edit section: Setter injection">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This method requires the client to provide a <a class="mw-redirect" href="/wiki/Setter_method" title="Setter method">setter method</a> for each dependency.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Setter method</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setService</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// Save the reference to the passed-in service inside this client</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Interface_injection">Interface injection</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=12" title="Edit section: Interface injection">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This is simply the client publishing a role interface to the setter methods of the client's dependencies. It can be used to establish how the injector should talk to the client when injecting dependencies.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Service setter interface.</span>
+<span class="kd">public</span> <span class="kd">interface</span> <span class="nc">ServiceSetter</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setService</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="c1">// Client class</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Client</span> <span class="kd">implements</span> <span class="n">ServiceSetter</span> <span class="o">{</span>
+    <span class="c1">// Internal reference to the service used by this client.</span>
+    <span class="kd">private</span> <span class="n">Service</span> <span class="n">service</span><span class="o">;</span>
+
+    <span class="c1">// Set the service that this client is to use.</span>
+    <span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setService</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Constructor_injection_comparison">Constructor injection comparison</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=13" title="Edit section: Constructor injection comparison">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Preferred when all dependencies can be constructed first because it can be used to ensure the client object is always in a valid state, as opposed to having some of its dependency references be null (not be set). However, on its own, it lacks the flexibility to have its dependencies changed later. This can be a first step towards making the client <a href="/wiki/Immutable_object" title="Immutable object">immutable</a> and therefore <a href="/wiki/Thread_safety" title="Thread safety">thread safe</a>.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Constructor</span>
+<span class="n">Client</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">,</span> <span class="n">Service</span> <span class="n">otherService</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">service</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">InvalidParameterException</span><span class="o">(</span><span class="s">"service must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">otherService</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">InvalidParameterException</span><span class="o">(</span><span class="s">"otherService must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="c1">// Save the service references inside this client</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">otherService</span> <span class="o">=</span> <span class="n">otherService</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Setter_injection_comparison">Setter injection comparison</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=14" title="Edit section: Setter injection comparison">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Requires the client to provide a setter method for each dependency. This gives the freedom to manipulate the state of the dependency references at any time. This offers flexibility, but if there is more than one dependency to be injected, it is difficult for the client to ensure that all dependencies are injected before the client could be provided for use.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Set the service to be used by this client</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setService</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">service</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">InvalidParameterException</span><span class="o">(</span><span class="s">"service must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="c1">// Set the other service to be used by this client</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setOtherService</span><span class="o">(</span><span class="n">Service</span> <span class="n">otherService</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">otherService</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">InvalidParameterException</span><span class="o">(</span><span class="s">"otherService must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">otherService</span> <span class="o">=</span> <span class="n">otherService</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+<p>Because these injections happen independently there is no way to tell when the injector is finished wiring the client. A dependency can be left null simply by the injector failing to call its setter. This forces the check that injection was completed from when the client is assembled to whenever it is used.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Set the service to be used by this client</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setService</span><span class="o">(</span><span class="n">Service</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">service</span> <span class="o">=</span> <span class="n">service</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="c1">// Set the other service to be used by this client</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setOtherService</span><span class="o">(</span><span class="n">Service</span> <span class="n">otherService</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">otherService</span> <span class="o">=</span> <span class="n">otherService</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="c1">// Check the service references of this client</span>
+<span class="kd">private</span> <span class="kt">void</span> <span class="nf">validateState</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">service</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">IllegalStateException</span><span class="o">(</span><span class="s">"service must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">otherService</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">throw</span> <span class="k">new</span> <span class="n">IllegalStateException</span><span class="o">(</span><span class="s">"otherService must not be null"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="c1">// Method that uses the service references</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">doSomething</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">validateState</span><span class="o">();</span>
+    <span class="n">service</span><span class="o">.</span><span class="na">doYourThing</span><span class="o">();</span>
+    <span class="n">otherService</span><span class="o">.</span><span class="na">doYourThing</span><span class="o">();</span>
+<span class="o">}</span>
+</pre></div>
+<h4><span class="mw-headline" id="Interface_injection_comparison">Interface injection comparison</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=15" title="Edit section: Interface injection comparison">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The advantage of interface injection is that dependencies can be completely ignorant of their clients yet can still receive a reference to a new client and, using it, send a reference-to-self back to the client. In this way, the dependencies become injectors. The key is that the injecting method (which could just be a classic setter method) is provided through an interface.</p>
+<p>An assembler is still needed to introduce the client and its dependencies. The assembler would take a reference to the client, cast it to the setter interface that sets that dependency, and pass it to that dependency object which would turn around and pass a reference-to-self back to the client.</p>
+<p>For interface injection to have value, the dependency must do something in addition to simply passing back a reference to itself. This could be acting as a factory or sub-assembler to resolve other dependencies, thus abstracting some details from the main assembler. It could be reference-counting so that the dependency knows how many clients are using it. If the dependency maintains a collection of clients, it could later inject them all with a different instance of itself.</p>
+<p><sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a class="mw-redirect" href="/wiki/Wikipedia:AUDIENCE" title="Wikipedia:AUDIENCE"><span title="Wikipedia:AUDIENCE">example needed</span></a></i>]</sup></p>
+<h3><span class="mw-headline" id="Assembling_examples">Assembling examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=16" title="Edit section: Assembling examples">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Manually assembling in main by hand is one way of implementing dependency injection.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Injector</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// Build the dependencies first</span>
+        <span class="n">Service</span> <span class="n">service</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ServiceExample</span><span class="o">();</span>
+
+        <span class="c1">// Inject the service, constructor style</span>
+        <span class="n">Client</span> <span class="n">client</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Client</span><span class="o">(</span><span class="n">service</span><span class="o">);</span>
+
+        <span class="c1">// Use the objects</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">client</span><span class="o">.</span><span class="na">greet</span><span class="o">());</span>
+    <span class="o">}</span>	
+<span class="o">}</span>
+</pre></div>
+<p>The example above constructs the object graph manually and then invokes it at one point to start it working. Important to note is that this injector is not pure. It uses one of the objects it constructs. It has a purely construction-only relationship with ServiceExample but mixes construction and using of Client. This should not be common. It is, however, unavoidable. Just like object oriented software needs a non-object oriented static method like main() to get started, a dependency injected object graph needs at least one (preferably only one) entry point to get the using started.</p>
+<p>Manual construction in the main method may not be this straight forward and may involve calling <a href="/wiki/Builder_pattern" title="Builder pattern">builders</a>, <a href="/wiki/Factory_(object-oriented_programming)" title="Factory (object-oriented programming)">factories</a>, or other <a href="/wiki/Creational_pattern" title="Creational pattern">construction patterns</a> as well. This can be fairly advanced and abstract. The line is crossed from manual dependency injection to <a href="/wiki/Software_framework" title="Software framework">framework</a> dependency injection once the constructing code is no longer custom to the application and is instead universal.<sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></p>
+<p>Frameworks like <a href="/wiki/Spring_Framework" title="Spring Framework">Spring</a> can construct these same objects and wire them together before returning a reference to client. Notice that all mention of ServiceExample has been removed from the code.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">org.springframework.beans.factory.BeanFactory</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.ApplicationContext</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.support.ClassPathXmlApplicationContext</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Injector</span> <span class="o">{</span>
+
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+
+		<span class="c1">// -- Assembling objects -- //</span>
+
+        	<span class="n">BeanFactory</span> <span class="n">beanfactory</span><span class="o">=</span><span class="k">new</span> <span class="n">ClassPathXmlApplicationContext</span><span class="o">(</span><span class="s">"Beans.xml"</span><span class="o">);</span>
+
+	        <span class="n">Client</span> <span class="n">client</span><span class="o">=(</span><span class="n">Client</span><span class="o">)</span><span class="n">beanfactory</span><span class="o">.</span><span class="na">getBean</span><span class="o">(</span><span class="s">"client"</span><span class="o">);</span>
+
+		<span class="c1">// -- Using objects -- //</span>
+		
+		<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span> <span class="n">client</span><span class="o">.</span><span class="na">greet</span><span class="o">()</span> <span class="o">);</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>Frameworks like Spring allow assembly details to be externalized in configuration files. This code (above) constructs objects and wires them together according to Beans.xml (below). ServiceExample is still constructed even though it's only mentioned below. A long and complex object graph can be defined this way and the only class mentioned in code would be the one with the entry point method, which in this case is greet().</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+ <span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+ <span class="nt">&lt;beans</span> <span class="na">xmlns=</span><span class="s">"http://www.springframework.org/schema/beans"</span>
+  <span class="na">xmlns:xsi=</span><span class="s">"http://www.w3.org/2001/XMLSchema-instance"</span>
+  <span class="na">xsi:schemaLocation=</span><span class="s">"http://www.springframework.org/schema/beans</span>
+<span class="s">  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">"service"</span> <span class="na">class=</span><span class="s">"ServiceExample"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/bean&gt;</span>
+
+    <span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">"client"</span> <span class="na">class=</span><span class="s">"Client"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;constructor-arg</span> <span class="na">value=</span><span class="s">"service"</span> <span class="nt">/&gt;</span>        
+    <span class="nt">&lt;/bean&gt;</span>
+<span class="nt">&lt;/beans&gt;</span>
+</pre></div>
+<p>In the example above Client and Service have not had to undergo any changes to be provided by spring. They are allowed to remain simple <a href="/wiki/Plain_Old_Java_Object" title="Plain Old Java Object">POJOs</a>.<sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup><sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup><sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup> This shows how spring can connect services and clients that are completely ignorant of its existence. This could not be said if spring annotations are added to the classes. By keeping spring specific annotations and calls from spreading out among many classes, the system stays only loosely dependent on spring.<sup class="reference" id="cite_ref-sites.google.com_25-1"><a href="#cite_note-sites.google.com-25">[25]</a></sup> This can be important if the system intends to outlive spring.</p>
+<p>The choice to keep POJOs pure doesn't come without cost. Rather than spending the effort to develop and maintain complex configuration files it is possible to simply use annotations to mark classes and let spring do the rest of the work. Resolving dependencies can be simple if they follow a convention such as matching by type or by name. This is choosing <a href="/wiki/Convention_over_configuration" title="Convention over configuration">convention over configuration</a>.<sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup> It is also arguable that, when refactoring to another framework, removing framework specific annotations would be a trivial part of the task<sup class="reference" id="cite_ref-35"><a href="#cite_note-35">[35]</a></sup> and many injection annotations are now standardized.<sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup><sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">org.springframework.beans.factory.BeanFactory</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.ApplicationContext</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.AnnotationConfigApplicationContext</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Injector</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// Assemble the objects</span>
+        <span class="n">BeanFactory</span> <span class="n">beanfactory</span> <span class="o">=</span> <span class="k">new</span> <span class="n">AnnotationConfigApplicationContext</span><span class="o">(</span><span class="n">MyConfiguration</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+        <span class="n">Client</span> <span class="n">client</span> <span class="o">=</span> <span class="n">beanfactory</span><span class="o">.</span><span class="na">getBean</span><span class="o">(</span><span class="n">Client</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+
+        <span class="c1">// Use the objects</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">client</span><span class="o">.</span><span class="na">greet</span><span class="o">());</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.Bean</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.ComponentScan</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">org.springframework.context.annotation.Configuration</span><span class="o">;</span>
+
+<span class="nd">@ComponentScan</span>
+<span class="kd">static</span> <span class="kd">class</span> <span class="nc">MyConfiguration</span> <span class="o">{</span>
+    <span class="nd">@Bean</span>
+    <span class="kd">public</span> <span class="n">Client</span> <span class="nf">client</span><span class="o">(</span><span class="n">ServiceExample</span> <span class="n">service</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="n">Client</span><span class="o">(</span><span class="n">service</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="nd">@Component</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">ServiceExample</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="s">"World!"</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Assembly_comparison">Assembly comparison</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=17" title="Edit section: Assembly comparison">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The different injector implementations (factories, <a href="/wiki/Service_locator_pattern" title="Service locator pattern">service locators</a>, and dependency injection containers) are not that different as far as dependency injection is concerned. What makes all the difference is where they are allowed to be used. Move calls to a factory or a service locator out of the client and into main and suddenly main makes a fairly good dependency injection container.</p>
+<p>By moving all knowledge of the injector out, a clean client, free of knowledge of the outside world, is left behind. However, any object that uses other objects can be considered a client. The object that contains main is no exception. This main object is not using dependency injection. It's actually using the service locator pattern. This can't be avoided because the choice of service implementations must be made somewhere.</p>
+<p>Externalizing the dependencies into configuration files doesn't change this fact. What makes this reality part of a good design is that the service locator is not spread throughout the code base. It's confined to one place per application. This leaves the rest of the code base free to use dependency injection to make clean clients.</p>
+<h3><span class="mw-headline" id="AngularJS_example">AngularJS example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=18" title="Edit section: AngularJS example">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the <a href="/wiki/AngularJS" title="AngularJS">AngularJS</a> framework, there are only three ways a component (object or function) can directly access its dependencies:</p>
+<ol>
+<li>The component can create the dependency, typically using the <code>new</code> operator.</li>
+<li>The component can look up the dependency, by referring to a global variable.</li>
+<li>The component can have the dependency passed to it where it is needed.</li>
+</ol>
+<p>The first two options of creating or looking up dependencies are not optimal because they hard code the dependency to the component. This makes it difficult, if not impossible, to modify the dependencies. This is especially problematic in tests, where it is often desirable to provide mock dependencies for test isolation.</p>
+<p>The third option is the most viable, since it removes the responsibility of locating the dependency from the component. The dependency is simply handed to the component.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">function</span> <span class="nx">SomeClass</span><span class="p">(</span><span class="nx">greeter</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">greeter</span> <span class="o">=</span> <span class="nx">greeter</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">SomeClass</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">doSomething</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">greeter</span><span class="p">.</span><span class="nx">greet</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+<p>In the above example <code>SomeClass</code> is not concerned with creating or locating the greeter dependency, it is simply handed the greeter when it is instantiated.</p>
+<p>This is desirable, but it puts the responsibility of getting hold of the dependency on the code that constructs <code>SomeClass</code>.</p>
+<p>To manage the responsibility of dependency creation, each AngularJS application has an injector. The injector is a service locator that is responsible for construction and look-up of dependencies.</p>
+<p>Here is an example of using the injector service:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="c1">// Provide the wiring information in a module</span>
+<span class="kd">var</span> <span class="nx">myModule</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myModule'</span><span class="p">,</span> <span class="p">[]);</span>
+
+<span class="c1">// Teach the injector how to build a greeter service. </span>
+<span class="c1">// Notice that greeter is dependent on the $window service. </span>
+<span class="c1">// The greeter service is an object that</span>
+<span class="c1">// contains a greet method.</span>
+<span class="nx">myModule</span><span class="p">.</span><span class="nx">factory</span><span class="p">(</span><span class="s1">'greeter'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$window</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="nx">greet</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">$window</span><span class="p">.</span><span class="nx">alert</span><span class="p">(</span><span class="nx">text</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+<span class="p">});</span>
+</pre></div>
+<p>Create a new injector that can provide components defined in the <code>myModule</code> module and request our greeter service from the injector. (This is usually done automatically by the AngularJS bootstrap).</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">var</span> <span class="nx">injector</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">injector</span><span class="p">([</span><span class="s1">'myModule'</span><span class="p">,</span> <span class="s1">'ng'</span><span class="p">]);</span>
+<span class="kd">var</span> <span class="nx">greeter</span> <span class="o">=</span> <span class="nx">injector</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'greeter'</span><span class="p">);</span>
+</pre></div>
+<p>Asking for dependencies solves the issue of hard coding, but it also means that the injector needs to be passed throughout the application. Passing the injector breaks the <a href="/wiki/Law_of_Demeter" title="Law of Demeter">Law of Demeter</a>. To remedy this, we use a declarative notation in our HTML templates, to hand the responsibility of creating components over to the injector, as in this example:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="o">&lt;</span><span class="nx">div</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">controller</span><span class="o">=</span><span class="s2">"MyController"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">ng</span><span class="o">-</span><span class="nx">click</span><span class="o">=</span><span class="s2">"sayHello()"</span><span class="o">&gt;</span><span class="nx">Hello</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+<span class="o">&lt;</span><span class="err">/div&gt;</span>
+<span class="kd">function</span> <span class="nx">MyController</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">greeter</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">$scope</span><span class="p">.</span><span class="nx">sayHello</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">greeter</span><span class="p">.</span><span class="nx">greet</span><span class="p">(</span><span class="s1">'Hello World'</span><span class="p">);</span>
+  <span class="p">};</span>
+<span class="p">}</span>
+</pre></div>
+<p>When AngularJS compiles the HTML, it processes the <code>ng-controller</code> directive, which in turn asks the injector to create an instance of the controller and its dependencies.</p>
+<pre>
+injector.instantiate(MyController);
+</pre>
+<p>This is all done behind the scenes. Notice that by having the <code>ng-controller</code> ask the injector to instantiate the class, it can satisfy all of the dependencies of <code>MyController</code> without the controller ever knowing about the injector. This is the best outcome. The application code simply declares the dependencies it needs, without having to deal with the injector. This setup does not break the Law of Demeter.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Architecture_description_language" title="Architecture description language">Architecture description language</a></li>
+<li><a class="mw-redirect" href="/wiki/Factory_pattern" title="Factory pattern">Factory pattern</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+<li><a href="/wiki/Plug-in_(computing)" title="Plug-in (computing)">Plug-in (computing)</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy pattern</a></li>
+<li><a href="/wiki/AngularJS" title="AngularJS">AngularJS</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=20" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-JamesShore-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-JamesShore_1-0">^</a></b></span> <span class="reference-text"><cite class="citation web">I.T., Titanium. <a class="external text" href="http://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html" rel="nofollow">"James Shore: Dependency Injection Demystified"</a>. <i>www.jamesshore.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=James+Shore%3A+Dependency+Injection+Demystified&amp;rft.aufirst=Titanium&amp;rft.aulast=I.T.&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.jamesshore.com%2FBlog%2FDependency-Injection-Demystified.html&amp;rft.jtitle=www.jamesshore.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-HollywoodPrinciple.c2-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-HollywoodPrinciple.c2_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://c2.com/cgi/wiki?HollywoodPrinciple" rel="nofollow">"HollywoodPrinciple"</a>. <i><a class="external free" href="http://c2.com" rel="nofollow">http://c2.com</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-19</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=HollywoodPrinciple&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fc2.com%2Fcgi%2Fwiki%3FHollywoodPrinciple&amp;rft.jtitle=http%3A%2F%2Fc2.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">External link in <code style="color:inherit; border:inherit; padding:inherit;">|website=</code> (<a href="/wiki/Help:CS1_errors#param_has_ext_link" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://martinfowler.com/articles/injection.html" rel="nofollow">"Inversion of Control Containers and the Dependency Injection pattern"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=Inversion+of+Control+Containers+and+the+Dependency+Injection+pattern&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmartinfowler.com%2Farticles%2Finjection.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-MarkSeeman2011P4-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-MarkSeeman2011P4_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-MarkSeeman2011P4_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Seeman, Mark (October 2011). <i>Dependency Injection in .NET</i>. Manning Publications. p. 4. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/9781935182504" title="Special:BookSources/9781935182504">9781935182504</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.aufirst=Mark&amp;rft.aulast=Seeman&amp;rft.btitle=Dependency+Injection+in+.NET&amp;rft.date=2011-10&amp;rft.genre=book&amp;rft.isbn=9781935182504&amp;rft.pages=4&amp;rft.pub=Manning+Publications&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://philkildea.co.uk/james/books/Dependency.Injection.in.NET.pdf" rel="nofollow">"Dependency Injection in NET"</a> <span style="font-size:85%;">(PDF)</span>. <i><a class="external free" href="http://philkildea.co.uk" rel="nofollow">http://philkildea.co.uk</a></i>. p. 4<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Dependency+Injection+in+NET&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fphilkildea.co.uk%2Fjames%2Fbooks%2FDependency.Injection.in.NET.pdf&amp;rft.jtitle=http%3A%2F%2Fphilkildea.co.uk&amp;rft.pages=4&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">External link in <code style="color:inherit; border:inherit; padding:inherit;">|website=</code> (<a href="/wiki/Help:CS1_errors#param_has_ext_link" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://stackoverflow.com/questions/1638919/how-to-explain-dependency-injection-to-a-5-year-old" rel="nofollow">"How to explain dependency injection to a 5-year-old?"</a>. <i>stackoverflow.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=How+to+explain+dependency+injection+to+a+5-year-old%3F&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F1638919%2Fhow-to-explain-dependency-injection-to-a-5-year-old&amp;rft.jtitle=stackoverflow.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web">Seemann, Mark. <a class="external text" href="http://blog.ploeh.dk/2010/04/07/DependencyInjectionisLooseCoupling/" rel="nofollow">"Dependency Injection is Loose Coupling"</a>. <i>blog.ploeh.dk</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-28</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Dependency+Injection+is+Loose+Coupling&amp;rft.aufirst=Mark&amp;rft.aulast=Seemann&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ploeh.dk%2F2010%2F04%2F07%2FDependencyInjectionisLooseCoupling%2F&amp;rft.jtitle=blog.ploeh.dk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Niko Schwarz, Mircea Lungu, Oscar Nierstrasz, “Seuss: Decoupling responsibilities from static methods for fine-grained configurability”, Journal of Object Technology, Volume 11, no. 1 (April 2012), pp. 3:1-23</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html" rel="nofollow">"Passing Information to a Method or a Constructor (The Java™ Tutorials &gt; Learning the Java Language &gt; Classes and Objects)"</a>. <i>docs.oracle.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Passing+Information+to+a+Method+or+a+Constructor+%28The+Java%84%A2+Tutorials+%3E+++++++++++++++++++++Learning+the+Java+Language+%3E+Classes+and+Objects%29&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fdocs.oracle.com%2Fjavase%2Ftutorial%2Fjava%2FjavaOO%2Farguments.html&amp;rft.jtitle=docs.oracle.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.codeproject.com/Articles/538536/A-curry-of-Dependency-Inversion-Principle-DIP-Inve" rel="nofollow">"A curry of Dependency Inversion Principle (DIP), Inversion of Control (IoC), Dependency Injection (DI) and IoC Container - CodeProject"</a>. <i>www.codeproject.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-08-08</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=A+curry+of+Dependency+Inversion+Principle+%28DIP%29%2C+Inversion+of+Control+%28IoC%29%2C+Dependency+Injection+%28DI%29+and+IoC+Container+-+CodeProject&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.codeproject.com%2FArticles%2F538536%2FA-curry-of-Dependency-Inversion-Principle-DIP-Inve&amp;rft.jtitle=www.codeproject.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://programmers.stackexchange.com/questions/257976/how-to-force-program-to-an-interface-without-using-a-java-interface-in-java-1" rel="nofollow">"How to force "program to an interface" without using a java Interface in java 1.6"</a>. <i>programmers.stackexchange.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-19</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=How+to+force+%22program+to+an+interface%22+without+using+a+java+Interface+in+java+1.6&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fprogrammers.stackexchange.com%2Fquestions%2F257976%2Fhow-to-force-program-to-an-interface-without-using-a-java-interface-in-java-1&amp;rft.jtitle=programmers.stackexchange.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://misko.hevery.com/2008/09/30/to-new-or-not-to-new/" rel="nofollow">"To "new" or not to "new"…"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=To+%22new%22+or+not+to+%22new%22%A6&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmisko.hevery.com%2F2008%2F09%2F30%2Fto-new-or-not-to-new%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.loosecouplings.com/2011/01/how-to-write-testable-code-overview.html" rel="nofollow">"How to write testable code"</a>. <i>www.loosecouplings.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=How+to+write+testable+code&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.loosecouplings.com%2F2011%2F01%2Fhow-to-write-testable-code-overview.html&amp;rft.jtitle=www.loosecouplings.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.ethanresnick.com/blog/testableCode.html" rel="nofollow">"Writing Clean, Testable Code"</a>. <i>www.ethanresnick.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Writing+Clean%2C+Testable+Code&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ethanresnick.com%2Fblog%2FtestableCode.html&amp;rft.jtitle=www.ethanresnick.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web">Sironi, Giorgio. <a class="external text" href="http://www.giorgiosironi.com/2009/07/when-to-inject-distinction-between.html" rel="nofollow">"When to inject: the distinction between newables and injectables - Invisible to the eye"</a>. <i>www.giorgiosironi.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=When+to+inject%3A+the+distinction+between+newables+and+injectables+-+Invisible+to+the+eye&amp;rft.aufirst=Giorgio&amp;rft.aulast=Sironi&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.giorgiosironi.com%2F2009%2F07%2Fwhen-to-inject-distinction-between.html&amp;rft.jtitle=www.giorgiosironi.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://stackoverflow.com/questions/6550700/inversion-of-control-vs-dependency-injection" rel="nofollow">"Inversion of Control vs Dependency Injection"</a>. <i>stackoverflow.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-08-05</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Inversion+of+Control+vs+Dependency+Injection&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F6550700%2Finversion-of-control-vs-dependency-injection&amp;rft.jtitle=stackoverflow.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://stackoverflow.com/questions/4176520/what-is-the-difference-between-strategy-pattern-and-dependency-injection" rel="nofollow">"What is the difference between Strategy pattern and Dependency Injection?"</a>. <i>stackoverflow.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=What+is+the+difference+between+Strategy+pattern+and+Dependency+Injection%3F&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F4176520%2Fwhat-is-the-difference-between-strategy-pattern-and-dependency-injection&amp;rft.jtitle=stackoverflow.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.loosecouplings.com/2011/01/dependency-injection-using-di-container.html" rel="nofollow">"Dependency Injection != using a DI container"</a>. <i>www.loosecouplings.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Dependency+Injection+%21%3D+using+a+DI+container&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.loosecouplings.com%2F2011%2F01%2Fdependency-injection-using-di-container.html&amp;rft.jtitle=www.loosecouplings.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://blacksheep.parry.org/archives/diy-di/print/" rel="nofollow">"Black Sheep  » DIY-DI » Print"</a>. <i>blacksheep.parry.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Black+Sheep++%BB+DIY-DI+%BB+Print&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblacksheep.parry.org%2Farchives%2Fdiy-di%2Fprint%2F&amp;rft.jtitle=blacksheep.parry.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-JSR330-20"><span class="mw-cite-backlink">^ <a href="#cite_ref-JSR330_20-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-JSR330_20-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://jcp.org/en/jsr/detail?id=330" rel="nofollow">"The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 330"</a>. <i>jcp.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=The+Java+Community+Process%28SM%29+Program+-+JSRs%3A+Java+Specification+Requests+-+detail+JSR%23+330&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fjcp.org%2Fen%2Fjsr%2Fdetail%3Fid%3D330&amp;rft.jtitle=jcp.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.bryancook.net/2011/08/on-dependency-injection-and-violating.html" rel="nofollow">"the urban canuk, eh: On Dependency Injection and Violating Encapsulation Concerns"</a>. <i>www.bryancook.net</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=the+urban+canuk%2C+eh%3A+On+Dependency+Injection+and+Violating+Encapsulation+Concerns&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bryancook.net%2F2011%2F08%2Fon-dependency-injection-and-violating.html&amp;rft.jtitle=www.bryancook.net&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://msdn.microsoft.com/en-us/library/vstudio/hh323705(v=vs.100).aspx" rel="nofollow">"The Dependency Injection Design Pattern"</a>. <i>msdn.microsoft.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=The+Dependency+Injection+Design+Pattern&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fvstudio%2Fhh323705%28v%3Dvs.100%29.aspx&amp;rft.jtitle=msdn.microsoft.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.quora.com/What-are-the-advantages-and-disadvantages-when-we-are-implementing-the-dependency-injection" rel="nofollow">"What are the advantages and disadvantages when we are implementing the dependency injection? - Quora"</a>. <i>www.quora.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=What+are+the+advantages+and+disadvantages+when+we+are+implementing+the+dependency+injection%3F+-+Quora&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.quora.com%2FWhat-are-the-advantages-and-disadvantages-when-we-are-implementing-the-dependency-injection&amp;rft.jtitle=www.quora.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-stackoverflow.com-24"><span class="mw-cite-backlink">^ <a href="#cite_ref-stackoverflow.com_24-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-stackoverflow.com_24-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://stackoverflow.com/questions/2407540/what-are-the-downsides-to-using-dependency-injection" rel="nofollow">"What are the downsides to using Dependency Injection?"</a>. <i>stackoverflow.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=What+are+the+downsides+to+using+Dependency+Injection%3F&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F2407540%2Fwhat-are-the-downsides-to-using-dependency-injection&amp;rft.jtitle=stackoverflow.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-sites.google.com-25"><span class="mw-cite-backlink">^ <a href="#cite_ref-sites.google.com_25-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sites.google.com_25-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://sites.google.com/site/unclebobconsultingllc/blogs-by-robert-martin/dependency-injection-inversion" rel="nofollow">"Dependency Injection Inversion - Clean Coder"</a>. <i>sites.google.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Dependency+Injection+Inversion+-+Clean+Coder&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fsites.google.com%2Fsite%2Funclebobconsultingllc%2Fblogs-by-robert-martin%2Fdependency-injection-inversion&amp;rft.jtitle=sites.google.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.infoq.com/news/2010/01/dependency-injection-inversion" rel="nofollow">"Decoupling Your Application From Your Dependency Injection Framework"</a>. <i>InfoQ</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Decoupling+Your+Application+From+Your+Dependency+Injection+Framework&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.infoq.com%2Fnews%2F2010%2F01%2Fdependency-injection-inversion&amp;rft.jtitle=InfoQ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web">Martin Fowler (2004-01-23). <a class="external text" href="http://www.martinfowler.com/articles/injection.html#FormsOfDependencyInjection" rel="nofollow">"Inversion of Control Containers and the Dependency Injection pattern - Forms of Dependency Injection"</a>. Martinfowler.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2014-03-22</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.au=Martin+Fowler&amp;rft.btitle=Inversion+of+Control+Containers+and+the+Dependency+Injection+pattern+-+Forms+of+Dependency+Injection&amp;rft.date=2004-01-23&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.martinfowler.com%2Farticles%2Finjection.html%23FormsOfDependencyInjection&amp;rft.pub=Martinfowler.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://yan.codehaus.org/Dependency+Injection+Types" rel="nofollow">"Yan - Dependency Injection Types"</a>. Yan.codehaus.org<span class="reference-accessdate">. Retrieved <span class="nowrap">2013-12-11</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=Yan+-+Dependency+Injection+Types&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fyan.codehaus.org%2FDependency%2BInjection%2BTypes&amp;rft.pub=Yan.codehaus.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/AccessibleObject.html" rel="nofollow">"AccessibleObject (Java Platform SE 7)"</a>. <i>docs.oracle.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=AccessibleObject+%28Java+Platform+SE+7%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oracle.com%2Fjavase%2F7%2Fdocs%2Fapi%2Fjava%2Flang%2Freflect%2FAccessibleObject.html&amp;rft.jtitle=docs.oracle.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFRiehle2000">Riehle, Dirk (2000), <a class="external text" href="http://www.riehle.org/computer-science/research/dissertation/diss-a4.pdf" rel="nofollow"><i>Framework Design: A Role Modeling Approach</i></a> <span style="font-size:85%;">(PDF)</span>, <a href="/wiki/ETH_Zurich" title="ETH Zurich">Swiss Federal Institute of Technology</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.aufirst=Dirk&amp;rft.aulast=Riehle&amp;rft.btitle=Framework+Design%3A+A+Role+Modeling+Approach&amp;rft.date=2000&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.riehle.org%2Fcomputer-science%2Fresearch%2Fdissertation%2Fdiss-a4.pdf&amp;rft.pub=Swiss+Federal+Institute+of+Technology&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://springtips.blogspot.com/2007/07/pojo-with-annotations-is-not-plain.html" rel="nofollow">"Spring Tips: A POJO with annotations is not Plain"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=Spring+Tips%3A+A+POJO+with+annotations+is+not+Plain&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fspringtips.blogspot.com%2F2007%2F07%2Fpojo-with-annotations-is-not-plain.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://techtracer.com/2007/04/07/annotations-in-pojo-a-boon-or-a-curse/" rel="nofollow">"Annotations in POJO – a boon or a curse? | Techtracer"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=Annotations+in+POJO+%93+a+boon+or+a+curse%3F+%7C+Techtracer&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechtracer.com%2F2007%2F04%2F07%2Fannotations-in-pojo-a-boon-or-a-curse%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://books.google.com/books?id=FCVnsq1ZUI0C&amp;pg=PA64&amp;lpg=PA64&amp;dq=spring+pojo+annotation+free&amp;source=bl&amp;ots=YzORtPWR8g&amp;sig=6evcrQuZzscyLIT6uggpyCKn5Sc&amp;hl=en&amp;sa=X&amp;ei=4GCaVcb7EoWMNpC0mdgM&amp;ved=0CGIQ6AEwCQ#v=onepage&amp;q=spring%20pojo%20annotation%20free&amp;f=false" rel="nofollow">"Pro Spring Dynamic Modules for OSGi Service Platforms"</a>. APress<span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-06</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.btitle=Pro+Spring+Dynamic+Modules+for+OSGi+Service+Platforms&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DFCVnsq1ZUI0C%26pg%3DPA64%26lpg%3DPA64%26dq%3Dspring%2Bpojo%2Bannotation%2Bfree%26source%3Dbl%26ots%3DYzORtPWR8g%26sig%3D6evcrQuZzscyLIT6uggpyCKn5Sc%26hl%3Den%26sa%3DX%26ei%3D4GCaVcb7EoWMNpC0mdgM%26ved%3D0CGIQ6AEwCQ%23v%3Donepage%26q%3Dspring%2520pojo%2520annotation%2520free%26f%3Dfalse&amp;rft.pub=APress&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.captaindebug.com/2011/08/is-convention-over-configuration-going.html#.VapTMvlVhHx" rel="nofollow">"Captain Debug's Blog: Is 'Convention Over Configuration' Going Too Far?"</a>. <i>www.captaindebug.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Captain+Debug%27s+Blog%3A+Is+%98Convention+Over+Configuration%99+Going+Too+Far%3F&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.captaindebug.com%2F2011%2F08%2Fis-convention-over-configuration-going.html%23.VapTMvlVhHx&amp;rft.jtitle=www.captaindebug.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><cite class="citation web">Decker, Colin. <a class="external text" href="http://blog.cgdecker.com/2010/01/whats-issue-with-inject.html" rel="nofollow">"What's the issue with @Inject? | Colin's Devlog"</a>. <i>blog.cgdecker.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=What%27s+the+issue+with+%40Inject%3F+%7C+Colin%27s+Devlog&amp;rft.aufirst=Colin&amp;rft.aulast=Decker&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.cgdecker.com%2F2010%2F01%2Fwhats-issue-with-inject.html&amp;rft.jtitle=blog.cgdecker.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite class="citation web">Morling, Gunnar (2012-11-18). <a class="external text" href="http://musingsofaprogrammingaddict.blogspot.com/2012/11/dagger-new-java-dependency-injection.html" rel="nofollow">"Dagger - A new Java dependency injection framework"</a>. <i>Dagger - A new Java dependency injection framework - Musings of a Programming Addict</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=Dagger+-+A+new+Java+dependency+injection+framework&amp;rft.aufirst=Gunnar&amp;rft.aulast=Morling&amp;rft.date=2012-11-18&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmusingsofaprogrammingaddict.blogspot.com%2F2012%2F11%2Fdagger-new-java-dependency-injection.html&amp;rft.jtitle=Dagger+-+A+new+Java+dependency+injection+framework+-+Musings+of+a+Programming+Addict&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.jcp.org/en/jsr/detail?id=330" rel="nofollow">"The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 330"</a>. <i>www.jcp.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-07-18</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADependency+injection&amp;rft.atitle=The+Java+Community+Process%28SM%29+Program+-+JSRs%3A+Java+Specification+Requests+-+detail+JSR%23+330&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.jcp.org%2Fen%2Fjsr%2Fdetail%3Fid%3D330&amp;rft.jtitle=www.jcp.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Dependency_injection&amp;action=edit&amp;section=21" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Dependency_injection" title="commons:Category:Dependency injection">Dependency injection</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://www.theserverside.com/tt/articles/article.tss?l=IOCBeginners" rel="nofollow">A beginners guide to Dependency Injection</a></li>
+<li><a class="external text" href="http://www.ddj.com/185300375" rel="nofollow">Dependency Injection &amp; Testable Objects: Designing loosely coupled and testable objects</a> - Jeremy Weiskotten; <a href="/wiki/Dr._Dobb%27s_Journal" title="Dr. Dobb's Journal">Dr. Dobb's Journal</a>, May 2006.</li>
+<li><a class="external text" href="http://msdn.microsoft.com/en-us/magazine/cc163739.aspx" rel="nofollow">Design Patterns: Dependency Injection -- MSDN Magazine, September 2005</a></li>
+<li><a class="external text" href="http://martinfowler.com/articles/injection.html" rel="nofollow">Martin Fowler's original article that introduced the term Dependency Injection</a></li>
+<li><a class="external text" href="http://martinfowler.com/eaaCatalog/plugin.html" rel="nofollow">P of EAA: Plugin</a></li>
+<li><a class="external text" href="http://www.javalobby.org/articles/di-heritage/" rel="nofollow">The Rich Engineering Heritage Behind Dependency Injection</a> - <a class="new" href="/w/index.php?title=Andrew_McVeigh&amp;action=edit&amp;redlink=1" title="Andrew McVeigh (page does not exist)">Andrew McVeigh</a> - A detailed history of dependency injection.</li>
+<li><a class="external text" href="http://tutorials.jenkov.com/dependency-injection/index.html" rel="nofollow">What is Dependency Injection?</a> - An alternative explanation - Jakob Jenkov</li>
+<li><a class="external text" href="http://www.developer.com/net/net/article.php/3636501" rel="nofollow">Writing More Testable Code with Dependency Injection -- Developer.com, October 2006</a></li>
+<li><a class="external text" href="http://msdn.microsoft.com/en-us/library/dd460648.aspx" rel="nofollow">Managed Extensibility Framework Overview -- MSDN</a></li>
+<li><a class="external text" href="https://web.archive.org/web/20120425150101/http://www.midmarsh.co.uk/planetjava/tutorials/language/WatchingtheObservables.PDF" rel="nofollow">Old fashioned description of the Dependency Mechanism by Hunt 1998</a></li>
+<li><a class="external text" href="http://blog.thecodewhisperer.com/2011/12/07/refactor-your-way-to-a-dependency-injection-container/" rel="nofollow">Refactor Your Way to a Dependency Injection Container</a></li>
+<li><a class="external text" href="http://php-di.org/doc/understanding-di.html" rel="nofollow">Understanding DI in PHP</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><strong class="selflink">Dependency injection</strong></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1484696-0!*!0!!en!4!* and timestamp 20160929004627 and revision id 741676181
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Dependency_injection&amp;oldid=741676181">https://en.wikipedia.org/w/index.php?title=Dependency_injection&amp;oldid=741676181</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Component-based_software_engineering" title="Category:Component-based software engineering">Component-based software engineering</a></li><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_external_links" title="Category:CS1 errors: external links">CS1 errors: external links</a></li><li><a href="/wiki/Category:Commons_category_without_a_link_on_Wikidata" title="Category:Commons category without a link on Wikidata">Commons category without a link on Wikidata</a></li><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Dependency+injection" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Dependency+injection" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Dependency_injection" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Dependency_injection" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Dependency_injection">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Dependency_injection&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Dependency_injection&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Dependency_injection" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Dependency_injection" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Dependency_injection&amp;oldid=741676181" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Dependency_injection&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q635336" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Dependency_injection&amp;id=741676181" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Dependency+injection">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Dependency+injection&amp;returnto=Dependency+injection&amp;oldid=741676181&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Dependency_injection&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Vkl%C3%A1d%C3%A1n%C3%AD_z%C3%A1vislost%C3%AD" hreflang="cs" lang="cs" title="Vkládání závislostí – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Dependency_Injection" hreflang="de" lang="de" title="Dependency Injection – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Inyecci%C3%B3n_de_dependencias" hreflang="es" lang="es" title="Inyección de dependencias – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%B2%D8%B1%DB%8C%D9%82_%D9%86%DB%8C%D8%A7%D8%B2%D9%85%D9%86%D8%AF%DB%8C" hreflang="fa" lang="fa" title="تزریق نیازمندی – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Injection_de_d%C3%A9pendances" hreflang="fr" lang="fr" title="Injection de dépendances – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9D%98%EC%A1%B4%EC%84%B1_%EC%A3%BC%EC%9E%85" hreflang="ko" lang="ko" title="의존성 주입 – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Dependency_injection" hreflang="it" lang="it" title="Dependency injection – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Dependency_injection" hreflang="he" lang="he" title="Dependency injection – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/Dependency_injection" hreflang="kk" lang="kk" title="Dependency injection – Kazakh">Қазақша</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Dependency_injection" hreflang="nl" lang="nl" title="Dependency injection – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E4%BE%9D%E5%AD%98%E6%80%A7%E3%81%AE%E6%B3%A8%E5%85%A5" hreflang="ja" lang="ja" title="依存性の注入 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wstrzykiwanie_zale%C5%BCno%C5%9Bci" hreflang="pl" lang="pl" title="Wstrzykiwanie zależności – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Inje%C3%A7%C3%A3o_de_depend%C3%AAncia" hreflang="pt" lang="pt" title="Injeção de dependência – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8" hreflang="ru" lang="ru" title="Внедрение зависимости – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%92%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7%D0%B0%D0%BB%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9" hreflang="uk" lang="uk" title="Впровадження залежностей – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5" hreflang="zh" lang="zh" title="依赖注入 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q635336#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 September 2016, at 00:46.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Dependency_injection&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.296",
+            "walltime": "1.076",
+            "ppvisitednodes": {
+                "value": 2103,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 86059,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 2084,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 9,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00% 1013.240      1 -total",
+                " 17.58%  178.105      1 Template:Reflist",
+                " 11.48%  116.270     34 Template:Cite_web",
+                "  2.64%   26.707      2 Template:Navbox",
+                "  2.62%   26.536      1 Template:Design_Patterns_patterns",
+                "  2.46%   24.955      1 Template:Example_needed",
+                "  2.32%   23.551      1 Template:Fix",
+                "  2.09%   21.155      1 Template:Commons_category",
+                "  1.99%   20.128      1 Template:Quote_box",
+                "  1.53%   15.552      1 Template:Ifempty"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.117",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3593453,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1279",
+            "timestamp": "20160929004627",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":134,"wgHostname":"mw1261"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,713 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Service-oriented_architecture
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Service-oriented architecture - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Service-oriented_architecture","wgTitle":"Service-oriented architecture","wgCurRevisionId":742134863,"wgRevisionId":742134863,"wgArticleId":666924,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: dates","CS1 Japanese-language sources (ja)","Use mdy dates from April 2015","Articles with weasel words from February 2015","Articles containing potentially dated statements from 2008","All articles containing potentially dated statements","Commons category with page title same as on Wikidata","Spoken articles","Articles with hAudio microformats","Wikipedia articles with GND identifiers","Software design patterns","Architectural pattern (computer science)","Enterprise application integration","Service-oriented (business computing)","Web services"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Service-oriented_architecture","wgRelevantArticleId":666924,"wgRequestId":"V-B4uwpAIC8AAAL5auoAAABL","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q220644","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.tmh.thumbnail.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.math.scripts%2Cstyles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Service-oriented_architecture" rel="alternate"/>
+<link href="/w/index.php?title=Service-oriented_architecture&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Service-oriented_architecture&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Service-oriented_architecture" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Service-oriented_architecture rootpage-Service-oriented_architecture skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-spoken-icon"><a href="/wiki/File:En-Service-oriented_architecture.ogg" title="Listen to this article"><img alt="Listen to this article" data-file-height="96" data-file-width="128" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/30px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/40px-Sound-icon.svg.png 2x" width="20"/></a></div>
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Service-oriented architecture</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Weasel" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>contains <a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch">weasel words</a>: vague phrasing that often accompanies <a href="/wiki/Wikipedia:Neutral_point_of_view" title="Wikipedia:Neutral point of view">biased</a> or <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">unverifiable</a> information</b>. <span class="hide-when-compact">Such statements should be <a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Improving_weasel-worded_statements" title="Wikipedia:Manual of Style/Words to watch">clarified or removed</a>.</span> <small><i>(February 2015)</i></small></span></td>
+</tr>
+</table>
+<p>A Service-Oriented Architecture (SOA) in computer software design is an architectural style where in services are provided to the other components by <a class="mw-redirect" href="/wiki/Application_components" title="Application components">application components</a>, through a <a href="/wiki/Communications_protocol" title="Communications protocol">communication protocol</a> over a network. The basic fundamental principles of service oriented architecture is independent of vendors, products and technologies.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> A service is a discrete unit of functionality that can be accesssed remotely and acted upon and updated independently, such as an act of retrieving a credit card statement online.</p>
+<p>A service has four properties according to one of many definitions of SOA:<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<ol>
+<li>It logically represents a business activity with a specified outcome.</li>
+<li>It is self-contained.</li>
+<li>It is a <a href="/wiki/Black_box" title="Black box">black box</a> for its consumers.</li>
+<li>It may consist of other underlying services.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></li>
+</ol>
+<p>Different services can be used in conjunction to provide the functionality of a large <a class="mw-redirect" href="/wiki/Software_applications" title="Software applications">software application</a>.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> Service oriented architecture makes it easier for software components to communicate and cooperate over the network, without requiring any human interaction or changes in the underlying program. so that service candidates can be redesigned before their implementation.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Defining_concepts"><span class="tocnumber">2</span> <span class="toctext">Defining concepts</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#SOA_principles"><span class="tocnumber">3</span> <span class="toctext">SOA principles</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#SOA_patterns"><span class="tocnumber">4</span> <span class="toctext">SOA patterns</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Implementation_approaches"><span class="tocnumber">5</span> <span class="toctext">Implementation approaches</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Organizational_benefits"><span class="tocnumber">6</span> <span class="toctext">Organizational benefits</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Criticisms"><span class="tocnumber">7</span> <span class="toctext">Criticisms</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Extensions_and_variants"><span class="tocnumber">8</span> <span class="toctext">Extensions and variants</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Event-driven_architectures"><span class="tocnumber">8.1</span> <span class="toctext">Event-driven architectures</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Web_2.0"><span class="tocnumber">8.2</span> <span class="toctext">Web 2.0</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Microservices"><span class="tocnumber">8.3</span> <span class="toctext">Microservices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In SOA, services use protocols which describe how they <a href="/wiki/Message_passing" title="Message passing">pass</a> and parse messages using description <a href="/wiki/Metadata" title="Metadata">metadata</a>, this metadata describes both the functional characteristics of the service and quality-of-service characteristics. Service Oriented Architecture aims to allow users to combine large chunks of functionality to form applications which are built purely from existing services and combining them in an ad hoc manner. Service Orientation Architecture by its very nature relies on service orientation as a major principle for design. Service presents a simple interface to the requester that abstracts away the underlying complexity acting as a black box, Further users can also access these independent services without any knowledge of their internal implementation.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<h2><span class="mw-headline" id="Defining_concepts">Defining concepts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=2" title="Edit section: Defining concepts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Service-orientation" title="Service-orientation">Service-orientation</a> promotes <i><a href="/wiki/Loose_coupling" title="Loose coupling">loose coupling</a></i> between services. SOA separates functions into distinct units, or services,<sup class="reference" id="cite_ref-Bell_6-0"><a href="#cite_note-Bell-6">[6]</a></sup> which developers make accessible over a network in order to allow users to combine and reuse them in the production of applications. These services and their corresponding consumers communicate with each other by passing data in a well-defined, shared format, or by coordinating an activity between two or more services.<sup class="reference" id="cite_ref-Bell__7-0"><a href="#cite_note-Bell_-7">[7]</a></sup></p>
+<p>A Manifesto was published for Service Oriented Architecture in October, 2009. This Manifesto came up with six core values which are listed as follows<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></p>
+<ol>
+<li><b>Business value</b> is given more importance than technical strategy.</li>
+<li><b>Strategic goals</b> is given more importance than project-specific benefits.</li>
+<li><b>Intrinsic inter-operability</b> is given more importance than custom integration.</li>
+<li><b>Shared services</b> is given more importance than specific-purpose implementations.</li>
+<li><b>Flexibility</b> is given more importance than optimization.</li>
+<li><b>Evolutionary refinement</b> is given more importance than pursuit of initial perfection.</li>
+</ol>
+<p>SOA can be seen as part of the continuum which ranges from the older concept of <a href="/wiki/Distributed_computing" title="Distributed computing">distributed computing</a><sup class="reference" id="cite_ref-Bell_6-1"><a href="#cite_note-Bell-6">[6]</a></sup><sup class="reference" id="cite_ref-Erl_9-0"><a href="#cite_note-Erl-9">[9]</a></sup> and <a href="/wiki/Modular_programming" title="Modular programming">modular programming</a>, through SOA, and on to current practices of <a href="/wiki/Mashup_(web_application_hybrid)" title="Mashup (web application hybrid)">mashups</a>, <a class="mw-redirect" href="/wiki/SaaS" title="SaaS">SaaS</a>, and <a href="/wiki/Cloud_computing" title="Cloud computing">cloud computing</a> (which some see as the offspring of SOA).<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup></p>
+<h2><span class="mw-headline" id="SOA_principles">SOA principles</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=3" title="Edit section: SOA principles">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are no industry standards relating to the exact composition of a service-oriented architecture, although many industry sources have published their own principles. Some of these<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup><sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup><sup class="reference" id="cite_ref-Terl_13-0"><a href="#cite_note-Terl-13">[13]</a></sup><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup> include the following:</p>
+<ul>
+<li><i><a href="/wiki/Standardized_service_contract" title="Standardized service contract">Standardized service contract</a>:</i> Services adhere to a standard communications agreements, as defined collectively by one or more service-description documents within a given set of services.</li>
+<li><i>Service reference autonomy</i> (an aspect of loose coupling): The relationship between services is minimized to the level that they are only aware of their existence.</li>
+<li><i>Service location transparency</i> (an aspect of loose coupling): Services can be called from anywhere within the network that it is located no matter where it is present.</li>
+<li><i><a href="/wiki/Service_abstraction" title="Service abstraction">Service abstraction</a></i>: The services act as black boxes, that is their inner logic is hidden from the consumers.</li>
+<li><i><a href="/wiki/Service_autonomy_principle" title="Service autonomy principle">Service autonomy</a></i>: Services are independent and control the functionality they encapsulate, from a Design-time and a run-time perspective.</li>
+<li><i><a href="/wiki/Service_statelessness_principle" title="Service statelessness principle">Service statelessness</a></i>: Services are stateless that is either return the requested value or a give an exception hence minimizing resource use.</li>
+<li><i><a href="/wiki/Service_granularity_principle" title="Service granularity principle">Service granularity</a></i>: A principle to ensure services have an adequate size and scope. The functionality provided by the service to the user must be relevant.</li>
+<li><i>Service normalization</i>: Services are decomposed or consolidated (normalized) to minimize redundancy. In some, this may not be done, These are the cases where performance optimization, access, and aggregation are required.<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup></li>
+<li><i><a href="/wiki/Service_composability_principle" title="Service composability principle">Service composability</a></i>: Services can be used to compose other services.</li>
+<li><i><a href="/wiki/Service_discovery" title="Service discovery">Service discovery</a></i>: Services are supplemented with communicative meta data by which they can be effectively discovered and interpreted.</li>
+<li><i><a href="/wiki/Service_reusability_principle" title="Service reusability principle">Service re usability</a></i>: Logic is divided into various services, to promote re use of code.</li>
+<li><i>Service <a class="mw-redirect" href="/wiki/Encapsulation_(computer_science)" title="Encapsulation (computer science)">encapsulation</a></i>: Many services which were not initially planned under SOA, may get encapsulated or become a part of SOA.</li>
+</ul>
+<h2><span class="mw-headline" id="SOA_patterns">SOA patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=4" title="Edit section: SOA patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Each SOA building block can play any of the three roles:</p>
+<ol>
+<li><b>Service provider</b><i>:</i> It creates a web service and provides its information to the service registry. Each provider debates upon a lot of hows and whys likes which service to expose, whom to give more importance: security or easy availability, what price to offer the service for and many more<i>.</i> The provider also has to decide what category the service should be listed in for a given broker service and what sort of trading partner agreements are required to use the service.</li>
+<li><b>Service broker</b>: Is is also known as the service registry. Its main functionality is to make the information regarding the web service available to any potential requester. Whoever implements the broker decides the scope of the broker. Public brokers are available anywhere and everywhere but private brokers are only available to a limited amount of public.</li>
+<li><b>Service requester/consumer</b>: It locates entries in the broker registry using various find operations and then binds to the service provider in order to invoke one of its web services. Whichever service the service-consumers need, they have to take it into the brokers, bind it with respective service and then use it. They can access multiple services if the service provides multiple services.</li>
+</ol>
+<p>The service consumer-provider relationship is governed by a <a class="mw-disambig" href="/wiki/Service_contract" title="Service contract">service contract</a>, which has a business part, a functional part and a technical part.</p>
+<ul>
+<li>Service <a href="/wiki/Contract" title="Contract">contract</a></li>
+<li><a class="mw-redirect" href="/wiki/Enterprise_Service_Bus" title="Enterprise Service Bus">Enterprise Service Bus</a> (ESB)</li>
+<li>Service Registry and Repository, e.g., UDDI was an early ,no longer actively supported attempt to provide a <a href="/wiki/Web_Services_Discovery" title="Web Services Discovery">Web Services Discovery</a></li>
+<li>Service composition (choreography, orchestration), e.g., in a <a href="/wiki/Workflow_management_system" title="Workflow management system">Workflow management system</a></li>
+<li>See pattern languages and books fore more patterns, e.g., "SOA Patterns" by A. Rotem-Gal-Oz,<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="Implementation_approaches">Implementation approaches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=5" title="Edit section: Implementation approaches">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Service Oriented Architecture can be implemented with <a href="/wiki/Web_service" title="Web service">Web services</a>.<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> This is done to make the functional building-blocks accessible over standard Internet protocols that are independent of platforms and programming languages. These services can represent either new applications or just wrappers around existing legacy systems to make them network-enabled.<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></p>
+<p>Implementers commonly build SOAs using web services standards (for example, SOAP) that have gained broad industry acceptance after recommendation of Version 1.2 from the W3C<sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup> (World Wide Web Consortium) in 2003. These standards (also referred to as <a href="/wiki/List_of_web_service_specifications" title="List of web service specifications">web service specifications</a>) also provide greater interoperability and some protection from lock-in to proprietary vendor software. One can, however, implement SOA using any service-based technology, such as <a href="/wiki/Jini" title="Jini">Jini</a>, <a class="mw-redirect" href="/wiki/CORBA" title="CORBA">CORBA</a> or <a class="mw-redirect" href="/wiki/Representational_State_Transfer" title="Representational State Transfer">REST</a>.</p>
+<p>Architectures can operate independently of specific technologies and can therefore be implemented using a wide range of technologies, including:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Web_services" title="Web services">Web services</a> based on WSDL and <a href="/wiki/SOAP" title="SOAP">SOAP</a></li>
+<li>Messaging, e.g., with ActiveMQ, JMS, RabbitMQ</li>
+<li>RESTful HTTP, with <a href="/wiki/Representational_state_transfer" title="Representational state transfer">Representational state transfer</a> (REST) constituting its own constraints-based architectural style</li>
+<li><a href="/wiki/OPC_Unified_Architecture" title="OPC Unified Architecture">OPC-UA</a></li>
+<li><a href="/wiki/Windows_Communication_Foundation" title="Windows Communication Foundation">WCF</a> (Microsoft's implementation of Web services, forming a part of WCF)</li>
+<li><a href="/wiki/Apache_Thrift" title="Apache Thrift">Apache Thrift</a></li>
+<li><a href="/wiki/SORCER" title="SORCER">SORCER</a></li>
+</ul>
+<p>Implementations can use one or more of these protocols and, for example, might use a file-system mechanism to communicate data following a defined interface specification between processes conforming to the SOA concept. The key is independent services with defined interfaces that can be called to perform their tasks in a standard way, without a service having foreknowledge of the calling application, and without the application having or needing knowledge of how the service actually performs its tasks. SOA enables the development of applications that are built by combining loosely coupled and <a class="mw-redirect" href="/wiki/Interoperable" title="Interoperable">interoperable</a> services.</p>
+<p>These services inter-operate based on a formal definition (or contract, e.g., WSDL) that is independent of the underlying platform and programming language. The interface definition <a href="/wiki/Information_hiding" title="Information hiding">hides the implementation</a> of the language-specific service. SOA-based systems can therefore function independently of development technologies and platforms (such as Java, .NET, etc.). Services written in C# running on .NET platforms and services written in Java running on <a href="/wiki/Java_Platform,_Enterprise_Edition" title="Java Platform, Enterprise Edition">Java EE</a> platforms, for example, can both be consumed by a common composite application (or client). Applications running on either platform can also consume services running on the other as web services that facilitate reuse. Managed environments can also wrap COBOL legacy systems and present them as software services.<sup><a href="/wiki/Service-oriented_architecture#cite_note-23" title="Service-oriented architecture">.</a></sup><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup></p>
+<p><a href="/wiki/High-level_programming_language" title="High-level programming language">High-level languages</a> such as <a class="mw-redirect" href="/wiki/BPEL" title="BPEL">BPEL</a> and specifications such as <a class="mw-redirect" href="/wiki/WS-CDL" title="WS-CDL">WS-CDL</a> and <a href="/wiki/WS-Coordination" title="WS-Coordination">WS-Coordination</a> extend the service concept by providing a method of defining and supporting orchestration of fine-grained services into more coarse-grained business services, which architects can in turn incorporate into workflows and business processes implemented in <a class="mw-redirect" href="/wiki/Composite_applications" title="Composite applications">composite applications</a> or <a href="/wiki/Enterprise_portal" title="Enterprise portal">portals</a><sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup></p>
+<p><a href="/wiki/Service-oriented_modeling" title="Service-oriented modeling">Service-oriented modeling</a> is an SOA framework that identifies the various disciplines that guide SOA practitioners to conceptualize, analyze, design, and architect their service-oriented assets. The <a href="/wiki/Service-oriented_modeling#Service-oriented_modeling_framework" title="Service-oriented modeling">Service-oriented modeling framework (SOMF)</a> offers a modeling language and a work structure or "map" depicting the various components that contribute to a successful service-oriented modeling approach. It illustrates the major elements that identify the "what to do" aspects of a service development scheme. The model enables practitioners to craft a <a href="/wiki/Project_plan" title="Project plan">project plan</a> and to identify the milestones of a service-oriented initiative. SOMF also provides a common modeling notation to address alignment between business and IT organizations.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:452px;"><a class="image" href="/wiki/File:SOA_Elements.png"><img alt="" class="thumbimage" data-file-height="1776" data-file-width="2701" height="296" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SOA_Elements.png/450px-SOA_Elements.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SOA_Elements.png/675px-SOA_Elements.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SOA_Elements.png/900px-SOA_Elements.png 2x" width="450"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOA_Elements.png" title="Enlarge"></a></div>
+Elements of SOA, by Dirk Krafzig, Karl Banke, and Dirk Slama<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:452px;"><a class="image" href="/wiki/File:SOA_Metamodel.svg"><img alt="" class="thumbimage" data-file-height="589" data-file-width="713" height="372" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/SOA_Metamodel.svg/450px-SOA_Metamodel.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/SOA_Metamodel.svg/675px-SOA_Metamodel.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/SOA_Metamodel.svg/900px-SOA_Metamodel.svg.png 2x" width="450"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SOA_Metamodel.svg" title="Enlarge"></a></div>
+SOA meta-model, The Linthicum Group, 2007</div>
+</div>
+</div>
+<h2><span class="mw-headline" id="Organizational_benefits">Organizational benefits</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=6" title="Edit section: Organizational benefits">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some <a href="/wiki/Enterprise_architect" title="Enterprise architect">enterprise architects</a> believe that SOA can help businesses respond more quickly and more cost-effectively to changing market conditions.<sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup> This style of <i>architecture</i> promotes reuse at the macro (service) level rather than micro (classes) level. It can also simplify interconnection to—and usage of—existing IT (legacy) assets.</p>
+<p>With SOA, the idea is that an organization can look at a problem holistically. A business has more overall control. Theoretically there would not be a mass of developers using whatever tool sets might please them. But rather they would be coding to a standard that is set within the business. They can also develop enterprise-wide SOA that encapsulates a business-oriented infrastructure. SOA has also been illustrated as a highway system providing efficiency for car drivers. The point being that if everyone had a car, but there was no highway anywhere, things would be limited and disorganized, in any attempt to get anywhere quickly or efficiently. IBM Vice President of Web Services Michael Liebow says that SOA "builds highways".<sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup></p>
+<p>In some respects, SOA could be regarded as an architectural evolution rather than as a revolution. It captures many of the <a href="/wiki/Best_practice" title="Best practice">best practices</a> of previous software architectures. In communications systems, for example, little development of solutions that use truly static bindings to talk to other equipment in the network has taken place. By embracing a SOA approach, such systems can position themselves to stress the importance of well-defined, highly inter-operable interfaces. Other predecessors of SOA include <a href="/wiki/Component-based_software_engineering" title="Component-based software engineering">Component-based software engineering</a> and Object-Oriented Analysis and Design (OOAD) of remote objects, for instance, in <a class="mw-redirect" href="/wiki/CORBA" title="CORBA">CORBA</a>.</p>
+<p>A service comprises a stand-alone unit of functionality available only via a formally defined interface. Services can be some kind of "nano-enterprises" that are easy to produce and improve. Also services can be "mega-corporations" constructed as the coordinated work of subordinate services. A mature rollout of SOA effectively defines the API of an organization.</p>
+<p>Reasons for treating the implementation of services as separate projects from larger projects include:</p>
+<ol>
+<li>Separation promotes the concept to the business that services can be delivered quickly and independently from the larger and slower-moving projects common in the organization. The business starts understanding systems and simplified user interfaces calling on services. This advocates <a href="/wiki/Agility" title="Agility">agility</a>. That is to say, it fosters business innovations and speeds up time-to-market.<sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup></li>
+<li>Separation promotes the decoupling of services from consuming projects. This encourages good design insofar as the service is designed without knowing who its consumers are.</li>
+<li>Documentation and test artifacts of the service are not embedded within the detail of the larger project. This is important when the service needs to be reused later.</li>
+</ol>
+<p>SOA promises to simplify testing indirectly. Services are autonomous, stateless, with fully documented interfaces, and separate from the cross-cutting concerns of the implementation. If an organization possesses appropriately defined test data, then a corresponding stub is built that reacts to the test data when a service is being built. A full set of regression tests, scripts, data, and responses is also captured for the service. The service can be tested as a 'black box' using existing stubs corresponding to the services it calls. Test environments can be constructed where the primitive and out-of-scope services are stubs, while the remainder of the mesh is test deployments of full services. As each interface is fully documented with its own full set of regression test documentation, it becomes simple to identify problems in test services. Testing evolves to merely validate that the test service operates according to its documentation, and finds gaps in documentation and test cases of all services within the environment. Managing the data state of <a class="mw-redirect" href="/wiki/Idempotent" title="Idempotent">idempotent</a> services is the only complexity.</p>
+<p>Examples may prove useful to aid in documenting a service to the level where it becomes useful. The documentation of some APIs within the Java Community Process provide good examples. As these are exhaustive, staff would typically use only important subsets. The 'ossjsa.pdf' file within <a href="/wiki/Java_Platform,_Standard_Edition" title="Java Platform, Standard Edition">JSR-89</a> exemplifies such a file.<sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup></p>
+<h2><span class="mw-headline" id="Criticisms">Criticisms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=7" title="Edit section: Criticisms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>SOA has been conflated with <a href="/wiki/Web_service" title="Web service">Web services</a>.;<sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup> however, Web services are only option to implement the patterns that comprise the SOA style. In the absence of native or binary forms of remote procedure call (RPC), applications could run more slowly and require more processing power, increasing costs. Most implementations do incur these overheads, but SOA can be implemented using technologies (for example, <a href="/wiki/Java_Business_Integration" title="Java Business Integration">Java Business Integration</a> (JBI), <a href="/wiki/Windows_Communication_Foundation" title="Windows Communication Foundation">Windows Communication Foundation</a> (WCF) and <a class="mw-redirect" href="/wiki/Data_distribution_service" title="Data distribution service">data distribution service</a> (DDS)) that do not depend on remote procedure calls or translation through XML. At the same time, emerging open-source XML parsing technologies (such as <a href="/wiki/VTD-XML" title="VTD-XML">VTD-XML</a>) and various XML-compatible binary formats promise to significantly improve SOA performance. Services implemented using JSON instead of XML do not suffer from this performance concern.<sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup><sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup><sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></p>
+<p>Stateful services require both the consumer and the provider to share the same consumer-specific context, which is either included in or referenced by messages exchanged between the provider and the consumer. This constraint has the drawback that it could reduce the overall <a href="/wiki/Scalability" title="Scalability">scalability</a> of the service provider if the service-provider needs to retain the shared context for each consumer. It also increases the coupling between a service provider and a consumer and makes switching service providers more difficult.<sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup> Ultimately, some critics feel that SOA services are still too constrained by applications they represent.<sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup></p>
+<p>A primary challenge faced by Service Oriented Architecture is managing of metadata. Environments based on Service Oriented Architecture include many services which communicate among each other to perform tasks. Due to the fact that the design may involve multiple services working in conjunction, an Application may generate millions of messages. Further services may belong to different organizations or even competing firms creating a huge trust issue. Thus SOA governance comes into the scheme of things.<sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup></p>
+<p>Another major problem faced by SOA is the lack of a uniform testing framework. There are no tools that provide the required features for testing these services in a Service Oriented Architecture. The major causes of difficulty are:<sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup></p>
+<ul>
+<li>Heterogeneity and complexity of solution.</li>
+<li>Huge set of testing combinations due to integration of autonomous services.</li>
+<li>Inclusion of services from different and competing vendors.</li>
+<li><a href="/wiki/Platform_as_a_service" title="Platform as a service">Platform</a> is continuously changing due to availability of new features and services.</li>
+</ul>
+<p>See <sup class="reference" id="cite_ref-35"><a href="#cite_note-35">[35]</a></sup> for additional challenges, partial solutions and research roadmap ionput regarding <a href="/wiki/Service-oriented_modeling" title="Service-oriented modeling">software service engineering</a></p>
+<h2><span class="mw-headline" id="Extensions_and_variants">Extensions and variants</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=8" title="Edit section: Extensions and variants">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Event-driven_architectures">Event-driven architectures</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=9" title="Edit section: Event-driven architectures">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>See <a href="/wiki/Event-driven_architecture" title="Event-driven architecture">Event-driven architecture</a></p>
+<h3><span class="mw-headline" id="Web_2.0">Web 2.0</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=10" title="Edit section: Web 2.0">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Tim_O%27Reilly" title="Tim O'Reilly">Tim O'Reilly</a> coined the term "<a href="/wiki/Web_2.0" title="Web 2.0">Web 2.0"</a> to describe a perceived, quickly growing set of web-based applications.<sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup> A topic that has experienced extensive coverage involves the relationship between Web 2.0 and Service-Oriented Architectures (SOAs).</p>
+<p>SOA is the philosophy of encapsulating application logic in services with a uniformly defined interface and making these publicly available via discovery mechanisms. The notion of complexity-hiding and reuse, but also the concept of loosely coupling services has inspired researchers to elaborate on similarities between the two philosophies, SOA and Web 2.0, and their respective applications. Some argue Web 2.0 and SOA have significantly different elements and thus can not be regarded "parallel philosophies", whereas others consider the two concepts as complementary and regard Web 2.0 as the global SOA.<sup class="reference" id="cite_ref-sch_37-0"><a href="#cite_note-sch-37">[37]</a></sup></p>
+<p>The philosophies of Web 2.0 and SOA serve different user needs and thus expose differences with respect to the design and also the technologies used in real-world applications. However, as of 2008<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Service-oriented_architecture&amp;action=edit">[update]</a></sup>, use-cases demonstrated the potential of combining technologies and principles of both Web 2.0 and SOA.<sup class="reference" id="cite_ref-sch_37-1"><a href="#cite_note-sch-37">[37]</a></sup></p>
+<h3><span class="mw-headline" id="Microservices">Microservices</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=11" title="Edit section: Microservices">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Microservices" title="Microservices">Microservices</a> are a modern interpretation of service-oriented architectures used to build <a href="/wiki/Distributed_computing" title="Distributed computing">distributed software systems</a>. Services in a microservice architecture<sup class="reference" id="cite_ref-38"><a href="#cite_note-38">[38]</a></sup> are <a href="/wiki/Process_(computing)" title="Process (computing)">processes</a> that communicate with each other over the <a href="/wiki/Computer_network" title="Computer network">network</a> in order to fulfill a goal. These services use technology agnostic <a href="/wiki/Communications_protocol" title="Communications protocol">protocols</a>,<sup class="reference" id="cite_ref-martinfowler_39-0"><a href="#cite_note-martinfowler-39">[39]</a></sup> which aid in encapsulating choice of language and frameworks, making their choice a concern internal to the service. Microservices is a new realisation and implementation approach to SOA, which has become popular since 2014 (and after the introduction of <a href="/wiki/DevOps" title="DevOps">DevOps</a>), which also emphasizes continuousl deployment and other agile practices.<sup class="reference" id="cite_ref-40"><a href="#cite_note-40">[40]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/OASIS_SOA_Reference_Model" title="OASIS SOA Reference Model">OASIS SOA Reference Model</a></li>
+<li><a href="/wiki/Service_(systems_architecture)" title="Service (systems architecture)">Service (systems architecture)</a></li>
+<li><a href="/wiki/SOA_governance" title="SOA governance">SOA governance</a></li>
+<li><a href="/wiki/Service_granularity_principle" title="Service granularity principle">Service granularity principle</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://msdn.microsoft.com/en-us/library/bb833022.aspx" rel="nofollow">"Chapter 1: Service Oriented Architecture (SOA)"</a>. <i>msdn.microsoft.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Chapter+1%3A+Service+Oriented+Architecture+%28SOA%29&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fbb833022.aspx&amp;rft.jtitle=msdn.microsoft.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.opengroup.org/standards/soa" rel="nofollow">http://www.opengroup.org/standards/soa</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.opengroup.org/soa/source-book/soa/soa.htm" rel="nofollow">"What Is SOA?"</a>. <i>www.opengroup.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=What+Is+SOA%3F&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.opengroup.org%2Fsoa%2Fsource-book%2Fsoa%2Fsoa.htm&amp;rft.jtitle=www.opengroup.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation book">Velte, Anthony T. (2010). <i>Cloud Computing: A Practical Approach</i>. McGraw Hill. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-07-162694-1" title="Special:BookSources/978-0-07-162694-1">978-0-07-162694-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.aufirst=Anthony+T.&amp;rft.aulast=Velte&amp;rft.btitle=Cloud+Computing%3A+A+Practical+Approach&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=978-0-07-162694-1&amp;rft.pub=McGraw+Hill&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://web.archive.org/web/20081209120916/http://www-128.ibm.com/developerworks/library/ws-migratesoa/" rel="nofollow">"Migrating to a service-oriented architecture, Part 1"</a>. 2008-12-09<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=Migrating+to+a+service-oriented+architecture%2C+Part+1&amp;rft.date=2008-12-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fweb.archive.org%2Fweb%2F20081209120916%2Fhttp%3A%2F%2Fwww-128.ibm.com%2Fdeveloperworks%2Flibrary%2Fws-migratesoa%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Bell-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Bell_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Bell_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Michael Bell (2008). "Introduction to Service-Oriented Modeling". <i>Service-Oriented Modeling: Service Analysis, Design, and Architecture</i>. Wiley &amp; Sons. p. 3. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-470-14111-3" title="Special:BookSources/978-0-470-14111-3">978-0-470-14111-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Introduction+to+Service-Oriented+Modeling&amp;rft.au=Michael+Bell&amp;rft.btitle=Service-Oriented+Modeling%3A+Service+Analysis%2C+Design%2C+and+Architecture&amp;rft.date=2008&amp;rft.genre=bookitem&amp;rft.isbn=978-0-470-14111-3&amp;rft.pages=3&amp;rft.pub=Wiley+%26+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Bell_-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Bell_7-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Michael Bell (2010). <i>SOA Modeling Patterns for Service-Oriented Discovery and Analysis</i>. Wiley &amp; Sons. p. 390. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-470-48197-4" title="Special:BookSources/978-0-470-48197-4">978-0-470-48197-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.au=Michael+Bell&amp;rft.btitle=SOA+Modeling+Patterns+for+Service-Oriented+Discovery+and+Analysis&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=978-0-470-48197-4&amp;rft.pages=390&amp;rft.pub=Wiley+%26+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.soa-manifesto.org/" rel="nofollow">"SOA Manifesto"</a>. <i>www.soa-manifesto.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=SOA+Manifesto&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.soa-manifesto.org%2F&amp;rft.jtitle=www.soa-manifesto.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Erl-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Erl_9-0">^</a></b></span> <span class="reference-text">Thomas Erl (June 2005). <i>About the Principles</i>. Serviceorientation.org</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://apsblog.burtongroup.com/2009/01/soa-is-dead-long-live-services.html" rel="nofollow">"Application Platform Strategies Blog: SOA is Dead; Long Live Services"</a>. Apsblog.burtongroup.com. January 5, 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">August 13,</span> 2012</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=Application+Platform+Strategies+Blog%3A+SOA+is+Dead%3B+Long+Live+Services&amp;rft.date=2009-01-05&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fapsblog.burtongroup.com%2F2009%2F01%2Fsoa-is-dead-long-live-services.html&amp;rft.pub=Apsblog.burtongroup.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Yvonne Balzer <a class="external text" href="http://www-128.ibm.com/developerworks/webservices/library/ws-improvesoa/" rel="nofollow">Improve your SOA project plans</a>, <i>IBM</i>, July 16, 2004</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web">Microsoft Windows Communication Foundation team (2012). <a class="external text" href="http://msdn.microsoft.com/en-us/library/bb972954.aspx" rel="nofollow">"Principles of Service Oriented Design"</a>. <i>msdn.microsoft.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">September 3,</span> 2012</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Principles+of+Service+Oriented+Design&amp;rft.au=Microsoft+Windows+Communication+Foundation+team&amp;rft.date=2012&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fbb972954.aspx&amp;rft.jtitle=msdn.microsoft.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Terl-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-Terl_13-0">^</a></b></span> <span class="reference-text">Principles by <a href="/wiki/Thomas_Erl" title="Thomas Erl">Thomas Erl</a> of SOA Systems Inc. <a class="external text" href="http://soaprinciples.com" rel="nofollow">eight specific service-orientation principles</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation book">M. Hadi Valipour; Bavar AmirZafari; Kh. Niki Maleki; Negin Daneshpour (2009). "A brief survey of software architecture concepts and service oriented architecture". <i>2009 2nd IEEE International Conference on Computer Science and Information Technology</i>. pp. 34–38. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FICCSIT.2009.5235004" rel="nofollow">10.1109/ICCSIT.2009.5235004</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1-4244-4519-6" title="Special:BookSources/978-1-4244-4519-6">978-1-4244-4519-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=A+brief+survey+of+software+architecture+concepts+and+service+oriented+architecture&amp;rft.au=Bavar+AmirZafari&amp;rft.au=Kh.+Niki+Maleki&amp;rft.au=M.+Hadi+Valipour&amp;rft.au=Negin+Daneshpour&amp;rft.btitle=2009+2nd+IEEE+International+Conference+on+Computer+Science+and+Information+Technology&amp;rft.date=2009&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FICCSIT.2009.5235004&amp;rft.isbn=978-1-4244-4519-6&amp;rft.pages=34-38&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation book">Tony Shan (2004). "Building a service-oriented e <i>Banking</i> platform". <i>IEEE International Conference on</i> Services <i>Computing, 2004. (SCC 2004). Proceedings. 2004</i>. pp. 237–244. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FSCC.2004.1358011" rel="nofollow">10.1109/SCC.2004.1358011</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-7695-2225-4" title="Special:BookSources/0-7695-2225-4">0-7695-2225-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Building+a+service-oriented+e+Banking+platform&amp;rft.au=Tony+Shan&amp;rft.btitle=IEEE+International+Conference+on+Services+Computing%2C+2004.+%28SCC+2004%29.+Proceedings.+2004&amp;rft.date=2004&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FSCC.2004.1358011&amp;rft.isbn=0-7695-2225-4&amp;rft.pages=237-244&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>2004</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation book">Rotem-Gal-Oz, Arnon (2012). <i>SOA Patterns</i>. Mannikng Publications. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1933988269" title="Special:BookSources/978-1933988269">978-1933988269</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.aufirst=Arnon&amp;rft.aulast=Rotem-Gal-Oz&amp;rft.btitle=SOA+Patterns&amp;rft.date=2012&amp;rft.genre=book&amp;rft.isbn=978-1933988269&amp;rft.pub=Mannikng+Publications&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Brandner, M., Craes, M., Oellermann, F., Zimmermann, O., Web Services-Oriented Architecture in Production in the Finance Industry, Informatik-Spektrum 02/2004, Springer-Verlag, 2004</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.ibm.com/support/knowledgecenter/en/SSEQTP_6.1.0/com.ibm.websphere.base.iseries.doc/info/iseries/ae/cwbs_soawbs.html" rel="nofollow">"www.ibm.com"</a><span class="reference-accessdate">. Retrieved Retrieved 2016-09-10.</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=www.ibm.com&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2Fsupport%2Fknowledgecenter%2Fen%2FSSEQTP_6.1.0%2Fcom.ibm.websphere.base.iseries.doc%2Finfo%2Fiseries%2Fae%2Fcwbs_soawbs.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">Check date values in: <code style="color:inherit; border:inherit; padding:inherit;">|access-date=</code> (<a href="/wiki/Help:CS1_errors#bad_date" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.w3.org/2003/06/soap12-pressrelease" rel="nofollow">"SOAP Version 1.2 の公開について (W3C 勧告)"</a> (in Japanese). W3.org<span class="reference-accessdate">. Retrieved <span class="nowrap">August 13,</span> 2012</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=SOAP+Version+1.2+%E3%81%AE%E5%85%AC%E9%96%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6+%28W3C+%E5%A7%E5%91%8A%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.w3.org%2F2003%2F06%2Fsoap12-pressrelease&amp;rft.pub=W3.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web">Okishima, Haruhiru (2006). <a class="external text" href="http://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol42-3/paper18.pdf" rel="nofollow">". "Case Study of System Architecture that use COBOL assets<span style="padding-right:0.2em;">"</span>"</a> <span style="font-size:85%;">(PDF)</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.aufirst=Haruhiru&amp;rft.aulast=Okishima&amp;rft.btitle=.+%22Case+Study+of+System+Architecture+that+use+COBOL+assets%22&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.fujitsu.com%2Fglobal%2Fdocuments%2Fabout%2Fresources%2Fpublications%2Ffstj%2Farchives%2Fvol42-3%2Fpaper18.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation journal">Kyriazis, Dimosthenis; Tserpes, Konstantinos; Menychtas, Andreas; Sarantidis, Ioannis; Varvarigou, Theodora (2009-04-25). <a class="external text" href="http://onlinelibrary.wiley.com/doi/10.1002/cpe.1343/abstract" rel="nofollow">"Service selection and workflow mapping for Grids: an approach exploiting quality-of-service information"</a>. <i>Concurrency and Computation: Practice and Experience</i>. <b>21</b> (6): 739–766. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1002%2Fcpe.1343" rel="nofollow">10.1002/cpe.1343</a>. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a> <a class="external text" href="//www.worldcat.org/issn/1532-0634" rel="nofollow">1532-0634</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Service+selection+and+workflow+mapping+for+Grids%3A+an+approach+exploiting+quality-of-service+information&amp;rft.aufirst=Dimosthenis&amp;rft.aulast=Kyriazis&amp;rft.au=Menychtas%2C+Andreas&amp;rft.au=Sarantidis%2C+Ioannis&amp;rft.au=Tserpes%2C+Konstantinos&amp;rft.au=Varvarigou%2C+Theodora&amp;rft.date=2009-04-25&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Fcpe.1343%2Fabstract&amp;rft_id=info%3Adoi%2F10.1002%2Fcpe.1343&amp;rft.issn=1532-0634&amp;rft.issue=6&amp;rft.jtitle=Concurrency+and+Computation%3A+Practice+and+Experience&amp;rft.pages=739-766&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=21"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><i>Enterprise SOA</i>. Prentice Hall, 2005</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Christopher Koch <a class="external text" href="http://www.cio.com.au/index.php/id;1350140708" rel="nofollow">A New Blueprint For The Enterprise</a>, <i>CIO Magazine</i>, March 1, 2005</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">Elizabeth Millard (January 2005). "Building a Better Process". <i>Computer User</i>. Page 20.</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">Brayan Zimmerli (November 11, 2009) <a class="external text" href="http://www.brayan.com/projects/BenefitsOfSOA/default.htm" rel="nofollow">Business Benefits of SOA</a>, <i>University of Applied Science of Northwestern Switzerland, School of Business</i></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a class="external text" href="http://web.archive.org/web/20110726070810/https://cds.sun.com/is-bin/INTERSHOP.enfinity/WFS/CDS-CDS_Developer-Site/en_US/-/USD/ViewProductDetail-Start?ProductRef=7854-oss_service_activation-1.0-fr-spec-oth-JSpec@CDS-CDS_Developer" rel="nofollow">JSR-000089 OSS Service Activation API Specification 1.0 Final Release</a>. sun.com</span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web">Joe McKendrick. <a class="external text" href="http://www.zdnet.com/blog/service-oriented/bray-soa-too-complex-just-vendor-bs/597" rel="nofollow">"Bray: SOA too complex; 'just vendor BS<span style="padding-right:0.2em;">'</span>"</a>. ZDNet.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.au=Joe+McKendrick&amp;rft.btitle=Bray%3A+SOA+too+complex%3B+%27just+vendor+BS%27&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.zdnet.com%2Fblog%2Fservice-oriented%2Fbray-soa-too-complex-just-vendor-bs%2F597&amp;rft.pub=ZDNet&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text">Jimmy Zhang (February 20, 2008) <a class="external text" href="http://xml.sys-con.com/read/453082.htm" rel="nofollow">"Index XML Documents with VTD-XML"</a>. <i>XML Journal</i>.</span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text">Jimmy Zhang (August 5, 2008) <a class="external text" href="http://soa.sys-con.com/read/250512.htm" rel="nofollow">"i-Technology Viewpoint: The Performance Woe of Binary XML"</a>. <i>Microservices Journal</i>.</span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text">Jimmy Zhang (January 9, 2008) <a class="external text" href="http://www.devx.com/xml/Article/36379" rel="nofollow">"Manipulate XML Content the Ximple Way"</a>. <i>devx.com</i>.</span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.jpmorgenthal.com/morgenthal/?p=31" rel="nofollow">"The Reason SOA Isn't Delivering Sustainable Software"</a>. jpmorgenthal.com. June 19, 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">June 27,</span> 2009</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=The+Reason+SOA+Isn%99t+Delivering+Sustainable+Software&amp;rft.date=2009-06-19&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.jpmorgenthal.com%2Fmorgenthal%2F%3Fp%3D31&amp;rft.pub=jpmorgenthal.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.zdnet.com/article/soa-services-still-too-constrained-by-applications-they-represent/" rel="nofollow">"SOA services still too constrained by applications they represent"</a>. zdnet.com. June 27, 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">June 27,</span> 2009</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=SOA+services+still+too+constrained+by+applications+they+represent&amp;rft.date=2009-06-27&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.zdnet.com%2Farticle%2Fsoa-services-still-too-constrained-by-applications-they-represent%2F&amp;rft.pub=zdnet.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.opengroup.org/soa/source-book/soa_refarch/governance.htm" rel="nofollow">"Governance Layer"</a>. <i>www.opengroup.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-22</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Governance+Layer&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.opengroup.org%2Fsoa%2Fsource-book%2Fsoa_refarch%2Fgovernance.htm&amp;rft.jtitle=www.opengroup.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://wso2.com/library/articles/2014/04/how-to-efficiently-test-service-oriented-architecture/" rel="nofollow">"How to Efficiently Test Service Oriented Architecture | WSO2 Inc"</a>. <i>wso2.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-22</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=How+to+Efficiently+Test+Service+Oriented+Architecture+%7C+WSO2+Inc&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwso2.com%2Flibrary%2Farticles%2F2014%2F04%2Fhow-to-efficiently-test-service-oriented-architecture%2F&amp;rft.jtitle=wso2.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><a class="external free" href="http://drops.dagstuhl.de/opus/volltexte/2009/2046/pdf/09021_abstracts_collection.2046.pdf" rel="nofollow">http://drops.dagstuhl.de/opus/volltexte/2009/2046/pdf/09021_abstracts_collection.2046.pdf</a></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html" rel="nofollow">"What Is Web 2.0"</a>. Tim O'Reilly. September 30, 2005<span class="reference-accessdate">. Retrieved <span class="nowrap">June 10,</span> 2008</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=What+Is+Web+2.0&amp;rft.date=2005-09-30&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.oreillynet.com%2Fpub%2Fa%2Foreilly%2Ftim%2Fnews%2F2005%2F09%2F30%2Fwhat-is-web-20.html&amp;rft.pub=Tim+O%27Reilly&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-sch-37"><span class="mw-cite-backlink">^ <a href="#cite_ref-sch_37-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sch_37-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Christoph Schroth &amp; Till Janner (2007). <a class="external text" href="http://www.alexandria.unisg.ch/Publikationen/37270" rel="nofollow">"Web 2.0 and SOA: Converging Concepts Enabling the Internet of Services"</a>. IT Professional 9 (2007), Nr. 3, pp. 36–41, IEEE Computer Society<span class="reference-accessdate">. Retrieved <span class="nowrap">February 23,</span> 2008</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Web+2.0+and+SOA%3A+Converging+Concepts+Enabling+the+Internet+of+Services&amp;rft.au=Christoph+Schroth&amp;rft.au=Till+Janner&amp;rft.date=2007&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.alexandria.unisg.ch%2FPublikationen%2F37270&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://arxiv.org/pdf/1606.04036v1.pdf" rel="nofollow">"Microservices: yesterday, today, and tomorrow"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">6 July</span> 2016</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.btitle=Microservices%3A+yesterday%2C+today%2C+and+tomorrow&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Farxiv.org%2Fpdf%2F1606.04036v1.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-martinfowler-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-martinfowler_39-0">^</a></b></span> <span class="reference-text"><cite class="citation web">James Lewis and Martin Fowler. <a class="external text" href="http://martinfowler.com/articles/microservices.html" rel="nofollow">"Microservices"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.au=James+Lewis+and+Martin+Fowler&amp;rft.btitle=Microservices&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fmartinfowler.com%2Farticles%2Fmicroservices.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><cite class="citation journal">Balalaie, A.; Heydarnoori, A.; Jamshidi, P. (2016-05-01). <a class="external text" href="http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7436659" rel="nofollow">"Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture"</a>. <i>IEEE Software</i>. <b>33</b> (3): 42–52. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2016.64" rel="nofollow">10.1109/MS.2016.64</a>. <a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a> <a class="external text" href="//www.worldcat.org/issn/0740-7459" rel="nofollow">0740-7459</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AService-oriented+architecture&amp;rft.atitle=Microservices+Architecture+Enables+DevOps%3A+Migration+to+a+Cloud-Native+Architecture&amp;rft.aufirst=A.&amp;rft.au=Heydarnoori%2C+A.&amp;rft.au=Jamshidi%2C+P.&amp;rft.aulast=Balalaie&amp;rft.date=2016-05-01&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Flpdocs%2Fepic03%2Fwrapper.htm%3Farnumber%3D7436659&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2016.64&amp;rft.issn=0740-7459&amp;rft.issue=3&amp;rft.jtitle=IEEE+Software&amp;rft.pages=42-52&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=33"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Service-oriented_architecture&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Service-oriented_architecture" title="commons:Category:Service-oriented architecture">Service-oriented architecture</a></b></i>.</td>
+</tr>
+</table>
+<div class="infobox sisterproject plainlinks haudio" id="section_SpokenWikipedia">
+<div style="text-align: center; white-space:nowrap"><b>Listen to this article</b> (<a href="/wiki/File:En-Service-oriented_architecture.ogg" title="File:En-Service-oriented architecture.ogg">info/dl</a>)
+<div class="center">
+<div class="floatnone">
+<div class="mediaContainer" style="width:200px"><audio class="kskin" controls="" data-durationhint="3267.6629478458" data-mwprovider="wikimediacommons" data-mwtitle="En-Service-oriented_architecture.ogg" data-startoffset="0" id="mwe_player_0" preload="none" style="width:200px">
+<source data-bandwidth="70062" data-height="0" data-shorttitle="Ogg source" data-title="Original Ogg file (70 kbps)" data-width="0" src="//upload.wikimedia.org/wikipedia/commons/0/09/En-Service-oriented_architecture.ogg" type='audio/ogg; codecs="vorbis"'></source></audio></div>
+</div>
+</div>
+</div>
+<p><br/></p>
+<div style="float: left; margin-left: 5px;">
+<div class="floatnone"><img alt="" data-file-height="96" data-file-width="128" height="34" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/68px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/90px-Sound-icon.svg.png 2x" title="Spoken Wikipedia" width="45"/></div>
+</div>
+<div style="font-size: xx-small; line-height: 1.6em; margin-left: 60px;">This audio file was created from a revision of the "<span class="fn">Service-oriented architecture</span>" article dated 2011-10-27, and does not reflect subsequent edits to the article. (<a href="/wiki/Wikipedia:Media_help" title="Wikipedia:Media help">Audio help</a>)</div>
+<div style="text-align: center; clear: both"><b><a href="/wiki/Wikipedia:Spoken_articles" title="Wikipedia:Spoken articles">More spoken articles</a></b></div>
+</div>
+<ul>
+<li><a class="external text" href="http://www.modelfutures.com/file_download/17/MOD+CIO+-+Service+Analysis+Report+-+v1.3.pdf" rel="nofollow">A comparison of SOA standards carried out for</a> <a href="/wiki/Ministry_of_Defence_(United_Kingdom)" title="Ministry of Defence (United Kingdom)">Ministry of Defence (United Kingdom)</a> in 2010</li>
+<li><a class="external text" href="http://msdn.microsoft.com/en-us/library/bb833022.aspx" rel="nofollow">SOA in the real world – Microsoft Developer network</a></li>
+<li><a class="external text" href="http://www.ibm.com/developerworks/webservices/library/ws-soa-design1/" rel="nofollow">SOA reference architecture from IBM</a></li>
+<li><a class="external text" href="http://www.soablueprint.com/whitepapers/SOAPGPart2.pdf" rel="nofollow">SOA Practitioners Guide Part 2: SOA Reference Architecture</a></li>
+<li><a class="external text" href="http://discerntechnology.com/resources/eguides/service-oriented-architecture-case-study/1/" rel="nofollow">SOA for Existing Applications - A Case Study</a></li>
+<li>Keen, M. et al.: <a class="external text" href="http://www.redbooks.ibm.com/redbooks/pdfs/sg246346.pdf" rel="nofollow">Patterns: Implementing an SOA Using an Enterprise Service Bus</a>, IBM Redbook, 2004.</li>
+<li><a class="external text" href="https://www.w3.org/TR/ws-arch/" rel="nofollow">Web Services Architecture W3C Working Group Note 11 February 2004</a></li>
+</ul>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><strong class="selflink">Service orientation</strong></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/4841015-9" rel="nofollow">4841015-9</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:666924-0!*!0!!en!4!* and timestamp 20161002030219 and revision id 742134863
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Service-oriented_architecture&amp;oldid=742134863">https://en.wikipedia.org/w/index.php?title=Service-oriented_architecture&amp;oldid=742134863</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Architectural_pattern_(computer_science)" title="Category:Architectural pattern (computer science)">Architectural pattern (computer science)</a></li><li><a href="/wiki/Category:Enterprise_application_integration" title="Category:Enterprise application integration">Enterprise application integration</a></li><li><a href="/wiki/Category:Service-oriented_(business_computing)" title="Category:Service-oriented (business computing)">Service-oriented (business computing)</a></li><li><a href="/wiki/Category:Web_services" title="Category:Web services">Web services</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_dates" title="Category:CS1 errors: dates">CS1 errors: dates</a></li><li><a href="/wiki/Category:CS1_Japanese-language_sources_(ja)" title="Category:CS1 Japanese-language sources (ja)">CS1 Japanese-language sources (ja)</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_April_2015" title="Category:Use mdy dates from April 2015">Use mdy dates from April 2015</a></li><li><a href="/wiki/Category:Articles_with_weasel_words_from_February_2015" title="Category:Articles with weasel words from February 2015">Articles with weasel words from February 2015</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2008" title="Category:Articles containing potentially dated statements from 2008">Articles containing potentially dated statements from 2008</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:Commons_category_with_page_title_same_as_on_Wikidata" title="Category:Commons category with page title same as on Wikidata">Commons category with page title same as on Wikidata</a></li><li><a href="/wiki/Category:Spoken_articles" title="Category:Spoken articles">Spoken articles</a></li><li><a href="/wiki/Category:Articles_with_hAudio_microformats" title="Category:Articles with hAudio microformats">Articles with hAudio microformats</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Service-oriented+architecture" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Service-oriented+architecture" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Service-oriented_architecture" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Service-oriented_architecture" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Service-oriented_architecture">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Service-oriented_architecture&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Service-oriented_architecture&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Service-oriented_architecture" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Service-oriented_architecture" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Service-oriented_architecture&amp;oldid=742134863" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Service-oriented_architecture&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q220644" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Service-oriented_architecture&amp;id=742134863" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Service-oriented+architecture">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Service-oriented+architecture&amp;returnto=Service-oriented+architecture&amp;oldid=742134863&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Service-oriented_architecture&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Service-oriented_architecture" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Diensgeori%C3%ABnteerde_argitektuur" hreflang="af" lang="af" title="Diensgeoriënteerde argitektuur – Afrikaans">Afrikaans</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A9_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D9%8A%D8%A9" hreflang="ar" lang="ar" title="البنية الخدمية – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/SOA" hreflang="bg" lang="bg" title="SOA – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/SOA" hreflang="ca" lang="ca" title="SOA – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Service_Oriented_Architecture" hreflang="cs" lang="cs" title="Service Oriented Architecture – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Serviceorienteret_arkitektur" hreflang="da" lang="da" title="Serviceorienteret arkitektur – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Serviceorientierte_Architektur" hreflang="de" lang="de" title="Serviceorientierte Architektur – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios" hreflang="es" lang="es" title="Arquitectura orientada a servicios – Spanish">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Serv-orientita_arkitekturo" hreflang="eo" lang="eo" title="Serv-orientita arkitekturo – Esperanto">Esperanto</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%E2%80%8C%DA%AF%D8%B1%D8%A7" hreflang="fa" lang="fa" title="معماری سرویس‌گرا – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Architecture_orient%C3%A9e_services" hreflang="fr" lang="fr" title="Architecture orientée services – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/SOA" hreflang="gl" lang="gl" title="SOA – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4_%EC%A7%80%ED%96%A5_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98" hreflang="ko" lang="ko" title="서비스 지향 아키텍처 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%AD%E0%A4%BF%E0%A4%AE%E0%A5%81%E0%A4%96_%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%BF%E0%A4%9F%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9A%E0%A4%B0_(Service-oriented_architecture)" hreflang="hi" lang="hi" title="सेवाभिमुख आर्किटेक्चर (Service-oriented architecture) – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/SOA" hreflang="id" lang="id" title="SOA – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Service-oriented_architecture" hreflang="it" lang="it" title="Service-oriented architecture – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%9B%D7%99%D7%98%D7%A7%D7%98%D7%95%D7%A8%D7%94_%D7%9E%D7%95%D7%9B%D7%95%D7%95%D7%A0%D7%AA-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D" hreflang="he" lang="he" title="ארכיטקטורה מוכוונת-שירותים – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Servisu_orient%C4%93t%C4%81_arhitekt%C5%ABra" hreflang="lv" lang="lv" title="Servisu orientētā arhitektūra – Latvian">Latviešu</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Szolg%C3%A1ltat%C3%A1sorient%C3%A1lt_architekt%C3%BAra" hreflang="hu" lang="hu" title="Szolgáltatásorientált architektúra – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Service-ori%C3%ABntatie" hreflang="nl" lang="nl" title="Service-oriëntatie – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%8C%87%E5%90%91%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3" hreflang="ja" lang="ja" title="サービス指向アーキテクチャ – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Tjenesteorientert_arkitektur" hreflang="no" lang="no" title="Tjenesteorientert arkitektur – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Architektura_zorientowana_na_us%C5%82ugi" hreflang="pl" lang="pl" title="Architektura zorientowana na usługi – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Service-oriented_architecture" hreflang="pt" lang="pt" title="Service-oriented architecture – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/SOA" hreflang="ro" lang="ro" title="SOA – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" hreflang="ru" lang="ru" title="Сервис-ориентированная архитектура – Russian">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Service_oriented_architecture" hreflang="simple" lang="simple" title="Service oriented architecture – Simple English">Simple English</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Palvelukeskeinen_arkkitehtuuri" hreflang="fi" lang="fi" title="Palvelukeskeinen arkkitehtuuri – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Tj%C3%A4nsteorienterad_arkitektur" hreflang="sv" lang="sv" title="Tjänsteorienterad arkitektur – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%87%E0%AE%B5%E0%AF%88_%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D_%E0%AE%95%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81" hreflang="ta" lang="ta" title="சேவை சார் கட்டமைப்பு – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/Service-oriented_architecture" hreflang="th" lang="th" title="Service-oriented architecture – Thai">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Servis_odakl%C4%B1_mimari" hreflang="tr" lang="tr" title="Servis odaklı mimari – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B2%D1%96%D1%81%D0%BD%D0%BE-%D0%BE%D1%80%D1%96%D1%94%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0_%D0%B0%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" hreflang="uk" lang="uk" title="Сервісно-орієнтована архітектура – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%9E%B6%E6%9E%84" hreflang="zh" lang="zh" title="面向服务的架构 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q220644#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 1 October 2016, at 22:22.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Service-oriented_architecture&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.444",
+            "walltime": "0.561",
+            "ppvisitednodes": {
+                "value": 2172,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 76614,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1835,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 3,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  454.089      1 -total",
+                " 47.26%  214.594      1 Template:Reflist",
+                " 24.92%  113.155     17 Template:Cite_web",
+                " 11.65%   52.911      2 Template:Navbox",
+                " 10.89%   49.440      1 Template:Software_engineering",
+                "  9.32%   42.299      1 Template:Spoken_Wikipedia",
+                "  8.35%   37.908      1 Template:Weasel",
+                "  8.10%   36.803      1 Template:Spoken_Wikipedia_boilerplate",
+                "  7.70%   34.966      1 Template:Ambox",
+                "  7.60%   34.500      1 Template:Top_icon"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.186",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4061610,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1177",
+            "timestamp": "20161002030219",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":667,"wgHostname":"mw1177"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,797 @@
+The following page is located at the url: https://pmsware.wordpress.com/tag/computational-design-patterns/
+<!DOCTYPE html>
+
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<title>Computational design patterns | Project Management &amp; Software Engineering</title>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://pmsware.wordpress.com/xmlrpc.php" rel="pingback"/>
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href="//s2.wp.com" rel="dns-prefetch"/>
+<link href="//s0.wp.com" rel="dns-prefetch"/>
+<link href="//s1.wp.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="https://pmsware.wordpress.com/feed/" rel="alternate" title="Project Management &amp; Software Engineering » Feed" type="application/rss+xml"/>
+<link href="https://pmsware.wordpress.com/comments/feed/" rel="alternate" title="Project Management &amp; Software Engineering » Comments Feed" type="application/rss+xml"/>
+<link href="https://pmsware.wordpress.com/tag/computational-design-patterns/feed/" rel="alternate" title="Project Management &amp; Software Engineering » Computational design patterns Tag Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://s2.wp.com/_static/??-eJyNkd1OAyEQhV9InBrXGi+MzwI4ZaedAQKsm317Z7ux/pZ4Q86ZnA8OAHM2PsWGsYFMJvMUKFaYs09iqhDj8sPd+lpv4G+M6YQVjtiy9Sdzdr04xQNFastF9MI+FdS5ZNvWhOArWWQUjfUwyfsPapWjFut22u7qXC5Yq9FVaBLTRj3oN7eNIU8O2qyDRQu9YYTaFkZz3mpjCGJqpFi9iF6JgMlw8rZRit+MObCl0kMLOk5BZQBNfbH/+ogrF+qx1q/FnC2f6to7jQMETs7yGniR57vh8WF3v9sPT8d3eo/0ag==" id="all-css-0" media="all" rel="stylesheet" type="text/css"/>
+<script src="https://s1.wp.com/_static/??-eJyF0NsKwjAMBuAXsiuepl6Iz9LV35G6Hmxahz69FSYiVIVAIPkISeQYBDk95CNYmhKXjHibUmN4Jn8BYamPKqGx5F5Ye5fg0tNa39EAkRlR9aVWBp18xQXPyYK5oEr3cyVyV8L4lxmkoPRZRDDdUTuEw3vn7x+Y1MHu56u2XS+Wu83WPACvA3MG" type="text/javascript"></script>
+<link href="https://pmsware.wordpress.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://s1.wp.com/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress.com" name="generator"/>
+<link href="https://secure.gravatar.com/blavatar/468cd8fce2dbe9e912c11b19a656de13?s=32" rel="shortcut icon" sizes="16x16" type="image/x-icon"/>
+<link href="https://secure.gravatar.com/blavatar/468cd8fce2dbe9e912c11b19a656de13?s=32" rel="icon" sizes="16x16" type="image/x-icon"/>
+<link href="https://secure.gravatar.com/blavatar/468cd8fce2dbe9e912c11b19a656de13?s=114" rel="apple-touch-icon-precomposed"/>
+<link href="https://pmsware.wordpress.com/?openidserver=1" rel="openid.server"/>
+<link href="https://pmsware.wordpress.com/" rel="openid.delegate"/>
+<link href="https://pmsware.wordpress.com/osd.xml" rel="search" title="Project Management &amp; Software Engineering" type="application/opensearchdescription+xml"/>
+<link href="https://s1.wp.com/opensearch.xml" rel="search" title="WordPress.com" type="application/opensearchdescription+xml"/>
+<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+<meta content="Project Management &amp; Software Engineering" name="application-name"/><meta content="width=device-width;height=device-height" name="msapplication-window"/><meta content="Blog on Methodologies,Techniques,Tools,Guidelines,Values, Principles of Project Management and Software Engineering" name="msapplication-tooltip"/><meta content="name=Subscribe;action-uri=https://pmsware.wordpress.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/468cd8fce2dbe9e912c11b19a656de13?s=16" name="msapplication-task"/><meta content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="Posts about Computational design patterns on Project Management &amp; Software Engineering" name="title"/>
+<meta content="Posts about Computational design patterns written by espirl" name="description"/>
+<style id="syntaxhighlighteranchor" type="text/css"></style>
+</head>
+<body class="archive tag tag-computational-design-patterns tag-137467498 mp6 customizer-styles-applied single-author two-column right-sidebar highlander-enabled highlander-light infinite-scroll neverending">
+<div class="hfeed" id="page">
+<header id="branding" role="banner">
+<hgroup>
+<h1 id="site-title"><span><a href="https://pmsware.wordpress.com/" rel="home">Project Management &amp; Software Engineering</a></span></h1>
+<h2 id="site-description">Blog on Methodologies,Techniques,Tools,Guidelines,Values, Principles of Project Management and Software Engineering</h2>
+</hgroup>
+<a href="https://pmsware.wordpress.com/">
+<img alt="" height="288" src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/images/headers/chessboard.jpg" width="1000"/>
+</a>
+<form action="https://pmsware.wordpress.com/" id="searchform" method="get">
+<label class="assistive-text" for="s">Search</label>
+<input class="field" id="s" name="s" placeholder="Search" type="text"/>
+<input class="submit" id="searchsubmit" name="submit" type="submit" value="Search"/>
+</form>
+<nav id="access" role="navigation">
+<h3 class="assistive-text">Main menu</h3>
+<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+<div class="skip-link"><a class="assistive-text" href="#secondary">Skip to secondary content</a></div>
+<div class="menu"><ul><li><a href="https://pmsware.wordpress.com/">Home</a></li><li class="page_item page-item-1"><a href="https://pmsware.wordpress.com/about/">About PMSWARE</a></li></ul></div>
+</nav><!-- #access -->
+</header><!-- #branding -->
+<div id="main">
+<section id="primary">
+<div id="content" role="main">
+<header class="page-header">
+<h1 class="page-title">Tag Archives: <span>Computational design patterns</span></h1>
+</header>
+<article class="post-43 post type-post status-publish format-standard hentry category-software-design-patterns tag-algorithm-strategy-patterns tag-behaviorial-design-patterns tag-computational-design-patterns tag-concurrency-patterns tag-creational-design-patterns tag-design-patterns tag-execution-patterns tag-implementation-strategy-patterns tag-structural-design-patterns" id="post-43">
+<header class="entry-header">
+<h1 class="entry-title"><a href="https://pmsware.wordpress.com/2013/01/14/software-design-patterns/" rel="bookmark">software design patterns</a></h1>
+<div class="entry-meta">
+<span class="sep">Posted on </span><a href="https://pmsware.wordpress.com/2013/01/14/software-design-patterns/" rel="bookmark" title="5:36 am"><time class="entry-date" datetime="2013-01-14T05:36:21+00:00">January 14, 2013</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://pmsware.wordpress.com/author/espirl/" rel="author" title="View all posts by espirl">espirl</a></span></span> </div><!-- .entry-meta -->
+<div class="comments-link">
+<a href="https://pmsware.wordpress.com/2013/01/14/software-design-patterns/#respond"><span class="leave-reply">Reply</span></a> </div>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p style="text-align:justify;">In software engineering, a <b>design pattern</b> is a general reusable solution to a commonly occurring problem within a given context in software design. A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Patterns are formalized best practices that the programmer must implement themselves in the application.<sup id="cite_ref-1"> </sup> Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Many patterns imply object-orientation or more generally mutable state, and so may not be as applicable in functional programming languages, in which data is immutable or treated as such.</p>
+<p style="text-align:justify;">Design patterns reside in the domain of modules and interconnections. At a higher level there are architectural patterns that are larger in scope, usually describing an overall pattern followed by an entire system.</p>
+<p style="text-align:justify;">There are many types of design patterns, for instance</p>
+<ul>
+<li style="text-align:justify;"><b>Algorithm strategy patterns</b> addressing concerns related to high-level strategies describing how to exploit application characteristics on a computing platform.</li>
+<li style="text-align:justify;"><b>Computational design patterns</b> addressing concerns related to key computation identification.</li>
+<li style="text-align:justify;"><b>Execution patterns</b> that address concerns related to supporting application execution, including strategies in executing streams of tasks and building blocks to support task synchronization.</li>
+<li style="text-align:justify;"><b>Implementation strategy patterns</b> addressing concerns related to implementing source code to support
+<ol>
+<li>program organization, and</li>
+<li>the common data structures specific to parallel programming.</li>
+</ol>
+</li>
+<li style="text-align:justify;"><b>Structural design patterns</b> addressing concerns related to high-level structures of applications being developed.</li>
+</ul>
+<p style="text-align:justify;">Design patterns can speed up the development process by providing tested, proven development paradigms.<sup id="cite_ref-8"><a href="http://en.wikipedia.org/wiki/Software_design_pattern#cite_note-8"> </a></sup> Effective software design requires considering issues that may not become visible until later in the implementation. Reusing design patterns helps to prevent subtle issues that can cause major problems, and it also improves code readability for coders and architects who are familiar with the patterns.</p>
+<p style="text-align:justify;">In order to achieve flexibility, design patterns usually introduce additional levels of indirection, which in some cases may complicate the resulting designs and hurt application performance.</p>
+<p style="text-align:justify;">By definition, a pattern must be programmed anew into each application that uses it. Since some authors see this as a step backward from software reuse as provided by components, researchers have worked to turn patterns into components. Meyer and Arnout were able to provide full or partial componentization of two-thirds of the patterns they attempted.</p>
+<p style="text-align:justify;">Software design techniques are difficult to apply to a broader range of problems. Design patterns provide general solutions, documented in a format that does not require specifics tied to a particular problem.</p>
+<h2>Structure</h2>
+<p style="text-align:justify;">Design patterns are composed of several sections . Of particular interest are the Structure, Participants, and Collaboration sections. These sections describe a <i>design motif</i>: a prototypical <i>micro-architecture</i> that developers copy and adapt to their particular designs to solve the recurrent problem described by the design pattern. A micro-architecture is a set of program constituents (e.g., classes, methods…) and their relationships. Developers use the design pattern by introducing in their designs this prototypical micro-architecture, which means that micro-architectures in their designs will have structure and organization similar to the chosen design motif.</p>
+<p style="text-align:justify;">In addition to this, patterns allow developers to communicate using well-known, well understood names for software interactions. Common design patterns can be improved over time, making them more robust than <i>ad-hoc</i> designs.</p>
+<h3 style="text-align:justify;">Domain-specific patterns</h3>
+<p style="text-align:justify;">Efforts have also been made to codify design patterns in particular domains, including use of existing design patterns as well as domain specific design patterns. Examples include user interface design patterns, information visualization, secure design, “secure usability”, Web design <sup id="cite_ref-14">[14]</sup> and business model design.</p>
+<p style="text-align:justify;">The annual Pattern Languages of Programming Conference proceedings <sup id="cite_ref-16">[16]</sup> include many examples of domain specific patterns.</p>
+<h2 style="text-align:justify;">Classification and list</h2>
+<p style="text-align:justify;">Design patterns were originally grouped into the categories: creational patterns, structural patterns, and behavioral patterns, and described using the concepts of delegation, aggregation, and consultation. For further background on object-oriented design, see coupling and cohesion, inheritance, interface, and polymorphism. Another classification has also introduced the notion of architectural design pattern that may be applied at the architecture level of the software such as the Model–View–Controller pattern.</p>
+<table>
+<tbody>
+<tr>
+<td colspan="6"><strong>Creational patterns</strong></td>
+</tr>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>In <i>Design Patterns</i></strong></th>
+<th><strong>In <i>Code Complete</i></strong></th>
+<th><strong>Other</strong></th>
+</tr>
+<tr>
+<td>Abstract factory</td>
+<td>Provide an interface for creating families of related or dependent objects without specifying their concrete classes.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Builder</td>
+<td>Separate the construction of a complex object from its representation allowing the same construction process to create various representations.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Factory method</td>
+<td>Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection<sup id="cite_ref-18">[18]</sup>).</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Lazy initialization</td>
+<td>Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.</td>
+<td>No</td>
+<td>No</td>
+<td>PoEAA<sup id="cite_ref-PoEAA_19-0">[19]</sup></td>
+</tr>
+<tr>
+<td>Multiton</td>
+<td>Ensure a class has only named instances, and provide global point of access to them.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Object pool</td>
+<td>Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Prototype</td>
+<td>Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Resource acquisition is initialization</td>
+<td>Ensure that resources are properly released by tying them to the lifespan of suitable objects.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Singleton</td>
+<td>Ensure a class has only one instance, and provide a global point of access to it.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td colspan="6"><strong>Structural patterns</strong></td>
+</tr>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>In <i>Design Patterns</i></strong></th>
+<th><strong>In <i>Code Complete</i><sup id="cite_ref-McConnell2004_17-1">[17]</sup></strong></th>
+<th><strong>Other</strong></th>
+</tr>
+<tr>
+<td>Adapter or Wrapper or Translator.</td>
+<td>Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Bridge</td>
+<td>Decouple an abstraction from its implementation allowing the two to vary independently.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Composite</td>
+<td>Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Decorator</td>
+<td>Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Facade</td>
+<td>Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Flyweight</td>
+<td>Use sharing to support large numbers of similar objects efficiently.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Front Controller</td>
+<td>The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.</td>
+<td>No</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Proxy</td>
+<td>Provide a surrogate or placeholder for another object to control access to it.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td colspan="6"><em><strong>Behavioral patterns</strong></em></td>
+</tr>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>In <i>Design Patterns</i></th>
+<th>In <i>Code Complete</i><sup id="cite_ref-McConnell2004_17-2">[17]</sup></th>
+<th>Other</th>
+</tr>
+<tr>
+<td>Blackboard</td>
+<td>Generalized observer, which allows multiple readers and writers. Communicates information system-wide.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Chain of responsibility</td>
+<td>Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Command</td>
+<td>Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Interpreter</td>
+<td>Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Iterator</td>
+<td>Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Mediator</td>
+<td>Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Memento</td>
+<td>Without violating encapsulation, capture and externalize an object’s internal state allowing the object to be restored to this state later.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Null object</td>
+<td>Avoid null references by providing a default object.</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Observer or Publish/subscribe</td>
+<td>Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Servant</td>
+<td>Define common functionality for a group of classes</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Specification</td>
+<td>Recombinable business logic in a Boolean fashion</td>
+<td>No</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>State</td>
+<td>Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Strategy</td>
+<td>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Template method</td>
+<td>Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.</td>
+<td>Yes</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Visitor</td>
+<td>Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.</td>
+<td>Yes</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td colspan="6"><strong>Concurrency patterns</strong></td>
+</tr>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>In <i>POSA2</i><sup id="cite_ref-POSA2_20-0">[20]</sup></th>
+<th>Other</th>
+</tr>
+<tr>
+<td>Active Object</td>
+<td>Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Balking</td>
+<td>Only execute an action on an object when the object is in a particular state.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Binding properties</td>
+<td>Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.<sup id="cite_ref-21">[21]</sup></td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Double-checked locking</td>
+<td>Reduce the overhead of acquiring a lock by first testing the locking criterion (the ‘lock hint’) in an unsafe manner; only if that succeeds does the actual lock proceed.Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an anti-pattern.</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Event-based asynchronous</td>
+<td>Addresses problems with the asynchronous pattern that occur in multithreaded programs.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Guarded suspension</td>
+<td>Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Lock</td>
+<td>One thread puts a “lock” on a resource, preventing other threads from accessing or modifying it.<sup id="cite_ref-23">[23]</sup></td>
+<td>No</td>
+<td>PoEAA<sup id="cite_ref-PoEAA_19-1">[19]</sup></td>
+</tr>
+<tr>
+<td>Messaging design pattern (MDP)</td>
+<td>Allows the interchange of information (i.e. messages) between components and applications.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Monitor object</td>
+<td>An object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Reactor</td>
+<td>A reactor object provides an asynchronous interface to resources that must be handled synchronously.</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Read-write lock</td>
+<td>Allows concurrent read access to an object, but requires exclusive access for write operations.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Scheduler</td>
+<td>Explicitly control when threads may execute single-threaded code.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Thread pool</td>
+<td>A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.</td>
+<td>No</td>
+<td><small>N/A</small></td>
+</tr>
+<tr>
+<td>Thread-specific storage</td>
+<td>Static or “global” memory local to a thread.</td>
+<td>Yes</td>
+<td><small>N/A</small></td>
+</tr>
+</tbody>
+</table>
+</div><!-- .entry-content -->
+<footer class="entry-meta">
+<span class="cat-links">
+<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://pmsware.wordpress.com/category/software-design-patterns/" rel="category tag">software design patterns</a> </span>
+<span class="sep"> | </span>
+<span class="tag-links">
+<span class="entry-utility-prep entry-utility-prep-tag-links">Tagged</span> <a href="https://pmsware.wordpress.com/tag/algorithm-strategy-patterns/" rel="tag">Algorithm strategy patterns</a>, <a href="https://pmsware.wordpress.com/tag/behaviorial-design-patterns/" rel="tag">Behaviorial design patterns</a>, <a href="https://pmsware.wordpress.com/tag/computational-design-patterns/" rel="tag">Computational design patterns</a>, <a href="https://pmsware.wordpress.com/tag/concurrency-patterns/" rel="tag">concurrency patterns</a>, <a href="https://pmsware.wordpress.com/tag/creational-design-patterns/" rel="tag">creational design patterns</a>, <a href="https://pmsware.wordpress.com/tag/design-patterns/" rel="tag">design patterns</a>, <a href="https://pmsware.wordpress.com/tag/execution-patterns/" rel="tag">Execution patterns</a>, <a href="https://pmsware.wordpress.com/tag/implementation-strategy-patterns/" rel="tag">Implementation strategy patterns</a>, <a href="https://pmsware.wordpress.com/tag/structural-design-patterns/" rel="tag">Structural design patterns</a> </span>
+<span class="sep"> | </span>
+<span class="comments-link"><a href="https://pmsware.wordpress.com/2013/01/14/software-design-patterns/#respond"><span class="leave-reply">Leave a reply</span></a></span>
+</footer><!-- .entry-meta -->
+</article><!-- #post-43 -->
+</div><!-- #content -->
+</section><!-- #primary -->
+<div class="widget-area" id="secondary" role="complementary">
+<aside class="widget widget_search" id="search-2"> <form action="https://pmsware.wordpress.com/" id="searchform" method="get">
+<label class="assistive-text" for="s">Search</label>
+<input class="field" id="s" name="s" placeholder="Search" type="text"/>
+<input class="submit" id="searchsubmit" name="submit" type="submit" value="Search"/>
+</form>
+</aside> <aside class="widget widget_recent_entries" id="recent-posts-2"> <h3 class="widget-title">Recent Posts</h3> <ul>
+<li>
+<a href="https://pmsware.wordpress.com/2015/07/10/advantages-disadvantages-of-selenium-supported-programming-languages-a-summary/">Advantages &amp; Disadvantages of Selenium supported Programming Languages – A summary</a>
+</li>
+<li>
+<a href="https://pmsware.wordpress.com/2014/05/05/7-things-to-know-about-hadoop/">A report on Hadoop</a>
+</li>
+<li>
+<a href="https://pmsware.wordpress.com/2014/04/01/205/">ITIL Implementation TIps</a>
+</li>
+<li>
+<a href="https://pmsware.wordpress.com/2014/02/15/net/">.net</a>
+</li>
+<li>
+<a href="https://pmsware.wordpress.com/2014/01/23/194/">Lean Software Development</a>
+</li>
+</ul>
+</aside> <aside class="widget widget_archive" id="archives-2"><h3 class="widget-title">Archives</h3> <ul>
+<li><a href="https://pmsware.wordpress.com/2015/07/">July 2015</a></li>
+<li><a href="https://pmsware.wordpress.com/2014/05/">May 2014</a></li>
+<li><a href="https://pmsware.wordpress.com/2014/04/">April 2014</a></li>
+<li><a href="https://pmsware.wordpress.com/2014/02/">February 2014</a></li>
+<li><a href="https://pmsware.wordpress.com/2014/01/">January 2014</a></li>
+<li><a href="https://pmsware.wordpress.com/2013/05/">May 2013</a></li>
+<li><a href="https://pmsware.wordpress.com/2013/04/">April 2013</a></li>
+<li><a href="https://pmsware.wordpress.com/2013/02/">February 2013</a></li>
+<li><a href="https://pmsware.wordpress.com/2013/01/">January 2013</a></li>
+<li><a href="https://pmsware.wordpress.com/2012/12/">December 2012</a></li>
+</ul>
+</aside><aside class="widget widget_categories" id="categories-2"><h3 class="widget-title">Categories</h3> <ul>
+<li class="cat-item cat-item-2657787"><a href="https://pmsware.wordpress.com/category/agile-practices/">Agile practices</a>
+</li>
+<li class="cat-item cat-item-2075170"><a href="https://pmsware.wordpress.com/category/big-data/">Big Data</a>
+</li>
+<li class="cat-item cat-item-1715866"><a href="https://pmsware.wordpress.com/category/cloud-computing/">Cloud Computing</a>
+</li>
+<li class="cat-item cat-item-765859"><a href="https://pmsware.wordpress.com/category/cyber-space/">Cyber space</a>
+</li>
+<li class="cat-item cat-item-10286"><a href="https://pmsware.wordpress.com/category/databases/">Databases</a>
+</li>
+<li class="cat-item cat-item-7136"><a href="https://pmsware.wordpress.com/category/framework/">Framework</a>
+</li>
+<li class="cat-item cat-item-247584"><a href="https://pmsware.wordpress.com/category/information-visualization/">Information visualization</a>
+</li>
+<li class="cat-item cat-item-25"><a href="https://pmsware.wordpress.com/category/open-source/">Open source</a>
+</li>
+<li class="cat-item cat-item-13215"><a href="https://pmsware.wordpress.com/category/programming-languages/" title="Programming Languages">Programming Languages</a>
+</li>
+<li class="cat-item cat-item-147825"><a href="https://pmsware.wordpress.com/category/quality-management/">Quality Management</a>
+</li>
+<li class="cat-item cat-item-10789385"><a href="https://pmsware.wordpress.com/category/software-design-patterns/">software design patterns</a>
+</li>
+<li class="cat-item cat-item-12"><a href="https://pmsware.wordpress.com/category/testing/">Testing</a>
+</li>
+<li class="cat-item cat-item-151"><a href="https://pmsware.wordpress.com/category/web/">Web</a>
+</li>
+</ul>
+</aside><aside class="widget widget_meta" id="meta-2"><h3 class="widget-title">Meta</h3> <ul>
+<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li> <li><a href="https://pmsware.wordpress.com/wp-login.php">Log in</a></li>
+<li><a href="https://pmsware.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://pmsware.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li> </ul>
+</aside> </div><!-- #secondary .widget-area -->
+</div><!-- #main -->
+<footer id="colophon" role="contentinfo">
+<div id="site-generator">
+<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+</div>
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"https:\/\/pmsware.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"14.01.13","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"pmsware.wordpress.com","path":"\/tag\/computational-design-patterns\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"tag":"computational-design-patterns","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","cat":"","tag_id":137467498,"author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":["computational-design-patterns"],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2013-01-14 05:36:21","stats":"blog=44626109&v=wpcom&tz=0&user_id=0&subd=pmsware&x_pagetype=infinite"}};
+		//]]>
+		</script>
+<!-- wpcom_wp_footer -->
+<script src="//0.gravatar.com/js/gprofiles.js?ver=201639y" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h" type="text/javascript"></script>
+<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+<div style="display:none">
+</div>
+<div id="infinite-footer">
+<div class="container">
+<div class="blog-info">
+<a href="https://pmsware.wordpress.com/" id="infinity-blog-title" rel="home">
+						Project Management &amp; Software Engineering					</a>
+</div>
+<div class="blog-credits">
+<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a> </div>
+</div>
+</div><!-- #infinite-footer -->
+<div id="carousel-reblog-box">
+<form action="" name="carousel-reblog">
+<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+<select id="carousel-reblog-to-blog-id" name="carousel-reblog-to-blog-id">
+</select>
+<div class="submit">
+<span class="canceltext"><a class="cancel" href="">Cancel</a></span>
+<input class="button" id="carousel-reblog-submit" name="carousel-reblog-submit" type="submit" value="Reblog Post"/>
+<input id="carousel-reblog-blog-id" type="hidden" value="44626109"/>
+<input id="carousel-reblog-blog-url" type="hidden" value="https://pmsware.wordpress.com"/>
+<input id="carousel-reblog-blog-title" type="hidden" value="Project Management &amp; Software Engineering"/>
+<input id="carousel-reblog-post-url" type="hidden" value=""/>
+<input id="carousel-reblog-post-title" type="hidden" value=""/>
+</div>
+<input id="_wpnonce" name="_wpnonce" type="hidden" value="942a1afbc6"/><input name="_wp_http_referer" type="hidden" value="/tag/computational-design-patterns/"/> </form>
+<div class="arrow"></div>
+</div>
+<link href="https://s0.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1458924076h" id="all-css-0" media="all" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link href="https://s1.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146h" id="all-css-2" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"44626109","siteName":"Project Management & Software Engineering","siteURL":"http:\/\/pmsware.wordpress.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/468cd8fce2dbe9e912c11b19a656de13?s=36' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/pmsware.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpmsware.wordpress.com%2F2013%2F01%2F14%2Fsoftware-design-patterns%2F","themeURL":"https:\/\/wordpress.com\/themes\/twentyeleven\/","xhrURL":"https:\/\/pmsware.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"b042413e72","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"1fe7fded00\" \/>","referer":"https:\/\/pmsware.wordpress.com\/tag\/computational-design-patterns\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/pmsware.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fpmsware.wordpress.com%2Ftag%2Fcomputational-design-patterns%2F","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","login":"Log In","signup":"Sign Up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Eleven","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editFollows":"Manage Sites I Follow","editSubs":"Manage Subscriptions","viewReader":"View Site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/pmsware.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpmsware.wordpress.com%2F2013%2F01%2F14%2Fsoftware-design-patterns%2F\">Log in now.<\/a>"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/pmsware.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"95b882b3f8","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/pmsware.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpmsware.wordpress.com%2F2013%2F01%2F14%2Fsoftware-design-patterns%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=44626109&v=wpcom&tz=0&user_id=0&subd=pmsware","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script src="https://s0.wp.com/_static/??-eJx9jsESgjAMRH9IjDgwenH8ltIGTSlpbVrQv5dhpup44LZJ3u4G5lBpzwk5gRUwOJHG8Nxb2cHPacxVcPlGLOBoQIFHxox3xcZh3ICJe2JKr4/YYJVO5LlT8asKTaxdNkvt8qLMve8s6vQfVXImMuhBiWBaDescIopslGsVfRZ0YDEFpYeqLBbPdbzUzak9tM25Pto3pJFyoQ==" type="text/javascript"></script>
+<script src="https://platform.twitter.com/widgets.js?ver=20111117" type="text/javascript"></script>
+<script src="https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g==" type="text/javascript"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script> <script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "pmsware.wordpress.com";
+	</script>
+<script src="https://s.skimresources.com/js/725X1342.skimlinks.js" type="text/javascript"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","wpcom-actionbar-bar","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","jetpack_likes","the-neverending-homepage","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","twentyeleven-wpcom-style","noticons","geo-location-flair","reblogging","infinity-twentyeleven","wpcom-actionbar-bar","h4-global","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script> <script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+<noscript>
+<p class="robots-nocontent"><img alt="" height="1" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" style="display:none;" width="1"/></p>
+</noscript><script async="" defer="" src="//stats.wp.com/w.js?54" type="text/javascript"></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'44626109','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'44626109','v':'wpcom','tz':'0','user_id':'0','subd':'pmsware'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzRiVE1bNlpOME11T2N2TFRlRmdENiVMVjhSamE9UixUMFQrbTVjOUtTclVQeHN1UW1sM2JPWmM5REdmK0NSbkgzJkl8NEhOZjJTJXhvV01iMkYuKz1XUnVaX0lsJmh3L2xxcHNhKzVFcDhfWklkZkImNjl5OFdzKy5CSkFwUH5EVEpPS2JwRU1GVj9ELFM9JXNjM24tais1N1MlejRVRHl2X3kyaDEyP0dyc3IreE5jWC18YlRlWE1ZX3V0'}]);
+_stq.push([ 'clickTrackerInit', '44626109', '0' ]);
+	</script>
+<noscript><img alt="" src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden"/></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

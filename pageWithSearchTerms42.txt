@@ -1,0 +1,711 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Object_pool_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Object pool pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Object_pool_pattern","wgTitle":"Object pool pattern","wgCurRevisionId":741292689,"wgRevisionId":741292689,"wgArticleId":2840375,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia references cleanup from March 2012","All articles needing references cleanup","Articles covered by WikiProject Wikify from March 2012","All articles covered by WikiProject Wikify","Software design patterns","Software optimization"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Object_pool_pattern","wgRelevantArticleId":2840375,"wgRequestId":"V-BSKwpAMFIAABhXipMAAAAD","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q2621189","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Object_pool_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Object_pool_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Object_pool_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Object_pool_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Object_pool_pattern rootpage-Object_pool_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Object pool pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="hatnote" role="note">For the article about a general pool, see <a href="/wiki/Pool_(computer_science)" title="Pool (computer science)">Pool (computer science)</a>.</div>
+<p>The <b>object pool pattern</b> is a software <a href="/wiki/Creational_pattern" title="Creational pattern">creational design pattern</a> that uses a set of initialized <a href="/wiki/Object_(computer_science)" title="Object (computer science)">objects</a> kept ready to use – a "<a href="/wiki/Pool_(computer_science)" title="Pool (computer science)">pool</a>" – rather than allocating and destroying them on demand. A client of the pool will request an object from the pool and perform operations on the returned object. When the client has finished, it returns the object to the pool rather than <a class="mw-redirect" href="/wiki/Object_destruction" title="Object destruction">destroying it</a>; this can be done manually or automatically.</p>
+<p>Object pools are primarily used for performance: in some circumstances, object pools significantly improve performance. Object pools complicate <a href="/wiki/Object_lifetime" title="Object lifetime">object lifetime</a>, as objects obtained from and returned to a pool are not actually created or destroyed at this time, and thus require care in implementation.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Benefits"><span class="tocnumber">2</span> <span class="toctext">Benefits</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Implementation"><span class="tocnumber">3</span> <span class="toctext">Implementation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Handling_of_empty_pools"><span class="tocnumber">4</span> <span class="toctext">Handling of empty pools</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Pitfalls"><span class="tocnumber">5</span> <span class="toctext">Pitfalls</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Criticism"><span class="tocnumber">6</span> <span class="toctext">Criticism</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Examples"><span class="tocnumber">7</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#C.23"><span class="tocnumber">7.1</span> <span class="toctext">C#</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Java"><span class="tocnumber">7.2</span> <span class="toctext">Java</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Description">Description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=1" title="Edit section: Description">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>When it is necessary to work with a large number of objects that are particularly expensive to instantiate and each object is only needed for a short period of time, the performance of an entire application may be adversely affected. An object pool design pattern may be deemed desirable in cases such as these.</p>
+<p>The object pool design pattern creates a set of objects that may be reused. When a new object is needed, it is requested from the pool. If a previously prepared object is available it is returned immediately, avoiding the instantiation cost. If no objects are present in the pool, a new item is created and returned. When the object has been used and is no longer needed, it is returned to the pool, allowing it to be used again in the future without repeating the computationally expensive instantiation process. It is important to note that once an object has been used and returned, existing references will become invalid.</p>
+<p>In some object pools the resources are limited so a maximum number of objects is specified. If this number is reached and a new item is requested, an exception may be thrown, or the thread will be blocked until an object is released back into the pool.</p>
+<p>The object pool design pattern is used in several places in the standard classes of the .NET framework. One example is the .NET Framework Data Provider for SQL Server. As SQL Server database connections can be slow to create, a pool of connections is maintained. When you close a connection it does not actually relinquish the link to SQL Server. Instead, the connection is held in a pool from which it can be retrieved when requesting a new connection. This substantially increases the speed of making connections.</p>
+<h2><span class="mw-headline" id="Benefits">Benefits</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=2" title="Edit section: Benefits">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Object pooling can offer a significant performance boost in situations where the cost of initializing a class instance is high and the rate of instantiation and destruction of a class is high – in this case objects can frequently be reused, and each reuse saves a significant amount of time. Object pooling requires resources – memory and possibly other resources, such as network sockets, and thus it is preferable that the number of instances in use at any one time is low, but this is not required.</p>
+<p>The pooled object is obtained in predictable time when creation of the new objects (especially over network) may take variable time. These benefits are mostly true for objects that are expensive with respect to time, such as database connections, socket connections, threads and large graphic objects like fonts or bitmaps.</p>
+<p>In other situations, simple object pooling (that hold no external resources, but only occupy memory) may not be efficient and could decrease performance.<sup class="reference" id="cite_ref-urban_1-0"><a href="#cite_note-urban-1">[1]</a></sup> In case of simple memory pooling, the <a href="/wiki/Slab_allocation" title="Slab allocation">slab allocation</a> memory management technique is more suited, as the only goal is to minimize the cost of memory allocation and deallocation by reducing fragmentation.</p>
+<h2><span class="mw-headline" id="Implementation">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=3" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Object pools can be implemented in an automated fashion in languages like C++ via <a href="/wiki/Smart_pointer" title="Smart pointer">smart pointers</a>. In the constructor of the smart pointer, an object can be requested from the pool, and in the destructor of the smart pointer, the object can be released back to the pool. In garbage-collected languages, where there are no destructors (which are guaranteed to be called as part of a stack unwind), object pools <i>must</i> be implemented manually, by explicitly requesting an object from the <a href="/wiki/Factory_(object-oriented_programming)" title="Factory (object-oriented programming)">factory</a> and returning the object by calling a dispose method (as in the <a href="/wiki/Dispose_pattern" title="Dispose pattern">dispose pattern</a>). Using a <a href="/wiki/Finalizer" title="Finalizer">finalizer</a> to do this is not a good idea, as there are usually no guarantees on when (or if) the finalizer will be run. Instead, "try ... finally" should be used to ensure that getting and releasing the object is exception-neutral.</p>
+<p>Manual object pools are simple to implement, but harder to use, as they require <a href="/wiki/Manual_memory_management" title="Manual memory management">manual memory management</a> of pool objects.</p>
+<h2><span class="mw-headline" id="Handling_of_empty_pools">Handling of empty pools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=4" title="Edit section: Handling of empty pools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Object pools employ one of three strategies to handle a request when there are no spare objects in the pool.</p>
+<ol>
+<li>Fail to provide an object (and return an error to the client).</li>
+<li>Allocate a new object, thus increasing the size of the pool. Pools that do this usually allow you to set the <a href="/wiki/High_water_mark" title="High water mark">high water mark</a> (the maximum number of objects ever used).</li>
+<li>In a <a class="mw-redirect" href="/wiki/Thread_(computer_science)" title="Thread (computer science)">multithreaded</a> environment, a pool may block the client until another thread returns an object to the pool.</li>
+</ol>
+<h2><span class="mw-headline" id="Pitfalls">Pitfalls</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=5" title="Edit section: Pitfalls">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>When writing an object pool, the programmer has to be careful to make sure the state of the objects returned to the pool is reset back to a sensible state for the next use of the object. If this is not observed, the object will often be in some state that was unexpected by the client program and may cause the client program to fail. The pool is responsible for resetting the objects, not the clients. Object pools full of objects with dangerously stale state are sometimes called object cesspools and regarded as an <a href="/wiki/Anti-pattern" title="Anti-pattern">anti-pattern</a>.</p>
+<p>The presence of stale state is not always an issue; it becomes dangerous when the presence of stale state causes the object to behave differently. For example, an object that represents authentication details may break if the "successfully authenticated" flag is not reset before it is passed out, since it will indicate that a user is correctly authenticated (possibly as someone else) when they haven't yet attempted to authenticate. However, it will work just fine if you fail to reset some value only used for debugging, such as the identity of the last authentication server used.</p>
+<p>Inadequate resetting of objects may also cause an information leak. If an object contains confidential data (e.g. a user's credit card numbers) that isn't cleared before the object is passed to a new client, a malicious or buggy client may disclose the data to an unauthorized party.</p>
+<p>If the pool is used by multiple threads, it may need the means to prevent parallel threads from grabbing and trying to reuse the same object in parallel. This is not necessary if the pooled objects are immutable or otherwise thread-safe.</p>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=6" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some publications do not recommend using object pooling with certain languages, such as <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, especially for objects that only use memory and hold no external resources.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> Opponents usually say that object allocation is relatively fast in modern languages with <a href="/wiki/Garbage_collection_(computer_science)" title="Garbage collection (computer science)">garbage collectors</a>; while the operator <code>new</code> needs only ten instructions, the classic <code>new</code> - <code>delete</code> pair found in pooling designs requires hundreds of them as it does more complex work. Also, most garbage collectors scan "live" object references, and not the memory that these objects use for their content. This means that any number of "dead" objects without references can be discarded with little cost. In contrast, keeping a large number of "live" but unused objects increases the duration of garbage collection.<sup class="reference" id="cite_ref-urban_1-1"><a href="#cite_note-urban-1">[1]</a></sup></p>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=7" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="C.23">C#</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=8" title="Edit section: C#">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the .NET <a class="mw-redirect" href="/wiki/Base_Class_Library" title="Base Class Library">Base Class Library</a> there are a few objects that implement this pattern. <code>System.Threading.ThreadPool</code> is configured to have a predefined number of threads to allocate. When the threads are returned, they are available for another computation. Thus, one can use threads without paying the cost of creation and disposal of threads.</p>
+<p>The following shows the basic code of the object pool design pattern implemented using C#. For brevity the properties of the classes are declared using C# 3.0 automatically implemented property syntax. These could be replaced with full property definitions for earlier versions of the language. Pool is shown as a static class, as it's unusual for multiple pools to be required. However, it's equally acceptable to use instance classes for object pools.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">namespace</span> <span class="nn">DesignPattern.Objectpool</span> 
+<span class="p">{</span>
+<span class="c1">// The PooledObject class is the type that is expensive or slow to instantiate,</span>
+<span class="c1">// or that has limited availability, so is to be held in the object pool.</span>
+<span class="k">public</span> <span class="k">class</span> <span class="nc">PooledObject</span>
+<span class="p">{</span>
+    <span class="n">DateTime</span> <span class="n">_createdAt</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Now</span><span class="p">;</span>
+ 
+    <span class="k">public</span> <span class="n">DateTime</span> <span class="n">CreatedAt</span>
+    <span class="p">{</span>
+        <span class="k">get</span> <span class="p">{</span> <span class="k">return</span> <span class="n">_createdAt</span><span class="p">;</span> <span class="p">}</span>
+    <span class="p">}</span>
+ 
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">TempData</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// The Pool class is the most important class in the object pool design pattern. It controls access to the</span>
+<span class="c1">// pooled objects, maintaining a list of available objects and a collection of objects that have already been</span>
+<span class="c1">// requested from the pool and are still in use. The pool also ensures that objects that have been released</span>
+<span class="c1">// are returned to a suitable state, ready for the next time they are requested. </span>
+<span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">Pool</span>
+<span class="p">{</span>
+    <span class="k">private</span> <span class="k">static</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">PooledObject</span><span class="p">&gt;</span> <span class="n">_available</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">PooledObject</span><span class="p">&gt;();</span>
+    <span class="k">private</span> <span class="k">static</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">PooledObject</span><span class="p">&gt;</span> <span class="n">_inUse</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">PooledObject</span><span class="p">&gt;();</span>
+ 
+    <span class="k">public</span> <span class="k">static</span> <span class="n">PooledObject</span> <span class="nf">GetObject</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">lock</span><span class="p">(</span><span class="n">_available</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">_available</span><span class="p">.</span><span class="n">Count</span> <span class="p">!=</span> <span class="m">0</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">PooledObject</span> <span class="n">po</span> <span class="p">=</span> <span class="n">_available</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
+                <span class="n">_inUse</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">po</span><span class="p">);</span>
+                <span class="n">_available</span><span class="p">.</span><span class="n">RemoveAt</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+                <span class="k">return</span> <span class="n">po</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="n">PooledObject</span> <span class="n">po</span> <span class="p">=</span> <span class="k">new</span> <span class="n">PooledObject</span><span class="p">();</span>
+                <span class="n">_inUse</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">po</span><span class="p">);</span>
+                <span class="k">return</span> <span class="n">po</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+ 
+    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">ReleaseObject</span><span class="p">(</span><span class="n">PooledObject</span> <span class="n">po</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">CleanUp</span><span class="p">(</span><span class="n">po</span><span class="p">);</span>
+ 
+        <span class="k">lock</span> <span class="p">(</span><span class="n">_available</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">_available</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">po</span><span class="p">);</span>
+            <span class="n">_inUse</span><span class="p">.</span><span class="n">Remove</span><span class="p">(</span><span class="n">po</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+ 
+    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">CleanUp</span><span class="p">(</span><span class="n">PooledObject</span> <span class="n">po</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">po</span><span class="p">.</span><span class="n">TempData</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>In the code above, the PooledObject includes two properties that are not shown in the UML diagram. One holds the time at which the object was first created. The other holds a string that can be modified by the client but that is reset when the PooledObject is released back to the pool. This shows the clean-up process on release of an object that ensures it is in a valid state before it can be requested from the pool again.</p>
+<h3><span class="mw-headline" id="Java">Java</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=9" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Java supports <a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">thread pooling</a> via <code>java.util.concurrent.ExecutorService</code> and other related classes. The executor service has a certain number of "basic" threads that are never discarded. If all threads are busy, the service allocates the allowed number of extra threads that are later discarded if not used for the certain expiration time. If no more threads are allowed, the tasks can be placed in the queue. Finally, if this queue may get too long, it can be configured to suspend the requesting thread.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">PooledObject</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="n">String</span> <span class="n">temp1</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="n">String</span> <span class="n">temp2</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="n">String</span> <span class="n">temp3</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="n">String</span> <span class="nf">getTemp1</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">temp1</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setTemp1</span><span class="o">(</span><span class="n">String</span> <span class="n">temp1</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">temp1</span> <span class="o">=</span> <span class="n">temp1</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="n">String</span> <span class="nf">getTemp2</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">temp2</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setTemp2</span><span class="o">(</span><span class="n">String</span> <span class="n">temp2</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">temp2</span> <span class="o">=</span> <span class="n">temp2</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="n">String</span> <span class="nf">getTemp3</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">temp3</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setTemp3</span><span class="o">(</span><span class="n">String</span> <span class="n">temp3</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">temp3</span> <span class="o">=</span> <span class="n">temp3</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	
+	
+<span class="o">}</span>
+</pre></div>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">PooledObjectPool</span> <span class="o">{</span>
+	<span class="kd">private</span> <span class="kd">static</span> <span class="kt">long</span> <span class="n">expTime</span> <span class="o">=</span> <span class="mi">60000</span><span class="o">;</span><span class="c1">//6 seconds</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">available</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;();</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">inUse</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;();</span>
+	
+	
+	<span class="kd">public</span> <span class="kd">synchronized</span> <span class="kd">static</span> <span class="n">PooledObject</span> <span class="nf">getObject</span><span class="o">()</span> <span class="o">{</span>
+		<span class="kt">long</span> <span class="n">now</span> <span class="o">=</span> <span class="n">System</span><span class="o">.</span><span class="na">currentTimeMillis</span><span class="o">();</span>
+		<span class="k">if</span> <span class="o">(</span><span class="n">available</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span> <span class="o">{</span>
+			<span class="n">PooledObject</span> <span class="n">po</span> <span class="o">=</span> <span class="k">new</span> <span class="n">PooledObject</span><span class="o">();</span>
+			<span class="n">push</span><span class="o">(</span><span class="n">inUse</span><span class="o">,</span> <span class="n">po</span><span class="o">,</span> <span class="n">now</span><span class="o">);</span>
+			<span class="k">return</span> <span class="n">po</span><span class="o">;</span>
+				
+		<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+			<span class="k">for</span> <span class="o">(</span><span class="n">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">entry</span> <span class="o">:</span> <span class="n">available</span><span class="o">.</span><span class="na">entrySet</span><span class="o">())</span> <span class="o">{</span>
+				<span class="k">if</span> <span class="o">(</span><span class="n">now</span> <span class="o">-</span> <span class="n">entry</span><span class="o">.</span><span class="na">getValue</span><span class="o">()</span> <span class="o">&gt;</span> <span class="n">expTime</span><span class="o">)</span> <span class="o">{</span> <span class="c1">//object has expired</span>
+					<span class="n">popElement</span><span class="o">(</span><span class="n">available</span><span class="o">);</span>
+				<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+					<span class="n">PooledObject</span> <span class="n">po</span> <span class="o">=</span> <span class="n">popElement</span><span class="o">(</span><span class="n">available</span><span class="o">,</span> <span class="n">entry</span><span class="o">.</span><span class="na">getKey</span><span class="o">());</span>
+					<span class="n">cleanUp</span><span class="o">(</span><span class="n">po</span><span class="o">);</span>
+					<span class="n">push</span><span class="o">(</span><span class="n">inUse</span><span class="o">,</span> <span class="n">po</span><span class="o">,</span> <span class="n">now</span><span class="o">);</span> 
+					<span class="k">return</span> <span class="n">po</span><span class="o">;</span>
+				<span class="o">}</span>
+			<span class="o">}</span>
+		<span class="o">}</span>
+		<span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">private</span> <span class="kd">synchronized</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">push</span><span class="o">(</span><span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">,</span>
+			<span class="n">PooledObject</span> <span class="n">po</span><span class="o">,</span> <span class="kt">long</span> <span class="n">now</span><span class="o">)</span> <span class="o">{</span>
+		<span class="n">map</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">po</span><span class="o">,</span> <span class="n">now</span><span class="o">);</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">releaseObject</span><span class="o">(</span><span class="n">PooledObject</span> <span class="n">po</span><span class="o">)</span> <span class="o">{</span>
+		<span class="n">cleanUp</span><span class="o">(</span><span class="n">po</span><span class="o">);</span>
+		<span class="n">available</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">po</span><span class="o">,</span> <span class="n">System</span><span class="o">.</span><span class="na">currentTimeMillis</span><span class="o">());</span>
+		<span class="n">inUse</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">po</span><span class="o">);</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kd">static</span> <span class="n">PooledObject</span> <span class="nf">popElement</span><span class="o">(</span><span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">)</span> <span class="o">{</span>
+		 <span class="n">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">entry</span> <span class="o">=</span> <span class="n">map</span><span class="o">.</span><span class="na">entrySet</span><span class="o">().</span><span class="na">iterator</span><span class="o">().</span><span class="na">next</span><span class="o">();</span>
+		 <span class="n">PooledObject</span> <span class="n">key</span><span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="na">getKey</span><span class="o">();</span>
+		 <span class="c1">//Long value=entry.getValue();</span>
+		 <span class="n">map</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">entry</span><span class="o">.</span><span class="na">getKey</span><span class="o">());</span>
+		 <span class="k">return</span> <span class="n">key</span><span class="o">;</span>
+		 
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kd">static</span> <span class="n">PooledObject</span> <span class="nf">popElement</span><span class="o">(</span><span class="n">HashMap</span><span class="o">&lt;</span><span class="n">PooledObject</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">,</span> <span class="n">PooledObject</span> <span class="n">key</span><span class="o">)</span> <span class="o">{</span>
+		<span class="n">map</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">key</span><span class="o">);</span>
+		<span class="k">return</span> <span class="n">key</span><span class="o">;</span>
+		
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">cleanUp</span><span class="o">(</span><span class="n">PooledObject</span> <span class="n">po</span><span class="o">)</span> <span class="o">{</span>
+		<span class="n">po</span><span class="o">.</span><span class="na">setTemp1</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>
+		<span class="n">po</span><span class="o">.</span><span class="na">setTemp2</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>
+		<span class="n">po</span><span class="o">.</span><span class="na">setTemp3</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>
+	<span class="o">}</span>
+	
+<span class="o">}</span>
+</pre></div>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Connection_pool" title="Connection pool">Connection pool</a></li>
+<li><a href="/wiki/Free_list" title="Free list">Free list</a></li>
+<li><a href="/wiki/Slab_allocation" title="Slab allocation">Slab allocation</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-citation_style" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>has an unclear citation style</b>. <span class="hide-when-compact">The references used may be made clearer with a different or consistent style of <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">citation</a>, <a href="/wiki/Help:Footnotes" title="Help:Footnotes">footnoting</a>, or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external linking</a>.</span> <small><i>(March 2012)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-urban-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-urban_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-urban_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Goetz, Brian (2005-09-27). <a class="external text" href="http://www.ibm.com/developerworks/java/library/j-jtp09275/index.html" rel="nofollow">"Java theory and practice: Urban performance legends, revisited"</a>. IBM developerWorks. Archived from <a class="external text" href="http://www.ibm.com/" rel="nofollow">the original</a> on 2005-09-27<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-08-28</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AObject+pool+pattern&amp;rft.aufirst=Brian&amp;rft.aulast=Goetz&amp;rft.btitle=Java+theory+and+practice%3A+Urban+performance+legends%2C+revisited&amp;rft.date=2005-09-27&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2F&amp;rft.pub=IBM+developerWorks&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web">Goetz, Brian (2005-09-27). <a class="external text" href="http://www.ibm.com/developerworks/java/library/j-jtp11253/" rel="nofollow">"Java theory and practice: Garbage collection in the HotSpot JVM"</a>. IBM developerWorks. Archived from <a class="external text" href="http://www.ibm.com/" rel="nofollow">the original</a> on 2003-11-25<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-08-28</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AObject+pool+pattern&amp;rft.aufirst=Brian&amp;rft.aulast=Goetz&amp;rft.btitle=Java+theory+and+practice%3A+Garbage+collection+in+the+HotSpot+JVM&amp;rft.date=2005-09-27&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2F&amp;rft.pub=IBM+developerWorks&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<div class="refbegin" style="">
+<ul>
+<li><cite class="citation conference">Kircher, Michael; Prashant Jain (2002-07-04). <a class="external text" href="http://www.kircher-schwanninger.de/michael/publications/Pooling.pdf" rel="nofollow">"Pooling Pattern"</a> <span style="font-size:85%;">(PDF)</span>. <i>EuroPLoP 2002</i>. Germany<span class="reference-accessdate">. Retrieved <span class="nowrap">2007-06-09</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AObject+pool+pattern&amp;rft.atitle=Pooling+Pattern&amp;rft.aufirst=Michael&amp;rft.aulast=Kircher&amp;rft.au=Prashant+Jain&amp;rft.btitle=EuroPLoP+2002&amp;rft.date=2002-07-04&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.kircher-schwanninger.de%2Fmichael%2Fpublications%2FPooling.pdf&amp;rft.place=Germany&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Goldshtein, Sasha; Zurbalev, Dima; Flatow, Ido (2012). <a class="external text" href="http://www.apress.com/9781430244585" rel="nofollow"><i>Pro .NET Performance: Optimize Your C# Applications</i></a>. Apress. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1-4302-4458-5" title="Special:BookSources/978-1-4302-4458-5">978-1-4302-4458-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AObject+pool+pattern&amp;rft.aufirst=Sasha&amp;rft.au=Flatow%2C+Ido&amp;rft.aulast=Goldshtein&amp;rft.au=Zurbalev%2C+Dima&amp;rft.btitle=Pro+.NET+Performance%3A+Optimize+Your+C%23+Applications&amp;rft.date=2012&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.apress.com%2F9781430244585&amp;rft.isbn=978-1-4302-4458-5&amp;rft.pub=Apress&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Object_pool_pattern&amp;action=edit&amp;section=12" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.oodesign.com/object-pool-pattern.html" rel="nofollow">OODesign article</a></li>
+<li><a class="external text" href="http://msdn2.microsoft.com/en-us/library/ms682822.aspx" rel="nofollow">Improving Performance with Object Pooling (Microsoft Developer Network )</a></li>
+<li><a class="external text" href="http://www.developer.com/tech/article.php/626171/Pattern-Summaries-Object-Pool.htm" rel="nofollow">Developer.com article</a></li>
+<li><a class="external text" href="http://c2.com/cgi-bin/wiki?ObjectPoolPattern" rel="nofollow">Portland Pattern Repository entry</a></li>
+<li><a class="external text" href="http://commons.apache.org/pool/" rel="nofollow">Apache Commons Pool: A mini-framework to correctly implement object pooling in Java</a></li>
+<li><a class="external text" href="http://gameprogrammingpatterns.com/object-pool.html" rel="nofollow">Game Programming Patterns: Object Pool</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><strong class="selflink">Object pool</strong></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2840375-0!*!0!!en!4!* and timestamp 20160926155027 and revision id 741292689
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Object_pool_pattern&amp;oldid=741292689">https://en.wikipedia.org/w/index.php?title=Object_pool_pattern&amp;oldid=741292689</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Software_optimization" title="Category:Software optimization">Software optimization</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_references_cleanup_from_March_2012" title="Category:Wikipedia references cleanup from March 2012">Wikipedia references cleanup from March 2012</a></li><li><a href="/wiki/Category:All_articles_needing_references_cleanup" title="Category:All articles needing references cleanup">All articles needing references cleanup</a></li><li><a href="/wiki/Category:Articles_covered_by_WikiProject_Wikify_from_March_2012" title="Category:Articles covered by WikiProject Wikify from March 2012">Articles covered by WikiProject Wikify from March 2012</a></li><li><a href="/wiki/Category:All_articles_covered_by_WikiProject_Wikify" title="Category:All articles covered by WikiProject Wikify">All articles covered by WikiProject Wikify</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Object+pool+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Object+pool+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Object_pool_pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Object_pool_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Object_pool_pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Object_pool_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Object_pool_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Object_pool_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Object_pool_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Object_pool_pattern&amp;oldid=741292689" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Object_pool_pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q2621189" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Object_pool_pattern&amp;id=741292689" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Object+pool+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Object+pool+pattern&amp;returnto=Object+pool+pattern&amp;oldid=741292689&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Object_pool_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/Object_pool_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD)" hreflang="bg" lang="bg" title="Object pool (шаблон) – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Object_pool" hreflang="cs" lang="cs" title="Object pool – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Objektpool" hreflang="de" lang="de" title="Objektpool – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Object_pool_(patr%C3%B3n_de_dise%C3%B1o)" hreflang="es" lang="es" title="Object pool (patrón de diseño) – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1_%D8%A7%D8%B4%DB%8C%D8%A7%D8%A1" hreflang="fa" lang="fa" title="الگوی استخر اشیاء – Persian">فارسی</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%95%D5%A2%D5%B5%D5%A5%D5%AF%D5%BF%D5%B6%D5%A5%D6%80%D5%AB_%D5%A1%D5%BE%D5%A1%D5%A6%D5%A1%D5%B6_(%D5%B6%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7)" hreflang="hy" lang="hy" title="Օբյեկտների ավազան (նախագծման ձևանմուշ) – Armenian">Հայերեն</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Objektumk%C3%A9szlet_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Objektumkészlet programtervezési minta – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Pula_obiekt%C3%B3w_(wzorzec_projektowy)" hreflang="pl" lang="pl" title="Pula obiektów (wzorzec projektowy) – Polish">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9_%D0%BF%D1%83%D0%BB" hreflang="ru" lang="ru" title="Объектный пул – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%83%D0%BB_%D0%BE%D0%B1%27%D1%94%D0%BA%D1%82%D1%96%D0%B2_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)" hreflang="uk" lang="uk" title="Пул об'єктів (шаблон проектування) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E6%B1%A0%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="对象池模式 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q2621189#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 September 2016, at 15:50.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Object_pool_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.236",
+            "walltime": "0.352",
+            "ppvisitednodes": {
+                "value": 872,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 38445,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1068,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 8,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 2,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  277.973      1 -total",
+                " 32.25%   89.657      1 Template:Reflist",
+                " 25.89%   71.976      2 Template:Cite_web",
+                " 22.93%   63.744      1 Template:Citestyle",
+                " 18.67%   51.905      1 Template:Ambox",
+                " 18.15%   50.453      1 Template:Design_Patterns_patterns",
+                " 15.45%   42.939      2 Template:Navbox",
+                " 13.88%   38.577      1 Template:For",
+                "  7.28%   20.243      1 Template:Navbox_subgroup",
+                "  3.84%   10.669      1 Template:Cite_book"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.086",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2759247,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1208",
+            "timestamp": "20160926155001",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1247"});});</script>
+</body>
+</html>
+

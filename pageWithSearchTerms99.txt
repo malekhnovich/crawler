@@ -1,0 +1,298 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Abstraction_principle_(programming)
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Abstraction principle (computer programming) - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Abstraction_principle_(computer_programming)","wgTitle":"Abstraction principle (computer programming)","wgCurRevisionId":740924398,"wgRevisionId":740924398,"wgArticleId":24107654,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from March 2013","Programming language topics","Programming principles"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Abstraction_principle_(computer_programming)","wgRelevantArticleId":24107654,"wgRequestId":"V-BjrgpAADgAARmPFPYAAABR","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Abstraction_principle_(programming)","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Abstraction_principle_(computer_programming)","wgWikibaseItemId":"Q4669973","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Abstraction_principle_(computer_programming)" rel="alternate"/>
+<link href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming)" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Abstraction_principle_computer_programming rootpage-Abstraction_principle_computer_programming skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Abstraction principle (computer programming)</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Abstraction_principle_(programming)&amp;redirect=no" title="Abstraction principle (programming)">Abstraction principle (programming)</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> and <a href="/wiki/Programming_language_theory" title="Programming language theory">programming language theory</a>, the <b>abstraction principle</b> (or the <b>principle of abstraction</b>) is a basic <a href="/wiki/Dictum" title="Dictum">dictum</a> that aims to reduce duplication of information in a program (usually with emphasis on <a class="mw-redirect" href="/wiki/Code_duplication" title="Code duplication">code duplication</a>) whenever practical by making use of <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstractions</a> provided by the programming language or <a class="mw-redirect" href="/wiki/Software_libraries" title="Software libraries">software libraries</a>. The principle is sometimes stated as a recommendation to the programmer, but sometimes stated as a requirement of the programming language, assuming it is self-understood why abstractions are desirable to use. The origins of the principle are uncertain; it has been reinvented a number of times, sometimes under a different name, with slight variations.</p>
+<p>When read as recommendation to the programmer, the abstraction principle can be generalized as the "<a href="/wiki/Don%27t_repeat_yourself" title="Don't repeat yourself">don't repeat yourself</a>" principle, which recommends avoiding the duplication of information in general, and also avoiding the duplication of human effort involved in the software development process.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_principle"><span class="tocnumber">1</span> <span class="toctext">The principle</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History_and_variations"><span class="tocnumber">2</span> <span class="toctext">History and variations</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Implications"><span class="tocnumber">3</span> <span class="toctext">Implications</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Generalizations"><span class="tocnumber">4</span> <span class="toctext">Generalizations</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Hardware_programming_interfaces"><span class="tocnumber">5</span> <span class="toctext">Hardware programming interfaces</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="The_principle">The principle</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=1" title="Edit section: The principle">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As a recommendation to the programmer, in its formulation by <a href="/wiki/Benjamin_C._Pierce" title="Benjamin C. Pierce">Benjamin C. Pierce</a> in <i><a href="/wiki/Types_and_Programming_Languages" title="Types and Programming Languages">Types and Programming Languages</a></i> (2002), the abstraction principle reads (emphasis in original):<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></p>
+<table class="cquote" role="presentation" style="margin:auto; border-collapse: collapse; border: none; background-color: transparent; width: auto;">
+<tr>
+<td style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: 10px 10px;">“</td>
+<td style="vertical-align: top; border: none; padding: 4px 10px;">Each significant piece of functionality in a program should be implemented in just one place in the source code. Where similar functions are carried out by distinct pieces of code, it is generally beneficial to combine them into one by <i>abstracting out</i> the varying parts.</td>
+<td style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: 10px 10px;">”</td>
+</tr>
+</table>
+<p>As a requirement of the programming language, in its formulation by David A. Schmidt in <i>The structure of typed programming languages</i> (1994), the abstraction principle reads:.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<table class="cquote" role="presentation" style="margin:auto; border-collapse: collapse; border: none; background-color: transparent; width: auto;">
+<tr>
+<td style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: 10px 10px;">“</td>
+<td style="vertical-align: top; border: none; padding: 4px 10px;">The phrases of any semantically meaningful syntactic class may be named.</td>
+<td style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: 10px 10px;">”</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="History_and_variations">History and variations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=2" title="Edit section: History and variations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Under this very name, the abstraction principle appears into a long list of books. Here we give a necessarily incomplete list, together with the formulation if it is succinct:</p>
+<ul>
+<li>Alfred John Cole, Ronald Morrison (1982) <i>An introduction to programming with S-algol</i>: "[Abstraction] when applied to language design is to define all the semantically meaningful syntactic categories in the language and allow an abstraction over them".<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></li>
+<li>Bruce J. MacLennan (1983) <i>Principles of programming languages: design, evaluation, and implementation</i>: "Avoid requiring something to be stated more than once; factor out the recurring pattern".<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></li>
+<li>Jon Pearce (1998) <i>Programming and Meta-Programming in Scheme</i>: "Structure and function should be independent".<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></li>
+</ul>
+<p>The principle plays a central role in <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">design patterns</a> in <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>, although most writings on that topic do not give a name to the principle. The <a class="mw-redirect" href="/wiki/Design_Patterns_(book)" title="Design Patterns (book)">influential book by the Gang of Four</a>, states: "The focus here is <i><a class="mw-redirect" href="/wiki/Encapsulation_(object-oriented_programming)" title="Encapsulation (object-oriented programming)">encapsulating</a> the concept that varies</i>, a theme of many design patterns." This statement has been rephrased by other authors as "Find what varies and encapsulate it."<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup></p>
+<p>In this century, the principle has been reinvented in <a href="/wiki/Extreme_programming" title="Extreme programming">extreme programming</a> under the slogan "Once and Only Once". The definition of this principle was rather succinct in its first appearance: "no duplicate code".<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> It has later been elaborated as applicable to other issues in software development: "Automate every process that's worth automating. If you find yourself performing a task many times, script it."<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></p>
+<h2><span class="mw-headline" id="Implications">Implications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=3" title="Edit section: Implications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The abstraction principle is often stated in the context of some mechanism intended to facilitate abstraction. The basic mechanism of control abstraction is a function or <a href="/wiki/Subroutine" title="Subroutine">subroutine</a>. Data abstractions include various forms of <a class="mw-redirect" href="/wiki/Type_polymorphism" title="Type polymorphism">type polymorphism</a>. More elaborate mechanisms that may combine data and control abstractions include: <a href="/wiki/Abstract_data_type" title="Abstract data type">abstract data types</a>, including <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">classes</a>, <a href="/wiki/Polymorphism_(computer_science)#Polytypism" title="Polymorphism (computer science)">polytypism</a> etc. The quest for richer abstractions that allow less duplication in complex scenarios is one of the driving forces in programming language research and design.</p>
+<p>Inexperienced programmers may be tempted to introduce too much abstraction in their program—abstraction that won't be used more than once.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (March 2013)">citation needed</span></a></i>]</sup> A complementary principle that emphasize this issue is "<a class="mw-redirect" href="/wiki/You_Ain%27t_Gonna_Need_It" title="You Ain't Gonna Need It">You Ain't Gonna Need It</a>" and, more generally, the <a href="/wiki/KISS_principle" title="KISS principle">KISS principle</a>.</p>
+<p>Since code is usually subject to revisions, following the abstraction principle may entail <a class="mw-redirect" href="/wiki/Refactoring" title="Refactoring">refactoring</a> of code. The effort of rewriting a piece of code generically needs to be amortized against the estimated future benefits of an abstraction. A rule of thumb governing this was devised by <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>, and popularized as <a class="mw-redirect" href="/wiki/Rule_of_three_(programming)" title="Rule of three (programming)">the rule of three</a>. It states that if a piece of code is copied more than once, i.e. it would end up having three or more copies, then it needs to be abstracted out.</p>
+<h2><span class="mw-headline" id="Generalizations">Generalizations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=4" title="Edit section: Generalizations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>"<a href="/wiki/Don%27t_repeat_yourself" title="Don't repeat yourself">Don't repeat yourself</a>", or the "DRY principle", is a generalization developed in the context of <a class="mw-redirect" href="/wiki/Multi-tier_architecture" title="Multi-tier architecture">multi-tier architectures</a>, where related code is by necessity duplicated to some extent across tiers, usually in different languages. In practical terms, the recommendation here is to rely on automated tools, like <a class="mw-redirect" href="/wiki/Code_generator" title="Code generator">code generators</a> and <a href="/wiki/Data_transformation" title="Data transformation">data transformations</a> to avoid repetition.</p>
+<h2><span class="mw-headline" id="Hardware_programming_interfaces">Hardware programming interfaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=5" title="Edit section: Hardware programming interfaces">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In addition to optimizing code, a hierarchical/recursive meaning of Abstraction level in programming also refers to the interfaces between hardware communication layers, also called "abstraction levels" and "abstraction layers." In this case, level of abstraction often is synonymous with interface. For example, in examining shellcode and the interface between higher and lower level languages, the level of abstraction changes from operating system commands (for example, in C) to register and circuit level calls and commands (for example, in assembly and binary). In the case of that example, the boundary or interface between the abstraction levels is the stack.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup></p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Pierce, Benjamin (2002). <i>Types and Programming Languages</i>. MIT Press. p. 339. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-262-16209-1" title="Special:BookSources/0-262-16209-1">0-262-16209-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAbstraction+principle+%28computer+programming%29&amp;rft.aufirst=Benjamin&amp;rft.aulast=Pierce&amp;rft.btitle=Types+and+Programming+Languages&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=0-262-16209-1&amp;rft.pages=339&amp;rft.pub=MIT+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">David A. Schmidt, <i>The structure of typed programming languages</i>, MIT Press, 1994, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0262193493">ISBN 0-262-19349-3</a>, p. 32</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Alfred John Cole, Ronald Morrison, <i>An introduction to programming with S-algol</i>, CUP Archive, 1982, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0521250013">ISBN 0-521-25001-3</a>, p. 150</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Bruce J. MacLennan, <i>Principles of programming languages: design, evaluation, and implementation</i>, Holt, Rinehart, and Winston, 1983, p. 53</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Jon Pearce, <i>Programming and meta-programming in scheme</i>, Birkhäuser, 1998, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0387983201">ISBN 0-387-98320-1</a>, p. 40</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Alan Shalloway, James Trott, <i>Design patterns explained: a new perspective on object-oriented design</i>, Addison-Wesley, 2002, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201715945">ISBN 0-201-71594-5</a>, p. 115</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Kent Beck, <i>Extreme programming explained: embrace change</i>, 2nd edition, Addison-Wesley, 2000, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0201616416">ISBN 0-201-61641-6</a>, p. 61</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Chromatic, <i>Extreme programming pocket guide</i>, O'Reilly, 2003, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0596004850">ISBN 0-596-00485-0</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Koziol, <i>The Shellcoders Handbook"</i>, Wiley, 2004, p. 10, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0764544683">ISBN 0-7645-4468-3</a></span></li>
+</ol>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:24107654-0!*!0!!en!*!* and timestamp 20160924055450 and revision id 740924398
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Abstraction_principle_(computer_programming)&amp;oldid=740924398">https://en.wikipedia.org/w/index.php?title=Abstraction_principle_(computer_programming)&amp;oldid=740924398</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Programming_language_topics" title="Category:Programming language topics">Programming language topics</a></li><li><a href="/wiki/Category:Programming_principles" title="Category:Programming principles">Programming principles</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_March_2013" title="Category:Articles with unsourced statements from March 2013">Articles with unsourced statements from March 2013</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Abstraction+principle+%28computer+programming%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Abstraction+principle+%28computer+programming%29" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Abstraction_principle_(computer_programming)" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Abstraction_principle_(computer_programming)" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Abstraction_principle_(computer_programming)">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Abstraction_principle_(computer_programming)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Abstraction_principle_(computer_programming)" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;oldid=740924398" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q4669973" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Abstraction_principle_%28computer_programming%29&amp;id=740924398" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Abstraction+principle+%28computer+programming%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Abstraction+principle+%28computer+programming%29&amp;returnto=Abstraction+principle+%28computer+programming%29&amp;oldid=740924398&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Abstraction_principle_(computer_programming)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q4669973#sitelinks-wikipedia" title="Add interlanguage links">Add links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 24 September 2016, at 05:54.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Abstraction_principle_(computer_programming)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.108",
+            "walltime": "0.136",
+            "ppvisitednodes": {
+                "value": 452,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 5206,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 816,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  113.905      1 -total",
+                " 47.61%   54.229      1 Template:Citation_needed",
+                " 36.84%   41.957      1 Template:Reflist",
+                " 34.56%   39.368      1 Template:Fix",
+                " 28.29%   32.225      1 Template:Cite_book",
+                " 19.88%   22.649      2 Template:Category_handler",
+                " 11.70%   13.324      1 Template:Delink",
+                "  9.17%   10.441      2 Template:Cquote",
+                "  2.32%    2.642      1 Template:Fix/category"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.041",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1788345,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1196",
+            "timestamp": "20160924055428",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":110,"wgHostname":"mw1261"});});</script>
+</body>
+</html>
+

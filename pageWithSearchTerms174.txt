@@ -1,0 +1,456 @@
+The following page is located at the url: https://it.wikipedia.org/wiki/Design_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="it">
+<head>
+<meta charset="utf-8"/>
+<title>Design pattern - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Design_pattern","wgTitle":"Design pattern","wgCurRevisionId":82931090,"wgRevisionId":82931090,"wgArticleId":40962,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Senza fonti - programmazione","Senza fonti - aprile 2013","Voci con codice GND","Voci non biografiche con codici di controllo di autorità","Pattern"],"wgBreakFrames":false,"wgPageContentLanguage":"it","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"],"wgMonthNamesShort":["","gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"],"wgRelevantPageName":"Design_pattern","wgRelevantArticleId":40962,"wgRequestId":"V-C-AApAMEoAAKPJvpQAAAAN","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsExperimentIsBetaFeatureEnabled":false,"wgVisualEditor":{"pageLanguageCode":"it","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"it","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"italiano","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q181156","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"it"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=it&amp;modules=ext.gadget.ExternalSearch%2CHiddenCat%2COpenStreetMap%2CReferenceTooltips%2CWikiMiniAtlas%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=it&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=it&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/it.m.wikipedia.org/wiki/Design_pattern" rel="alternate"/>
+<link href="/w/index.php?title=Design_pattern&amp;action=edit" rel="alternate" title="Modifica" type="application/x-wiki"/>
+<link href="/w/index.php?title=Design_pattern&amp;action=edit" rel="edit" title="Modifica"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (it)" type="application/opensearchdescription+xml"/>
+<link href="//it.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://it.wikipedia.org/wiki/Design_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Design_pattern rootpage-Design_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="it">Design pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">Da Wikipedia, l'enciclopedia libera.</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Vai a:					<a href="#mw-head">navigazione</a>, 					<a href="#p-search">ricerca</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="it"><div class="noprint" style="clear:both; margin-bottom:.5em; border:1px solid #CCC; padding-left:4px; text-align:left"><a class="image" href="/wiki/File:Nota_disambigua.svg"><img alt="Nota disambigua.svg" class="noviewer" data-file-height="200" data-file-width="200" height="18" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nota_disambigua.svg/18px-Nota_disambigua.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nota_disambigua.svg/27px-Nota_disambigua.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nota_disambigua.svg/36px-Nota_disambigua.svg.png 2x" width="18"/></a> <i><a href="/wiki/Aiuto:Disambiguazione" title="Aiuto:Disambiguazione">Disambiguazione</a> – Se stai cercando il libro, vedi <b><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></b>.</i></div>
+<table class="plainlinks avviso avviso-contenuto" style="">
+<tr>
+<td class="avviso-immagine metadata noprint">
+<div style="width:52px;"><a class="image" href="/wiki/File:Question_book-4.svg" title="Niente fonti!"><img alt="Niente fonti!" data-file-height="204" data-file-width="262" height="35" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/45px-Question_book-4.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/68px-Question_book-4.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/90px-Question_book-4.svg.png 2x" width="45"/></a></div>
+</td>
+<td class="avviso-testo"><b>Questa voce o sezione  sull'argomento programmazione <a href="/wiki/Wikipedia:Uso_delle_fonti" title="Wikipedia:Uso delle fonti">non cita le fonti necessarie</a> o quelle presenti sono insufficienti</b>.
+<div class="metadata noprint">
+<hr/>
+<div style="font-size:90%;">Puoi <a class="external text" href="//it.wikipedia.org/w/index.php?title=Design_pattern&amp;action=edit">migliorare questa voce</a> aggiungendo citazioni da <a href="/wiki/Wikipedia:Fonti_attendibili" title="Wikipedia:Fonti attendibili">fonti attendibili</a> secondo le <a href="/wiki/Wikipedia:Uso_delle_fonti" title="Wikipedia:Uso delle fonti">linee guida sull'uso delle fonti</a>.</div>
+</div>
+</td>
+</tr>
+</table>
+<p>In <a href="/wiki/Informatica" title="Informatica">informatica</a>, nell'ambito dell'<a href="/wiki/Ingegneria_del_software" title="Ingegneria del software">ingegneria del software</a>, un <b>design pattern</b> (traducibile in <a href="/wiki/Lingua_italiana" title="Lingua italiana">lingua italiana</a> come <b>schema progettuale, schema di progettazione, schema architetturale</b>), è un concetto che può essere definito "<i>una soluzione <a href="/wiki/Progetto" title="Progetto">progettuale</a> generale ad un problema ricorrente</i>". Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di <a href="/wiki/Ciclo_di_vita_del_software" title="Ciclo di vita del software">progettazione e sviluppo del software</a>, ancor prima della definizione dell'<a href="/wiki/Algoritmo" title="Algoritmo">algoritmo</a> risolutivo della parte computazionale. È un approccio spesso efficace nel contenere o ridurre il <a href="/wiki/Debito_tecnico" title="Debito tecnico">debito tecnico</a>.</p>
+<p>I design pattern <a class="mw-redirect" href="/wiki/Object_oriented" title="Object oriented">orientati agli oggetti</a> tipicamente mostrano relazioni ed interazioni tra <a href="/wiki/Classe_(informatica)" title="Classe (informatica)">classi</a> o <a href="/wiki/Oggetto_(informatica)" title="Oggetto (informatica)">oggetti</a>, senza specificare le classi applicative finali coinvolte, risiedendo quindi nel dominio dei <a class="new" href="/w/index.php?title=Modulo_(software)&amp;action=edit&amp;redlink=1" title="Modulo (software) (la pagina non esiste)">moduli</a> e delle interconnessioni. Ad un livello più alto sono invece i pattern architetturali che hanno un ambito ben più ampio, descrivendo un pattern complessivo adottato dall'intero sistema, la cui implementazione logica dà vita a un <a href="/wiki/Framework" title="Framework">framework</a>.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Indice</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Storia"><span class="tocnumber">1</span> <span class="toctext">Storia</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Struttura_di_un_pattern"><span class="tocnumber">2</span> <span class="toctext">Struttura di un pattern</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Classificazione_dei_design_pattern"><span class="tocnumber">3</span> <span class="toctext">Classificazione dei design pattern</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Pattern_creazionali"><span class="tocnumber">3.1</span> <span class="toctext">Pattern creazionali</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Pattern_strutturali"><span class="tocnumber">3.2</span> <span class="toctext">Pattern strutturali</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Pattern_comportamentali"><span class="tocnumber">3.3</span> <span class="toctext">Pattern comportamentali</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Altri_tipi_di_pattern"><span class="tocnumber">4</span> <span class="toctext">Altri tipi di pattern</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Pattern_architetturali"><span class="tocnumber">4.1</span> <span class="toctext">Pattern architetturali</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Pattern_di_metodologia"><span class="tocnumber">4.2</span> <span class="toctext">Pattern di metodologia</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Pattern_di_concorrenza"><span class="tocnumber">4.3</span> <span class="toctext">Pattern di concorrenza</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Bibliografia"><span class="tocnumber">5</span> <span class="toctext">Bibliografia</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Voci_correlate"><span class="tocnumber">6</span> <span class="toctext">Voci correlate</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Altri_progetti"><span class="tocnumber">7</span> <span class="toctext">Altri progetti</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Collegamenti_esterni"><span class="tocnumber">8</span> <span class="toctext">Collegamenti esterni</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Storia">Storia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=1" title="Modifica la sezione Storia">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=1" title="Modifica la sezione Storia">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Il termine fu inizialmente introdotto in <a href="/wiki/Architettura" title="Architettura">architettura</a> in un celebre saggio di <a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a>; in seguito, proprio l'opera di Alexander ispirò la nascita di un settore dell'ingegneria del software dedicato all'applicazione del concetto di design pattern alle <a class="mw-redirect" href="/wiki/Architettura_software" title="Architettura software">architetture software</a>, soprattutto <a href="/wiki/Programmazione_orientata_agli_oggetti" title="Programmazione orientata agli oggetti">object-oriented</a>. Oggi, l'espressione <i>design pattern</i> viene usata principalmente con riferimento a questo particolare contesto.</p>
+<p>Il tema dei pattern viene oggi considerato una delle linee principali di sviluppo dell'ingegneria del software object-oriented. Esso trova applicazioni in tutta una serie di contesti di grande interesse per l'<a href="/wiki/Industria_del_software" title="Industria del software">industria del software</a>, dallo <a class="new" href="/w/index.php?title=Componente_software&amp;action=edit&amp;redlink=1" title="Componente software (la pagina non esiste)">sviluppo di software basato su componenti</a>, ai <a href="/wiki/Sistema_aperto" title="Sistema aperto">sistemi aperti</a>, ai <a href="/wiki/Framework" title="Framework">framework</a> e così via. La maggior parte dei <a href="/wiki/Linguaggio_di_programmazione" title="Linguaggio di programmazione">linguaggi di programmazione</a> moderni, e di tecnologie correlate, sono stati progettati (o modificati) tenendo conto anche dell'obiettivo di essere coerenti con questo approccio emergente allo sviluppo del software.</p>
+<p>La nascita del "movimento" dei pattern in informatica si deve al celebre libro <i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns: Elementi per il riuso di software ad oggetti</a></i> di <a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, <a href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson_(informatico)" title="Ralph Johnson (informatico)">Ralph Johnson</a> e <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a> (<a href="/wiki/1995" title="1995">1995</a>). Grazie al successo di quest'opera, i suoi quattro autori divennero nomi talmente citati che la comunità scientifica iniziò, per brevità, a identificarli collettivamente con un nomignolo: la "banda dei quattro" (<i><a href="/wiki/Gang_of_four" title="Gang of four">Gang of four</a></i> o <i>Gof</i>).</p>
+<h2><span class="mw-headline" id="Struttura_di_un_pattern">Struttura di un pattern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=2" title="Modifica la sezione Struttura di un pattern">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=2" title="Modifica la sezione Struttura di un pattern">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Un <i>design pattern</i> è costituito da:</p>
+<ul>
+<li><i>il nome</i>, costituito da una o due parole che siano il più possibile rappresentative del pattern stesso;</li>
+<li><i>il problema</i>, ovvero la descrizione della situazione alla quale si può applicare il pattern. Può comprendere la descrizione di <a href="/wiki/Classe_(informatica)" title="Classe (informatica)">classi</a> o di problemi di progettazione specifici, come anche una lista di condizioni perché sia necessario l'utilizzo del pattern;</li>
+<li><i>la soluzione</i>, che descrive gli elementi costitutivi del progetto con le relazioni e relative implicazioni, senza però addentrarsi in una specifica implementazione. Il concetto è di presentare un problema astratto e la relativa configurazione di elementi adatta a risolverlo;</li>
+<li><i>le conseguenze</i>, i risultati e i vincoli che derivano dall'applicazione del pattern. Sono fondamentali in quanto possono essere l'ago della bilancia nella scelta dei pattern: le conseguenze comprendono considerazioni di tempo e di spazio, possono descrivere implicazioni del pattern con alcuni linguaggi di programmazione e l'impatto con il resto del progetto.</li>
+</ul>
+<p>L'uso di <a href="/wiki/Pattern" title="Pattern">pattern</a> nella descrizione di altri pattern dà origine ai cosiddetti <a class="new" href="/w/index.php?title=Linguaggio_di_pattern&amp;action=edit&amp;redlink=1" title="Linguaggio di pattern (la pagina non esiste)">linguaggi di pattern</a>.</p>
+<h2><span class="mw-headline" id="Classificazione_dei_design_pattern">Classificazione dei design pattern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=3" title="Modifica la sezione Classificazione dei design pattern">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=3" title="Modifica la sezione Classificazione dei design pattern">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I design pattern possono essere classificati con diversi criteri, i più comuni dei quali sono quelli che evidenziano il tipo di problema che si cerca di risolvere. Il tipo di problema può essere legato ad uno specifico dominio progettuale (<a class="mw-redirect" href="/wiki/Telecomunicazioni" title="Telecomunicazioni">telecomunicazioni</a>, <a class="mw-redirect" href="/wiki/Rete_informatica" title="Rete informatica">reti</a>, <a href="/wiki/Software" title="Software">software</a>) oppure, più comunemente, al problema progettuale in senso più ampio (nell'<a href="/wiki/Ingegneria_del_software" title="Ingegneria del software">ingegneria del software</a>, ad esempio, si può parlare di creazione, comportamento, navigazione di oggetti o <a class="mw-redirect" href="/wiki/Strutture_dati" title="Strutture dati">strutture dati</a>).</p>
+<p>Nel loro <a href="/wiki/Design_Patterns" title="Design Patterns">libro</a> la "<a href="/wiki/Gang_of_four" title="Gang of four">banda dei quattro</a>" identificò 23 tipi di design pattern, suddivisi in tre categorie: strutturali, creazionali e comportamentali.</p>
+<h3><span class="mw-headline" id="Pattern_creazionali">Pattern creazionali</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=4" title="Modifica la sezione Pattern creazionali">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=4" title="Modifica la sezione Pattern creazionali">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>I pattern creazionali nascondono i costruttori delle classi e mettono dei metodi al loro posto creando un'interfaccia. In questo modo si possono utilizzare oggetti senza sapere come sono implementati.</p>
+<ul>
+<li>L'<a href="/wiki/Abstract_factory" title="Abstract factory">Abstract factory</a> (letteralmente, "fabbrica astratta") fornisce un'interfaccia per creare famiglie di oggetti connessi o dipendenti tra loro, in modo che non ci sia necessità da parte degli utilizzatori di specificare i nomi delle classi concrete all'interno del proprio codice.</li>
+<li>Il <a href="/wiki/Builder" title="Builder">Builder</a> ("costruttore") separa la costruzione di un oggetto complesso dalla sua rappresentazione, in modo che il processo di costruzione stesso possa creare diverse rappresentazioni.</li>
+<li>Il <a href="/wiki/Factory_method" title="Factory method">Factory method</a> ("metodo fabbrica") fornisce un'interfaccia per creare un oggetto, ma lascia che le sottoclassi decidano quale oggetto istanziare.</li>
+<li>La <a href="/wiki/Lazy_initialization" title="Lazy initialization">Lazy initialization</a> ("inizializzazione pigra") è la tattica di istanziare un oggetto solo nel momento in cui deve essere usato per la prima volta. È utilizzato spesso insieme al pattern <i>factory method</i>.</li>
+<li>Il <a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype pattern</a> ("prototipo") permette di creare nuovi oggetti clonando un oggetto iniziale, o prototipo.</li>
+<li>Il <a href="/wiki/Singleton" title="Singleton">Singleton</a> ("singoletto") ha lo scopo di assicurare che di una classe possa essere creata una sola istanza.</li>
+</ul>
+<h3><span class="mw-headline" id="Pattern_strutturali">Pattern strutturali</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=5" title="Modifica la sezione Pattern strutturali">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=5" title="Modifica la sezione Pattern strutturali">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>I pattern strutturali consentono di riutilizzare degli oggetti esistenti fornendo agli utilizzatori un'interfaccia più adatta alle loro esigenze.</p>
+<ul>
+<li>L'<a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a> ("adattatore") converte l'interfaccia di una classe in una interfaccia diversa.</li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a> ("ponte") permette di separare l'astrazione di una classe dalla sua implementazione, per permettere loro di variare indipendentemente.</li>
+<li>Il <a href="/wiki/Composite" title="Composite">Composite</a> ("composto"), utilizzato per dare la possibilità all'utilizzatore di manipolare gli oggetti in modo uniforme, organizza gli oggetti in una struttura ad albero.</li>
+<li>Il <a href="/wiki/Container_pattern" title="Container pattern">Container</a> ("contenitore") offre una soluzione alla rottura dell'incapsulamento per via dell'uso dell'ereditarietà.</li>
+<li>Il <a href="/wiki/Decorator" title="Decorator">Decorator</a> ("decoratore") consente di aggiungere metodi a classi esistenti durante il <i>run-time</i> (cioè durante lo svolgimento del programma), permettendo una maggior flessibilità nell'aggiungere delle funzionalità agli oggetti.</li>
+<li><a class="new" href="/w/index.php?title=Extensibility_pattern&amp;action=edit&amp;redlink=1" title="Extensibility pattern (la pagina non esiste)">Extensibility</a> ("estendibilità")</li>
+<li>Il <a href="/wiki/Fa%C3%A7ade_pattern" title="Façade pattern">Façade</a> ("facciata") permette, attraverso un'interfaccia più semplice, l'accesso a sottosistemi che espongono interfacce complesse e diverse tra loro.</li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a> ("peso piuma"), che permette di separare la parte variabile di una classe dalla parte che può essere riutilizzata.</li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a> fornisce una rappresentazione di un oggetto di accesso difficile o che richiede un tempo importante per l'accesso o creazione. Il Proxy consente di posticipare l'accesso o creazione al momento in cui sia davvero richiesto.</li>
+<li><a class="new" href="/w/index.php?title=Pipes_and_filters&amp;action=edit&amp;redlink=1" title="Pipes and filters (la pagina non esiste)">Pipes and filters</a> ("condotti e filtri")</li>
+<li><a class="new" href="/w/index.php?title=Private_class_data_pattern&amp;action=edit&amp;redlink=1" title="Private class data pattern (la pagina non esiste)">Private class data</a> ("dati di classe privati")</li>
+</ul>
+<h3><span class="mw-headline" id="Pattern_comportamentali">Pattern comportamentali</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=6" title="Modifica la sezione Pattern comportamentali">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=6" title="Modifica la sezione Pattern comportamentali">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>I pattern comportamentali forniscono soluzione alle più comuni tipologie di interazione tra gli oggetti.</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Chain_of_responsibility_pattern" title="Chain of responsibility pattern">Chain of Responsibility</a> ("catena di responsabilità") diminuisce l'accoppiamento fra l'oggetto che effettua una richiesta e quello che la soddisfa, dando a più oggetti la possibilità di soddisfarla</li>
+<li>Il <a href="/wiki/Command_pattern" title="Command pattern">Command</a> ("comando") permette di isolare la porzione di codice che effettua un'azione dal codice che ne richiede l'esecuzione.</li>
+<li><a class="new" href="/w/index.php?title=Event_listener&amp;action=edit&amp;redlink=1" title="Event listener (la pagina non esiste)">Event listener</a> ("ascoltatore di eventi")</li>
+<li><a class="new" href="/w/index.php?title=Hierarchical_visitor_pattern&amp;action=edit&amp;redlink=1" title="Hierarchical visitor pattern (la pagina non esiste)">Hierarchical Visitor</a> ("visitatore di gerarchia")</li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a> ("interprete") dato un linguaggio, definisce una rappresentazione della sua grammatica insieme ad un interprete che utilizza questa rappresentazione per l'interpretazione delle espressioni in quel determinato linguaggio.</li>
+<li>L'<a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a> ("iteratore") risolve diversi problemi connessi all'accesso e alla navigazione attraverso gli elementi di una struttura dati, senza esporre i dettagli dell'implementazione e della struttura interna del contenitore.</li>
+<li>Il <a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a> ("mediatore") si interpone nelle comunicazioni tra oggetti, allo scopo di aggiornare lo stato del sistema quando uno qualunque di essi comunica un cambiamento del proprio stato.</li>
+<li>Il <a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a> ("promemoria") è l'operazione di estrarre lo stato interno di un oggetto, senza violarne l'incapsulazione, e memorizzarlo per poterlo ripristinare in un momento successivo.</li>
+<li>L'<a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a> ("osservatore") definisce una dipendenza uno a molti fra oggetti diversi, in maniera tale che se un oggetto cambia il suo stato, tutti gli oggetti dipendenti vengono notificati del cambiamento avvenuto e possono aggiornarsi.</li>
+<li><a class="new" href="/w/index.php?title=Single-serving_visitor_pattern&amp;action=edit&amp;redlink=1" title="Single-serving visitor pattern (la pagina non esiste)">Single-serving Visitor</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a> ("stato") permette ad un oggetto di cambiare il suo comportamento al cambiare di un suo stato interno.</li>
+<li>Lo <a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a> ("strategia") è utile in quelle situazioni dove è necessario modificare dinamicamente gli algoritmi utilizzati da un'applicazione.</li>
+<li>Il <a href="/wiki/Template_method" title="Template method">Template method</a> ("metodo schema") permette di definire la struttura di un algoritmo lasciando alle sottoclassi il compito di implementarne alcuni passi come preferiscono.</li>
+<li>Il <a href="/wiki/Visitor" title="Visitor">Visitor</a> ("visitatore") permette di separare un algoritmo dalla struttura di oggetti composti a cui è applicato, in modo da poter aggiungere nuovi comportamenti senza dover modificare la struttura stessa.</li>
+<li><a class="new" href="/w/index.php?title=Null_object_pattern&amp;action=edit&amp;redlink=1" title="Null object pattern (la pagina non esiste)">Null object</a> ("oggetto nullo") permette di sostituire un riferimento nullo con un oggetto che non fa nulla.</li>
+</ul>
+<h2><span class="mw-headline" id="Altri_tipi_di_pattern">Altri tipi di pattern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=7" title="Modifica la sezione Altri tipi di pattern">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=7" title="Modifica la sezione Altri tipi di pattern">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Alcuni pattern definiti nella letteratura non operano a livello di design del sistema, non possono quindi essere definiti propriamente design pattern. Alcuni esempi sono:</p>
+<h3><span class="mw-headline" id="Pattern_architetturali">Pattern architetturali</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=8" title="Modifica la sezione Pattern architetturali">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=8" title="Modifica la sezione Pattern architetturali">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>I pattern architetturali operano ad un livello diverso (e più ampio) rispetto ai design pattern, ed esprimono schemi di base per impostare l'organizzazione strutturale di un sistema software. In questi schemi si descrivono sottosistemi predefiniti insieme con i ruoli che essi assumono e le relazioni reciproche.</p>
+<ul>
+<li><a class="new" href="/w/index.php?title=Blackboard_pattern&amp;action=edit&amp;redlink=1" title="Blackboard pattern (la pagina non esiste)">Blackboard</a>, architettura per applicazioni di intelligenza artificiale</li>
+<li><a href="/wiki/Broker_pattern" title="Broker pattern">Broker</a></li>
+<li><a class="mw-redirect" href="/wiki/Client-server" title="Client-server">Client-server</a>, rappresenta un tipo di applicazione di rete nel quale un computer client istanzia l'interfaccia utente di un'applicazione connettendosi ad una server application o ad un sistema di database.</li>
+<li><a class="new" href="/w/index.php?title=Layers_pattern&amp;action=edit&amp;redlink=1" title="Layers pattern (la pagina non esiste)">Layers</a>, architettura basata su layer</li>
+<li><a class="new" href="/w/index.php?title=Microkernel_pattern&amp;action=edit&amp;redlink=1" title="Microkernel pattern (la pagina non esiste)">Microkernel</a></li>
+<li><a href="/wiki/Model-View-Controller" title="Model-View-Controller">Model-View-Controller (abbreviato spesso in <i>MVC</i>)</a>, che consiste nel separare i componenti software che implementano il modello delle funzionalità di business (<i>model</i>), dai componenti che implementano la logica di presentazione (<i>view</i>) e da quelli di controllo che tali funzionalità utilizzano (<i>controller</i>).</li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93viewmodel" title="Model–view–viewmodel">Model-View-ViewModel</a> (spesso abbreviato in <i>MVVM</i>)</li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a class="new" href="/w/index.php?title=Pipes_and_Filters_pattern&amp;action=edit&amp;redlink=1" title="Pipes and Filters pattern (la pagina non esiste)">Pipes and Filters</a></li>
+<li><a class="new" href="/w/index.php?title=Presentation_Abstraction_Control_pattern&amp;action=edit&amp;redlink=1" title="Presentation Abstraction Control pattern (la pagina non esiste)">Presentation Abstraction Control</a></li>
+<li><a class="new" href="/w/index.php?title=Reflection_pattern&amp;action=edit&amp;redlink=1" title="Reflection pattern (la pagina non esiste)">Reflection</a></li>
+<li><a href="/wiki/Repository" title="Repository">Repository</a>, pattern architetturale legato ad aspetti di persistenza</li>
+<li><a href="/wiki/Front_Controller_pattern" title="Front Controller pattern">Front Controller</a>, pattern architetturale che prevede l'utilizzo di un singolo file per gestire tutte le richieste</li>
+<li><a href="/wiki/Data_Access_Object" title="Data Access Object">Data Access Object</a></li>
+<li><a class="mw-redirect" href="/wiki/Data_Transfer_Object" title="Data Transfer Object">Data Transfer Object</a></li>
+</ul>
+<h3><span class="mw-headline" id="Pattern_di_metodologia">Pattern di metodologia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=9" title="Modifica la sezione Pattern di metodologia">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=9" title="Modifica la sezione Pattern di metodologia">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/GRASP" title="GRASP">Responsibility</a>, ossia "identificare chiaramente e dividere la <i>responsabilità</i>" assegnata a ciascun oggetto o componente del sistema, è il pattern metodologico basilare indicato nel libro <i>Design Patterns</i>.</li>
+<li><a class="new" href="/w/index.php?title=Make_it_run,_make_it_right,_make_it_fast,_make_it_small&amp;action=edit&amp;redlink=1" title="Make it run, make it right, make it fast, make it small (la pagina non esiste)">Make it run, make it right, make it fast, make it small</a></li>
+</ul>
+<h3><span class="mw-headline" id="Pattern_di_concorrenza">Pattern di concorrenza</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=10" title="Modifica la sezione Pattern di concorrenza">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=10" title="Modifica la sezione Pattern di concorrenza">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Nel caso di processi che eseguono contemporaneamente delle attività su dati condivisi si parla di <a href="/wiki/Concorrenza_(informatica)" title="Concorrenza (informatica)">concorrenza</a>. Alcuni design pattern sono stati sviluppati per mantenere <a class="mw-redirect" href="/wiki/Sincronizzazione_(informatica)" title="Sincronizzazione (informatica)">sincronizzato</a> lo stato dei dati in tali situazioni:</p>
+<ul>
+<li><a class="new" href="/w/index.php?title=Active_Object&amp;action=edit&amp;redlink=1" title="Active Object (la pagina non esiste)">Active Object</a></li>
+<li><a class="new" href="/w/index.php?title=Balking_pattern&amp;action=edit&amp;redlink=1" title="Balking pattern (la pagina non esiste)">Balking pattern</a></li>
+<li><a href="/wiki/Interblocco_ricontrollato" title="Interblocco ricontrollato">Double checked locking pattern</a></li>
+<li><a class="new" href="/w/index.php?title=Guarded_suspension&amp;action=edit&amp;redlink=1" title="Guarded suspension (la pagina non esiste)">Guarded suspension</a></li>
+<li><a class="new" href="/w/index.php?title=Leaders_followers_pattern&amp;action=edit&amp;redlink=1" title="Leaders followers pattern (la pagina non esiste)">Leaders/followers pattern</a></li>
+<li><a href="/wiki/Monitor_(sincronizzazione)" title="Monitor (sincronizzazione)">Monitor Object</a>, che consente soltanto un processo attivo al suo interno, al contempo non necessita di una codifica esplicita della mutua esclusione.</li>
+<li><a class="new" href="/w/index.php?title=Read-write_lock_pattern&amp;action=edit&amp;redlink=1" title="Read-write lock pattern (la pagina non esiste)">Read-write lock pattern</a></li>
+<li><a class="new" href="/w/index.php?title=Scheduler_pattern&amp;action=edit&amp;redlink=1" title="Scheduler pattern (la pagina non esiste)">Scheduler pattern</a></li>
+<li><a class="new" href="/w/index.php?title=Thread_pool_pattern&amp;action=edit&amp;redlink=1" title="Thread pool pattern (la pagina non esiste)">Thread pool pattern</a></li>
+<li><a class="new" href="/w/index.php?title=Thread-Specific_Storage&amp;action=edit&amp;redlink=1" title="Thread-Specific Storage (la pagina non esiste)">Thread-Specific Storage</a></li>
+<li><a class="new" href="/w/index.php?title=Token_passing_synchronization&amp;action=edit&amp;redlink=1" title="Token passing synchronization (la pagina non esiste)">Token passing synchronization</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor pattern</a></li>
+</ul>
+<h2><span class="mw-headline" id="Bibliografia">Bibliografia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=11" title="Modifica la sezione Bibliografia">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=11" title="Modifica la sezione Bibliografia">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Gamma, E.</a>, <a href="/wiki/Richard_Helm" title="Richard Helm">Helm, R.</a>, <a href="/wiki/Ralph_Johnson_(informatico)" title="Ralph Johnson (informatico)">Johnson, R.</a> e <a href="/wiki/John_Vlissides" title="John Vlissides">Vlissides, J.</a>, <i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a>: elementi per il riuso di software a oggetti</i>, Addison Wesley, 1995, <a class="internal mw-magiclink-isbn" href="/wiki/Speciale:RicercaISBN/887192150X">ISBN 88-7192-150-X</a>
+<ul>
+<li>Originale: <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>, Addison Wesley, 1995, <a class="internal mw-magiclink-isbn" href="/wiki/Speciale:RicercaISBN/0201633612">ISBN 0-201-63361-2</a></li>
+</ul>
+</li>
+<li><a class="new" href="/w/index.php?title=Bruce_Eckel&amp;action=edit&amp;redlink=1" title="Bruce Eckel (la pagina non esiste)">Eckel, B.</a>, <i><a class="external text" href="http://www.mindview.net/Books/TIPatterns/" rel="nofollow">Thinking in Patterns with Java</a>, MindView (draft)</i></li>
+</ul>
+<h2><span class="mw-headline" id="Voci_correlate">Voci correlate</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=12" title="Modifica la sezione Voci correlate">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=12" title="Modifica la sezione Voci correlate">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Pattern" title="Pattern">Pattern</a></li>
+<li><a href="/wiki/Anti-pattern" title="Anti-pattern">Anti-pattern</a></li>
+<li><a href="/wiki/Debito_tecnico" title="Debito tecnico">Debito tecnico</a></li>
+</ul>
+<h2><span class="mw-headline" id="Altri_progetti">Altri progetti</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=13" title="Modifica la sezione Altri progetti">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=13" title="Modifica la sezione Altri progetti">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="toccolours" id="interProject" style="display: none; clear: both; margin-top: 2em">
+<p id="sisterProjects" style="background-color: #efefef; font-weight: bold; margin: 0"><span>Altri progetti</span></p>
+<div title="Collegamenti verso gli altri progetti Wikimedia">
+<ul>
+<li class="" title=""><span class="plainlinks" title="commons:Software design patterns"><a class="external text" href="https://commons.wikimedia.org/wiki/Software_design_patterns?uselang=it">Wikimedia Commons</a></span></li>
+</ul>
+</div>
+</div>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/?uselang=it" title="Collabora a Wikimedia Commons"><img alt="Collabora a Wikimedia Commons" data-file-height="1376" data-file-width="1024" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/27px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/36px-Commons-logo.svg.png 2x" width="18"/></a> <b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/?uselang=it">Wikimedia Commons</a></span></b> contiene immagini o altri file su <b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Software_design_patterns?uselang=it">Design pattern</a></span></b></li>
+</ul>
+<h2><span class="mw-headline" id="Collegamenti_esterni">Collegamenti esterni</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Design_pattern&amp;veaction=edit&amp;vesection=14" title="Modifica la sezione Collegamenti esterni">modifica</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Design_pattern&amp;action=edit&amp;section=14" title="Modifica la sezione Collegamenti esterni">modifica wikitesto</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation web" style="font-style:normal"><a class="external text" href="http://c2.com/cgi/wiki?WelcomeVisitors" rel="nofollow"><span style="font-style:italic;">Portland Pattern Repository</span></a>, <span style="font-style:italic;">c2.com</span>.</cite></li>
+<li><a class="external text" href="http://hillside.net/patterns/" rel="nofollow">Hillside</a> Patterns Library</li>
+<li><cite class="citation web" style="font-style:normal"><a class="external text" href="http://www.inf.unitn.it/DiplomaUniversitario/JavaCampus/luca_cristoforetti/node16.html" rel="nofollow"><span style="font-style:italic;">Filosofia dei pattern</span></a>, <span style="font-style:italic;">inf.unitn.it</span>.</cite></li>
+<li><cite class="citation web" style="font-style:normal"><a class="external text" href="http://www.vincehuston.org/dp/" rel="nofollow"><span style="font-style:italic;">Pagina dei pattern di Vince Huston</span></a>, <span style="font-style:italic;">vincehuston.org</span>.</cite></li>
+<li><cite class="citation web" style="font-style:normal"><a class="external text" href="http://eii.pucv.cl/pers/guidi/designpatterns.htm" rel="nofollow"><span style="font-style:italic;">GoF's Design Patterns in Java (in Italiano)</span></a>, <span style="font-style:italic;">eii.pucv.cl</span>.</cite></li>
+</ul>
+<table class="navbox mw-collapsible autocollapse nowraplinks noprint metadata" style="clear:both;border:1px solid #aaa;padding:2px;margin:auto;width:100%">
+<tr>
+<th colspan="2" style="font-size:90%;background:#ccf;text-align:center;width:100%">
+<div style="text-align:left;float:left;padding:0 10px 0 0;margin:0px;width:6em">
+<div class="noprint plainlinks" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000; white-space:nowrap;"><a href="/wiki/Template:Design_Patterns_Patterns" title="Template:Design Patterns Patterns"><span title="Vai alla pagina del template">V</span></a> · <a class="new" href="/w/index.php?title=Discussioni_template:Design_Patterns_Patterns&amp;action=edit&amp;redlink=1" title="Discussioni template:Design Patterns Patterns (la pagina non esiste)"><span title="Discuti del template">D</span></a> · <a class="external text" href="//it.wikipedia.org/w/index.php?title=Template:Design_Patterns_Patterns&amp;action=edit"><span title="Modifica il template. Usa l'anteprima prima di salvare">M</span></a></div>
+</div>
+<span style="font-size:110%"><strong class="selflink">Design patterns</strong> nel libro <i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></span></th>
+</tr>
+<tr>
+<th colspan="1" style="font-size:90%;background:#ddf;padding:0 10px;white-space:nowrap">Creazionali</th>
+<td colspan="1" style="width:100%;font-size:90%;text-align:left"><a href="/wiki/Abstract_factory" title="Abstract factory">Abstract factory</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Builder" title="Builder">Builder</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Factory_method" title="Factory method">Factory</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Singleton" title="Singleton">Singleton</a></td>
+</tr>
+<tr>
+<th colspan="1" style="font-size:90%;background:#ddf;padding:0 10px;white-space:nowrap">Strutturali</th>
+<td colspan="1" style="width:100%;font-size:90%;text-align:left;background:#f7f7f7"><a class="mw-redirect" href="/wiki/Adapter" title="Adapter">Adapter</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Composite" title="Composite">Composite</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Decorator" title="Decorator">Decorator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Fa%C3%A7ade_pattern" title="Façade pattern">Façade</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></td>
+</tr>
+<tr>
+<th colspan="1" style="font-size:90%;background:#ddf;padding:0 10px;white-space:nowrap">Comportamentali</th>
+<td colspan="1" style="width:100%;font-size:90%;text-align:left"><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain-of-responsibility</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Command_pattern" title="Command pattern">Command</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/State_pattern" title="State pattern">State</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Template_method" title="Template method">Template method</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Visitor" title="Visitor">Visitor</a></td>
+</tr>
+</table>
+<table class="CdA">
+<tr>
+<th><a href="/wiki/Aiuto:Controllo_di_autorit%C3%A0" title="Aiuto:Controllo di autorità">Controllo di autorità</a></th>
+<td><a href="/wiki/Gemeinsame_Normdatei" title="Gemeinsame Normdatei">GND</a>: <span class="uid">(<span style="font-weight:bolder; font-size:80%"><abbr title="tedesco">DE</abbr></span>) <a class="external text" href="http://d-nb.info/gnd/4546895-3" rel="nofollow">4546895-3</a></span></td>
+</tr>
+</table>
+<table class="noprint" style="width:100%;">
+<tr>
+<td>
+<div style="width:100%; line-height:25px; background-color: #F0EEFF; border:1px solid #CCF;"><a class="image" href="/wiki/File:Computer_n_screen.svg" title="Informatica"><img alt="Informatica" class="noviewer" data-file-height="123" data-file-width="119" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/24px-Computer_n_screen.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/37px-Computer_n_screen.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/Computer_n_screen.svg/48px-Computer_n_screen.svg.png 2x" width="24"/></a> <b><a href="/wiki/Portale:Informatica" title="Portale:Informatica">Portale Informatica</a></b>: accedi alle voci di Wikipedia che trattano di informatica</div>
+</td>
+</tr>
+</table>
+<!-- Saved in parser cache with key itwiki:pcache:idhash:40962-0!*!0!!it!4!* and timestamp 20160926183410 and revision id 82931090
+ -->
+<noscript><img alt="" height="1" src="//it.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Estratto da "<a dir="ltr" href="https://it.wikipedia.org/w/index.php?title=Design_pattern&amp;oldid=82931090">https://it.wikipedia.org/w/index.php?title=Design_pattern&amp;oldid=82931090</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Categoria:Categorie" title="Categoria:Categorie">Categoria</a>: <ul><li><a href="/wiki/Categoria:Pattern" title="Categoria:Pattern">Pattern</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Categorie nascoste: <ul><li><a href="/wiki/Categoria:Senza_fonti_-_programmazione" title="Categoria:Senza fonti - programmazione">Senza fonti - programmazione</a></li><li><a href="/wiki/Categoria:Senza_fonti_-_aprile_2013" title="Categoria:Senza fonti - aprile 2013">Senza fonti - aprile 2013</a></li><li><a href="/wiki/Categoria:Voci_con_codice_GND" title="Categoria:Voci con codice GND">Voci con codice GND</a></li><li><a href="/wiki/Categoria:Voci_non_biografiche_con_codici_di_controllo_di_autorit%C3%A0" title="Categoria:Voci non biografiche con codici di controllo di autorità">Voci non biografiche con codici di controllo di autorità</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Menu di navigazione</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Strumenti personali</h3>
+<ul>
+<li id="pt-anonuserpage">Accesso non effettuato</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Speciale:MieDiscussioni" title="Discussioni sulle modifiche fatte da questo indirizzo IP [n]">discussioni</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Speciale:MieiContributi" title="Un elenco delle modifiche fatte da questo indirizzo IP [y]">contributi</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Speciale:CreaUtenza&amp;returnto=Design+pattern" title="Si consiglia di registrarsi e di effettuare l'accesso, anche se non è obbligatorio">Registrati</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Speciale:Entra&amp;returnto=Design+pattern" title="Si consiglia di effettuare l'accesso, anche se non è obbligatorio [o]">Entra</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespace</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Design_pattern" title="Vedi la voce [c]">Voce</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Discussione:Design_pattern" rel="discussion" title="Vedi le discussioni relative a questa pagina [t]">Discussione</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Varianti</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Visite</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Design_pattern">Leggi</a></span></li>
+<li id="ca-ve-edit"><span><a accesskey="v" href="/w/index.php?title=Design_pattern&amp;veaction=edit" title="Modifica questa pagina [v]">Modifica</a></span></li>
+<li class=" collapsible" id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Design_pattern&amp;action=edit" title="Modifica questa pagina [e]">Modifica wikitesto</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Design_pattern&amp;action=history" title="Versioni precedenti di questa pagina [h]">Cronologia</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>Altro</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Ricerca</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Ricerca" title="Cerca all'interno di Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Speciale:Ricerca"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Cerca il testo indicato nelle pagine" type="submit" value="Ricerca"/><input class="searchButton" id="searchButton" name="go" title="Vai a una pagina con il titolo indicato, se esiste" type="submit" value="Vai"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Pagina_principale" title="Visita la pagina principale"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigazione</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage"><a accesskey="z" href="/wiki/Pagina_principale" title="Visita la pagina principale [z]">Pagina principale</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Speciale:UltimeModifiche" title="Elenco delle ultime modifiche del sito [r]">Ultime modifiche</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Speciale:PaginaCasuale" title="Mostra una pagina a caso [x]">Una voce a caso</a></li><li id="n-vetrina"><a href="/wiki/Wikipedia:Vetrina">Vetrina</a></li><li id="n-help"><a href="/wiki/Aiuto:Aiuto" title="Pagine di aiuto">Aiuto</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-Comunit.C3.A0-label" class="portal" id="p-Comunit.C3.A0" role="navigation">
+<h3 id="p-Comunit.C3.A0-label">Comunità</h3>
+<div class="body">
+<ul>
+<li id="n-portal"><a href="/wiki/Portale:Comunit%C3%A0" title="Descrizione del progetto, cosa puoi fare, dove trovare le cose">Portale Comunità</a></li><li id="n-villagepump"><a href="/wiki/Wikipedia:Bar">Bar</a></li><li id="n-wikipediano"><a href="/wiki/Wikipedia:Wikipediano">Il Wikipediano</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_it.wikipedia.org&amp;uselang=it" title="Sostienici">Fai una donazione</a></li><li id="n-contactpage"><a href="/wiki/Wikipedia:Contatti">Contatti</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Strumenti</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Speciale:PuntanoQui/Design_pattern" title="Elenco di tutte le pagine che sono collegate a questa [j]">Puntano qui</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Speciale:ModificheCorrelate/Design_pattern" title="Elenco delle ultime modifiche alle pagine collegate a questa [k]">Modifiche correlate</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Speciale:PagineSpeciali" title="Elenco di tutte le pagine speciali [q]">Pagine speciali</a></li><li id="t-permalink"><a href="/w/index.php?title=Design_pattern&amp;oldid=82931090" title="Collegamento permanente a questa versione della pagina">Link permanente</a></li><li id="t-info"><a href="/w/index.php?title=Design_pattern&amp;action=info" title="Ulteriori informazioni su questa pagina">Informazioni sulla pagina</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q181156" title="Collegamento all'elemento connesso dell'archivio dati [g]">Elemento Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Speciale:Cita&amp;page=Design_pattern&amp;id=82931090" title="Informazioni su come citare questa pagina">Cita questa voce</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Stampa/esporta</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Speciale:Libro&amp;bookcmd=book_creator&amp;referer=Design+pattern">Crea un libro</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Speciale:Libro&amp;bookcmd=render_article&amp;arttitle=Design+pattern&amp;returnto=Design+pattern&amp;oldid=82931090&amp;writer=rdf2latex">Scarica come PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Design_pattern&amp;printable=yes" title="Versione stampabile di questa pagina [p]">Versione stampabile</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In altri progetti</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Software_design_patterns" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">In altre lingue</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Ontwerpspatroon_(rekenaarwetenskap)" hreflang="af" lang="af" title="Ontwerpspatroon (rekenaarwetenskap) - afrikaans">Afrikaans</a></li><li class="interlanguage-link interwiki-als"><a href="https://als.wikipedia.org/wiki/Entwurfsmuster" hreflang="als" lang="als" title="Entwurfsmuster - Alemannisch">Alemannisch</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%A7%D8%B0%D8%AC_%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_(%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="نماذج التصميم (هندسة البرمجيات) - arabo">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1u" hreflang="ast" lang="ast" title="Patrón de diseñu - asturiano">Asturianu</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%B7%D0%B0_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" hreflang="bg" lang="bg" title="Шаблони за дизайн - bulgaro">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Ra%C4%8Dunarska_dizajn_%C5%A1ema" hreflang="bs" lang="bs" title="Računarska dizajn šema - bosniaco">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Patr%C3%B3_de_disseny" hreflang="ca" lang="ca" title="Patró de disseny - catalano">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/N%C3%A1vrhov%C3%BD_vzor" hreflang="cs" lang="cs" title="Návrhový vzor - ceco">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Design_pattern" hreflang="da" lang="da" title="Design pattern - danese">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Entwurfsmuster" hreflang="de" lang="de" title="Entwurfsmuster - tedesco">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC_%CF%80%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B1" hreflang="el" lang="el" title="Σχεδιαστικά πρότυπα - greco">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Software_design_pattern" hreflang="en" lang="en" title="Software design pattern - inglese">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o" hreflang="es" lang="es" title="Patrón de diseño - spagnolo">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C_(%D8%AF%D8%A7%D9%86%D8%B4_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)" hreflang="fa" lang="fa" title="الگوی طراحی (دانش رایانه) - persiano">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Suunnittelumalli" hreflang="fi" lang="fi" title="Suunnittelumalli - finlandese">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Patron_de_conception" hreflang="fr" lang="fr" title="Patron de conception - francese">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Patr%C3%B3n_de_dese%C3%B1o" hreflang="gl" lang="gl" title="Patrón de deseño - galiziano">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%91%D7%A0%D7%99%D7%AA_%D7%A2%D7%99%D7%A6%D7%95%D7%91" hreflang="he" lang="he" title="תבנית עיצוב - ebraico">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%87%E0%A4%A8_%E0%A4%AA%E0%A5%88%E0%A4%9F%E0%A4%B0%E0%A5%8D%E0%A4%A8_(%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8)" hreflang="hi" lang="hi" title="डिज़ाइन पैटर्न (कंप्यूटर विज्ञान) - hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Programtervezési minta - ungherese">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%86%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Նախագծման ձևանմուշներ - armeno">Հայերեն</a></li><li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Patrono_de_designo" hreflang="ia" lang="ia" title="Patrono de designo - interlingua">Interlingua</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Pola_desain" hreflang="id" lang="id" title="Pola desain - indonesiano">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)" hreflang="ja" lang="ja" title="デザインパターン (ソフトウェア) - giapponese">日本語</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%91%D0%B0%D2%93%D0%B4%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B0%D0%BB%D1%8B%D2%9B_%D0%B6%D0%B0%D1%81%D0%B0%D2%9B%D1%82%D0%B0%D0%BC%D0%B0_%D3%A9%D2%A3%D0%B4%D0%B5%D1%83_%D2%AF%D0%BB%D0%B3%D1%96%D1%81%D1%96" hreflang="kk" lang="kk" title="Бағдарламалық жасақтама өңдеу үлгісі - kazako">Қазақша</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Projektavimo_pavyzdys" hreflang="lt" lang="lt" title="Projektavimo pavyzdys - lituano">Lietuvių</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Projekt%C4%93%C5%A1anas_%C5%A1ablons" hreflang="lv" lang="lv" title="Projektēšanas šablons - lettone">Latviešu</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%A1%E0%B4%BF%E0%B4%B8%E0%B5%88%E0%B5%BB_%E0%B4%AA%E0%B4%BE%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%87%E0%B5%BA_(%E0%B4%95%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%BC_%E0%B4%B6%E0%B4%BE%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82)" hreflang="ml" lang="ml" title="ഡിസൈൻ പാറ്റേൺ (കമ്പ്യൂട്ടർ ശാസ്ത്രം) - malayalam">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Ontwerppatroon" hreflang="nl" lang="nl" title="Ontwerppatroon - olandese">Nederlands</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Designm%C3%B8nster" hreflang="no" lang="no" title="Designmønster - norvegese">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wzorzec_projektowy_(informatyka)" hreflang="pl" lang="pl" title="Wzorzec projektowy (informatyka) - polacco">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" hreflang="pt" lang="pt" title="Padrão de projeto de software - portoghese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Шаблон проектирования - russo">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Dizajn_shema" hreflang="sh" lang="sh" title="Dizajn shema - serbo-croato">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Design_pattern" hreflang="simple" lang="simple" title="Design pattern - Simple English">Simple English</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%98%D0%B5%D0%BA%D1%82%D0%BD%D0%B8_%D1%83%D0%B7%D0%BE%D1%80%D1%86%D0%B8" hreflang="sr" lang="sr" title="Пројектни узорци - serbo">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Designm%C3%B6nster" hreflang="sv" lang="sv" title="Designmönster - svedese">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81" hreflang="ta" lang="ta" title="வடிவமைப்புப் பாங்கு - tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%9E%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%99" hreflang="th" lang="th" title="ดีไซน์แพตเทิร์น - thai">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Tasar%C4%B1m_%C3%B6r%C3%BCnt%C3%BCleri" hreflang="tr" lang="tr" title="Tasarım örüntüleri - turco">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Шаблони проектування програмного забезпечення - ucraino">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/M%E1%BA%ABu_thi%E1%BA%BFt_k%E1%BA%BF_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" hreflang="vi" lang="vi" title="Mẫu thiết kế (khoa học máy tính) - vietnamita">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" hreflang="zh" lang="zh" title="设计模式 (计算机) - cinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q181156#sitelinks-wikipedia" title="Modifica collegamenti interlinguistici">Modifica collegamenti</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> Questa pagina è stata modificata per l'ultima volta il 31 ago 2016 alle 12:49.</li>
+<li id="footer-info-copyright">Il testo è disponibile secondo la <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.it">licenza Creative Commons Attribuzione-Condividi allo stesso modo</a>; possono applicarsi condizioni ulteriori. Vedi le  <a href="//wikimediafoundation.org/wiki/Terms_of_Use/it" title="Condizioni d'uso">Condizioni d'uso</a> per i dettagli. Wikipedia® è un marchio registrato della <a href="http://www.wikimediafoundation.org">Wikimedia Foundation, Inc.</a> <br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://meta.wikimedia.org/wiki/Privacy_policy/it" title="m:Privacy policy/it">Politica sulla privacy</a></li>
+<li id="footer-places-about"><a class="mw-redirect" href="/wiki/Wikipedia:A_proposito_di_Wikipedia" title="Wikipedia:A proposito di Wikipedia">Informazioni su Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Avvertenze_generali" title="Wikipedia:Avvertenze generali">Avvertenze</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Sviluppatori</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Dichiarazione sui cookie</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//it.m.wikipedia.org/w/index.php?title=Design_pattern&amp;mobileaction=toggle_view_mobile">Versione mobile</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.HiddenCat","ext.gadget.OpenStreetMap","ext.gadget.ReferenceTooltips","ext.gadget.WikiMiniAtlas","ext.gadget.ExternalSearch","mmv.bootstrap.autostart","ext.popups.desktop","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.180",
+            "walltime": "0.224",
+            "ppvisitednodes": {
+                "value": 1605,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 19257,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1578,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 4,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  188.597      1 -total",
+                " 23.21%   43.764      1 Template:Portale",
+                " 20.47%   38.602      1 Template:Interprogetto",
+                " 19.40%   36.579      1 Template:Icona_argomento",
+                " 13.21%   24.919      1 Template:Nota_disambigua",
+                " 12.32%   23.243      1 Template:Design_Patterns_Patterns",
+                " 12.02%   22.668      4 Template:Cita_web",
+                " 10.91%   20.582      2 Template:Str_find",
+                " 10.68%   20.141      1 Template:F",
+                "  9.65%   18.193      1 Template:Avviso"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.098",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2565255,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1269",
+            "timestamp": "20160926183410",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":82,"wgHostname":"mw1239"});});</script>
+</body>
+</html>
+

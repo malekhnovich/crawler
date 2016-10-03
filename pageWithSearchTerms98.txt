@@ -1,0 +1,859 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Aspect-oriented_programming
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Aspect-oriented programming - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Aspect-oriented_programming","wgTitle":"Aspect-oriented programming","wgCurRevisionId":736878332,"wgRevisionId":736878332,"wgArticleId":145329,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from November 2010","Wikipedia articles with LCCN identifiers","Wikipedia articles with GND identifiers","Wikipedia articles with BNF identifiers","Aspect-oriented programming","Aspect-oriented software development","Programming paradigms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Aspect-oriented_programming","wgRelevantArticleId":145329,"wgRequestId":"V-D64wpAMEsAABYWkUcAAABU","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q30267","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Aspect-oriented_programming" rel="alternate"/>
+<link href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Aspect-oriented_programming" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Aspect-oriented_programming rootpage-Aspect-oriented_programming skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Aspect-oriented programming</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="vertical-navbox nowraplinks" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigms</a></th>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;text-align: left">
+<ul>
+<li><a href="/wiki/Action_language" title="Action language">Action</a></li>
+<li><a href="/wiki/Agent-oriented_programming" title="Agent-oriented programming">Agent-oriented</a></li>
+<li><a href="/wiki/Array_programming" title="Array programming">Array-oriented</a></li>
+<li><a href="/wiki/Automata-based_programming" title="Automata-based programming">Automata-based</a></li>
+<li><a href="/wiki/Concurrent_computing" title="Concurrent computing">Concurrent computing</a>
+<ul>
+<li><a href="/wiki/Relativistic_programming" title="Relativistic programming">Relativistic programming</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Data-driven_programming" title="Data-driven programming">Data-driven</a></li>
+<li><a href="/wiki/Declarative_programming" title="Declarative programming">Declarative</a> (contrast: <a href="/wiki/Imperative_programming" title="Imperative programming">Imperative</a>)
+<ul>
+<li><a href="/wiki/Constraint_programming" title="Constraint programming">Constraint</a>
+<ul>
+<li><a href="/wiki/Constraint_logic_programming" title="Constraint logic programming">Constraint logic</a>
+<ul>
+<li><a href="/wiki/Concurrent_constraint_logic_programming" title="Concurrent constraint logic programming">Concurrent constraint logic</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Dataflow_programming" title="Dataflow programming">Dataflow</a>
+<ul>
+<li><a href="/wiki/Flow-based_programming" title="Flow-based programming">Flow-based</a></li>
+<li>Cell-oriented (<a href="/wiki/Spreadsheet" title="Spreadsheet">spreadsheets</a>)</li>
+<li><a href="/wiki/Reactive_programming" title="Reactive programming">Reactive</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Functional_programming" title="Functional programming">Functional</a>
+<ul>
+<li><a href="/wiki/Functional_logic_programming" title="Functional logic programming">Functional logic</a></li>
+<li><a href="/wiki/Purely_functional_programming" title="Purely functional programming">Purely functional</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Logic_programming" title="Logic programming">Logic</a>
+<ul>
+<li><a href="/wiki/Abductive_logic_programming" title="Abductive logic programming">Abductive logic</a></li>
+<li><a href="/wiki/Answer_set_programming" title="Answer set programming">Answer set</a></li>
+<li><a href="/wiki/Concurrent_logic_programming" title="Concurrent logic programming">Concurrent logic</a></li>
+<li><a href="/wiki/Functional_logic_programming" title="Functional logic programming">Functional logic</a></li>
+<li><a href="/wiki/Inductive_logic_programming" title="Inductive logic programming">Inductive logic</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Dynamic_programming_language" title="Dynamic programming language">Dynamic</a></li>
+<li><a href="/wiki/End-user_development" title="End-user development">End-user programming</a></li>
+<li><a href="/wiki/Event-driven_programming" title="Event-driven programming">Event-driven</a>
+<ul>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service-oriented</a></li>
+<li><a href="/wiki/Time-driven_programming" title="Time-driven programming">Time-driven</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Expression-oriented_programming_language" title="Expression-oriented programming language">Expression-oriented</a></li>
+<li><a href="/wiki/Feature-oriented_programming" title="Feature-oriented programming">Feature-oriented</a></li>
+<li><a href="/wiki/Function-level_programming" title="Function-level programming">Function-level</a> (contrast: <a href="/wiki/Value-level_programming" title="Value-level programming">Value-level</a>)</li>
+<li><a href="/wiki/Generic_programming" title="Generic programming">Generic</a></li>
+<li><a href="/wiki/Imperative_programming" title="Imperative programming">Imperative</a> (contrast: <a href="/wiki/Declarative_programming" title="Declarative programming">Declarative</a>)
+<ul>
+<li><a href="/wiki/Literate_programming" title="Literate programming">Literate</a></li>
+<li><a href="/wiki/Procedural_programming" title="Procedural programming">Procedural</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Inductive_programming" title="Inductive programming">Inductive programming</a></li>
+<li><a href="/wiki/Language-oriented_programming" title="Language-oriented programming">Language-oriented</a>
+<ul>
+<li><a href="/wiki/Natural_language_programming" title="Natural language programming">Natural language programming</a></li>
+<li><a href="/wiki/Service-oriented_modeling#Discipline-specific_modeling" title="Service-oriented modeling">Discipline-specific</a></li>
+<li><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific</a></li>
+<li><a href="/wiki/Grammar-oriented_programming" title="Grammar-oriented programming">Grammar-oriented</a>
+<ul>
+<li><a href="/wiki/Dialect_(computing)" title="Dialect (computing)">Dialecting</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intentional_programming" title="Intentional programming">Intentional</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Metaprogramming" title="Metaprogramming">Metaprogramming</a>
+<ul>
+<li><a href="/wiki/Automatic_programming" title="Automatic programming">Automatic</a></li>
+<li><a href="/wiki/Reflection_(computer_programming)" title="Reflection (computer programming)">Reflective</a>
+<ul>
+<li><a href="/wiki/Attribute-oriented_programming" title="Attribute-oriented programming">Attribute-oriented</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Homoiconicity" title="Homoiconicity">Homoiconic</a></li>
+<li><a href="/wiki/Template_metaprogramming" title="Template metaprogramming">Template</a>
+<ul>
+<li><a href="/wiki/Policy-based_design" title="Policy-based design">Policy-based</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Non-structured_programming" title="Non-structured programming">Non-structured</a> (contrast: <a href="/wiki/Structured_programming" title="Structured programming">Structured</a>)
+<ul>
+<li><a href="/wiki/Array_programming" title="Array programming">Array</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Nondeterministic_programming" title="Nondeterministic programming">Nondeterministic</a></li>
+<li><a href="/wiki/Parallel_computing" title="Parallel computing">Parallel computing</a>
+<ul>
+<li><a href="/wiki/Process-oriented_programming" title="Process-oriented programming">Process-oriented</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tacit_programming" title="Tacit programming">Point-free style</a>
+<ul>
+<li><a href="/wiki/Concatenative_programming_language" title="Concatenative programming language">Concatenative</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Semantic-oriented_programming" title="Semantic-oriented programming">Semantic</a></li>
+<li><a href="/wiki/Structured_programming" title="Structured programming">Structured</a> (contrast: <a href="/wiki/Non-structured_programming" title="Non-structured programming">Non-structured</a>)
+<ul>
+<li><a href="/wiki/Block_(programming)" title="Block (programming)">Block-structured</a></li>
+<li><a href="/wiki/Modular_programming" title="Modular programming">Modular</a> (contrast: <a href="/wiki/Monolithic_application" title="Monolithic application">Monolithic</a>)</li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object-oriented</a>
+<ul>
+<li><a href="/wiki/Actor_model" title="Actor model">Actor-based</a></li>
+<li><a href="/wiki/Class-based_programming" title="Class-based programming">Class-based</a></li>
+<li><a href="/wiki/Concurrent_object-oriented_programming" title="Concurrent object-oriented programming">Concurrent</a></li>
+<li><a href="/wiki/Prototype-based_programming" title="Prototype-based programming">Prototype-based</a></li>
+<li>By <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a>:
+<ul>
+<li><strong class="selflink">Aspect-oriented</strong></li>
+<li><a href="/wiki/Role-oriented_programming" title="Role-oriented programming">Role-oriented</a></li>
+<li><a href="/wiki/Subject-oriented_programming" title="Subject-oriented programming">Subject-oriented</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/wiki/Recursion_(computer_science)" title="Recursion (computer science)">Recursive</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Value-level_programming" title="Value-level programming">Value-level</a> (contrast: <a href="/wiki/Function-level_programming" title="Function-level programming">Function-level</a>)</li>
+<li><a href="/wiki/Probabilistic_programming_language" title="Probabilistic programming language">Probabilistic</a></li>
+<li><a href="/wiki/Concept_programming" title="Concept programming">Concept</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Programming_paradigms" title="Template:Programming paradigms"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Programming_paradigms" title="Template talk:Programming paradigms"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Programming_paradigms&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>In <a href="/wiki/Computing" title="Computing">computing</a>, <b>aspect-oriented programming</b> (<b>AOP</b>) is a <a href="/wiki/Programming_paradigm" title="Programming paradigm">programming paradigm</a> that aims to increase <a class="mw-redirect" href="/wiki/Modularity_(programming)" title="Modularity (programming)">modularity</a> by allowing the <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of</a> <a href="/wiki/Cross-cutting_concern" title="Cross-cutting concern">cross-cutting concerns</a>. It does so by adding additional behavior to existing code (an <a href="/wiki/Advice_(programming)" title="Advice (programming)">advice</a>) <i>without</i> modifying the code itself, instead separately specifying which code is modified via a "<a href="/wiki/Pointcut" title="Pointcut">pointcut</a>" specification, such as "log all function calls when the function's name begins with 'set'". This allows behaviors that are not central to the <a href="/wiki/Business_logic" title="Business logic">business logic</a> (such as logging) to be added to a program without cluttering the code core to the functionality. AOP forms a basis for <a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">aspect-oriented software development</a>.</p>
+<p>AOP includes programming methods and tools that support the modularization of concerns at the level of the source code, while "aspect-oriented software development" refers to a whole engineering discipline.</p>
+<p>Aspect-oriented programming entails breaking down program logic into distinct parts (so-called <i>concerns</i>, cohesive areas of functionality). Nearly all programming paradigms support some level of grouping and <a class="mw-redirect" href="/wiki/Encapsulation_(computer_science)" title="Encapsulation (computer science)">encapsulation</a> of concerns into separate, independent entities by providing abstractions (e.g., functions, procedures, modules, classes, methods) that can be used for implementing, abstracting and composing these concerns. Some concerns "cut across" multiple abstractions in a program, and defy these forms of implementation. These concerns are called <i>cross-cutting concerns</i> or horizontal concerns.</p>
+<p><a class="mw-redirect" href="/wiki/Data_logging" title="Data logging">Logging</a> exemplifies a crosscutting concern because a logging strategy necessarily affects every logged part of the system. Logging thereby <i>crosscuts</i> all logged classes and methods.</p>
+<p>All AOP implementations have some crosscutting expressions that encapsulate each concern in one place. The difference between implementations lies in the power, safety, and usability of the constructs provided. For example, interceptors that specify the methods to intercept express a limited form of crosscutting, without much support for type-safety or debugging. <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> has a number of such expressions and encapsulates them in a special class, an <a class="mw-redirect" href="/wiki/Aspect_(computer_science)" title="Aspect (computer science)">aspect</a>. For example, an aspect can alter the behavior of the base code (the non-aspect part of a program) by applying <a class="mw-redirect" href="/wiki/Advice_in_aspect-oriented_programming" title="Advice in aspect-oriented programming">advice</a> (additional behavior) at various <a href="/wiki/Join_point" title="Join point">join points</a> (points in a program) specified in a quantification or query called a <a href="/wiki/Pointcut" title="Pointcut">pointcut</a> (that detects whether a given join point matches). An aspect can also make binary-compatible structural changes to other classes, like adding members or parents.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Motivation_and_basic_concepts"><span class="tocnumber">2</span> <span class="toctext">Motivation and basic concepts</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Join_point_models"><span class="tocnumber">3</span> <span class="toctext">Join point models</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#AspectJ.27s_join-point_model"><span class="tocnumber">3.1</span> <span class="toctext">AspectJ's join-point model</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Other_potential_join_point_models"><span class="tocnumber">3.2</span> <span class="toctext">Other potential join point models</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Inter-type_declarations"><span class="tocnumber">3.3</span> <span class="toctext">Inter-type declarations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Implementation"><span class="tocnumber">4</span> <span class="toctext">Implementation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Terminology"><span class="tocnumber">4.1</span> <span class="toctext">Terminology</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Comparison_to_other_programming_paradigms"><span class="tocnumber">5</span> <span class="toctext">Comparison to other programming paradigms</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Adoption_issues"><span class="tocnumber">6</span> <span class="toctext">Adoption issues</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Criticism"><span class="tocnumber">7</span> <span class="toctext">Criticism</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Implementations"><span class="tocnumber">8</span> <span class="toctext">Implementations</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Notes_and_references"><span class="tocnumber">10</span> <span class="toctext">Notes and references</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Further_reading"><span class="tocnumber">11</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#External_links"><span class="tocnumber">12</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>AOP has several direct antecedents A1 and A2:<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> <a href="/wiki/Reflection_(computer_programming)" title="Reflection (computer programming)">reflection</a> and <a href="/wiki/Metaobject" title="Metaobject">metaobject protocols</a>, <a href="/wiki/Subject-oriented_programming" title="Subject-oriented programming">subject-oriented programming</a>, Composition Filters and Adaptive Programming.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p><a href="/wiki/Gregor_Kiczales" title="Gregor Kiczales">Gregor Kiczales</a> and colleagues at <a class="mw-redirect" href="/wiki/Xerox_PARC" title="Xerox PARC">Xerox PARC</a> developed the explicit concept of AOP, and followed this with the <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> AOP extension to Java. IBM's research team pursued a tool approach over a language design approach and in 2001 proposed <a class="mw-redirect" href="/wiki/Hyper/J" title="Hyper/J">Hyper/J</a> and the <a class="mw-redirect" href="/wiki/Concern_Manipulation_Environment" title="Concern Manipulation Environment">Concern Manipulation Environment</a>, which have not seen wide usage. The examples in this article use <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> as it is the most widely known AOP language.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2010)">citation needed</span></a></i>]</sup></p>
+<p>The <a href="/wiki/Microsoft_Transaction_Server" title="Microsoft Transaction Server">Microsoft Transaction Server</a> is considered to be the first major application of AOP followed by <a href="/wiki/Enterprise_JavaBeans" title="Enterprise JavaBeans">Enterprise JavaBeans</a>.<sup class="reference" id="cite_ref-BoxSells2002_3-0"><a href="#cite_note-BoxSells2002-3">[3]</a></sup><sup class="reference" id="cite_ref-RomanSriganesh2005_4-0"><a href="#cite_note-RomanSriganesh2005-4">[4]</a></sup></p>
+<h2><span class="mw-headline" id="Motivation_and_basic_concepts">Motivation and basic concepts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=2" title="Edit section: Motivation and basic concepts">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Typically, an aspect is <i>scattered</i> or <i>tangled</i> as code, making it harder to understand and maintain. It is scattered by virtue of the function (such as logging) being spread over a number of unrelated functions that might use <i>its</i> function, possibly in entirely unrelated systems, different source languages, etc. That means to change logging can require modifying all affected modules. Aspects become tangled not only with the mainline function of the systems in which they are expressed but also with each other. That means changing one concern entails understanding all the tangled concerns or having some means by which the effect of changes can be inferred.</p>
+<p>For example, consider a banking application with a conceptually very simple method for transferring an amount from one account to another:<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kt">void</span> <span class="nf">transfer</span><span class="o">(</span><span class="n">Account</span> <span class="n">fromAcc</span><span class="o">,</span> <span class="n">Account</span> <span class="n">toAcc</span><span class="o">,</span> <span class="kt">int</span> <span class="n">amount</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">fromAcc</span><span class="o">.</span><span class="na">getBalance</span><span class="o">()</span> <span class="o">&lt;</span> <span class="n">amount</span><span class="o">)</span>
+      <span class="k">throw</span> <span class="k">new</span> <span class="n">InsufficientFundsException</span><span class="o">();</span>
+
+  <span class="n">fromAcc</span><span class="o">.</span><span class="na">withdraw</span><span class="o">(</span><span class="n">amount</span><span class="o">);</span>
+  <span class="n">toAcc</span><span class="o">.</span><span class="na">deposit</span><span class="o">(</span><span class="n">amount</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+<p>However, this transfer method overlooks certain considerations that a deployed application would require: it lacks security checks to verify that the current user has the authorization to perform this operation; a <a href="/wiki/Database_transaction" title="Database transaction">database transaction</a> should encapsulate the operation in order to prevent accidental data loss; for diagnostics, the operation should be logged to the system log, etc.</p>
+<p>A version with all those new concerns, for the sake of example, could look somewhat like this:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kt">void</span> <span class="nf">transfer</span><span class="o">(</span><span class="n">Account</span> <span class="n">fromAcc</span><span class="o">,</span> <span class="n">Account</span> <span class="n">toAcc</span><span class="o">,</span> <span class="kt">int</span> <span class="n">amount</span><span class="o">,</span> <span class="n">User</span> <span class="n">user</span><span class="o">,</span>
+    <span class="n">Logger</span> <span class="n">logger</span><span class="o">,</span> <span class="n">Database</span> <span class="n">database</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+  <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Transferring money..."</span><span class="o">);</span>
+  
+  <span class="k">if</span> <span class="o">(!</span><span class="n">isUserAuthorised</span><span class="o">(</span><span class="n">user</span><span class="o">,</span> <span class="n">fromAcc</span><span class="o">))</span> <span class="o">{</span>
+    <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"User has no permission."</span><span class="o">);</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="n">UnauthorisedUserException</span><span class="o">();</span>
+  <span class="o">}</span>
+  
+  <span class="k">if</span> <span class="o">(</span><span class="n">fromAcc</span><span class="o">.</span><span class="na">getBalance</span><span class="o">()</span> <span class="o">&lt;</span> <span class="n">amount</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Insufficient funds."</span><span class="o">);</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="n">InsufficientFundsException</span><span class="o">();</span>
+  <span class="o">}</span>
+
+  <span class="n">fromAcc</span><span class="o">.</span><span class="na">withdraw</span><span class="o">(</span><span class="n">amount</span><span class="o">);</span>
+  <span class="n">toAcc</span><span class="o">.</span><span class="na">deposit</span><span class="o">(</span><span class="n">amount</span><span class="o">);</span>
+
+  <span class="n">database</span><span class="o">.</span><span class="na">commitChanges</span><span class="o">();</span>  <span class="c1">// Atomic operation.</span>
+
+  <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Transaction successful."</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+<p>In this example other interests have become <i>tangled</i> with the basic functionality (sometimes called the <i>business logic concern</i>). Transactions, security, and logging all exemplify <i><a href="/wiki/Cross-cutting_concern" title="Cross-cutting concern">cross-cutting concerns</a></i>.</p>
+<p>Now consider what happens if we suddenly need to change (for example) the security considerations for the application. In the program's current version, security-related operations appear <i>scattered</i> across numerous methods, and such a change would require a major effort.</p>
+<p>AOP attempts to solve this problem by allowing the programmer to express cross-cutting concerns in stand-alone modules called <i>aspects</i>. Aspects can contain <i>advice</i> (code joined to specified points in the program) and <i>inter-type declarations</i> (structural members added to other classes). For example, a security module can include advice that performs a security check before accessing a bank account. The <a href="/wiki/Pointcut" title="Pointcut">pointcut</a> defines the times (<a href="/wiki/Join_point" title="Join point">join points</a>) when one can access a bank account, and the code in the advice body defines how the security check is implemented. That way, both the check and the places can be maintained in one place. Further, a good pointcut can anticipate later program changes, so if another developer creates a new method to access the bank account, the advice will apply to the new method when it executes.</p>
+<p>So for the above example implementing logging in an aspect:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">aspect</span> <span class="n">Logger</span> <span class="o">{</span>
+  <span class="kt">void</span> <span class="n">Bank</span><span class="o">.</span><span class="na">transfer</span><span class="o">(</span><span class="n">Account</span> <span class="n">fromAcc</span><span class="o">,</span> <span class="n">Account</span> <span class="n">toAcc</span><span class="o">,</span> <span class="kt">int</span> <span class="n">amount</span><span class="o">,</span> <span class="n">User</span> <span class="n">user</span><span class="o">,</span> <span class="n">Logger</span> <span class="n">logger</span><span class="o">)</span>  <span class="o">{</span>
+    <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Transferring money..."</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="kt">void</span> <span class="n">Bank</span><span class="o">.</span><span class="na">getMoneyBack</span><span class="o">(</span><span class="n">User</span> <span class="n">user</span><span class="o">,</span> <span class="kt">int</span> <span class="n">transactionId</span><span class="o">,</span> <span class="n">Logger</span> <span class="n">logger</span><span class="o">)</span>  <span class="o">{</span>
+    <span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"User requested money back."</span><span class="o">);</span>
+  <span class="o">}</span>
+
+  <span class="c1">// Other crosscutting code.</span>
+<span class="o">}</span>
+</pre></div>
+<p>One can think of AOP as a debugging tool or as a user-level tool. Advice should be reserved for the cases where you cannot get the function changed (user level)<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup> or do not want to change the function in production code (debugging).</p>
+<h2><span class="mw-headline" id="Join_point_models">Join point models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=3" title="Edit section: Join point models">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The advice-related component of an aspect-oriented language defines a join point model (JPM). A JPM defines three things:</p>
+<ol>
+<li>When the advice can run. These are called <i><a href="/wiki/Join_point" title="Join point">join points</a></i> because they are points in a running program where additional behavior can be usefully joined. A join point needs to be addressable and understandable by an ordinary programmer to be useful. It should also be stable across inconsequential program changes in order for an aspect to be stable across such changes. Many AOP implementations support method executions and field references as join points.</li>
+<li>A way to specify (or <i>quantify</i>) join points, called <i><a href="/wiki/Pointcut" title="Pointcut">pointcuts</a></i>. Pointcuts determine whether a given join point matches. Most useful pointcut languages use a syntax like the base language (for example, <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> uses Java signatures) and allow reuse through naming and combination.</li>
+<li>A means of specifying code to run at a join point. <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> calls this <i><a class="mw-redirect" href="/wiki/Advice_in_aspect-oriented_programming" title="Advice in aspect-oriented programming">advice</a></i>, and can run it before, after, and around join points. Some implementations also support things like defining a method in an aspect on another class.</li>
+</ol>
+<p>Join-point models can be compared based on the join points exposed, how join points are specified, the operations permitted at the join points, and the structural enhancements that can be expressed.</p>
+<h3><span class="mw-headline" id="AspectJ.27s_join-point_model">AspectJ's join-point model</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=4" title="Edit section: AspectJ's join-point model">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a></div>
+<ul>
+<li>The join points in AspectJ include method or constructor call or execution, the initialization of a class or object, field read and write access, exception handlers, etc. They do not include loops, super calls, throws clauses, multiple statements, etc.</li>
+<li>Pointcuts are specified by combinations of <i>primitive pointcut designators</i> (PCDs).</li>
+</ul>
+<dl>
+<dd>"Kinded" PCDs match a particular kind of join point (e.g., method execution) and tend to take as input a Java-like signature. One such pointcut looks like this:</dd>
+</dl>
+<pre>
+ execution(* set*(*))
+</pre>
+<dl>
+<dd>This pointcut matches a method-execution join point, if the method name starts with "<code>set</code>" and there is exactly one argument of any type.</dd>
+</dl>
+<p>"Dynamic" PCDs check runtime types and bind variables. For example,</p>
+<pre>
+  this(Point)
+</pre>
+<dl>
+<dd>This pointcut matches when the currently executing object is an instance of class <code>Point</code>. Note that the unqualified name of a class can be used via Java's normal type lookup.</dd>
+</dl>
+<p>"Scope" PCDs limit the lexical scope of the join point. For example:</p>
+<pre>
+ within(com.company.*)
+</pre>
+<dl>
+<dd>This pointcut matches any join point in any type in the <code>com.company</code> package. The <i><code>*</code></i> is one form of the wildcards that can be used to match many things with one signature.</dd>
+</dl>
+<p>Pointcuts can be composed and named for reuse. For example:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+ <span class="k">pointcut</span> <span class="nf">set</span><span class="o">()</span> <span class="o">:</span> <span class="k">execution</span><span class="o">(*</span> <span class="k">set</span><span class="o">*(*)</span> <span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="k">this</span><span class="o">(</span><span class="n">Point</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="k">within</span><span class="o">(</span><span class="n">com</span><span class="o">.</span><span class="na">company</span><span class="o">.*);</span>
+</pre></div>
+<dl>
+<dd>This pointcut matches a method-execution join point, if the method name starts with "<code>set</code>" and <code>this</code> is an instance of type <code>Point</code> in the <code>com.company</code> package. It can be referred to using the name "<code>set()</code>".</dd>
+</dl>
+<ul>
+<li>Advice specifies to run at (before, after, or around) a join point (specified with a pointcut) certain code (specified like code in a method). The AOP runtime invokes Advice automatically when the pointcut matches the join point. For example:</li>
+</ul>
+<pre>
+after() : set() {
+   Display.update();
+}
+</pre>
+<dl>
+<dd>This effectively specifies: "if the <i><code>set()</code></i> pointcut matches the join point, run the code <code>Display.update()</code> after the join point completes."</dd>
+</dl>
+<h3><span class="mw-headline" id="Other_potential_join_point_models">Other potential join point models</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=5" title="Edit section: Other potential join point models">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>There are other kinds of JPMs. All advice languages can be defined in terms of their JPM. For example, a hypothetical aspect language for <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a> may have the following JPM:</p>
+<ul>
+<li>Join points are all model elements.</li>
+<li>Pointcuts are some boolean expression combining the model elements.</li>
+<li>The means of affect at these points are a visualization of all the matched join points.</li>
+</ul>
+<h3><span class="mw-headline" id="Inter-type_declarations">Inter-type declarations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=6" title="Edit section: Inter-type declarations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Inter-type declarations</i> provide a way to express crosscutting concerns affecting the structure of modules. Also known as <i>open classes</i> and <i><a href="/wiki/Extension_method" title="Extension method">extension methods</a></i>, this enables programmers to declare in one place members or parents of another class, typically in order to combine all the code related to a concern in one aspect. For example, if a programmer implemented the crosscutting display-update concern using visitors instead, an inter-type declaration using the <a href="/wiki/Visitor_pattern" title="Visitor pattern">visitor pattern</a> might look like this in AspectJ:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+  <span class="k">aspect</span> <span class="n">DisplayUpdate</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="n">Point</span><span class="o">.</span><span class="na">acceptVisitor</span><span class="o">(</span><span class="n">Visitor</span> <span class="n">v</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">v</span><span class="o">.</span><span class="na">visit</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="c1">// other crosscutting code...</span>
+  <span class="o">}</span>
+</pre></div>
+<p>This code snippet adds the <code>acceptVisitor</code> method to the <code>Point</code> class.</p>
+<p>It is a requirement that any structural additions be compatible with the original class, so that clients of the existing class continue to operate, unless the AOP implementation can expect to control all clients at all times.</p>
+<h2><span class="mw-headline" id="Implementation">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=7" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>AOP programs can affect other programs in two different ways, depending on the underlying languages and environments:</p>
+<ol>
+<li>a combined program is produced, valid in the original language and indistinguishable from an ordinary program to the ultimate interpreter</li>
+<li>the ultimate interpreter or environment is updated to understand and implement AOP features.</li>
+</ol>
+<p>The difficulty of changing environments means most implementations produce compatible combination programs through a process known as <i>weaving</i> - a special case of <a href="/wiki/Program_transformation" title="Program transformation">program transformation</a>. An <a href="/wiki/Aspect_weaver" title="Aspect weaver">aspect weaver</a> reads the aspect-oriented code and generates appropriate object-oriented code with the aspects integrated. The same AOP language can be implemented through a variety of weaving methods, so the semantics of a language should never be understood in terms of the weaving implementation. Only the speed of an implementation and its ease of deployment are affected by which method of combination is used.</p>
+<p>Systems can implement source-level weaving using preprocessors (as C++ was implemented originally in <a class="mw-redirect" href="/wiki/CFront" title="CFront">CFront</a>) that require access to program source files. However, Java's well-defined binary form enables bytecode weavers to work with any Java program in .class-file form. Bytecode weavers can be deployed during the build process or, if the weave model is per-class, during class loading. <a href="/wiki/AspectJ" title="AspectJ">AspectJ</a> started with source-level weaving in 2001, delivered a per-class bytecode weaver in 2002, and offered advanced load-time support after the integration of <a class="mw-redirect" href="/wiki/AspectWerkz" title="AspectWerkz">AspectWerkz</a> in 2005.</p>
+<p>Any solution that combines programs at runtime has to provide views that segregate them properly to maintain the programmer's segregated model. Java's bytecode support for multiple source files enables any debugger to step through a properly woven .class file in a source editor. However, some third-party decompilers cannot process woven code because they expect code produced by Javac rather than all supported bytecode forms (see also "<a href="#Criticism">Criticism</a>", below).</p>
+<p><a class="new" href="/w/index.php?title=Deploy-time&amp;action=edit&amp;redlink=1" title="Deploy-time (page does not exist)">Deploy-time</a> weaving offers another approach.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> This basically implies post-processing, but rather than patching the generated code, this weaving approach <i>subclasses</i> existing classes so that the modifications are introduced by method-overriding. The existing classes remain untouched, even at runtime, and all existing tools (debuggers, profilers, etc.) can be used during development. A similar approach has already proven itself in the implementation of many <a class="mw-redirect" href="/wiki/Java_EE" title="Java EE">Java EE</a> application servers, such as <a href="/wiki/IBM" title="IBM">IBM</a>'s <a class="mw-redirect" href="/wiki/WebSphere" title="WebSphere">WebSphere</a>.</p>
+<h3><span class="mw-headline" id="Terminology">Terminology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=8" title="Edit section: Terminology">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Standard terminology used in Aspect-oriented programming may include:</p>
+<dl>
+<dt>Cross-cutting concerns</dt>
+<dd>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Cross-cutting_concern" title="Cross-cutting concern">Cross-cutting concern</a></div>
+Even though most classes in an OO model will perform a single, specific function, they often share common, secondary requirements with other classes. For example, we may want to add logging to classes within the data-access layer and also to classes in the UI layer whenever a thread enters or exits a method. Further concerns can be related to security such as <a href="/wiki/Access_control#Computer_security" title="Access control">access control</a> <sup class="reference" id="cite_ref-dewin2002_8-0"><a href="#cite_note-dewin2002-8">[8]</a></sup> or <a href="/wiki/Information_flow_(information_theory)" title="Information flow (information theory)">information flow control</a>.<sup class="reference" id="cite_ref-pasquier2014_9-0"><a href="#cite_note-pasquier2014-9">[9]</a></sup> Even though each class has a very different primary functionality, the code needed to perform the secondary functionality is often identical.</dd>
+<dt>Advice</dt>
+<dd>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Advice_(programming)" title="Advice (programming)">Advice (programming)</a></div>
+This is the additional code that you want to apply to your existing model. In our example, this is the logging code that we want to apply whenever the thread enters or exits a method.</dd>
+<dt>Pointcut</dt>
+<dd>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Pointcut" title="Pointcut">Pointcut</a></div>
+This is the term given to the point of execution in the application at which cross-cutting concern needs to be applied. In our example, a pointcut is reached when the thread enters a method, and another pointcut is reached when the thread exits the method.</dd>
+<dt>Aspect</dt>
+<dd>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Aspect_(computer_science)" title="Aspect (computer science)">Aspect (computer science)</a></div>
+The combination of the pointcut and the advice is termed an aspect. In the example above, we add a logging aspect to our application by defining a pointcut and giving the correct advice.</dd>
+</dl>
+<h2><span class="mw-headline" id="Comparison_to_other_programming_paradigms">Comparison to other programming paradigms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=9" title="Edit section: Comparison to other programming paradigms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Aspects emerged from <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> and <a class="mw-redirect" href="/wiki/Computational_reflection" title="Computational reflection">computational reflection</a>. AOP languages have functionality similar to, but more restricted than <a href="/wiki/Metaobject" title="Metaobject">metaobject protocols</a>. Aspects relate closely to programming concepts like <a class="mw-redirect" href="/wiki/Subjects_(programming)" title="Subjects (programming)">subjects</a>, <a href="/wiki/Mixin" title="Mixin">mixins</a>, and <a class="mw-redirect" href="/wiki/Delegation_(programming)" title="Delegation (programming)">delegation</a>. Other ways to use aspect-oriented programming paradigms include <a class="mw-redirect" href="/wiki/Composition_Filters" title="Composition Filters">Composition Filters</a> and the <a class="mw-redirect" href="/wiki/Hyper/J" title="Hyper/J">hyperslices</a> approach. Since at least the 1970s, developers have been using forms of interception and dispatch-patching that resemble some of the implementation methods for AOP, but these never had the semantics that the crosscutting specifications provide written in one place.</p>
+<p>Designers have considered alternative ways to achieve separation of code, such as <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>'s partial types, but such approaches lack a quantification mechanism that allows reaching several join points of the code with one declarative statement.</p>
+<p>Though it may seem unrelated, in testing, the use of mocks or stubs requires the use of AOP techniques, like around advice, and so forth. Here the collaborating objects are for the purpose of the test, a cross cutting concern. Thus the various Mock Object frameworks provide these features. For example, a process invokes a service to get a balance amount. In the test of the process, where the amount comes from is unimportant, only that the process uses the balance according to the requirements.</p>
+<h2><span class="mw-headline" id="Adoption_issues">Adoption issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=10" title="Edit section: Adoption issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Programmers need to be able to read code and understand what is happening in order to prevent errors.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup> Even with proper education, understanding crosscutting concerns can be difficult without proper support for visualizing both static structure and the dynamic flow of a program.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup> Beginning in 2002, AspectJ began to provide IDE plug-ins to support the visualizing of crosscutting concerns. Those features, as well as aspect code assist and <a href="/wiki/Code_refactoring" title="Code refactoring">refactoring</a> are now common.</p>
+<p>Given the power of AOP, if a programmer makes a logical mistake in expressing crosscutting, it can lead to widespread program failure. Conversely, another programmer may change the join points in a program – e.g., by renaming or moving methods – in ways that the aspect writer did not anticipate, with <a class="mw-redirect" href="/wiki/Unforeseen_consequences" title="Unforeseen consequences">unforeseen consequences</a>. One advantage of modularizing crosscutting concerns is enabling one programmer to affect the entire system easily; as a result, such problems present as a conflict over responsibility between two or more developers for a given failure. However, the solution for these problems can be much easier in the presence of AOP, since only the aspect needs to be changed, whereas the corresponding problems without AOP can be much more spread out.</p>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=11" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The most basic criticism of the effect of AOP is that control flow is obscured, and is not only worse than the much-maligned <a class="mw-redirect" href="/wiki/GOTO" title="GOTO">GOTO</a>, but is in fact closely analogous to the joke <a class="mw-redirect" href="/wiki/COME_FROM" title="COME FROM">COME FROM</a> statement. The <i>obliviousness of application</i>, which is fundamental to many definitions of AOP (the code in question has no indication that an advice will be applied, which is specified instead in the pointcut), means that the advice is not visible, in contrast to an explicit method call.<sup class="reference" id="cite_ref-harmful_12-0"><a href="#cite_note-harmful-12">[12]</a></sup><sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup> For example, compare the COME FROM program:<sup class="reference" id="cite_ref-harmful_12-1"><a href="#cite_note-harmful-12">[12]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="w"> </span><span class="il">5</span><span class="w"> </span><span class="vg">input</span><span class="w"> </span><span class="vg">x</span>
+<span class="nl">10</span><span class="w"> </span><span class="vg">print</span><span class="w"> </span><span class="c1">'result is :'</span>
+<span class="nl">15</span><span class="w"> </span><span class="vg">print</span><span class="w"> </span><span class="vg">x</span>
+
+<span class="nl">20</span><span class="w"> </span><span class="vg">come</span><span class="w"> </span><span class="vg">from</span><span class="w"> </span><span class="il">10</span>
+<span class="nl">25</span><span class="w">      </span><span class="vg">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="vg">x</span>
+<span class="nl">30</span><span class="w"> </span><span class="vg">return</span>
+</pre></div>
+<p>with an AOP fragment with analogous semantics:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">main</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">input</span> <span class="n">x</span>
+    <span class="nf">print</span><span class="o">(</span><span class="n">result</span><span class="o">(</span><span class="n">x</span><span class="o">))</span>
+<span class="o">}</span>
+<span class="n">input</span> <span class="nf">result</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span> <span class="k">return</span> <span class="n">x</span> <span class="o">}</span>
+<span class="n">around</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">):</span> <span class="n">call</span><span class="o">(</span><span class="n">result</span><span class="o">(</span><span class="kt">int</span><span class="o">))</span> <span class="o">&amp;&amp;</span> <span class="n">args</span><span class="o">(</span><span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">temp</span> <span class="o">=</span> <span class="n">proceed</span><span class="o">(</span><span class="n">x</span><span class="o">)</span>
+<span class="c1">//    return temp * temp</span>
+<span class="o">}</span>
+</pre></div>
+<p>Indeed, the pointcut may depend on runtime condition and thus not be statically deterministic. This can be mitigated but not solved by static analysis and IDE support showing which advices <i>potentially</i> match.</p>
+<p>General criticisms are that AOP purports to improve "both modularity and the structure of code", but some counter that it instead undermines these goals and impedes "independent development and understandability of programs".<sup class="reference" id="cite_ref-steimann_14-0"><a href="#cite_note-steimann-14">[14]</a></sup> Specifically, quantification by pointcuts breaks modularity: "one must, in general, have whole-program knowledge to reason about the dynamic execution of an aspect-oriented program."<sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup> Further, while its goals (modularizing cross-cutting concerns) are well-understood, its actual definition is unclear and not clearly distinguished from other well-established techniques.<sup class="reference" id="cite_ref-steimann_14-1"><a href="#cite_note-steimann-14">[14]</a></sup> Cross-cutting concerns potentially cross-cut each other, requiring some resolution mechanism, such as ordering.<sup class="reference" id="cite_ref-steimann_14-2"><a href="#cite_note-steimann-14">[14]</a></sup> Indeed, aspects can apply to themselves, leading to problems such as the <a href="/wiki/Liar_paradox" title="Liar paradox">liar paradox</a>.<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup></p>
+<p>Technical criticisms include that the quantification of pointcuts (defining where advices are executed) is "extremely sensitive to changes in the program", which is known as the <i>fragile pointcut problem</i>.<sup class="reference" id="cite_ref-steimann_14-3"><a href="#cite_note-steimann-14">[14]</a></sup> The problems with pointcuts are deemed intractable: if one replaces the quantification of pointcuts with explicit annotations, one obtains attribute-oriented programming instead, which is simply an explicit subroutine call and suffers the identical problem of scattering that AOP was designed to solve.<sup class="reference" id="cite_ref-steimann_14-4"><a href="#cite_note-steimann-14">[14]</a></sup></p>
+<h2><span class="mw-headline" id="Implementations">Implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=12" title="Edit section: Implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following <a href="/wiki/Programming_language" title="Programming language">programming languages</a> have implemented AOP, within the language, or as an external library:</p>
+<ul>
+<li><a href="/wiki/.NET_Framework" title=".NET Framework">.NET Framework</a> languages (<a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> / <a href="/wiki/Visual_Basic_.NET" title="Visual Basic .NET">VB.NET</a>)<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Unity_Application_Block" title="Unity Application Block">Unity</a>, It provides an API to facilitate proven practices in core areas of programming including data access, security, logging, exception handling and others.</li>
+</ul>
+</li>
+<li><a href="/wiki/ActionScript" title="ActionScript">ActionScript</a><sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup></li>
+<li><a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a><sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup></li>
+<li><a href="/wiki/AutoHotkey" title="AutoHotkey">AutoHotkey</a><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup></li>
+<li><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> / <a href="/wiki/C%2B%2B" title="C++">C++</a><sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup></li>
+<li><a href="/wiki/COBOL" title="COBOL">COBOL</a><sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup></li>
+<li>The <a href="/wiki/Cocoa_(API)" title="Cocoa (API)">Cocoa</a> <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a> frameworks<sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/ColdFusion" title="ColdFusion">ColdFusion</a><sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup></li>
+<li><a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a><sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Borland_Delphi" title="Borland Delphi">Delphi</a><sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup><sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup><sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Delphi_Prism" title="Delphi Prism">Delphi Prism</a><sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup></li>
+<li><a href="/wiki/E_(verification_language)" title="E (verification language)">e</a> (IEEE 1647)</li>
+<li><a href="/wiki/Emacs_Lisp" title="Emacs Lisp">Emacs Lisp</a><sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></li>
+<li><a href="/wiki/Groovy_(programming_language)" title="Groovy (programming language)">Groovy</a></li>
+<li><a href="/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a><sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup></li>
+<li><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a><sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup>
+<ul>
+<li><a href="/wiki/AspectJ" title="AspectJ">AspectJ</a></li>
+</ul>
+</li>
+<li><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a><sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Logtalk_(programming_language)" title="Logtalk (programming language)">Logtalk</a><sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup></li>
+<li><a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a><sup class="reference" id="cite_ref-35"><a href="#cite_note-35">[35]</a></sup></li>
+<li><a href="/wiki/Make_(software)" title="Make (software)">make</a><sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/Matlab" title="Matlab">Matlab</a><sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup></li>
+<li><a href="/wiki/ML_(programming_language)" title="ML (programming language)">ML</a><sup class="reference" id="cite_ref-38"><a href="#cite_note-38">[38]</a></sup></li>
+<li><a href="/wiki/Perl" title="Perl">Perl</a><sup class="reference" id="cite_ref-39"><a href="#cite_note-39">[39]</a></sup></li>
+<li><a href="/wiki/PHP" title="PHP">PHP</a><sup class="reference" id="cite_ref-40"><a href="#cite_note-40">[40]</a></sup></li>
+<li><a href="/wiki/Prolog" title="Prolog">Prolog</a><sup class="reference" id="cite_ref-41"><a href="#cite_note-41">[41]</a></sup></li>
+<li><a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a><sup class="reference" id="cite_ref-42"><a href="#cite_note-42">[42]</a></sup></li>
+<li><a href="/wiki/Racket_(programming_language)" title="Racket (programming language)">Racket</a><sup class="reference" id="cite_ref-43"><a href="#cite_note-43">[43]</a></sup></li>
+<li><a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a><sup class="reference" id="cite_ref-44"><a href="#cite_note-44">[44]</a></sup><sup class="reference" id="cite_ref-45"><a href="#cite_note-45">[45]</a></sup><sup class="reference" id="cite_ref-46"><a href="#cite_note-46">[46]</a></sup></li>
+<li><a href="/wiki/Squeak" title="Squeak">Squeak</a> <a href="/wiki/Smalltalk" title="Smalltalk">Smalltalk</a><sup class="reference" id="cite_ref-47"><a href="#cite_note-47">[47]</a></sup><sup class="reference" id="cite_ref-48"><a href="#cite_note-48">[48]</a></sup></li>
+<li><a class="mw-redirect" href="/wiki/UML_2" title="UML 2">UML 2.0</a><sup class="reference" id="cite_ref-49"><a href="#cite_note-49">[49]</a></sup></li>
+<li><a href="/wiki/XML" title="XML">XML</a><sup class="reference" id="cite_ref-50"><a href="#cite_note-50">[50]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=13" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented software development</a></li>
+<li><a href="/wiki/Distributed_AOP" title="Distributed AOP">Distributed AOP</a></li>
+<li><a href="/wiki/Attribute_grammar" title="Attribute grammar">Attribute grammar</a>, a formalism that can be used for aspect-oriented programming on top of <a class="mw-redirect" href="/wiki/Functional_programming_languages" title="Functional programming languages">functional programming languages</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigms</a></li>
+<li><a href="/wiki/Subject-oriented_programming" title="Subject-oriented programming">Subject-oriented programming</a>, an alternative to Aspect-oriented programming</li>
+<li><a href="/wiki/Role-oriented_programming" title="Role-oriented programming">Role-oriented programming</a>, an alternative to Aspect-oriented programming</li>
+<li><a href="/wiki/Predicate_dispatch" title="Predicate dispatch">Predicate dispatch</a>, an older alternative to Aspect-oriented programming</li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator pattern</a></li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">Domain-driven design</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes_and_references">Notes and references</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=14" title="Edit section: Notes and references">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation conference"><a href="/wiki/Gregor_Kiczales" title="Gregor Kiczales">Kiczales, G.</a>; Lamping, J.; Mendhekar, A.; Maeda, C.; Lopes, C.; Loingtier, J. M.; Irwin, J. (1997). <a class="external text" href="http://www.cs.ubc.ca/~gregor/papers/kiczales-ECOOP1997-AOP.pdf" rel="nofollow"><i>Aspect-oriented programming</i></a> <span style="font-size:85%;">(PDF)</span>. <a href="/wiki/European_Conference_on_Object-Oriented_Programming" title="European Conference on Object-Oriented Programming">ECOOP</a>'97. <i>Proceedings of the 11th European Conference on Object-Oriented Programming</i>. <a href="/wiki/Lecture_Notes_in_Computer_Science" title="Lecture Notes in Computer Science">LNCS</a>. <b>1241</b>. pp. 220–242. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2FBFb0053381" rel="nofollow">10.1007/BFb0053381</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/3-540-63089-9" title="Special:BookSources/3-540-63089-9">3-540-63089-9</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.115.8660" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.115<wbr></wbr>.8660</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=Aspect-oriented+programming&amp;rft.aufirst=G.&amp;rft.au=Irwin%2C+J.&amp;rft.au=Lamping%2C+J.&amp;rft.aulast=Kiczales&amp;rft.au=Loingtier%2C+J.+M.&amp;rft.au=Lopes%2C+C.&amp;rft.au=Maeda%2C+C.&amp;rft.au=Mendhekar%2C+A.&amp;rft.date=1997&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.cs.ubc.ca%2F~gregor%2Fpapers%2Fkiczales-ECOOP1997-AOP.pdf&amp;rft_id=info%3Adoi%2F10.1007%2FBFb0053381&amp;rft.isbn=3-540-63089-9&amp;rft.jtitle=Proceedings+of+the+11th+European+Conference+on+Object-Oriented+Programming&amp;rft.pages=220-242&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=1241"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">"Adaptive Object Oriented Programming: The Demeter Approach with Propagation Patterns" <i>Karl Liebherr</i> 1996 <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/053494602X">ISBN 0-534-94602-X</a> presents a well-worked version of essentially the same thing (Lieberherr subsequently recognized this and reframed his approach).</span></li>
+<li id="cite_note-BoxSells2002-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-BoxSells2002_3-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Don Box; Chris Sells (4 November 2002). <a class="external text" href="https://books.google.com/books?id=Kl1DVZ8wTqcC&amp;pg=PA206" rel="nofollow"><i>Essential.NET: The common language runtime</i></a>. Addison-Wesley Professional. p. 206. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-201-73411-9" title="Special:BookSources/978-0-201-73411-9">978-0-201-73411-9</a><span class="reference-accessdate">. Retrieved <span class="nowrap">4 October</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Chris+Sells&amp;rft.au=Don+Box&amp;rft.btitle=Essential.NET%3A+The+common+language+runtime&amp;rft.date=2002-11-04&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DKl1DVZ8wTqcC%26pg%3DPA206&amp;rft.isbn=978-0-201-73411-9&amp;rft.pages=206&amp;rft.pub=Addison-Wesley+Professional&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-RomanSriganesh2005-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-RomanSriganesh2005_4-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Roman, Ed; Sriganesh, Rima Patel; Brose, Gerald (1 January 2005). <a class="external text" href="https://books.google.com/books?id=60oym_-uu3EC&amp;pg=PA285" rel="nofollow"><i>Mastering Enterprise JavaBeans</i></a>. John Wiley and Sons. p. 285. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-7645-8492-3" title="Special:BookSources/978-0-7645-8492-3">978-0-7645-8492-3</a><span class="reference-accessdate">. Retrieved <span class="nowrap">4 October</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Brose%2C+Gerald&amp;rft.aufirst=Ed&amp;rft.aulast=Roman&amp;rft.au=Sriganesh%2C+Rima+Patel&amp;rft.btitle=Mastering+Enterprise+JavaBeans&amp;rft.date=2005-01-01&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D60oym_-uu3EC%26pg%3DPA285&amp;rft.isbn=978-0-7645-8492-3&amp;rft.pages=285&amp;rft.pub=John+Wiley+and+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Note: The examples in this article appear in a syntax that resembles that of the <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> language.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="https://www.gnu.org/software/emacs/elisp/html_node/Advising-Functions.html" rel="nofollow">Emacs documentation</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a class="external free" href="http://www.forum2.org/tal/AspectJ2EE.pdf" rel="nofollow">http://www.forum2.org/tal/AspectJ2EE.pdf</a></span></li>
+<li id="cite_note-dewin2002-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-dewin2002_8-0">^</a></b></span> <span class="reference-text">B. De Win, B. Vanhaute and B. De Decker. Security through aspect-oriented programming. In Advances in Network and Distributed Systems Security 2002.</span></li>
+<li id="cite_note-pasquier2014-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-pasquier2014_9-0">^</a></b></span> <span class="reference-text">T. Pasquier, J. Bacon and B. Shand. FlowR: Aspect Oriented Programming for Information Flow Control in Ruby. In ACM Proceedings of the 13th international conference on Modularity (Aspect Oriented Software Development) 2014.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a class="mw-redirect" href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a>, <a class="external text" href="http://www.cs.utexas.edu/users/EWD/ewd02xx/EWD249.PDF" rel="nofollow"><i>Notes on Structured Programming</i></a>, pg. 1-2</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a class="external text" href="http://pp.info.uni-karlsruhe.de/uploads/publikationen/constantinides04eiwas.pdf" rel="nofollow"><i>AOP Considered Harmful</i></a></span></li>
+<li id="cite_note-harmful-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-harmful_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-harmful_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">"<a class="external text" href="https://pp.info.uni-karlsruhe.de/uploads/publikationen/constantinides04eiwas.pdf" rel="nofollow">AOP Considered Harmful</a>", Constantinos Constantinides, Therapon Skotiniotis, Maximilian Störzer, <i>European Interactive Workshop on Aspects in Software</i> (EIWAS), Berlin, Germany, September 2004.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a class="extiw" href="http://c2.com/cgi/wiki?ComeFrom" title="c2:ComeFrom">C2:ComeFrom</a></span></li>
+<li id="cite_note-steimann-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-steimann_14-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-steimann_14-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-steimann_14-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-steimann_14-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-steimann_14-4"><sup><i><b>e</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Steimann, F. (2006). "The paradoxical success of aspect-oriented programming". <i>ACM SIGPLAN Notices</i>. <b>41</b> (10): 481. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F1167515.1167514" rel="nofollow">10.1145/1167515.1167514</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=The+paradoxical+success+of+aspect-oriented+programming&amp;rft.aufirst=F.&amp;rft.aulast=Steimann&amp;rft.date=2006&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1145%2F1167515.1167514&amp;rft.issue=10&amp;rft.jtitle=ACM+SIGPLAN+Notices&amp;rft.pages=481&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=41"><span style="display:none;"> </span></span>, (<a class="external text" href="http://people.dsv.su.se/~johano/ioor/succ_aop.pdf" rel="nofollow">slides</a>,<a class="external text" href="http://www.eecs.ucf.edu/~leavens/modular-aop/Discussion.pdf" rel="nofollow">slides 2</a>, <a class="external text" href="http://www.oopsla.org/2006/submission/essays/the_paradoxical_success_of_aspect-oriented_programming.html" rel="nofollow">abstract</a>), Friedrich Steimann, Gary T. Leavens, <a href="/wiki/OOPSLA" title="OOPSLA">OOPSLA</a> 2006</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.eecs.ucf.edu/~leavens/modular-aop/" rel="nofollow">"More Modular Reasoning for Aspect-Oriented Programs"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=More+Modular+Reasoning+for+Aspect-Oriented+Programs&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.eecs.ucf.edu%2F~leavens%2Fmodular-aop%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a class="external text" href="http://core.ac.uk/download/pdf/11558418.pdf" rel="nofollow">AOP and the Antinomy of the Liar</a></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Numerous: <a class="external text" href="https://github.com/vc3/Afterthought" rel="nofollow">Afterthought</a>, <a class="external text" href="http://www.rapier-loom.net/" rel="nofollow">LOOM.NET</a>, <a class="external text" href="http://www.codeplex.com/entlib" rel="nofollow">Enterprise Library 3.0 Policy Injection Application Block</a>, <a class="external text" href="http://sourceforge.net/projects/aspectdng/" rel="nofollow">AspectDNG</a>, <a class="external text" href="http://www.castleproject.org/projects/dynamicproxy/" rel="nofollow">DynamicProxy</a>, <a class="external text" href="http://composestar.sourceforge.net/" rel="nofollow">Compose*</a>, <a class="external text" href="http://www.postsharp.net/" rel="nofollow">PostSharp</a>, <a class="external text" href="http://www.seasar.org/en/dotnet/" rel="nofollow">Seasar.NET</a>, <a class="external text" href="http://dotspect.tigris.org/" rel="nofollow">DotSpect (.SPECT)</a>, <a class="external text" href="http://www.springframework.net/" rel="nofollow">Spring.NET</a> (as part of its functionality), <a class="external text" href="http://www.cs.columbia.edu/~eaddy/wicca" rel="nofollow">Wicca and Phx.Morph</a>, <a class="external text" href="http://setpoint.codehaus.org/" rel="nofollow">SetPoint</a></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.as3commons.org/as3-commons-bytecode" rel="nofollow">as3-commons-bytecode</a></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.adacore.com/uploads/technical-papers/Ada2012_Rational_Introducion.pdf" rel="nofollow">Ada2012 Rationale</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.autohotkey.com/forum/viewtopic.php?p=243426" rel="nofollow">Function Hooks</a></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Several: <a href="/wiki/AspectC%2B%2B" title="AspectC++">AspectC++</a>, <a class="external text" href="http://wwwiti.cs.uni-magdeburg.de/iti_db/forschung/fop/featurec/" rel="nofollow">FeatureC++</a>, <a class="external text" href="http://www.cs.ubc.ca/labs/spl/projects/aspectc.html" rel="nofollow">AspectC</a>, <a class="external text" href="http://www.aspectc.net/" rel="nofollow">AspeCt-oriented C</a>, <a class="external text" href="http://www.bramadams.org/aspicere/index.html" rel="nofollow">Aspicere</a></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a class="external text" href="http://homepages.vub.ac.be/~kdeschut/cobble/" rel="nofollow">Cobble</a></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.ood.neu.edu/aspectcocoa/" rel="nofollow">AspectCocoa</a></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.coldspringframework.org/" rel="nofollow">ColdSpring</a></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://common-lisp.net/project/closer/aspectl.html" rel="nofollow">"Closer Project: AspectL."</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=Closer+Project%3A+AspectL.&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fcommon-lisp.net%2Fproject%2Fcloser%2Faspectl.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://code.google.com/p/infra/" rel="nofollow">"infra - Frameworks Integrados para Delphi - Google Project Hosting"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=infra+-++++++Frameworks+Integrados+para+Delphi+-+Google+Project+Hosting&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fcode.google.com%2Fp%2Finfra%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://code.google.com/p/meaop/" rel="nofollow">"meaop - MeSDK: MeObjects, MeRTTI, MeAOP - Delphi AOP(Aspect Oriented Programming), MeRemote, MeService... - Google Project Hosting"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=meaop+-++++++MeSDK%3A+MeObjects%2C+MeRTTI%2C+MeAOP+-+Delphi+AOP%28Aspect+Oriented+Programming%29%2C+MeRemote%2C+MeService...+-+Google+Project+Hosting&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fcode.google.com%2Fp%2Fmeaop%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://code.google.com/p/delphisorcery/" rel="nofollow">"Google Project Hosting"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=Google+Project+Hosting&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fcode.google.com%2Fp%2Fdelphisorcery%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a class="external text" href="http://prismwiki.codegear.com/en/Cirrus" rel="nofollow">RemObjects Cirrus</a></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><a class="external text" href="https://www.gnu.org/software/emacs/elisp/html_node/Advising-Functions.html" rel="nofollow">Emacs Advice Functions</a></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><a href="/wiki/Monad_(functional_programming)" title="Monad (functional programming)">monad (functional programming)</a> (<cite class="citation journal">"Monads As a theoretical basis for AOP". <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.25.8262" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.25<wbr></wbr>.8262</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=Monads+As+a+theoretical+basis+for+AOP&amp;rft.genre=article&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span>) and <a class="external text" href="http://portal.acm.org/citation.cfm?id=1233842" rel="nofollow">Aspect-oriented programming with type classes.</a> <a class="external text" href="http://dl.acm.org/citation.cfm?id=2451457" rel="nofollow">A Typed Monadic Embedding of Aspects</a></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text">Numerous others: <a class="external text" href="http://www.caesarj.org/" rel="nofollow">CaesarJ</a>, <a class="external text" href="http://composestar.sourceforge.net/" rel="nofollow">Compose*</a>, <a class="external text" href="http://dynaop.dev.java.net/" rel="nofollow">Dynaop</a>, <a class="external text" href="http://jac.objectweb.org/" rel="nofollow">JAC</a>, <a href="/wiki/Google_Guice" title="Google Guice">Google Guice</a> (as part of its functionality), <a class="external text" href="http://www.csg.is.titech.ac.jp/~chiba/javassist/" rel="nofollow">Javassist</a>, <a class="external text" href="http://ssel.vub.ac.be/jasco/" rel="nofollow">JAsCo (and AWED)</a>, <a class="external text" href="http://www.ics.uci.edu/~trungcn/jaml/" rel="nofollow">JAML</a>, <a class="external text" href="http://labs.jboss.com/portal/jbossaop" rel="nofollow">JBoss AOP</a>, <a class="external text" href="http://roots.iai.uni-bonn.de/research/logicaj" rel="nofollow">LogicAJ</a>, <a class="external text" href="http://www.objectteams.org/" rel="nofollow">Object Teams</a>, <a class="external text" href="http://prose.ethz.ch/" rel="nofollow">PROSE</a>, <a class="external text" href="http://www.aspectbench.org/" rel="nofollow">The AspectBench Compiler for AspectJ (abc)</a>, <a class="mw-redirect" href="/wiki/Spring_framework" title="Spring framework">Spring framework</a> (as part of its functionality), <a href="/wiki/Seasar" title="Seasar">Seasar</a>, <a class="external text" href="http://roots.iai.uni-bonn.de/research/jmangler/" rel="nofollow">The JMangler Project</a>, <a class="external text" href="http://injectj.sourceforge.net/" rel="nofollow">InjectJ</a>, <a class="external text" href="http://www.csg.is.titech.ac.jp/projects/gluonj/" rel="nofollow">GluonJ</a>, <a class="external text" href="http://www.st.informatik.tu-darmstadt.de/static/pages/projects/AORTA/Steamloom.jsp" rel="nofollow">Steamloom</a></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text">Many: <a class="external text" href="http://i.gotfresh.info/2007/12/7/advised-methods-for-javascript-with-prototype/" rel="nofollow">Advisable</a>, <a class="external text" href="https://code.google.com/p/ajaxpect/" rel="nofollow">Ajaxpect</a>, <a class="external text" href="http://plugins.jquery.com/project/AOP" rel="nofollow">jQuery AOP Plugin</a>, <a class="external text" href="http://aspectes.tigris.org/" rel="nofollow">Aspectes</a>, <a class="external text" href="http://www.aspectjs.com/" rel="nofollow">AspectJS</a>, <a class="external text" href="http://www.cerny-online.com/cerny.js/" rel="nofollow">Cerny.js</a>, <a class="external text" href="http://dojotoolkit.org/" rel="nofollow">Dojo Toolkit</a>, <a class="external text" href="http://humax.sourceforge.net/" rel="nofollow">Humax Web Framework</a>, <a class="external text" href="https://code.google.com/p/joose-js/" rel="nofollow">Joose</a>, <a class="mw-redirect" href="/wiki/Prototype.js" title="Prototype.js">Prototype</a> - <a class="external text" href="http://www.prototypejs.org/api/function/wrap" rel="nofollow">Prototype Function#wrap</a>, <a class="external text" href="http://developer.yahoo.com/yui/3/api/Do.html" rel="nofollow">YUI 3 (Y.Do)</a></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text">Using built-in support for categories (which allows the encapsulation of aspect code) and event-driven programming (which allows the definition of <i>before</i> and after <i>event</i> handlers).</span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://luaforge.net/projects/aspectlua/" rel="nofollow">"AspectLua"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=AspectLua&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fluaforge.net%2Fprojects%2Faspectlua%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.bramadams.org/makao/" rel="nofollow">"MAKAO, re(verse)-engineering build systems"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=MAKAO%2C+re%28verse%29-engineering+build+systems&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bramadams.org%2Fmakao%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.sable.mcgill.ca/mclab/aspectmatlab/index.html" rel="nofollow">"McLab"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=McLab&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sable.mcgill.ca%2Fmclab%2Faspectmatlab%2Findex.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.cs.princeton.edu/sip/projects/aspectml/" rel="nofollow">"AspectML - Aspect-oriented Functional Programming Language Research"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=AspectML+-+Aspect-oriented+Functional+Programming+Language+Research&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.princeton.edu%2Fsip%2Fprojects%2Faspectml%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><cite class="citation web">Adam Kennedy. <a class="external text" href="https://metacpan.org/module/Aspect" rel="nofollow">"Aspect - Aspect-Oriented Programming (AOP) for Perl - metacpan.org"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Adam+Kennedy&amp;rft.btitle=Aspect+-+Aspect-Oriented+Programming+%28AOP%29+for+Perl+-+metacpan.org&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fmetacpan.org%2Fmodule%2FAspect&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text">Several: <a class="external text" href="http://aop.io" rel="nofollow">PHP-AOP (AOP.io)</a>, <a class="external text" href="http://go.aopphp.com" rel="nofollow">Go! AOP framework</a>, <a class="external text" href="https://code.google.com/p/phpaspect/" rel="nofollow">PHPaspect</a>, <a class="external text" href="http://www.seasar.org/en/php5/index.html" rel="nofollow">Seasar.PHP</a>, <a class="external text" href="http://php-aop.googlecode.com/" rel="nofollow">PHP-AOP</a>, <a class="external text" href="http://flow.typo3.org/" rel="nofollow">TYPO3 Flow</a>, <a class="external text" href="https://github.com/AOP-PHP/AOP" rel="nofollow">AOP PECL Extension</a></span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.bigzaphod.org/whirl/dma/docs/aspects/aspects-man.html" rel="nofollow">"Whirl"</a></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text">Several: <a class="external text" href="http://peak.telecommunity.com/" rel="nofollow">PEAK</a>, <a class="external text" href="http://old.aspyct.org" rel="nofollow">Aspyct AOP</a>, <a class="external text" href="http://www.cs.tut.fi/~ask/aspects/aspects.html" rel="nofollow">Lightweight Python AOP</a>, <a class="external text" href="http://www.logilab.org/projects/aspects" rel="nofollow">Logilab's aspect module</a>, <a class="external text" href="http://pythius.sourceforge.net/" rel="nofollow">Pythius</a>, <a class="external text" href="http://springpython.webfactional.com/1.1.x/reference/html/aop.html" rel="nofollow">Spring Python's AOP module</a>, <a class="external text" href="http://pytilities.sourceforge.net/doc/1.1.0/guide/aop/" rel="nofollow">Pytilities' AOP module</a>, <a class="external text" href="http://python-aspectlib.readthedocs.org/en/latest/" rel="nofollow">aspectlib</a></span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://planet.racket-lang.org/display.ss?package=aspectscheme.plt&amp;owner=dutchyn" rel="nofollow">"PLaneT Package Repository : PLaneT &gt; dutchyn &gt; aspectscheme.plt"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=PLaneT+Package+Repository+%3A+PLaneT+%3E+dutchyn+%3E+aspectscheme.plt&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fplanet.racket-lang.org%2Fdisplay.ss%3Fpackage%3Daspectscheme.plt%26owner%3Ddutchyn&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://aspectr-fork.sourceforge.net/" rel="nofollow">"AspectR - Simple aspect-oriented programming in Ruby"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=AspectR+-+Simple+aspect-oriented+programming+in+Ruby&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Faspectr-fork.sourceforge.net%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><cite class="citation web">Dean Wampler. <a class="external text" href="http://aquarium.rubyforge.org/" rel="nofollow">"Home"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Dean+Wampler&amp;rft.btitle=Home&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Faquarium.rubyforge.org%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://github.com/gcao/aspector" rel="nofollow">"gcao/aspector"</a>. <i>GitHub</i><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=gcao%2Faspector&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fgithub.com%2Fgcao%2Faspector&amp;rft.jtitle=GitHub&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-47">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.prakinf.tu-ilmenau.de/~hirsch/Projects/Squeak/AspectS/" rel="nofollow">AspectS</a></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://csl.ensm-douai.fr/MetaclassTalk" rel="nofollow">"MetaclassTalk: Reflection and Meta-Programming in Smalltalk"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=MetaclassTalk%3A+Reflection+and+Meta-Programming+in+Smalltalk&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fcsl.ensm-douai.fr%2FMetaclassTalk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.iit.edu/~concur/weavr" rel="nofollow">WEAVR</a></span></li>
+<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://code.google.com/p/aspectxml/" rel="nofollow">"aspectxml - An Aspect-Oriented XML Weaving Engine (AXLE) - Google Project Hosting"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">11 August</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.btitle=aspectxml+-++++++An+Aspect-Oriented+XML+Weaving+Engine+%28AXLE%29+-+Google+Project+Hosting&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fcode.google.com%2Fp%2Faspectxml%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=15" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation conference"><a href="/wiki/Gregor_Kiczales" title="Gregor Kiczales">Kiczales, G.</a>; Lamping, J.; Mendhekar, A.; Maeda, C.; Lopes, C.; Loingtier, J. M.; Irwin, J. (1997). <a class="external text" href="http://www.cs.ubc.ca/~gregor/papers/kiczales-ECOOP1997-AOP.pdf" rel="nofollow"><i>Aspect-oriented programming</i></a> <span style="font-size:85%;">(PDF)</span>. <a href="/wiki/European_Conference_on_Object-Oriented_Programming" title="European Conference on Object-Oriented Programming">ECOOP</a>'97. <i>Proceedings of the 11th European Conference on Object-Oriented Programming</i>. <a href="/wiki/Lecture_Notes_in_Computer_Science" title="Lecture Notes in Computer Science">LNCS</a>. <b>1241</b>. pp. 220–242. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2FBFb0053381" rel="nofollow">10.1007/BFb0053381</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/3-540-63089-9" title="Special:BookSources/3-540-63089-9">3-540-63089-9</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.115.8660" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.115<wbr></wbr>.8660</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=Aspect-oriented+programming&amp;rft.aufirst=G.&amp;rft.au=Irwin%2C+J.&amp;rft.au=Lamping%2C+J.&amp;rft.aulast=Kiczales&amp;rft.au=Loingtier%2C+J.+M.&amp;rft.au=Lopes%2C+C.&amp;rft.au=Maeda%2C+C.&amp;rft.au=Mendhekar%2C+A.&amp;rft.date=1997&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.cs.ubc.ca%2F~gregor%2Fpapers%2Fkiczales-ECOOP1997-AOP.pdf&amp;rft_id=info%3Adoi%2F10.1007%2FBFb0053381&amp;rft.isbn=3-540-63089-9&amp;rft.jtitle=Proceedings+of+the+11th+European+Conference+on+Object-Oriented+Programming&amp;rft.pages=220-242&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=1241"><span style="display:none;"> </span></span> The paper generally considered to be the authoritative reference for AOP.</li>
+<li><cite class="citation book">Andreas Holzinger; M. Brugger; W. Slany (2011). <i>Applying Aspect Oriented Programming (AOP) in Usability Engineering processes: On the example of Tracking Usage Information for Remote Usability Testing</i>. <i>Proceedings of the 8th International Conference on electronic Business and Telecommunications. Sevilla</i>. D. A. Marca, B. Shishkov and M. v. Sinderen (editors). pp. 53–56.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Andreas+Holzinger&amp;rft.au=M.+Brugger&amp;rft.au=W.+Slany&amp;rft.btitle=Applying+Aspect+Oriented+Programming+%28AOP%29+in+Usability+Engineering+processes%3A+On+the+example+of+Tracking+Usage+Information+for+Remote+Usability+Testing.&amp;rft.date=2011&amp;rft.genre=book&amp;rft.pages=53-56&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Robert E. Filman; Tzilla Elrad; Siobhán Clarke; Mehmet Aksit (2004). <i>Aspect-Oriented Software Development</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-21976-7" title="Special:BookSources/0-321-21976-7">0-321-21976-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Mehmet+Aksit&amp;rft.au=Robert+E.+Filman&amp;rft.au=Siobh%C3%A1n+Clarke&amp;rft.au=Tzilla+Elrad&amp;rft.btitle=Aspect-Oriented+Software+Development&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-321-21976-7&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Renaud Pawlak, Lionel Seinturier &amp; Jean-Philippe Retaillé (2005). <i>Foundations of AOP for J2EE Development</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-59059-507-6" title="Special:BookSources/1-59059-507-6">1-59059-507-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Jean-Philippe+Retaill%C3%A9&amp;rft.au=Renaud+Pawlak%2C+Lionel+Seinturier&amp;rft.btitle=Foundations+of+AOP+for+J2EE+Development&amp;rft.date=2005&amp;rft.genre=book&amp;rft.isbn=1-59059-507-6&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book"><a class="new" href="/w/index.php?title=Ramnivas_Laddad&amp;action=edit&amp;redlink=1" title="Ramnivas Laddad (page does not exist)">Laddad, Ramnivas</a> (2003). <i>AspectJ in Action: Practical Aspect-Oriented Programming</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-930110-93-6" title="Special:BookSources/1-930110-93-6">1-930110-93-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.aufirst=Ramnivas&amp;rft.aulast=Laddad&amp;rft.btitle=AspectJ+in+Action%3A+Practical+Aspect-Oriented+Programming&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=1-930110-93-6&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book"><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Jacobson, Ivar</a>; <a class="new" href="/w/index.php?title=Pan-Wei_Ng&amp;action=edit&amp;redlink=1" title="Pan-Wei Ng (page does not exist)">Pan-Wei Ng</a> (2005). <i>Aspect-Oriented Software Development with Use Cases</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-26888-1" title="Special:BookSources/0-321-26888-1">0-321-26888-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.aufirst=Ivar&amp;rft.aulast=Jacobson&amp;rft.au=Pan-Wei+Ng&amp;rft.btitle=Aspect-Oriented+Software+Development+with+Use+Cases&amp;rft.date=2005&amp;rft.genre=book&amp;rft.isbn=0-321-26888-1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="http://www.cmsdevelopment.com/en/articles/aosdinphp/" rel="nofollow">Aspect-oriented Software Development and PHP, Dmitry Sheiko, 2006</a></li>
+<li><cite class="citation book">Siobhán Clarke &amp; Elisa Baniassad (2005). <i>Aspect-Oriented Analysis and Design: The Theme Approach</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-24674-8" title="Special:BookSources/0-321-24674-8">0-321-24674-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Elisa+Baniassad&amp;rft.au=Siobh%C3%A1n+Clarke&amp;rft.btitle=Aspect-Oriented+Analysis+and+Design%3A+The+Theme+Approach&amp;rft.date=2005&amp;rft.genre=book&amp;rft.isbn=0-321-24674-8&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Raghu Yedduladoddi (2009). <i>Aspect Oriented Software Development: An Approach to Composing UML Design Models</i>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/3-639-12084-1" title="Special:BookSources/3-639-12084-1">3-639-12084-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.au=Raghu+Yedduladoddi&amp;rft.btitle=Aspect+Oriented+Software+Development%3A+An+Approach+to+Composing+UML+Design+Models&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=3-639-12084-1&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li>"Adaptive Object-Oriented Programming Using Graph-Based Customization" – Lieberherr, Silva-Lepe, <i>et al.</i> - 1994</li>
+<li><cite class="citation journal">Zambrano Polo y La Borda, Arturo Federico (5 June 2013). <a class="external text" href="http://sedici.unlp.edu.ar/handle/10915/35861" rel="nofollow">"Addressing aspect interactions in an industrial setting: experiences, problems and solutions"</a>: 159<span class="reference-accessdate">. Retrieved <span class="nowrap">30 May</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAspect-oriented+programming&amp;rft.atitle=Addressing+aspect+interactions+in+an+industrial+setting%3A+experiences%2C+problems+and+solutions&amp;rft.aufirst=Arturo+Federico&amp;rft.aulast=Zambrano+Polo+y+La+Borda&amp;rft.date=2013-06-05&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fsedici.unlp.edu.ar%2Fhandle%2F10915%2F35861&amp;rft.pages=159&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li>Wijesuriya, Viraj Brian (2016-08-30) <i><a class="external text" href="http://www.slideshare.net/tyrantbrian/aspect-oriented-development" rel="nofollow">Aspect Oriented Development, Lecture Notes, University of Colombo School of Computing, Sri Lanka</a></i></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit&amp;section=16" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Eric Bodden's <a class="external text" href="http://www.sable.mcgill.ca/aop.net/" rel="nofollow">list of AOP tools</a> in .net framework</li>
+<li><a class="external text" href="http://www.dreamincode.net/forums/blog/gabehabe/index.php?showentry=1016" rel="nofollow">Programming Styles: Procedural, OOP, and AOP</a></li>
+<li><a class="external text" href="http://forum.codecall.net/java-help/26210-object-reading-writing.html" rel="nofollow">Programming Forum: Procedural, OOP, and AOP</a></li>
+<li><a class="external text" href="http://aosd.net/conference" rel="nofollow">Aspect-Oriented Software Development</a>, annual conference on AOP</li>
+<li><a class="external text" href="http://aosd.net/wiki" rel="nofollow">AOSD Wiki</a>, Wiki on aspect-oriented software development</li>
+<li><a class="external text" href="http://www.eclipse.org/aspectj/doc/released/progguide/index.html" rel="nofollow">AspectJ Programming Guide</a></li>
+<li><a class="external text" href="http://www.aspectbench.org/" rel="nofollow">The AspectBench Compiler for AspectJ</a>, another Java implementation</li>
+<li><a class="external text" href="http://www.ibm.com/developerworks/views/java/libraryview.jsp?search_by=AOP@work:" rel="nofollow">Series of IBM developerWorks articles on AOP</a></li>
+<li><a class="external text" href="http://www.javaworld.com/javaworld/jw-01-2002/jw-0118-aspect.html" rel="nofollow">A detailed series of articles on basics of aspect-oriented programming and AspectJ</a></li>
+<li><a class="external text" href="http://codefez.com/what-is-aspect-oriented-programming/" rel="nofollow">What is Aspect-Oriented Programming?</a>, introduction with RemObjects Taco</li>
+<li><a class="external text" href="http://www.cis.uab.edu/gray/Research/C-SAW/" rel="nofollow">Constraint-Specification Aspect Weaver</a></li>
+<li><a class="external text" href="http://www.devx.com/Java/Article/28422" rel="nofollow">Aspect- vs. Object-Oriented Programming: Which Technique, When?</a></li>
+<li><a class="external text" href="http://video.google.com/videoplay?docid=8566923311315412414&amp;q=engEDU" rel="nofollow">Gregor Kiczales, Professor of Computer Science, explaining AOP</a>, video 57 min.</li>
+<li><a class="external text" href="http://database.ittoolbox.com/documents/academic-articles/what-does-aspectoriented-programming-mean-to-cobol-4570" rel="nofollow">Aspect Oriented Programming in COBOL</a></li>
+<li><a class="external text" href="http://static.springframework.org/spring/docs/2.0.x/reference/aop.html" rel="nofollow">Aspect-Oriented Programming in Java with Spring Framework</a></li>
+<li><a class="external text" href="http://www.sharpcrafters.com/aop.net" rel="nofollow">Wiki dedicated to AOP methods on.NET</a></li>
+<li><a class="external text" href="http://dssg.cs.umb.edu/wiki/index.php/Early_Aspects_for_Business_Process_Modeling" rel="nofollow">Early Aspects for Business Process Modeling (An Aspect Oriented Language for BPMN)</a></li>
+<li><a class="external text" href="http://java2novice.com/spring/aop-and-aspectj-introduction/" rel="nofollow">Spring AOP and AspectJ Introduction</a></li>
+<li><a class="external text" href="http://www.cs.bilkent.edu.tr/~bedir/CS586-AOSD" rel="nofollow">AOSD Graduate Course at Bilkent University</a></li>
+<li><a class="external text" href="http://www.se-radio.net/podcast/2008-08/episode-106-introduction-aop" rel="nofollow">Introduction to AOP - Software Engineering Radio Podcast Episode 106</a></li>
+<li><a class="external text" href="http://innoli.com/en/Innoli-EN/OpenSource.html" rel="nofollow">An Objective-C implementation of AOP by Szilveszter Molnar</a></li>
+<li><a class="external text" href="https://github.com/forensix/MGAOP" rel="nofollow">Aspect-Oriented programming for iOS and OS X by Manuel Gebele</a></li>
+<li><a class="external text" href="http://www.yegor256.com/2014/06/01/aop-aspectj-java-method-logging.html" rel="nofollow">Java Method Logging with AOP and Annotations by Yegor Bugayenko</a></li>
+<li><a class="external text" href="https://community.devexpress.com/blogs/wpf/archive/2013/12/04/devexpress-mvvm-framework-introduction-to-poco-viewmodels.aspx" rel="nofollow">DevExpress MVVM Framework. Introduction to POCO ViewModels</a></li>
+</ul>
+<div aria-labelledby="Aspect-oriented_software_development" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="3" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Aspect-oriented_software_development" title="Template:Aspect-oriented software development"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Aspect-oriented_software_development" title="Template talk:Aspect-oriented software development"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Aspect-oriented_software_development&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Aspect-oriented_software_development" style="font-size:114%"><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented software development</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Advice_(programming)" title="Advice (programming)">Advice</a></li>
+<li><a class="mw-redirect" href="/wiki/Aspect_(computer_science)" title="Aspect (computer science)">Aspect</a></li>
+<li><strong class="selflink">Aspect-oriented programming</strong></li>
+<li><a href="/wiki/Aspect_weaver" title="Aspect weaver">Aspect weaver</a></li>
+<li><a href="/wiki/Cross-cutting_concern" title="Cross-cutting concern">Cross-cutting concerns</a></li>
+<li><a href="/wiki/Join_point" title="Join point">Join point</a></li>
+<li><a href="/wiki/Pointcut" title="Pointcut">Pointcut</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="3" style="width:0%;padding:0px 0px 0px 2px">
+<div><a class="image" href="/wiki/File:AspectWeaver.svg"><img alt="AspectWeaver.svg" data-file-height="450" data-file-width="875" height="77" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/AspectWeaver.svg/150px-AspectWeaver.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/AspectWeaver.svg/225px-AspectWeaver.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/AspectWeaver.svg/300px-AspectWeaver.svg.png 2x" width="150"/></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Languages</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AspectC%2B%2B" title="AspectC++">AspectC++</a></li>
+<li><a href="/wiki/AspectJ" title="AspectJ">AspectJ</a></li>
+<li><a class="mw-redirect" href="/wiki/AspectWerkz" title="AspectWerkz">AspectWerkz</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh2005004988" rel="nofollow">sh2005004988</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/4724728-9" rel="nofollow">4724728-9</a></span></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb14544142k" rel="nofollow">cb14544142k</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb14544142k" rel="nofollow">(data)</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:145329-0!*!0!!en!4!* and timestamp 20161001060822 and revision id 736878332
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Aspect-oriented_programming&amp;oldid=736878332">https://en.wikipedia.org/w/index.php?title=Aspect-oriented_programming&amp;oldid=736878332</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Aspect-oriented_programming" title="Category:Aspect-oriented programming">Aspect-oriented programming</a></li><li><a href="/wiki/Category:Aspect-oriented_software_development" title="Category:Aspect-oriented software development">Aspect-oriented software development</a></li><li><a href="/wiki/Category:Programming_paradigms" title="Category:Programming paradigms">Programming paradigms</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2010" title="Category:Articles with unsourced statements from November 2010">Articles with unsourced statements from November 2010</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_LCCN_identifiers" title="Category:Wikipedia articles with LCCN identifiers">Wikipedia articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_BNF_identifiers" title="Category:Wikipedia articles with BNF identifiers">Wikipedia articles with BNF identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Aspect-oriented+programming" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Aspect-oriented+programming" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Aspect-oriented_programming" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Aspect-oriented_programming" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Aspect-oriented_programming">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Aspect-oriented_programming&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Aspect-oriented_programming&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Aspect-oriented_programming" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Aspect-oriented_programming" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Aspect-oriented_programming&amp;oldid=736878332" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Aspect-oriented_programming&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q30267" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Aspect-oriented_programming&amp;id=736878332" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Aspect-oriented+programming">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Aspect-oriented+programming&amp;returnto=Aspect-oriented+programming&amp;oldid=736878332&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Aspect-oriented_programming&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://en.wikibooks.org/wiki/Computer_Programming/Aspect_oriented_programming" hreflang="en">Wikibooks</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9_%D8%AC%D8%A7%D9%86%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%AD%D9%89" hreflang="ar" lang="ar" title="برمجة جانبية المنحى – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%90%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5" hreflang="bg" lang="bg" title="Аспектно-ориентирано програмиране – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Programaci%C3%B3_orientada_a_aspectes" hreflang="ca" lang="ca" title="Programació orientada a aspectes – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Aspektov%C4%9B_orientovan%C3%A9_programov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Aspektově orientované programování – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Aspektorienteret_programmering" hreflang="da" lang="da" title="Aspektorienteret programmering – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Aspektorientierte_Programmierung" hreflang="de" lang="de" title="Aspektorientierte Programmierung – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_aspectos" hreflang="es" lang="es" title="Programación orientada a aspectos – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C_%D8%AC%D9%86%D8%A8%D9%87%E2%80%8C%DA%AF%D8%B1%D8%A7" hreflang="fa" lang="fa" title="برنامه‌نویسی جنبه‌گرا – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_aspect" hreflang="fr" lang="fr" title="Programmation orientée aspect – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_aspectos" hreflang="gl" lang="gl" title="Programación orientada a aspectos – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" hreflang="ko" lang="ko" title="관점 지향 프로그래밍 – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Programmazione_orientata_agli_aspetti" hreflang="it" lang="it" title="Programmazione orientata agli aspetti – Italian">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Aspectgeori%C3%ABnteerd_programmeren" hreflang="nl" lang="nl" title="Aspectgeoriënteerd programmeren – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B9%E3%83%9A%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" hreflang="ja" lang="ja" title="アスペクト指向プログラミング – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Programowanie_aspektowe" hreflang="pl" lang="pl" title="Programowanie aspektowe – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_aspecto" hreflang="pt" lang="pt" title="Programação orientada a aspecto – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Programarea_orientat%C4%83_pe_aspecte" hreflang="ro" lang="ro" title="Programarea orientată pe aspecte – Romanian">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%90%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" hreflang="ru" lang="ru" title="Аспектно-ориентированное программирование – Russian">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%90%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D1%98%D0%B5%D0%BD%D1%82%D0%B8%D1%81%D0%B0%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5" hreflang="sr" lang="sr" title="Аспектно-оријентисано програмирање – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Aspektorienterad_programmering" hreflang="sv" lang="sv" title="Aspektorienterad programmering – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%86%E0%B0%B8%E0%B1%8D%E0%B0%AA%E0%B1%86%E0%B0%95%E0%B1%8D%E0%B0%9F%E0%B1%8D_%E0%B0%93%E0%B0%B0%E0%B0%BF%E0%B0%AF%E0%B1%86%E0%B0%82%E0%B0%9F%E0%B1%86%E0%B0%A1%E0%B1%8D_%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B1%8B%E0%B0%97%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B0%BF%E0%B0%82%E0%B0%97%E0%B1%8D" hreflang="te" lang="te" title="ఆస్పెక్ట్ ఓరియెంటెడ్ ప్రోగ్రామింగ్ – Telugu">తెలుగు</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%93%E0%B8%B0" hreflang="th" lang="th" title="การเขียนโปรแกรมเชิงลักษณะ – Thai">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Cephe_y%C3%B6nelimli_programlama" hreflang="tr" lang="tr" title="Cephe yönelimli programlama – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%90%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D1%96%D1%94%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Аспектно-орієнтоване програмування – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1" hreflang="zh" lang="zh" title="面向侧面的程序设计 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q30267#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 30 August 2016, at 12:33.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Aspect-oriented_programming&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.292",
+            "walltime": "0.331",
+            "ppvisitednodes": {
+                "value": 1819,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 68624,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 796,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  267.720      1 -total",
+                " 47.04%  125.942      1 Template:Reflist",
+                " 16.19%   43.339     16 Template:Cite_web",
+                " 12.72%   34.059      2 Template:Cite_conference",
+                " 11.55%   30.921      1 Template:Citation_needed",
+                " 10.75%   28.772      9 Template:Cite_book",
+                " 10.33%   27.649      1 Template:Fix",
+                "  6.71%   17.969      1 Template:Programming_paradigms",
+                "  6.45%   17.279      1 Template:Authority_control",
+                "  6.16%   16.494      1 Template:Sidebar"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.129",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4775030,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1248",
+            "timestamp": "20161001060823",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":79,"wgHostname":"mw1240"});});</script>
+</body>
+</html>
+

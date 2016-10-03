@@ -1,0 +1,882 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Software_Architecture
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Software architecture - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Software_architecture","wgTitle":"Software architecture","wgCurRevisionId":740984314,"wgRevisionId":740984314,"wgArticleId":48364,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from August 2016","Commons category with page title same as on Wikidata","Wikipedia articles with GND identifiers","Software architecture","Software engineering"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Software_architecture","wgRelevantArticleId":48364,"wgRequestId":"V-EVBwpAMFoAAFnasAsAAABE","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Software_Architecture","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Software_architecture","wgWikibaseItemId":"Q846636","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Software_architecture" rel="alternate"/>
+<link href="/w/index.php?title=Software_architecture&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Software_architecture&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Software_architecture" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Software_architecture rootpage-Software_architecture skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Software architecture</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Software_Architecture&amp;redirect=no" title="Software Architecture">Software Architecture</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="vertical-navbox" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Core activities</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Requirements_analysis" title="Requirements analysis">Requirements</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Construction</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Testing</a></li>
+<li><a href="/wiki/Debugging" title="Debugging">Debugging</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Maintenance</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Paradigms and models</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Waterfall_model" title="Waterfall model">Waterfall</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototyping</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental</a></li>
+<li><a href="/wiki/V-Model_(software_development)" title="V-Model (software development)">V-Model</a></li>
+<li><a href="/wiki/Dual_Vee_Model" title="Dual Vee Model">Dual Vee Model</a></li>
+<li><a href="/wiki/Spiral_model" title="Spiral model">Spiral</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">IID</a></li>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Lean_software_development" title="Lean software development">Lean</a></li>
+<li><a href="/wiki/DevOps" title="DevOps">DevOps</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Methodologies</a> and frameworks</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Cleanroom_software_engineering" title="Cleanroom software engineering">Cleanroom</a></li>
+<li><a href="/wiki/Team_software_process" title="Team software process">TSP</a></li>
+<li><a href="/wiki/Personal_software_process" title="Personal software process">PSP</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a></li>
+<li><a href="/wiki/Microsoft_Solutions_Framework" title="Microsoft Solutions Framework">MSF</a></li>
+<li><a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a></li>
+<li><a href="/wiki/Kanban_(development)" title="Kanban (development)">Kanban</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+<li><a href="/wiki/Extreme_programming" title="Extreme programming">XP</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">TDD</a></li>
+<li><a href="/wiki/Acceptance_test%E2%80%93driven_development" title="Acceptance test–driven development">ATDD</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">BDD</a></li>
+<li><a href="/wiki/Feature-driven_development" title="Feature-driven development">FDD</a></li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">DDD</a></li>
+<li><a class="mw-redirect" href="/wiki/Model-driven_development" title="Model-driven development">MDD</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Supporting disciplines</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Configuration management</a></li>
+<li><a href="/wiki/Infrastructure_as_Code" title="Infrastructure as Code">Infrastructure as Code</a></li>
+<li><a href="/wiki/Software_documentation" title="Software documentation">Documentation</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software Quality assurance (SQA)</a></li>
+<li><a href="/wiki/Software_project_management" title="Software project management">Project management</a></li>
+<li><a href="/wiki/User_experience" title="User experience">User experience</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a href="/wiki/Programming_tool" title="Programming tool">Tools</a></th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Compiler" title="Compiler">Compiler</a></li>
+<li><a href="/wiki/Debugger" title="Debugger">Debugger</a></li>
+<li><a href="/wiki/Profiling_(computer_programming)" title="Profiling (computer programming)">Profiler</a></li>
+<li><a href="/wiki/Graphical_user_interface_builder" title="Graphical user interface builder">GUI designer</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_tools" title="UML tools">Modeling</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build automation</a></li>
+<li><a href="/wiki/Application_release_automation" title="Application release automation">Release automation</a></li>
+<li><a href="/wiki/Category:Software_testing_tools" title="Category:Software testing tools">Testing</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Standards and BOKs</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/CMMI" title="CMMI">CMMI</a></li>
+<li><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></li>
+<li><a class="mw-redirect" href="/wiki/ISO_9001" title="ISO 9001">ISO 9001</a></li>
+<li><a href="/wiki/ISO/IEC_JTC_1/SC_7" title="ISO/IEC JTC 1/SC 7">ISO/IEC standards</a></li>
+<li><a class="mw-redirect" href="/wiki/SWEBOK" title="SWEBOK">SWEBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/PMBOK" title="PMBOK">PMBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/BABOK" title="BABOK">BABOK</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_development_process" title="Template:Software development process"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_development_process" title="Template talk:Software development process"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_development_process&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Software architecture</b> refers to the fundamental structures of a <a href="/wiki/Software_system" title="Software system">software system</a>, the discipline of creating such structures, and the documentation of these structures. These structures are needed to reason about the software system. Each structure comprises software elements, relations among them, and properties of both elements and relations,<sup class="reference" id="cite_ref-DSA2_1-0"><a href="#cite_note-DSA2-1">[1]</a></sup> along with <a href="/wiki/Design_rationale" title="Design rationale">rationale</a> for the introduction and configuration of each element. The <i>architecture</i> of a software system is a metaphor, analogous to the <a href="/wiki/Architecture" title="Architecture">architecture</a> of a building.<sup class="reference" id="cite_ref-PERRY1992_2-0"><a href="#cite_note-PERRY1992-2">[2]</a></sup></p>
+<p>Software architecture is about making fundamental structural choices which are costly to change once implemented. Software architecture choices, also called <a class="new" href="/w/index.php?title=Architectural_Decision&amp;action=edit&amp;redlink=1" title="Architectural Decision (page does not exist)">architectural decisions</a>, include specific structural options from possibilities in the design of software. For example, the systems that controlled the <a class="mw-redirect" href="/wiki/Space_shuttle" title="Space shuttle">space shuttle</a> launch vehicle had the requirement of being very fast and very reliable. Therefore, an appropriate <a href="/wiki/Real-time_computing" title="Real-time computing">real-time computing</a> language would need to be chosen. Additionally, to satisfy the need for reliability the choice could be made to have multiple redundant and independently produced copies of the program, and to run these copies on independent hardware while cross-checking results.</p>
+<p>Documenting software architecture facilitates communication between <a href="/wiki/Stakeholder_(corporate)#In_management" title="Stakeholder (corporate)">stakeholders</a>, captures decisions about the architecture design, and allows reuse of design components between projects.<sup class="reference" id="cite_ref-SAP2_3-0"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.29–35</sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Scope"><span class="tocnumber">1</span> <span class="toctext">Scope</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Characteristics"><span class="tocnumber">2</span> <span class="toctext">Characteristics</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Motivation"><span class="tocnumber">3</span> <span class="toctext">Motivation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Architecture_activities"><span class="tocnumber">5</span> <span class="toctext">Architecture activities</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Architecture_supporting_activities"><span class="tocnumber">5.1</span> <span class="toctext">Architecture supporting activities</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Software_architecture_topics"><span class="tocnumber">6</span> <span class="toctext">Software architecture topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Software_architecture_description"><span class="tocnumber">6.1</span> <span class="toctext">Software architecture description</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Architecture_description_languages"><span class="tocnumber">6.1.1</span> <span class="toctext">Architecture description languages</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Architecture_viewpoints"><span class="tocnumber">6.1.2</span> <span class="toctext">Architecture viewpoints</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Architecture_frameworks"><span class="tocnumber">6.1.3</span> <span class="toctext">Architecture frameworks</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Architecture_design_methods"><span class="tocnumber">6.2</span> <span class="toctext">Architecture design methods</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Software_architecture_and_agile_development"><span class="tocnumber">6.2.1</span> <span class="toctext">Software architecture and agile development</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Architectural_styles_and_patterns"><span class="tocnumber">6.3</span> <span class="toctext">Architectural styles and patterns</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Software_architecture_erosion"><span class="tocnumber">6.4</span> <span class="toctext">Software architecture erosion</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Software_architecture_recovery"><span class="tocnumber">6.5</span> <span class="toctext">Software architecture recovery</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Related_fields"><span class="tocnumber">7</span> <span class="toctext">Related fields</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="#Design"><span class="tocnumber">7.1</span> <span class="toctext">Design</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Requirements_Engineering"><span class="tocnumber">7.2</span> <span class="toctext">Requirements Engineering</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Other_types_of_.27architecture.27"><span class="tocnumber">7.3</span> <span class="toctext">Other types of 'architecture'</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Scope">Scope</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=1" title="Edit section: Scope">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Opinions vary as to the scope of software architectures:<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></p>
+<ul>
+<li><i>Overall, macroscopic system structure</i>;<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup> this refers to architecture as a higher level <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a> of a software system that consists of a collection of computational <i>components</i> together with <i>connectors</i> that describe the interaction between these components.</li>
+<li><i>The important stuff—whatever that is</i>;<sup class="reference" id="cite_ref-FOWL2003_6-0"><a href="#cite_note-FOWL2003-6">[6]</a></sup> this refers to the fact that software architects should concern themselves with those decisions that have high impact on the system and its stakeholders.</li>
+<li><i>That which is fundamental to understanding a system in its environment</i>;<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> in this definition, the environment is characterized by <i>stakeholder concerns</i>, technical constraints, and various dimensions of project context.<sup class="reference" id="cite_ref-TORR2014_8-0"><a href="#cite_note-TORR2014-8">[8]</a></sup></li>
+<li><i>Things that people perceive as hard to change</i>;<sup class="reference" id="cite_ref-FOWL2003_6-1"><a href="#cite_note-FOWL2003-6">[6]</a></sup> since designing the architecture often takes place at the beginning of a software system's lifecycle, the architect should focus on decisions that "have to" be right the first time. Following this line of thought, architectural design issues may become non-architectural once their irreversibility can be overcome (see "Software architecture and agile development" below).</li>
+<li><i>A set of architectural design decisions</i>;<sup class="reference" id="cite_ref-jansen05_9-0"><a href="#cite_note-jansen05-9">[9]</a></sup> software architecture should not be considered merely a set of models or structures, but should include the decisions that lead to these particular structures, and the rationale behind them (e.g., justifications, answers to "why" questions)). This insight has led to substantial research into software architecture knowledge management.<sup class="reference" id="cite_ref-AKM_10-0"><a href="#cite_note-AKM-10">[10]</a></sup></li>
+</ul>
+<p>There is no sharp distinction between software architecture versus design and requirements engineering (see <a href="#Related_fields">Related fields</a> below). They are all part of a "chain of intentionality" from high-level intentions to low-level details.<sup class="reference" id="cite_ref-FAIRBANKS2010_11-0"><a href="#cite_note-FAIRBANKS2010-11">[11]</a></sup><sup class="reference" style="white-space:nowrap;">(p18)</sup> This duality is also referred to as the "twin peaks" of software engineering.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (August 2016)">citation needed</span></a></i>]</sup></p>
+<h2><span class="mw-headline" id="Characteristics">Characteristics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=2" title="Edit section: Characteristics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Software architecture exhibits the following:</p>
+<p><b>Multitude of stakeholders:</b> software systems have to cater to a variety of stakeholders such as business managers, application owners, developers, end users and infrastructure operators. These stakeholders all have their own concerns with respect to the system. Balancing these concerns and demonstrating how they are addressed is part of designing the system.<sup class="reference" id="cite_ref-SAP2_3-1"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.29–31</sup> This implies that architecture involves dealing with a broad variety of concerns and stakeholders, and has a multidisciplinary nature. Software architect require non-technicals skills such as communication and negotiation competencies.</p>
+<p><b>Separation of concerns:</b> the established way for architects to reduce complexity is to separate the concerns that drive the design. Architecture documentation shows that all stakeholder concerns are addressed by modeling and describing the architecture from separate points of view associated with the various stakeholder concerns.<sup class="reference" id="cite_ref-ISO42010_12-0"><a href="#cite_note-ISO42010-12">[12]</a></sup> These separate descriptions are called architectural views (see for example the <a class="mw-redirect" href="/wiki/4%2B1_Architectural_View_Model" title="4+1 Architectural View Model">4+1 Architectural View Model</a>).</p>
+<p><b>Quality-driven:</b> classic <a href="/wiki/Software_design" title="Software design">software design</a> approaches (e.g. <a class="mw-redirect" href="/wiki/Jackson_Structured_Programming" title="Jackson Structured Programming">Jackson Structured Programming</a>) were driven by required functionality and the flow of data through the system, but the current insight<sup class="reference" id="cite_ref-SAP2_3-2"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.26–28</sup> is that the architecture of a software system is more closely related to its <a class="mw-redirect" href="/wiki/Quality_attributes" title="Quality attributes">quality attributes</a> such as <a class="mw-redirect" href="/wiki/Fault-tolerance" title="Fault-tolerance">fault-tolerance</a>, <a href="/wiki/Backward_compatibility" title="Backward compatibility">backward compatibility</a>, <a href="/wiki/Extensibility" title="Extensibility">extensibility</a>, <a class="mw-redirect" href="/wiki/Reliability_(engineering)" title="Reliability (engineering)">reliability</a>, <a href="/wiki/Maintainability" title="Maintainability">maintainability</a>, <a href="/wiki/Availability" title="Availability">availability</a>, security, usability, and other such –<a class="mw-redirect" href="/wiki/Ilities" title="Ilities">ilities</a>. Stakeholder concerns often translate into <a class="mw-redirect" href="/wiki/Requirements" title="Requirements">requirements</a> and constraints on these quality attributes, which are variously called <a class="mw-redirect" href="/wiki/Non-functional_requirements" title="Non-functional requirements">non-functional requirements</a>, extra-functional requirements, behavioral requirements, or quality attribute requirements.</p>
+<p><b>Recurring styles:</b> like building architecture, the software architecture discipline has developed standard ways to address recurring concerns. These "standard ways" are called by various names at various levels of abstraction. Common terms for recurring solutions are architectural style, principle,<sup class="reference" id="cite_ref-FAIRBANKS2010_11-1"><a href="#cite_note-FAIRBANKS2010-11">[11]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.273–277</sup> tactic,<sup class="reference" id="cite_ref-SAP2_3-3"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.70–72</sup> <a href="/wiki/Reference_architecture" title="Reference architecture">reference architecture</a><sup class="reference" id="cite_ref-REFARCHPRIMER_13-0"><a href="#cite_note-REFARCHPRIMER-13">[13]</a></sup><sup class="reference" id="cite_ref-REFARCHCLASS_14-0"><a href="#cite_note-REFARCHCLASS-14">[14]</a></sup> and <a href="/wiki/Architectural_pattern" title="Architectural pattern">architectural pattern</a>.<sup class="reference" id="cite_ref-SAP2_3-4"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.203–205</sup></p>
+<p><b>Conceptual integrity:</b> a term introduced by Fred Brooks in <a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a> to denote the idea that the architecture of a software system represents an overall vision of what it should do and how it should do it. This vision should be separated from its implementation. The architect assumes the role of "keeper of the vision", making sure that additions to the system are in line with the architecture, hence preserving <a href="/wiki/The_Mythical_Man-Month#Conceptual_integrity" title="The Mythical Man-Month">conceptual integrity</a>.<sup class="reference" id="cite_ref-BROOKS_15-0"><a href="#cite_note-BROOKS-15">[15]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.41–50</sup></p>
+<h2><span class="mw-headline" id="Motivation">Motivation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=3" title="Edit section: Motivation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Software architecture is an "intellectually graspable" abstraction of a complex system.<sup class="reference" id="cite_ref-SAP2_3-5"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.5–6</sup> This abstraction provides a number of benefits:</p>
+<ul>
+<li><i>It gives a basis for analysis of software systems' behavior before the system has been built.</i><sup class="reference" id="cite_ref-PERRY1992_2-1"><a href="#cite_note-PERRY1992-2">[2]</a></sup> The ability to verify that a future software system fulfills its stakeholders' needs without actually having to build it represents substantial cost-saving and risk-mitigation.<sup class="reference" id="cite_ref-SARA_16-0"><a href="#cite_note-SARA-16">[16]</a></sup> A number of techniques have been developed in academia and practice to perform such analyses, for instance <a class="mw-redirect" href="/wiki/ATAM" title="ATAM">ATAM</a>, ARID and TARA.</li>
+<li><i>It provides a basis for re-use of elements and decisions.</i><sup class="reference" id="cite_ref-PERRY1992_2-2"><a href="#cite_note-PERRY1992-2">[2]</a></sup><sup class="reference" id="cite_ref-SAP2_3-6"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:p.35</sup> A complete software architecture or parts of it, like individual architectural strategies and decisions, can be re-used across multiple systems whose stakeholders require similar quality attributes or functionality, saving design costs and mitigating the risk of design mistakes (assuming that the project contexts<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup> match).</li>
+<li><i>It supports early design decisions that impact a system's development, deployment, and maintenance life.</i><sup class="reference" id="cite_ref-SAP2_3-7"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:p.31</sup> Getting the early, high-impact decisions right is important to prevent schedule and <a href="/wiki/Cost_overrun" title="Cost overrun">budget overruns</a>. On the other hand, a principle of <a href="/wiki/Lean_software_development" title="Lean software development">lean software development</a> is to defer decisions until the last responsible moment (M. and T. Poppendieck); however, it is not always clear when the this moment for a particular subset of decisions has come.</li>
+<li><i>It facilitates communication with stakeholders, contributing to a system that better fulfills their needs.</i><sup class="reference" id="cite_ref-SAP2_3-8"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:p.29–31</sup> Communicating about complex systems from the point of view of stakeholders helps them understand the consequences of their stated requirements and the design decisions based on them. Architecture gives the ability to communicate about design decisions before the system is implemented, when they are still relatively easy to adapt.</li>
+<li><i>It helps in risk management.</i> Software architecture helps to reduce risks and chance of failure.<sup class="reference" id="cite_ref-FAIRBANKS2010_11-2"><a href="#cite_note-FAIRBANKS2010-11">[11]</a></sup><sup class="reference" style="white-space:nowrap;">(p18)</sup></li>
+<li><i>It enables cost reduction.</i> Software architecture is a means to manage risk and costs in complex IT projects.<sup class="reference" id="cite_ref-RCDA_18-0"><a href="#cite_note-RCDA-18">[18]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=4" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The comparison between software design and (civil) architecture was first drawn in the late 1960s ,<sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup> but the term <i>software architecture</i> became prevalent only in the 1990s.<sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup> The field of <a href="/wiki/Computer_science" title="Computer science">computer science</a> had encountered problems associated with complexity since its formation.<sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup> Earlier problems of complexity were solved by developers by choosing the right <a href="/wiki/Data_structure" title="Data structure">data structures</a>, developing <a href="/wiki/Algorithm" title="Algorithm">algorithms</a>, and by applying the concept of <a href="/wiki/Separation_of_concerns" title="Separation of concerns">separation of concerns</a>. Although the term "software architecture" is relatively new to the industry, the fundamental principles of the field have been applied sporadically by <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> pioneers since the mid-1980s. Early attempts to capture and explain software architecture of a system were imprecise and disorganized, often characterized by a set of box-and-line <a href="/wiki/Diagram" title="Diagram">diagrams</a>. <sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup></p>
+<p>Software architecture as a concept has its origins in the research of <a class="mw-redirect" href="/wiki/Edsger_Dijkstra" title="Edsger Dijkstra">Edsger Dijkstra</a> in 1968 and <a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a> in the early 1970s. These scientists emphasized that the structure of a software system matters and getting the structure right is critical. During the 1990s there was a concerted effort to define and codify fundamental aspects of the discipline, with research work concentrating on architectural styles (<a class="mw-redirect" href="/wiki/Patterns" title="Patterns">patterns</a>), <a href="/wiki/Architecture_description_language" title="Architecture description language">architecture description languages</a>, and <a href="/wiki/Software_documentation#Architecture.2FDesign_documentation" title="Software documentation">architecture documentation</a>.<sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup> Research institutions have played a prominent role in furthering software architecture as a discipline. For instance, <a href="/wiki/Mary_Shaw_(computer_scientist)" title="Mary Shaw (computer scientist)">Mary Shaw</a> and David Garlan of <a class="mw-redirect" href="/wiki/Carnegie_Mellon" title="Carnegie Mellon">Carnegie Mellon</a> wrote a book titled <i>Software Architecture: Perspectives on an Emerging Discipline</i> in 1996, which promoted software architecture concepts such as <a class="mw-redirect" href="/wiki/Software_component" title="Software component">components</a>, connectors, and styles.</p>
+<p><a href="/wiki/IEEE_1471" title="IEEE 1471">IEEE 1471</a>-2000, <i>Recommended Practice for Architecture Description of Software-Intensive Systems</i>, was the first formal standard in the area of software architecture. It was adopted in 2007 by ISO as <a href="/wiki/IEEE_1471" title="IEEE 1471">ISO/IEC 42010:2007</a>. In November 2011, IEEE 1471–2000 was superseded by <a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">ISO/IEC/IEEE 42010:2011</a>, <i>Systems and software engineering — Architecture description</i> (jointly published by IEEE and ISO).<sup class="reference" id="cite_ref-ISO42010_12-1"><a href="#cite_note-ISO42010-12">[12]</a></sup> While in <a href="/wiki/IEEE_1471" title="IEEE 1471">IEEE 1471</a>, software architecture was about the architecture of "software-intensive systems", defined as "any system where software contributes essential influences to the design, construction, deployment, and evolution of the system as a whole", the 2011 edition goes a step further by including the <a href="/wiki/ISO/IEC_15288" title="ISO/IEC 15288">ISO/IEC 15288</a> and <a href="/wiki/ISO/IEC_12207" title="ISO/IEC 12207">ISO/IEC 12207</a> definitions of a system, which embrace not only hardware and software, but also "humans, processes, procedures, facilities, materials and naturally occurring entities".</p>
+<h2><span class="mw-headline" id="Architecture_activities">Architecture activities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=5" title="Edit section: Architecture activities">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are many activities that a software architect performs. A software architect typically works with project managers, discusses <a href="/wiki/Architecturally_Significant_Requirements" title="Architecturally Significant Requirements">architecturally significant requirements</a> with stakeholders, designs a software architecture, evaluates a design, communicates with designers and stakeholders, documents the architectural design and more.<sup class="reference" id="cite_ref-Kruchten_2008_24-0"><a href="#cite_note-Kruchten_2008-24">[24]</a></sup> There are four core activities in software architecture design.<sup class="reference" id="cite_ref-hofmeister07_25-0"><a href="#cite_note-hofmeister07-25">[25]</a></sup> These core architecture activities are performed iteratively and at different stages of the initial software development life-cycle, as well as over the evolution of a system.</p>
+<p><b>Architectural Analysis</b> is the process of understanding the environment in which a proposed system or systems will operate and determining the requirements for the system. The input or requirements to the analysis activity can come from any number of stakeholders and include items such as:</p>
+<ul>
+<li>what the system will do when operational (the functional requirements)</li>
+<li>how well the system will perform runtime non-functional requirements such as reliability, operability, performance efficiency, security, compatibility defined in <a class="mw-redirect" href="/wiki/ISO/IEC_25010" title="ISO/IEC 25010">ISO/IEC 25010</a>:2011 standard <sup class="reference" id="cite_ref-ISO25010_26-0"><a href="#cite_note-ISO25010-26">[26]</a></sup></li>
+<li>development-time non-functional requirements such as maintainability and transferability defined in ISO 25010:2011 standard <sup class="reference" id="cite_ref-ISO25010_26-1"><a href="#cite_note-ISO25010-26">[26]</a></sup></li>
+<li>business requirements and environmental contexts of a system that may change over time, such as legal, social, financial, competitive, and technology concerns <sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup></li>
+</ul>
+<p>The outputs of the analysis activity are those requirements that have a measurable impact on a software system’s architecture, called <a href="/wiki/Architecturally_Significant_Requirements" title="Architecturally Significant Requirements">architecturally significant requirements</a>.<sup class="reference" id="cite_ref-ASR_Chen_28-0"><a href="#cite_note-ASR_Chen-28">[28]</a></sup></p>
+<p><b>Architectural Synthesis</b> or design is the process of creating an architecture. Given the <a href="/wiki/Architecturally_Significant_Requirements" title="Architecturally Significant Requirements">architecturally significant requirements</a> determined by the analysis, the current state of the design and the results of any evaluation activities, the design is created and improved. See <sup class="reference" id="cite_ref-SAP2_3-9"><a href="#cite_note-SAP2-3">[3]</a></sup><sup class="reference" style="white-space:nowrap;">:pp.311–326</sup><sup class="reference" id="cite_ref-hofmeister07_25-1"><a href="#cite_note-hofmeister07-25">[25]</a></sup> for a discussion of various techniques for improving a current design.</p>
+<p><b>Architecture Evaluation</b> is the process of determining how well the current design or a portion of it satisfies the requirements derived during analysis. An evaluation can occur whenever an architect is considering a design decision, it can occur after some portion of the design has been completed, it can occur after the final design has been completed or it can occur after the system has been constructed. Some of the available software architecture evaluation techniques include <a href="/wiki/Architecture_tradeoff_analysis_method" title="Architecture tradeoff analysis method">Architecture Tradeoff Analysis Method (ATAM)</a> and TARA.<sup class="reference" id="cite_ref-woods2012_29-0"><a href="#cite_note-woods2012-29">[29]</a></sup> Frameworks for comparing the techniques are discussed in <sup class="reference" id="cite_ref-SARA_16-1"><a href="#cite_note-SARA-16">[16]</a></sup> and.<sup class="reference" id="cite_ref-30"><a href="#cite_note-30">[30]</a></sup></p>
+<p><b>Architecture Evolution</b> is the process of maintaining and adapting an existing software architecture to meet requirement and environmental changes. As software architecture provides a fundamental structure of a software system, its evolution and maintenance would necessarily impact its fundamental structure. As such, architecture evolution is concerned with adding new functionality as well as maintaining existing functionality and system behaviour, for instance, via architectural refactoring.<sup class="reference" id="cite_ref-AR_OZ_31-0"><a href="#cite_note-AR_OZ-31">[31]</a></sup></p>
+<p>Architecture requires critical supporting activities. These supporting activities take place throughout the core software architecture process. They include knowledge management and communication, design reasoning and decision making, and documentation.</p>
+<h3><span class="mw-headline" id="Architecture_supporting_activities">Architecture supporting activities</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=6" title="Edit section: Architecture supporting activities">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Software architecture supporting activities are carried out during core software architecture activities. These supporting activities assist a software architect to carry out analysis, synthesis, evaluation and evolution. For instance, an architect has to gather knowledge, make decisions and document during the analysis phase.</p>
+<ul>
+<li><b>Knowledge Management and Communication</b> is the activity of exploring and managing knowledge that is essential to designing a software architecture. A software architect does not work in isolation. They get inputs, functional and non-functional requirements and design contexts, from various stakeholders; and provides outputs to stakeholders. Software architecture knowledge is often tacit and is retained in the heads of stakeholders. Software Architecture <a class="mw-redirect" href="/wiki/Knowledge_Management" title="Knowledge Management">Knowledge Management</a> (AKM) is about finding, communicating, and retaining knowledge. As software architecture design issues are intricate and interdependent, a knowledge gap in design reasoning can lead to incorrect software architecture design.<sup class="reference" id="cite_ref-Kruchten_2008_24-1"><a href="#cite_note-Kruchten_2008-24">[24]</a></sup><sup class="reference" id="cite_ref-SAKM_32-0"><a href="#cite_note-SAKM-32">[32]</a></sup> Examples of AKM and communication activities include searching for design patterns, prototyping, asking experienced developers and architects, evaluating the designs of similar systems, sharing knowledge with other designers and stakeholders.</li>
+<li><b>Design Reasoning and Decision Making</b> is the activity of evaluating design decisions. This activity is fundamental to all three core software architecture activities.<sup class="reference" id="cite_ref-jansen05_9-1"><a href="#cite_note-jansen05-9">[9]</a></sup><sup class="reference" id="cite_ref-tang09_33-0"><a href="#cite_note-tang09-33">[33]</a></sup> It entails gathering and associating decision contexts, formulating design decision problems, finding solution options and evaluating tradeoffs before making decisions. This process occurs at different levels of decision granularity, while evaluating significant architectural requirements and software architecture decisions, and software architecture analysis, synthesis, and evaluation. Examples of reasoning activities include understanding the impacts of a requirement or a design on quality attributes, questioning the issues that a design might cause, assessing possible solution options, and evaluating the tradeoffs between solutions.</li>
+<li><b>Documentation</b> is the activity of recording the design generated during the software architecture process. A system design is described using several views that frequently include a static view showing the code structure of the system, a dynamic view showing the actions of the system during execution, and a deployment view showing how a system is placed on hardware for execution. Kruchten's 4+1 view suggests a description of commonly used views for documenting software architecture;<sup class="reference" id="cite_ref-Kru95_34-0"><a href="#cite_note-Kru95-34">[34]</a></sup> Documenting Software Architectures: Views and Beyond has descriptions of the kinds of notations that could be used within the view description.<sup class="reference" id="cite_ref-DSA2_1-1"><a href="#cite_note-DSA2-1">[1]</a></sup> Examples of documentation activities are writing a specification, recording a system design model, documenting a design rationale, developing a viewpoint, documenting views. Software engineering methods such as the <a href="/wiki/OpenUP" title="OpenUP">OpenUP</a> and architecture design methods such as The Process of Software Architecting (P. Eeles, P. Cripps) suggest artifact (a.k.a. work product) types and templates for these documentation activities; ISO/IEC/IEEE 42010:2011 is accompanied by a documentation template as well (<a class="external free" href="http://www.iso-architecture.org/ieee-1471/templates/" rel="nofollow">http://www.iso-architecture.org/ieee-1471/templates/</a>).</li>
+</ul>
+<h2><span class="mw-headline" id="Software_architecture_topics">Software architecture topics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=7" title="Edit section: Software architecture topics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Software_architecture_description">Software architecture description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=8" title="Edit section: Software architecture description">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Software_architecture_description" title="Software architecture description">Software architecture description</a></div>
+<p>Software architecture description involves the principles and practices of modeling and representing architectures, using mechanisms such as: architecture description languages, architecture viewpoints, and architecture frameworks.</p>
+<h4><span class="mw-headline" id="Architecture_description_languages">Architecture description languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=9" title="Edit section: Architecture description languages">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Architecture_description_language" title="Architecture description language">Architecture description language</a></div>
+<p>An architecture description language (ADL) is any means of expression used to describe a software architecture (<a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">ISO/IEC/IEEE 42010</a>). Many special-purpose ADLs have been developed since the 1990s, including ArchiMate, <a class="mw-redirect" href="/wiki/Architecture_analysis_and_design_language" title="Architecture analysis and design language">AADL</a> (SAE standard), <a href="/wiki/Wright_(ADL)" title="Wright (ADL)">Wright</a> (developed by Carnegie Mellon), <a class="new" href="/w/index.php?title=Acme_(ADL)&amp;action=edit&amp;redlink=1" title="Acme (ADL) (page does not exist)">Acme</a> (developed by Carnegie Mellon), xADL (developed by UCI), <a href="/wiki/Darwin_(ADL)" title="Darwin (ADL)">Darwin</a> (developed by <a href="/wiki/Imperial_College_London" title="Imperial College London">Imperial College London</a>), DAOP-ADL (developed by University of Málaga), SBC-ADL (developed by <a class="mw-redirect" href="/wiki/National_Sun_Yat-Sen_University" title="National Sun Yat-Sen University">National Sun Yat-Sen University</a>), and <a class="new" href="/w/index.php?title=ByADL_(ADL)&amp;action=edit&amp;redlink=1" title="ByADL (ADL) (page does not exist)">ByADL</a> (University of L'Aquila, Italy).</p>
+<p>ADLs have not yet succeeded on a broad scale in practice; UML, often profiled, and Informal Rich Pictures (IPRs) a.k.a. box-and-line diagrams dominate. Usage of UML has been criticized by some thought leaders, but successes have also been reported. Simon Brown's Context, Containers, Components, Classes (C4) model is a recent adiditon to the architect's notation toolbox: <a class="external free" href="https://www.voxxed.com/blog/2014/10/simple-sketches-for-diagramming-your-software-architecture/" rel="nofollow">https://www.voxxed.com/blog/2014/10/simple-sketches-for-diagramming-your-software-architecture/</a>.</p>
+<p>According to Gregor Hohpe, architects should stop drawing diagrams, in whatever notation, and start communicating: <a class="external free" href="http://www.enterpriseintegrationpatterns.com/ramblings/94_37things.html" rel="nofollow">http://www.enterpriseintegrationpatterns.com/ramblings/94_37things.html</a>.</p>
+<h4><span class="mw-headline" id="Architecture_viewpoints">Architecture viewpoints</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=10" title="Edit section: Architecture viewpoints">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="hatnote" role="note">Main article: <a href="/wiki/View_model" title="View model">View model</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:266px;"><a class="image" href="/wiki/File:4%2B1_Architectural_View_Model.svg"><img alt="" class="thumbimage" data-file-height="464" data-file-width="708" height="173" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/4%2B1_Architectural_View_Model.svg/264px-4%2B1_Architectural_View_Model.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/4%2B1_Architectural_View_Model.svg/396px-4%2B1_Architectural_View_Model.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e6/4%2B1_Architectural_View_Model.svg/528px-4%2B1_Architectural_View_Model.svg.png 2x" width="264"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:4%2B1_Architectural_View_Model.svg" title="Enlarge"></a></div>
+<a class="mw-redirect" href="/wiki/4%2B1_Architectural_View_Model" title="4+1 Architectural View Model">4+1 Architectural View Model</a>.</div>
+</div>
+</div>
+<p>Software architecture descriptions are commonly organized into <a href="/wiki/View_model" title="View model">views</a>, which are analogous to the different types of <a href="/wiki/Blueprint" title="Blueprint">blueprints</a> made in building <a href="/wiki/Architecture" title="Architecture">architecture</a>. Each view addresses a set of system concerns, following the conventions of its <i>viewpoint</i>, where a viewpoint is a specification that describes the notations, modeling and analysis techniques to use in a view that express the architecture in question from the perspective of a given set of stakeholders and their concerns (<a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">ISO/IEC/IEEE 42010</a>). The viewpoint specifies not only the concerns framed (i.e., to be addressed) but the presentation, model kinds used, conventions used and any consistency (correspondence) rules to keep a view consistent with other views.</p>
+<p>Popular viewpoint models include the 4+1 views on software architecture, the viewpoints and perspectices catalog by Nick Rozanski and Eoin Woods, and the IBM ADS viewpoint model by Phlippe Spaas et al.</p>
+<h4><span class="mw-headline" id="Architecture_frameworks">Architecture frameworks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=11" title="Edit section: Architecture frameworks">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Architecture_framework" title="Architecture framework">Architecture framework</a></div>
+<p>An architecture framework captures the "conventions, principles and practices for the description of architectures established within a specific domain of application and/or community of stakeholders" (<a href="/wiki/ISO/IEC_42010" title="ISO/IEC 42010">ISO/IEC/IEEE 42010</a>). A framework is usually implemented in terms of one or more viewpoints or ADLs.</p>
+<h3><span class="mw-headline" id="Architecture_design_methods">Architecture design methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=12" title="Edit section: Architecture design methods">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Methods define process models (activities performed by roles) and specify artifacts to be created and delivered; they may also suggest technqiues and practices that assist practitioners when performing the activities and producing the artifacts defined in the method. Five such methods are compared and consolidated in.<sup class="reference" id="cite_ref-hofmeister07_25-2"><a href="#cite_note-hofmeister07-25">[25]</a></sup></p>
+<h4><span class="mw-headline" id="Software_architecture_and_agile_development">Software architecture and agile development</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=13" title="Edit section: Software architecture and agile development">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Agile_development" title="Agile development">Agile development</a></div>
+<p>The importance of architecture was stated in the early works on Agile; for instance, Ken Schwaber's original Scrum paper from OOPSLA '97 has the notion of a pregame, in which a high-level system architecture is established (<a class="external free" href="http://www.jeffsutherland.org/oopsla/schwapub.pdf" rel="nofollow">http://www.jeffsutherland.org/oopsla/schwapub.pdf</a>). However, there are also concerns that software architecture leads to too much <a href="/wiki/Big_Design_Up_Front" title="Big Design Up Front">Big Design Up Front</a>, especially among proponents of <a href="/wiki/Agile_software_development" title="Agile software development">Agile software development</a>. A number of methods have been developed to balance the trade-offs of up-front design and agility,<sup class="reference" id="cite_ref-Boehm2004_35-0"><a href="#cite_note-Boehm2004-35">[35]</a></sup> including the agile method <a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a> which mandates a "Foundations" phase during which "just enough" architectural foundations are laid. <a href="/wiki/IEEE_Software" title="IEEE Software">IEEE Software</a> devoted a special issue<sup class="reference" id="cite_ref-36"><a href="#cite_note-36">[36]</a></sup> to the interaction between agility and architecture. <a href="/wiki/Philippe_Kruchten" title="Philippe Kruchten">P. Kruchten</a>, one of the creators of the Unified Process (UP) and the original 4+1 views on software architecture, summarizes the synergetic relationship in a December 2013 blog post called "Agile architecture".<sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup></p>
+<h3><span class="mw-headline" id="Architectural_styles_and_patterns">Architectural styles and patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=14" title="Edit section: Architectural styles and patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a class="mw-redirect" href="/wiki/Software_Architecture_styles_and_patterns" title="Software Architecture styles and patterns">Software Architecture styles and patterns</a></div>
+<p>An <a href="/wiki/Architectural_pattern" title="Architectural pattern">architectural pattern</a> is a general, reusable solution to a commonly occurring problem in software architecture within a given context. Architectural patterns are often documented as software <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">design patterns</a>.</p>
+<p>Following traditional building architecture, a 'software architectural style' is a specific method of construction, characterized by the features that make it notable" (<a href="/wiki/Architectural_style" title="Architectural style">Architectural style</a>). "An architectural style defines: a family of systems in terms of a pattern of structural organization; a vocabulary of components and connectors, with constraints on how they can be combined."<sup class="reference" id="cite_ref-SG_38-0"><a href="#cite_note-SG-38">[38]</a></sup> "Architectural styles are reusable 'packages' of design decisions and constraints that are applied to an architecture to induce chosen desirable qualities."<sup class="reference" id="cite_ref-39"><a href="#cite_note-39">[39]</a></sup></p>
+<p>There are many recognized architectural patterns and styles, among them:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_(computing)" title="Blackboard (computing)">Blackboard</a></li>
+<li><a href="/wiki/Client%E2%80%93server_model" title="Client–server model">Client-server</a> (2-tier, <a class="mw-redirect" href="/wiki/Three-tier_(computing)" title="Three-tier (computing)">3-tier</a>, <a class="mw-redirect" href="/wiki/N-tier" title="N-tier">n-tier</a>, <a href="/wiki/Cloud_computing" title="Cloud computing">cloud computing</a> exhibit this style)</li>
+<li><a class="mw-redirect" href="/wiki/Software_componentry" title="Software componentry">Component-based</a></li>
+<li><a href="/wiki/Database-centric_architecture" title="Database-centric architecture">Data-centric</a></li>
+<li><a href="/wiki/Event-driven_architecture" title="Event-driven architecture">Event-driven</a> (or <a href="/wiki/Implicit_invocation" title="Implicit invocation">Implicit invocation</a>)</li>
+<li><a class="mw-redirect" href="/wiki/Abstraction_(computer_science)#Layered_architecture" title="Abstraction (computer science)">Layered</a> (or <a href="/wiki/Multilayered_architecture" title="Multilayered architecture">Multilayered architecture</a>)</li>
+<li><a href="/wiki/Monolithic_application" title="Monolithic application">Monolithic application</a></li>
+<li><a href="/wiki/Peer-to-peer" title="Peer-to-peer">Peer-to-peer</a> (P2P)</li>
+<li><a class="mw-redirect" href="/wiki/Pipes_and_filters" title="Pipes and filters">Pipes and filters</a></li>
+<li><a href="/wiki/Plug-in_(computing)" title="Plug-in (computing)">Plug-ins</a></li>
+<li><a href="/wiki/Representational_state_transfer" title="Representational state transfer">Representational state transfer</a> (REST)</li>
+<li><a href="/wiki/Rule-based_system" title="Rule-based system">Rule-based</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service-oriented architecture</a> and <a href="/wiki/Microservices" title="Microservices">microservices</a> as its implementation approach</li>
+<li><a href="/wiki/Shared_nothing_architecture" title="Shared nothing architecture">Shared nothing architecture</a></li>
+<li><a href="/wiki/Space-based_architecture" title="Space-based architecture">Space-based architecture</a></li>
+</ul>
+<p>Some software architects treat architectural patterns and architectural styles as the same,<sup class="reference" id="cite_ref-MSDN_40-0"><a href="#cite_note-MSDN-40">[40]</a></sup> Others treat styles as compositions of patterns combined with architectural principles that jointly address a particular <i>intent</i>. These two positions have in common that both patterns and styles are idioms for architects to use; they "provide a common language"<sup class="reference" id="cite_ref-MSDN_40-1"><a href="#cite_note-MSDN-40">[40]</a></sup> or "vocabulary"<sup class="reference" id="cite_ref-SG_38-1"><a href="#cite_note-SG-38">[38]</a></sup> with which to describe classes of systems.</p>
+<h3><span class="mw-headline" id="Software_architecture_erosion">Software architecture erosion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=15" title="Edit section: Software architecture erosion">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Software architecture erosion (or "decay") refers to the gap observed between the planned and actual architecture of a software system as realized in its implementation.<sup class="reference" id="cite_ref-41"><a href="#cite_note-41">[41]</a></sup> Software architecture erosion occurs when implementation decisions either do not fully achieve the architecture-as-planned or otherwise violate constraints or principles of that architecture.<sup class="reference" id="cite_ref-PERRY1992_2-3"><a href="#cite_note-PERRY1992-2">[2]</a></sup> The gap between planned and actual architectures is sometimes understood in terms of the notion of <a href="/wiki/Technical_debt" title="Technical debt">technical debt</a>.</p>
+<p>As an example, consider a strictly <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)#Layered_architecture" title="Abstraction (computer science)">layered</a> system, where each layer can only use services provided by the layer immediately below it. Any source code component that does not observe this constraint represents an architecture violation. If not corrected, such violations can transform the architecture into a monolithic block, with adverse effects on understandability, maintainability, and evolvability.</p>
+<p>Various approaches have been proposed to address erosion. "These approaches, which include tools, techniques and processes, are primarily classified into three generic categories that attempt to minimise, prevent and repair architecture erosion. Within these broad categories, each approach is further broken down reflecting the high-level strategies adopted to tackle erosion. These are: process-oriented architecture conformance, architecture evolution management, architecture design enforcement, architecture to implementation linkage, self-adaptation and architecture restoration techniques consisting of recovery, discovery and reconciliation."<sup class="reference" id="cite_ref-42"><a href="#cite_note-42">[42]</a></sup></p>
+<p>There are two major techniques to detect architectural violations: reflexion models and domain-specific languages. Reflexion model (RM) techniques compare a high-level model provided by the system's architects with the source code implementation. Examples of commercial RM-based tools include the <a class="external text" href="http://www.axivion.com" rel="nofollow">Bauhaus Suite</a> (developed by Axivion), <a class="external text" href="http://www.iese.fraunhofer.de/en/competencies/architecture/tools_architecture.html#contentPar_textblockwithpics" rel="nofollow">SAVE</a> (developed by Fraunhofer IESE) and <a class="external text" href="http://structure101.com/" rel="nofollow">Structure-101</a> (developed by Headway Software). There are also <a href="/wiki/Domain-specific_language" title="Domain-specific language">domain-specific languages</a> with focus on specifying and checking architectural constraints, including .QL (developed by Semmle Limited) and <a class="external text" href="http://aserg.labsoft.dcc.ufmg.br/dclsuite/" rel="nofollow">DCL</a> (from Federal University of Minas Gerais).</p>
+<h3><span class="mw-headline" id="Software_architecture_recovery">Software architecture recovery</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=16" title="Edit section: Software architecture recovery">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Software_architecture_recovery" title="Software architecture recovery">Software architecture recovery</a></div>
+<p>Software architecture recovery (or reconstruction, or <a href="/wiki/Reverse_engineering" title="Reverse engineering">reverse engineering</a>) includes the methods, techniques and processes to uncover a software system's architecture from available information, including its implementation and documentation. Architecture recovery is often necessary to make informed decisions in the face of obsolete or out-of-date documentation and <a href="/wiki/Software_architecture#Software_architecture_erosion" title="Software architecture">architecture erosion</a>: implementation and maintenance decisions diverging from the envisioned architecture.<sup class="reference" id="cite_ref-43"><a href="#cite_note-43">[43]</a></sup></p>
+<h2><span class="mw-headline" id="Related_fields">Related fields</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=17" title="Edit section: Related fields">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Design">Design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=18" title="Edit section: Design">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Software_design" title="Software design">Software design</a></div>
+<p>Architecture is <a href="/wiki/Software_design" title="Software design">design</a> but not all design is architectural.<sup class="reference" id="cite_ref-DSA2_1-2"><a href="#cite_note-DSA2-1">[1]</a></sup> In practice, the architect is the one who draws the line between software architecture (architectural design) and detailed design (non-architectural design). There are no rules or guidelines that fit all cases, although there have been attempts to formalize the distinction. According to the <i>Intension/Locality Hypothesis</i>,<sup class="reference" id="cite_ref-edenkazman_44-0"><a href="#cite_note-edenkazman-44">[44]</a></sup> the distinction between architectural and detailed design is defined by the <i>Locality Criterion</i>,<sup class="reference" id="cite_ref-edenkazman_44-1"><a href="#cite_note-edenkazman-44">[44]</a></sup> according to which a statement about software design is non-local (architectural) if and only if a program that satisfies it can be expanded into a program that does not. For example, the <a class="mw-redirect" href="/wiki/Client%E2%80%93server" title="Client–server">client–server</a> style is architectural (strategic) because a program that is built on this principle can be expanded into a program that is not client–server—for example, by adding <a href="/wiki/Peer-to-peer" title="Peer-to-peer">peer-to-peer</a> nodes.</p>
+<h3><span class="mw-headline" id="Requirements_Engineering">Requirements Engineering</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=19" title="Edit section: Requirements Engineering">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></div>
+<p><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a> and software architecture can be seen as complementary approaches: while software architecture targets the '<a class="mw-redirect" href="/wiki/Solution_space" title="Solution space">solution space</a>' or the 'how', requirements engineering addresses the '<a class="mw-redirect" href="/wiki/Problem" title="Problem">problem space</a>' or the 'what'.<sup class="reference" id="cite_ref-shekaran94_45-0"><a href="#cite_note-shekaran94-45">[45]</a></sup> Requirements engineering entails the <a href="/wiki/Requirements_elicitation" title="Requirements elicitation">elicitation</a>, <a href="/wiki/Requirements_analysis" title="Requirements analysis">negotiation</a>, <a class="mw-redirect" href="/wiki/Software_Requirements_Specification" title="Software Requirements Specification">specification</a>, <a href="/wiki/Data_validation" title="Data validation">validation</a>, <a href="/wiki/Requirements_traceability" title="Requirements traceability">documentation</a> and <a href="/wiki/Requirements_management" title="Requirements management">management</a> of <a href="/wiki/Requirement" title="Requirement">requirements</a>. Both requirements engineering and software architecture revolve around <a href="/wiki/Stakeholder_(corporate)" title="Stakeholder (corporate)">stakeholder</a> concerns, needs and wishes.</p>
+<p>There is considerable overlap between requirements engineering and software architecture, as evidenced for example by a study into five industrial software architecture methods that concludes that <i>"the inputs (goals, constrains, etc.) are usually ill-defined, and only get discovered or better understood as the architecture starts to emerge"</i> and that while <i>"most architectural concerns are expressed as requirements on the system, they can also include mandated design decisions"</i>.<sup class="reference" id="cite_ref-hofmeister07_25-3"><a href="#cite_note-hofmeister07-25">[25]</a></sup> In short, the choice of required behavior given a particular problem impacts the architecture of the solution that addresses that problem, while at the same time the architectural design may impact the problem and introduce new requirements.<sup class="reference" id="cite_ref-boer09_46-0"><a href="#cite_note-boer09-46">[46]</a></sup> Approaches such as the Twin Peaks model <sup class="reference" id="cite_ref-twinpeaks_47-0"><a href="#cite_note-twinpeaks-47">[47]</a></sup> aim to exploit the <a href="/wiki/Synergy" title="Synergy">synergistic</a> relation between requirements and architecture.</p>
+<h3><span class="mw-headline" id="Other_types_of_.27architecture.27">Other types of 'architecture'</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=20" title="Edit section: Other types of 'architecture'">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main articles: <a href="/wiki/Computer_architecture" title="Computer architecture">Computer architecture</a>, <a href="/wiki/Systems_architecture" title="Systems architecture">Systems architecture</a>, and <a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></div>
+<dl>
+<dt>Computer architecture</dt>
+<dd><a href="/wiki/Computer_architecture" title="Computer architecture">Computer architecture</a> targets the internal structure of a computer system, in terms of collaborating hardware components such as the <a href="/wiki/Central_processing_unit" title="Central processing unit">CPU</a> – or processor – the <a href="/wiki/Bus_(computing)" title="Bus (computing)">bus</a> and the <a href="/wiki/Computer_memory" title="Computer memory">memory</a>.</dd>
+</dl>
+<dl>
+<dt>Systems architecture</dt>
+<dd>The term <a href="/wiki/Systems_architecture" title="Systems architecture">systems architecture</a> has originally been applied to the architecture of <a href="/wiki/System" title="System">systems</a> that consists of both hardware and <a href="/wiki/Software" title="Software">software</a>. The main concern addressed by the systems architecture, also known as IT architecture, is then the integration of software and hardware in a complete, correctly working device. In another common – much broader – meaning, the term applies to the architecture of any complex system which may be of technical, <a href="/wiki/Sociotechnical_system" title="Sociotechnical system">sociotechnical</a> or social nature.</dd>
+</dl>
+<dl>
+<dt>Enterprise architecture</dt>
+<dd>The goal of <a href="/wiki/Enterprise_architecture" title="Enterprise architecture">enterprise architecture</a> is to "translate business vision and strategy into effective enterprise".<sup class="reference" id="cite_ref-48"><a href="#cite_note-48">[48]</a></sup> Enterprise architecture <a href="/wiki/Architecture_framework" title="Architecture framework">frameworks</a>, such as <a class="mw-redirect" href="/wiki/TOGAF" title="TOGAF">TOGAF</a> and the <a href="/wiki/Zachman_Framework" title="Zachman Framework">Zachman Framework</a>, usually distinguish between different enterprise architecture layers. Although terminology differs from framework to framework, many include at least a distinction between a <i><a href="/wiki/Business" title="Business">business</a> layer</i>, an <i><a href="/wiki/Application_software" title="Application software">application</a></i> (or <i><a href="/wiki/Information" title="Information">information</a></i>) <i>layer</i>, and a <i><a href="/wiki/Technology" title="Technology">technology</a> layer</i>. Enterprise architecture addresses among others the alignment between these layers, usually in a top-down approach. Continuing the building architecture metaphor for software architecture, enterprise architecture is analogous to city-level planning.</dd>
+</dl>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=21" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Architectural_pattern_(computer_science)" title="Architectural pattern (computer science)">Architectural pattern (computer science)</a></li>
+<li><a href="/wiki/Architecturally_Significant_Requirements" title="Architecturally Significant Requirements">Architecturally Significant Requirements</a></li>
+<li><a href="/wiki/Attribute-driven_design" title="Attribute-driven design">Attribute-driven design</a></li>
+<li><a href="/wiki/Computer_architecture" title="Computer architecture">Computer architecture</a></li>
+<li><a href="/wiki/OpenUP" title="OpenUP">OpenUP</a></li>
+<li><a href="/wiki/Solution_architecture" title="Solution architecture">Solution architecture</a></li>
+<li><a href="/wiki/Systems_architecture" title="Systems architecture">Systems architecture</a></li>
+<li><a href="/wiki/Systems_design" title="Systems design">Systems design</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_Architecture_Analysis_Method" title="Software Architecture Analysis Method">Software Architecture Analysis Method</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=22" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-DSA2-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-DSA2_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-DSA2_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-DSA2_1-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Clements, Paul; Felix Bachmann; <a href="/wiki/Len_Bass" title="Len Bass">Len Bass</a>; David Garlan; James Ivers; Reed Little; Paulo Merson; Robert Nord; Judith Stafford (2010). <i>Documenting Software Architectures: Views and Beyond, Second Edition</i>. Boston: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-55268-7" title="Special:BookSources/0-321-55268-7">0-321-55268-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=David+Garlan&amp;rft.au=Felix+Bachmann&amp;rft.aufirst=Paul&amp;rft.au=James+Ivers&amp;rft.au=Judith+Stafford&amp;rft.aulast=Clements&amp;rft.au=Len+Bass&amp;rft.au=Paulo+Merson&amp;rft.au=Reed+Little&amp;rft.au=Robert+Nord&amp;rft.btitle=Documenting+Software+Architectures%3A+Views+and+Beyond%2C+Second+Edition&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=0-321-55268-7&amp;rft.place=Boston&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-PERRY1992-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-PERRY1992_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-PERRY1992_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-PERRY1992_2-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-PERRY1992_2-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Perry, D. E.; <a href="/wiki/Alexander_L._Wolf" title="Alexander L. Wolf">Wolf, A. L.</a> (1992). <a class="external text" href="http://users.ece.utexas.edu/~perry/work/papers/swa-sen.pdf" rel="nofollow">"Foundations for the study of software architecture"</a> <span style="font-size:85%;">(PDF)</span>. <i><a class="mw-redirect" href="/wiki/ACM_SIGSOFT_Software_Engineering_Notes" title="ACM SIGSOFT Software Engineering Notes">ACM SIGSOFT Software Engineering Notes</a></i>. <b>17</b> (4): 40. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F141874.141884" rel="nofollow">10.1145/141874.141884</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Foundations+for+the+study+of+software+architecture&amp;rft.aufirst=D.+E.&amp;rft.aulast=Perry&amp;rft.au=Wolf%2C+A.+L.&amp;rft.date=1992&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fusers.ece.utexas.edu%2F~perry%2Fwork%2Fpapers%2Fswa-sen.pdf&amp;rft_id=info%3Adoi%2F10.1145%2F141874.141884&amp;rft.issue=4&amp;rft.jtitle=ACM+SIGSOFT+Software+Engineering+Notes&amp;rft.pages=40&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=17"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-SAP2-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-SAP2_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SAP2_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-SAP2_3-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-SAP2_3-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-SAP2_3-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-SAP2_3-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-SAP2_3-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-SAP2_3-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-SAP2_3-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-SAP2_3-9"><sup><i><b>j</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Bass, Len; Paul Clements; Rick Kazman (2012). <i>Software Architecture In Practice, Third Edition</i>. Boston: Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-321-81573-6" title="Special:BookSources/978-0-321-81573-6">978-0-321-81573-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.aufirst=Len&amp;rft.aulast=Bass&amp;rft.au=Paul+Clements&amp;rft.au=Rick+Kazman&amp;rft.btitle=Software+Architecture+In+Practice%2C+Third+Edition&amp;rft.date=2012&amp;rft.genre=book&amp;rft.isbn=978-0-321-81573-6&amp;rft.place=Boston&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">SEI (2006). <a class="external text" href="http://www.sei.cmu.edu/architecture/start/glossary/definition-form.cfm" rel="nofollow">"How do you define Software Architecture?"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-09-12</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=SEI&amp;rft.btitle=How+do+you+define+Software+Architecture%3F&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.sei.cmu.edu%2Farchitecture%2Fstart%2Fglossary%2Fdefinition-form.cfm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web">Garlan &amp; Shaw (1994). <a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/able/ftp/intro_softarch/intro_softarch.pdf" rel="nofollow">"An Introduction to Software Architecture"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-09-13</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Garlan+%26+Shaw&amp;rft.btitle=An+Introduction+to+Software+Architecture&amp;rft.date=1994&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.cmu.edu%2Fafs%2Fcs%2Fproject%2Fable%2Fftp%2Fintro_softarch%2Fintro_softarch.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-FOWL2003-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOWL2003_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOWL2003_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Fowler, M. (2003). "Design – Who needs an architect?". <i>IEEE Software</i>. <b>20</b> (5): 11–44. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2003.1231144" rel="nofollow">10.1109/MS.2003.1231144</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Design+%93+Who+needs+an+architect%3F&amp;rft.aufirst=M.&amp;rft.aulast=Fowler&amp;rft.date=2003&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2003.1231144&amp;rft.issue=5&amp;rft.jtitle=IEEE+Software&amp;rft.pages=11-44&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=20"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.iso-architecture.org/42010/defining-architecture.html" rel="nofollow">ISO/IEC/IEEE 42010: Defining "architecture"</a>. Iso-architecture.org. Retrieved on 2013-07-21.</span></li>
+<li id="cite_note-TORR2014-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-TORR2014_8-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Torres, F. (2015). "Design – Context is King - What's Your Software's Operating Range?". <i>IEEE Software</i>. <b>32</b> (5): 9–12. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2015.121" rel="nofollow">10.1109/MS.2015.121</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Design+%93+Context+is+King+-+What%27s+Your+Software%27s+Operating+Range%3F&amp;rft.aufirst=F.&amp;rft.aulast=Torres&amp;rft.date=2015&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2015.121&amp;rft.issue=5&amp;rft.jtitle=IEEE+Software&amp;rft.pages=9-12&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=32"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-jansen05-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-jansen05_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-jansen05_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Jansen, A.; Bosch, J. (2005). "Software Architecture as a Set of Architectural Design Decisions". <i>5th Working IEEE/IFIP Conference on Software Architecture (WICSA'05)</i>. p. 109. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FWICSA.2005.61" rel="nofollow">10.1109/WICSA.2005.61</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-7695-2548-2" title="Special:BookSources/0-7695-2548-2">0-7695-2548-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Software+Architecture+as+a+Set+of+Architectural+Design+Decisions&amp;rft.au=Bosch%2C+J.&amp;rft.aufirst=A.&amp;rft.aulast=Jansen&amp;rft.btitle=5th+Working+IEEE%2FIFIP+Conference+on+Software+Architecture+%28WICSA%2705%29&amp;rft.date=2005&amp;rft.genre=bookitem&amp;rft_id=info%3Adoi%2F10.1109%2FWICSA.2005.61&amp;rft.isbn=0-7695-2548-2&amp;rft.pages=109&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-AKM-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-AKM_10-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Ali Babar, Muhammad; Dingsoyr, Torgeir; Lago, Patricia; van Vliet, Hans (2009). <i>Software Architecture Knowledge Management</i>. Dordrecht Heidelberg London New York: Springer. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-642-02373-6" title="Special:BookSources/978-3-642-02373-6">978-3-642-02373-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Dingsoyr%2C+Torgeir&amp;rft.aufirst=Muhammad&amp;rft.au=Lago%2C+Patricia&amp;rft.aulast=Ali+Babar&amp;rft.au=van+Vliet%2C+Hans&amp;rft.btitle=Software+Architecture+Knowledge+Management&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=978-3-642-02373-6&amp;rft.place=Dordrecht+Heidelberg+London+New+York&amp;rft.pub=Springer&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-FAIRBANKS2010-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-FAIRBANKS2010_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FAIRBANKS2010_11-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-FAIRBANKS2010_11-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">George Fairbanks (2010). <i>Just Enough Software Architecture</i>. Marshall &amp; Brainerd.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=George+Fairbanks&amp;rft.btitle=Just+Enough+Software+Architecture&amp;rft.date=2010&amp;rft.genre=book&amp;rft.pub=Marshall+%26+Brainerd&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-ISO42010-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-ISO42010_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ISO42010_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">ISO/IEC/IEEE (2011). <a class="external text" href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=50508" rel="nofollow">"ISO/IEC/IEEE 42010:2011 Systems and software engineering – Architecture description"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-09-12</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=ISO%2FIEC%2FIEEE&amp;rft.btitle=ISO%2FIEC%2FIEEE+42010%3A2011+Systems+and+software+engineering+%93+Architecture+description&amp;rft.date=2011&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.iso.org%2Fiso%2Fcatalogue_detail.htm%3Fcsnumber%3D50508&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-REFARCHPRIMER-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-REFARCHPRIMER_13-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Muller, Gerrit (August 20, 2007). <a class="external text" href="http://www.gaudisite.nl/ReferenceArchitecturePrimerPaper.pdf" rel="nofollow">"A Reference Architecture Primer"</a> <span style="font-size:85%;">(PDF)</span>. <i>Gaudi site</i><span class="reference-accessdate">. Retrieved <span class="nowrap">November 13,</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=A+Reference+Architecture+Primer&amp;rft.aufirst=Gerrit&amp;rft.aulast=Muller&amp;rft.date=2007-08-20&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.gaudisite.nl%2FReferenceArchitecturePrimerPaper.pdf&amp;rft.jtitle=Gaudi+site&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-REFARCHCLASS-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-REFARCHCLASS_14-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Angelov, Samuil; Grefen, Paul; Greefhorst, Danny. <a class="external text" href="http://dx.doi.org/10.1109/WICSA.2009.5290800" rel="nofollow">"A Classification of Software Reference Architectures: Analyzing Their Success and Effectiveness"</a>. <i>Proc. of WICSA/ECSA 2009</i>. IEEE: 141–150. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FWICSA.2009.5290800" rel="nofollow">10.1109/WICSA.2009.5290800</a><span class="reference-accessdate">. Retrieved <span class="nowrap">13 November</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=A+Classification+of+Software+Reference+Architectures%3A+Analyzing+Their+Success+and+Effectiveness&amp;rft.aufirst=Samuil&amp;rft.au=Greefhorst%2C+Danny&amp;rft.au=Grefen%2C+Paul&amp;rft.aulast=Angelov&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fdx.doi.org%2F10.1109%2FWICSA.2009.5290800&amp;rft_id=info%3Adoi%2F10.1109%2FWICSA.2009.5290800&amp;rft.jtitle=Proc.+of+WICSA%2FECSA+2009&amp;rft.pages=141-150&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-BROOKS-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-BROOKS_15-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Brooks, Jr., Frederick P. (1975). <i><a href="/wiki/The_Mythical_Man-Month" title="The Mythical Man-Month">The Mythical Man-Month</a> - Essays on Software Engineering</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-00650-2" title="Special:BookSources/0-201-00650-2">0-201-00650-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.aufirst=Frederick+P.&amp;rft.aulast=Brooks%2C+Jr.&amp;rft.btitle=The+Mythical+Man-Month+-+Essays+on+Software+Engineering&amp;rft.date=1975&amp;rft.genre=book&amp;rft.isbn=0-201-00650-2&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-SARA-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-SARA_16-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SARA_16-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Obbink, H.; Kruchten, P.; Kozaczynski, W.; Postema, H.; Ran, A.; Dominick, L.; Kazman, R.; Hilliard, R.; Tracz, W.; Kahane, E. (Feb 6, 2002). <a class="external text" href="https://pkruchten.files.wordpress.com/2011/09/sarav1.pdf" rel="nofollow">"Software Architecture Review and Assessment (SARA) Report"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">November 1,</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Dominick%2C+L.&amp;rft.aufirst=H.&amp;rft.au=Hilliard%2C+R.&amp;rft.au=Kahane%2C+E.&amp;rft.au=Kazman%2C+R.&amp;rft.au=Kozaczynski%2C+W.&amp;rft.au=Kruchten%2C+P.&amp;rft.aulast=Obbink&amp;rft.au=Postema%2C+H.&amp;rft.au=Ran%2C+A.&amp;rft.au=Tracz%2C+W.&amp;rft.btitle=Software+Architecture+Review+and+Assessment+%28SARA%29+Report&amp;rft.date=2002-02-06&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fpkruchten.files.wordpress.com%2F2011%2F09%2Fsarav1.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a class="external free" href="https://philippe.kruchten.com/2011/02/10/the-frog-and-the-octopus-go-to-snowbird/" rel="nofollow">https://philippe.kruchten.com/2011/02/10/the-frog-and-the-octopus-go-to-snowbird/</a></span></li>
+<li id="cite_note-RCDA-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-RCDA_18-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Poort, Eltjo; van Vliet, Hans (September 2012). "RCDA: Architecting as a risk- and cost management discipline". <i>The Journal of Systems and Software</i>. Elsevier. <b>85</b> (9): 1995–2013. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2Fj.jss.2012.03.071" rel="nofollow">10.1016/j.jss.2012.03.071</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=RCDA%3A+Architecting+as+a+risk-+and+cost+management+discipline&amp;rft.aufirst=Eltjo&amp;rft.aulast=Poort&amp;rft.au=van+Vliet%2C+Hans&amp;rft.date=2012-09&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.jss.2012.03.071&amp;rft.issue=9&amp;rft.jtitle=The+Journal+of+Systems+and+Software&amp;rft.pages=1995-2013&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=85"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite class="citation web"><a href="/wiki/Peter_Naur" title="Peter Naur">Naur, Peter</a>; <a href="/wiki/Brian_Randell" title="Brian Randell">Randell, Brian</a>, eds. (1969). <a class="external text" href="http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF" rel="nofollow">"Software Engineering: Report of a conference sponsored by the NATO Science Committee, Garmisch, Germany, 7–11 Oct. 1968."</a> <span style="font-size:85%;">(PDF)</span>. Brussels: NATO, Scientific Affairs Division,<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-11-16</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.btitle=Software+Engineering%3A+Report+of+a+conference+sponsored+by+the+NATO+Science+Committee%2C+Garmisch%2C+Germany%2C+7%9311+Oct.+1968.&amp;rft.date=1969&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fhomepages.cs.ncl.ac.uk%2Fbrian.randell%2FNATO%2Fnato1968.PDF&amp;rft.place=Brussels&amp;rft.pub=NATO%2C+Scientific+Affairs+Division%2C&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web">P. Kruchten, H. Obbink &amp; J. Stafford (2006). <a class="external text" href="http://dx.doi.org/10.1109/MS.2006.59" rel="nofollow">"The past, present and future of software architecture"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-11-12</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=J.+Stafford&amp;rft.au=P.+Kruchten%2C+H.+Obbink&amp;rft.btitle=The+past%2C+present+and+future+of+software+architecture&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdx.doi.org%2F10.1109%2FMS.2006.59&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web">University of Waterloo (2006). <a class="external text" href="http://www.cs.uwaterloo.ca/~shallit/Courses/134/history.html" rel="nofollow">"A Very Brief History of Computer Science"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2006-09-23</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=University+of+Waterloo&amp;rft.btitle=A+Very+Brief+History+of+Computer+Science&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.uwaterloo.ca%2F~shallit%2FCourses%2F134%2Fhistory.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web">IEEE Transactions on Software Engineering (2006). <a class="external text" href="http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/trans/ts/&amp;toc=comp/trans/ts/1995/04/e4toc.xml&amp;DOI=10.1109/TSE.1995.10003" rel="nofollow">"Introduction to the Special Issue on Software Architecture"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2006-09-23</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=IEEE+Transactions+on+Software+Engineering&amp;rft.btitle=Introduction+to+the+Special+Issue+on+Software+Architecture&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fcsdl2.computer.org%2Fpersagen%2FDLAbsToc.jsp%3FresourcePath%3D%2Fdl%2Ftrans%2Fts%2F%26toc%3Dcomp%2Ftrans%2Fts%2F1995%2F04%2Fe4toc.xml%26DOI%3D10.1109%2FTSE.1995.10003&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web">Garlan &amp; Shaw (1994). <a class="external text" href="http://www.cs.cmu.edu/afs/cs/project/able/ftp/intro_softarch/intro_softarch.pdf" rel="nofollow">"An Introduction to Software Architecture"</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2006-09-25</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Garlan+%26+Shaw&amp;rft.btitle=An+Introduction+to+Software+Architecture&amp;rft.date=1994&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.cmu.edu%2Fafs%2Fcs%2Fproject%2Fable%2Fftp%2Fintro_softarch%2Fintro_softarch.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Kruchten_2008-24"><span class="mw-cite-backlink">^ <a href="#cite_ref-Kruchten_2008_24-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Kruchten_2008_24-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal">Kruchten, P. (2008). "What do software architects really do?". <i>Journal of Systems and Software</i>. <b>81</b> (12): 2413–2416. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2Fj.jss.2008.08.025" rel="nofollow">10.1016/j.jss.2008.08.025</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=What+do+software+architects+really+do%3F&amp;rft.aufirst=P.&amp;rft.aulast=Kruchten&amp;rft.date=2008&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.jss.2008.08.025&amp;rft.issue=12&amp;rft.jtitle=Journal+of+Systems+and+Software&amp;rft.pages=2413-2416&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=81"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-hofmeister07-25"><span class="mw-cite-backlink">^ <a href="#cite_ref-hofmeister07_25-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-hofmeister07_25-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-hofmeister07_25-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-hofmeister07_25-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Christine Hofmeister; Philippe Kruchten; Robert L. Nord; Henk Obbink; Alexander Ran; Pierre America (2007). <a class="external text" href="http://dl.acm.org/citation.cfm?id=1222045" rel="nofollow">"A general model of software architecture design derived from five industrial approaches"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Alexander+Ran&amp;rft.au=Christine+Hofmeister&amp;rft.au=Henk+Obbink&amp;rft.au=Philippe+Kruchten&amp;rft.au=Pierre+America&amp;rft.au=Robert+L.+Nord&amp;rft.btitle=A+general+model+of+software+architecture+design+derived+from+five+industrial+approaches&amp;rft.date=2007&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D1222045&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-ISO25010-26"><span class="mw-cite-backlink">^ <a href="#cite_ref-ISO25010_26-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ISO25010_26-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">ISO/IEC (2011). <a class="external text" href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=35733" rel="nofollow">"ISO/IEC 25010:2011 Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-10-08</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=ISO%2FIEC&amp;rft.btitle=ISO%2FIEC+25010%3A2011+Systems+and+software+engineering+%93+Systems+and+software+Quality+Requirements+and+Evaluation+%28SQuaRE%29+%93+System+and+software+quality+models&amp;rft.date=2011&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.iso.org%2Fiso%2Fiso_catalogue%2Fcatalogue_tc%2Fcatalogue_detail.htm%3Fcsnumber%3D35733&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation journal">Osterwalder and Pigneur (2004). "An Ontology for e-Business Models": 65–97.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=An+Ontology+for+e-Business+Models&amp;rft.au=Osterwalder+and+Pigneur&amp;rft.date=2004&amp;rft.genre=article&amp;rft.pages=65-97&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-ASR_Chen-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-ASR_Chen_28-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Chen, Lianping; Ali Babar, Muhammad; Nuseibeh, Bashar (2013). <a class="external text" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6365165" rel="nofollow">"Characterizing Architecturally Significant Requirements"</a>. <i>IEEE Software</i>. <b>30</b> (2): 38–45. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2012.174" rel="nofollow">10.1109/MS.2012.174</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Characterizing+Architecturally+Significant+Requirements&amp;rft.au=Ali+Babar%2C+Muhammad&amp;rft.aufirst=Lianping&amp;rft.aulast=Chen&amp;rft.au=Nuseibeh%2C+Bashar&amp;rft.date=2013&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fxpl%2FarticleDetails.jsp%3Farnumber%3D6365165&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2012.174&amp;rft.issue=2&amp;rft.jtitle=IEEE+Software&amp;rft.pages=38-45&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=30"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-woods2012-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-woods2012_29-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Woods, E. (2012). "Industrial architectural assessment using TARA". <i>Journal of Systems and Software</i>. <b>85</b> (9): 2034–2047. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1016%2Fj.jss.2012.04.055" rel="nofollow">10.1016/j.jss.2012.04.055</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Industrial+architectural+assessment+using+TARA&amp;rft.aufirst=E.&amp;rft.aulast=Woods&amp;rft.date=2012&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.jss.2012.04.055&amp;rft.issue=9&amp;rft.jtitle=Journal+of+Systems+and+Software&amp;rft.pages=2034-2047&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=85"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><cite class="citation journal">Maranzano, J. F.; Rozsypal, S. A.; Zimmerman, G. H.; Warnken, G. W.; Wirth, P. E.; Weiss, D. M. (2005). "Architecture Reviews: Practice and Experience". <i>IEEE Software</i>. <b>22</b> (2): 34. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2005.28" rel="nofollow">10.1109/MS.2005.28</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Architecture+Reviews%3A+Practice+and+Experience&amp;rft.aufirst=J.+F.&amp;rft.aulast=Maranzano&amp;rft.au=Rozsypal%2C+S.+A.&amp;rft.au=Warnken%2C+G.+W.&amp;rft.au=Weiss%2C+D.+M.&amp;rft.au=Wirth%2C+P.+E.&amp;rft.au=Zimmerman%2C+G.+H.&amp;rft.date=2005&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2005.28&amp;rft.issue=2&amp;rft.jtitle=IEEE+Software&amp;rft.pages=34&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=22"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-AR_OZ-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-AR_OZ_31-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Zimmermann, Olaf (2015). <a class="external text" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7057560" rel="nofollow">"Architectural Refactoring: A Task-Centric View on Software Evolution"</a>. <i>IEEE Software</i>. <b>32</b> (2): 26–29. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2015.37" rel="nofollow">10.1109/MS.2015.37</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Architectural+Refactoring%3A+A+Task-Centric+View+on+Software+Evolution&amp;rft.aufirst=Olaf&amp;rft.aulast=Zimmermann&amp;rft.date=2015&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fxpl%2FarticleDetails.jsp%3Farnumber%3D7057560&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2015.37&amp;rft.issue=2&amp;rft.jtitle=IEEE+Software&amp;rft.pages=26-29&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=32"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-SAKM-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-SAKM_32-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Babar, M.A.; Dingsøyr, T.; Lago, P.; Vliet, H. van (2009). <i>Software Architecture Knowledge Management:Theory and Practice (eds.), First Edition</i>. Springer. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-642-02373-6" title="Special:BookSources/978-3-642-02373-6">978-3-642-02373-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Dings%C3%B8yr%2C+T.&amp;rft.aufirst=M.A.&amp;rft.au=Lago%2C+P.&amp;rft.aulast=Babar&amp;rft.au=Vliet%2C+H.+van&amp;rft.btitle=Software+Architecture+Knowledge+Management%3ATheory+and+Practice+%28eds.%29%2C+First+Edition&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=978-3-642-02373-6&amp;rft.pub=Springer&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-tang09-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-tang09_33-0">^</a></b></span> <span class="reference-text"><cite class="citation journal">Tang, A.; Han, J.; Vasa, R. (2009). "Software Architecture Design Reasoning: A Case for Improved Methodology Support". <i>IEEE Software</i>. <b>26</b> (2): 43. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1109%2FMS.2009.46" rel="nofollow">10.1109/MS.2009.46</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.atitle=Software+Architecture+Design+Reasoning%3A+A+Case+for+Improved+Methodology+Support&amp;rft.aufirst=A.&amp;rft.au=Han%2C+J.&amp;rft.aulast=Tang&amp;rft.au=Vasa%2C+R.&amp;rft.date=2009&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1109%2FMS.2009.46&amp;rft.issue=2&amp;rft.jtitle=IEEE+Software&amp;rft.pages=43&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=26"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Kru95-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-Kru95_34-0">^</a></b></span> <span class="reference-text">Kruchten, Philippe (1995, November). <a class="external text" href="http://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf" rel="nofollow">Architectural Blueprints — The "4+1" View Model of Software Architecture.</a> IEEE Software 12 (6), pp. 42–50.</span></li>
+<li id="cite_note-Boehm2004-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boehm2004_35-0">^</a></b></span> <span class="reference-text"><cite class="citation book">Boehm, Barry; Turner, Richard (2004). <i>Balancing Agility and Discipline</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-321-18612-5" title="Special:BookSources/0-321-18612-5">0-321-18612-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.aufirst=Barry&amp;rft.aulast=Boehm&amp;rft.au=Turner%2C+Richard&amp;rft.btitle=Balancing+Agility+and+Discipline&amp;rft.date=2004&amp;rft.genre=book&amp;rft.isbn=0-321-18612-5&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.computer.org/portal/web/computingnow/archive/april2010" rel="nofollow">"IEEE Software Special Issue on Agility and Architecture"</a>. April 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">14 September</span> 2012</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.btitle=IEEE+Software+Special+Issue+on+Agility+and+Architecture&amp;rft.date=2010-04&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.computer.org%2Fportal%2Fweb%2Fcomputingnow%2Farchive%2Fapril2010&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><a class="external free" href="https://philippe.kruchten.com/2013/12/11/agile-architecture/" rel="nofollow">https://philippe.kruchten.com/2013/12/11/agile-architecture/</a></span></li>
+<li id="cite_note-SG-38"><span class="mw-cite-backlink">^ <a href="#cite_ref-SG_38-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SG_38-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation book">Shaw, Mary; Garlan, David (1996). <i>Software architecture: perspectives on an emerging discipline</i>. Prentice Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-13-182957-2" title="Special:BookSources/978-0-13-182957-2">978-0-13-182957-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.aufirst=Mary&amp;rft.au=Garlan%2C+David&amp;rft.aulast=Shaw&amp;rft.btitle=Software+architecture%3A+perspectives+on+an+emerging+discipline&amp;rft.date=1996&amp;rft.genre=book&amp;rft.isbn=978-0-13-182957-2&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.isr.uci.edu/architecture/styles.html" rel="nofollow">UCI Software Architecture Research – UCI Software Architecture Research: Architectural Styles</a>. Isr.uci.edu. Retrieved on 2013-07-21.</span></li>
+<li id="cite_note-MSDN-40"><span class="mw-cite-backlink">^ <a href="#cite_ref-MSDN_40-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-MSDN_40-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://msdn.microsoft.com/en-us/library/ee658117.aspx" rel="nofollow">Chapter 3: Architectural Patterns and Styles</a>. Msdn.microsoft.com. Retrieved on 2013-07-21.</span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text">Terra, R., M.T. Valente, K. Czarnecki, and R.S. Bigonha, "Recommending Refactorings to Reverse Software Architecture Erosion", 16th European Conference on Software Maintenance and Reengineering, 2012. <a class="external free" href="http://gsd.uwaterloo.ca/sites/default/files/Full%20Text.pdf" rel="nofollow">http://gsd.uwaterloo.ca/sites/default/files/Full%20Text.pdf</a></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text">de Silva, L. and D. Balasubramaniam, "Controlling software architecture erosion: A survey", Journal of Systems and Software 01/2012; 85:132–151.</span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text">Lungu, M. "Software architecture recovery", University of Lugano, 2008. <a class="external free" href="http://www.slideshare.net/mircea.lungu/software-architecture-recovery-in-five-questions-presentation" rel="nofollow">http://www.slideshare.net/mircea.lungu/software-architecture-recovery-in-five-questions-presentation</a></span></li>
+<li id="cite_note-edenkazman-44"><span class="mw-cite-backlink">^ <a href="#cite_ref-edenkazman_44-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-edenkazman_44-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Amnon H. Eden; Rick Kazman (2003). <a class="external text" href="http://www.eden-study.org/articles/2003/icse03.pdf" rel="nofollow">"Architecture Design Implementation"</a> <span style="font-size:85%;">(PDF)</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Amnon+H.+Eden&amp;rft.au=Rick+Kazman&amp;rft.btitle=Architecture+Design+Implementation&amp;rft.date=2003&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.eden-study.org%2Farticles%2F2003%2Ficse03.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-shekaran94-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-shekaran94_45-0">^</a></b></span> <span class="reference-text"><cite class="citation web">C. Shekaran; D. Garlan; M. Jackson; N.R. Mead; C. Potts; H.B. Reubenstein (1994). <a class="external text" href="http://dx.doi.org/10.1109/ICRE.1994.292379" rel="nofollow">"The Role of Software Architecture in Requirements Engineering"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=C.+Potts&amp;rft.au=C.+Shekaran&amp;rft.au=D.+Garlan&amp;rft.au=H.B.+Reubenstein&amp;rft.au=M.+Jackson&amp;rft.au=N.R.+Mead&amp;rft.btitle=The+Role+of+Software+Architecture+in+Requirements+Engineering&amp;rft.date=1994&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdx.doi.org%2F10.1109%2FICRE.1994.292379&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-boer09-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-boer09_46-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Remco C. de Boer, <a href="/wiki/Hans_van_Vliet" title="Hans van Vliet">Hans van Vliet</a> (2009). <a class="external text" href="http://dx.doi.org/10.1016/j.jss.2008.11.185" rel="nofollow">"On the similarity between requirements and architecture"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Remco+C.+de+Boer%2C+Hans+van+Vliet&amp;rft.btitle=On+the+similarity+between+requirements+and+architecture&amp;rft.date=2009&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdx.doi.org%2F10.1016%2Fj.jss.2008.11.185&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-twinpeaks-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-twinpeaks_47-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Bashar Nuseibeh (2001). <a class="external text" href="http://dx.doi.org/10.1109/2.910904" rel="nofollow">"Weaving together requirements and architectures"</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASoftware+architecture&amp;rft.au=Bashar+Nuseibeh&amp;rft.btitle=Weaving+together+requirements+and+architectures&amp;rft.date=2001&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdx.doi.org%2F10.1109%2F2.910904&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.gartner.com/technology/it-glossary/enterprise-architecture.jsp" rel="nofollow">Definition of Enterprise Architecture, Gartner</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=23" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Paul Clements, Felix Bachmann, Len Bass, David Garlan, James Ivers, Reed Little, Paulo Merson, Robert Nord, Judith Stafford: <i>Documenting Software Architectures: Views and Beyond, Second Edition</i>. Addison-Wesley, 2010, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0321552687">ISBN 0-321-55268-7</a>. This book describes what is software architecture and shows how to document it in multiple views, using UML and other notations. It also explains how to complement the architecture views with behavior, software interface, and rationale documentation. Accompanying the book is a <a class="external text" href="https://wiki.sei.cmu.edu/sad/index.php/The_Adventure_Builder_SAD" rel="nofollow">wiki that contains an example of software architecture documentation</a>.</li>
+<li>Len Bass, Paul Clements, Rick Kazman: <i>Software Architecture in Practice, Third Edition</i>. Addison Wesley, 2012, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0321815734">ISBN 0-321-81573-4</a> (This book, now in third edition, eloquently covers the fundamental concepts of the discipline. The theme is centered on achieving quality attributes of a system.)</li>
+<li>Philippe Kruchten: <i>Architectural Blueprints – the 4+1 View Model of Software Architecture</i>. In: IEEE Software. 12 (6) November 1995, pp. 42–50 (also available online at the <a class="external text" href="http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf" rel="nofollow">Rational website</a>(PDF))</li>
+<li>Martin Fowler (with Ralph Johnson) <a class="external text" href="http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf" rel="nofollow">Who Needs an Architect?</a> IEEE Software, Jul./Aug. 2003</li>
+<li>George Fairbanks: <i>Just Enough Software Architecture</i>, proposes a risk-driven approach to design method tailoring and modeling.</li>
+<li>Nick Rozanski and Eoin Woods, <i>Software Systems Architecture (2nd edition)</i> introduces core architecture concepts, as well as a viewpoint- and perspective-based architecture framework</li>
+<li>Peter Cripps and Peter Eeles: <i>The Process of Software Architecting</i>, a comprehensive collection of architecting tasks, work products harvested from several industrial architecture design methods.</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Software_architecture&amp;action=edit&amp;section=24" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Software_architecture" title="commons:Category:Software architecture">Software architecture</a></b></i>.</td>
+</tr>
+</table>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Wikiquote-logo.svg"><img alt="" class="noviewer" data-file-height="355" data-file-width="300" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/51px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/68px-Wikiquote-logo.svg.png 2x" width="34"/></a></td>
+<td class="mbox-text plainlist">Wikiquote has quotations related to: <i><b><a class="extiw" href="https://en.wikiquote.org/wiki/Special:Search/Software_architecture" title="q:Special:Search/Software architecture">Software architecture</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://www.ibm.com/developerworks/rational/library/feb06/eeles/" rel="nofollow">Explanation on IBM Developerworks</a></li>
+<li>Collection of <a class="external text" href="http://www.sei.cmu.edu/architecture/start/definitions.cfm" rel="nofollow">software architecture definitions</a> at <a href="/wiki/Software_Engineering_Institute" title="Software Engineering Institute">Software Engineering Institute</a> (SEI), <a href="/wiki/Carnegie_Mellon_University" title="Carnegie Mellon University">Carnegie Mellon University</a> (CMU)</li>
+<li><a class="external text" href="http://www.iasaglobal.org/" rel="nofollow">International Association of IT Architects (IASA Global)</a>, formerly known as the International Association for Software Architects (IASA)</li>
+<li><a class="external text" href="http://www.softwarearchitectureportal.org/" rel="nofollow">SoftwareArchitecturePortal.org</a> — website of <a href="/wiki/IFIP_Working_Group_2.10" title="IFIP Working Group 2.10">IFIP Working Group 2.10</a> on Software Architecture</li>
+<li><a class="external text" href="http://www.softwarearchitectures.com/" rel="nofollow">SoftwareArchitectures.com</a> — resource of information on the discipline</li>
+<li><a class="external text" href="http://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm" rel="nofollow">Software Architecture</a>, chapter 1 of <a href="/wiki/Roy_Fielding" title="Roy Fielding">Roy Fielding</a>'s REST dissertation</li>
+<li><a class="external text" href="http://www.methodsandtools.com/archive/archive.php?id=85" rel="nofollow">When Good Architecture Goes Bad</a></li>
+<li><a class="external text" href="http://sadd.codeplex.com" rel="nofollow">The Spiral Architecture Driven Development</a> – the <a class="mw-redirect" href="/wiki/Systems_Development_Life_Cycle" title="Systems Development Life Cycle">SDLC</a> based on <a href="/wiki/Spiral_model" title="Spiral model">Spiral model</a> is to reduce the risks of ineffective architecture</li>
+</ul>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><strong class="selflink">Software architecture</strong></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/4121677-5" rel="nofollow">4121677-5</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:48364-0!*!0!!en!4!* and timestamp 20160930231249 and revision id 740984314
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Software_architecture&amp;oldid=740984314">https://en.wikipedia.org/w/index.php?title=Software_architecture&amp;oldid=740984314</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Software engineering</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_August_2016" title="Category:Articles with unsourced statements from August 2016">Articles with unsourced statements from August 2016</a></li><li><a href="/wiki/Category:Commons_category_with_page_title_same_as_on_Wikidata" title="Category:Commons category with page title same as on Wikidata">Commons category with page title same as on Wikidata</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Software+architecture" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Software+architecture" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Software_architecture" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Software_architecture" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Software_architecture">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Software_architecture&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Software_architecture&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Software_architecture" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Software_architecture" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Software_architecture&amp;oldid=740984314" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Software_architecture&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q846636" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Software_architecture&amp;id=740984314" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Software+architecture">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Software+architecture&amp;returnto=Software+architecture&amp;oldid=740984314&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Software_architecture&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Software_architecture" hreflang="en">Wikimedia Commons</a></li><li class="wb-otherproject-link wb-otherproject-wikiquote"><a href="https://en.wikiquote.org/wiki/Software_architecture" hreflang="en">Wikiquote</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9_%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA" hreflang="ar" lang="ar" title="معمارية برمجيات – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A1%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%D0%BD%D0%B0_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" hreflang="bg" lang="bg" title="Софтуерна архитектура – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Arquitectura_de_programari" hreflang="ca" lang="ca" title="Arquitectura de programari – Catalan">Català</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/It-arkitektur" hreflang="da" lang="da" title="It-arkitektur – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Softwarearchitektur" hreflang="de" lang="de" title="Softwarearchitektur – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Arquitectura_de_software" hreflang="es" lang="es" title="Arquitectura de software – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1" hreflang="fa" lang="fa" title="معماری نرم‌افزار – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Architecture_logicielle" hreflang="fr" lang="fr" title="Architecture logicielle – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Arquitectura_software" hreflang="gl" lang="gl" title="Arquitectura software – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B5%AC%EC%A1%B0" hreflang="ko" lang="ko" title="소프트웨어 구조 – Korean">한국어</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Arsitektur_perangkat_lunak" hreflang="id" lang="id" title="Arsitektur perangkat lunak – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%9B%D7%99%D7%98%D7%A7%D7%98%D7%95%D7%A8%D7%AA_%D7%AA%D7%95%D7%9B%D7%A0%D7%94" hreflang="he" lang="he" title="ארכיטקטורת תוכנה – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-mwl"><a href="https://mwl.wikipedia.org/wiki/Arquitetura_de_software" hreflang="mwl" lang="mwl" title="Arquitetura de software – Mirandese">Mirandés</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Software-architectuur" hreflang="nl" lang="nl" title="Software-architectuur – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3" hreflang="ja" lang="ja" title="ソフトウェアアーキテクチャ – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Architektura_oprogramowania" hreflang="pl" lang="pl" title="Architektura oprogramowania – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Arquitetura_de_software" hreflang="pt" lang="pt" title="Arquitetura de software – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Архитектура программного обеспечения – Russian">Русский</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Tietoj%C3%A4rjestelm%C3%A4arkkitehtuuri" hreflang="fi" lang="fi" title="Tietojärjestelmäarkkitehtuuri – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B0%BE%E0%B0%AB%E0%B1%8D%E0%B0%9F%E0%B1%8D%E0%B0%B5%E0%B1%87%E0%B0%B0%E0%B1%8D_%E0%B0%86%E0%B0%B0%E0%B1%8D%E0%B0%95%E0%B0%BF%E0%B0%9F%E0%B1%86%E0%B0%95%E0%B1%8D%E0%B0%9A%E0%B0%B0%E0%B1%8D" hreflang="te" lang="te" title="సాఫ్ట్వేర్ ఆర్కిటెక్చర్ – Telugu">తెలుగు</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Yaz%C4%B1l%C4%B1m_mimarisi" hreflang="tr" lang="tr" title="Yazılım mimarisi – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Архітектура програмного забезпечення – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Ki%E1%BA%BFn_tr%C3%BAc_ph%E1%BA%A7n_m%E1%BB%81m" hreflang="vi" lang="vi" title="Kiến trúc phần mềm – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/%E8%BB%9F%E4%BB%B6%E7%95%AB%E5%89%87" hreflang="zh-yue" lang="zh-yue" title="軟件畫則 – Cantonese">粵語</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84" hreflang="zh" lang="zh" title="软件架构 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q846636#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 24 September 2016, at 16:32.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Software_architecture&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.566",
+            "walltime": "0.644",
+            "ppvisitednodes": {
+                "value": 3227,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 104944,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1666,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 11,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  530.989      1 -total",
+                " 53.83%  285.846      1 Template:Reflist",
+                " 15.42%   81.879     17 Template:Cite_web",
+                " 13.56%   71.983      9 Template:Cite_book",
+                " 11.81%   62.727     12 Template:Cite_journal",
+                "  8.91%   47.335      2 Template:Navbox",
+                "  8.65%   45.920      1 Template:Citation_needed",
+                "  8.35%   44.313      1 Template:Software_engineering",
+                "  7.62%   40.482      1 Template:Fix",
+                "  5.84%   31.010      1 Template:Software_development_process"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.250",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4677052,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1178",
+            "timestamp": "20160930231250",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":80,"wgHostname":"mw1255"});});</script>
+</body>
+</html>
+

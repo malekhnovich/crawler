@@ -1,0 +1,421 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Anti-pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Anti-pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Anti-pattern","wgTitle":"Anti-pattern","wgCurRevisionId":741528892,"wgRevisionId":741528892,"wgArticleId":233956,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Anti-patterns","Software architecture","Design"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Anti-pattern","wgRelevantArticleId":233956,"wgRequestId":"V-F3GgpAIC0AAC0D4iAAAAAP","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q76438","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Anti-pattern" rel="alternate"/>
+<link href="/w/index.php?title=Anti-pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Anti-pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Anti-pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Anti-pattern rootpage-Anti-pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Anti-pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>An <b>anti-pattern</b> is a common response to a recurring problem that is usually ineffective and risks being highly counterproductive.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> The term, coined in 1995 by <a href="/wiki/Andrew_Koenig_(programmer)" title="Andrew Koenig (programmer)">Andrew Koenig</a>,<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> was inspired by a book, <i><a class="mw-redirect" href="/wiki/Design_Patterns_(book)" title="Design Patterns (book)">Design Patterns</a></i>, which highlights a number of <a href="/wiki/Design_pattern" title="Design pattern">design patterns</a> in <a href="/wiki/Software_development" title="Software development">software development</a> that its authors considered to be highly reliable and effective.</p>
+<p>The term was popularized three years later by the book <i><a href="/wiki/AntiPatterns" title="AntiPatterns">AntiPatterns</a></i>, which extended its use beyond the field of software design to refer informally to any commonly reinvented but bad solution to a problem. Examples include <a href="/wiki/Analysis_paralysis" title="Analysis paralysis">analysis paralysis</a>, <a href="/wiki/Cargo_cult_programming" title="Cargo cult programming">cargo cult programming</a>, <a class="mw-redirect" href="/wiki/Death_march_(software_development)" title="Death march (software development)">death march</a>, <a href="/wiki/Groupthink" title="Groupthink">groupthink</a> and <a href="/wiki/Vendor_lock-in" title="Vendor lock-in">vendor lock-in</a>.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition"><span class="tocnumber">1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Examples"><span class="tocnumber">2</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Social_and_business_operations"><span class="tocnumber">2.1</span> <span class="toctext">Social and business operations</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Organizational"><span class="tocnumber">2.1.1</span> <span class="toctext">Organizational</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Project_management"><span class="tocnumber">2.1.2</span> <span class="toctext">Project management</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Software_engineering"><span class="tocnumber">2.2</span> <span class="toctext">Software engineering</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Software_design"><span class="tocnumber">2.2.1</span> <span class="toctext">Software design</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Object-oriented_programming"><span class="tocnumber">2.2.2</span> <span class="toctext">Object-oriented programming</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Programming"><span class="tocnumber">2.2.3</span> <span class="toctext">Programming</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Methodological"><span class="tocnumber">2.2.4</span> <span class="toctext">Methodological</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Configuration_management"><span class="tocnumber">2.2.5</span> <span class="toctext">Configuration management</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Further_reading"><span class="tocnumber">5</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Definition">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=1" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>According to the authors of <i>Design Patterns</i>, there must be at least two key elements present to formally distinguish an actual anti-pattern from a simple bad habit, bad practice, or bad idea:</p>
+<ol>
+<li>A commonly used process, structure or pattern of action that despite initially appearing to be an appropriate and effective response to a problem, typically has more bad consequences than good ones</li>
+<li>Another solution exists that is documented, repeatable and proven to be effective.</li>
+</ol>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=2" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Social_and_business_operations">Social and business operations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=3" title="Edit section: Social and business operations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Organizational">Organizational</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=4" title="Edit section: Organizational">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a href="/wiki/Analysis_paralysis" title="Analysis paralysis">Analysis paralysis</a>: A project stalled in the analysis phase, unable to achieve support for any of the potential plans of approach</li>
+<li><a class="mw-redirect" href="/wiki/Parkinson%27s_law_of_triviality" title="Parkinson's law of triviality">Bicycle shed</a>: Giving disproportionate weight to trivial issues</li>
+<li><a class="mw-redirect" href="/wiki/Bleeding_edge" title="Bleeding edge">Bleeding edge</a>: Operating with cutting-edge technologies that are still untested and/or unstable, leading to cost overruns, under-performance, and/or delayed delivery</li>
+<li><a class="mw-redirect" href="/wiki/Bystander_apathy" title="Bystander apathy">Bystander apathy</a>: The phenomenon in which people are less likely to or do not offer help to a person in need when others are present</li>
+<li><a href="/wiki/Cash_cow" title="Cash cow">Cash cow</a>: A profitable legacy product that often leads to complacency about new products</li>
+<li><a href="/wiki/Design_by_committee" title="Design by committee">Design by committee</a>: The result of having many contributors to a design, but no unifying vision</li>
+<li><a href="/wiki/Escalation_of_commitment" title="Escalation of commitment">Escalation of commitment</a>: Failing to revoke a decision when it proves wrong</li>
+<li><a href="/wiki/Groupthink" title="Groupthink">Groupthink</a>: A collective state where group members begin to (often unknowingly) think alike and reject differing viewpoints</li>
+<li><a href="/wiki/Management_by_objectives" title="Management by objectives">Management by objectives</a>: Management by numbers, focus exclusively on quantitative management criteria, when these are non-essential or cost too much to acquire</li>
+<li><a href="/wiki/Micromanagement" title="Micromanagement">Micromanagement</a>: Ineffectiveness from excessive observation, supervision, or other hands-on involvement from management</li>
+<li><a href="/wiki/Moral_hazard" title="Moral hazard">Moral hazard</a>: Insulating a decision-maker from the consequences of his or her decision</li>
+<li><a href="/wiki/Mushroom_management" title="Mushroom management">Mushroom management</a>: Keeping employees "in the dark and fed manure" (also "left to stew and finally canned")</li>
+<li><a href="/wiki/Peter_principle" title="Peter principle">Peter principle</a>: Continually promoting otherwise well-performing employees up to their level of incompetence, where they remain indefinitely</li>
+<li><a href="/wiki/Seagull_manager" title="Seagull manager">Seagull management</a>: Management in which managers only interact with employees when a problem arises, when they "fly in, make a lot of noise, dump on everyone, do not solve problem, then fly out"</li>
+<li><a href="/wiki/Stovepipe_(organisation)" title="Stovepipe (organisation)">Stovepipe or Silos</a>: An organizational structure of isolated or semi-isolated teams, in which too many communications take place up and down the hierarchy, rather than directly with other teams across the organization</li>
+<li><a href="/wiki/Typecasting_(acting)" title="Typecasting (acting)">Typecasting</a>: Locking successful employees into overly safe, narrowly defined, predictable roles based on their past successes rather than their potential</li>
+<li><a href="/wiki/Vendor_lock-in" title="Vendor lock-in">Vendor lock-in</a>: Making a system excessively dependent on an externally supplied component</li>
+</ul>
+<h4><span class="mw-headline" id="Project_management">Project management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=5" title="Edit section: Project management">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a href="/wiki/Cart_before_the_horse" title="Cart before the horse">Cart before the horse</a>: Focusing too many resources on a stage of a project out of its sequence</li>
+<li><a class="mw-redirect" href="/wiki/Death_march_(software_development)" title="Death march (software development)">Death march</a>: A project whose staff, while expecting it to fail, are compelled to continue, often with much overwork, by management which is in denial</li>
+<li><a href="/wiki/Ninety-ninety_rule" title="Ninety-ninety rule">Ninety-ninety rule</a>: Tendency to underestimate the amount of time to complete a project when it is "nearly done"</li>
+<li><a href="/wiki/Overengineering" title="Overengineering">Overengineering</a>: Spending resources making a project more robust and complex than is needed</li>
+<li><a href="/wiki/Scope_creep" title="Scope creep">Scope creep</a>: Uncontrolled changes or continuous growth in a project’s scope, or adding new features to the project after the original requirements have been drafted and accepted (also known as requirement creep and <a href="/wiki/Feature_creep" title="Feature creep">feature creep</a>)</li>
+<li><a href="/wiki/Smoke_and_mirrors" title="Smoke and mirrors">Smoke and mirrors</a>: Demonstrating unimplemented functions as if they were already implemented</li>
+<li><a class="mw-redirect" href="/wiki/Brooks%27_Law" title="Brooks' Law">Brooks' Law</a>: Adding more resources to a project to increase velocity, when the project is already slowed down by coordination overhead.</li>
+</ul>
+<h3><span class="mw-headline" id="Software_engineering">Software engineering</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=6" title="Edit section: Software engineering">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Software_design">Software design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=7" title="Edit section: Software design">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p><span id="General_design_anti-patterns"></span></p>
+<ul>
+<li><a href="/wiki/Abstraction_inversion" title="Abstraction inversion">Abstraction inversion</a>: Not exposing implemented functionality required by callers of a function/method/constructor, so that the calling code awkwardly re-implements the same functionality in terms of those calls</li>
+<li><a href="/wiki/Ambiguous_viewpoint" title="Ambiguous viewpoint">Ambiguous viewpoint</a>: Presenting a model (usually <a href="/wiki/Object-oriented_analysis_and_design" title="Object-oriented analysis and design">Object-oriented analysis and design</a> (OOAD)) without specifying its viewpoint</li>
+<li><a href="/wiki/Big_ball_of_mud" title="Big ball of mud">Big ball of mud</a>: A system with no recognizable structure</li>
+<li><a href="/wiki/Database-as-IPC" title="Database-as-IPC">Database-as-IPC</a>: Using a database as the message queue for routine <a href="/wiki/Inter-process_communication" title="Inter-process communication">interprocess communication</a> where a much more lightweight mechanism would be suitable</li>
+<li><a class="mw-redirect" href="/wiki/Gold_plating_(analogy)" title="Gold plating (analogy)">Gold plating</a>: Continuing to work on a task or project well past the point at which extra effort is adding value</li>
+<li><a href="/wiki/Inner-platform_effect" title="Inner-platform effect">Inner-platform effect</a>: A system so customizable as to become a poor replica of the software development platform</li>
+<li><a href="/wiki/Input_kludge" title="Input kludge">Input kludge</a>: Failing to specify and implement the handling of possibly invalid input</li>
+<li><a href="/wiki/Interface_bloat" title="Interface bloat">Interface bloat</a>: Making an interface so powerful that it is extremely difficult to implement</li>
+<li><a href="/wiki/Magic_pushbutton" title="Magic pushbutton">Magic pushbutton</a>: A form with no dynamic validation, or input assistance such as dropdowns</li>
+<li><a class="mw-redirect" href="/wiki/Race_hazard" title="Race hazard">Race hazard</a>: Failing to see the consequences of events that can sometimes interfere with each other</li>
+<li><a href="/wiki/Stovepipe_system" title="Stovepipe system">Stovepipe system</a>: A barely maintainable assemblage of ill-related components</li>
+</ul>
+<h4><span class="mw-headline" id="Object-oriented_programming">Object-oriented programming</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=8" title="Edit section: Object-oriented programming">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Anemic_Domain_Model" title="Anemic Domain Model">Anemic Domain Model</a>: The use of the <a href="/wiki/Domain_model" title="Domain model">domain model</a> without any <a href="/wiki/Business_logic" title="Business logic">business logic</a>. The domain model's objects cannot guarantee their correctness at any moment, because their validation and mutation logic is placed somewhere outside (most likely in multiple places). Martin Fowler considers this to be an anti-pattern, but some disagree that it is always an anti-pattern.<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></li>
+<li><a href="/wiki/BaseBean" title="BaseBean">BaseBean</a>: Inheriting functionality from a <a href="/wiki/Utility_class" title="Utility class">utility class</a> rather than delegating to it</li>
+<li><a href="/wiki/Call_super" title="Call super">Call super</a>: Requiring subclasses to call a superclass's overridden method</li>
+<li><a href="/wiki/Circle-ellipse_problem" title="Circle-ellipse problem">Circle-ellipse problem</a>: <a class="mw-redirect" href="/wiki/Subtype" title="Subtype">Subtyping</a> variable-types on the basis of value-subtypes</li>
+<li><a href="/wiki/Circular_dependency" title="Circular dependency">Circular dependency</a>: Introducing unnecessary direct or indirect mutual dependencies between objects or software modules</li>
+<li><a href="/wiki/Constant_interface" title="Constant interface">Constant interface</a>: Using interfaces to define constants</li>
+<li><a href="/wiki/God_object" title="God object">God object</a>: Concentrating too many functions in a single part of the design (class)</li>
+<li><a class="mw-redirect" href="/wiki/Object_cesspool" title="Object cesspool">Object cesspool</a>: Reusing objects whose state does not conform to the (possibly implicit) contract for re-use</li>
+<li><a href="/wiki/Object_orgy" title="Object orgy">Object orgy</a>: Failing to properly encapsulate objects permitting unrestricted access to their internals</li>
+<li><a class="mw-redirect" href="/wiki/Poltergeist_(computer_science)" title="Poltergeist (computer science)">Poltergeists</a>: Objects whose sole purpose is to pass information to another object</li>
+<li><a href="/wiki/Sequential_coupling" title="Sequential coupling">Sequential coupling</a>: A class that requires its methods to be called in a particular order</li>
+<li><a href="/wiki/Yo-yo_problem" title="Yo-yo problem">Yo-yo problem</a>: A structure (e.g., of inheritance) that is hard to understand due to excessive fragmentation</li>
+</ul>
+<h4><span class="mw-headline" id="Programming">Programming</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=9" title="Edit section: Programming">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Accidental_complexity" title="Accidental complexity">Accidental complexity</a>: Programming tasks which could be eliminated with better tools (as opposed to essential complexity inherent in the problem being solved)</li>
+<li><a class="mw-redirect" href="/wiki/Action_at_a_distance_(computer_science)" title="Action at a distance (computer science)">Action at a distance</a>: Unexpected interaction between widely separated parts of a system</li>
+<li><a class="mw-redirect" href="/wiki/Blind_faith_(computer_science)" title="Blind faith (computer science)">Blind faith</a>: Lack of checking of (a) the correctness of a bug fix or (b) the result of a subroutine</li>
+<li><a class="mw-redirect" href="/wiki/Boat_anchor_(computer_science)" title="Boat anchor (computer science)">Boat anchor</a>: Retaining a part of a system that no longer has any use</li>
+<li><a href="/wiki/Busy_waiting" title="Busy waiting">Busy waiting</a>: Consuming <a class="mw-redirect" href="/wiki/CPU" title="CPU">CPU</a> while waiting for something to happen, usually by repeated checking instead of messaging</li>
+<li><a class="mw-redirect" href="/wiki/Caching_failure" title="Caching failure">Caching failure</a>: Forgetting to clear a cache that holds a negative result (error) after the error condition has been corrected</li>
+<li><a href="/wiki/Cargo_cult_programming" title="Cargo cult programming">Cargo cult programming</a>: Using patterns and methods without understanding why</li>
+<li><a href="/wiki/Coding_by_exception" title="Coding by exception">Coding by exception</a>: Adding new code to handle each special case as it is recognized</li>
+<li><a href="/wiki/Design_pattern" title="Design pattern">Design pattern</a>: The use of patterns has itself been called an anti-pattern, a sign that a system is not employing enough <a href="/wiki/Abstraction_principle_(computer_programming)" title="Abstraction principle (computer programming)">abstraction</a><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></li>
+<li><a href="/wiki/Error_hiding" title="Error hiding">Error hiding</a>: Catching an error message before it can be shown to the user and either showing nothing or showing a meaningless message. This anti-pattern is also named <i>Diaper Pattern</i>. Also can refer to erasing the <a href="/wiki/Stack_trace" title="Stack trace">Stack trace</a> during exception handling, which can hamper debugging.</li>
+<li><a class="mw-redirect" href="/wiki/Hard_code" title="Hard code">Hard code</a>: Embedding assumptions about the environment of a system in its implementation</li>
+<li><a href="/wiki/Spaghetti_code#Lasagna_code" title="Spaghetti code">Lasagna code</a>: Programs whose structure consists of too many layers</li>
+<li><a href="/wiki/Lava_flow_(programming)" title="Lava flow (programming)">Lava flow</a>: Retaining undesirable (redundant or low-quality) code because removing it is too expensive or has unpredictable consequences<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup></li>
+<li><a href="/wiki/Loop-switch_sequence" title="Loop-switch sequence">Loop-switch sequence</a>: Encoding a set of sequential steps using a switch within a loop statement</li>
+<li><a href="/wiki/Magic_number_(programming)#Unnamed_numerical_constants" title="Magic number (programming)">Magic numbers</a>: Including unexplained numbers in algorithms</li>
+<li><a class="mw-redirect" href="/wiki/Magic_string_(programming)#Magic_strings_in_code" title="Magic string (programming)">Magic strings</a>: Implementing presumably unlikely input scenarios, such as comparisons with very specific strings, to mask functionality.</li>
+<li><a class="mw-redirect" href="/wiki/Don%27t_Repeat_Yourself" title="Don't Repeat Yourself">Repeating yourself</a>: Writing code which contains repetitive patterns and substrings over again; avoid with <a class="mw-redirect" href="/wiki/Once_and_only_once" title="Once and only once">once and only once</a> (abstraction principle)</li>
+<li><a href="/wiki/Shotgun_surgery" title="Shotgun surgery">Shotgun surgery</a>: Developer adds features to an application codebase which span a multiplicity of implementors or implementations in a single change</li>
+<li><a href="/wiki/Softcoding" title="Softcoding">Soft code</a>: Storing business logic in configuration files rather than source code<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup></li>
+<li><a href="/wiki/Spaghetti_code" title="Spaghetti code">Spaghetti code</a>: Programs whose structure is barely comprehensible, especially because of misuse of code structures</li>
+<li><a href="/wiki/Blind_faith_(computer_programming)" title="Blind faith (computer programming)">Superstitious coding</a>: Coding to handle error conditions which are already known to be impossible. The opposite of <a href="/wiki/Blind_faith_(computer_programming)" title="Blind faith (computer programming)">blind faith</a></li>
+</ul>
+<h4><span class="mw-headline" id="Methodological">Methodological</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=10" title="Edit section: Methodological">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a href="/wiki/Copy_and_paste_programming" title="Copy and paste programming">Copy and paste programming</a>: Copying (and modifying) existing code rather than creating generic solutions</li>
+<li><a class="mw-redirect" href="/wiki/Golden_hammer" title="Golden hammer">Golden hammer</a>: Assuming that a favorite solution is universally applicable (See: <a href="/wiki/Silver_bullet" title="Silver bullet">Silver bullet</a>)</li>
+<li><a href="/wiki/Improbability_factor" title="Improbability factor">Improbability factor</a>: Assuming that it is improbable that a known error will occur</li>
+<li><a class="mw-redirect" href="/wiki/Not_Invented_Here#In_computing" title="Not Invented Here">Not Invented Here</a> (NIH) syndrome: The tendency towards <i><a href="/wiki/Reinventing_the_wheel" title="Reinventing the wheel">reinventing the wheel</a></i> (failing to adopt an existing, adequate solution)</li>
+<li><a href="/wiki/Invented_here" title="Invented here">Invented here</a>: The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, usually because of lack of confidence in the staff</li>
+<li><a class="mw-redirect" href="/wiki/Optimization_(computer_science)#When_to_optimize" title="Optimization (computer science)">Premature optimization</a>: Coding early-on for perceived efficiency, sacrificing good design, maintainability, and sometimes even real-world efficiency</li>
+<li><a href="/wiki/Programming_by_permutation" title="Programming by permutation">Programming by permutation</a> (or "programming by accident", or "programming by coincidence"): Trying to approach a solution by successively modifying the code to see if it works</li>
+<li><a class="mw-redirect" href="/wiki/Reinventing_the_square_wheel" title="Reinventing the square wheel">Reinventing the square wheel</a>: Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than the existing one</li>
+<li><a href="/wiki/No_Silver_Bullet" title="No Silver Bullet">Silver bullet</a>: Assuming that a favorite technical solution can solve a larger process or problem</li>
+<li><a href="/wiki/Tester_Driven_Development" title="Tester Driven Development">Tester Driven Development</a>: Software projects in which new requirements are specified in bug reports</li>
+</ul>
+<h4><span class="mw-headline" id="Configuration_management">Configuration management</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=11" title="Edit section: Configuration management">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li><a href="/wiki/Dependency_hell" title="Dependency hell">Dependency hell</a>: Problems with versions of required products</li>
+<li><a class="mw-redirect" href="/wiki/DLL_hell" title="DLL hell">DLL hell</a>: Inadequate management of <a class="mw-redirect" href="/wiki/Dynamic-link_libraries" title="Dynamic-link libraries">dynamic-link libraries</a> (DLLs), specifically on <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a></li>
+<li><a href="/wiki/Extension_conflict" title="Extension conflict">Extension conflict</a>: Problems with different extensions to <a href="/wiki/Classic_Mac_OS" title="Classic Mac OS">classic Mac OS</a> attempting to patch the same parts of the operating system</li>
+<li><a class="mw-redirect" href="/wiki/JAR_hell" title="JAR hell">JAR hell</a>: Overutilization of multiple <a href="/wiki/JAR_(file_format)" title="JAR (file format)">JAR</a> files, usually causing versioning and location problems because of misunderstanding of the <a href="/wiki/Java_Classloader" title="Java Classloader">Java class loading</a> model</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Code_smell" title="Code smell">Code smell</a> – symptom of unsound programming</li>
+<li><a class="mw-redirect" href="/wiki/Design_Smell" title="Design Smell">Design Smell</a></li>
+<li><a href="/wiki/List_of_software_development_philosophies" title="List of software development philosophies">List of software development philosophies</a> – approaches, styles, maxims and philosophies for software development</li>
+<li><a href="/wiki/Software_Peter_principle" title="Software Peter principle">Software Peter principle</a></li>
+<li><a href="/wiki/Capability_Immaturity_Model" title="Capability Immaturity Model">Capability Immaturity Model</a></li>
+<li><a href="/wiki/ISO_29110" title="ISO 29110">ISO 29110</a>: Software Life Cycle Profiles and Guidelines for Very Small Entities (VSEs)</li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Budgen, D. (2003). <a class="external text" href="https://books.google.com/books?id=bnY3vb606bAC&amp;pg=PA225&amp;dq=%22anti-pattern%22+date:1990-2003" rel="nofollow"><i>Software design</i></a>. Harlow, Eng.: Addison-Wesley. p. 225. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-201-72219-4" title="Special:BookSources/0-201-72219-4">0-201-72219-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.au=Budgen%2C+D.&amp;rft.btitle=Software+design&amp;rft.date=2003&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DbnY3vb606bAC%26pg%3DPA225%26dq%3D%2522anti-pattern%2522%2Bdate%3A1990-2003&amp;rft.isbn=0-201-72219-4&amp;rft.pages=225&amp;rft.place=Harlow%2C+Eng.&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> "As described in Long (2001), design anti-patterns are 'obvious, but wrong, solutions to recurring problems'."</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book"><a class="mw-redirect" href="/wiki/Scott_W._Ambler" title="Scott W. Ambler">Scott W. Ambler</a> (1998). <a class="external text" href="https://books.google.com/books?id=qJJk2yEeoZoC&amp;pg=PA4&amp;dq=%22anti-pattern%22+date:1990-2001" rel="nofollow"><i>Process patterns: building large-scale systems using object technology</i></a>. Cambridge, UK: Cambridge University Press. p. 4. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-521-64568-9" title="Special:BookSources/0-521-64568-9">0-521-64568-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.au=Scott+W.+Ambler&amp;rft.btitle=Process+patterns%3A+building+large-scale+systems+using+object+technology&amp;rft.date=1998&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DqJJk2yEeoZoC%26pg%3DPA4%26dq%3D%2522anti-pattern%2522%2Bdate%3A1990-2001&amp;rft.isbn=0-521-64568-9&amp;rft.pages=4&amp;rft.place=Cambridge%2C+UK&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> "...common approaches to solving recurring problems that prove to be ineffective. These approaches are called antipatterns."</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation journal">Koenig, Andrew (March–April 1995). "Patterns and Antipatterns". <i>Journal of Object-Oriented Programming</i>. <b>8</b> (1): 46–48.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.atitle=Patterns+and+Antipatterns&amp;rft.aufirst=Andrew&amp;rft.aulast=Koenig&amp;rft.date=1995-03%2F1995-04&amp;rft.genre=article&amp;rft.issue=1&amp;rft.jtitle=Journal+of+Object-Oriented+Programming&amp;rft.pages=46-48&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=8"><span style="display:none;"> </span></span>; was later re-printed in the: <cite class="citation book">Rising, Linda (1998). <a class="external text" href="https://books.google.com/books?id=HBAuixGMYWEC&amp;pg=PT1&amp;dq=0-521-64818-1" rel="nofollow"><i>The patterns handbook: techniques, strategies, and applications</i></a>. Cambridge, U.K.: Cambridge University Press. p. 387. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-521-64818-1" title="Special:BookSources/0-521-64818-1">0-521-64818-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.au=Rising%2C+Linda&amp;rft.btitle=The+patterns+handbook%3A+techniques%2C+strategies%2C+and+applications&amp;rft.date=1998&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DHBAuixGMYWEC%26pg%3DPT1%26dq%3D0-521-64818-1&amp;rft.isbn=0-521-64818-1&amp;rft.pages=387&amp;rft.place=Cambridge%2C+U.K.&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> "An antipattern is just like a pattern, except that instead of a solution it gives something that looks superficially like a solution, but isn't one."</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://blog.inf.ed.ac.uk/sapm/2014/02/04/the-anaemic-domain-model-is-no-anti-pattern-its-a-solid-design/" rel="nofollow">"The Anaemic Domain Model is no Anti-Pattern, it's a SOLID design"</a>. <i>SAPM: Course blog</i>. 4 February 2014<span class="reference-accessdate">. Retrieved <span class="nowrap">3 January</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.atitle=The+Anaemic+Domain+Model+is+no+Anti-Pattern%2C+it%99s+a+SOLID+design&amp;rft.date=2014-02-04&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.inf.ed.ac.uk%2Fsapm%2F2014%2F02%2F04%2Fthe-anaemic-domain-model-is-no-anti-pattern-its-a-solid-design%2F&amp;rft.jtitle=SAPM%3A+Course+blog&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.paulgraham.com/icad.html" rel="nofollow">"Revenge of the Nerds"</a>. <q>In the OO world you hear a good deal about "patterns". I wonder if these patterns are not sometimes evidence of case (c), the human compiler, at work. When I see patterns in my programs, I consider it a sign of trouble. The shape of a program should reflect only the problem it needs to solve. Any other regularity in the code is a sign, to me at least, that I'm using abstractions that aren't powerful enough— often that I'm generating by hand the expansions of some macro that I need to write.</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.btitle=Revenge+of+the+Nerds&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.paulgraham.com%2Ficad.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.antipatterns.com/lavaflow.htm" rel="nofollow">Lava Flow</a> at antipatterns.com</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.icmgworld.com/corp/news/Articles/RS/jan_0202.asp" rel="nofollow">"Undocumented 'lava flow' antipatterns complicate process"</a>. Icmgworld.com. 14 January 2002<span class="reference-accessdate">. Retrieved <span class="nowrap">3 May</span> 2010</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.btitle=Undocumented+%27lava+flow%27+antipatterns+complicate+process&amp;rft.date=2002-01-14&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.icmgworld.com%2Fcorp%2Fnews%2FArticles%2FRS%2Fjan_0202.asp&amp;rft.pub=Icmgworld.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web">Papadimoulis, Alex (10 April 2007). <a class="external text" href="http://thedailywtf.com/Articles/Soft_Coding.aspx" rel="nofollow">"Soft Coding"</a>. thedailywtf.com<span class="reference-accessdate">. Retrieved <span class="nowrap">27 June</span> 2011</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.aufirst=Alex&amp;rft.aulast=Papadimoulis&amp;rft.btitle=Soft+Coding&amp;rft.date=2007-04-10&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fthedailywtf.com%2FArticles%2FSoft_Coding.aspx&amp;rft.pub=thedailywtf.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=14" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol>
+<li><cite class="citation book">Laplante, Phillip A.; Neill, Colin J. (2005). <i>Antipatterns: Identification, Refactoring and Management</i>. Auerbach Publications. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-8493-2994-9" title="Special:BookSources/0-8493-2994-9">0-8493-2994-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.aufirst=Phillip+A.&amp;rft.aulast=Laplante&amp;rft.au=Neill%2C+Colin+J.&amp;rft.btitle=Antipatterns%3A+Identification%2C+Refactoring+and+Management&amp;rft.date=2005&amp;rft.genre=book&amp;rft.isbn=0-8493-2994-9&amp;rft.pub=Auerbach+Publications&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Brown, William J.; Malveau, Raphael C.; McCormick, Hays W.; Thomas, Scott W. (2000). Hudson, Theresa Hudson, ed. <i>Anti-Patterns in Project Management</i>. <a href="/wiki/John_Wiley_%26_Sons" title="John Wiley &amp; Sons">John Wiley &amp; Sons</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-471-36366-9" title="Special:BookSources/0-471-36366-9">0-471-36366-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AAnti-pattern&amp;rft.aufirst=William+J.&amp;rft.aulast=Brown&amp;rft.au=Malveau%2C+Raphael+C.&amp;rft.au=McCormick%2C+Hays+W.&amp;rft.au=Thomas%2C+Scott+W.&amp;rft.btitle=Anti-Patterns+in+Project+Management&amp;rft.date=2000&amp;rft.genre=book&amp;rft.isbn=0-471-36366-9&amp;rft.pub=John+Wiley+%26+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ol>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Anti-pattern&amp;action=edit&amp;section=15" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://c2.com/cgi/wiki?AntiPattern" rel="nofollow">Anti-pattern</a> at <a href="/wiki/WikiWikiWeb" title="WikiWikiWeb">WikiWikiWeb</a></li>
+<li><a class="external text" href="http://c2.com/cgi/wiki?AntiPatternsCatalog" rel="nofollow">Anti-patterns catalog</a></li>
+<li><a class="external text" href="http://www.antipatterns.com" rel="nofollow">AntiPatterns.com</a> Web site for the <a href="/wiki/AntiPatterns" title="AntiPatterns">AntiPatterns</a> book</li>
+<li><a class="external text" href="http://www.personal.psu.edu/cjn6/Personal/Antipatterns-%20Patterns%20of%20Toxic%20Behavior.htm" rel="nofollow">Patterns of Toxic Behavior</a></li>
+<li><a class="external text" href="https://docs.google.com/document/d/160BsSq4J46Ds3KZVnX2zMnxc_oZMk-nrnI9srrdk6Ro/pub" rel="nofollow">C Pointer Antipattern</a></li>
+<li><a class="external text" href="https://leanpub.com/email-antipatterns/" rel="nofollow">Email Anti-Patterns</a> book</li>
+</ul>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:233956-0!*!0!!en!*!* and timestamp 20161001104653 and revision id 741528892
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Anti-pattern&amp;oldid=741528892">https://en.wikipedia.org/w/index.php?title=Anti-pattern&amp;oldid=741528892</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Anti-patterns" title="Category:Anti-patterns">Anti-patterns</a></li><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="/wiki/Category:Design" title="Category:Design">Design</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Anti-pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Anti-pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Anti-pattern" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Anti-pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Anti-pattern">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Anti-pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Anti-pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Anti-pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Anti-pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Anti-pattern&amp;oldid=741528892" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Anti-pattern&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q76438" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Anti-pattern&amp;id=741528892" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Anti-pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Anti-pattern&amp;returnto=Anti-pattern&amp;oldid=741528892&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Anti-pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Anti-patterns" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B6%D8%A7%D8%AF" hreflang="ar" lang="ar" title="نموذج مضاد – Arabic">العربية</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/N%C3%A1vrhov%C3%BD_antivzor" hreflang="cs" lang="cs" title="Návrhový antivzor – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Anti-Pattern" hreflang="de" lang="de" title="Anti-Pattern – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o" hreflang="es" lang="es" title="Antipatrón de diseño – Spanish">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Antipattern" hreflang="fr" lang="fr" title="Antipattern – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%95%88%ED%8B%B0%ED%8C%A8%ED%84%B4" hreflang="ko" lang="ko" title="안티패턴 – Korean">한국어</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Antiobrazac" hreflang="hr" lang="hr" title="Antiobrazac – Croatian">Hrvatski</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Anti-pattern" hreflang="it" lang="it" title="Anti-pattern – Italian">Italiano</a></li><li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/Antiexemplar" hreflang="la" lang="la" title="Antiexemplar – Latin">Latina</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Antipatroon" hreflang="nl" lang="nl" title="Antipatroon – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3" hreflang="ja" lang="ja" title="アンチパターン – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Antywzorzec_projektowy" hreflang="pl" lang="pl" title="Antywzorzec projektowy – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Antipadr%C3%B5es_de_projeto_de_software" hreflang="pt" lang="pt" title="Antipadrões de projeto de software – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B8%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD" hreflang="ru" lang="ru" title="Антипаттерн – Russian">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Anti-uzor" hreflang="sh" lang="sh" title="Anti-uzor – Serbo-Croatian">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Antisuunnittelumalli" hreflang="fi" lang="fi" title="Antisuunnittelumalli – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Antim%C3%B6nster" hreflang="sv" lang="sv" title="Antimönster – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B8%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD" hreflang="uk" lang="uk" title="Антипаттерн – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%8F%8D%E9%9D%A2%E6%A8%A1%E5%BC%8F" hreflang="zh" lang="zh" title="反面模式 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q76438#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 28 September 2016, at 02:23.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Anti-pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.146",
+            "walltime": "0.167",
+            "ppvisitednodes": {
+                "value": 550,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 16076,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 32,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 7,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  123.934      1 -total",
+                " 92.04%  114.067      1 Template:Reflist",
+                " 61.40%   76.095      5 Template:Cite_book",
+                " 14.92%   18.496      4 Template:Cite_web",
+                "  7.65%    9.485      1 Template:Cite_journal",
+                "  1.68%    2.084      1 Template:Column-width"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.070",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2646208,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1216",
+            "timestamp": "20161001104653",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1175"});});</script>
+</body>
+</html>
+

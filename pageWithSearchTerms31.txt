@@ -1,0 +1,557 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Inheritance_(computer_science)
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Inheritance (object-oriented programming) - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Inheritance_(object-oriented_programming)","wgTitle":"Inheritance (object-oriented programming)","wgCurRevisionId":741555732,"wgRevisionId":741555732,"wgArticleId":2617746,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing expert attention with no reason or talk parameter","Articles needing expert attention from August 2009","All articles needing expert attention","Computer science articles needing expert attention","Articles needing cleanup from April 2015","All articles needing cleanup","Cleanup tagged articles with a reason field from April 2015","Wikipedia pages needing cleanup from April 2015","All articles with unsourced statements","Articles with unsourced statements from November 2009","Articles with unsourced statements from May 2012","Articles with unsourced statements from February 2016","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from July 2015","Articles with unsourced statements from July 2015","Wikipedia articles with GND identifiers","Object-oriented programming","Type systems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Inheritance_(object-oriented_programming)","wgRelevantArticleId":2617746,"wgRequestId":"V-Ap3ApAAEQAATd4e6wAAADU","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Inheritance_(computer_science)","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Inheritance_(object-oriented_programming)","wgWikibaseItemId":"Q212542","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Inheritance_(object-oriented_programming)" rel="alternate"/>
+<link href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Inheritance_object-oriented_programming rootpage-Inheritance_object-oriented_programming skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Inheritance (object-oriented programming)</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Inheritance_(computer_science)&amp;redirect=no" title="Inheritance (computer science)">Inheritance (computer science)</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs attention from an expert in Computer science</b>. <span class="hide-when-compact">Please add a <i>reason</i> or a <i>talk</i> parameter to this template to explain the issue with the article. <a href="/wiki/Wikipedia:WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">WikiProject Computer science</a> (or its <a href="/wiki/Portal:Computer_science" title="Portal:Computer science">Portal</a>) may be able to help recruit an expert.</span> <small><i>(August 2009)</i></small></span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-style ambox-Cleanup" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article may <b>require <a href="/wiki/Wikipedia:Cleanup" title="Wikipedia:Cleanup">cleanup</a></b> to meet Wikipedia's <a href="/wiki/Wikipedia:Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a>. The specific problem is: Cluttered <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit">improve this article</a> if you can.</span> <small><i>(April 2015)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p>In <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>, <b>inheritance</b> is when an <a href="/wiki/Object_(computer_science)" title="Object (computer science)">object</a> or <a href="/wiki/Class_(computer_programming)" title="Class (computer programming)">class</a> is based on another object (<a href="/wiki/Prototype-based_programming" title="Prototype-based programming">prototypal inheritance</a>) or class (<a href="/wiki/Class-based_programming" title="Class-based programming">class-based inheritance</a>), using the same implementation (inheriting from an object or class) specifying implementation to maintain the same behavior (realizing an interface; inheriting behavior; <a class="new" href="/w/index.php?title=Programming_by_difference&amp;action=edit&amp;redlink=1" title="Programming by difference (page does not exist)">programming by difference</a><sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>). Such an inherited class is called a <b>subclass</b> of its parent class or super class. It is a mechanism for <a href="/wiki/Code_reuse" title="Code reuse">code reuse</a> and to allow independent extensions of the original software via public classes and interfaces. The relationships of objects or classes through inheritance give rise to a <a href="/wiki/Hierarchy" title="Hierarchy">hierarchy</a>. Inheritance was invented in 1967 for <a href="/wiki/Simula" title="Simula">Simula</a>.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> The term "inheritance" is loosely used for both class-based and prototype-based programming, but in narrow use is reserved for class-based programming (one class <i>inherits from</i> another), with the corresponding technique in prototype-based programming being instead called <i><a href="/wiki/Delegation_(object-oriented_programming)" title="Delegation (object-oriented programming)">delegation</a></i> (one object <i>delegates to</i> another).</p>
+<p>Inheritance <a href="#Inheritance_vs_subtyping">should not be confused</a> with <a href="/wiki/Subtyping" title="Subtyping">subtyping</a>.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> In some languages inheritance and subtyping agree,<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[a]</a></sup> whereas in others they differ; in general, subtyping establishes an <a href="/wiki/Is-a" title="Is-a">is-a</a> relationship, whereas inheritance only reuses implementation and establishes a syntactic relationship, not necessarily a semantic relationship (inheritance does not ensure <a class="mw-redirect" href="/wiki/Behavioral_subtyping" title="Behavioral subtyping">behavioral subtyping</a>). To distinguish these concepts, subtyping is also known as <i>interface inheritance</i>, whereas inheritance as defined here is known as <i>implementation inheritance</i> or <i>code inheritance</i>.<sup class="reference" id="cite_ref-Mikhajlov_6-0"><a href="#cite_note-Mikhajlov-6">[5]</a></sup> Still, inheritance is a commonly used mechanism for establishing subtype relationships.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[6]</a></sup></p>
+<p>Inheritance is contrasted with <a href="/wiki/Object_composition" title="Object composition">object composition</a>, where one object <i>contains</i> another object (or objects of one class contain objects of another class); see <a href="/wiki/Composition_over_inheritance" title="Composition over inheritance">composition over inheritance</a>. Composition implements a <a href="/wiki/Has-a" title="Has-a">has-a</a> relationship, in contrast to the is-a relationship of subtyping.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Types_of_inheritance"><span class="tocnumber">1</span> <span class="toctext">Types of inheritance</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Subclasses_and_superclasses"><span class="tocnumber">2</span> <span class="toctext">Subclasses and superclasses</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Uninheritable_classes"><span class="tocnumber">2.1</span> <span class="toctext">Uninheritable classes</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Methods_that_cannot_be_overridden"><span class="tocnumber">2.2</span> <span class="toctext">Methods that cannot be overridden</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Virtual_methods"><span class="tocnumber">2.3</span> <span class="toctext">Virtual methods</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Visibility_of_inherited_members"><span class="tocnumber">3</span> <span class="toctext">Visibility of inherited members</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Applications"><span class="tocnumber">4</span> <span class="toctext">Applications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Overriding"><span class="tocnumber">4.1</span> <span class="toctext">Overriding</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Code_reuse"><span class="tocnumber">4.2</span> <span class="toctext">Code reuse</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Inheritance_vs_subtyping"><span class="tocnumber">5</span> <span class="toctext">Inheritance vs subtyping</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Design_constraints"><span class="tocnumber">5.1</span> <span class="toctext">Design constraints</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Issues_and_alternatives"><span class="tocnumber">6</span> <span class="toctext">Issues and alternatives</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Types_of_inheritance">Types of inheritance</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=1" title="Edit section: Types of inheritance">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:Single_Inheritance.jpg"><img alt="" class="thumbimage" data-file-height="300" data-file-width="300" height="170" src="//upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/170px-Single_Inheritance.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/32/Single_Inheritance.jpg/255px-Single_Inheritance.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/3/32/Single_Inheritance.jpg 2x" width="170"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Single_Inheritance.jpg" title="Enlarge"></a></div>
+Single inheritance</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:Multiple_Inheritance.jpg"><img alt="" class="thumbimage" data-file-height="300" data-file-width="300" height="170" src="//upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/170px-Multiple_Inheritance.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/Multiple_Inheritance.jpg/255px-Multiple_Inheritance.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/6/69/Multiple_Inheritance.jpg 2x" width="170"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Multiple_Inheritance.jpg" title="Enlarge"></a></div>
+Multiple inheritance</div>
+</div>
+</div>
+<p>There are various types of inheritance, based on paradigm and specific language.</p>
+<dl>
+<dt>Single inheritance</dt>
+<dd>where subclasses inherit the features of one superclass. A class acquires the properties of another class.</dd>
+<dt>Multiple inheritance</dt>
+<dd>where one class can have more than one superclass and inherit features from all parent classes.</dd>
+</dl>
+<blockquote class="templatequote">
+<p>"Multiple Inheritance (object-oriented programming) was widely supposed to be very difficult to implement efficiently. For example, in a summary of <a href="/wiki/C%2B%2B" title="C++">C++</a> in his book on <a href="/wiki/Objective-C" title="Objective-C">objective C</a> Brd.Cox actually claimed that adding Multiple inheritance to C++ was impossible. Thus, multiple inheritance seemed more of a challenge. Since I had considered multiple inheritance as early as 1982 and found a simple and efficient implementation technique in 1984. I couldn't resist the challenge. I suspect this to be the only case in which fashion affected the sequence of events."<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[7]</a></sup></p>
+<div class="templatequotecite"><cite>— <a href="/wiki/Bjarne_Stroustrup" title="Bjarne Stroustrup">Bjarne Stroustrup</a></cite></div>
+</blockquote>
+<dl>
+<dt>Multilevel inheritance</dt>
+<dd>where a subclass is inherited from another subclass. It is not uncommon that a class is derived from another derived class as shown in the figure "Multilevel inheritance".
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:Multilevel_Inheritance.jpg"><img alt="" class="thumbimage" data-file-height="350" data-file-width="300" height="198" src="//upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/170px-Multilevel_Inheritance.jpg" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/0e/Multilevel_Inheritance.jpg/255px-Multilevel_Inheritance.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/0/0e/Multilevel_Inheritance.jpg 2x" width="170"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Multilevel_Inheritance.jpg" title="Enlarge"></a></div>
+Multilevel inheritance</div>
+</div>
+</div>
+The class <i>A</i> serves as a <i>base class</i> for the <i>derived class</i> <i>B</i>, which in turn serves as a <i>base class</i> for the <i>derived class</i> <i>C</i>. The class <i>B</i> is known as <i>intermediate</i> base class because it provides a link for the inheritance between <i>A</i> and <i>C</i>. The chain <i>ABC</i> is known as <i>inheritance path</i>.</dd>
+</dl>
+<p>A derived class with multilevel inheritance is declared as follows:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">Class</span> <span class="nf">A</span><span class="p">(...);</span>      <span class="c1">//Base class</span>
+<span class="n">Class</span> <span class="nl">B</span> <span class="p">:</span> <span class="k">public</span> <span class="n">A</span><span class="p">(...);</span>   <span class="c1">//B derived from A</span>
+<span class="n">Class</span> <span class="nl">C</span> <span class="p">:</span> <span class="k">public</span> <span class="n">B</span><span class="p">(...);</span>   <span class="c1">//C derived from B</span>
+</pre></div>
+<p>This process can be extended to any number of levels.</p>
+<dl>
+<dt>Hierarchical inheritance</dt>
+<dd>where one class serves as a superclass (base class) for more than one sub class.</dd>
+<dt>Hybrid inheritance</dt>
+<dd>a mix of two or more of the above types of inheritance.</dd>
+</dl>
+<h2><span class="mw-headline" id="Subclasses_and_superclasses">Subclasses and superclasses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=2" title="Edit section: Subclasses and superclasses">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A <i>Subclass</i>, "derived class", <i>heir class</i>, or <i>child class</i> is a <a href="/wiki/Modular_programming" title="Modular programming">modular</a>, derivative class that inherits one or more <a href="/wiki/Programming_language" title="Programming language">language</a> entities from one or more other classes (called <i>superclasses</i>, <i>base classes</i>, or <i>parent classes</i>). The semantics of class inheritance vary from language to language, but commonly the subclass automatically inherits the <a href="/wiki/Instance_variable" title="Instance variable">instance variables</a> and <a class="mw-redirect" href="/wiki/Member_function" title="Member function">member functions</a> of its superclasses. The general form of defining a derived class is:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">derived</span><span class="o">-</span><span class="n">class</span><span class="o">-</span><span class="nl">name</span> <span class="p">:</span> <span class="n">visibility</span><span class="o">-</span><span class="n">mode</span> <span class="n">base</span><span class="o">-</span><span class="n">class</span><span class="o">-</span><span class="n">name</span>
+<span class="p">{</span>
+ <span class="p">.....</span><span class="c1">//</span>
+ <span class="p">.....</span><span class="c1">// members of derived class</span>
+ <span class="p">.....</span><span class="c1">//</span>
+<span class="p">};</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[8]</a></sup></p>
+<ul>
+<li>The colon indicates that the derived-class-name is derived from the base-class-name. The visibility-mode is optional and, if present, may be either <i>private</i> or <i>public</i>. The default visibility-mode is <i>private</i>. Visibility mode specifies whether the features of the base class are <i>privately derived</i> or <i>publicly derived</i>.</li>
+</ul>
+<p>Some languages support the <a class="mw-redirect" href="/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)">inheritance</a> of other constructs also. For example, in <a href="/wiki/Eiffel_(programming_language)" title="Eiffel (programming language)">Eiffel</a>, <a class="mw-redirect" href="/wiki/Design_by_Contract" title="Design by Contract">contracts</a> that define the specification of a class are also inherited by heirs. The superclass establishes a common interface and foundational functionality, which specialized subclasses can inherit, modify, and supplement. The software inherited by a subclass is considered <a class="mw-redirect" href="/wiki/Reusable" title="Reusable">reused</a> in the subclass. A reference to an instance of a class may actually be referring to one of its subclasses. The actual class of the object being referenced is impossible to predict at <a class="mw-redirect" href="/wiki/Compile-time" title="Compile-time">compile-time</a>. A uniform interface is used to invoke the member functions of objects of a number of different classes. Subclass may replace superclass functions with entirely new functions that must share the same <a class="mw-redirect" href="/wiki/Method_signature" title="Method signature">method signature</a>.</p>
+<h3><span class="mw-headline" id="Uninheritable_classes">Uninheritable classes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=3" title="Edit section: Uninheritable classes">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In some languages a class may be declared as <a href="/wiki/Class_(computer_programming)#Non-subclassable" title="Class (computer programming)">uninheritable</a> by adding certain <a class="new" href="/w/index.php?title=Class_modifier&amp;action=edit&amp;redlink=1" title="Class modifier (page does not exist)">class modifiers</a> to the class declaration. Examples include the "final" keyword in <a href="/wiki/Final_(Java)" title="Final (Java)">Java</a> or the "sealed" keyword in <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>. Such modifiers are added to the class declaration before the "class" keyword and the class identifier declaration. Such sealed classes restrict <a href="/wiki/Reusability" title="Reusability">reusability</a>, particularly when developers only have access to precompiled <a href="/wiki/Binary_file" title="Binary file">binaries</a> and not <a href="/wiki/Source_code" title="Source code">source code</a>.</p>
+<p>The sealed class has no subclasses, so it can be easily deduced at <a href="/wiki/Compile_time" title="Compile time">compile time</a> that references or pointers to objects of that class are actually referencing instances of that class and not instances of subclasses (they don't exist) or instances of superclasses (<a class="mw-redirect" href="/wiki/Upcasting" title="Upcasting">upcasting</a> a reference type violates the type system). <a class="mw-redirect" href="/wiki/Subtype_polymorphism" title="Subtype polymorphism">subtype polymorphism</a>. Because the exact type of the object being referenced is known before execution, <a class="mw-redirect" href="/wiki/Early_binding" title="Early binding">early binding</a> (or "<a href="/wiki/Static_dispatch" title="Static dispatch">static dispatch</a>") can be used instead of <a href="/wiki/Late_binding" title="Late binding">late binding</a> (also called "<a href="/wiki/Dynamic_dispatch" title="Dynamic dispatch">dynamic dispatch</a>" or "<a href="/wiki/Late_binding" title="Late binding">dynamic binding</a>"), which requires one or more <a href="/wiki/Virtual_method_table" title="Virtual method table">virtual method table</a> lookups depending on whether <a href="/wiki/Multiple_inheritance" title="Multiple inheritance">multiple inheritance</a> or only <a class="mw-redirect" href="/wiki/Single_inheritance" title="Single inheritance">single inheritance</a> are supported in the programming language that is being used.</p>
+<h3><span class="mw-headline" id="Methods_that_cannot_be_overridden">Methods that cannot be overridden</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=4" title="Edit section: Methods that cannot be overridden">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Just as classes may be sealed/finalized method declarations may contain method modifiers that prevent the method from being overridden (i.e. replaced with a new function with the same name and type signature in a subclass). A <a class="mw-redirect" href="/wiki/Encapsulation_(object-oriented_programming)#As_information_hiding_mechanism" title="Encapsulation (object-oriented programming)">private</a> method is unoverridable simply because it is not accessible by classes other than the class it is a member function of (this is not true for <a href="/wiki/C%2B%2B" title="C++">C++</a>, though). A <a href="/wiki/Final_(Java)#Final_methods" title="Final (Java)">"final" method</a> in <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, a "sealed" method in <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> or a frozen feature in <a href="/wiki/Eiffel_(programming_language)" title="Eiffel (programming language)">Eiffel</a> cannot be overridden.</p>
+<h3><span class="mw-headline" id="Virtual_methods">Virtual methods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=5" title="Edit section: Virtual methods">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If the superclass method is a <a class="mw-redirect" href="/wiki/Virtual_method" title="Virtual method">virtual method</a>, then invocations of the superclass method will be <a href="/wiki/Dynamic_dispatch" title="Dynamic dispatch">dynamically dispatched</a>. Some languages require methods to be specifically declared as virtual (e.g. <a href="/wiki/C%2B%2B" title="C++">C++</a>) and in others all methods are virtual (e.g. <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>). An invocation of a non-virtual method will always be statically dispatched (i.e. the address of the function call is determined at compile-time). Static dispatch is faster than dynamic dispatch and allows optimisations such as <a href="/wiki/Inline_expansion" title="Inline expansion">inline expansion</a>.</p>
+<h2><span class="mw-headline" id="Visibility_of_inherited_members">Visibility of inherited members</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=6" title="Edit section: Visibility of inherited members">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable">
+<tr style="background:#ccc;">
+<th><a class="mw-redirect" href="/wiki/Base_class" title="Base class">Base class</a> visibility</th>
+<th colspan="3">Derived class visibility</th>
+</tr>
+<tr style="background:#ccc;">
+<th></th>
+<th>Public derivation</th>
+<th>Private derivation</th>
+<th>Protected derivation</th>
+</tr>
+<tr>
+<td style="vertical-align:top;">
+<ul>
+<li>Private →</li>
+<li>Protected →</li>
+<li>Public →</li>
+</ul>
+</td>
+<td style="vertical-align:top;">
+<ul>
+<li>Not inherited</li>
+<li>Protected</li>
+<li>Public</li>
+</ul>
+</td>
+<td style="vertical-align:top;">
+<ul>
+<li>Not inherited</li>
+<li>Private</li>
+<li>Private</li>
+</ul>
+</td>
+<td style="vertical-align:top;">
+<ul>
+<li>Not inherited</li>
+<li>Protected</li>
+<li>Protected</li>
+</ul>
+</td>
+</tr>
+</table>
+<p><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[9]</a></sup></p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=7" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Inheritance is used to co-relate two or more classes to each other.</p>
+<h3><span class="mw-headline" id="Overriding">Overriding</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=8" title="Edit section: Overriding">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Method_overriding_in_subclass.png"><img alt="" class="thumbimage" data-file-height="784" data-file-width="564" height="306" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Method_overriding_in_subclass.png/220px-Method_overriding_in_subclass.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Method_overriding_in_subclass.png/330px-Method_overriding_in_subclass.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Method_overriding_in_subclass.png/440px-Method_overriding_in_subclass.png 2x" width="220"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Method_overriding_in_subclass.png" title="Enlarge"></a></div>
+Illustration of method overriding</div>
+</div>
+</div>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Method_overriding" title="Method overriding">Method overriding</a></div>
+<p>Many <a href="/wiki/List_of_object-oriented_programming_languages" title="List of object-oriented programming languages">object-oriented programming languages</a> permit a class or object to replace the implementation of an aspect—typically a behavior—that it has inherited. This process is usually called <i><a href="/wiki/Method_overriding" title="Method overriding">overriding</a></i>. Overriding introduces a complication: which version of the behavior does an instance of the inherited class use—the one that is part of its own class, or the one from the parent (base) class? The answer varies between programming languages, and some languages provide the ability to indicate that a particular behavior is not to be overridden and should behave as defined by the base class. For instance, in <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>, the base method or property can only be overridden in a subclass if it is marked with the virtual, abstract, or override modifier.<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[10]</a></sup> An alternative to overriding is <a class="mw-redirect" href="/wiki/Hiding_(programming)" title="Hiding (programming)">hiding</a> the inherited code.</p>
+<h3><span class="mw-headline" id="Code_reuse">Code reuse</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=9" title="Edit section: Code reuse">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Implementation inheritance is the mechanism whereby a subclass <a href="/wiki/Code_reuse" title="Code reuse">re-uses</a> code in a base class. By default the subclass retains all of the operations of the base class, but the subclass may <a href="/wiki/Method_overriding" title="Method overriding">override</a> some or all operations, replacing the base-class implementation with its own.</p>
+<p>In the following Python example, subclasses <span style="font-family: monospace, monospace;">SquareSumComputer</span> and <span style="font-family: monospace, monospace;">CubeSumComputer</span> override the <span style="font-family: monospace, monospace;">transform()</span> method of the base class <span style="font-family: monospace, monospace;">SumComputer</span>. The base class comprises operations to compute the sum of the <a href="/wiki/Square_number" title="Square number">squares</a> between two integers. The subclass re-uses all of the functionality of the base class with the exception of the operation that transforms a number into its square, replacing it with an operation that transforms a number into its <a href="/wiki/Square_number" title="Square number">square</a> and <a class="mw-redirect" href="/wiki/Cubic_number" title="Cubic number">cube</a> respectively. The subclasses therefore compute the sum of the squares/cubes between two integers.</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">SumComputer</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">a</span> <span class="o">=</span> <span class="n">a</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span>
+
+    <span class="k">def</span> <span class="nf">transform</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+    <span class="k">def</span> <span class="nf">inputs</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">compute</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">inputs</span><span class="p">())</span>
+
+<span class="k">class</span> <span class="nc">SquareSumComputer</span><span class="p">(</span><span class="n">SumComputer</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">transform</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+
+<span class="k">class</span> <span class="nc">CubeSumComputer</span><span class="p">(</span><span class="n">SumComputer</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">transform</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+</pre></div>
+<p>In most quarters, class inheritance for the sole purpose of code reuse has fallen out of favor.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2009)">citation needed</span></a></i>]</sup> The primary concern is that implementation inheritance does not provide any assurance of <a class="mw-redirect" href="/wiki/Polymorphism_in_object-oriented_programming" title="Polymorphism in object-oriented programming">polymorphic</a> substitutability—an instance of the reusing class cannot necessarily be substituted for an instance of the inherited class. An alternative technique, explicit <a href="/wiki/Delegation_pattern" title="Delegation pattern">delegation</a>, requires more programming effort, but avoids the substitutability issue.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (May 2012)">citation needed</span></a></i>]</sup> In <a href="/wiki/C%2B%2B" title="C++">C++</a> private inheritance can be used as a form of <i>implementation inheritance</i> without substitutability. Whereas public inheritance represents an "<a href="/wiki/Is-a" title="Is-a">is-a</a>" relationship and delegation represents a "<a href="/wiki/Has-a" title="Has-a">has-a</a>" relationship, private (and protected) inheritance can be thought of as an "is implemented in terms of" relationship.<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[11]</a></sup></p>
+<p>Another frequent use of inheritance is to guarantee that classes maintain a certain common interface; that is, they implement the same methods. The parent class can be a combination of implemented operations and operations that are to be implemented in the child classes. Often, there is no interface change between the supertype and subtype- the child implements the behavior described instead of its parent class.<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[12]</a></sup></p>
+<h2><span class="mw-headline" id="Inheritance_vs_subtyping">Inheritance vs subtyping</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=10" title="Edit section: Inheritance vs subtyping">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote" role="note">Further information: <a href="/wiki/Subtyping" title="Subtyping">Subtyping</a></div>
+<p>Inheritance is similar to but distinct from <a href="/wiki/Subtyping" title="Subtyping">subtyping</a>.<sup class="reference" id="cite_ref-FOOTNOTECookHillCanning1990_14-0"><a href="#cite_note-FOOTNOTECookHillCanning1990-14">[13]</a></sup> Subtyping enables a given type to be substituted for another type or abstraction, and is said to establish an <i><a href="/wiki/Is-a" title="Is-a">is-a</a></i> relationship between the subtype and some existing abstraction, either implicitly or explicitly, depending on language support. The relationship can be expressed explicitly via inheritance in languages that support inheritance as a subtyping mechanism. For example, the following C++ code establishes an explicit inheritance relationship between classes <i>B</i> and <i>A</i>, where <i>B</i> is both a subclass and a subtype of <i>A</i>, and can be used as an <i>A</i> wherever a <i>B</i> is specified (via a reference, a pointer or the object itself).</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">class</span> <span class="nc">A</span> 
+<span class="p">{</span> <span class="k">public</span><span class="o">:</span>
+   <span class="kt">void</span> <span class="n">DoSomethingALike</span><span class="p">()</span> <span class="k">const</span> <span class="p">{}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">B</span> <span class="o">:</span> <span class="k">public</span> <span class="n">A</span> 
+<span class="p">{</span> <span class="k">public</span><span class="o">:</span>
+   <span class="kt">void</span> <span class="n">DoSomethingBLike</span><span class="p">()</span> <span class="k">const</span> <span class="p">{}</span>
+<span class="p">};</span>
+
+<span class="kt">void</span> <span class="nf">UseAnA</span><span class="p">(</span><span class="n">A</span> <span class="k">const</span><span class="o">&amp;</span> <span class="n">some_A</span><span class="p">)</span>
+<span class="p">{</span>
+   <span class="n">some_A</span><span class="p">.</span><span class="n">DoSomethingALike</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">SomeFunc</span><span class="p">()</span>
+<span class="p">{</span>
+   <span class="n">B</span> <span class="n">b</span><span class="p">;</span>
+   <span class="n">UseAnA</span><span class="p">(</span><span class="n">b</span><span class="p">);</span> <span class="c1">// b can be substituted for an A.</span>
+<span class="p">}</span>
+</pre></div>
+<p>In programming languages that do not support inheritance as a <a class="mw-redirect" href="/wiki/Subtype_polymorphism" title="Subtype polymorphism">subtyping mechanism</a>, the relationship between a base class and a derived class is only a relationship between implementations (a mechanism for code reuse), as compared to a relationship between <a href="/wiki/Data_type" title="Data type">types</a>. Inheritance, even in programming languages that support inheritance as a subtyping mechanism, does not necessarily entail <a class="mw-redirect" href="/wiki/Behavioral_subtyping" title="Behavioral subtyping">behavioral subtyping</a>. It is entirely possible to derive a class whose object will behave incorrectly when used in a context where the parent class is expected; see the <a href="/wiki/Liskov_substitution_principle" title="Liskov substitution principle">Liskov substitution principle</a>. <sup class="reference" id="cite_ref-Mitchell2002_15-0"><a href="#cite_note-Mitchell2002-15">[14]</a></sup> (Compare <a href="/wiki/Connotation_(semiotics)" title="Connotation (semiotics)">connotation/denotation</a>.) In some OOP languages, the notions of code reuse and subtyping coincide because the only way to declare a subtype is to define a new class that inherits the implementation of another.</p>
+<h3><span class="mw-headline" id="Design_constraints">Design constraints</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=11" title="Edit section: Design constraints">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Using inheritance extensively in designing a program imposes certain constraints.</p>
+<p>For example, consider a class <span style="font-family: monospace, monospace;">Person</span> that contains a person's name, date of birth, address and phone number. We can define a subclass of <span style="font-family: monospace, monospace;">Person</span> called <span style="font-family: monospace, monospace;">Student</span> that contains the person's grade point average and classes taken, and another subclass of <span style="font-family: monospace, monospace;">Person</span> called <span style="font-family: monospace, monospace;">Employee</span> that contains the person's job-title, employer, and salary.</p>
+<p>In defining this inheritance hierarchy we have already defined certain restrictions, not all of which are desirable:</p>
+<dl>
+<dt>Singleness</dt>
+<dd>Using single inheritance, a subclass can inherit from only one superclass. Continuing the example given above, <span style="font-family: monospace, monospace;">Person</span> can be either a <span style="font-family: monospace, monospace;">Student</span> or an <span style="font-family: monospace, monospace;">Employee</span>, but not both. Using <a href="/wiki/Multiple_inheritance" title="Multiple inheritance">multiple inheritance</a> partially solves this problem, as one can then define a <span style="font-family: monospace, monospace;">StudentEmployee</span> class that inherits from both <span style="font-family: monospace, monospace;">Student</span> and <span style="font-family: monospace, monospace;">Employee</span>. However, in most implementations, it can still inherit from each superclass only once, and thus, does not support cases in which a student has two jobs or attends two institutions. The inheritance model available in <a href="/wiki/Eiffel_(programming_language)" title="Eiffel (programming language)">Eiffel</a> makes this possible through support for <a class="mw-redirect" href="/wiki/Diamond_problem" title="Diamond problem">repeated inheritance</a>.</dd>
+</dl>
+<dl>
+<dt>Static</dt>
+<dd>The inheritance hierarchy of an object is fixed at <a href="/wiki/Instance_(computer_science)" title="Instance (computer science)">instantiation</a> when the object's type is selected and does not change with time. For example, the inheritance graph does not allow a <span style="font-family: monospace, monospace;">Student</span> object to become a <span style="font-family: monospace, monospace;">Employee</span> object while retaining the state of its <span style="font-family: monospace, monospace;">Person</span> superclass. (This kind of behavior, however, can be achieved with the <a href="/wiki/Decorator_pattern" title="Decorator pattern">decorator pattern</a>.) Some have criticized inheritance, contending that it locks developers into their original design standards.<sup class="reference" id="cite_ref-holub_16-0"><a href="#cite_note-holub-16">[15]</a></sup></dd>
+</dl>
+<dl>
+<dt>Visibility</dt>
+<dd>Whenever client code has access to an object, it generally has access to all the object's superclass data. Even if the superclass has not been declared public, the client can still <a class="mw-redirect" href="/wiki/Typecast_(programming)" title="Typecast (programming)">cast</a> the object to its superclass type. For example, there is no way to give a function a pointer to a <span style="font-family: monospace, monospace;">Student</span>'s grade point average and transcript without also giving that function access to all of the personal data stored in the student's <span style="font-family: monospace, monospace;">Person</span> superclass. Many modern languages, including C++ and Java, provide a "protected" access modifier that allows subclasses to access the data, without allowing any code outside the chain of inheritance to access it.</dd>
+</dl>
+<p>The <a class="mw-redirect" href="/wiki/Composite_reuse_principle" title="Composite reuse principle">composite reuse principle</a> is an alternative to inheritance. This technique supports polymorphism and code reuse by separating behaviors from the primary class hierarchy and including specific behavior classes as required in any business domain class. This approach avoids the static nature of a class hierarchy by allowing behavior modifications at run time and allows one class to implement behaviors buffet-style, instead of being restricted to the behaviors of its ancestor classes.</p>
+<h2><span class="mw-headline" id="Issues_and_alternatives">Issues and alternatives</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=12" title="Edit section: Issues and alternatives">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Implementation inheritance is controversial among programmers and theoreticians of object-oriented programming since at least the 1990s. Among them are the authors of <i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i>, who advocate interface inheritance instead, and favor <a href="/wiki/Composition_over_inheritance" title="Composition over inheritance">composition over inheritance</a>. For example, the <a href="/wiki/Decorator_pattern" title="Decorator pattern">decorator pattern</a> (as mentioned <a href="#Design_constraints">above</a>) has been proposed to overcome the static nature of inheritance between classes. As a more fundamental solution to the same problem, <a href="/wiki/Role-oriented_programming" title="Role-oriented programming">role-oriented programming</a> introduces a distinct relationship, <i>played-by</i>, combining properties of inheritance and composition into a new concept.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2016)">citation needed</span></a></i>]</sup></p>
+<p>According to <a href="/wiki/Allen_Holub" title="Allen Holub">Allen Holub</a>, the main problem with implementation inheritance is that it introduces unnecessary <a href="/wiki/Coupling_(computer_programming)" title="Coupling (computer programming)">coupling</a> in the form of the "fragile base class problem":<sup class="reference" id="cite_ref-Mikhajlov_6-1"><a href="#cite_note-Mikhajlov-6">[5]</a></sup> modifications to the base class implementation can cause inadvertent behavioral changes in subclasses. Using interfaces avoids this problem because no implementation is shared, only the API.<sup class="reference" id="cite_ref-holub_16-1"><a href="#cite_note-holub-16">[15]</a></sup> Another way of stating this is that "inheritance breaks <a class="mw-redirect" href="/wiki/Encapsulation_(object-oriented_programming)" title="Encapsulation (object-oriented programming)">encapsulation</a>".<sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[16]</a></sup> The problem surfaces clearly in open object-oriented systems such as <a href="/wiki/Software_framework" title="Software framework">frameworks</a>, where client code is expected to inherit from system-supplied classes and then substituted for the system's classes in its algorithms.<sup class="reference" id="cite_ref-Mikhajlov_6-2"><a href="#cite_note-Mikhajlov-6">[5]</a></sup></p>
+<p>Reportedly, Java inventor <a href="/wiki/James_Gosling" title="James Gosling">James Gosling</a> has spoken against implementation inheritance, stating that he would not include it if he were to redesign Java.<sup class="reference" id="cite_ref-holub_16-2"><a href="#cite_note-holub-16">[15]</a></sup> Language designs that decouple inheritance from subtyping (interface inheritance) appeared as early as 1990;<sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[17]</a></sup> a modern example of this is the <a href="/wiki/Go_(programming_language)" title="Go (programming language)">Go</a> programming language.</p>
+<p>Complex inheritance, or inheritance used within an insufficiently mature design, may lead to the <a href="/wiki/Yo-yo_problem" title="Yo-yo problem">yo-yo problem</a>.</p>
+<p>Another issue with inheritance is that subclasses must be defined in code, which means that program users cannot add new subclasses. Other design patterns<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a class="mw-redirect" href="/wiki/Wikipedia:Avoid_weasel_words" title="Wikipedia:Avoid weasel words"><span title="The material near this tag possibly uses too vague attribution or weasel words. (July 2015)">which?</span></a></i>]</sup> allow program users to define variations of an entity on runtime.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (July 2015)">citation needed</span></a></i>]</sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=13" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Circle-ellipse_problem" title="Circle-ellipse problem">Circle-ellipse problem</a></li>
+<li><a href="/wiki/Defeasible_reasoning" title="Defeasible reasoning">Defeasible reasoning</a></li>
+<li><a href="/wiki/Interface_(computing)" title="Interface (computing)">Interface (computing)</a></li>
+<li><a href="/wiki/Method_overriding" title="Method overriding">Method overriding</a></li>
+<li><a href="/wiki/Mixin" title="Mixin">Mixin</a></li>
+<li><a href="/wiki/Polymorphism_(computer_science)" title="Polymorphism (computer science)">Polymorphism (computer science)</a></li>
+<li><a href="/wiki/Protocol_(object-oriented_programming)" title="Protocol (object-oriented programming)">Protocol</a></li>
+<li><a href="/wiki/Role-oriented_programming" title="Role-oriented programming">Role-oriented programming</a></li>
+<li><a href="/wiki/The_Third_Manifesto" title="The Third Manifesto">The Third Manifesto</a></li>
+<li><a href="/wiki/Trait_(computer_programming)" title="Trait (computer programming)">Trait (computer programming)</a></li>
+<li><a href="/wiki/Virtual_inheritance" title="Virtual inheritance">Virtual inheritance</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=14" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: lower-alpha;">
+<ol class="references">
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">This is generally true only in statically-typed class-based OO languages, such as <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, and <a href="/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a>.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=15" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external free" href="https://www.cse.msu.edu/~cse870/Input/SS2002/MiniProject/Sources/DRC.pdf" rel="nofollow">https://www.cse.msu.edu/~cse870/Input/SS2002/MiniProject/Sources/DRC.pdf</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book">Mike Mintz, Robert Ekendahl (2006). <i>Hardware Verification with C++: A Practitioner’s Handbook</i>. United States of America: Springer. p. 22. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-387-25543-5" title="Special:BookSources/0-387-25543-5">0-387-25543-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=Mike+Mintz%2C+Robert+Ekendahl&amp;rft.btitle=Hardware+Verification+with+C%2B%2B%3A+A+Practitioner%99s+Handbook&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=0-387-25543-5&amp;rft.pages=22&amp;rft.place=United+States+of+America&amp;rft.pub=Springer&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation conference" id="CITEREFCookHillCanning1990">Cook, William R.; Hill, Walter; Canning, Peter S. (1990). <i>Inheritance is not subtyping</i>. Proc. 17th ACM SIGPLAN-SIGACT Symp. on Principles of Programming Languages (POPL). pp. 125–135. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F96709.96721" rel="nofollow">10.1145/96709.96721</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-89791-343-4" title="Special:BookSources/0-89791-343-4">0-89791-343-4</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.102.8635" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.102<wbr></wbr>.8635</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=Canning%2C+Peter+S.&amp;rft.aufirst=William+R.&amp;rft.au=Hill%2C+Walter&amp;rft.aulast=Cook&amp;rft.btitle=Inheritance+is+not+subtyping&amp;rft.date=1990&amp;rft.genre=conference&amp;rft_id=info%3Adoi%2F10.1145%2F96709.96721&amp;rft.isbn=0-89791-343-4&amp;rft.pages=125-135&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation techreport">Cardelli, Luca (1993). <i>Typeful Programming</i> (Technical report). <a href="/wiki/Digital_Equipment_Corporation" title="Digital Equipment Corporation">Digital Equipment Corporation</a>. p. 32–33. SRC Research Report 45.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.aufirst=Luca&amp;rft.aulast=Cardelli&amp;rft.btitle=Typeful+Programming&amp;rft.date=1993&amp;rft.genre=report&amp;rft.pages=32-33&amp;rft.pub=Digital+Equipment+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Mikhajlov-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Mikhajlov_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Mikhajlov_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Mikhajlov_6-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation conference">Mikhajlov, Leonid; Sekerinski, Emil (1998). <a class="external text" href="http://extras.springer.com/2000/978-3-540-67660-7/papers/1445/14450355.pdf" rel="nofollow"><i>A study of the fragile base class problem</i></a> <span style="font-size:85%;">(PDF)</span>. Proc. 12th European Conf. on Object-Oriented Programming (ECOOP). Lecture Notes in Computer Science. pp. 355–382. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2FBFb0054099" rel="nofollow">10.1007/BFb0054099</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-540-64737-9" title="Special:BookSources/978-3-540-64737-9">978-3-540-64737-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.aufirst=Leonid&amp;rft.aulast=Mikhajlov&amp;rft.au=Sekerinski%2C+Emil&amp;rft.btitle=A+study+of+the+fragile+base+class+problem&amp;rft.date=1998&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fextras.springer.com%2F2000%2F978-3-540-67660-7%2Fpapers%2F1445%2F14450355.pdf&amp;rft_id=info%3Adoi%2F10.1007%2FBFb0054099&amp;rft.isbn=978-3-540-64737-9&amp;rft.pages=355-382&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation conference">Tempero, Ewan; Yang, Hong Yul; Noble, James (2013). <a class="external text" href="https://www.cs.auckland.ac.nz/~ewan/qualitas/studies/inheritance/TemperoYangNobleECOOP2013-pre.pdf" rel="nofollow"><i>What programmers do with inheritance in Java</i></a> <span style="font-size:85%;">(PDF)</span>. ECOOP 2013–Object-Oriented Programming. pp. 577–601.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.aufirst=Ewan&amp;rft.aulast=Tempero&amp;rft.au=Noble%2C+James&amp;rft.au=Yang%2C+Hong+Yul&amp;rft.btitle=What+programmers+do+with+inheritance+in+Java&amp;rft.date=2013&amp;rft.genre=conference&amp;rft_id=https%3A%2F%2Fwww.cs.auckland.ac.nz%2F~ewan%2Fqualitas%2Fstudies%2Finheritance%2FTemperoYangNobleECOOP2013-pre.pdf&amp;rft.pages=577-601&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Bjarne_Stroustrup" title="Bjarne Stroustrup">Bjarne Stroustrup</a>. <i>The Design and Evolution of C++</i>. p. 417.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=Bjarne+Stroustrup&amp;rft.btitle=The+Design+and+Evolution+of+C%2B%2B&amp;rft.genre=book&amp;rft.pages=417&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Herbert_Schildt" title="Herbert Schildt">Herbert Schildt</a> (2003). <i>The complete reference C++</i>. Tata McGrawhill Education Private Limited. p. 417. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-07-053246-X" title="Special:BookSources/0-07-053246-X">0-07-053246-X</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=Herbert+Schildt&amp;rft.btitle=The+complete+reference+C%2B%2B&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=0-07-053246-X&amp;rft.pages=417&amp;rft.pub=Tata+McGrawhill+Education+Private+Limited&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/E._Balagurusamy" title="E. Balagurusamy">E Balagurusamy</a> (2010). <i>Object Orientedprogramming With C++</i>. Tata McGrawhill Education Pvt. Ltd. p. 213. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-07-066907-4" title="Special:BookSources/0-07-066907-4">0-07-066907-4</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=E+Balagurusamy&amp;rft.btitle=Object+Orientedprogramming+With+C%2B%2B&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=0-07-066907-4&amp;rft.pages=213&amp;rft.pub=Tata+McGrawhill+Education+Pvt.+Ltd.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a class="external free" href="http://msdn.microsoft.com/en-us/library/ebca9ah3.aspx" rel="nofollow">http://msdn.microsoft.com/en-us/library/ebca9ah3.aspx</a> override(C# Reference)</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.gotw.ca/gotw/060.htm" rel="nofollow">"GotW #60: Exception-Safe Class Design, Part 2: Inheritance"</a>. Gotw.ca<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-08-15</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.btitle=GotW+%2360%3A+Exception-Safe+Class+Design%2C+Part+2%3A+Inheritance&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.gotw.ca%2Fgotw%2F060.htm&amp;rft.pub=Gotw.ca&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation book">Dr. K. R. Venugopal, Rajkumar Buyya (2013). <i>Mastering C++</i>. Tata McGrawhill Education Private Limited. p. 609. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/9781259029943" title="Special:BookSources/9781259029943">9781259029943</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.au=Dr.+K.+R.+Venugopal%2C+Rajkumar+Buyya&amp;rft.btitle=Mastering+C%2B%2B&amp;rft.date=2013&amp;rft.genre=book&amp;rft.isbn=9781259029943&amp;rft.pages=609&amp;rft.pub=Tata+McGrawhill+Education+Private+Limited&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-FOOTNOTECookHillCanning1990-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTECookHillCanning1990_14-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFCookHillCanning1990">Cook, Hill &amp; Canning 1990</a>.</span></li>
+<li id="cite_note-Mitchell2002-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-Mitchell2002_15-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/John_C._Mitchell" title="John C. Mitchell">Mitchell, John</a> (2002). "10 "Concepts in object-oriented languages<span style="padding-right:0.2em;">"</span>". <i>Concepts in programming language</i>. Cambridge, UK: Cambridge University Press. p. 287. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-521-78098-5" title="Special:BookSources/0-521-78098-5">0-521-78098-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.atitle=10+%22Concepts+in+object-oriented+languages%22&amp;rft.aufirst=John&amp;rft.aulast=Mitchell&amp;rft.btitle=Concepts+in+programming+language&amp;rft.date=2002&amp;rft.genre=bookitem&amp;rft.isbn=0-521-78098-5&amp;rft.pages=287&amp;rft.place=Cambridge%2C+UK&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-holub-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-holub_16-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-holub_16-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-holub_16-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a href="/wiki/Allen_Holub" title="Allen Holub">Holub, Allen</a> (1 August 2003). <a class="external text" href="http://www.javaworld.com/article/2073649/core-java/why-extends-is-evil.html" rel="nofollow">"Why extends is evil"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">10 March</span> 2015</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.aufirst=Allen&amp;rft.aulast=Holub&amp;rft.btitle=Why+extends+is+evil&amp;rft.date=2003-08-01&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.javaworld.com%2Farticle%2F2073649%2Fcore-java%2Fwhy-extends-is-evil.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation journal">Seiter, Linda M.; Palsberg, Jens; Lieberherr, Karl J. (1996). <a class="external text" href="http://www.ccs.neu.edu/research/demeter/papers/context-journal/_context.html" rel="nofollow">"Evolution of object behavior using context relations"</a>. <i>ACM SIGSOFT Software Engineering Notes</i>. <b>21</b> (6): 46. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F250707.239108" rel="nofollow">10.1145/250707.239108</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5053" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.36<wbr></wbr>.5053</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.atitle=Evolution+of+object+behavior+using+context+relations&amp;rft.aufirst=Linda+M.&amp;rft.aulast=Seiter&amp;rft.au=Lieberherr%2C+Karl+J.&amp;rft.au=Palsberg%2C+Jens&amp;rft.date=1996&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.ccs.neu.edu%2Fresearch%2Fdemeter%2Fpapers%2Fcontext-journal%2F_context.html&amp;rft_id=info%3Adoi%2F10.1145%2F250707.239108&amp;rft.issue=6&amp;rft.jtitle=ACM+SIGSOFT+Software+Engineering+Notes&amp;rft.pages=46&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=21"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation conference">America, Pierre (1991). <a class="external text" href="http://www.researchgate.net/profile/Pierre_America/publication/221501695_Designing_an_Object-Oriented_Programming_Language_with_Behavioural_Subtyping/links/00b7d52e0f188abba4000000.pdf" rel="nofollow"><i>Designing an object-oriented programming language with behavioural subtyping</i></a> <span style="font-size:85%;">(PDF)</span>. REX School/Workshop on the Foundations of Object-Oriented Languages. Lecture Notes in Computer Science. pp. 60–90. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2FBFb0019440" rel="nofollow">10.1007/BFb0019440</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-540-53931-5" title="Special:BookSources/978-3-540-53931-5">978-3-540-53931-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInheritance+%28object-oriented+programming%29&amp;rft.aufirst=Pierre&amp;rft.aulast=America&amp;rft.btitle=Designing+an+object-oriented+programming+language+with+behavioural+subtyping&amp;rft.date=1991&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.researchgate.net%2Fprofile%2FPierre_America%2Fpublication%2F221501695_Designing_an_Object-Oriented_Programming_Language_with_Behavioural_Subtyping%2Flinks%2F00b7d52e0f188abba4000000.pdf&amp;rft_id=info%3Adoi%2F10.1007%2FBFb0019440&amp;rft.isbn=978-3-540-53931-5&amp;rft.pages=60-90&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit&amp;section=16" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Object-Oriented Software Construction<i>, Second Edition, by <a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a>, Prentice Hall, 1997, <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0136291554">ISBN 0-13-629155-4</a>, Chapter 24: Using Inheritance Well.</i></li>
+</ul>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Authority_File" title="Integrated Authority File">GND</a>: <span class="uid"><a class="external text" href="http://d-nb.info/gnd/4277478-0" rel="nofollow">4277478-0</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2617746-0!*!0!!en!4!* and timestamp 20160928064417 and revision id 741555732
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Inheritance_(object-oriented_programming)&amp;oldid=741555732">https://en.wikipedia.org/w/index.php?title=Inheritance_(object-oriented_programming)&amp;oldid=741555732</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Object-oriented_programming" title="Category:Object-oriented programming">Object-oriented programming</a></li><li><a href="/wiki/Category:Type_systems" title="Category:Type systems">Type systems</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_expert_attention_with_no_reason_or_talk_parameter" title="Category:Articles needing expert attention with no reason or talk parameter">Articles needing expert attention with no reason or talk parameter</a></li><li><a href="/wiki/Category:Articles_needing_expert_attention_from_August_2009" title="Category:Articles needing expert attention from August 2009">Articles needing expert attention from August 2009</a></li><li><a href="/wiki/Category:All_articles_needing_expert_attention" title="Category:All articles needing expert attention">All articles needing expert attention</a></li><li><a href="/wiki/Category:Computer_science_articles_needing_expert_attention" title="Category:Computer science articles needing expert attention">Computer science articles needing expert attention</a></li><li><a href="/wiki/Category:Articles_needing_cleanup_from_April_2015" title="Category:Articles needing cleanup from April 2015">Articles needing cleanup from April 2015</a></li><li><a href="/wiki/Category:All_articles_needing_cleanup" title="Category:All articles needing cleanup">All articles needing cleanup</a></li><li><a href="/wiki/Category:Cleanup_tagged_articles_with_a_reason_field_from_April_2015" title="Category:Cleanup tagged articles with a reason field from April 2015">Cleanup tagged articles with a reason field from April 2015</a></li><li><a href="/wiki/Category:Wikipedia_pages_needing_cleanup_from_April_2015" title="Category:Wikipedia pages needing cleanup from April 2015">Wikipedia pages needing cleanup from April 2015</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_November_2009" title="Category:Articles with unsourced statements from November 2009">Articles with unsourced statements from November 2009</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_May_2012" title="Category:Articles with unsourced statements from May 2012">Articles with unsourced statements from May 2012</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2016" title="Category:Articles with unsourced statements from February 2016">Articles with unsourced statements from February 2016</a></li><li><a href="/wiki/Category:All_articles_with_specifically_marked_weasel-worded_phrases" title="Category:All articles with specifically marked weasel-worded phrases">All articles with specifically marked weasel-worded phrases</a></li><li><a href="/wiki/Category:Articles_with_specifically_marked_weasel-worded_phrases_from_July_2015" title="Category:Articles with specifically marked weasel-worded phrases from July 2015">Articles with specifically marked weasel-worded phrases from July 2015</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_July_2015" title="Category:Articles with unsourced statements from July 2015">Articles with unsourced statements from July 2015</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Inheritance+%28object-oriented+programming%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Inheritance+%28object-oriented+programming%29" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Inheritance_(object-oriented_programming)" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Inheritance_(object-oriented_programming)" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Inheritance_(object-oriented_programming)">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Inheritance_(object-oriented_programming)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Inheritance_(object-oriented_programming)" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;oldid=741555732" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q212542" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Inheritance_%28object-oriented_programming%29&amp;id=741555732" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Inheritance+%28object-oriented+programming%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Inheritance+%28object-oriented+programming%29&amp;returnto=Inheritance+%28object-oriented+programming%29&amp;oldid=741555732&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Inheritance_(object-oriented_programming)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%88%D8%B1%D8%A7%D8%AB%D8%A9_(%D8%AD%D9%88%D8%B3%D8%A8%D8%A9)" hreflang="ar" lang="ar" title="وراثة (حوسبة) – Arabic">العربية</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B0%D0%B4%D0%BA%D0%B0%D0%B2%D0%B0%D0%BD%D1%8C%D0%BD%D0%B5_(%D0%BF%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B2%D0%B0%D0%BD%D1%8C%D0%BD%D0%B5)" hreflang="be-x-old" lang="be-x-old" title="Спадкаваньне (праграмаваньне) – беларуская (тарашкевіца)‎">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Ra%C4%8Dunarsko_nasljedstvo" hreflang="bs" lang="bs" title="Računarsko nasljedstvo – Bosnian">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Her%C3%A8ncia_(programaci%C3%B3)" hreflang="ca" lang="ca" title="Herència (programació) – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/D%C4%9Bdi%C4%8Dnost_(objektov%C4%9B_orientovan%C3%A9_programov%C3%A1n%C3%AD)" hreflang="cs" lang="cs" title="Dědičnost (objektově orientované programování) – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de badge-Q17437798 badge-goodarticle" title="good article"><a href="https://de.wikipedia.org/wiki/Vererbung_(Programmierung)" hreflang="de" lang="de" title="Vererbung (Programmierung) – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Herencia_(inform%C3%A1tica)" hreflang="es" lang="es" title="Herencia (informática) – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%88%D8%B1%D8%A7%D8%AB%D8%AA_(%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C_%D8%B4%DB%8C%D8%A1%DA%AF%D8%B1%D8%A7)" hreflang="fa" lang="fa" title="وراثت (برنامه‌نویسی شیءگرا) – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/H%C3%A9ritage_(informatique)" hreflang="fr" lang="fr" title="Héritage (informatique) – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%83%81%EC%86%8D_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)" hreflang="ko" lang="ko" title="상속 (객체 지향 프로그래밍) – Korean">한국어</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BA%D5%A1%D5%BC%D5%A1%D5%B6%D5%A3%D5%B8%D6%82%D5%B4_(%D5%AE%D6%80%D5%A1%D5%A3%D6%80%D5%A1%D5%BE%D5%B8%D6%80%D5%B8%D6%82%D5%B4)" hreflang="hy" lang="hy" title="Ժառանգում (ծրագրավորում) – Armenian">Հայերեն</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE_(%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8)" hreflang="hi" lang="hi" title="वंशानुक्रम (कंप्यूटर विज्ञान) – Hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Erf%C3%B0ir_(forritun)" hreflang="is" lang="is" title="Erfðir (forritun) – Icelandic">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Ereditariet%C3%A0_(informatica)" hreflang="it" lang="it" title="Ereditarietà (informatica) – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%A9%D7%94_(%D7%AA%D7%9B%D7%A0%D7%95%D7%AA)" hreflang="he" lang="he" title="ירושה (תכנות) – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%94%E1%83%9B%E1%83%99%E1%83%95%E1%83%98%E1%83%93%E1%83%A0%E1%83%94%E1%83%9D%E1%83%91%E1%83%90_(%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%92%E1%83%A0%E1%83%90%E1%83%9B%E1%83%98%E1%83%A0%E1%83%94%E1%83%91%E1%83%90)" hreflang="ka" lang="ka" title="მემკვიდრეობა (პროგრამირება) – Georgian">ქართული</a></li><li class="interlanguage-link interwiki-ltg"><a href="https://ltg.wikipedia.org/wiki/B%C4%93rnaklase" hreflang="ltg" lang="ltg" title="Bērnaklase – Latgalian">Latgaļu</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Paveld%C4%97jimas_(programavimas)" hreflang="lt" lang="lt" title="Paveldėjimas (programavimas) – Lithuanian">Lietuvių</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Pewarisan_(pengaturcaraan_berorientasi_objek)" hreflang="ms" lang="ms" title="Pewarisan (pengaturcaraan berorientasi objek) – Malay">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Overerving_(informatica)" hreflang="nl" lang="nl" title="Overerving (informatica) – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%B6%99%E6%89%BF_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0)" hreflang="ja" lang="ja" title="継承 (プログラミング) – Japanese">日本語</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Arv_i_programmering" hreflang="nn" lang="nn" title="Arv i programmering – Norwegian Nynorsk">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Dziedziczenie_(programowanie)" hreflang="pl" lang="pl" title="Dziedziczenie (programowanie) – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Heran%C3%A7a_(programa%C3%A7%C3%A3o)" hreflang="pt" lang="pt" title="Herança (programação) – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)" hreflang="ru" lang="ru" title="Наследование (программирование) – Russian">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Inheritance_(computer_science)" hreflang="simple" lang="simple" title="Inheritance (computer science) – Simple English">Simple English</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D1%92%D0%B8%D0%B2%D0%B0%D1%9A%D0%B5_(%D0%BE%D0%B1%D1%98%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D1%98%D0%B5%D0%BD%D1%82%D0%B8%D1%81%D0%B0%D0%BD%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D1%9A%D0%B5)" hreflang="sr" lang="sr" title="Наслеђивање (објектно-оријентисано програмирање) – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Perint%C3%A4_(ohjelmointi)" hreflang="fi" lang="fi" title="Perintä (ohjelmointi) – Finnish">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Arv_(programmering)" hreflang="sv" lang="sv" title="Arv (programmering) – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%B0%E0%AE%AA%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D%E0%AE%AA%E0%AF%81_(%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A9%E0%AE%BF%E0%AE%AF%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D)" hreflang="ta" lang="ta" title="மரபியல்பு (கணினியியல்) – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Kal%C4%B1t%C4%B1m_(programlama)" hreflang="tr" lang="tr" title="Kalıtım (programlama) – Turkish">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A3%D1%81%D0%BF%D0%B0%D0%B4%D0%BA%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)" hreflang="uk" lang="uk" title="Успадкування (програмування) – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/K%E1%BA%BF_th%E1%BB%ABa_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" hreflang="vi" lang="vi" title="Kế thừa (khoa học máy tính) – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%BB%A7%E6%89%BF_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)" hreflang="zh" lang="zh" title="继承 (计算机科学) – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q212542#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 28 September 2016, at 06:44.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Inheritance_(object-oriented_programming)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.648",
+            "walltime": "0.860",
+            "ppvisitednodes": {
+                "value": 2371,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 53818,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 5350,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 15,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 12,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  771.509      1 -total",
+                " 36.54%  281.883      2 Template:Reflist",
+                " 21.35%  164.708      5 Template:Fix",
+                " 16.58%  127.900      3 Template:Citation_needed",
+                " 14.13%  108.985      5 Template:Delink",
+                " 12.46%   96.155      6 Template:Cite_book",
+                "  9.55%   73.643     11 Template:Category_handler",
+                "  9.50%   73.271      1 Template:Expert-subject",
+                "  7.41%   57.204      4 Template:Cite_conference",
+                "  6.04%   46.621      1 Template:Cleanup"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.333",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 5597402,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1201",
+            "timestamp": "20160928064405",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":153,"wgHostname":"mw1273"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,499 @@
+The following page is located at the url: https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="pt">
+<head>
+<meta charset="utf-8"/>
+<title>Padrão de projeto de software – Wikipédia, a enciclopédia livre</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Padrão_de_projeto_de_software","wgTitle":"Padrão de projeto de software","wgCurRevisionId":46678378,"wgRevisionId":46678378,"wgArticleId":28790,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Palavras que diferem em versões da língua portuguesa","Programação orientada a objetos","Padrões de projeto de software"],"wgBreakFrames":false,"wgPageContentLanguage":"pt","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],"wgMonthNamesShort":["","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],"wgRelevantPageName":"Padrão_de_projeto_de_software","wgRelevantArticleId":28790,"wgRequestId":"V-DqUQpAAEAAARRg06gAAABU","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"pt","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"pt","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"português","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q181156","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"pt"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=pt&amp;modules=ext.cite.styles%7Cext.gadget.ElementosOcultaveis%2CEnhancedSearch%2CFeedbackHighlight%2CMetacaixa%2CNewVillagePump%2CPagesForDeletion%2CReferenceTooltips%2CTitleRewrite%2CTopicon%2CWikiMiniAtlas%2Ccharinsert%2Cwikibugs%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=pt&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=pt&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/pt.m.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" rel="alternate"/>
+<link href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit" rel="alternate" title="Editar" type="application/x-wiki"/>
+<link href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit" rel="edit" title="Editar"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (pt)" type="application/opensearchdescription+xml"/>
+<link href="//pt.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Padrão_de_projeto_de_software rootpage-Padrão_de_projeto_de_software skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="pt">Padrão de projeto de software</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">Origem: Wikipédia, a enciclopédia livre.</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Ir para:					<a href="#mw-head">navegação</a>, 					<a href="#p-search">pesquisa</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="pt"><table cellpadding="0" cellspacing="5" class="vertical-navbox nowraplinks" style="float:right;clear:right;width:13em;;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;text-align:left;">
+<tr>
+<th class="" style="padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;background-color:#ccccff;"><a href="/wiki/Orienta%C3%A7%C3%A3o_a_objetos" title="Orientação a objetos">Orientação a objetos</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Objeto_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)" title="Objeto (ciência da computação)">Objeto</a> / <a href="/wiki/Inst%C3%A2ncia_(classe)" title="Instância (classe)">Instância</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Classe_(programa%C3%A7%C3%A3o)" title="Classe (programação)">Classe</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Abstra%C3%A7%C3%A3o_(programa%C3%A7%C3%A3o)" title="Abstração (programação)">Abstração</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Atributo_(programa%C3%A7%C3%A3o)" title="Atributo (programação)">Atributo</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/M%C3%A9todo_(programa%C3%A7%C3%A3o)" title="Método (programação)">Métodos</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Mensagem_(programa%C3%A7%C3%A3o)" title="Mensagem (programação)">Mensagem</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Encapsulamento" title="Encapsulamento">Encapsulamento</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Heran%C3%A7a_(programa%C3%A7%C3%A3o)" title="Herança (programação)">Herança</a> / <a href="/wiki/Heran%C3%A7a_m%C3%BAltipla" title="Herança múltipla">Herança múltipla</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Associa%C3%A7%C3%A3o_(programa%C3%A7%C3%A3o)" title="Associação (programação)">Associação</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Polimorfismo" title="Polimorfismo">Polimorfismo</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Interface_(programa%C3%A7%C3%A3o_orientada_a_objetos)" title="Interface (programação orientada a objetos)">Interface</a></td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;background-color:#ccccff;;">Outras referências</th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Paradigma_de_programa%C3%A7%C3%A3o" title="Paradigma de programação">Paradigma de programação</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a class="mw-redirect" href="/wiki/Padr%C3%B5es_de_projeto_de_software" title="Padrões de projeto de software">Padrões de projeto</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/UML" title="UML">UML</a> / <a href="/wiki/IBM_Rational_Unified_Process" title="IBM Rational Unified Process">RUP</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; ;"><a href="/wiki/Engenharia_de_software_orientado_a_objetos" title="Engenharia de software orientado a objetos">Engenharia OO</a></td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;">
+<div class="noprint plainlinksneverexpand navbar plainlinks" style="background:none; padding:0; font-weight:normal;; font-size:xx-small;"><a class="new" href="/w/index.php?title=Predefini%C3%A7%C3%A3o:Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;redlink=1" title="Predefinição:Padrão de projeto de software (página não existe)"><span style="" title="Ver esta predefinição">v</span></a> <span style="font-size:80%;">•</span> <a class="external text" href="//pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Padr%C3%A3o_de_projeto_de_software&amp;action=edit"><span style=";" title="Editar esta predefinição">e</span></a></div>
+</td>
+</tr>
+</table>
+<p>Em <a href="/wiki/Engenharia_de_software" title="Engenharia de software">engenharia de software</a>, um <span class="no-conversion"><b><span lang="pt-pt" xml:lang="pt-pt">padrão de desenho</span></b> <sup>(<a href="/wiki/Portugu%C3%AAs_europeu" title="Português europeu">português europeu</a>)</sup> ou <b><span lang="pt-br" xml:lang="pt-br">padrão de projeto</span></b> <sup>(<a href="/wiki/Portugu%C3%AAs_brasileiro" title="Português brasileiro">português brasileiro</a>)</sup></span> (do inglês <b>design pattern</b>) é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto no <a href="/wiki/Projeto_de_software" title="Projeto de software">projeto de software</a>. Um padrão de projeto não é um projeto finalizado que pode ser diretamente transformado em código <a class="mw-redirect" href="/wiki/C%C3%B3digo_fonte" title="Código fonte">fonte</a> ou de <a href="/wiki/C%C3%B3digo_de_m%C3%A1quina" title="Código de máquina">máquina</a>, ele é uma descrição ou modelo (<i>template</i>) de como resolver um problema que pode ser usado em muitas situações diferentes. Padrões são <a href="/wiki/Boas_pr%C3%A1ticas" title="Boas práticas">melhores práticas</a> formalizadas que o programador pode usar para resolver problemas comuns quando projetar uma aplicação ou sistema. Padrões de projeto <a class="mw-redirect" href="/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos" title="Programação orientada a objetos">orientados a objeto</a> normalmente mostram relacionamentos e <a href="/wiki/Intera%C3%A7%C3%A3o" title="Interação">interações</a> entre <a href="/wiki/Classe_(programa%C3%A7%C3%A3o)" title="Classe (programação)">classes</a> ou <a href="/wiki/Objeto_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)" title="Objeto (ciência da computação)">objetos</a>, sem especificar as classes ou objetos da aplicação final que estão envolvidas. Padrões que implicam <a class="mw-redirect" href="/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos" title="Programação orientada a objetos">orientação a objetos</a> ou estado mutável mais geral, não são tão aplicáveis em linguagens de <a href="/wiki/Programa%C3%A7%C3%A3o_funcional" title="Programação funcional">programação funcional</a>.</p>
+<p>Padrões de projeto residem no domínio de módulos e interconexões. Em um nível mais alto há <a class="new" href="/w/index.php?title=Padr%C3%B5es_arquiteturais&amp;action=edit&amp;redlink=1" title="Padrões arquiteturais (página não existe)">padrões arquiteturais</a> que são maiores em escopo, usualmente descrevendo um padrão global seguido por um sistema inteiro.<sup class="reference" id="cite_ref-R.C.Martin_1-0"><a href="#cite_note-R.C.Martin-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>Um padrão de projeto define :</p>
+<ul>
+<li>seu nome,</li>
+<li>o problema,</li>
+<li>quando aplicar esta solução e</li>
+<li>suas consequências.</li>
+</ul>
+<p>Os padrões de projeto :</p>
+<ul>
+<li>visam facilitar a reutilização de soluções de desenho - isto é, soluções na fase de projeto do software - e</li>
+<li>estabelecem um vocabulário comum de desenho, facilitando comunicação, documentação e aprendizado dos sistemas de <i>software</i>.</li>
+</ul>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Índice</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hist.C3.B3ria"><span class="tocnumber">1</span> <span class="toctext">História</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Padr.C3.B5es_GoF_.28.27Gang_of_Four.27.29.3B"><span class="tocnumber">2</span> <span class="toctext">Padrões GoF ('Gang of Four');</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Padr.C3.B5es_de_cria.C3.A7.C3.A3o"><span class="tocnumber">2.1</span> <span class="toctext">Padrões de criação</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Padr.C3.B5es_estruturais"><span class="tocnumber">2.2</span> <span class="toctext">Padrões estruturais</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Padr.C3.B5es_comportamentais"><span class="tocnumber">2.3</span> <span class="toctext">Padrões comportamentais</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Padr.C3.B5es_GRASP"><span class="tocnumber">3</span> <span class="toctext">Padrões GRASP</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Padr.C3.B5es"><span class="tocnumber">3.1</span> <span class="toctext">Padrões</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Cr.C3.ADticas"><span class="tocnumber">4</span> <span class="toctext">Críticas</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Bibliografia"><span class="tocnumber">5</span> <span class="toctext">Bibliografia</span></a></li>
+<li class="toclevel-1"><a href="#Refer.C3.AAncias"><span class="tocnumber">6</span> <span class="toctext">Referências</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Liga.C3.A7.C3.B5es_externas"><span class="tocnumber">7</span> <span class="toctext">Ligações externas</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Hist.C3.B3ria">História</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=1" title="Editar secção: História">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=1" title="Editar secção: História">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><b>Christopher Alexander</b><sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup><sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup><sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> em seus livros (1977/1979) <i>Notes on the Synthesis of Form</i>, <i>The Timeless Way of Building</i> e <i>A Pattern Language</i>, estabelece que um padrão deve ter, idealmente, as seguintes características:</p>
+<ul>
+<li><b>Encapsulamento:</b> um padrão encapsula um problema ou solução bem definida. Ele deve ser independente, específico e formulado de maneira a ficar claro onde ele se aplica.</li>
+<li><b>Generalidade:</b> todo padrão deve permitir a construção de outras realizações a partir deste padrão.</li>
+<li><b>Equilíbrio:</b> quando um padrão é utilizado em uma aplicação, o equilíbrio dá a razão, relacionada com cada uma das restrições envolvidas, para cada passo do projeto. Uma análise racional que envolva uma abstração de dados empíricos, uma observação da aplicação de padrões em artefatos tradicionais, uma série convincente de exemplos e uma análise de soluções ruins ou fracassadas pode ser a forma de encontrar este equilíbrio.</li>
+<li><b>Abstração:</b> os padrões representam abstrações da <a href="/wiki/Empirismo" title="Empirismo">experiência empírica</a> ou do conhecimento cotidiano.</li>
+<li><b>Abertura:</b> um padrão deve permitir a sua extensão para níveis mais baixos de detalhe.</li>
+<li><b>Combinatoriedade:</b> os padrões são relacionados hierarquicamente. Padrões de alto nível podem ser compostos ou relacionados com padrões que endereçam problemas de nível mais baixo.</li>
+</ul>
+<p>Além da definição das características de um padrão, Alexander definiu o formato que a descrição de um padrão deve ter. Ele estabeleceu que um padrão deve ser descrito em cinco partes:</p>
+<ul>
+<li><b>Nome:</b> uma descrição da solução, mais do que do problema ou do contexto.</li>
+<li><b>Exemplo:</b> uma ou mais figuras, diagramas ou descrições que ilustrem um protótipo de aplicação.</li>
+<li><b>Contexto:</b> a descrição das situações sob as quais o padrão se aplica.</li>
+<li><b>Problema:</b> uma descrição das forças e restrições envolvidos e como elas interagem.</li>
+<li><b>Solução:</b> relacionamentos estáticos e regras dinâmicas descrevendo como construir artefatos de acordo com o padrão, freqüentemente citando variações e formas de ajustar a solução segundo as circunstâncias. Inclui referências a outras soluções e o relacionamento com outros padrões de nível mais baixo ou mais alto.</li>
+</ul>
+<p>Em <a href="/wiki/1987" title="1987">1987</a>, a partir dos conceitos criados por Alexander, os <a href="/wiki/Programador" title="Programador">programadores</a> <a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a> e <a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a> propuseram os primeiros padrões de projeto para a área da <a href="/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o" title="Ciência da computação">ciência da computação</a>, os patterns de Alexander procuravam prover uma fonte de ideias provadas para indivíduos e comunidades para serem usadas em construções, mostrando assim o quanto belo, confortável e flexível os ambientes podem ser construídos. Em um trabalho para a conferência <a class="new" href="/w/index.php?title=OOPSLA&amp;action=edit&amp;redlink=1" title="OOPSLA (página não existe)">OOPSLA</a>, eles apresentaram alguns padrões para a construção de janelas na <a href="/wiki/Smalltalk" title="Smalltalk">linguagem Smalltalk</a>.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> Nos anos seguintes Beck, Cunningham e outros seguiram com o desenvolvimento destas ideias.</p>
+<p>O movimento ao redor de padrões de projeto ganhou popularidade com o livro <i><a class="new" href="/w/index.php?title=Design_Patterns:_Elements_of_Reusable_Object-Oriented_Software&amp;action=edit&amp;redlink=1" title="Design Patterns: Elements of Reusable Object-Oriented Software (página não existe)">Design Patterns: Elements of Reusable Object-Oriented Software</a></i>, publicado em <a href="/wiki/1995" title="1995">1995</a>. Os autores desse livro, <a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, <a class="mw-redirect" href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson" title="Ralph Johnson">Ralph Johnson</a> e <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a>, são conhecidos como a "<a class="mw-disambig" href="/wiki/Gangue_dos_quatro" title="Gangue dos quatro">Gangue dos Quatro</a>" (Gang of Four) ou simplesmente "<b>GoF</b>".</p>
+<p>Posteriormente, vários outros livros do estilo foram publicados, merecendo destaque <i>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development</i>, que introduziu um conjunto de padrões conhecidos como <b>GRASP</b> (<i>General Responsibility Assignment Software Patterns</i>).</p>
+<h2><span class="mw-headline" id="Padr.C3.B5es_GoF_.28.27Gang_of_Four.27.29.3B">Padrões GoF ('Gang of Four');</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=2" title="Editar secção: Padrões GoF ('Gang of Four');">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=2" title="Editar secção: Padrões GoF ('Gang of Four');">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Os padrões "GoF" são organizados em 3 famílias :</p>
+<ul>
+<li><b>Padrões de criação</b> : relacionados à criação de objetos</li>
+<li><b>Padrões estruturais</b> : tratam das associações entre classes e objetos.</li>
+<li><b>Padrões comportamentais</b> : tratam das interações e divisões de responsabilidades entre as classes ou objetos.</li>
+</ul>
+<p>Padrões "GoF" organizados nas suas 3 famílias:</p>
+<h3><span class="mw-headline" id="Padr.C3.B5es_de_cria.C3.A7.C3.A3o">Padrões de criação</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=3" title="Editar secção: Padrões de criação">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=3" title="Editar secção: Padrões de criação">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references" style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><i><a href="/wiki/Abstract_Factory" title="Abstract Factory">Abstract Factory</a></i></li>
+<li><i><a href="/wiki/Builder" title="Builder">Builder</a></i></li>
+<li><i><a href="/wiki/Factory_Method" title="Factory Method">Factory Method</a></i></li>
+<li><i><a href="/wiki/Prototype" title="Prototype">Prototype</a></i></li>
+<li><i><a href="/wiki/Singleton" title="Singleton">Singleton</a></i></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Padr.C3.B5es_estruturais">Padrões estruturais</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=4" title="Editar secção: Padrões estruturais">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=4" title="Editar secção: Padrões estruturais">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references" style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><i><a href="/wiki/Adapter" title="Adapter">Adapter</a></i></li>
+<li><i><a href="/wiki/Bridge_(padr%C3%A3o_de_projeto_de_software)" title="Bridge (padrão de projeto de software)">Bridge</a></i></li>
+<li><i><a href="/wiki/Composite" title="Composite">Composite</a></i></li>
+<li><i><a href="/wiki/Decorator" title="Decorator">Decorator</a></i></li>
+<li><i><a href="/wiki/Fa%C3%A7ade" title="Façade">Façade</a></i> (ou <i>Facade</i>)</li>
+<li><i><a href="/wiki/Flyweight" title="Flyweight">Flyweight</a></i></li>
+<li><i><a href="/wiki/Proxy_(padr%C3%B5es_de_projeto)" title="Proxy (padrões de projeto)">Proxy</a></i></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Padr.C3.B5es_comportamentais">Padrões comportamentais</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=5" title="Editar secção: Padrões comportamentais">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=5" title="Editar secção: Padrões comportamentais">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references" style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><i><a href="/wiki/Chain_of_Responsibility" title="Chain of Responsibility">Chain of Responsibility</a></i></li>
+<li><i><a href="/wiki/Command" title="Command">Command</a></i></li>
+<li><i><a href="/wiki/Interpreter" title="Interpreter">Interpreter</a></i></li>
+<li><i><a class="mw-redirect" href="/wiki/Iterator" title="Iterator">Iterator</a></i></li>
+<li><i><a href="/wiki/Mediator" title="Mediator">Mediator</a></i></li>
+<li><i><a href="/wiki/Memento_(inform%C3%A1tica)" title="Memento (informática)">Memento</a></i></li>
+<li><i><a href="/wiki/Observer" title="Observer">Observer</a></i></li>
+<li><i><a href="/wiki/State" title="State">State</a></i></li>
+<li><i><a href="/wiki/Strategy" title="Strategy">Strategy</a></i></li>
+<li><i><a href="/wiki/Template_Method" title="Template Method">Template Method</a></i></li>
+<li><i><a class="mw-redirect" href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></i></li>
+</ul>
+</div>
+<p>Um padrão "GoF" também é classificado segundo o seu escopo em 2 outros grupos :</p>
+<ul>
+<li><b>Padrões com escopo de classe</b> : definido por relacionamentos de <a href="/wiki/Heran%C3%A7a" title="Herança">herança</a> e em <a href="/wiki/Tempo_de_compila%C3%A7%C3%A3o" title="Tempo de compilação">tempo de compilação</a>.</li>
+<li><b>Padrões com escopo de objeto</b> : encontrados no relacionamento entre os objetos definidos em <a href="/wiki/Tempo_de_execu%C3%A7%C3%A3o" title="Tempo de execução">tempo de execução</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="Padr.C3.B5es_GRASP">Padrões GRASP</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=6" title="Editar secção: Padrões GRASP">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=6" title="Editar secção: Padrões GRASP">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Os padrões GRASP, sigla para <b>General Responsibility Assignment Software Patterns</b> (or <b>Principles</b>), consistem de um conjunto de práticas para atribuição de responsabilidades a classes e objetos em projetos orientados a objeto.</p>
+<p>Os padrões utilizados pelo GRASP são: Controlador (Controller), Criador (Creator), Indireção (Indirection), Especialista na informação (Information expert), Alta coesão (High Cohesion), Baixo acoplamento (Loose coupling), Polimorfismo (Polymorphism), Variações protegidas (Protected variations), e Invenção pura (Pure fabrication).</p>
+<p>Todos esses padrões servem para a resolução de problemas comuns e bastante típicos de desenvolvimento de software orientado a objeto. Portanto, tais técnicas apenas documentam e normatizam as práticas já consolidadas, testadas e conhecidas no mercado.</p>
+<p>Os padrões GRASP estão mais como uma ferramenta mental ou uma filosofia de design, mas que ainda assim são úteis para o aprendizado e desenvolvimento de um bom design de software. Note que alguns padrões GoF implementam soluções correspondentes com padrões GRASP.</p>
+<p>A principal obra sobre o assunto foi o livro "Utilizando UML e Padrões" de autoria de Craig Larman.<sup class="reference" id="cite_ref-6"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Padr.C3.B5es">Padrões</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=7" title="Editar secção: Padrões">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=7" title="Editar secção: Padrões">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references" style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><i><a class="new" href="/w/index.php?title=Especialista_na_Informa%C3%A7%C3%A3o&amp;action=edit&amp;redlink=1" title="Especialista na Informação (página não existe)">Especialista na Informação</a></i></li>
+<li><i>Criador</i> (ver <a href="/wiki/Factory_Method" title="Factory Method">Factory Method</a>)</li>
+<li><i>Controlador</i> (ver <a class="mw-redirect" href="/wiki/Model-view-controller" title="Model-view-controller">Model-view-controller</a>)</li>
+<li><i>Acoplamento fraco</i> (ver <a href="/wiki/Acoplamento_(programa%C3%A7%C3%A3o_de_computadores)" title="Acoplamento (programação de computadores)">Acoplamento</a>))</li>
+<li><i>Alta coesão</i> (ver <a class="mw-disambig" href="/wiki/Coes%C3%A3o" title="Coesão">Coesão</a>)</li>
+<li><i><a href="/wiki/Polimorfismo" title="Polimorfismo">Polimorfismo</a></i></li>
+<li><i><a class="new" href="/w/index.php?title=Indire%C3%A7%C3%A3o&amp;action=edit&amp;redlink=1" title="Indireção (página não existe)">Indireção</a></i></li>
+<li><i><a class="new" href="/w/index.php?title=Varia%C3%A7%C3%B5es_Protegidas&amp;action=edit&amp;redlink=1" title="Variações Protegidas (página não existe)">Variações Protegidas</a></i></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="Cr.C3.ADticas">Críticas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=8" title="Editar secção: Críticas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=8" title="Editar secção: Críticas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Segundo alguns usuários, alguns 'Padrões de Projeto' são apenas evidências de que alguns recursos estão ausentes em uma determinada linguagem de programação (<a href="/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" title="Java (linguagem de programação)">Java</a> ou <a href="/wiki/C%2B%2B" title="C++">C++</a> por exemplo). Nesta linha, Peter Norvig demonstra que 16 dos 23 padrões do livro 'Design Patterns' são simplificados ou eliminados nas linguagens Lisp ou Dylan, usando os recursos diretos destas linguagens.<sup class="reference" id="cite_ref-Norvig1998_7-0"><a href="#cite_note-Norvig1998-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>Segundo outros, excessos nas tentativas de fazer o código se conformar aos 'Padrões de Projeto' aumentam desnecessariamente a sua complexidade.<sup class="reference" id="cite_ref-CodeComplete2_8-0"><a href="#cite_note-CodeComplete2-8"><span>[</span>8<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Bibliografia">Bibliografia</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=9" title="Editar secção: Bibliografia">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=9" title="Editar secção: Bibliografia">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><cite class="citation book">Christopher Alexander (1964). <i>Notes on the Synthesis of Form</i> (Estados Unidos: Harvard University Press). <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-674-62751-2" title="Especial:Fontes de livros/0-674-62751-2">0-674-62751-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Christopher+Alexander&amp;rft.btitle=Notes+on+the+Synthesis+of+Form&amp;rft.date=1964&amp;rft.genre=book&amp;rft.isbn=0-674-62751-2&amp;rft.place=Estados+Unidos&amp;rft.pub=Harvard+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Christopher Alexander (1979). <i>The Timeless Way of Building</i> (Estados Unidos: Oxford University Press). <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-19-502402-8" title="Especial:Fontes de livros/0-19-502402-8">0-19-502402-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Christopher+Alexander&amp;rft.btitle=The+Timeless+Way+of+Building&amp;rft.date=1979&amp;rft.genre=book&amp;rft.isbn=0-19-502402-8&amp;rft.place=Estados+Unidos&amp;rft.pub=Oxford+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Christopher Alexander (1977). <i>A Pattern Language</i> (Estados Unidos: Oxford University Press). <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-19-501919-9" title="Especial:Fontes de livros/0-19-501919-9">0-19-501919-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Christopher+Alexander&amp;rft.btitle=A+Pattern+Language&amp;rft.date=1977&amp;rft.genre=book&amp;rft.isbn=0-19-501919-9&amp;rft.place=Estados+Unidos&amp;rft.pub=Oxford+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Craig Larman (2004). <i>Applying UML and Patterns</i>. An Introduction to Object-Oriented Analysis and Design and Iterative Development 1 ed. (Estados Unidos: Prentice Hall). p. 736. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-13-148906-2" title="Especial:Fontes de livros/0-13-148906-2">0-13-148906-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Craig+Larman&amp;rft.btitle=Applying+UML+and+Patterns&amp;rft.date=2004&amp;rft.edition=1&amp;rft.genre=book&amp;rft.isbn=0-13-148906-2&amp;rft.pages=736&amp;rft.place=Estados+Unidos&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Gregor Hohpe, Bobby Woolf (2004). <i>Enterprise Integration Patterns</i>. Designing, Building, And Deploying Messaging Solutions 1 ed. (Estados Unidos: Addinson-Wesley). p. 659. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-321-20068-3" title="Especial:Fontes de livros/0-321-20068-3">0-321-20068-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Gregor+Hohpe%2C+Bobby+Woolf&amp;rft.btitle=Enterprise+Integration+Patterns&amp;rft.date=2004&amp;rft.edition=1&amp;rft.genre=book&amp;rft.isbn=0-321-20068-3&amp;rft.pages=659&amp;rft.place=Estados+Unidos&amp;rft.pub=Addinson-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Pablo Dall'Oglio (2007). <a class="external text" href="http://www.adianti.com.br/phpoo" rel="nofollow"><i>PHP Programando com Orientação a Objetos</i></a>. Inclui Design Patterns 1 ed. (São Paulo: Novatec). p. 576. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/978-85-7522-137-2" title="Especial:Fontes de livros/978-85-7522-137-2">978-85-7522-137-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Pablo+Dall%27Oglio&amp;rft.btitle=PHP+Programando+com+Orienta%C3%A7%C3%A3o+a+Objetos&amp;rft.date=2007&amp;rft.edition=1&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.adianti.com.br%2Fphpoo&amp;rft.isbn=978-85-7522-137-2&amp;rft.pages=576&amp;rft.place=S%C3%A3o+Paulo&amp;rft.pub=Novatec&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Alexandre Altair de Melo e Mauricio G. F. Nascimento (2007). <a class="external text" href="http://www.novatec.com.br/livros/phppro" rel="nofollow"><i>PHP Profissional</i></a>. Aprenda a desenvolver sistemas profissionais orientados a objetos com padrões de projeto 1 ed. (São Paulo: Novatec). p. 464. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/978-85-7522-141-9" title="Especial:Fontes de livros/978-85-7522-141-9">978-85-7522-141-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Alexandre+Altair+de+Melo+e+Mauricio+G.+F.+Nascimento&amp;rft.btitle=PHP+Profissional&amp;rft.date=2007&amp;rft.edition=1&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.novatec.com.br%2Flivros%2Fphppro&amp;rft.isbn=978-85-7522-141-9&amp;rft.pages=464&amp;rft.place=S%C3%A3o+Paulo&amp;rft.pub=Novatec&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+<h2 style="cursor: help;" title="Esta seção foi configurada para não ser editável diretamente. Edite a página toda ou a seção anterior em vez disso."><span class="mw-headline" id="Refer.C3.AAncias">Referências</span></h2>
+<div class="reflist references-small" style="">
+<ol class="references">
+<li id="cite_note-R.C.Martin-1"><span class="mw-cite-backlink"><a href="#cite_ref-R.C.Martin_1-0">↑</a></span> <span class="reference-text"><cite class="citation web"><a class="new" href="/w/index.php?title=Robert_C._Martin&amp;action=edit&amp;redlink=1" title="Robert C. Martin (página não existe)">Martin, Robert C.</a> <a class="external text" href="http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf" rel="nofollow">«Princípios de Projeto e Padrões de Projeto»</a> <span style="font-size:85%;">(PDF)</span><span class="reference-accessdate">. Consultado em 2000</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.aufirst=Robert+C.&amp;rft.aulast=Martin&amp;rft.btitle=Princ%C3+pios+de+Projeto+e+Padr%C3%B5es+de+Projeto&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.objectmentor.com%2Fresources%2Farticles%2FPrinciples_and_Patterns.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">OS CONCEITOS de padrão de projeto foi criado na <a href="/wiki/D%C3%A9cada_de_1970" title="Década de 1970">década de 70</a> pelo arquitecto <a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a>.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a>, <a class="mw-redirect" href="/wiki/Richard_Helm" title="Richard Helm">Richard Helm</a>, <a href="/wiki/Ralph_Johnson" title="Ralph Johnson">Ralph Johnson</a>, <a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a> (1995). <i>Design Patterns</i>. Elements of Reusable Object-Oriented Software 1 ed. (<a href="/wiki/Estados_Unidos" title="Estados Unidos">Estados Unidos</a>: Addison-Wesley). <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Especial:Fontes_de_livros/0-201-63361-2" title="Especial:Fontes de livros/0-201-63361-2">0-201-63361-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Erich+Gamma%2C+Richard+Helm%2C+Ralph+Johnson%2C+John+Vlissides&amp;rft.btitle=Design+Patterns&amp;rft.date=1995&amp;rft.edition=1&amp;rft.genre=book&amp;rft.isbn=0-201-63361-2&amp;rft.place=Estados+Unidos&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><cite class="citation web">Doug Lea. <a class="external text" href="http://g.oswego.edu/dl/ca/ca/ca.html" rel="nofollow">«Christopher Alexander:An Introduction for Object-Oriented Designers»</a> (em inglês)<span class="reference-accessdate">. Consultado em 18 de abril de 2007</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Doug+Lea&amp;rft.btitle=Christopher+Alexander%3AAn+Introduction+for+Object-Oriented+Designers&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fg.oswego.edu%2Fdl%2Fca%2Fca%2Fca.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><cite class="citation web">Kent Beck, Ward Cunningham. <a class="external text" href="http://c2.com/doc/oopsla87.html" rel="nofollow">«Using Pattern Languages for Object-Oriented Programs»</a> (em inglês)<span class="reference-accessdate">. Consultado em 18 de abril de 2007</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.au=Kent+Beck%2C+Ward+Cunningham&amp;rft.btitle=Using+Pattern+Languages+for+Object-Oriented+Programs&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fc2.com%2Fdoc%2Foopsla87.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">Utilizando UML e Padrões 2ª Edição - Craig Larman</span></li>
+<li id="cite_note-Norvig1998-7"><span class="mw-cite-backlink"><a href="#cite_ref-Norvig1998_7-0">↑</a></span> <span class="reference-text"><cite class="citation conference">Norvig, Peter (1998). <a class="external text" href="http://www.norvig.com/design-patterns/" rel="nofollow"><i>Design Patterns in Dynamic Languages</i></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.aufirst=Peter&amp;rft.aulast=Norvig&amp;rft.btitle=Design+Patterns+in+Dynamic+Languages&amp;rft.date=1998&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fwww.norvig.com%2Fdesign-patterns%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-CodeComplete2-8"><span class="mw-cite-backlink"><a href="#cite_ref-CodeComplete2_8-0">↑</a></span> <span class="reference-text"><cite class="citation book">McConnell, Steve (2004). <i>Code Complete: A Practical Handbook of Software Construction, 2nd Edition</i> [S.l.: s.n.] p. 105.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpt.wikipedia.org%3APadr%C3%A3o+de+projeto+de+software&amp;rft.aufirst=Steve&amp;rft.aulast=McConnell&amp;rft.btitle=Code+Complete%3A+A+Practical+Handbook+of+Software+Construction%2C+2nd+Edition&amp;rft.date=2004&amp;rft.genre=book&amp;rft.pages=105&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Liga.C3.A7.C3.B5es_externas">Ligações externas</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit&amp;vesection=10" title="Editar secção: Ligações externas">editar</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit&amp;section=10" title="Editar secção: Ligações externas">editar código-fonte</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 238px; padding: 5px; spacing: 2px; text-align: center; float: right;">
+<div style="float: left; vertical-align:middle;">
+<div class="floatnone"><a class="image" href="/wiki/Ficheiro:Commons-logo.svg" title="Commons"><img alt="Commons" data-file-height="1376" data-file-width="1024" height="30" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/33px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/44px-Commons-logo.svg.png 2x" width="22"/></a></div>
+</div>
+<div style="margin-left: 30px; line-height:normal; vertical-align:middle;">O <a class="extiw" href="https://commons.wikimedia.org/wiki/P%C3%A1gina_principal" title="commons:Página principal">Commons</a> possui imagens e outras mídias sobre <b><span class="plainlinks"><a class="external text" href="http://commons.wikimedia.org/w/index.php?title=Software+design+patterns&amp;uselang=pt">Padrão de projeto de software</a></span></b></div>
+</div>
+<ul>
+<li><a class="external text" href="http://www.princiweb.com.br/blog/programacao/design-patterns/o-que-sao-design-patterns.html" rel="nofollow">O que são Design Patterns?</a></li>
+<li><a class="external text" href="http://www.mindspring.com/~mgrand/pattern_synopses2.htm" rel="nofollow">Lista de alguns padroes comuns</a> (em <a href="/wiki/L%C3%ADngua_inglesa" title="Língua inglesa">inglês</a>)</li>
+<li><a class="external text" href="http://www.vincehuston.org/dp/" rel="nofollow">Página com descrições e exemplos dos padrões GoF</a> (em <a href="/wiki/L%C3%ADngua_inglesa" title="Língua inglesa">inglês</a>)</li>
+<li><a class="external text" href="http://www.questoex.com/games/gof/" rel="nofollow">Jogo de Memorização Padrões de Projeto - GOF</a> (em <a href="/wiki/L%C3%ADngua_portuguesa" title="Língua portuguesa">português</a>)</li>
+</ul>
+<div style="clear:both;"></div>
+<table class="navbox noprint collapsible autocollapse nowraplinks" style="border-top: solid silver 1px; border-bottom:1px solid silver; margin:auto; background:white;background:white;">
+<tr>
+<th colspan="2" style="text-align:center;width:100%;">
+<div style="float:left; width:6em; vertical-align:middle; text-align:left;">
+<div class="noprint plainlinksneverexpand navbar" style="background:none; padding:0; font-weight:normal;;border:none;; font-size:xx-small;"><a href="/wiki/Predefini%C3%A7%C3%A3o:Padr%C3%B5es_de_projeto" title="Predefinição:Padrões de projeto"><span class="plainlinks" style=";border:none;" title="Ver esta predefinição">v</span></a> <span style="font-size:80%;">•</span> <span class="plainlinks"><a class="external text" href="//pt.wikipedia.org/w/index.php?title=Predefini%C3%A7%C3%A3o:Padr%C3%B5es_de_projeto&amp;action=edit"><span style=";border:none;;" title="Editar esta predefinição">e</span></a></span></div>
+</div>
+<span class="" style="font-size:110%;"><a class="mw-redirect" href="/wiki/Padr%C3%B5es_de_projeto_de_software" title="Padrões de projeto de software">Padrões de projeto de software</a></span></th>
+</tr>
+<tr>
+<th class="" style="white-space:nowrap;background:#ddddff;text-align:right;">Padrões GoF de criação</th>
+<td class="" colspan="1" style="text-align:left;width:100%;font-size:95%;"><a href="/wiki/Abstract_Factory" title="Abstract Factory">Abstract Factory</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Builder" title="Builder">Builder</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Factory_Method" title="Factory Method">Factory Method</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Prototype" title="Prototype">Prototype</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Singleton" title="Singleton">Singleton</a></td>
+</tr>
+<tr>
+<th class="" style="white-space:nowrap;background:#ddddff;text-align:right;">Padrões GoF estruturais</th>
+<td class="" colspan="1" style="text-align:left;width:100%;font-size:95%;background:#f7f7f7;"><a href="/wiki/Adapter" title="Adapter">Adapter</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Bridge_(padr%C3%A3o_de_projeto_de_software)" title="Bridge (padrão de projeto de software)">Bridge</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Composite" title="Composite">Composite</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Decorator" title="Decorator">Decorator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Fa%C3%A7ade" title="Façade">Façade</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Flyweight" title="Flyweight">Flyweight</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Proxy_(padr%C3%B5es_de_projeto)" title="Proxy (padrões de projeto)">Proxy</a></td>
+</tr>
+<tr>
+<th class="" style="white-space:nowrap;background:#ddddff;text-align:right;">Padrões GoF comportamentais</th>
+<td class="" colspan="1" style="text-align:left;width:100%;font-size:95%;"><a href="/wiki/Chain_of_Responsibility" title="Chain of Responsibility">Chain of Responsibility</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Command" title="Command">Command</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Interpreter" title="Interpreter">Interpreter</a><span style="font-weight:bold;"> ·</span> <a class="mw-redirect" href="/wiki/Iterator" title="Iterator">Iterator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Mediator" title="Mediator">Mediator</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Memento_(inform%C3%A1tica)" title="Memento (informática)">Memento</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Observer" title="Observer">Observer</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/State" title="State">State</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Strategy" title="Strategy">Strategy</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Template_Method" title="Template Method">Template Method</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/Visitor_Pattern" title="Visitor Pattern">Visitor Pattern</a></td>
+</tr>
+<tr>
+<th class="" style="white-space:nowrap;background:#ddddff;text-align:right;">Padrões GRASP</th>
+<td class="" colspan="1" style="text-align:left;width:100%;font-size:95%;background:#f7f7f7;"><a class="mw-redirect" href="/wiki/Controller" title="Controller">Controller</a><span style="font-weight:bold;"> ·</span> <a class="mw-disambig" href="/wiki/Creator" title="Creator">Creator</a><span style="font-weight:bold;"> ·</span> <a class="mw-redirect" href="/wiki/Expert_(GRASP)" title="Expert (GRASP)">Expert (GRASP)</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=High_Cohesion&amp;action=edit&amp;redlink=1" title="High Cohesion (página não existe)">High Cohesion</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=Indirection&amp;action=edit&amp;redlink=1" title="Indirection (página não existe)">Indirection</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=Law_of_Demeter&amp;action=edit&amp;redlink=1" title="Law of Demeter (página não existe)">Law of Demeter</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=Low_Coupling&amp;action=edit&amp;redlink=1" title="Low Coupling (página não existe)">Low Coupling</a><span style="font-weight:bold;"> ·</span> <a class="mw-redirect" href="/wiki/Polymorphism" title="Polymorphism">Polymorphism</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=Protected_Variations&amp;action=edit&amp;redlink=1" title="Protected Variations (página não existe)">Protected Variations</a><span style="font-weight:bold;"> ·</span> <a class="new" href="/w/index.php?title=Pure_Fabrication&amp;action=edit&amp;redlink=1" title="Pure Fabrication (página não existe)">Pure Fabrication</a></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center;background:#ddddff;"><small><b><a href="/wiki/Categoria:Padr%C3%B5es_de_projeto_de_software" title="Categoria:Padrões de projeto de software">Categoria: Padrões de projeto de software</a></b></small></td>
+</tr>
+</table>
+<!-- Saved in parser cache with key ptwiki:pcache:idhash:28790-0!*!0!!pt!4!* and timestamp 20160910141140 and revision id 46678378
+ -->
+<noscript><img alt="" height="1" src="//pt.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Obtida de "<a dir="ltr" href="https://pt.wikipedia.org/w/index.php?title=Padrão_de_projeto_de_software&amp;oldid=46678378">https://pt.wikipedia.org/w/index.php?title=Padrão_de_projeto_de_software&amp;oldid=46678378</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Especial:Categorias" title="Especial:Categorias">Categorias</a>: <ul><li><a href="/wiki/Categoria:Programa%C3%A7%C3%A3o_orientada_a_objetos" title="Categoria:Programação orientada a objetos">Programação orientada a objetos</a></li><li><a href="/wiki/Categoria:Padr%C3%B5es_de_projeto_de_software" title="Categoria:Padrões de projeto de software">Padrões de projeto de software</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Categoria oculta: <ul><li><a href="/wiki/Categoria:Palavras_que_diferem_em_vers%C3%B5es_da_l%C3%ADngua_portuguesa" title="Categoria:Palavras que diferem em versões da língua portuguesa">Palavras que diferem em versões da língua portuguesa</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Menu de navegação</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Ferramentas pessoais</h3>
+<ul>
+<li id="pt-anonuserpage">Não autenticado</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Especial:Minha_discuss%C3%A3o" title="Discussão sobre edições feitas a partir deste endereço IP [n]">Discussão</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Especial:Minhas_contribui%C3%A7%C3%B5es" title="Uma lista de edições feitas a partir deste endereço de IP [y]">Contribuições</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Especial:Criar_conta&amp;returnto=Padr%C3%A3o+de+projeto+de+software" title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório">Criar uma conta</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Especial:Entrar&amp;returnto=Padr%C3%A3o+de+projeto+de+software" title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [o]">Entrar</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Domínios</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Padr%C3%A3o_de_projeto_de_software" title="Ver a página de conteúdo [c]">Artigo</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Discuss%C3%A3o:Padr%C3%A3o_de_projeto_de_software" rel="discussion" title="Discussão sobre o conteúdo da página [t]">Discussão</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variantes</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Vistas</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Padr%C3%A3o_de_projeto_de_software">Ler</a></span></li>
+<li id="ca-ve-edit"><span><a accesskey="v" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;veaction=edit" title="Editar esta página [v]">Editar</a></span></li>
+<li class=" collapsible" id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=edit" title="Editar esta página [e]">Editar código-fonte</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=history" title="Edições anteriores desta página. [h]">Ver histórico</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>Mais</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Busca</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Pesquisa" title="Pesquisar na Wikipédia [f]" type="search"/><input name="title" type="hidden" value="Especial:Pesquisar"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Procurar páginas que contêm este texto" type="submit" value="Pesquisar"/><input class="searchButton" id="searchButton" name="go" title="Ir para uma página com este nome exacto, caso exista" type="submit" value="Ir"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navegação</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" title="Visitar a página principal [z]">Página principal</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li><li id="n-currentevents"><a href="/wiki/Portal:Eventos_atuais" title="Informação temática sobre eventos atuais">Eventos atuais</a></li><li id="n-villagepump"><a href="/wiki/Wikip%C3%A9dia:Esplanada">Esplanada</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Especial:Aleat%C3%B3ria" title="Carregar página aleatória [x]">Página aleatória</a></li><li id="n-portals"><a href="/wiki/Portal:%C3%8Dndice">Portais</a></li><li id="n-bug_in_article"><a href="/wiki/Wikip%C3%A9dia:Informe_um_erro">Informar um erro</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Colaboração</h3>
+<div class="body">
+<ul>
+<li id="n-welcome"><a href="/wiki/Wikip%C3%A9dia:Boas-vindas">Boas-vindas</a></li><li id="n-help"><a href="/wiki/Ajuda:P%C3%A1gina_principal" title="Um local reservado para auxílio.">Ajuda</a></li><li id="n-testpage"><a href="/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes">Página de testes</a></li><li id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Portal_comunit%C3%A1rio" title="Sobre o projeto">Portal comunitário</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Especial:Mudan%C3%A7as_recentes" title="Uma lista de mudanças recentes nesta wiki [r]">Mudanças recentes</a></li><li id="n-maintenance"><a href="/wiki/Wikip%C3%A9dia:Manuten%C3%A7%C3%A3o">Manutenção</a></li><li id="n-createpage"><a href="/wiki/Ajuda:Guia_de_edi%C3%A7%C3%A3o/Como_come%C3%A7ar_uma_p%C3%A1gina">Criar página</a></li><li id="n-newpages-description"><a href="/wiki/Especial:P%C3%A1ginas_novas">Páginas novas</a></li><li id="n-contact-description"><a href="/wiki/Wikip%C3%A9dia:Contato">Contato</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=20120521SB001&amp;uselang=pt" title="Ajude-nos">Donativos</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Imprimir/exportar</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=book_creator&amp;referer=Padr%C3%A3o+de+projeto+de+software">Criar um livro</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Especial:Livro&amp;bookcmd=render_article&amp;arttitle=Padr%C3%A3o+de+projeto+de+software&amp;returnto=Padr%C3%A3o+de+projeto+de+software&amp;oldid=46678378&amp;writer=rdf2latex">Descarregar como PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;printable=yes" title="Versão para impressão desta página [p]">Versão para impressão</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">Noutros projetos</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Software_design_patterns" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Ferramentas</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Especial:P%C3%A1ginas_afluentes/Padr%C3%A3o_de_projeto_de_software" title="Lista de todas as páginas que contêm ligações para esta [j]">Páginas afluentes</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Especial:Altera%C3%A7%C3%B5es_relacionadas/Padr%C3%A3o_de_projeto_de_software" title="Mudanças recentes nas páginas para as quais esta contém ligação [k]">Alterações relacionadas</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:Carregar_ficheiro" title="Carregar ficheiros [u]">Carregar ficheiro</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Especial:P%C3%A1ginas_especiais" title="Lista de páginas especiais [q]">Páginas especiais</a></li><li id="t-permalink"><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;oldid=46678378" title="Ligação permanente para esta versão da página">Ligação permanente</a></li><li id="t-info"><a href="/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;action=info" title="Mais informações sobre esta página">Informações da página</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q181156" title="Ligação para o item de repositório de dados conectado [g]">Item no Wikidata</a></li><li id="t-cite"><a href="/w/index.php?title=Especial:Citar&amp;page=Padr%C3%A3o_de_projeto_de_software&amp;id=46678378" title="Informação sobre como citar esta página">Citar esta página</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Noutros idiomas</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-af"><a href="https://af.wikipedia.org/wiki/Ontwerpspatroon_(rekenaarwetenskap)" hreflang="af" lang="af" title="Ontwerpspatroon (rekenaarwetenskap) — africânder">Afrikaans</a></li><li class="interlanguage-link interwiki-als"><a href="https://als.wikipedia.org/wiki/Entwurfsmuster" hreflang="als" lang="als" title="Entwurfsmuster — Alemannisch">Alemannisch</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D9%85%D8%A7%D8%B0%D8%AC_%D8%A7%D9%84%D8%AA%D8%B5%D9%85%D9%8A%D9%85_(%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="نماذج التصميم (هندسة البرمجيات) — árabe">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1u" hreflang="ast" lang="ast" title="Patrón de diseñu — asturiano">Asturianu</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%B7%D0%B0_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD" hreflang="bg" lang="bg" title="Шаблони за дизайн — búlgaro">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Ra%C4%8Dunarska_dizajn_%C5%A1ema" hreflang="bs" lang="bs" title="Računarska dizajn šema — bósnio">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Patr%C3%B3_de_disseny" hreflang="ca" lang="ca" title="Patró de disseny — catalão">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/N%C3%A1vrhov%C3%BD_vzor" hreflang="cs" lang="cs" title="Návrhový vzor — checo">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Design_pattern" hreflang="da" lang="da" title="Design pattern — dinamarquês">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Entwurfsmuster" hreflang="de" lang="de" title="Entwurfsmuster — alemão">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC_%CF%80%CF%81%CF%8C%CF%84%CF%85%CF%80%CE%B1" hreflang="el" lang="el" title="Σχεδιαστικά πρότυπα — grego">Ελληνικά</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Software_design_pattern" hreflang="en" lang="en" title="Software design pattern — inglês">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o" hreflang="es" lang="es" title="Patrón de diseño — espanhol">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%DB%8C_%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C_(%D8%AF%D8%A7%D9%86%D8%B4_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87)" hreflang="fa" lang="fa" title="الگوی طراحی (دانش رایانه) — persa">فارسی</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Suunnittelumalli" hreflang="fi" lang="fi" title="Suunnittelumalli — finlandês">Suomi</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Patron_de_conception" hreflang="fr" lang="fr" title="Patron de conception — francês">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Patr%C3%B3n_de_dese%C3%B1o" hreflang="gl" lang="gl" title="Patrón de deseño — galego">Galego</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%91%D7%A0%D7%99%D7%AA_%D7%A2%D7%99%D7%A6%D7%95%D7%91" hreflang="he" lang="he" title="תבנית עיצוב — hebraico">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%A1%E0%A4%BF%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%87%E0%A4%A8_%E0%A4%AA%E0%A5%88%E0%A4%9F%E0%A4%B0%E0%A5%8D%E0%A4%A8_(%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8)" hreflang="hi" lang="hi" title="डिज़ाइन पैटर्न (कंप्यूटर विज्ञान) — hindi">हिन्दी</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Programtervezési minta — húngaro">Magyar</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%86%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%B4%D5%A1%D5%B6_%D5%B1%D6%87%D5%A1%D5%B6%D5%B4%D5%B8%D6%82%D5%B7%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Նախագծման ձևանմուշներ — arménio">Հայերեն</a></li><li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Patrono_de_designo" hreflang="ia" lang="ia" title="Patrono de designo — interlíngua">Interlingua</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Pola_desain" hreflang="id" lang="id" title="Pola desain — indonésio">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Design_pattern" hreflang="it" lang="it" title="Design pattern — italiano">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)" hreflang="ja" lang="ja" title="デザインパターン (ソフトウェア) — japonês">日本語</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%91%D0%B0%D2%93%D0%B4%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B0%D0%BB%D1%8B%D2%9B_%D0%B6%D0%B0%D1%81%D0%B0%D2%9B%D1%82%D0%B0%D0%BC%D0%B0_%D3%A9%D2%A3%D0%B4%D0%B5%D1%83_%D2%AF%D0%BB%D0%B3%D1%96%D1%81%D1%96" hreflang="kk" lang="kk" title="Бағдарламалық жасақтама өңдеу үлгісі — cazaque">Қазақша</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Projektavimo_pavyzdys" hreflang="lt" lang="lt" title="Projektavimo pavyzdys — lituano">Lietuvių</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Projekt%C4%93%C5%A1anas_%C5%A1ablons" hreflang="lv" lang="lv" title="Projektēšanas šablons — letão">Latviešu</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%A1%E0%B4%BF%E0%B4%B8%E0%B5%88%E0%B5%BB_%E0%B4%AA%E0%B4%BE%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%87%E0%B5%BA_(%E0%B4%95%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%BC_%E0%B4%B6%E0%B4%BE%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82)" hreflang="ml" lang="ml" title="ഡിസൈൻ പാറ്റേൺ (കമ്പ്യൂട്ടർ ശാസ്ത്രം) — malaiala">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Ontwerppatroon" hreflang="nl" lang="nl" title="Ontwerppatroon — holandês">Nederlands</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Designm%C3%B8nster" hreflang="no" lang="no" title="Designmønster — norueguês">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wzorzec_projektowy_(informatyka)" hreflang="pl" lang="pl" title="Wzorzec projektowy (informatyka) — polaco">Polski</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Шаблон проектирования — russo">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Dizajn_shema" hreflang="sh" lang="sh" title="Dizajn shema — servo-croata">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Design_pattern" hreflang="simple" lang="simple" title="Design pattern — Simple English">Simple English</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%98%D0%B5%D0%BA%D1%82%D0%BD%D0%B8_%D1%83%D0%B7%D0%BE%D1%80%D1%86%D0%B8" hreflang="sr" lang="sr" title="Пројектни узорци — sérvio">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Designm%C3%B6nster" hreflang="sv" lang="sv" title="Designmönster — sueco">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81%E0%AE%AA%E0%AF%8D_%E0%AE%AA%E0%AE%BE%E0%AE%99%E0%AF%8D%E0%AE%95%E0%AF%81" hreflang="ta" lang="ta" title="வடிவமைப்புப் பாங்கு — tâmil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B9%81%E0%B8%9E%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%99" hreflang="th" lang="th" title="ดีไซน์แพตเทิร์น — tailandês">ไทย</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Tasar%C4%B1m_%C3%B6r%C3%BCnt%C3%BCleri" hreflang="tr" lang="tr" title="Tasarım örüntüleri — turco">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B8_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Шаблони проектування програмного забезпечення — ucraniano">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/M%E1%BA%ABu_thi%E1%BA%BFt_k%E1%BA%BF_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh)" hreflang="vi" lang="vi" title="Mẫu thiết kế (khoa học máy tính) — vietnamita">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" hreflang="zh" lang="zh" title="设计模式 (计算机) — chinês">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q181156#sitelinks-wikipedia" title="Editar ligações interlínguas">Editar ligações</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> Esta página foi modificada pela última vez à(s) 14h11min de 10 de setembro de 2016.</li>
+<li id="footer-info-copyright">Este texto é disponibilizado nos termos da licença <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">Creative Commons - Atribuição - Compartilha Igual 3.0 Não Adaptada (CC BY-SA 3.0)</a>;
+pode estar sujeito a condições adicionais.
+Para mais detalhes, consulte as <a href="https://wikimediafoundation.org/wiki/Condições_de_Uso">Condições de Uso</a>.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br" title="m:Privacy policy/pt-br">Política de privacidade</a></li>
+<li id="footer-places-about"><a class="mw-redirect" href="/wiki/Wikip%C3%A9dia:Sobre" title="Wikipédia:Sobre">Sobre a Wikipédia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikip%C3%A9dia:Aviso_geral" title="Wikipédia:Aviso geral">Avisos gerais</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Programadores</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Declaração sobre cookies</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//pt.m.wikipedia.org/w/index.php?title=Padr%C3%A3o_de_projeto_de_software&amp;mobileaction=toggle_view_mobile">Versão móvel</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Topicon","ext.gadget.Metacaixa","ext.gadget.TitleRewrite","ext.gadget.ElementosOcultaveis","ext.gadget.FeedbackHighlight","ext.gadget.ReferenceTooltips","ext.gadget.NewVillagePump","ext.gadget.wikibugs","ext.gadget.charinsert","ext.gadget.EnhancedSearch","ext.gadget.WikiMiniAtlas","ext.gadget.PagesForDeletion","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.404",
+            "walltime": "0.443",
+            "ppvisitednodes": {
+                "value": 9207,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 53525,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 10927,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 13,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  405.063      1 -total",
+                " 56.72%  229.745      3 Predefinição:Link",
+                " 56.13%  227.348      3 Predefinição:Link/código",
+                " 54.12%  219.213      3 Predefinição:Link/línguas",
+                " 16.03%   64.940      9 Predefinição:Citar_livro",
+                " 15.11%   61.214      3 Predefinição:Língua-meta",
+                " 10.66%   43.160      1 Predefinição:Referências",
+                "  8.40%   34.035      1 Predefinição:Padrões_de_projeto",
+                "  7.94%   32.166      1 Predefinição:Navbox",
+                "  6.47%   26.194      1 Predefinição:Orientação_a_Objetos"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.060",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 3082782,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1286",
+            "timestamp": "20160910141140",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":194,"wgHostname":"mw1269"});});</script>
+</body>
+</html>
+

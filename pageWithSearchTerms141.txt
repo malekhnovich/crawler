@@ -1,0 +1,585 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Inversion_of_control
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Inversion of control - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Inversion_of_control","wgTitle":"Inversion of control","wgCurRevisionId":741218300,"wgRevisionId":741218300,"wgArticleId":1589554,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with Wayback Machine links","Use dmy dates from April 2012","Articles with example Java code","Commons category without a link on Wikidata","Software design patterns","Software architecture","Architectural pattern (computer science)","Java (programming language)","Programming principles","Component-based software engineering"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Inversion_of_control","wgRelevantArticleId":1589554,"wgRequestId":"V-ECgQpAIDoAAE4QLssAAACH","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q666438","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Inversion_of_control" rel="alternate"/>
+<link href="/w/index.php?title=Inversion_of_control&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Inversion_of_control&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Inversion_of_control" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Inversion_of_control rootpage-Inversion_of_control skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Inversion of control</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, <b>inversion of control</b> (<b>IoC</b>) is a design principle in which custom-written portions of a <a href="/wiki/Computer_program" title="Computer program">computer program</a> receive the <a href="/wiki/Control_flow" title="Control flow">flow of control</a> from a generic <a href="/wiki/Software_framework" title="Software framework">framework</a>. A <a href="/wiki/Software_architecture" title="Software architecture">software architecture</a> with this design inverts control as compared to traditional <a href="/wiki/Procedural_programming" title="Procedural programming">procedural programming</a>: in traditional programming, the custom code that expresses the purpose of the program <a class="mw-redirect" href="/wiki/Function_call#Main_concepts" title="Function call">calls</a> into reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.</p>
+<p>Inversion of control is used to increase <a class="mw-redirect" href="/wiki/Modularity_(programming)" title="Modularity (programming)">modularity</a> of the program and make it <a href="/wiki/Extensible_programming" title="Extensible programming">extensible</a>,<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup> and has applications in <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> and other <a href="/wiki/Programming_paradigm" title="Programming paradigm">programming paradigms</a>. The term was popularized by <a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert C. Martin</a> and <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a>.</p>
+<p>The term is related to, but different from, the <a href="/wiki/Dependency_inversion_principle" title="Dependency inversion principle">dependency inversion principle</a>, which concerns itself with <a class="mw-redirect" href="/wiki/Dependency_(computer_science)" title="Dependency (computer science)">decoupling dependencies</a> between <a href="/wiki/High-_and_low-level" title="High- and low-level">high-level and low-level</a> <a href="/wiki/Abstraction_layer" title="Abstraction layer">layers</a> through shared <a class="mw-redirect" href="/wiki/Abstraction_(computing)" title="Abstraction (computing)">abstractions</a>. The general concept is also related to <a href="/wiki/Event-driven_programming" title="Event-driven programming">event-driven programming</a> in that it is often implemented using IoC, so that the custom code is commonly only concerned with handling of events, whereas the <a href="/wiki/Event_loop" title="Event loop">event loop</a> and dispatch of events/messages is handled by the framework or the runtime environment.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Background"><span class="tocnumber">2</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Description"><span class="tocnumber">3</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Implementation_techniques"><span class="tocnumber">4</span> <span class="toctext">Implementation techniques</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Examples"><span class="tocnumber">5</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As an example, with traditional programming, the <a class="mw-redirect" href="/wiki/Main_function" title="Main function">main function</a> of an application might make function calls into a menu library to display a list of available <a href="/wiki/Command_(computing)" title="Command (computing)">commands</a> and query the user to select one.<sup class="reference" id="cite_ref-FowlerDI_2-0"><a href="#cite_note-FowlerDI-2">[2]</a></sup> The library thus would return the chosen option as the value of the function call, and the main function uses this value to execute the associated command. This style was common in <a class="mw-redirect" href="/wiki/Text_based_interface" title="Text based interface">text based interfaces</a>. For example, an <a href="/wiki/Email_client" title="Email client">email client</a> may show a screen with commands to load new mails, answer the current mail, start a new mail, etc., and the program execution would block until the user presses a key to select a command.</p>
+<p>With inversion of control, on the other hand, the program would be written using a <a href="/wiki/Software_framework" title="Software framework">software framework</a> that knows common behavioral and graphical elements, such as <a href="/wiki/Windowing_system" title="Windowing system">windowing systems</a>, menus, controlling the mouse, and so on. The custom code "fills in the blanks" for the framework, such as supplying a table of menu items and registering a code subroutine for each item, but it is the framework that monitors the user's actions and invokes the subroutine when a menu item is selected. In the mail client example, the framework could follow both the keyboard and mouse inputs and call the command invoked by the user by either means, and at the same time monitor the <a href="/wiki/Network_interface" title="Network interface">network interface</a> to find out if new messages arrive and refresh the screen when some network activity is detected. The same framework could be used as the skeleton for a spreadsheet program or a text editor. Conversely, the framework knows nothing about Web browsers, spreadsheets or text editors; implementing their functionality takes custom code.</p>
+<p>Inversion of control carries the strong connotation that the reusable code and the problem-specific code are developed independently even though they operate together in an application. <a href="/wiki/Software_framework" title="Software framework">Software frameworks</a>, <a href="/wiki/Callback_(computer_programming)" title="Callback (computer programming)">callbacks</a>, <a href="/wiki/Scheduling_(computing)" title="Scheduling (computing)">schedulers</a>, <a href="/wiki/Event_loop" title="Event loop">event loops</a> and <a href="/wiki/Dependency_injection" title="Dependency injection">dependency injection</a> are examples of <a href="/wiki/Design_pattern" title="Design pattern">design patterns</a> that follow the inversion of control principle, although the term is most commonly used in the context of <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>.</p>
+<p>Inversion of control serves the following design purposes:</p>
+<ul>
+<li>To <a class="mw-redirect" href="/wiki/Object_decoupling" title="Object decoupling">decouple</a> the execution of a task from implementation.</li>
+<li>To focus a module on the task it is designed for.</li>
+<li>To free modules from assumptions about how other systems do what they do and instead rely on <a href="/wiki/Design_by_contract" title="Design by contract">contracts</a>.</li>
+<li>To prevent <a href="/wiki/Side_effect_(computer_science)" title="Side effect (computer science)">side effects</a> when replacing a module.</li>
+</ul>
+<p>Inversion of control is sometimes facetiously referred to as the "Hollywood Principle: Don't call us, we'll call you".</p>
+<h2><span class="mw-headline" id="Background">Background</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=2" title="Edit section: Background">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Inversion of control is not a new term in computer science. <a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a> traces the etymology of the phrase back to 1988.<sup class="reference" id="cite_ref-FowlerIoC_3-0"><a href="#cite_note-FowlerIoC-3">[3]</a></sup> <a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a> is a specific type of IoC using contextualized lookup.<sup class="reference" id="cite_ref-FowlerDI_2-1"><a href="#cite_note-FowlerDI-2">[2]</a></sup> A <a href="/wiki/Service_locator_pattern" title="Service locator pattern">service locator</a> such as the <a href="/wiki/Java_Naming_and_Directory_Interface" title="Java Naming and Directory Interface">Java Naming and Directory Interface</a> (JNDI) is similar. In an article by Loek Bergman,<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> it is presented as an architectural principle.</p>
+<p>In an article by <a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert C. Martin</a>,<sup class="reference" id="cite_ref-robertmartin_5-0"><a href="#cite_note-robertmartin-5">[5]</a></sup> the dependency inversion principle and abstraction by layering come together. His reason to use the term "inversion" is in comparison with traditional software development methods. He describes the uncoupling of services by the abstraction of layers when he is talking about dependency inversion. The principle is used to find out where system borders are in the design of the abstraction layers.</p>
+<h2><span class="mw-headline" id="Description">Description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=3" title="Edit section: Description">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In traditional programming, the <a href="/wiki/Control_flow" title="Control flow">flow</a> of the <a href="/wiki/Business_logic" title="Business logic">business logic</a> is determined by objects that are <a class="mw-redirect" href="/wiki/Static_binding" title="Static binding">statically bound</a> to one another. With inversion of control, the flow depends on the object graph that is built up during program execution. Such a dynamic flow is made possible by object interactions being defined through abstractions. This <a href="/wiki/Late_binding" title="Late binding">run-time binding</a> is achieved by mechanisms such as <a href="/wiki/Dependency_injection" title="Dependency injection">dependency injection</a> or a <a href="/wiki/Service_locator_pattern" title="Service locator pattern">service locator</a>. In IoC, the code could also be linked statically during compilation, but finding the code to execute by reading its description from <a href="/wiki/Configuration_file" title="Configuration file">external configuration</a> instead of with a direct reference in the code itself.</p>
+<p>In dependency injection, a dependent <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object</a> or module is coupled to the object it needs at <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time</a>. Which particular object will satisfy the dependency during program execution typically cannot be known at <a href="/wiki/Compile_time" title="Compile time">compile time</a> using <a class="mw-redirect" href="/wiki/Static_code_analysis" title="Static code analysis">static analysis</a>. While described in terms of object interaction here, the principle can apply to other programming methodologies besides <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>.</p>
+<p>In order for the running program to bind objects to one another, the objects must possess compatible <a class="mw-redirect" href="/wiki/Software_interface" title="Software interface">interfaces</a>. For example, class <code>A</code> may delegate behavior to interface <code>I</code> which is implemented by class <code>B</code>; the program instantiates <code>A</code> and <code>B</code>, and then injects <code>B</code> into <code>A</code>.</p>
+<h2><span class="mw-headline" id="Implementation_techniques">Implementation techniques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=4" title="Edit section: Implementation techniques">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a>, there are several basic techniques to implement inversion of control. These are:</p>
+<ul>
+<li>Using a <a class="mw-redirect" href="/wiki/Factory_pattern" title="Factory pattern">factory pattern</a></li>
+<li>Using a <a href="/wiki/Service_locator_pattern" title="Service locator pattern">service locator pattern</a></li>
+<li>Using a <a href="/wiki/Dependency_injection" title="Dependency injection">dependency injection</a>, for example
+<ul>
+<li>A constructor injection</li>
+<li>A parameter injection</li>
+<li>A setter injection</li>
+<li>An interface injection</li>
+</ul>
+</li>
+<li>Using a contextualized lookup</li>
+<li>Using <a class="mw-redirect" href="/wiki/Template_method_design_pattern" title="Template method design pattern">template method design pattern</a></li>
+<li>Using <a class="mw-redirect" href="/wiki/Strategy_design_pattern" title="Strategy design pattern">strategy design pattern</a></li>
+</ul>
+<p>In an original article by Martin Fowler,<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup> the first three different techniques are discussed. In a description about inversion of control types,<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup> the last one is mentioned. Often the contextualized lookup will be accomplished using a service locator.</p>
+<p>More important than the applied technique, however, is the optimization of the purposes.</p>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=5" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Most frameworks such as <a href="/wiki/.NET_Framework" title=".NET Framework">.NET</a> or <a href="/wiki/Enterprise_JavaBeans" title="Enterprise JavaBeans">Enterprise JavaBeans</a> display this pattern:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">ServerFacade</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="o">&lt;</span><span class="n">K</span><span class="o">,</span> <span class="n">V</span><span class="o">&gt;</span> <span class="n">V</span> <span class="nf">respondToRequest</span><span class="o">(</span><span class="n">K</span> <span class="n">request</span><span class="o">)</span> <span class="o">{</span>
+      <span class="k">if</span> <span class="o">(</span><span class="n">businessLayer</span><span class="o">.</span><span class="na">validateRequest</span><span class="o">(</span><span class="n">request</span><span class="o">))</span> <span class="o">{</span>
+         <span class="n">DAO</span><span class="o">.</span><span class="na">getData</span><span class="o">(</span><span class="n">request</span><span class="o">);</span>
+         <span class="k">return</span> <span class="n">Aspect</span><span class="o">.</span><span class="na">convertData</span><span class="o">(</span><span class="n">request</span><span class="o">);</span>
+      <span class="o">}</span>
+      <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>This basic outline in Java gives an example of code following the IoC methodology. It is important, however, that in the <code class="mw-highlight" dir="ltr"><span class="n">ServerFacade</span></code> a lot of assumptions are made about the data returned by the <a href="/wiki/Data_access_object" title="Data access object">data access object</a> (DAO).</p>
+<p>Although all these assumptions might be valid at some time, they couple the implementation of the <code class="mw-highlight" dir="ltr"><span class="n">ServerFacade</span></code> to the DAO implementation. Designing the application in the manner of inversion of control would hand over the control completely to the DAO object. The code would then become</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">ServerFacade</span> <span class="o">{</span>
+   <span class="kd">public</span> <span class="o">&lt;</span><span class="n">K</span><span class="o">,</span> <span class="n">V</span><span class="o">&gt;</span> <span class="n">V</span> <span class="nf">respondToRequest</span><span class="o">(</span><span class="n">K</span> <span class="n">request</span><span class="o">,</span> <span class="n">DAO</span> <span class="n">dao</span><span class="o">)</span> <span class="o">{</span>
+      <span class="k">return</span> <span class="n">dao</span><span class="o">.</span><span class="na">getData</span><span class="o">(</span><span class="n">request</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+<p>The example shows that the way the method <code class="mw-highlight" dir="ltr"><span class="n">respondToRequest</span></code> is constructed determines if IoC is used. It is the way that parameters are used that define IoC. This resembles the <a class="mw-redirect" href="/wiki/Message_Passing" title="Message Passing">message-passing</a> style that some object-oriented programming languages use.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="div-col columns column-width" style="-moz-column-width: 22em; -webkit-column-width: 22em; column-width: 22em;">
+<ul>
+<li><a href="/wiki/Abstraction_layer" title="Abstraction layer">Abstraction layer</a></li>
+<li><a href="/wiki/Asynchronous_I/O" title="Asynchronous I/O">Asynchronous I/O</a></li>
+<li><a class="mw-redirect" href="/wiki/Callback_(computer_science)" title="Callback (computer science)">Callback (computer science)</a></li>
+<li><a class="mw-redirect" href="/wiki/Closure_(computer_science)" title="Closure (computer science)">Closure (computer science)</a></li>
+<li><a href="/wiki/Continuation" title="Continuation">Continuation</a></li>
+<li><a href="/wiki/Delegate_(CLI)" title="Delegate (CLI)">Delegate (CLI)</a></li>
+<li><a href="/wiki/Dependency_inversion_principle" title="Dependency inversion principle">Dependency inversion principle</a></li>
+<li><a href="/wiki/Flow-based_programming" title="Flow-based programming">Flow-based programming</a></li>
+<li><a href="/wiki/Implicit_invocation" title="Implicit invocation">Implicit invocation</a></li>
+<li><a href="/wiki/Interrupt_handler" title="Interrupt handler">Interrupt handler</a></li>
+<li><a class="mw-redirect" href="/wiki/Message_Passing" title="Message Passing">Message Passing</a></li>
+<li><a href="/wiki/Monad_(functional_programming)" title="Monad (functional programming)">Monad (functional programming)</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer pattern</a></li>
+<li><a class="mw-redirect" href="/wiki/Publish/subscribe" title="Publish/subscribe">Publish/subscribe</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator pattern</a></li>
+<li><a class="mw-redirect" href="/wiki/Signal_(computing)" title="Signal (computing)">Signal (computing)</a></li>
+<li><a href="/wiki/Software_framework" title="Software framework">Software framework</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy pattern</a></li>
+<li><a href="/wiki/User_exit" title="User exit">User exit</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor pattern</a></li>
+<li><a href="/wiki/XSLT" title="XSLT">XSLT</a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web">Ralph E. Johnson &amp; Brian Foote (June–July 1988). <a class="external text" href="http://www.laputan.org/drc/drc.html" rel="nofollow">"Designing Reusable Classes"</a>. <i>Journal of Object-Oriented Programming, Volume 1, Number 2</i>. Department of Computer Science University of Illinois at Urbana-Champaign. pp. 22–35<span class="reference-accessdate">. Retrieved <span class="nowrap">29 April</span> 2014</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AInversion+of+control&amp;rft.atitle=Designing+Reusable+Classes&amp;rft.au=Ralph+E.+Johnson+%26+Brian+Foote&amp;rft.date=1988-06%2F1988-07&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.laputan.org%2Fdrc%2Fdrc.html&amp;rft.jtitle=Journal+of+Object-Oriented+Programming%2C+Volume+1%2C+Number+2&amp;rft.pages=22-35&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-FowlerDI-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-FowlerDI_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FowlerDI_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://martinfowler.com/articles/injection.html" rel="nofollow">Dependency Injection</a>.</span></li>
+<li id="cite_note-FowlerIoC-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-FowlerIoC_3-0">^</a></b></span> <span class="reference-text"><a class="external text" href="http://martinfowler.com/bliki/InversionOfControl.html" rel="nofollow">Inversion of Control</a> on Martin Fowler's Bliki</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a class="external text" href="https://web.archive.org/web/*/http://loekbergman.nl/InsideArchitecture/TheVision/InversionOfControl" rel="nofollow">Archive copy</a> at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a> Inside Architecture: write once, run anywhere by Loek Bergman</span></li>
+<li id="cite_note-robertmartin-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-robertmartin_5-0">^</a></b></span> <span class="reference-text"><a class="external text" href="https://web.archive.org/web/20041221102842/http://www.objectmentor.com/resources/articles/dip.pdf" rel="nofollow">The Dependency Inversion principle</a> by Robert C. Martin</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.martinfowler.com/articles/injection.html" rel="nofollow">Inversion of Control Containers and the Dependency Injection Pattern</a> by Martin Fowler</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a class="external text" href="http://docs.codehaus.org/display/PICO/IoC+Types" rel="nofollow">IoC Types</a></span></li>
+</ol>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Inversion_of_control&amp;action=edit&amp;section=8" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Inversion_of_control" title="commons:Category:Inversion of control">Inversion of control</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><a class="external text" href="http://javaprogrammernotes.blogspot.com/2015/03/inversion-of-control-dependency.html" rel="nofollow">Inversion of Control explanation and implementation example</a></li>
+</ul>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><strong class="selflink">Inversion of control</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1589554-0!*!0!!en!4!* and timestamp 20160929082543 and revision id 741218300
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Inversion_of_control&amp;oldid=741218300">https://en.wikipedia.org/w/index.php?title=Inversion_of_control&amp;oldid=741218300</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li><li><a href="/wiki/Category:Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="/wiki/Category:Architectural_pattern_(computer_science)" title="Category:Architectural pattern (computer science)">Architectural pattern (computer science)</a></li><li><a href="/wiki/Category:Java_(programming_language)" title="Category:Java (programming language)">Java (programming language)</a></li><li><a href="/wiki/Category:Programming_principles" title="Category:Programming principles">Programming principles</a></li><li><a href="/wiki/Category:Component-based_software_engineering" title="Category:Component-based software engineering">Component-based software engineering</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_Wayback_Machine_links" title="Category:Articles with Wayback Machine links">Articles with Wayback Machine links</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_April_2012" title="Category:Use dmy dates from April 2012">Use dmy dates from April 2012</a></li><li><a href="/wiki/Category:Articles_with_example_Java_code" title="Category:Articles with example Java code">Articles with example Java code</a></li><li><a href="/wiki/Category:Commons_category_without_a_link_on_Wikidata" title="Category:Commons category without a link on Wikidata">Commons category without a link on Wikidata</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Inversion+of+control" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Inversion+of+control" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Inversion_of_control" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Inversion_of_control" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Inversion_of_control">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Inversion_of_control&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Inversion_of_control&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Inversion_of_control" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Inversion_of_control" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Inversion_of_control&amp;oldid=741218300" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Inversion_of_control&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q666438" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Inversion_of_control&amp;id=741218300" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Inversion+of+control">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Inversion+of+control&amp;returnto=Inversion+of+control&amp;oldid=741218300&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Inversion_of_control&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Inversion_of_Control" hreflang="de" lang="de" title="Inversion of Control – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Inversi%C3%B3n_de_control" hreflang="es" lang="es" title="Inversión de control – Spanish">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%88%D8%A7%D8%B1%D9%88%D9%86%DA%AF%DB%8C_%DA%A9%D9%86%D8%AA%D8%B1%D9%84" hreflang="fa" lang="fa" title="وارونگی کنترل – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Inversion_de_contr%C3%B4le" hreflang="fr" lang="fr" title="Inversion de contrôle – French">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%96%B4_%EB%B0%98%EC%A0%84" hreflang="ko" lang="ko" title="제어 반전 – Korean">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Inversione_del_controllo" hreflang="it" lang="it" title="Inversione del controllo – Italian">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/Inversion_of_control" hreflang="he" lang="he" title="Inversion of control – Hebrew">עברית</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/A_kontroll_megford%C3%ADt%C3%A1sa" hreflang="hu" lang="hu" title="A kontroll megfordítása – Hungarian">Magyar</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E5%88%B6%E5%BE%A1%E3%81%AE%E5%8F%8D%E8%BB%A2" hreflang="ja" lang="ja" title="制御の反転 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Odwr%C3%B3cenie_sterowania" hreflang="pl" lang="pl" title="Odwrócenie sterowania – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Invers%C3%A3o_de_controle" hreflang="pt" lang="pt" title="Inversão de controle – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Инверсия управления – Russian">Русский</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Inversion_of_Control" hreflang="sv" lang="sv" title="Inversion of Control – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Інверсія управління – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC" hreflang="zh" lang="zh" title="控制反转 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q666438#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 September 2016, at 03:35.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Inversion_of_control&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.157",
+            "walltime": "0.216",
+            "ppvisitednodes": {
+                "value": 981,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 32793,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1442,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  166.485      1 -total",
+                " 29.74%   49.516      2 Template:Navbox",
+                " 27.11%   45.133      1 Template:Design_Patterns_patterns",
+                " 22.14%   36.860      1 Template:Cite_web",
+                " 19.00%   31.634      1 Template:Use_dmy_dates",
+                " 13.62%   22.673      1 Template:Navbox_subgroup",
+                " 13.12%   21.842      1 Template:Commons_category",
+                "  8.40%   13.991      1 Template:DMCA",
+                "  7.38%   12.280      1 Template:Dated_maintenance_category",
+                "  6.87%   11.430      1 Template:Commons"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.042",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1704587,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1216",
+            "timestamp": "20160929082543",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":89,"wgHostname":"mw1188"});});</script>
+</body>
+</html>
+

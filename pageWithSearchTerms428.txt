@@ -1,0 +1,997 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Feature-driven_development
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Feature-driven development - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Feature-driven_development","wgTitle":"Feature-driven development","wgCurRevisionId":737355221,"wgRevisionId":737355221,"wgArticleId":1903153,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking sources from September 2009","All articles lacking sources","Articles with DMOZ links","Project management","Agile software development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Feature-driven_development","wgRelevantArticleId":1903153,"wgRequestId":"V-FNbwpAMFAAAC-HElsAAAAI","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q1399336","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Feature-driven_development" rel="alternate"/>
+<link href="/w/index.php?title=Feature-driven_development&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Feature-driven_development&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Feature-driven_development" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Feature-driven_development rootpage-Feature-driven_development skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Feature-driven development</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">sources</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Feature-driven_development&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(September 2009)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="vertical-navbox" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Core activities</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Requirements_analysis" title="Requirements analysis">Requirements</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Construction</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Testing</a></li>
+<li><a href="/wiki/Debugging" title="Debugging">Debugging</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Maintenance</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Paradigms and models</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Waterfall_model" title="Waterfall model">Waterfall</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototyping</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental</a></li>
+<li><a href="/wiki/V-Model_(software_development)" title="V-Model (software development)">V-Model</a></li>
+<li><a href="/wiki/Dual_Vee_Model" title="Dual Vee Model">Dual Vee Model</a></li>
+<li><a href="/wiki/Spiral_model" title="Spiral model">Spiral</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">IID</a></li>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Lean_software_development" title="Lean software development">Lean</a></li>
+<li><a href="/wiki/DevOps" title="DevOps">DevOps</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Methodologies</a> and frameworks</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Cleanroom_software_engineering" title="Cleanroom software engineering">Cleanroom</a></li>
+<li><a href="/wiki/Team_software_process" title="Team software process">TSP</a></li>
+<li><a href="/wiki/Personal_software_process" title="Personal software process">PSP</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a></li>
+<li><a href="/wiki/Microsoft_Solutions_Framework" title="Microsoft Solutions Framework">MSF</a></li>
+<li><a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a></li>
+<li><a href="/wiki/Kanban_(development)" title="Kanban (development)">Kanban</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+<li><a href="/wiki/Extreme_programming" title="Extreme programming">XP</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">TDD</a></li>
+<li><a href="/wiki/Acceptance_test%E2%80%93driven_development" title="Acceptance test–driven development">ATDD</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">BDD</a></li>
+<li><strong class="selflink">FDD</strong></li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">DDD</a></li>
+<li><a class="mw-redirect" href="/wiki/Model-driven_development" title="Model-driven development">MDD</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Supporting disciplines</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Configuration management</a></li>
+<li><a href="/wiki/Infrastructure_as_Code" title="Infrastructure as Code">Infrastructure as Code</a></li>
+<li><a href="/wiki/Software_documentation" title="Software documentation">Documentation</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software Quality assurance (SQA)</a></li>
+<li><a href="/wiki/Software_project_management" title="Software project management">Project management</a></li>
+<li><a href="/wiki/User_experience" title="User experience">User experience</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a href="/wiki/Programming_tool" title="Programming tool">Tools</a></th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Compiler" title="Compiler">Compiler</a></li>
+<li><a href="/wiki/Debugger" title="Debugger">Debugger</a></li>
+<li><a href="/wiki/Profiling_(computer_programming)" title="Profiling (computer programming)">Profiler</a></li>
+<li><a href="/wiki/Graphical_user_interface_builder" title="Graphical user interface builder">GUI designer</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_tools" title="UML tools">Modeling</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build automation</a></li>
+<li><a href="/wiki/Application_release_automation" title="Application release automation">Release automation</a></li>
+<li><a href="/wiki/Category:Software_testing_tools" title="Category:Software testing tools">Testing</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Standards and BOKs</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/CMMI" title="CMMI">CMMI</a></li>
+<li><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></li>
+<li><a class="mw-redirect" href="/wiki/ISO_9001" title="ISO 9001">ISO 9001</a></li>
+<li><a href="/wiki/ISO/IEC_JTC_1/SC_7" title="ISO/IEC JTC 1/SC 7">ISO/IEC standards</a></li>
+<li><a class="mw-redirect" href="/wiki/SWEBOK" title="SWEBOK">SWEBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/PMBOK" title="PMBOK">PMBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/BABOK" title="BABOK">BABOK</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_development_process" title="Template:Software development process"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_development_process" title="Template talk:Software development process"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_development_process&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Feature-driven development</b> (<b>FDD</b>) is an <a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">iterative and incremental</a> <a href="/wiki/Software_development_process" title="Software development process">software development process</a>. It is one of a number of <a href="/wiki/Lightweight_methodology" title="Lightweight methodology">lightweight</a> or <a href="/wiki/Agile_software_development" title="Agile software development">Agile methods</a> for developing <a href="/wiki/Software" title="Software">software</a>. FDD blends a number of industry-recognized <a class="mw-redirect" href="/wiki/Feature_Driven_Development#Best_practices" title="Feature Driven Development">best practices</a> into a cohesive whole. These practices are all driven from a client-valued functionality (<a class="mw-redirect" href="/wiki/Feature_(software_design)" title="Feature (software design)">feature</a>) perspective. Its main purpose is to deliver tangible, working software repeatedly in a timely manner.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Overview"><span class="tocnumber">2</span> <span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Develop_overall_model"><span class="tocnumber">2.1</span> <span class="toctext">Develop overall model</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Build_feature_list"><span class="tocnumber">2.2</span> <span class="toctext">Build feature list</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Plan_by_feature"><span class="tocnumber">2.3</span> <span class="toctext">Plan by feature</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Design_by_feature"><span class="tocnumber">2.4</span> <span class="toctext">Design by feature</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Build_by_feature"><span class="tocnumber">2.5</span> <span class="toctext">Build by feature</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Milestones"><span class="tocnumber">3</span> <span class="toctext">Milestones</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Best_practices"><span class="tocnumber">4</span> <span class="toctext">Best practices</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Metamodel_.28MetaModeling.29"><span class="tocnumber">5</span> <span class="toctext">Metamodel (MetaModeling)</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Tools_used_for_Feature-driven_development"><span class="tocnumber">6</span> <span class="toctext">Tools used for Feature-driven development</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>FDD was initially devised by <a href="/wiki/Jeff_De_Luca" title="Jeff De Luca">Jeff De Luca</a> to meet the specific needs of a 15-month, 50-person software development project at a large <a href="/wiki/Singapore" title="Singapore">Singapore</a> bank in 1997. Jeff De Luca delivered a set of five processes that covered the development of an overall model and the listing, planning, design and building of features. The first process is heavily influenced by <a href="/wiki/Peter_Coad" title="Peter Coad">Peter Coad</a>'s approach to <a class="mw-redirect" href="/wiki/Object_oriented_design" title="Object oriented design">object modeling</a>. The second process incorporates Peter Coad's ideas of using a feature list to manage functional requirements and development tasks. The other processes and the blending of the processes into a cohesive whole is a result of Jeff De Luca's experience. Since its successful use on the Singapore project, there have been several implementations of FDD.</p>
+<p>The description of FDD was first introduced to the world in Chapter 6 of the book <i>Java Modeling in Color with UML</i><sup class="reference plainlinks nourlexpansion" id="ref_Coad"><a class="external autonumber" href="//en.wikipedia.org/wiki/Feature-driven_development#endnote_Coad">[1]</a></sup> by Peter Coad, <a class="new" href="/w/index.php?title=Eric_Lefebvre&amp;action=edit&amp;redlink=1" title="Eric Lefebvre (page does not exist)">Eric Lefebvre</a> and Jeff De Luca in 1999. Later, in Stephen Palmer and <a class="new" href="/w/index.php?title=Mac_Felsing&amp;action=edit&amp;redlink=1" title="Mac Felsing (page does not exist)">Mac Felsing</a>'s book <i>A Practical Guide to Feature-Driven Development</i><sup class="reference plainlinks nourlexpansion" id="ref_Palmer"><a class="external autonumber" href="//en.wikipedia.org/wiki/Feature-driven_development#endnote_Palmer">[2]</a></sup> (published in 2002), a more general description of FDD was given, as decoupled from Java modeling.</p>
+<p>The original and latest FDD processes can be found on <a class="external text" href="http://www.nebulon.com/" rel="nofollow">Jeff De Luca´s website</a> under the ´Article´ area. There is also a <a class="external text" href="http://www.featuredrivendevelopment.com/" rel="nofollow">Community website</a> available at which people can learn more about FDD, questions can be asked, and experiences and the processes themselves are discussed.</p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=2" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>FDD is a model-driven short-iteration process that consists of five basic activities. For accurate state reporting and keeping track of the software development project, <a href="/wiki/Feature-driven_development#Milestones" title="Feature-driven development">milestones</a> that mark the progress made on each feature are defined. This section gives a high level overview of the activities. In the figure on the right, the <a class="mw-redirect" href="/wiki/Meta-Process_Modeling" title="Meta-Process Modeling">meta-process model</a> for these activities is displayed. During the first two sequential activities, an <a href="#OVERALL_MODEL">overall model</a> shape is established. The final three activities are <a href="/wiki/Iteration" title="Iteration">iterated</a> for each feature. For more detailed information about the individual sub-activities have a look at Table 2 (derived from the process description in the ´Article´ section of <a class="external text" href="http://www.nebulon.com/" rel="nofollow">Jeff De Luca´s website</a>). The <a href="/wiki/Concept" title="Concept">concepts</a> involved in these activities are explained in Table 3.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:Fdd_process_diagram.png"><img alt="" class="thumbimage" data-file-height="1038" data-file-width="386" height="672" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Fdd_process_diagram.png/250px-Fdd_process_diagram.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Fdd_process_diagram.png/375px-Fdd_process_diagram.png 1.5x, //upload.wikimedia.org/wikipedia/commons/9/99/Fdd_process_diagram.png 2x" width="250"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Fdd_process_diagram.png" title="Enlarge"></a></div>
+Process model for FDD</div>
+</div>
+</div>
+<h3><span class="mw-headline" id="Develop_overall_model">Develop overall model</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=3" title="Edit section: Develop overall model">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The FDD project starts with a high-level <a href="/wiki/Software_walkthrough" title="Software walkthrough">walkthrough</a> of the scope of the system and its context. Next, detailed domain models are created for each modeling area by <a href="#SMALL_GROUP">small groups</a> and presented for <a href="/wiki/Peer_review" title="Peer review">peer review</a>. One of the proposed models, or a combination of them, is selected to become the model for each domain area. Domain area models are progressively merged into an overall model.</p>
+<h3><span class="mw-headline" id="Build_feature_list">Build feature list</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=4" title="Edit section: Build feature list">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The knowledge gathered during the initial modeling is used to identify a list of features, by functionally decomposing the domain into <a href="#SUBJECT_AREA">subject areas</a>. Subject areas each contain <a href="#BUSINESS_ACTIVITY">business activities</a>, and the steps within each business activity form the basis for a categorized feature list. Features in this respect are small pieces of client-valued functions expressed in the form "&lt;action&gt; &lt;result&gt; &lt;object&gt;", for example: 'Calculate the total of a sale' or 'Validate the password of a user'. Features should not take more than two weeks to complete, else they should be broken down into smaller pieces.</p>
+<h3><span class="mw-headline" id="Plan_by_feature">Plan by feature</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=5" title="Edit section: Plan by feature">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>After the feature list is completed, the next step is to produce the development plan; assigning ownership of features (or feature sets) as <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">classes</a> to <a href="/wiki/Programmer" title="Programmer">programmers</a>.</p>
+<h3><span class="mw-headline" id="Design_by_feature">Design by feature</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=6" title="Edit section: Design by feature">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A <a href="#DESIGN_PACKAGE">design package</a> is produced for each feature. A chief programmer selects a small group of features that are to be developed within two weeks. Together with the corresponding class owners, the chief programmer works out detailed <a class="mw-redirect" href="/wiki/Sequence_diagrams" title="Sequence diagrams">sequence diagrams</a> for each feature and refines the overall model. Next, the <a href="#CLASS_AND_METHOD_PROLOGUE">class and method prologues</a> are written and finally a <a href="/wiki/Software_inspection" title="Software inspection">design inspection</a> is held.</p>
+<h3><span class="mw-headline" id="Build_by_feature">Build by feature</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=7" title="Edit section: Build by feature">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>After a successful design inspection a per feature activity to produce a completed client-valued function (feature) is planned. The class owners, each develop code for their classes. After <a class="mw-redirect" href="/wiki/Unit_test" title="Unit test">unit testing</a> and successful <a href="/wiki/Code_review" title="Code review">code inspection</a>, the completed feature is <a href="#BUILD_PROMOTION">promoted to the main build</a>.</p>
+<h2><span class="mw-headline" id="Milestones">Milestones</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=8" title="Edit section: Milestones">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Since features are small, completing a feature is a relatively small task. For accurate state reporting and keeping track of the software development project it is however important to mark the progress made on each feature. FDD therefore defines six milestones per feature that are to be completed sequentially. The first three milestones are completed during the <a class="mw-redirect" href="/wiki/Feature_Driven_Development#Design_by_feature" title="Feature Driven Development">Design By Feature</a> activity, the last three are completed during the <a class="mw-redirect" href="/wiki/Feature_Driven_Development#Build_by_feature" title="Feature Driven Development">Build By Feature</a> activity. To help with tracking progress, a percentage complete is assigned to each milestone. In the table below the milestones (and their completion percentage) are shown. At the point that coding begins a feature is already 44% complete (Domain Walkthrough 1%, Design 40% and Design Inspection 3% = 44%).</p>
+<table class="wikitable">
+<caption>Table 1: Milestones</caption>
+<tr>
+<th>Domain Walkthrough</th>
+<th>Design</th>
+<th>Design Inspection</th>
+<th>Code</th>
+<th>Code Inspection</th>
+<th>Promote To Build</th>
+</tr>
+<tr>
+<td>1%</td>
+<td>40%</td>
+<td>3%</td>
+<td>45%</td>
+<td>10%</td>
+<td>1%</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Best_practices">Best practices</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=9" title="Edit section: Best practices">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Feature-Driven Development is built on a core set of <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a> <a class="mw-redirect" href="/wiki/Best_practices" title="Best practices">best practices</a>, all aimed at a client-valued feature perspective.</p>
+<ul>
+<li><b>Domain Object Modeling</b>. Domain Object Modeling consists of exploring and explaining the domain of the problem to be solved. The resulting domain object model provides an overall framework in which to add features.</li>
+<li><b>Developing by Feature</b>. Any function that is too complex to be implemented within two weeks is further decomposed into smaller functions until each sub-problem is small enough to be called a feature. This makes it easier to deliver correct functions and to extend or modify the system.</li>
+<li><b>Individual Class (Code) Ownership</b>. Individual class ownership means that distinct pieces or grouping of code are assigned to a single owner. The owner is responsible for the consistency, performance, and conceptual integrity of the class.</li>
+<li><b>Feature Teams</b>. A feature team is a small, dynamically formed team that develops a small activity. By doing so, multiple minds are always applied to each design decision and also multiple design options are always evaluated before one is chosen.</li>
+<li><b>Inspections</b>. <a href="/wiki/Software_inspection" title="Software inspection">Inspections</a> are carried out to ensure good quality design and code, primarily by detection of defects.</li>
+<li><b>Configuration Management</b>. Configuration management helps with identifying the source code for all features that have been completed to date and to maintain a history of changes to classes as feature teams enhance them.</li>
+<li><b>Regular Builds</b>. Regular builds ensure there is always an up to date system that can be demonstrated to the client and helps highlighting integration errors of source code for the features early.</li>
+<li><b>Visibility of progress and results</b>. By frequent, appropriate, and accurate progress reporting at all levels inside and outside the project, based on completed work, managers are helped at steering a project correctly.</li>
+</ul>
+<h2><span class="mw-headline" id="Metamodel_.28MetaModeling.29">Metamodel (MetaModeling)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=10" title="Edit section: Metamodel (MetaModeling)">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Fdd_process_data_diagram.png"><img alt="" class="thumbimage" data-file-height="1038" data-file-width="902" height="173" src="//upload.wikimedia.org/wikipedia/en/thumb/1/11/Fdd_process_data_diagram.png/150px-Fdd_process_data_diagram.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/11/Fdd_process_data_diagram.png/225px-Fdd_process_data_diagram.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/11/Fdd_process_data_diagram.png/300px-Fdd_process_data_diagram.png 2x" width="150"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Fdd_process_data_diagram.png" title="Enlarge"></a></div>
+Process-Data Model for FDD</div>
+</div>
+</div>
+<p><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a> helps visualizing both the processes and the data of a <a class="mw-redirect" href="/wiki/Method_(software_engineering)" title="Method (software engineering)">method</a>, such that methods can be compared and method fragments in the <a class="new" href="/w/index.php?title=Method_Engineering_Encyclopedia&amp;action=edit&amp;redlink=1" title="Method Engineering Encyclopedia (page does not exist)">method engineering</a> process can easily be reused. The advantage of the technique is that it is clear, compact, and consistent with <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a> standards.</p>
+<p>The left side of the metadata model, depicted on the right, shows the five basic activities involved in a software development project using FDD. The activities all contain sub-activities that correspond to the sub-activities in the FDD process description on <a class="external text" href="http://www.nebulon.com/" rel="nofollow">Jeff De Luca´s website</a>. The right side of the model shows the concepts involved. These concepts originate from the activities depicted in the left side of the diagram. A definition of the concepts is given in Table 3.</p>
+<h2><span class="mw-headline" id="Tools_used_for_Feature-driven_development">Tools used for Feature-driven development</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=11" title="Edit section: Tools used for Feature-driven development">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.casespec.net" rel="nofollow">CASE Spec</a>. CASE Spec is a commercial enterprise tool for Feature-Driven development.</li>
+<li><a class="external text" href="http://www.techexcel.com/solutions/alm/fdd.html" rel="nofollow">TechExcel DevSuite</a>. TechExcel DevSuite is a commercial suite of applications to enable Feature-Driven development.</li>
+<li><a class="external text" href="http://fddtools.sourceforge.net/" rel="nofollow">FDD Tools</a>. The FDD Tools project aims to produce an open source, cross-platform toolkit supporting the Feature Driven Development methodology.</li>
+<li><a class="external text" href="http://www.featuredrivendevelopment.com/node/687" rel="nofollow">FDD Viewer</a>. FDD Viewer is a utility to display and print parking lots.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile software development</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">Behavior-driven development</a></li>
+<li><a class="mw-redirect" href="/wiki/Project_lifecycle" title="Project lifecycle">Project lifecycle</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>1. <span class="citation wikicite" id="endnote_Coad"><b><a href="#ref_Coad">^</a></b></span> <a href="/wiki/Peter_Coad" title="Peter Coad">Coad, P.</a>, <a class="new" href="/w/index.php?title=Eric_Lefebvre&amp;action=edit&amp;redlink=1" title="Eric Lefebvre (page does not exist)">Lefebvre, E.</a> &amp; <a href="/wiki/Jeff_De_Luca" title="Jeff De Luca">De Luca, J.</a> (1999). <i>Java Modeling In Color With UML: Enterprise Components and Process</i>. Prentice Hall International. (<a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/013011510X">ISBN 0-13-011510-X</a>)</li>
+<li>2. <span class="citation wikicite" id="endnote_Palmer"><b><a href="#ref_Palmer">^</a></b></span> Palmer, S.R., &amp; <a class="new" href="/w/index.php?title=Mac_Felsing&amp;action=edit&amp;redlink=1" title="Mac Felsing (page does not exist)">Felsing, J.M.</a> (2002). <i>A Practical Guide to Feature-Driven Development</i>. Prentice Hall. (<a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0130676152">ISBN 0-13-067615-2</a>)</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Feature-driven_development&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://www.featuredrivendevelopment.com/" rel="nofollow">Feature Driven Development Community</a></li>
+<li><a class="external text" href="https://www.dmoz.org/Computers/Programming/Methodologies/Agile/Feature_Driven_Development" rel="nofollow">Feature-driven development</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+<li><a class="external text" href="http://www.nebulon.com/fdd/index.html" rel="nofollow">Nebulon FDD Page</a> - Nebulon is the consulting practice of Jeff De Luca</li>
+<li><a class="external text" href="http://www.sitepoint.com/article/successful-development" rel="nofollow">Successful Web Development Methodologies</a> - Use of FDD for Web Development projects</li>
+<li><a class="external text" href="http://www.methodsandtools.com/archive/archive.php?id=19" rel="nofollow">Delivering Real Business Value using Feature Driven Development</a> - Article gives basic overview of FDD</li>
+<li><a class="external text" href="http://www.agilemodeling.com/essays/fdd.htm" rel="nofollow">FDD and Agile Modeling</a></li>
+<li><a class="external text" href="http://www.bettersoftwarefaster.com/index.htm" rel="nofollow">Better Software Faster</a> - Another book in the Coad Series referencing Feature Driven Development. Authors Andy Carmichael and Dan Haywood <a class="internal mw-magiclink-isbn" href="/wiki/Special:BookSources/0130087521">ISBN 0-13-008752-1</a></li>
+<li><a class="external text" href="http://www.se-radio.net/2008/01/episode-83-jeff-deluca-on-feature-driven-development/" rel="nofollow">Interview with FDD-Creator Jeff DeLuca</a> (Podcast)</li>
+</ul>
+<table class="wikitable">
+<caption>Table 2: Activities and sub-activities</caption>
+<tr>
+<th>Activity</th>
+<th>Sub-activity</th>
+<th>Description</th>
+</tr>
+<tr>
+<td rowspan="7"><b>Develop Overall Model</b></td>
+<td>Form Modeling Team</td>
+<td>The MODELING TEAM comprises permanent members from the domain and development areas, specifically the domain experts and the chief programmers. Other project staff members are then rotated through the modeling sessions so that everyone gets a chance to participate and to see the process in action.</td>
+</tr>
+<tr>
+<td>Conduct Domain Walk-through</td>
+<td>A domain expert gives a DOMAIN OVERVIEW of the domain area to be modeled. This should also include information that is related to this DOMAIN AREA but not necessarily a part of its implementation.</td>
+</tr>
+<tr>
+<td>Study Documents</td>
+<td>Optionally the team studies available REFERENCE or REFERENCED REQUIREMENTS documents such as object models, functional requirements (traditional or use-case format), data models, and user guides.</td>
+</tr>
+<tr>
+<td>Develop Small Group Models</td>
+<td>Forming groups of no more than three, each SMALL GROUP will compose a SMALL GROUP MODEL in support of the domain area. The Chief Architect may propose a ´<a href="/wiki/Straw_man_proposal" title="Straw man proposal">strawman</a>´ model to facilitate the progress of the teams. A member from each small group presents that groups proposed model for the domain area. The Chief Architect may also propose further model alternatives.</td>
+</tr>
+<tr>
+<td>Develop Team Model</td>
+<td>The MODELING TEAM selects a proposed TEAM MODEL or composes a model by merging ideas from the proposed models.</td>
+</tr>
+<tr>
+<td>Refine Overall Object Model</td>
+<td>Every so often, the OVERALL MODEL, consisting of an overall SEQUENCE DIAGRAM and a CLASS DIAGRAM, is REFINED with the new model shapes produced by iterations of the ‘Develop Team Model’ task above.</td>
+</tr>
+<tr>
+<td>Write Model Notes</td>
+<td>EXPLANATORY NOTES on detailed or complex model shapes and on significant model alternatives are made for future reference by the project.</td>
+</tr>
+<tr>
+<td rowspan="2"><b>Build Feature List</b></td>
+<td>Form Features List Team</td>
+<td>The FEATURE LIST TEAM comprises the chief programmers from the MODELING TEAM in the process ‘Develop Overall Model’.</td>
+</tr>
+<tr>
+<td>Build Features List</td>
+<td>The FEATURE LIST TEAM shall identify the FEATURE LIST using the knowledge obtained from the process ‘Develop Overall Model’. This is a simple functional decomposition into SUBJECT AREAS that come from the partitioning of the domain by the domain experts for their domain area walkthroughs in the process ‘Develop Overall Model’. It is decomposed into SUBJECT AREAS that comprise BUSINESS ACTIVITIES that comprise BUSINESS ACTIVITY steps (FEATURES).</td>
+</tr>
+<tr>
+<td rowspan="4"><b>Plan By Feature</b></td>
+<td>Form Planning Team</td>
+<td>The PLANNING TEAM comprises the development manager plus the chief programmers.</td>
+</tr>
+<tr>
+<td>Determine Development Sequence</td>
+<td>The main tasks in the process ‘Plan By Feature’ are not a strict sequence. Like many PLANNING activities they are considered together, with REFINEMENTS made from one or more tasks and then considering the others again. The PLANNING TEAM shall assign a DATE (month and year only) for completion of each BUSINESS ACTIVITY. The identification of the BUSINESS ACTIVITY and the completion DATE (and thus the DEVELOPMENT SEQUENCE) is based on:
+<ul>
+<li>Dependencies between FEATURES in terms of CLASSES involved;</li>
+<li>Balancing load across CLASS OWNERS;</li>
+<li>The complexity of the FEATURES to be implemented;</li>
+<li>Bringing forward high-risk or complex BUSINESS ACTIVITIES;</li>
+<li>Consideration of any external (visible) milestones such as <a class="mw-redirect" href="/wiki/Development_stage#Beta" title="Development stage">betas</a>, previews, feedback checkpoints and the "whole products" that satisfy such milestones.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Assign Business Activities to Chief Programmers</td>
+<td>The PLANNING TEAM shall assign chief programmers as owners of BUSINESS ACTIVITIES. The assignment is based on:
+<ul>
+<li>The DEVELOPMENT SEQUENCE;</li>
+<li>Dependencies between FEATURES in terms of CLASSES involved;</li>
+<li>Balancing load across CLASS OWNERS (remember that chief programmers are also CLASS OWNERS);</li>
+<li>The complexity of the FEATURES to be implemented.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Assign Classes to Developers</td>
+<td>The PLANNING TEAM shall assign developers as CLASS OWNERS. Developers own multiple CLASSES. The assignment of CLASSES to developers is based on:
+<ul>
+<li>Balancing load across developers;</li>
+<li>The complexity of the CLASSES;</li>
+<li>The usage (e.g. high-use) of the CLASSES;</li>
+<li>The DEVELOPMENT SEQUENCE.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td rowspan="7"><b>Design By Feature</b></td>
+<td>Form Feature Team</td>
+<td>The Chief Programmer identifies the CLASSES likely to be involved in the design of this set of FEATURES and updates the FEATURE database accordingly. From the CLASS OWNER LIST, the Chief Programmer identifies the developers needed to form the FEATURE TEAM. As part of this step, the Chief Programmer creates a new DESIGN PACKAGE for the FEATURES(S) as part of the work package.</td>
+</tr>
+<tr>
+<td>Conduct Domain Walk-through</td>
+<td>The domain expert gives a DOMAIN OVERVIEW of the domain area for the FEATURE to be designed. This should also include domain information that is related to the FEATURE but not necessarily a part of its implementation. This is an optional task based on the complexity of the FEATURE and/or its interactions.</td>
+</tr>
+<tr>
+<td>Study Referenced Documents</td>
+<td>The FEATURE TEAM studies the REFERENCED REQUIREMENT(S) for the feature to be designed, all COVERING MEMOS, screen designs, external system interface specifications and any other supporting documentation. This is an optional task based on the complexity of the FEATURE and/or its interactions.</td>
+</tr>
+<tr>
+<td>Develop Sequence Diagram(s)</td>
+<td>Develop the SEQUENCE DIAGRAM(S) required for the FEATURE to be designed. The diagram files should be checked into the <a class="mw-redirect" href="/wiki/Version_control_system" title="Version control system">version control system</a>. Any ALTERNATIVE DESIGNS, design decisions, requirements clarifications and EXPLANATORY NOTES are also recorded and written up in the DESIGN ALTERNATIVES section of the DESIGN PACKAGE.</td>
+</tr>
+<tr>
+<td>Refine Object Model</td>
+<td>The Chief Programmer creates a FEATURE TEAM Area for the FEATURE(S). This area is either a directory on the file server or a directory on their <a class="mw-redirect" href="/wiki/Personal_Computer" title="Personal Computer">PC</a> that is backed up to the server by the Chief Programmer as required or utilizes work area support in your version control system. The purpose of the FEATURE TEAM Area is that work in progress by the FEATURE TEAM can be shared and is visible amongst the FEATURE TEAM but is not visible to the rest of the project. The Chief Programmer makes some REFINEMENTS on the model to add new / updated CLASSES, methods, attributes and/or to make changes to existing CLASSES, methods or <a href="/wiki/Attribute_(computing)" title="Attribute (computing)">attributes</a> based on the SEQUENCE DIAGRAM(S) defined for the FEATURE(S). This results in the implementation language source files being updated in the FEATURE TEAM Area. The Chief Programmer creates model diagrams in a publishable format. These files should be checked into the version control system and submitted for publishing on the project <a href="/wiki/Intranet" title="Intranet">intranet</a>.</td>
+</tr>
+<tr>
+<td>Write Class and Method Prologue</td>
+<td>Using the updated implementation language source files from the ‘Refine Object Model’ task in the shared FEATURE TEAM Area, the development owner of each CLASS writes the CLASS AND METHOD PROLOGUE for each item defined by the FEATURE and SEQUENCE DIAGRAM(S). This includes <a href="/wiki/Parameter" title="Parameter">parameter</a> types, <a href="/wiki/Return_type" title="Return type">return types</a>, <a href="/wiki/Exception_handling" title="Exception handling">exceptions</a> and messages. Once each developer has completed this task, the Chief Programmer generates the <a class="mw-redirect" href="/wiki/API_documentation" title="API documentation">API documentation</a> using &lt;your tool&gt; and submits it for publication on the project intranet.</td>
+</tr>
+<tr>
+<td>Design Inspection</td>
+<td>A design inspection with the FEATURE TEAM members or with other project members is held. The decision to inspect within the FEATURE TEAM or with other project team members is that of the Chief Programmer. On acceptance a TODO TASK LIST is generated per affected CLASS, and each team member adds their tasks to their calendar task list. The Chief Programmer must also merge changes from the shared FEATURE TEAM Area into the change control system.</td>
+</tr>
+<tr>
+<td rowspan="4"><b>Build By Feature</b></td>
+<td>Implement Classes and Methods</td>
+<td>The development CLASS owners will perform the IMPLEMENTATION of the items necessary to satisfy the requirements of their CLASS for this FEATURE.</td>
+</tr>
+<tr>
+<td>Inspect Code</td>
+<td>A CODE INSPECTION with the FEATURE TEAM members or with other project members is held either before or after the unit test task. The decision to inspect within the FEATURE TEAM or with other project team members is that of the Chief Programmer. The decision to inspect before or after unit test is that of the Chief Programmer.</td>
+</tr>
+<tr>
+<td>Conduct Unit Test</td>
+<td>The development CLASS owner tests their code to ensure all requirements of their CLASS are satisfied. The Chief Programmer determines what FEATURE TEAM-level unit testing is required (if any). That is, if any testing across the CLASSES developed for this FEATURE is required.</td>
+</tr>
+<tr>
+<td>Promote to Build</td>
+<td>PROMOTION to the BUILD of CLASSES is only possible after a successful CODE INSPECTION. The Chief Programmer tracks the individual CLASSES being promoted, through feedback from the developers, and is the integration point for the entire FEATURE.</td>
+</tr>
+</table>
+<table class="wikitable">
+<caption>Table 3: Concepts</caption>
+<tr>
+<th>CONCEPT</th>
+<th>Definition (source)</th>
+</tr>
+<tr>
+<td><span id="BUILD_PROMOTION">BUILD PROMOTION</span></td>
+<td>Wiki: <a href="/wiki/Software_build" title="Software build">Software build</a></td>
+</tr>
+<tr>
+<td><span id="BUSINESS_ACTIVITY">BUSINESS ACTIVITY</span></td>
+<td>Activity undertaken as part of a commercial enterprise. (<a class="external free" href="http://www.thefreedictionary.com/" rel="nofollow">http://www.thefreedictionary.com/</a>)</td>
+</tr>
+<tr>
+<td><span id="CLASS">CLASS</span></td>
+<td>Wiki: <a class="mw-redirect" href="/wiki/Class_(computer_science)" title="Class (computer science)">Class</a></td>
+</tr>
+<tr>
+<td><span id="CLASS_AND_METHOD_PROLOGUE">CLASS AND METHOD PROLOGUE</span></td>
+<td>The main goal of a class and method prologue is to explain the purpose of the class or method. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="CLASS_DIAGRAM">CLASS DIAGRAM</span></td>
+<td>Wiki: <a href="/wiki/Class_diagram" title="Class diagram">Class diagram</a></td>
+</tr>
+<tr>
+<td><span id="CLASS_OWNER">CLASS OWNER</span></td>
+<td>A class owner is someone responsible for the design and implementation of a class. (<a class="external free" href="http://www.hst.fhso.ch/Archiv/2000/swe/otherResources/ch03/fdd.PDF" rel="nofollow">http://www.hst.fhso.ch/Archiv/2000/swe/otherResources/ch03/fdd.PDF</a>)</td>
+</tr>
+<tr>
+<td><span id="CLASS_OWNER_LIST">CLASS OWNER LIST</span></td>
+<td>A class owner list is a list of class owners. (<a class="external free" href="http://www.hst.fhso.ch/Archiv/2000/swe/otherResources/ch03/fdd.PDF" rel="nofollow">http://www.hst.fhso.ch/Archiv/2000/swe/otherResources/ch03/fdd.PDF</a>)</td>
+</tr>
+<tr>
+<td><span id="CODE_INSPECTION">CODE INSPECTION</span></td>
+<td>Wiki: <a href="/wiki/Code_review" title="Code review">Code review</a></td>
+</tr>
+<tr>
+<td><span id="COVERING_MEMO">COVERING MEMO</span></td>
+<td>A paper that integrates and describes the design package such that it stands on its own for reviewers. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="DATE">DATE</span></td>
+<td>Wiki: <a href="/wiki/Calendar_date" title="Calendar date">Calendar date</a></td>
+</tr>
+<tr>
+<td><span id="DESIGN_ALTERNATIVE">DESIGN ALTERNATIVE</span></td>
+<td>Section of the Design Package containing the diagram files in the version control system, alternative designs, design decisions, requirements clarifications and notes. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="DESIGN_PACKAGE">DESIGN PACKAGE</span></td>
+<td>Package containing:
+<ul>
+<li>A covering memo, or paper, that integrates and describes the design package such that it stands on its own for reviewers.</li>
+<li>The referenced requirements (if any) in the form of documents and all related confirmation memos and supporting documentation.</li>
+<li>The Sequence diagram(s).</li>
+<li>Design alternatives (if any)</li>
+<li>The object model with new/updated classes, methods and attributes.</li>
+<li>The &lt;your tool&gt; generated output for the class and method prologues created or modified by this design.</li>
+<li>Calendar/To-Do task-list entries for action items on affected classes for each team member.</li>
+</ul>
+<p>(<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</p>
+</td>
+</tr>
+<tr>
+<td><span id="DEVELOPMENT_SEQUENCE">DEVELOPMENT SEQUENCE</span></td>
+<td>The planned order for completion of each business activity. The planning team shall assign a date (month and year only) for completion of each business activity. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="DOMAIN_OVERVIEW">DOMAIN OVERVIEW</span></td>
+<td>The domain expert gives an overview of the domain area for the feature to be designed. This should also include domain information that is related to the feature but not necessarily a part of its implementation. This is an optional task based on the complexity of the feature and/or its interactions. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="EXPLANATORY_NOTE">EXPLANATORY NOTE</span></td>
+<td>Notes made on detailed or complex model shapes and on significant model alternatives are made for future reference by the project. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="FEATURE">FEATURE</span></td>
+<td>Features are granular functions expressed in client-valued terms using this naming template: &lt;action&gt; &lt;result&gt; &lt;object&gt;. For example, calculate the total of a sale, calculate the total quantity sold by a retail outlet for an item description. Features are granular in accordance with the rule that a feature will take no more than two weeks to complete, but not so granular as to be at the level of getters and setters. Two weeks is an upper limit; most features take less than this time. When a business activity step looks larger than two weeks, the step is broken into smaller steps that then become features. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="FEATURE_DRIVEN_DEVELOPMENT">FEATURE DRIVEN DEVELOPMENT</span></td>
+<td>Wiki: Feature Driven Development</td>
+</tr>
+<tr>
+<td><span id="FEATURE_LIST">FEATURE LIST</span></td>
+<td>A Feature list is intended as a potentially client deliverable piece of work. (<a class="external free" href="http://www.uidesign.net/2001/papers/fddui.html" rel="nofollow">http://www.uidesign.net/2001/papers/fddui.html</a>)</td>
+</tr>
+<tr>
+<td><span id="FEATURE_LIST_TEAM">FEATURE LIST TEAM</span></td>
+<td>The team comprises the chief programmers from the modeling team in process. Their task is to make a Feature list. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="FEATURE_TEAM">FEATURE TEAM</span></td>
+<td>A feature team is a small, dynamically formed team that develops the feature(s) that a Chief Programmer selects for development. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="IMPLEMENTATION">IMPLEMENTATION</span></td>
+<td>Wiki: <a href="/wiki/Implementation" title="Implementation">Implementation</a></td>
+</tr>
+<tr>
+<td><span id="MODELING_TEAM">MODELING TEAM</span></td>
+<td>The modeling team comprises permanent members from the domain and development areas, specifically the domain experts and the chief programmers. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="OVERALL_MODEL">OVERALL MODEL</span></td>
+<td>A merged domain area model. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="PLANNING">PLANNING</span></td>
+<td>Wiki: <a href="/wiki/Planning" title="Planning">Planning</a></td>
+</tr>
+<tr>
+<td><span id="PLANNING_TEAM">PLANNING TEAM</span></td>
+<td>The planning team comprises the development manager plus the chief programmers for making a planning. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="REFERENCE">REFERENCE</span></td>
+<td>Wiki: <a href="/wiki/Reference_work" title="Reference work">Reference work</a></td>
+</tr>
+<tr>
+<td><span id="REFERENCED_REQUIREMENT">REFERENCED REQUIREMENT</span></td>
+<td>Need or expectation that is stated, generally implied or obligatory. (www.finnevo.fi/eng/contents/iso9000_terms.htm)</td>
+</tr>
+<tr>
+<td><span id="REFINEMENT">REFINEMENT</span></td>
+<td>Wiki: <a href="/wiki/Refinement_(computing)" title="Refinement (computing)">Refinement</a></td>
+</tr>
+<tr>
+<td><span id="SEQUENCE_DIAGRAM">SEQUENCE DIAGRAM</span></td>
+<td>Wiki: <a href="/wiki/Sequence_diagram" title="Sequence diagram">Sequence diagram</a></td>
+</tr>
+<tr>
+<td><span id="SMALL_GROUP">SMALL GROUP</span></td>
+<td>Group of no more than three that will compose a model in support of the domain area. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="SMALL_GROUP_MODEL">SMALL GROUP MODEL</span></td>
+<td>A model for the domain area made by a group of no more than three. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="SUBJECT_AREA">SUBJECT AREA</span></td>
+<td>An area of major interest or importance to the enterprise. It is centered on a major resource, product or activity. The subject areas provide reference information when conducting detailed requirements gathering. (www.georgetown.edu/uis/ia/dw/GLOSSARY0816.html)</td>
+</tr>
+<tr>
+<td><span id="TEAM_MODEL">TEAM MODEL</span></td>
+<td>A proposed model selected by the modeling team or composed by merging ideas from the proposed models. (<a class="external free" href="http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf" rel="nofollow">http://www.featuredrivendevelopment.com/files/fddprocessesA4.pdf</a>)</td>
+</tr>
+<tr>
+<td><span id="TODO_TASK_LIST">TODO TASK LIST</span></td>
+<td>Wiki: <a class="mw-redirect" href="/wiki/Todo_list" title="Todo list">Todo list</a></td>
+</tr>
+</table>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1903153-0!*!0!!en!4!* and timestamp 20161002085722 and revision id 737355221
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Feature-driven_development&amp;oldid=737355221">https://en.wikipedia.org/w/index.php?title=Feature-driven_development&amp;oldid=737355221</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Project_management" title="Category:Project management">Project management</a></li><li><a href="/wiki/Category:Agile_software_development" title="Category:Agile software development">Agile software development</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Articles_lacking_sources_from_September_2009" title="Category:Articles lacking sources from September 2009">Articles lacking sources from September 2009</a></li><li><a href="/wiki/Category:All_articles_lacking_sources" title="Category:All articles lacking sources">All articles lacking sources</a></li><li><a href="/wiki/Category:Articles_with_DMOZ_links" title="Category:Articles with DMOZ links">Articles with DMOZ links</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Feature-driven+development" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Feature-driven+development" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Feature-driven_development" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Feature-driven_development" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Feature-driven_development">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Feature-driven_development&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Feature-driven_development&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Feature-driven_development" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Feature-driven_development" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Feature-driven_development&amp;oldid=737355221" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Feature-driven_development&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q1399336" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Feature-driven_development&amp;id=737355221" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Feature-driven+development">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Feature-driven+development&amp;returnto=Feature-driven+development&amp;oldid=737355221&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Feature-driven_development&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Feature_Driven_Development" hreflang="cs" lang="cs" title="Feature Driven Development – Czech">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Feature_Driven_Development" hreflang="de" lang="de" title="Feature Driven Development – German">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Desarrollo_basado_en_funcionalidades" hreflang="es" lang="es" title="Desarrollo basado en funcionalidades – Spanish">Español</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Feature_Driven_Development" hreflang="it" lang="it" title="Feature Driven Development – Italian">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Feature_Driven_Development" hreflang="nl" lang="nl" title="Feature Driven Development – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%A9%9F%E8%83%BD%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA" hreflang="ja" lang="ja" title="ユーザー機能駆動開発 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Feature-driven_development" hreflang="pl" lang="pl" title="Feature-driven development – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Feature_Driven_Development" hreflang="pt" lang="pt" title="Feature Driven Development – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/Feature_driven_development" hreflang="ru" lang="ru" title="Feature driven development – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Feature_Driven_Development" hreflang="uk" lang="uk" title="Feature Driven Development – Ukrainian">Українська</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q1399336#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 2 September 2016, at 06:31.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Feature-driven_development&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.104",
+            "walltime": "0.136",
+            "ppvisitednodes": {
+                "value": 842,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 37764,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 867,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 8,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%   72.237      1 -total",
+                " 48.41%   34.969      1 Template:Unreferenced",
+                " 39.01%   28.177      2 Template:Navbox",
+                " 35.72%   25.803      1 Template:Software_engineering",
+                " 31.37%   22.658      1 Template:Ambox",
+                " 14.14%   10.213      1 Template:Navbox_subgroup",
+                "  9.33%    6.743      1 Template:Software_development_process",
+                "  7.94%    5.735      2 Template:Icon",
+                "  2.18%    1.572      2 Template:Ref",
+                "  1.87%    1.348      1 Template:Dmoz"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.024",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 1622239,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1246",
+            "timestamp": "20161002085722",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1245"});});</script>
+</body>
+</html>
+

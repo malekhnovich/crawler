@@ -1,0 +1,921 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Computational_finance
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Computational finance - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Computational_finance","wgTitle":"Computational finance","wgCurRevisionId":730890200,"wgRevisionId":730890200,"wgArticleId":2910837,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Mathematical finance","Actuarial science"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Computational_finance","wgRelevantArticleId":2910837,"wgRequestId":"V-CB6QpAMFYAAEq62FkAAABK","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q1202190","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Computational_finance" rel="alternate"/>
+<link href="/w/index.php?title=Computational_finance&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Computational_finance&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Computational_finance" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Computational_finance rootpage-Computational_finance skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Computational finance</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="thumb tright">
+<div class="thumbinner" style="width:422px;"><a class="image" href="/wiki/File:Random_Walk_example.svg"><img alt="" class="thumbimage" data-file-height="540" data-file-width="720" height="315" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Random_Walk_example.svg/420px-Random_Walk_example.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Random_Walk_example.svg/630px-Random_Walk_example.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/Random_Walk_example.svg/840px-Random_Walk_example.svg.png 2x" width="420"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:Random_Walk_example.svg" title="Enlarge"></a></div>
+Simulation of <a class="mw-redirect" href="/wiki/Brownian_Motion" title="Brownian Motion">Brownian Motion</a> sample paths is an important tool in calculating the price of financial instruments under the <a href="/wiki/Risk-neutral_measure" title="Risk-neutral measure">risk-neutral measure</a>.</div>
+</div>
+</div>
+<p><b>Computational finance</b> is a branch of applied <a href="/wiki/Computer_science" title="Computer science">computer science</a> that deals with problems of practical interest in <a href="/wiki/Finance" title="Finance">finance</a>.<sup class="reference" id="cite_ref-Seydel_1-0"><a href="#cite_note-Seydel-1">[1]</a></sup> Some slightly different definitions are the study of <a href="/wiki/Data" title="Data">data</a> and <a href="/wiki/Algorithm" title="Algorithm">algorithms</a> currently used in finance<sup class="reference" id="cite_ref-CFRL_2-0"><a href="#cite_note-CFRL-2">[2]</a></sup> and the <a href="/wiki/Mathematics" title="Mathematics">mathematics</a> of <a href="/wiki/Computer_program" title="Computer program">computer programs</a> that realize financial <a href="/wiki/Mathematical_model" title="Mathematical model">models</a> or <a href="/wiki/System" title="System">systems</a>.<sup class="reference" id="cite_ref-Los_3-0"><a href="#cite_note-Los-3">[3]</a></sup></p>
+<p>Computational finance emphasizes practical <a href="/wiki/Numerical_analysis" title="Numerical analysis">numerical methods</a> rather than <a href="/wiki/Mathematical_proof" title="Mathematical proof">mathematical proofs</a> and focuses on techniques that apply directly to <a href="/wiki/Economics" title="Economics">economic analyses</a>.<sup class="reference" id="cite_ref-Miranda_4-0"><a href="#cite_note-Miranda-4">[4]</a></sup> It is an interdisciplinary field between <a href="/wiki/Mathematical_finance" title="Mathematical finance">mathematical finance</a> and <a href="/wiki/Numerical_analysis" title="Numerical analysis">numerical methods</a>.<sup class="reference" id="cite_ref-Ugur_5-0"><a href="#cite_note-Ugur-5">[5]</a></sup> Two major areas are efficient and accurate computation of <a href="/wiki/Fair_value" title="Fair value">fair values</a> of <a href="/wiki/Security_(finance)" title="Security (finance)">financial securities</a> and the modeling of <a href="/wiki/Stochastic" title="Stochastic">stochastic</a> <a href="/wiki/Time_series" title="Time series">price series</a>.<sup class="reference" id="cite_ref-Duan_6-0"><a href="#cite_note-Duan-6">[6]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Applications_of_Computational_Finance"><span class="tocnumber">2</span> <span class="toctext">Applications of Computational Finance</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_finance&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The birth of computational finance as a discipline can be traced to <a href="/wiki/Harry_Markowitz" title="Harry Markowitz">Harry Markowitz</a> in the early 1950s. Markowitz conceived of the portfolio selection problem as an exercise in mean-variance optimization. This required more computer power than was available at the time, so he worked on useful algorithms for approximate solutions.<sup class="reference" id="cite_ref-Markowitz_7-0"><a href="#cite_note-Markowitz-7">[7]</a></sup> Mathematical finance began with the same insight, but diverged by making simplifying assumptions to express relations in simple <a href="/wiki/Closed-form_expression" title="Closed-form expression">closed forms</a> that did not require sophisticated computer science to evaluate.<sup class="reference" id="cite_ref-Fox_8-0"><a href="#cite_note-Fox-8">[8]</a></sup></p>
+<p>In the 1960s, hedge fund managers such as <a href="/wiki/Edward_O._Thorp" title="Edward O. Thorp">Ed Thorp</a><sup class="reference" id="cite_ref-Poundstone_9-0"><a href="#cite_note-Poundstone-9">[9]</a></sup> and <a href="/wiki/Michael_Goodkin" title="Michael Goodkin">Michael Goodkin</a> (working with Harry Markowitz, <a href="/wiki/Paul_Samuelson" title="Paul Samuelson">Paul Samuelson</a> and <a href="/wiki/Robert_C._Merton" title="Robert C. Merton">Robert C. Merton</a>)<sup class="reference" id="cite_ref-Goodkin_10-0"><a href="#cite_note-Goodkin-10">[10]</a></sup> pioneered the use of computers in <a href="/wiki/Arbitrage" title="Arbitrage">arbitrage</a> trading. In academics, sophisticated computer processing was needed by researchers such as <a href="/wiki/Eugene_Fama" title="Eugene Fama">Eugene Fama</a> in order to analyze large amounts of financial data in support of the <a href="/wiki/Efficient-market_hypothesis" title="Efficient-market hypothesis">efficient-market hypothesis</a>.<sup class="reference" id="cite_ref-Fox_8-1"><a href="#cite_note-Fox-8">[8]</a></sup></p>
+<p>During the 1970s, the main focus of computational finance shifted to <a href="/wiki/Valuation_of_options" title="Valuation of options">options pricing</a> and analyzing <a href="/wiki/Mortgage_loan" title="Mortgage loan">mortgage</a> <a href="/wiki/Securitization" title="Securitization">securitizations</a>.<sup class="reference" id="cite_ref-Brown_11-0"><a href="#cite_note-Brown-11">[11]</a></sup> In the late 1970s and early 1980s, a group of young <a href="/wiki/Quantitative_analyst" title="Quantitative analyst">quantitative practitioners</a> who became known as “rocket scientists” arrived on <a href="/wiki/Wall_Street" title="Wall Street">Wall Street</a> and brought along <a href="/wiki/Personal_computer" title="Personal computer">personal computers</a>. This led to an explosion of both the amount and variety of computational finance applications.<sup class="reference" id="cite_ref-Ehlers_12-0"><a href="#cite_note-Ehlers-12">[12]</a></sup> Many of the new techniques came from <a href="/wiki/Signal_processing" title="Signal processing">signal processing</a> and <a href="/wiki/Natural_language_processing" title="Natural language processing">speech recognition</a> rather than traditional fields of computational economics like <a href="/wiki/Mathematical_optimization" title="Mathematical optimization">optimization</a> and <a href="/wiki/Time_series" title="Time series">time series</a> analysis.<sup class="reference" id="cite_ref-Ehlers_12-1"><a href="#cite_note-Ehlers-12">[12]</a></sup></p>
+<p>By the end of the 1980s, the winding down of the <a href="/wiki/Cold_War" title="Cold War">Cold War</a> brought a large group of displaced <a href="/wiki/Physicist" title="Physicist">physicists</a> and <a href="/wiki/Applied_mathematics" title="Applied mathematics">applied mathematicians</a>, many from behind the <a href="/wiki/Iron_Curtain" title="Iron Curtain">Iron Curtain</a>, into finance. These people become known as “<a href="/wiki/Financial_engineering" title="Financial engineering">financial engineers</a>” (“quant” is a term that includes both rocket scientists and financial engineers, as well as quantitative portfolio managers).<sup class="reference" id="cite_ref-Brown1_13-0"><a href="#cite_note-Brown1-13">[13]</a></sup> This led to a second major extension of the range of computational methods used in finance, also a move away from personal computers to <a href="/wiki/Mainframe_computer" title="Mainframe computer">mainframes</a> and <a href="/wiki/Supercomputer" title="Supercomputer">supercomputers</a>.<sup class="reference" id="cite_ref-Brown_11-1"><a href="#cite_note-Brown-11">[11]</a></sup> Around this time computational finance became recognized as a distinct academic subfield. The first degree program in computational finance was offered by Carnegie Mellon University in 1994.<sup class="reference" id="cite_ref-CM_14-0"><a href="#cite_note-CM-14">[14]</a></sup></p>
+<p>Over the last 20 years, the field of computational finance has expanded into virtually every area of finance, and the demand for practitioners has grown dramatically.<sup class="reference" id="cite_ref-Seydel_1-1"><a href="#cite_note-Seydel-1">[1]</a></sup> Moreover, many specialized companies have grown up to supply computational finance software and services.<sup class="reference" id="cite_ref-Goodkin_10-1"><a href="#cite_note-Goodkin-10">[10]</a></sup></p>
+<h2><span class="mw-headline" id="Applications_of_Computational_Finance">Applications of Computational Finance</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_finance&amp;action=edit&amp;section=2" title="Edit section: Applications of Computational Finance">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Algorithmic_trading" title="Algorithmic trading">Algorithmic trading</a></li>
+<li><a class="mw-redirect" href="/wiki/Quantitative_investing" title="Quantitative investing">Quantitative investing</a></li>
+<li><a href="/wiki/High-frequency_trading" title="High-frequency trading">High-frequency trading</a></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_finance&amp;action=edit&amp;section=3" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="mw-redirect" href="/wiki/List_of_finance_topics" title="List of finance topics">List of finance topics</a></li>
+<li><a href="/wiki/Quantitative_analyst" title="Quantitative analyst">Quantitative analyst</a></li>
+<li><a href="/wiki/List_of_quantitative_analysts" title="List of quantitative analysts">List of quantitative analysts</a></li>
+<li><a href="/wiki/Mathematical_finance" title="Mathematical finance">Mathematical finance</a></li>
+<li><a href="/wiki/QuantLib" title="QuantLib">QuantLib</a></li>
+<li><a href="/wiki/Algorithmic_trading" title="Algorithmic trading">Algorithmic trading</a></li>
+<li><a class="mw-redirect" href="/wiki/Master_of_Computational_Finance" title="Master of Computational Finance">Master of Computational Finance</a></li>
+<li><a href="/wiki/Financial_reinsurance" title="Financial reinsurance">Financial reinsurance</a></li>
+<li><a href="/wiki/Financial_modeling" title="Financial modeling">Financial modeling</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_finance&amp;action=edit&amp;section=4" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Seydel-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Seydel_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Seydel_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Rüdiger U. Seydel, <i>Tools for Computational Finance</i>, Springer; 3rd edition (May 11, 2006) 978-3540279235</span></li>
+<li id="cite_note-CFRL-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-CFRL_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.bracil.net/finance/" rel="nofollow">"Computational Finance and Research Laboratory"</a>. University of Essex<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-07-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComputational+finance&amp;rft.btitle=Computational+Finance+and+Research+Laboratory&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bracil.net%2Ffinance%2F&amp;rft.pub=University+of+Essex&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-Los-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Los_3-0">^</a></b></span> <span class="reference-text">Cornelis A. Los, <i>Computational Finance</i> World Scientific Pub Co Inc (December 2000) 978-9810244972</span></li>
+<li id="cite_note-Miranda-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Miranda_4-0">^</a></b></span> <span class="reference-text">Mario J. Miranda and Paul L. Fackler, <i>Applied Computational Economics and Finance</i>, The MIT Press (September 16, 2002) 978-0262134200</span></li>
+<li id="cite_note-Ugur-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Ugur_5-0">^</a></b></span> <span class="reference-text">Omur Ugur, <i>Introduction to Computational Finance</i>, Imperial College Press (December 22, 2008) 978-1848161924</span></li>
+<li id="cite_note-Duan-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Duan_6-0">^</a></b></span> <span class="reference-text">Jin-Chuan Duan, Wolfgang Karl Härdle and James E. Gentle (editors), <i>Handbook of Computational Finance</i>, Springer (October 25, 2011) 978-3642172533</span></li>
+<li id="cite_note-Markowitz-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Markowitz_7-0">^</a></b></span> <span class="reference-text">Harry M. Markowitz, <i>Portfolio Selection: Efficient Diversification of Investments</i>, Wiley, second edition (September 3, 1991) 978-1557861085</span></li>
+<li id="cite_note-Fox-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-Fox_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Fox_8-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Justin Fox, <i>The Myth of the Rational Market: A History of Risk, Reward, and Delusion on Wall Street</i>, HarperBusiness (June 9, 2009) 978-0060598990</span></li>
+<li id="cite_note-Poundstone-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Poundstone_9-0">^</a></b></span> <span class="reference-text">William Poundstone, <i>Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street</i>, Hill and Wang (September 19, 2006) 978-0809045990</span></li>
+<li id="cite_note-Goodkin-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-Goodkin_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Goodkin_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Michael Goodkin, <i>The Wrong Answer Faster: The Inside Story of Making the Machine that Trades Trillions</i>, Wiley, (February 21, 2012) 978-1118133408</span></li>
+<li id="cite_note-Brown-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-Brown_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Brown_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Aaron Brown, <i>Red-Blooded Risk: The Secret History of Wall Street</i>, Wiley (October 11, 2011) 978-1118043868</span></li>
+<li id="cite_note-Ehlers-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-Ehlers_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Ehlers_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">John F. Ehlers, <i>Rocket Science for Traders</i>, Wiley (July 20, 2001) 978-0471405672</span></li>
+<li id="cite_note-Brown1-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-Brown1_13-0">^</a></b></span> <span class="reference-text">Aaron Brown, <i>The Poker Face of Wall Street</i>, Wiley (March 31, 2006) 978-0470127315</span></li>
+<li id="cite_note-CM-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-CM_14-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.math.cmu.edu/CCF/index.html" rel="nofollow">"Center for Computational Finance"</a>. Carnegie Mellon University<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-07-21</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComputational+finance&amp;rft.btitle=Center+for+Computational+Finance&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.math.cmu.edu%2FCCF%2Findex.html&amp;rft.pub=Carnegie+Mellon+University&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_finance&amp;action=edit&amp;section=5" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a class="external text" href="http://ieee-cis.org/technical/cfetc/" rel="nofollow">IEEE Computational Finance and Economics Technical Committee</a></li>
+<li><a class="external text" href="http://www.scicom.uwaterloo.ca/~paforsyt/agon.pdf" rel="nofollow">An Introduction to Computational Finance without Agonizing Pain</a></li>
+<li><a class="external text" href="http://www.bracil.net/finance/papers/TsangMartinez-CompFinance-Ieee_conneCtIonS2004.pdf" rel="nofollow">Introduction to Computational Finance, IEEE Computational Intelligence Society Newsletter, August 2004</a></li>
+<li><a class="external text" href="http://www.puc-rio.br/marco.ind/katia-num.html" rel="nofollow">Numerical Techniques for Options</a></li>
+<li><a class="external text" href="http://www.puc-rio.br/marco.ind/sim_stoc_proc.html" rel="nofollow">Monte Carlo Simulation of Stochastic Processes</a></li>
+<li><a class="external text" href="http://www.essex.ac.uk/ccfea" rel="nofollow">Centre for Computational Finance and Economic Agents (CCFEA)</a></li>
+<li><a class="external text" href="http://www.risk.net/type/technical-paper/source/journal-of-computational-finance/" rel="nofollow">The Journal of Computational Finance</a></li>
+</ul>
+<div aria-labelledby="General_areas_of_finance" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Finance" title="Template:Finance"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Finance" title="Template talk:Finance"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Finance&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="General_areas_of_finance" style="font-size:114%">General areas of <a href="/wiki/Finance" title="Finance">finance</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd hlist" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Computational finance</strong></li>
+<li><a href="/wiki/Experimental_finance" title="Experimental finance">Experimental finance</a></li>
+<li><a href="/wiki/Financial_economics" title="Financial economics">Financial economics</a></li>
+<li><a href="/wiki/Financial_institution" title="Financial institution">Financial institutions</a></li>
+<li><a href="/wiki/Financial_market" title="Financial market">Financial markets</a></li>
+<li><a href="/wiki/Investment_management" title="Investment management">Investment management</a></li>
+<li><a href="/wiki/Mathematical_finance" title="Mathematical finance">Mathematical finance</a></li>
+<li><a href="/wiki/Personal_finance" title="Personal finance">Personal finance</a></li>
+<li><a href="/wiki/Public_finance" title="Public finance">Public finance</a></li>
+<li><a href="/wiki/Quantitative_behavioral_finance" title="Quantitative behavioral finance">Quantitative behavioral finance</a></li>
+<li><a href="/wiki/Quantum_finance" title="Quantum finance">Quantum finance</a></li>
+<li><a href="/wiki/Statistical_finance" title="Statistical finance">Statistical finance</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Technology" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Technology" title="Template:Technology"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Technology" title="Template talk:Technology"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Technology&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Technology" style="font-size:114%"><a href="/wiki/Technology" title="Technology">Technology</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><a href="/wiki/Outline_of_technology" title="Outline of technology">Outline of technology</a></li>
+<li><a href="/wiki/Outline_of_applied_science" title="Outline of applied science">Outline of applied science</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Agriculture" title="Agriculture">Agriculture</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agricultural_engineering" title="Agricultural engineering">Agricultural engineering</a></li>
+<li><a href="/wiki/Aquaculture" title="Aquaculture">Aquaculture</a></li>
+<li><a href="/wiki/Fisheries_science" title="Fisheries science">Fisheries science</a></li>
+<li><a href="/wiki/Food_chemistry" title="Food chemistry">Food chemistry</a></li>
+<li><a href="/wiki/Food_engineering" title="Food engineering">Food engineering</a></li>
+<li><a href="/wiki/Food_microbiology" title="Food microbiology">Food microbiology</a></li>
+<li><a href="/wiki/Food_technology" title="Food technology">Food technology</a></li>
+<li><a href="/wiki/Genetic_use_restriction_technology" title="Genetic use restriction technology">GURT</a></li>
+<li><a class="mw-redirect" href="/wiki/ICT_in_agriculture" title="ICT in agriculture">ICT</a></li>
+<li><a href="/wiki/Nutrition" title="Nutrition">Nutrition</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Biomedical_technology" title="Biomedical technology">Biomedical</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Bioinformatics" title="Bioinformatics">Bioinformatics</a></li>
+<li><a href="/wiki/Biological_engineering" title="Biological engineering">Biological engineering</a></li>
+<li><a href="/wiki/Biomechatronics" title="Biomechatronics">Biomechatronics</a></li>
+<li><a href="/wiki/Biomedical_engineering" title="Biomedical engineering">Biomedical engineering</a></li>
+<li><a href="/wiki/Biotechnology" title="Biotechnology">Biotechnology</a></li>
+<li><a href="/wiki/Cheminformatics" title="Cheminformatics">Cheminformatics</a></li>
+<li><a href="/wiki/Genetic_engineering" title="Genetic engineering">Genetic engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/Healthcare_science" title="Healthcare science">Healthcare science</a></li>
+<li><a href="/wiki/Medical_research" title="Medical research">Medical research</a></li>
+<li><a class="mw-redirect" href="/wiki/Medical_technology" title="Medical technology">Medical technology</a></li>
+<li><a href="/wiki/Nanomedicine" title="Nanomedicine">Nanomedicine</a></li>
+<li><a href="/wiki/Neuroscience" title="Neuroscience">Neuroscience</a></li>
+<li><a href="/wiki/Neurotechnology" title="Neurotechnology">Neurotechnology</a></li>
+<li><a href="/wiki/Pharmacology" title="Pharmacology">Pharmacology</a></li>
+<li><a href="/wiki/Reproductive_technology" title="Reproductive technology">Reproductive technology</a></li>
+<li><a href="/wiki/Tissue_engineering" title="Tissue engineering">Tissue engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architecture" title="Architecture">Buildings</a> and<br/>
+<a href="/wiki/Construction" title="Construction">Construction</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Acoustical_engineering" title="Acoustical engineering">Acoustical engineering</a></li>
+<li><a href="/wiki/Architectural_engineering" title="Architectural engineering">Architectural engineering</a></li>
+<li><a href="/wiki/Building_services_engineering" title="Building services engineering">Building services engineering</a></li>
+<li><a href="/wiki/Civil_engineering" title="Civil engineering">Civil engineering</a></li>
+<li><a href="/wiki/Construction_engineering" title="Construction engineering">Construction engineering</a></li>
+<li><a href="/wiki/Domestic_technology" title="Domestic technology">Domestic technology</a></li>
+<li><a href="/wiki/Facade_engineering" title="Facade engineering">Facade engineering</a></li>
+<li><a href="/wiki/Fire_protection_engineering" title="Fire protection engineering">Fire protection engineering</a></li>
+<li><a href="/wiki/Safety_engineering" title="Safety engineering">Safety engineering</a></li>
+<li><a href="/wiki/Sanitary_engineering" title="Sanitary engineering">Sanitary engineering</a></li>
+<li><a href="/wiki/Structural_engineering" title="Structural engineering">Structural engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Educational_technology" title="Educational technology">Educational</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Educational_software" title="Educational software">Educational software</a></li>
+<li><a class="mw-redirect" href="/wiki/Digital_technologies_in_education" title="Digital technologies in education">Digital technologies in education</a></li>
+<li><a class="mw-redirect" href="/wiki/Information_and_communication_technologies_in_education" title="Information and communication technologies in education">ICT in education</a></li>
+<li><a class="mw-redirect" href="/wiki/Impact_of_technology_on_the_educational_system" title="Impact of technology on the educational system">Impact</a></li>
+<li><a class="mw-redirect" href="/wiki/Multimedia_learning" title="Multimedia learning">Multimedia learning</a></li>
+<li><a href="/wiki/Virtual_campus" title="Virtual campus">Virtual campus</a></li>
+<li><a class="mw-redirect" href="/wiki/Virtual_education" title="Virtual education">Virtual education</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Energy_technology" title="Energy technology">Energy</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Nuclear_engineering" title="Nuclear engineering">Nuclear engineering</a></li>
+<li><a href="/wiki/Nuclear_technology" title="Nuclear technology">Nuclear technology</a></li>
+<li><a href="/wiki/Petroleum_engineering" title="Petroleum engineering">Petroleum engineering</a></li>
+<li><a href="/wiki/Soft_energy_technology" title="Soft energy technology">Soft energy technology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Environmental_technology" title="Environmental technology">Environmental</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Clean_technology" title="Clean technology">Clean technology</a></li>
+<li><a href="/wiki/Clean_coal_technology" title="Clean coal technology">Clean coal technology</a></li>
+<li><a href="/wiki/Ecological_design" title="Ecological design">Ecological design</a></li>
+<li><a href="/wiki/Ecological_engineering" title="Ecological engineering">Ecological engineering</a></li>
+<li><a href="/wiki/Ecotechnology" title="Ecotechnology">Ecotechnology</a></li>
+<li><a href="/wiki/Environmental_engineering" title="Environmental engineering">Environmental engineering</a></li>
+<li><a href="/wiki/Environmental_engineering_science" title="Environmental engineering science">Environmental engineering science</a></li>
+<li><a href="/wiki/Green_building" title="Green building">Green building</a></li>
+<li><a href="/wiki/Green_nanotechnology" title="Green nanotechnology">Green nanotechnology</a></li>
+<li><a href="/wiki/Landscape_engineering" title="Landscape engineering">Landscape engineering</a></li>
+<li><a href="/wiki/Renewable_energy" title="Renewable energy">Renewable energy</a></li>
+<li><a href="/wiki/Sustainable_design" title="Sustainable design">Sustainable design</a></li>
+<li><a href="/wiki/Sustainable_engineering" title="Sustainable engineering">Sustainable engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Industrial_technology" title="Industrial technology">Industrial</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Automation" title="Automation">Automation</a></li>
+<li><a href="/wiki/Business_informatics" title="Business informatics">Business informatics</a></li>
+<li><a href="/wiki/Engineering_management" title="Engineering management">Engineering management</a></li>
+<li><a href="/wiki/Enterprise_engineering" title="Enterprise engineering">Enterprise engineering</a></li>
+<li><strong class="selflink">Financial engineering</strong></li>
+<li><a class="mw-redirect" href="/wiki/Industrial_biotechnology" title="Industrial biotechnology">Industrial biotechnology</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial engineering</a></li>
+<li><a href="/wiki/Metallurgy" title="Metallurgy">Metallurgy</a></li>
+<li><a href="/wiki/Mining_engineering" title="Mining engineering">Mining engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/Productivity_improving_technologies_(historical)" title="Productivity improving technologies (historical)">Productivity improving technologies</a></li>
+<li><a href="/wiki/Research_and_development" title="Research and development">Research and development</a></li>
+<li><a href="/wiki/Tribology" title="Tribology">Tribology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Information_and_communications_technology" title="Information and communications technology">IT and<br/>
+communications</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial intelligence</a></li>
+<li><a href="/wiki/Broadcast_engineering" title="Broadcast engineering">Broadcast engineering</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Financial_technology" title="Financial technology">Financial technology</a></li>
+<li><a href="/wiki/Information_technology" title="Information technology">Information technology</a></li>
+<li><a href="/wiki/Music_technology" title="Music technology">Music technology</a></li>
+<li><a href="/wiki/Ontology_engineering" title="Ontology engineering">Ontology engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/RF_engineering" title="RF engineering">RF engineering</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Telecommunications_engineering" title="Telecommunications engineering">Telecommunications engineering</a></li>
+<li><a href="/wiki/Visual_technology" title="Visual technology">Visual technology</a></li>
+<li><a href="/wiki/Web_engineering" title="Web engineering">Web engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Military_technology" title="Military technology">Military</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Army_engineering_maintenance" title="Army engineering maintenance">Army engineering maintenance</a></li>
+<li><a href="/wiki/Electronic_warfare" title="Electronic warfare">Electronic warfare</a></li>
+<li><a href="/wiki/Military_communications" title="Military communications">Military communications</a></li>
+<li><a href="/wiki/Military_engineering" title="Military engineering">Military engineering</a></li>
+<li><a href="/wiki/Stealth_technology" title="Stealth technology">Stealth technology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Transport" title="Transport">Transport</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace engineering</a></li>
+<li><a href="/wiki/Automotive_engineering" title="Automotive engineering">Automotive engineering</a></li>
+<li><a href="/wiki/Naval_architecture" title="Naval architecture">Naval architecture</a></li>
+<li><a class="mw-redirect" href="/wiki/Space_technology" title="Space technology">Space technology</a></li>
+<li><a href="/wiki/Traffic_engineering_(transportation)" title="Traffic engineering (transportation)">Traffic engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/Transport_engineering" title="Transport engineering">Transport engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row">Others</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Applied_science" title="Applied science">applied science</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Cryogenics" title="Cryogenics">Cryogenics</a></li>
+<li><a href="/wiki/Electro-optics" title="Electro-optics">Electro-optics</a></li>
+<li><a href="/wiki/Electronics" title="Electronics">Electronics</a></li>
+<li><a href="/wiki/Engineering_geology" title="Engineering geology">Engineering geology</a></li>
+<li><a href="/wiki/Engineering_physics" title="Engineering physics">Engineering physics</a></li>
+<li><a href="/wiki/Hydraulics" title="Hydraulics">Hydraulics</a></li>
+<li><a href="/wiki/Materials_science" title="Materials science">Materials science</a></li>
+<li><a href="/wiki/Microfabrication" title="Microfabrication">Microfabrication</a></li>
+<li><a href="/wiki/Nanoengineering" title="Nanoengineering">Nanoengineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Engineering" title="Engineering">engineering</a> (<a href="/wiki/List_of_engineering_branches" title="List of engineering branches">list</a>)</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Audio_engineering" title="Audio engineering">Audio</a></li>
+<li><a href="/wiki/Biochemical_engineering" title="Biochemical engineering">Biochemical</a></li>
+<li><a href="/wiki/Ceramic_engineering" title="Ceramic engineering">Ceramic</a></li>
+<li><a href="/wiki/Chemical_engineering" title="Chemical engineering">Chemical</a></li>
+<li><a href="/wiki/Polymer_engineering" title="Polymer engineering">Polymer</a></li>
+<li><a href="/wiki/Control_engineering" title="Control engineering">Control</a></li>
+<li><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical</a></li>
+<li><a href="/wiki/Electronic_engineering" title="Electronic engineering">Electronic</a></li>
+<li><a href="/wiki/Entertainment_technology" title="Entertainment technology">Entertainment</a></li>
+<li><a href="/wiki/Geotechnical_engineering" title="Geotechnical engineering">Geotechnical</a></li>
+<li><a href="/wiki/Hydraulic_engineering" title="Hydraulic engineering">Hydraulic</a></li>
+<li><a href="/wiki/Mechanical_engineering" title="Mechanical engineering">Mechanical</a></li>
+<li><a href="/wiki/Mechatronics" title="Mechatronics">Mechatronics</a></li>
+<li><a href="/wiki/Optical_engineering" title="Optical engineering">Optical</a></li>
+<li><a href="/wiki/Protein_engineering" title="Protein engineering">Protein</a></li>
+<li><a href="/wiki/Quantum_technology" title="Quantum technology">Quantum</a></li>
+<li><a href="/wiki/Robotics" title="Robotics">Robotics</a>
+<ul>
+<li><a href="/wiki/Animatronics" title="Animatronics">Animatronics</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Components</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Infrastructure" title="Infrastructure">Infrastructure</a></li>
+<li><a href="/wiki/Invention" title="Invention">Invention</a>
+<ul>
+<li><a href="/wiki/Timeline_of_historic_inventions" title="Timeline of historic inventions">Timeline</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Knowledge" title="Knowledge">Knowledge</a></li>
+<li><a href="/wiki/Machine" title="Machine">Machine</a></li>
+<li><a href="/wiki/Skill" title="Skill">Skill</a>
+<ul>
+<li><a href="/wiki/Craft" title="Craft">Craft</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Tool" title="Tool">Tool</a>
+<ul>
+<li><a href="/wiki/Gadget" title="Gadget">Gadget</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Scales</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Femtotechnology" title="Femtotechnology">Femtotechnology</a></li>
+<li><a href="/wiki/Picotechnology" title="Picotechnology">Picotechnology</a></li>
+<li><a href="/wiki/Nanotechnology" title="Nanotechnology">Nanotechnology</a></li>
+<li><a href="/wiki/Microtechnology" title="Microtechnology">Microtechnology</a></li>
+<li><a href="/wiki/Macro-engineering" title="Macro-engineering">Macro-engineering</a></li>
+<li><a href="/wiki/Megascale_engineering" title="Megascale engineering">Megascale engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/History_of_technology" title="History of technology">History</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Outline_of_prehistoric_technology" title="Outline of prehistoric technology">Prehistoric technology</a></li>
+<li><a href="/wiki/Neolithic_Revolution" title="Neolithic Revolution">Neolithic Revolution</a></li>
+<li><a href="/wiki/Ancient_technology" title="Ancient technology">Ancient technology</a></li>
+<li><a href="/wiki/Medieval_technology" title="Medieval technology">Medieval technology</a></li>
+<li><a href="/wiki/Renaissance_technology" title="Renaissance technology">Renaissance technology</a></li>
+<li><a href="/wiki/Industrial_Revolution" title="Industrial Revolution">Industrial Revolution</a>
+<ul>
+<li><a href="/wiki/Second_Industrial_Revolution" title="Second Industrial Revolution">Second</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Atomic_Age" title="Atomic Age">Atomic Age</a></li>
+<li><a href="/wiki/Jet_Age" title="Jet Age">Jet Age</a></li>
+<li><a href="/wiki/Space_Age" title="Space Age">Space Age</a></li>
+<li><a href="/wiki/Digital_Revolution" title="Digital Revolution">Digital Revolution</a></li>
+<li><a href="/wiki/Information_Age" title="Information Age">Information Age</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Theories_of_technology" title="Theories of technology">Theories</a> and<br/>
+concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Appropriate_technology" title="Appropriate technology">Appropriate technology</a></li>
+<li><a href="/wiki/Collingridge_dilemma" title="Collingridge dilemma">Collingridge dilemma</a></li>
+<li><a href="/wiki/Critique_of_technology" title="Critique of technology">Critique of technology</a></li>
+<li><a href="/wiki/Diffusion_of_innovations" title="Diffusion of innovations">Diffusion of innovations</a></li>
+<li><a href="/wiki/Disruptive_innovation" title="Disruptive innovation">Disruptive innovation</a></li>
+<li><a href="/wiki/Dual-use_technology" title="Dual-use technology">Dual-use technology</a></li>
+<li><a href="/wiki/Ephemeralization" title="Ephemeralization">Ephemeralization</a></li>
+<li><a href="/wiki/High_tech" title="High tech">High tech</a></li>
+<li><a href="/wiki/Hype_cycle" title="Hype cycle">Hype cycle</a></li>
+<li><a class="mw-redirect" href="/wiki/Low-technology" title="Low-technology">Low-technology</a></li>
+<li><a href="/wiki/Mature_technology" title="Mature technology">Mature technology</a></li>
+<li><a href="/wiki/Strategy_of_Technology" title="Strategy of Technology">Strategy of Technology</a></li>
+<li><a href="/wiki/Technicism" title="Technicism">Technicism</a></li>
+<li><a href="/wiki/Techno-progressivism" title="Techno-progressivism">Techno-progressivism</a></li>
+<li><a href="/wiki/Technocapitalism" title="Technocapitalism">Technocapitalism</a></li>
+<li><a href="/wiki/Technocentrism" title="Technocentrism">Technocentrism</a></li>
+<li><a href="/wiki/Technocracy" title="Technocracy">Technocracy</a></li>
+<li><a href="/wiki/Technocriticism" title="Technocriticism">Technocriticism</a></li>
+<li><a href="/wiki/Technoculture" title="Technoculture">Technoculture</a></li>
+<li><a class="mw-redirect" href="/wiki/Technoethics" title="Technoethics">Technoethics</a></li>
+<li><a class="mw-redirect" href="/wiki/Technoetic" title="Technoetic">Technoetic</a></li>
+<li><a href="/wiki/Technogaianism" title="Technogaianism">Technogaianism</a></li>
+<li><a href="/wiki/Technoliberalism" title="Technoliberalism">Technoliberalism</a></li>
+<li><a href="/wiki/Technolibertarianism" title="Technolibertarianism">Technolibertarianism</a></li>
+<li><a href="/wiki/Technological_alliance" title="Technological alliance">Technological alliance</a></li>
+<li><a href="/wiki/Technological_apartheid" title="Technological apartheid">Technological apartheid</a></li>
+<li><a href="/wiki/Technological_change" title="Technological change">Technological change</a></li>
+<li><a href="/wiki/Technological_convergence" title="Technological convergence">Technological convergence</a></li>
+<li><a href="/wiki/Technological_determinism" title="Technological determinism">Technological determinism</a></li>
+<li><a href="/wiki/Technological_escalation" title="Technological escalation">Technological escalation</a></li>
+<li><a href="/wiki/Technological_evolution" title="Technological evolution">Technological evolution</a></li>
+<li><a href="/wiki/Technological_fix" title="Technological fix">Technological fix</a></li>
+<li><a href="/wiki/Technological_innovation_system" title="Technological innovation system">Technological innovation system</a></li>
+<li><a href="/wiki/Technological_momentum" title="Technological momentum">Technological momentum</a></li>
+<li><a href="/wiki/Technological_nationalism" title="Technological nationalism">Technological nationalism</a></li>
+<li><a href="/wiki/Technological_paradigm" title="Technological paradigm">Technological paradigm</a></li>
+<li><a href="/wiki/Technological_rationality" title="Technological rationality">Technological rationality</a></li>
+<li><a href="/wiki/Technological_revival" title="Technological revival">Technological revival</a></li>
+<li><a href="/wiki/Technological_revolution" title="Technological revolution">Technological revolution</a></li>
+<li><a href="/wiki/Technological_self-efficacy" title="Technological self-efficacy">Technological self-efficacy</a></li>
+<li><a href="/wiki/Technological_singularity" title="Technological singularity">Technological singularity</a>
+<ul>
+<li><a href="/wiki/Singularitarianism" title="Singularitarianism">Singularitarianism</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Technological_somnambulism" title="Technological somnambulism">Technological somnambulism</a></li>
+<li><a href="/wiki/Technological_transitions" title="Technological transitions">Technological transitions</a></li>
+<li><a href="/wiki/Technological_unemployment" title="Technological unemployment">Technological unemployment</a></li>
+<li><a href="/wiki/Technological_utopianism" title="Technological utopianism">Technological utopianism</a></li>
+<li><a class="mw-redirect" href="/wiki/Technology_lifecycle" title="Technology lifecycle">Technology lifecycle</a>
+<ul>
+<li><a href="/wiki/Technology_acceptance_model" title="Technology acceptance model">Technology acceptance model</a></li>
+<li><a class="mw-redirect" href="/wiki/Technology_adoption_lifecycle" title="Technology adoption lifecycle">Technology adoption lifecycle</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Technomancy" title="Technomancy">Technomancy</a></li>
+<li><a href="/wiki/Technopaganism" title="Technopaganism">Technopaganism</a></li>
+<li><a href="/wiki/Technorealism" title="Technorealism">Technorealism</a></li>
+<li><a href="/wiki/Technoromanticism" title="Technoromanticism">Technoromanticism</a></li>
+<li><a href="/wiki/Technoscience" title="Technoscience">Technoscience</a>
+<ul>
+<li><a href="/wiki/Feminist_technoscience" title="Feminist technoscience">feminist</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Transhumanism" title="Transhumanism">Transhumanism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Emerging_technologies" title="Emerging technologies">Emerging technologies</a>
+<ul>
+<li><a href="/wiki/List_of_emerging_technologies" title="List of emerging technologies">List</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Fictional_technology" title="Fictional technology">Fictional technology</a></li>
+<li><a href="/wiki/Category:High-technology_business_districts" title="Category:High-technology business districts">High-technology business districts</a></li>
+<li><a href="/wiki/Kardashev_scale" title="Kardashev scale">Kardashev scale</a></li>
+<li><a href="/wiki/List_of_technologies" title="List of technologies">List of technologies</a></li>
+<li><a href="/wiki/Philosophy_of_technology" title="Philosophy of technology">Philosophy of technology</a>
+<ul>
+<li><a href="/wiki/Ethics_of_technology" title="Ethics of technology">Ethics of technology</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Science,_technology_and_society" title="Science, technology and society">Science, technology and society</a>
+<ul>
+<li><a href="/wiki/Technology_dynamics" title="Technology dynamics">Technology dynamics</a></li>
+<li><a href="/wiki/Category:Science_and_technology_by_country" title="Category:Science and technology by country">Science and technology by country</a></li>
+</ul>
+</li>
+<li><a class="mw-redirect" href="/wiki/STEM_fields" title="STEM fields">STEM fields</a>
+<ul>
+<li><a href="/wiki/Pre-STEM" title="Pre-STEM">Pre-STEM</a></li>
+<li><a href="/wiki/Women_in_STEM_fields" title="Women in STEM fields">women</a></li>
+</ul>
+</li>
+<li><a href="/wiki/STEAM_fields" title="STEAM fields">STEAM fields</a></li>
+<li><a href="/wiki/Technology_alignment" title="Technology alignment">Technology alignment</a></li>
+<li><a href="/wiki/Technology_assessment" title="Technology assessment">Technology assessment</a></li>
+<li><a href="/wiki/Technology_brokering" title="Technology brokering">Technology brokering</a></li>
+<li><a href="/wiki/Category:Technology_companies" title="Category:Technology companies">Technology companies</a></li>
+<li><a href="/wiki/Technology_demonstration" title="Technology demonstration">Technology demonstration</a></li>
+<li><a href="/wiki/Technology_education" title="Technology education">Technology education</a>
+<ul>
+<li><a href="/wiki/Category:Technical_universities_and_colleges" title="Category:Technical universities and colleges">Technical universities and colleges</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Technology_evangelist" title="Technology evangelist">Technology evangelist</a></li>
+<li><a href="/wiki/Technology_fusion" title="Technology fusion">Technology fusion</a></li>
+<li><a href="/wiki/Technology_governance" title="Technology governance">Technology governance</a></li>
+<li><a href="/wiki/Technology_integration" title="Technology integration">Technology integration</a></li>
+<li><a href="/wiki/Technology_journalism" title="Technology journalism">Technology journalism</a></li>
+<li><a href="/wiki/Technology_management" title="Technology management">Technology management</a></li>
+<li><a href="/wiki/Technology_museum" title="Technology museum">Technology museum</a></li>
+<li><a href="/wiki/Technology_policy" title="Technology policy">Technology policy</a></li>
+<li><a href="/wiki/Technology_shock" title="Technology shock">Technology shock</a></li>
+<li><a href="/wiki/Technology_strategy" title="Technology strategy">Technology strategy</a></li>
+<li><a href="/wiki/Technology_and_society" title="Technology and society">Technology and society</a></li>
+<li><a href="/wiki/Technology_transfer" title="Technology transfer">Technology transfer</a></li>
+<li><a href="/wiki/Technophilia" title="Technophilia">Technophilia</a></li>
+<li><a href="/wiki/Technophobia" title="Technophobia">Technophobia</a></li>
+<li><a class="mw-redirect" href="/wiki/Technoself" title="Technoself">Technoself</a></li>
+<li><a href="/wiki/Technosexual" title="Technosexual">Technosexual</a></li>
+<li><a href="/wiki/Technosignature" title="Technosignature">Technosignature</a></li>
+<li><a href="/wiki/Technostress" title="Technostress">Technostress</a></li>
+<li><a href="/wiki/Terotechnology" title="Terotechnology">Terotechnology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><img alt="Wikipedia book" data-file-height="185" data-file-width="180" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" title="Wikipedia book" width="16"/> <b><a href="/wiki/Book:Technology" title="Book:Technology">Book</a></b></li>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <b><a href="/wiki/Category:Technology" title="Category:Technology">Category</a></b></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Technology" title="commons:Category:Technology">Commons</a></b></li>
+<li><img alt="Portal" data-file-height="28" data-file-width="32" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="Portal" width="16"/> <b><a href="/wiki/Portal:Technology" title="Portal:Technology">Portal</a></b></li>
+<li><img alt="Wikiquote page" data-file-height="355" data-file-width="300" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/13px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/20px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/27px-Wikiquote-logo.svg.png 2x" title="Wikiquote page" width="13"/> <b><a class="extiw" href="https://en.wikiquote.org/wiki/Technology" title="wikiquote:Technology">Wikiquotes</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-label="Navbox" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span style="white-space:nowrap;"><a href="/wiki/National_Diet_Library" title="National Diet Library">NDL</a>: <span class="uid"><a class="external text" href="http://id.ndl.go.jp/auth/ndlna/00838846" rel="nofollow">00838846</a></span></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2910837-0!*!0!!en!4!* and timestamp 20160903122658 and revision id 730890200
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Computational_finance&amp;oldid=730890200">https://en.wikipedia.org/w/index.php?title=Computational_finance&amp;oldid=730890200</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Mathematical_finance" title="Category:Mathematical finance">Mathematical finance</a></li><li><a href="/wiki/Category:Actuarial_science" title="Category:Actuarial science">Actuarial science</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Computational+finance" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Computational+finance" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Computational_finance" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Computational_finance" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Computational_finance">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Computational_finance&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Computational_finance&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Computational_finance" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Computational_finance" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Computational_finance&amp;oldid=730890200" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Computational_finance&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q1202190" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Computational_finance&amp;id=730890200" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Computational+finance">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Computational+finance&amp;returnto=Computational+finance&amp;oldid=730890200&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Computational_finance&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D9%85%D8%A7%D9%84%D9%8A%D8%A9" hreflang="ar" lang="ar" title="هندسة مالية – Arabic">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE_%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE" hreflang="bg" lang="bg" title="Финансово инженерство – Bulgarian">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Enginyeria_financera" hreflang="ca" lang="ca" title="Enginyeria financera – Catalan">Català</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C_%D9%85%D8%A7%D9%84%DB%8C" hreflang="fa" lang="fa" title="مهندسی مالی – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Ing%C3%A9nieur_financier" hreflang="fr" lang="fr" title="Ingénieur financier – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Enxe%C3%B1er%C3%ADa_financeira" hreflang="gl" lang="gl" title="Enxeñería financeira – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EA%B8%88%EC%9C%B5%EA%B3%B5%ED%95%99" hreflang="ko" lang="ko" title="금융공학 – Korean">한국어</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Fj%C3%A1rm%C3%A1laverkfr%C3%A6%C3%B0i" hreflang="is" lang="is" title="Fjármálaverkfræði – Icelandic">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Ingegneria_finanziaria" hreflang="it" lang="it" title="Ingegneria finanziaria – Italian">Italiano</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Kewangan_pengiraan" hreflang="ms" lang="ms" title="Kewangan pengiraan – Malay">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E9%87%91%E8%9E%8D%E5%B7%A5%E5%AD%A6" hreflang="ja" lang="ja" title="金融工学 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B8%D0%BD%D0%B6%D0%B8%D0%BD%D0%B8%D1%80%D0%B8%D0%BD%D0%B3" hreflang="ru" lang="ru" title="Финансовый инжиниринг – Russian">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A4%D1%96%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B8%D0%B9_%D1%96%D0%BD%D0%B6%D0%B8%D0%BD%D1%96%D1%80%D0%B8%D0%BD%D0%B3" hreflang="uk" lang="uk" title="Фінансовий інжиніринг – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C_%DB%81%D9%86%D8%AF%D8%B3%DB%8C%D8%A7%D8%AA" hreflang="ur" lang="ur" title="مالیاتی ہندسیات – Urdu">اردو</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E9%87%91%E8%9E%8D%E5%B7%A5%E7%A8%8B%E5%AD%A6" hreflang="zh" lang="zh" title="金融工程学 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q1202190#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 21 July 2016, at 16:07.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Computational_finance&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.231",
+            "walltime": "0.293",
+            "ppvisitednodes": {
+                "value": 622,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 74966,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 0,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 9,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 0,
+                "limit": 500
+            },
+            "timingprofile": [
+                "100.00%  157.070      1 -total",
+                " 48.18%   75.678      5 Template:Navbox",
+                " 42.78%   67.197      1 Template:Reflist",
+                " 33.43%   52.511      2 Template:Cite_web",
+                " 27.60%   43.349      1 Template:Technology",
+                " 18.68%   29.335      1 Template:Authority_control",
+                " 10.77%   16.912      1 Template:Finance",
+                " 10.30%   16.177      5 Template:Icon"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.070",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2665458,
+                "limit": 52428800
+            }
+        },
+        "EntityAccessCount": 1,
+        "cachereport": {
+            "origin": "mw1211",
+            "timestamp": "20160903122659",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1251"});});</script>
+</body>
+</html>
+

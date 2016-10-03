@@ -1,0 +1,1387 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Software_requirements_analysis
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Requirements analysis - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Requirements_analysis","wgTitle":"Requirements analysis","wgCurRevisionId":741296745,"wgRevisionId":741296745,"wgArticleId":522449,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Uses editors parameter","CS1 maint: Multiple names: authors list","Articles needing additional references from December 2011","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from February 2012","Articles needing additional references from October 2009","Articles with unsourced statements from December 2011","Articles needing cleanup from February 2011","All articles needing cleanup","Cleanup tagged articles without a reason field from February 2011","Wikipedia pages needing cleanup from February 2011","Commons category with local link same as on Wikidata","Systems engineering","Software requirements","Business analysis"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Requirements_analysis","wgRelevantArticleId":522449,"wgRequestId":"V-EU-ApAMFIAAEqivwcAAABE","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Software_requirements_analysis","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Requirements_analysis","wgWikibaseItemId":"Q187147","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Requirements_analysis" rel="alternate"/>
+<link href="/w/index.php?title=Requirements_analysis&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Requirements_analysis&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Requirements_analysis" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Requirements_analysis rootpage-Requirements_analysis skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Requirements analysis</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Software_requirements_analysis&amp;redirect=no" title="Software requirements analysis">Software requirements analysis</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Requirements_analysis&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(December 2011)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<div class="hatnote" role="note">For a broader coverage related to this topic, see <a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a class="image" href="/wiki/File:SE_Process.jpg"><img alt="" class="thumbimage" data-file-height="550" data-file-width="800" height="220" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SE_Process.jpg/320px-SE_Process.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SE_Process.jpg/480px-SE_Process.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SE_Process.jpg/640px-SE_Process.jpg 2x" width="320"/></a>
+<div class="thumbcaption">
+<div class="magnify"><a class="internal" href="/wiki/File:SE_Process.jpg" title="Enlarge"></a></div>
+A <a href="/wiki/Systems_engineering" title="Systems engineering">systems engineering</a> perspective on requirements analysis.<sup class="reference" id="cite_ref-SEF01_1-0"><a href="#cite_note-SEF01-1">[1]</a></sup></div>
+</div>
+</div>
+<table class="vertical-navbox" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%">
+<tr>
+<th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></th>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Core activities</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><strong class="selflink">Requirements</strong></li>
+<li><a href="/wiki/Software_design" title="Software design">Design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Construction</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Testing</a></li>
+<li><a href="/wiki/Debugging" title="Debugging">Debugging</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Maintenance</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Paradigms and models</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+<li><a href="/wiki/Waterfall_model" title="Waterfall model">Waterfall</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototyping</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental</a></li>
+<li><a href="/wiki/V-Model_(software_development)" title="V-Model (software development)">V-Model</a></li>
+<li><a href="/wiki/Dual_Vee_Model" title="Dual Vee Model">Dual Vee Model</a></li>
+<li><a href="/wiki/Spiral_model" title="Spiral model">Spiral</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">IID</a></li>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Lean_software_development" title="Lean software development">Lean</a></li>
+<li><a href="/wiki/DevOps" title="DevOps">DevOps</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Methodologies</a> and frameworks</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Cleanroom_software_engineering" title="Cleanroom software engineering">Cleanroom</a></li>
+<li><a href="/wiki/Team_software_process" title="Team software process">TSP</a></li>
+<li><a href="/wiki/Personal_software_process" title="Personal software process">PSP</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Dynamic_systems_development_method" title="Dynamic systems development method">DSDM</a></li>
+<li><a href="/wiki/Microsoft_Solutions_Framework" title="Microsoft Solutions Framework">MSF</a></li>
+<li><a href="/wiki/Scrum_(software_development)" title="Scrum (software development)">Scrum</a></li>
+<li><a href="/wiki/Kanban_(development)" title="Kanban (development)">Kanban</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+<li><a href="/wiki/Extreme_programming" title="Extreme programming">XP</a></li>
+<li><a href="/wiki/Test-driven_development" title="Test-driven development">TDD</a></li>
+<li><a href="/wiki/Acceptance_test%E2%80%93driven_development" title="Acceptance test–driven development">ATDD</a></li>
+<li><a href="/wiki/Behavior-driven_development" title="Behavior-driven development">BDD</a></li>
+<li><a href="/wiki/Feature-driven_development" title="Feature-driven development">FDD</a></li>
+<li><a href="/wiki/Domain-driven_design" title="Domain-driven design">DDD</a></li>
+<li><a class="mw-redirect" href="/wiki/Model-driven_development" title="Model-driven development">MDD</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Supporting disciplines</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Configuration management</a></li>
+<li><a href="/wiki/Infrastructure_as_Code" title="Infrastructure as Code">Infrastructure as Code</a></li>
+<li><a href="/wiki/Software_documentation" title="Software documentation">Documentation</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software Quality assurance (SQA)</a></li>
+<li><a href="/wiki/Software_project_management" title="Software project management">Project management</a></li>
+<li><a href="/wiki/User_experience" title="User experience">User experience</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5"><a href="/wiki/Programming_tool" title="Programming tool">Tools</a></th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a href="/wiki/Compiler" title="Compiler">Compiler</a></li>
+<li><a href="/wiki/Debugger" title="Debugger">Debugger</a></li>
+<li><a href="/wiki/Profiling_(computer_programming)" title="Profiling (computer programming)">Profiler</a></li>
+<li><a href="/wiki/Graphical_user_interface_builder" title="Graphical user interface builder">GUI designer</a></li>
+<li><a class="mw-redirect" href="/wiki/UML_tools" title="UML tools">Modeling</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">IDE</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build automation</a></li>
+<li><a href="/wiki/Application_release_automation" title="Application release automation">Release automation</a></li>
+<li><a href="/wiki/Category:Software_testing_tools" title="Category:Software testing tools">Testing</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th style="padding:0.1em;background-color: #e7c6a5">Standards and BOKs</th>
+</tr>
+<tr>
+<td class="hlist" style="padding:0 0.1em 0.4em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/CMMI" title="CMMI">CMMI</a></li>
+<li><a href="/wiki/IEEE_Standards_Association" title="IEEE Standards Association">IEEE standards</a></li>
+<li><a class="mw-redirect" href="/wiki/ISO_9001" title="ISO 9001">ISO 9001</a></li>
+<li><a href="/wiki/ISO/IEC_JTC_1/SC_7" title="ISO/IEC JTC 1/SC 7">ISO/IEC standards</a></li>
+<li><a class="mw-redirect" href="/wiki/SWEBOK" title="SWEBOK">SWEBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/PMBOK" title="PMBOK">PMBOK</a></li>
+<li><a class="mw-redirect" href="/wiki/BABOK" title="BABOK">BABOK</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_development_process" title="Template:Software development process"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_development_process" title="Template talk:Software development process"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_development_process&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Requirements analysis</b> in <a href="/wiki/Systems_engineering" title="Systems engineering">systems engineering</a> and <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, encompasses those tasks that go into determining the needs or conditions to meet for a new or altered product or project, taking account of the possibly conflicting <a href="/wiki/Requirement" title="Requirement">requirements</a> of the various <a href="/wiki/Stakeholder_(corporate)" title="Stakeholder (corporate)">stakeholders</a>, <i>analyzing, documenting, validating and managing</i> software or system requirements.<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></p>
+<p>Requirements analysis is critical to the success or failure of a systems or software project.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> The requirements should be documented, actionable, measurable, testable, traceable, related to identified business needs or opportunities, and defined to a level of detail sufficient for system design.</p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Requirements_analysis_topics"><span class="tocnumber">2</span> <span class="toctext">Requirements analysis topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Stakeholder_identification"><span class="tocnumber">2.1</span> <span class="toctext">Stakeholder identification</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Stakeholder_interviews"><span class="tocnumber">2.2</span> <span class="toctext">Stakeholder interviews</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Joint_Requirements_Development_.28JRD.29_Sessions"><span class="tocnumber">2.3</span> <span class="toctext">Joint Requirements Development (JRD) Sessions</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Contract-style_requirement_lists"><span class="tocnumber">2.4</span> <span class="toctext">Contract-style requirement lists</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Strengths"><span class="tocnumber">2.4.1</span> <span class="toctext">Strengths</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Weaknesses"><span class="tocnumber">2.4.2</span> <span class="toctext">Weaknesses</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Alternative_to_requirement_lists"><span class="tocnumber">2.4.3</span> <span class="toctext">Alternative to requirement lists</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Measurable_goals"><span class="tocnumber">2.5</span> <span class="toctext">Measurable goals</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Prototypes"><span class="tocnumber">2.6</span> <span class="toctext">Prototypes</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Use_cases"><span class="tocnumber">2.7</span> <span class="toctext">Use cases</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Requirements_specification"><span class="tocnumber">2.8</span> <span class="toctext">Requirements specification</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Types_of_Requirements"><span class="tocnumber">3</span> <span class="toctext">Types of Requirements</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Requirements_analysis_issues"><span class="tocnumber">4</span> <span class="toctext">Requirements analysis issues</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Stakeholder_issues"><span class="tocnumber">4.1</span> <span class="toctext">Stakeholder issues</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Engineer.2Fdeveloper_issues"><span class="tocnumber">4.2</span> <span class="toctext">Engineer/developer issues</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Attempted_solutions"><span class="tocnumber">4.3</span> <span class="toctext">Attempted solutions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Bibliography"><span class="tocnumber">7</span> <span class="toctext">Bibliography</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Conceptually, requirements analysis includes three types of activities:<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2012)">citation needed</span></a></i>]</sup></p>
+<ul>
+<li><a href="/wiki/Requirements_elicitation" title="Requirements elicitation">Eliciting requirements</a>:(e.g. the project charter or definition), business process documentation, and stakeholder interviews. This is sometimes also called requirements gathering or requirements discovery.</li>
+<li>Analyzing requirements: determining whether the stated requirements are clear, complete, consistent and unambiguous, and resolving any apparent conflicts.</li>
+<li>Recording requirements: Requirements may be documented in various forms, usually including a summary list and may include natural-language documents, <a href="/wiki/Use_case" title="Use case">use cases</a>, <a href="/wiki/User_story" title="User story">user stories</a>, process specifications and a variety of models including data models.</li>
+</ul>
+<p>Requirements analysis can be a long and tiring process during which many delicate psychological skills are involved. Large systems may confront analysts with hundreds or thousands of system requirements.<sup class="reference" id="cite_ref-bec1_4-0"><a href="#cite_note-bec1-4">[4]</a></sup> New systems change the environment and relationships between people, so it is important to identify all the stakeholders, take into account all their needs and ensure they understand the implications of the new systems. Analysts can employ several techniques to elicit the requirements from the customer. These may include the development of scenarios (represented as <a href="/wiki/User_story" title="User story">user stories</a> in <a href="/wiki/Agile_software_development" title="Agile software development">agile methods</a>), the identification of <a href="/wiki/Use_case" title="Use case">use cases</a>, the use of workplace observation or <a href="/wiki/Ethnography" title="Ethnography">ethnography</a>, holding <a href="/wiki/Interview" title="Interview">interviews</a>, or <a href="/wiki/Focus_group" title="Focus group">focus groups</a> (more aptly named in this context as requirements workshops, or requirements review sessions) and creating requirements lists. <a class="mw-redirect" href="/wiki/Prototyping" title="Prototyping">Prototyping</a> may be used to develop an example system that can be demonstrated to stakeholders. Where necessary, the analyst will employ a combination of these methods to establish the exact requirements of the stakeholders, so that a system that meets the business needs is produced.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2012)">citation needed</span></a></i>]</sup> Requirements quality can be improved through these and other methods</p>
+<ul>
+<li>Visualization. Using tools that promote better understanding of the desired end-product such as visualization and simulation.</li>
+<li>Consistent use of templates. Producing a consistent set of models and templates to document the requirements.</li>
+<li>Documenting dependencies. Documenting dependencies and interrelationships among requirements, as well as any assumptions and congregations.</li>
+</ul>
+<h2><span class="mw-headline" id="Requirements_analysis_topics">Requirements analysis topics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=2" title="Edit section: Requirements analysis topics">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a class="image" href="/wiki/File:Question_book-new.svg"><img alt="" data-file-height="399" data-file-width="512" height="39" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" width="50"/></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This section <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(October 2009)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<h3><span class="mw-headline" id="Stakeholder_identification">Stakeholder identification</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=3" title="Edit section: Stakeholder identification">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>See <a href="/wiki/Stakeholder_analysis" title="Stakeholder analysis">Stakeholder analysis</a> for a discussion of people or organizations (legal entities such as companies, standards bodies) that have a valid interest in the system. They may be affected by it either directly or indirectly. A major new emphasis in the 1990s was a focus on the identification of <i>stakeholders</i>. It is increasingly recognized that stakeholders are not limited to the organization employing the analyst. Other stakeholders will include:</p>
+<ul>
+<li>anyone who operates the system (normal and maintenance operators)</li>
+<li>anyone who benefits from the system (functional, political, financial and social beneficiaries)</li>
+<li>anyone involved in purchasing or procuring the system. In a mass-market product organization, product management, marketing and sometimes sales act as surrogate consumers (mass-market customers) to guide development of the product</li>
+<li>organizations which regulate aspects of the system (financial, safety, and other regulators)</li>
+<li>people or organizations opposed to the system (negative stakeholders; see also <a href="/wiki/Misuse_case" title="Misuse case">Misuse case</a>)</li>
+<li>organizations responsible for systems which interface with the system under design</li>
+<li>those organizations who <a href="/wiki/Horizontal_integration" title="Horizontal integration">integrate horizontally</a> with the organization for whom the analyst is designing the system</li>
+</ul>
+<h3><span class="mw-headline" id="Stakeholder_interviews">Stakeholder interviews</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=4" title="Edit section: Stakeholder interviews">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Stakeholder interviews are a common technique used in requirement analysis. Though they are generally idiosyncratic in nature and focused upon the perspectives and perceived needs of the stakeholder, often this perspective deficiency has the general advantage of obtaining a much richer understanding of the stakeholder's unique business processes, decision-relevant business rules, and perceived needs. Consequently, this technique can serve as a means of obtaining the highly focused knowledge that is often not elicited in Joint Requirements Development sessions, where the stakeholder's attention is compelled to assume a more cross-functional context, and the desire to avoid controversy may limit the stakeholders willingness to contribute. Moreover, the in-person nature of the interviews provides a more relaxed environment where lines of thought may be explored at length.</p>
+<h3><span class="mw-headline" id="Joint_Requirements_Development_.28JRD.29_Sessions">Joint Requirements Development (JRD) Sessions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=5" title="Edit section: Joint Requirements Development (JRD) Sessions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Requirements often have cross-functional implications that are unknown to individual stakeholders and often missed or incompletely defined during stakeholder interviews. These cross-functional implications can be elicited by conducting JRD sessions in a controlled environment, facilitated by a trained <a href="/wiki/Facilitator" title="Facilitator">facilitator</a> (Business Analyst), wherein stakeholders participate in discussions to elicit requirements, analyze their details and uncover cross-functional implications. A dedicated scribe should be present to document the discussion, freeing up the Business Analyst to lead the discussion in a direction that generates appropriate requirements which meet the session objective.</p>
+<p>JRD Sessions are analogous to <a class="mw-redirect" href="/wiki/Joint_application_design" title="Joint application design">Joint Application Design</a> Sessions. In the former, the sessions elicit requirements that guide design, whereas the latter elicit the specific design features to be implemented in satisfaction of elicited requirements.</p>
+<h3><span class="mw-headline" id="Contract-style_requirement_lists">Contract-style requirement lists</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=6" title="Edit section: Contract-style requirement lists">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>One traditional way of documenting requirements has been contract style requirement lists. In a complex system such requirements lists can run to hundreds of pages long.</p>
+<p>An appropriate metaphor would be an extremely long shopping list. Such lists are very much out of favour in modern analysis; as they have proved spectacularly unsuccessful at achieving their aims; but they are still seen to this day.</p>
+<h4><span class="mw-headline" id="Strengths">Strengths</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=7" title="Edit section: Strengths">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li>Provides a checklist of requirements.</li>
+<li>Provide a contract between the project sponsor(s) and developers.</li>
+<li>For a large system can provide a high level description from which lower-level requirements can be derived.</li>
+</ul>
+<h4><span class="mw-headline" id="Weaknesses">Weaknesses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=8" title="Edit section: Weaknesses">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li>Such lists can run to hundreds of pages. They are not intended to serve as a reader-friendly description of the desired application.</li>
+<li>Such requirements lists abstract all the requirements and so there is little context. The Business Analyst may include context for requirements in accompanying design documentation.
+<ul>
+<li><b>This abstraction is not intended to describe how the requirements fit or work together.</b></li>
+<li>The list may not reflect relationships and dependencies between requirements. While a list does make it easy to prioritize each individual item, removing one item out of context can render an entire use case or business requirement useless.</li>
+<li>The list <b>doesn't supplant</b> the need to review requirements carefully with stakeholders in order to gain a better shared understanding of the implications for the design of the desired system / application.</li>
+</ul>
+</li>
+<li>Simply creating a list does not guarantee its completeness. The Business Analyst must make a good faith effort to discover and collect a substantially comprehensive list, and rely on stakeholders to point out missing requirements.</li>
+<li>These lists can create a false sense of mutual understanding between the stakeholders and developers; Business Analysts are critical to the translation process.</li>
+<li>It is almost impossible to uncover all the functional requirements before the process of development and testing begins. If these lists are treated <b>as an immutable contract, then requirements that emerge in the Development process may generate a controversial change request.</b></li>
+</ul>
+<h4><span class="mw-headline" id="Alternative_to_requirement_lists">Alternative to requirement lists</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=9" title="Edit section: Alternative to requirement lists">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>As an alternative to requirement lists, <a href="/wiki/Agile_software_development" title="Agile software development">Agile Software Development</a> uses <a class="mw-redirect" href="/wiki/User_stories" title="User stories">User stories</a> to suggest requirements in everyday language.</p>
+<h3><span class="mw-headline" id="Measurable_goals">Measurable goals</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=10" title="Edit section: Measurable goals">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Goal_modeling" title="Goal modeling">Goal modeling</a></div>
+<p>Best practices take the composed list of requirements merely as clues and repeatedly ask "why?" until the actual business purposes are discovered. Stakeholders and developers can then devise tests to measure what level of each goal has been achieved thus far. Such goals change more slowly than the long list of specific but unmeasured requirements. Once a small set of critical, measured goals has been established, <a href="/wiki/Software_prototyping#Throwaway_prototyping" title="Software prototyping">rapid prototyping</a> and short iterative development phases may proceed to deliver actual stakeholder value long before the project is half over.</p>
+<h3><span class="mw-headline" id="Prototypes">Prototypes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=11" title="Edit section: Prototypes">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Software_prototyping" title="Software prototyping">Software prototyping</a></div>
+<p>A prototype is a computer program that exhibits a part of the properties of another computer program, allowing users to visualize an application that has not yet been constructed. A popular form of prototype is a <a href="/wiki/Mockup" title="Mockup">mockup</a>, which helps future users and other stakeholders to get an idea of what the system will look like. Prototypes make it easier to make design decisions, because aspects of the application can be seen and shared before the application is built. Major improvements in communication between users and developers were often seen with the introduction of prototypes. Early views of applications led to fewer changes later and hence reduced overall costs considerably.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (December 2011)">citation needed</span></a></i>]</sup></p>
+<p>Prototypes can be flat diagrams (often referred to as <a href="/wiki/Wire-frame_model" title="Wire-frame model">wireframes</a>) or working applications using synthesized functionality. Wireframes are made in a variety of graphic design documents, and often remove all color from the design (i.e. use a greyscale color palette) in instances where the final software is expected to have <a href="/wiki/Graphic_design" title="Graphic design">graphic design</a> applied to it. This helps to prevent confusion as to whether the prototype represents the final visual look and feel of the application.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (December 2011)">citation needed</span></a></i>]</sup></p>
+<h3><span class="mw-headline" id="Use_cases">Use cases</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=12" title="Edit section: Use cases">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote" role="note">Main article: <a href="/wiki/Use_case" title="Use case">Use case</a></div>
+<p>A use case is a structure for documenting the functional requirements for a system, usually involving software, whether that is new or being changed. Each use case provides a set of <i>scenarios</i> that convey how the system should interact with a human user or another system, to achieve a specific business goal. Use cases typically avoid technical jargon, preferring instead the language of the <a class="mw-redirect" href="/wiki/End-user" title="End-user">end-user</a> or <i><a class="mw-redirect" href="/wiki/Domain_expert" title="Domain expert">domain expert</a></i>. Use cases are often co-authored by requirements engineers and stakeholders.</p>
+<p>Use cases are deceptively simple tools for describing the behavior of software or systems. A use case contains a textual description of the ways in which users are intended to work with the software or system. Use cases should not describe internal workings of the system, nor should they explain how that system will be implemented. Instead, they show the steps needed to perform a task without sequential assumptions.</p>
+<h3><span class="mw-headline" id="Requirements_specification"><a href="/wiki/Software_requirements_specification" title="Software requirements specification">Requirements specification</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=13" title="Edit section: Requirements specification">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h2><span class="mw-headline" id="Types_of_Requirements">Types of Requirements</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=14" title="Edit section: Types of Requirements">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-Cleanup" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="48" data-file-width="48" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This section may <b>require <a href="/wiki/Wikipedia:Cleanup" title="Wikipedia:Cleanup">cleanup</a></b> to meet Wikipedia's <a href="/wiki/Wikipedia:Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a>. <span class="hide-when-compact">No <a href="/wiki/Template:Cleanup/doc" title="Template:Cleanup/doc">cleanup reason</a> has been specified. Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Requirements_analysis&amp;action=edit">improve this section</a> if you can.</span> <small><i>(February 2011)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p><a href="/wiki/Requirement" title="Requirement">Requirements</a> are <a href="/wiki/Categorization" title="Categorization">categorized</a> in several ways. The following are common categorizations of requirements that relate to technical management:<sup class="reference" id="cite_ref-SEF01_1-1"><a href="#cite_note-SEF01-1">[1]</a></sup></p>
+<dl>
+<dt>Customer Requirements</dt>
+<dd>Statements of fact and assumptions that define the expectations of the system in terms of mission objectives, environment, constraints, and measures of effectiveness and suitability (MOE/MOS). The customers are those that perform the eight primary functions of systems engineering, with special emphasis on the operator as the key customer. Operational requirements will define the basic need and, at a minimum, answer the questions posed in the following listing:<sup class="reference" id="cite_ref-SEF01_1-2"><a href="#cite_note-SEF01-1">[1]</a></sup>
+<ul>
+<li><i>Operational distribution or deployment</i>: Where will the system be used?</li>
+<li><i>Mission profile or scenario</i>: How will the system accomplish its mission objective?</li>
+<li><i>Performance and related parameters</i>: What are the critical system parameters to accomplish the mission?</li>
+<li><i>Utilization environments</i>: How are the various system components to be used?</li>
+<li><i>Effectiveness requirements</i>: How effective or efficient must the system be in performing its mission?</li>
+<li><i>Operational life cycle</i>: How long will the system be in use by the user?</li>
+<li><i>Environment</i>: What environments will the system be expected to operate in an effective manner?</li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt>Architectural Requirements</dt>
+<dd>Architectural requirements explain what has to be done by identifying the necessary <a href="/wiki/Systems_architecture" title="Systems architecture">systems architecture</a> of a <a href="/wiki/System" title="System">system</a>.</dd>
+<dt>Structural Requirements</dt>
+<dd>Structural requirements explain what has to be done by identifying the necessary <a href="/wiki/Structure" title="Structure">structure</a> of a <a href="/wiki/System" title="System">system</a>.</dd>
+<dt>Behavioral Requirements</dt>
+<dd>Behavioral requirements explain what has to be done by identifying the necessary <a href="/wiki/Behavior" title="Behavior">behavior</a> of a <a href="/wiki/System" title="System">system</a>.</dd>
+<dt>Functional Requirements</dt>
+<dd><a href="/wiki/Functional_requirement" title="Functional requirement">Functional requirements</a> explain what has to be done by identifying the necessary task, action or activity that must be accomplished. Functional requirements analysis will be used as the toplevel functions for functional analysis.<sup class="reference" id="cite_ref-SEF01_1-3"><a href="#cite_note-SEF01-1">[1]</a></sup></dd>
+<dt>Non-functional Requirements</dt>
+<dd><a href="/wiki/Non-functional_requirement" title="Non-functional requirement">Non-functional requirements</a> are requirements that specify criteria that can be used to judge the operation of a system, rather than specific behaviors.</dd>
+<dt>Core Functionality and Ancillary Functionality Requirements</dt>
+<dd><a href="/wiki/Murali_Chemuturi" title="Murali Chemuturi">Murali Chemuturi</a> defined requirements into Core Functionality and Ancillary Functionality requirements. Core Functionality requirements are those without fulfilling which the product cannot be useful at all. Ancillary Functionality requirements are those that are supportive to Core Functionality. The product can continue to work even if some or all of the Ancillary Functionality requirements are fulfilled but with some side effects. Security, safety, user friendliness and so on are examples of Ancillary Functionality requirements.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup></dd>
+<dt>Performance Requirements</dt>
+<dd>The extent to which a mission or function must be executed; generally measured in terms of quantity, quality, coverage, timeliness or readiness. During requirements analysis, performance (how well does it have to be done) requirements will be interactively developed across all identified functions based on system life cycle factors; and characterized in terms of the degree of certainty in their estimate, the degree of criticality to system success, and their relationship to other requirements.<sup class="reference" id="cite_ref-SEF01_1-4"><a href="#cite_note-SEF01-1">[1]</a></sup></dd>
+<dt>Design Requirements</dt>
+<dd>The “build to,” “code to,” and “buy to” requirements for products and “how to execute” requirements for processes expressed in technical data packages and technical manuals.<sup class="reference" id="cite_ref-SEF01_1-5"><a href="#cite_note-SEF01-1">[1]</a></sup></dd>
+<dt>Derived Requirements</dt>
+<dd>Requirements that are implied or transformed from higher-level requirement. For example, a requirement for long range or high speed may result in a design requirement for low weight.<sup class="reference" id="cite_ref-SEF01_1-6"><a href="#cite_note-SEF01-1">[1]</a></sup></dd>
+<dt>Allocated Requirements</dt>
+<dd>A requirement that is established by dividing or otherwise allocating a high-level requirement into multiple lower-level requirements. Example: A 100-pound item that consists of two subsystems might result in weight requirements of 70 pounds and 30 pounds for the two lower-level items.<sup class="reference" id="cite_ref-SEF01_1-7"><a href="#cite_note-SEF01-1">[1]</a></sup></dd>
+</dl>
+<p>Well-known requirements categorization models include <a href="/wiki/FURPS" title="FURPS">FURPS</a> and FURPS+, developed at <a href="/wiki/Hewlett-Packard" title="Hewlett-Packard">Hewlett-Packard</a>.</p>
+<h2><span class="mw-headline" id="Requirements_analysis_issues">Requirements analysis issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=15" title="Edit section: Requirements analysis issues">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Stakeholder_issues">Stakeholder issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=16" title="Edit section: Stakeholder issues">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Steve McConnell, in his book <i>Rapid Development</i>, details a number of ways users can inhibit requirements gathering:</p>
+<ul>
+<li>Users do not understand what they want or users don't have a clear idea of their requirements</li>
+<li>Users will not commit to a set of written requirements</li>
+<li>Users insist on new requirements after the cost and schedule have been fixed</li>
+<li>Communication with users is slow</li>
+<li>Users often do not participate in reviews or are incapable of doing so</li>
+<li>Users are technically unsophisticated</li>
+<li>Users do not understand the development process</li>
+<li>Users do not know about present technology</li>
+</ul>
+<p>This may lead to the situation where user requirements keep changing even when system or product development has been started. It is also means that the requirement that's is under action process.</p>
+<h3><span class="mw-headline" id="Engineer.2Fdeveloper_issues">Engineer/developer issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=17" title="Edit section: Engineer/developer issues">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Possible problems caused by engineers and developers during requirements analysis are:</p>
+<ul>
+<li>A natural inclination towards writing code can lead to implementation beginning before the requirements analysis is complete, potentially resulting in inelegant refactoring to meet actual requirements once they are known.</li>
+<li>Technical personnel and end-users may have different vocabularies. Consequently, they may wrongly believe they are in perfect agreement until the finished product is supplied.</li>
+<li>Engineers and developers may try to make the requirements fit an existing system or model, rather than develop a system specific to the needs of the client.</li>
+<li>Analysis may often be carried out by engineers or programmers, rather than personnel with the domain knowledge to understand a client's needs properly.</li>
+</ul>
+<h3><span class="mw-headline" id="Attempted_solutions">Attempted solutions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=18" title="Edit section: Attempted solutions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>One attempted solution to communications problems has been to employ specialists in business or system analysis.</p>
+<p>Techniques introduced in the 1990s like <a href="/wiki/Software_prototyping" title="Software prototyping">prototyping</a>, <a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">Unified Modeling Language</a> (UML), <a href="/wiki/Use_case" title="Use case">use cases</a>, and <a href="/wiki/Agile_software_development" title="Agile software development">Agile software development</a> are also intended as solutions to problems encountered with previous methods.</p>
+<p>Also, a new class of <a class="mw-redirect" href="/wiki/Application_Simulation_Software" title="Application Simulation Software">application simulation</a> or application definition tools have entered the market. These tools are designed to bridge the communication gap between business users and the IT organization — and also to allow applications to be 'test marketed' before any code is produced. The best of these tools offer:</p>
+<ul>
+<li><a class="mw-redirect" href="/wiki/Electronic_whiteboard" title="Electronic whiteboard">electronic whiteboards</a> to sketch application flows and test alternatives</li>
+<li>ability to capture business logic and data needs</li>
+<li>ability to generate high fidelity prototypes that closely imitate the final application</li>
+<li>interactivity</li>
+<li>capability to add contextual requirements and other comments</li>
+<li>ability for remote and distributed users to run and interact with the simulation</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="div-col columns column-width" style="-moz-column-width: 22em; -webkit-column-width: 22em; column-width: 22em;">
+<ul>
+<li><a href="/wiki/Business_analysis" title="Business analysis">Business analysis</a></li>
+<li><a class="mw-redirect" href="/wiki/Business_Analysis_Body_of_Knowledge" title="Business Analysis Body of Knowledge">Business Analysis Body of Knowledge</a> (BABOK)</li>
+<li><a href="/wiki/Business_process_reengineering" title="Business process reengineering">Business process reengineering</a></li>
+<li><a href="/wiki/Creative_brief" title="Creative brief">Creative brief</a></li>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Design_brief" title="Design brief">Design brief</a></li>
+<li><a class="mw-redirect" href="/wiki/Functional_requirements" title="Functional requirements">Functional requirements</a></li>
+<li><a href="/wiki/Information_technology" title="Information technology">Information technology</a></li>
+<li><a href="/wiki/Model-driven_engineering" title="Model-driven engineering">Model-driven engineering</a></li>
+<li><a class="mw-redirect" href="/wiki/Model_Transformation_Language" title="Model Transformation Language">Model Transformation Language</a></li>
+<li><a class="mw-redirect" href="/wiki/Non-functional_requirements" title="Non-functional requirements">Non-functional requirements</a></li>
+<li><a href="/wiki/Process_architecture" title="Process architecture">Process architecture</a></li>
+<li><a href="/wiki/Process_modeling" title="Process modeling">Process modeling</a></li>
+<li><a href="/wiki/Product_fit_analysis" title="Product fit analysis">Product fit analysis</a></li>
+<li><a href="/wiki/Requirements_elicitation" title="Requirements elicitation">Requirements elicitation</a></li>
+<li><a href="/wiki/Requirements_Engineering_Specialist_Group" title="Requirements Engineering Specialist Group">Requirements Engineering Specialist Group</a></li>
+<li><a href="/wiki/Requirements_management" title="Requirements management">Requirements management</a></li>
+<li><a class="mw-redirect" href="/wiki/Requirements_Traceability" title="Requirements Traceability">Requirements Traceability</a></li>
+<li><a class="mw-redirect" href="/wiki/Search_Based_Software_Engineering" title="Search Based Software Engineering">Search Based Software Engineering</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Software prototyping</a></li>
+<li><a href="/wiki/Software_requirements" title="Software requirements">Software requirements</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_Requirements_Specification" title="Software Requirements Specification">Software Requirements Specification</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/System_requirements" title="System requirements">System requirements</a></li>
+<li><a href="/wiki/System_requirements_specification" title="System requirements specification">System requirements specification</a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=20" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-SEF01-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-SEF01_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SEF01_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-SEF01_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-SEF01_1-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-SEF01_1-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-SEF01_1-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-SEF01_1-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-SEF01_1-7"><sup><i><b>h</b></i></sup></a></span> <span class="reference-text"><a class="external text" href="http://www.dau.mil/pubscats/PubsCats/SEFGuide%2001-01.pdf" rel="nofollow"><i>Systems Engineering Fundamentals</i></a> Defense Acquisition University Press, 2001</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Kotonya, G. and Sommerville, I. 1998. <i>Requirements Engineering: Processes and Techniques</i> Chichester, UK: John Wiley and Sons.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">Executive: Alain Abran, James W. Moore; Pierre Bourque, Robert Dupuis, eds. (March 2005). <a class="external text" href="http://www.computer.org/portal/web/swebok/html/ch2" rel="nofollow">"Chapter 2: Software Requirements"</a>. <a class="external text" href="http://www.swebok.org" rel="nofollow"><i>Guide to the software engineering body of knowledge</i></a> (2004 ed.). Los Alamitos, CA: IEEE Computer Society Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-7695-2330-7" title="Special:BookSources/0-7695-2330-7">0-7695-2330-7</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2007-02-08</span></span>. <q>It is widely acknowledged within the software industry that software engineering projects are <i>critically vulnerable when these activities are performed poorly.</i></q><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.atitle=Chapter+2%3A+Software+Requirements&amp;rft.btitle=Guide+to+the+software+engineering+body+of+knowledge&amp;rft.date=2005-03&amp;rft.edition=2004&amp;rft.genre=bookitem&amp;rft_id=http%3A%2F%2Fwww.computer.org%2Fportal%2Fweb%2Fswebok%2Fhtml%2Fch2&amp;rft.isbn=0-7695-2330-7&amp;rft.place=Los+Alamitos%2C+CA&amp;rft.pub=IEEE+Computer+Society+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="citation-comment" style="display:none; color:#33aa33">CS1 maint: Uses editors parameter (<a href="/wiki/Category:CS1_maint:_Uses_editors_parameter" title="Category:CS1 maint: Uses editors parameter">link</a>)</span></cite></span></li>
+<li id="cite_note-bec1-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-bec1_4-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Beck, A., Boeing, G., &amp; Shannon, D. (2014). <a class="external text" href="http://geoffboeing.com/publications/systems-methods-analyzing-requirements/" rel="nofollow">"Systems and Methods for Analyzing Requirements. US Patent 8650186"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-03-17</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.au=Beck%2C+A.%2C+Boeing%2C+G.%2C+%26+Shannon%2C+D.&amp;rft.btitle=Systems+and+Methods+for+Analyzing+Requirements.+US+Patent+8650186&amp;rft.date=2014&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fgeoffboeing.com%2Fpublications%2Fsystems-methods-analyzing-requirements%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="citation-comment" style="display:none; color:#33aa33">CS1 maint: Multiple names: authors list (<a href="/wiki/Category:CS1_maint:_Multiple_names:_authors_list" title="Category:CS1 maint: Multiple names: authors list">link</a>)</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/Murali_Chemuturi" title="Murali Chemuturi">Chemuturi, M.</a> (2013). <i>Requirements Engineering and Management for Software Development Projects</i>. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1007%2F978-1-4614-5377-2" rel="nofollow">10.1007/978-1-4614-5377-2</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-1-4614-5376-5" title="Special:BookSources/978-1-4614-5376-5">978-1-4614-5376-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.aufirst=M.&amp;rft.aulast=Chemuturi&amp;rft.btitle=Requirements+Engineering+and+Management+for+Software+Development+Projects&amp;rft.date=2013&amp;rft.genre=book&amp;rft_id=info%3Adoi%2F10.1007%2F978-1-4614-5377-2&amp;rft.isbn=978-1-4614-5376-5&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=21" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="refbegin" style="">
+<ul>
+<li><cite class="citation book">Brian Berenbach; Daniel Paulish; Juergen Katzmeier; Arnold Rudorfer (2009). <a class="external text" href="http://www.mhprofessional.com" rel="nofollow"><i>Software &amp; Systems Requirements Engineering: In Practice</i></a>. New York: McGraw-Hill Professional. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-07-160547-9" title="Special:BookSources/0-07-160547-9">0-07-160547-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.au=Arnold+Rudorfer&amp;rft.au=Brian+Berenbach&amp;rft.au=Daniel+Paulish&amp;rft.au=Juergen+Katzmeier&amp;rft.btitle=Software+%26+Systems+Requirements+Engineering%3A+In+Practice&amp;rft.date=2009&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.mhprofessional.com&amp;rft.isbn=0-07-160547-9&amp;rft.place=New+York&amp;rft.pub=McGraw-Hill+Professional&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Hay, David C. (2003). <a class="external text" href="https://books.google.com/books/about/Requirements_analysis.html?id=Qy6j2PemE8QC" rel="nofollow"><i>Requirements Analysis: From Business Views to Architecture</i></a> (1st ed.). Upper Saddle River, NJ: Prentice Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-13-028228-6" title="Special:BookSources/0-13-028228-6">0-13-028228-6</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.aufirst=David+C.&amp;rft.aulast=Hay&amp;rft.btitle=Requirements+Analysis%3A+From+Business+Views+to+Architecture&amp;rft.date=2003&amp;rft.edition=1st&amp;rft.genre=book&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fabout%2FRequirements_analysis.html%3Fid%3DQy6j2PemE8QC&amp;rft.isbn=0-13-028228-6&amp;rft.place=Upper+Saddle+River%2C+NJ&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Laplante, Phil (2009). <a class="external text" href="http://www.crcpress.com/product/isbn/9781420064674" rel="nofollow"><i>Requirements Engineering for Software and Systems</i></a> (1st ed.). Redmond, WA: CRC Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-4200-6467-3" title="Special:BookSources/1-4200-6467-3">1-4200-6467-3</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.aufirst=Phil&amp;rft.aulast=Laplante&amp;rft.btitle=Requirements+Engineering+for+Software+and+Systems&amp;rft.date=2009&amp;rft.edition=1st&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.crcpress.com%2Fproduct%2Fisbn%2F9781420064674&amp;rft.isbn=1-4200-6467-3&amp;rft.place=Redmond%2C+WA&amp;rft.pub=CRC+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">McConnell, Steve (1996). <a class="external text" href="http://www.stevemcconnell.com/" rel="nofollow"><i>Rapid Development: Taming Wild Software Schedules</i></a> (1st ed.). Redmond, WA: Microsoft Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-55615-900-5" title="Special:BookSources/1-55615-900-5">1-55615-900-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.aufirst=Steve&amp;rft.aulast=McConnell&amp;rft.btitle=Rapid+Development%3A+Taming+Wild+Software+Schedules&amp;rft.date=1996&amp;rft.edition=1st&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.stevemcconnell.com%2F&amp;rft.isbn=1-55615-900-5&amp;rft.place=Redmond%2C+WA&amp;rft.pub=Microsoft+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation conference">Nuseibeh, B.; Easterbrook, S. (2000). <a class="external text" href="http://mcs.open.ac.uk/ban25/papers/sotar.re.pdf" rel="nofollow"><i>Requirements engineering: a roadmap</i></a> <span style="font-size:85%;">(PDF)</span>. <a href="/wiki/International_Conference_on_Software_Engineering" title="International Conference on Software Engineering">ICSE</a>'00. <i>Proceedings of the conference on the future of Software engineering</i>. pp. 35–46. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a class="external text" href="//dx.doi.org/10.1145%2F336512.336523" rel="nofollow">10.1145/336512.336523</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/1-58113-253-0" title="Special:BookSources/1-58113-253-0">1-58113-253-0</a>. <a href="/wiki/CiteSeerX" title="CiteSeerX">CiteSeerX</a>: <span class="url"><a class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.3116" rel="nofollow">10<wbr></wbr>.1<wbr></wbr>.1<wbr></wbr>.131<wbr></wbr>.3116</a></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.atitle=Requirements+engineering%3A+a+roadmap&amp;rft.au=Easterbrook%2C+S.&amp;rft.aufirst=B.&amp;rft.aulast=Nuseibeh&amp;rft.date=2000&amp;rft.genre=conference&amp;rft_id=http%3A%2F%2Fmcs.open.ac.uk%2Fban25%2Fpapers%2Fsotar.re.pdf&amp;rft_id=info%3Adoi%2F10.1145%2F336512.336523&amp;rft.isbn=1-58113-253-0&amp;rft.jtitle=Proceedings+of+the+conference+on+the+future+of+Software+engineering&amp;rft.pages=35-46&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Andrew Stellman &amp; Jennifer Greene (2005). <a class="external text" href="http://www.stellman-greene.com" rel="nofollow"><i>Applied Software Project Management</i></a>. Cambridge, MA: O'Reilly Media. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-596-00948-8" title="Special:BookSources/0-596-00948-8">0-596-00948-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.au=Andrew+Stellman&amp;rft.au=Jennifer+Greene&amp;rft.btitle=Applied+Software+Project+Management&amp;rft.date=2005&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.stellman-greene.com&amp;rft.isbn=0-596-00948-8&amp;rft.place=Cambridge%2C+MA&amp;rft.pub=O%27Reilly+Media&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Karl Wiegers &amp; Joy Beatty (2013). <a class="external text" href="http://www.processimpact.com" rel="nofollow"><i>Software Requirements</i></a> (3rd ed.). Redmond, WA: Microsoft Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-0-7356-7966-5" title="Special:BookSources/978-0-7356-7966-5">978-0-7356-7966-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ARequirements+analysis&amp;rft.au=Joy+Beatty&amp;rft.au=Karl+Wiegers&amp;rft.btitle=Software+Requirements&amp;rft.date=2013&amp;rft.edition=3rd&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.processimpact.com&amp;rft.isbn=978-0-7356-7966-5&amp;rft.place=Redmond%2C+WA&amp;rft.pub=Microsoft+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Requirements_analysis&amp;action=edit&amp;section=22" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" role="presentation" style="border:1px solid #aaa;background-color:#f9f9f9">
+<tr>
+<td class="mbox-image"><a class="image" href="/wiki/File:Commons-logo.svg"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Requirements_analysis" title="commons:Category:Requirements analysis">Requirements analysis</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li>Peer-reviewed <a class="external text" href="http://www.interaction-design.org/encyclopedia/requirements_engineering.html" rel="nofollow">Encyclopedia Entry on Requirements Engineering and Analysis</a></li>
+<li>Defense Acquisition University <a class="external text" href="https://acc.dau.mil/CommunityBrowser.aspx?id=641833" rel="nofollow">Stakeholder Requirements Definition Process</a></li>
+<li><a class="external text" href="http://everyspec.com/MIL-HDBK/MIL-HDBK-0500-0599/MIL-HDBK-520_20316/" rel="nofollow">MIL-HDBK 520 Systems Requirements Document Guidance</a></li>
+</ul>
+<div aria-labelledby="Major_fields_of_computer_science" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Computer_science" title="Template:Computer science"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Computer_science" title="Template talk:Computer science"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Computer_science&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Major_fields_of_computer_science" style="font-size:114%">Major fields of <a href="/wiki/Computer_science" title="Computer science">computer science</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>Note: This template roughly follows the 2012 <a href="/wiki/ACM_Computing_Classification_System" title="ACM Computing Classification System">ACM Computing classification</a>.</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_hardware" title="Computer hardware">Hardware</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Printed_circuit_board" title="Printed circuit board">Printed circuit board</a></li>
+<li><a href="/wiki/Peripheral" title="Peripheral">Peripheral</a></li>
+<li><a href="/wiki/Integrated_circuit" title="Integrated circuit">Integrated circuit</a></li>
+<li><a href="/wiki/Very-large-scale_integration" title="Very-large-scale integration">Very-large-scale integration</a></li>
+<li><a href="/wiki/Green_computing" title="Green computing">Energy consumption</a></li>
+<li><a href="/wiki/Electronic_design_automation" title="Electronic design automation">Electronic design automation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Computer systems<br/>
+organization</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_architecture" title="Computer architecture">Computer architecture</a></li>
+<li><a href="/wiki/Embedded_system" title="Embedded system">Embedded system</a></li>
+<li><a href="/wiki/Real-time_computing" title="Real-time computing">Real-time computing</a></li>
+<li><a href="/wiki/Dependability" title="Dependability">Dependability</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_network" title="Computer network">Networks</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Network_architecture" title="Network architecture">Network architecture</a></li>
+<li><a class="mw-redirect" href="/wiki/Network_protocol" title="Network protocol">Network protocol</a></li>
+<li><a href="/wiki/Networking_hardware" title="Networking hardware">Network components</a></li>
+<li><a href="/wiki/Network_scheduler" title="Network scheduler">Network scheduler</a></li>
+<li><a href="/wiki/Network_performance" title="Network performance">Network performance evaluation</a></li>
+<li><a href="/wiki/Network_service" title="Network service">Network service</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Software organization</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Interpreter_(computing)" title="Interpreter (computing)">Interpreter</a></li>
+<li><a href="/wiki/Middleware" title="Middleware">Middleware</a></li>
+<li><a href="/wiki/Virtual_machine" title="Virtual machine">Virtual machine</a></li>
+<li><a href="/wiki/Operating_system" title="Operating system">Operating system</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Programming_language_theory" title="Programming language theory">Software notations</a><br/>
+and <a href="/wiki/Programming_tool" title="Programming tool">tools</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Programming_language" title="Programming language">Programming language</a></li>
+<li><a class="mw-redirect" href="/wiki/Compiler_construction" title="Compiler construction">Compiler</a></li>
+<li><a href="/wiki/Domain-specific_language" title="Domain-specific language">Domain-specific language</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Software_framework" title="Software framework">Software framework</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">Integrated development environment</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a href="/wiki/Library_(computing)" title="Library (computing)">Software library</a></li>
+<li><a href="/wiki/Software_repository" title="Software repository">Software repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Software_development" title="Software development">Software development</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><strong class="selflink">Requirements analysis</strong></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_construction" title="Software construction">Software construction</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Programming_team" title="Programming team">Programming team</a></li>
+<li><a href="/wiki/Open-source_software" title="Open-source software">Open-source model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Theory_of_computation" title="Theory of computation">Theory of computation</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Model_of_computation" title="Model of computation">Model of computation</a></li>
+<li><a href="/wiki/Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="/wiki/Automata_theory" title="Automata theory">Automata theory</a></li>
+<li><a href="/wiki/Computational_complexity_theory" title="Computational complexity theory">Computational complexity theory</a></li>
+<li><a href="/wiki/Logic_in_computer_science" title="Logic in computer science">Logic</a></li>
+<li><a href="/wiki/Semantics_(computer_science)" title="Semantics (computer science)">Semantics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Algorithm" title="Algorithm">Algorithms</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Algorithm_design" title="Algorithm design">Algorithm design</a></li>
+<li><a href="/wiki/Analysis_of_algorithms" title="Analysis of algorithms">Analysis of algorithms</a></li>
+<li><a href="/wiki/Randomized_algorithm" title="Randomized algorithm">Randomized algorithm</a></li>
+<li><a href="/wiki/Computational_geometry" title="Computational geometry">Computational geometry</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Mathematics<br/>
+of computing</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="/wiki/Probability" title="Probability">Probability</a></li>
+<li><a href="/wiki/Statistics" title="Statistics">Statistics</a></li>
+<li><a href="/wiki/Mathematical_software" title="Mathematical software">Mathematical software</a></li>
+<li><a href="/wiki/Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="/wiki/Mathematical_analysis" title="Mathematical analysis">Mathematical analysis</a></li>
+<li><a href="/wiki/Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Information_system" title="Information system">Information<br/>
+systems</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Database_management_system" title="Database management system">Database management system</a></li>
+<li><a href="/wiki/Computer_data_storage" title="Computer data storage">Information storage systems</a></li>
+<li><a href="/wiki/Enterprise_information_system" title="Enterprise information system">Enterprise information system</a></li>
+<li><a href="/wiki/Social_software" title="Social software">Social information systems</a></li>
+<li><a href="/wiki/Geographic_information_system" title="Geographic information system">Geographic information system</a></li>
+<li><a href="/wiki/Decision_support_system" title="Decision support system">Decision support system</a></li>
+<li><a href="/wiki/Process_control" title="Process control">Process control system</a></li>
+<li><a href="/wiki/Multimedia_database" title="Multimedia database">Multimedia information system</a></li>
+<li><a href="/wiki/Data_mining" title="Data mining">Data mining</a></li>
+<li><a href="/wiki/Digital_library" title="Digital library">Digital library</a></li>
+<li><a href="/wiki/Computing_platform" title="Computing platform">Computing platform</a></li>
+<li><a href="/wiki/Digital_marketing" title="Digital marketing">Digital marketing</a></li>
+<li><a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a></li>
+<li><a href="/wiki/Information_retrieval" title="Information retrieval">Information retrieval</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_security" title="Computer security">Security</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Cryptography" title="Cryptography">Cryptography</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+<li><a href="/wiki/Security_service_(telecommunication)" title="Security service (telecommunication)">Security services</a></li>
+<li><a href="/wiki/Intrusion_detection_system" title="Intrusion detection system">Intrusion detection system</a></li>
+<li><a href="/wiki/Computer_security_compromised_by_hardware_failure" title="Computer security compromised by hardware failure">Hardware security</a></li>
+<li><a href="/wiki/Network_security" title="Network security">Network security</a></li>
+<li><a href="/wiki/Information_security" title="Information security">Information security</a></li>
+<li><a href="/wiki/Application_security" title="Application security">Application security</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Human%E2%80%93computer_interaction" title="Human–computer interaction">Human–computer<br/>
+interaction</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Interaction_design" title="Interaction design">Interaction design</a></li>
+<li><a href="/wiki/Social_computing" title="Social computing">Social computing</a></li>
+<li><a href="/wiki/Ubiquitous_computing" title="Ubiquitous computing">Ubiquitous computing</a></li>
+<li><a class="mw-redirect" href="/wiki/Visualization_(computer_graphics)" title="Visualization (computer graphics)">Visualization</a></li>
+<li><a href="/wiki/Computer_accessibility" title="Computer accessibility">Accessibility</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_(computer_science)" title="Concurrency (computer science)">Concurrency</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Concurrent_computing" title="Concurrent computing">Concurrent computing</a></li>
+<li><a href="/wiki/Parallel_computing" title="Parallel computing">Parallel computing</a></li>
+<li><a href="/wiki/Distributed_computing" title="Distributed computing">Distributed computing</a></li>
+<li><a href="/wiki/Multithreading_(computer_architecture)" title="Multithreading (computer architecture)">Multithreading</a></li>
+<li><a href="/wiki/Multiprocessing" title="Multiprocessing">Multiprocessing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial<br/>
+intelligence</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Natural_language_processing" title="Natural language processing">Natural language processing</a></li>
+<li><a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">Knowledge representation and reasoning</a></li>
+<li><a href="/wiki/Computer_vision" title="Computer vision">Computer vision</a></li>
+<li><a href="/wiki/Automated_planning_and_scheduling" title="Automated planning and scheduling">Automated planning and scheduling</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Search methodology</a></li>
+<li><a href="/wiki/Control_theory" title="Control theory">Control method</a></li>
+<li><a href="/wiki/Philosophy_of_artificial_intelligence" title="Philosophy of artificial intelligence">Philosophy of artificial intelligence</a></li>
+<li><a href="/wiki/Distributed_artificial_intelligence" title="Distributed artificial intelligence">Distributed artificial intelligence</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Machine_learning" title="Machine learning">Machine learning</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Supervised_learning" title="Supervised learning">Supervised learning</a></li>
+<li><a href="/wiki/Unsupervised_learning" title="Unsupervised learning">Unsupervised learning</a></li>
+<li><a href="/wiki/Reinforcement_learning" title="Reinforcement learning">Reinforcement learning</a></li>
+<li><a href="/wiki/Multi-task_learning" title="Multi-task learning">Multi-task learning</a></li>
+<li><a href="/wiki/List_of_machine_learning_concepts" title="List of machine learning concepts">Machine learning algorithms</a></li>
+<li><a href="/wiki/Cross-validation_(statistics)" title="Cross-validation (statistics)">Cross-validation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Computer_graphics" title="Computer graphics">Graphics</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_animation" title="Computer animation">Animation</a></li>
+<li><a href="/wiki/Rendering_(computer_graphics)" title="Rendering (computer graphics)">Rendering</a></li>
+<li><a href="/wiki/Photo_manipulation" title="Photo manipulation">Image manipulation</a></li>
+<li><a href="/wiki/Graphics_processing_unit" title="Graphics processing unit">Graphics processing unit</a></li>
+<li><a href="/wiki/Mixed_reality" title="Mixed reality">Mixed reality</a></li>
+<li><a href="/wiki/Virtual_reality" title="Virtual reality">Virtual reality</a></li>
+<li><a href="/wiki/Image_compression" title="Image compression">Image compression</a></li>
+<li><a href="/wiki/Solid_modeling" title="Solid modeling">Solid modeling</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Applied<br/>
+computing</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/E-commerce" title="E-commerce">E-commerce</a></li>
+<li><a href="/wiki/Enterprise_software" title="Enterprise software">Enterprise software</a></li>
+<li><a href="/wiki/Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+<li><a href="/wiki/Computational_physics" title="Computational physics">Computational physics</a></li>
+<li><a href="/wiki/Computational_chemistry" title="Computational chemistry">Computational chemistry</a></li>
+<li><a href="/wiki/Computational_biology" title="Computational biology">Computational biology</a></li>
+<li><a href="/wiki/Computational_social_science" title="Computational social science">Computational social science</a></li>
+<li><a href="/wiki/Computational_engineering" title="Computational engineering">Computational engineering</a></li>
+<li><a href="/wiki/Health_informatics" title="Health informatics">Computational healthcare</a></li>
+<li><a href="/wiki/Digital_art" title="Digital art">Digital art</a></li>
+<li><a href="/wiki/Electronic_publishing" title="Electronic publishing">Electronic publishing</a></li>
+<li><a href="/wiki/Cyberwarfare" title="Cyberwarfare">Cyberwarfare</a></li>
+<li><a href="/wiki/Electronic_voting" title="Electronic voting">Electronic voting</a></li>
+<li><a href="/wiki/Video_game" title="Video game">Video game</a></li>
+<li><a href="/wiki/Word_processor" title="Word processor">Word processing</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Educational_technology" title="Educational technology">Educational technology</a></li>
+<li><a href="/wiki/Document_management_system" title="Document management system">Document management</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><b><span class="metadata"><a class="image" href="/wiki/File:Internet_map_1024.jpg"><img alt="icon" data-file-height="1280" data-file-width="1280" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/16px-Internet_map_1024.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/24px-Internet_map_1024.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/32px-Internet_map_1024.jpg 2x" width="16"/></a> <a href="/wiki/Portal:Computer_science" title="Portal:Computer science">Computer science portal</a></span></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Software_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Software_engineering" title="Template:Software engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Software_engineering" title="Template talk:Software engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Software_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_engineering" style="font-size:114%"><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_programming" title="Computer programming">Computer programming</a></li>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Software_deployment" title="Software deployment">Software deployment</a></li>
+<li><a href="/wiki/Software_design" title="Software design">Software design</a></li>
+<li><a href="/wiki/Software_maintenance" title="Software maintenance">Software maintenance</a></li>
+<li><a href="/wiki/Software_testing" title="Software testing">Software testing</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_modeling" title="Data modeling">Data modeling</a></li>
+<li><a href="/wiki/Enterprise_architecture" title="Enterprise architecture">Enterprise architecture</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/Modeling_language" title="Modeling language">Modeling language</a></li>
+<li><a href="/wiki/Orthogonality_(programming)" title="Orthogonality (programming)">Orthogonality</a></li>
+<li><a href="/wiki/Programming_paradigm" title="Programming paradigm">Programming paradigm</a></li>
+<li><a href="/wiki/Software" title="Software">Software</a></li>
+<li><a href="/wiki/Software_archaeology" title="Software archaeology">Software archaeology</a></li>
+<li><a href="/wiki/Software_architecture" title="Software architecture">Software architecture</a></li>
+<li><a href="/wiki/Software_configuration_management" title="Software configuration management">Software configuration management</a></li>
+<li><a class="mw-redirect" href="/wiki/Software_development_methodology" title="Software development methodology">Software development methodology</a></li>
+<li><a href="/wiki/Software_development_process" title="Software development process">Software development process</a></li>
+<li><a href="/wiki/Software_quality" title="Software quality">Software quality</a></li>
+<li><a href="/wiki/Software_quality_assurance" title="Software quality assurance">Software quality assurance</a></li>
+<li><a href="/wiki/Software_verification_and_validation" title="Software verification and validation">Software verification and validation</a></li>
+<li><a href="/wiki/Structured_analysis" title="Structured analysis">Structured analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Orientations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Aspect-oriented_software_development" title="Aspect-oriented software development">Aspect-oriented</a></li>
+<li><a href="/wiki/Object-oriented_programming" title="Object-oriented programming">Object orientation</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Service-oriented_architecture" title="Service-oriented architecture">Service orientation</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">SDLC</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Models</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Developmental</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agile_software_development" title="Agile software development">Agile</a></li>
+<li><a href="/wiki/Enterprise_Unified_Process" title="Enterprise Unified Process">EUP</a></li>
+<li><a href="/wiki/Executable_UML" title="Executable UML">Executable UML</a></li>
+<li><a href="/wiki/Incremental_build_model" title="Incremental build model">Incremental model</a></li>
+<li><a href="/wiki/Iterative_and_incremental_development" title="Iterative and incremental development">Iterative model</a></li>
+<li><a href="/wiki/Software_prototyping" title="Software prototyping">Prototype model</a></li>
+<li><a href="/wiki/Rapid_application_development" title="Rapid application development">RAD</a></li>
+<li><a href="/wiki/Unified_Process" title="Unified Process">UP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Other</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/ISO/IEC_15504" title="ISO/IEC 15504">SPICE</a></li>
+<li><a href="/wiki/Capability_Maturity_Model_Integration" title="Capability Maturity Model Integration">CMMI</a></li>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Entity%E2%80%93relationship_model" title="Entity–relationship model">ER model</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function model</a></li>
+<li><a href="/wiki/Information_model" title="Information model">Information model</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodeling</a></li>
+<li><a href="/wiki/Object_model" title="Object model">Object model</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems model</a></li>
+<li><a href="/wiki/View_model" title="View model">View model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;font-weight:normal;">
+<div style="padding:0em 0.75em;">Languages</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Unified_Modeling_Language" title="Unified Modeling Language">UML</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">SysML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">
+<div style="padding:0.1em 0;line-height:1.2em;">Software<br/>
+engineers</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Victor_Basili" title="Victor Basili">Victor Basili</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Fred_Brooks" title="Fred Brooks">Fred Brooks</a></li>
+<li><a href="/wiki/Barry_Boehm" title="Barry Boehm">Barry Boehm</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Tom_DeMarco" title="Tom DeMarco">Tom DeMarco</a></li>
+<li><a href="/wiki/Edsger_W._Dijkstra" title="Edsger W. Dijkstra">Edsger W. Dijkstra</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Tony_Hoare" title="Tony Hoare">C. A. R. Hoare</a></li>
+<li><a href="/wiki/Watts_Humphrey" title="Watts Humphrey">Watts Humphrey</a></li>
+<li><a href="/wiki/Michael_A._Jackson" title="Michael A. Jackson">Michael A. Jackson</a></li>
+<li><a href="/wiki/Ivar_Jacobson" title="Ivar Jacobson">Ivar Jacobson</a></li>
+<li><a href="/wiki/Stephen_J._Mellor" title="Stephen J. Mellor">Stephen J. Mellor</a></li>
+<li><a href="/wiki/Bertrand_Meyer" title="Bertrand Meyer">Bertrand Meyer</a></li>
+<li><a href="/wiki/David_Parnas" title="David Parnas">David Parnas</a></li>
+<li><a href="/wiki/Winston_W._Royce" title="Winston W. Royce">Winston W. Royce</a></li>
+<li><a href="/wiki/James_Rumbaugh" title="James Rumbaugh">James Rumbaugh</a></li>
+<li><a href="/wiki/Niklaus_Wirth" title="Niklaus Wirth">Niklaus Wirth</a></li>
+<li><a href="/wiki/Edward_Yourdon" title="Edward Yourdon">Edward Yourdon</a></li>
+<li><a href="/wiki/Mohamed_Fayad" title="Mohamed Fayad">Mohamed Fayad</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold;">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <a href="/wiki/Category:Software_engineering" title="Category:Software engineering">Category</a></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <a class="extiw" href="https://commons.wikimedia.org/wiki/Software_engineering" title="commons:Software engineering">Commons</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div aria-labelledby="Systems_engineering" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Systems_engineering" title="Template:Systems engineering"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Systems_engineering" title="Template talk:Systems engineering"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Systems_engineering&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Systems_engineering" style="font-size:114%"><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Subfields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace engineering</a></li>
+<li><a href="/wiki/Biological_systems_engineering" title="Biological systems engineering">Biological systems engineering</a></li>
+<li><a href="/wiki/Configuration_management" title="Configuration management">Configuration management</a></li>
+<li><a href="/wiki/Earth_systems_engineering_and_management" title="Earth systems engineering and management">Earth systems engineering and management</a></li>
+<li><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical engineering</a></li>
+<li><a href="/wiki/Enterprise_systems_engineering" title="Enterprise systems engineering">Enterprise systems engineering</a></li>
+<li><a href="/wiki/Performance_engineering" title="Performance engineering">Performance engineering</a></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Safety_engineering" title="Safety engineering">Safety engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Processes</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Requirements_engineering" title="Requirements engineering">Requirements engineering</a></li>
+<li><a href="/wiki/Functional_specification" title="Functional specification">Functional specification</a></li>
+<li><a href="/wiki/System_integration" title="System integration">System integration</a></li>
+<li><a href="/wiki/Verification_and_validation" title="Verification and validation">Verification and validation</a></li>
+<li><a href="/wiki/Design_review" title="Design review">Design review</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Concepts</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Business_process" title="Business process">Business process</a></li>
+<li><a href="/wiki/System" title="System">System</a></li>
+<li><a href="/wiki/System_lifecycle" title="System lifecycle">System lifecycle</a></li>
+<li><a href="/wiki/V-Model" title="V-Model">V-Model</a></li>
+<li><a href="/wiki/Systems_development_life_cycle" title="Systems development life cycle">Systems development life cycle</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Tools</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Decision-making" title="Decision-making">Decision-making</a></li>
+<li><a href="/wiki/Function_model" title="Function model">Function modelling</a></li>
+<li><a href="/wiki/IDEF" title="IDEF">IDEF</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Optimization</a></li>
+<li><a href="/wiki/Planning" title="Planning">Planning</a></li>
+<li><a href="/wiki/Statistics" title="Statistics">Statistical analysis</a></li>
+<li><a href="/wiki/System_dynamics" title="System dynamics">System dynamics</a></li>
+<li><a href="/wiki/Systems_Modeling_Language" title="Systems Modeling Language">Systems Modeling Language</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Systems_modeling" title="Systems modeling">Systems modeling</a></li>
+<li><a href="/wiki/Work_breakdown_structure" title="Work breakdown structure">Work breakdown structure</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/James_S._Albus" title="James S. Albus">James S. Albus</a></li>
+<li><a href="/wiki/Wernher_von_Braun" title="Wernher von Braun">Wernher von Braun</a></li>
+<li><a href="/wiki/Harold_Chestnut" title="Harold Chestnut">Harold Chestnut</a></li>
+<li><a href="/wiki/Arthur_David_Hall_III" title="Arthur David Hall III">Arthur David Hall III</a></li>
+<li><a href="/wiki/Derek_Hitchins" title="Derek Hitchins">Derek Hitchins</a></li>
+<li><a href="/wiki/Robert_E._Machol" title="Robert E. Machol">Robert E. Machol</a></li>
+<li><a href="/wiki/Simon_Ramo" title="Simon Ramo">Simon Ramo</a></li>
+<li><a href="/wiki/Joseph_Francis_Shea" title="Joseph Francis Shea">Joseph Francis Shea</a></li>
+<li><a href="/wiki/John_N._Warfield" title="John N. Warfield">John N. Warfield</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Related fields</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Control_engineering" title="Control engineering">Control engineering</a></li>
+<li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial engineering</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Quality_management" title="Quality management">Quality management</a></li>
+<li><a href="/wiki/Risk_management" title="Risk management">Risk management</a></li>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software engineering</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><img alt="Category" data-file-height="31" data-file-width="36" height="14" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" title="Category" width="16"/> <b><a href="/wiki/Category:Systems_engineering" title="Category:Systems engineering">Category</a></b></li>
+<li><img alt="Commons page" data-file-height="1376" data-file-width="1024" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="Commons page" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Systems_engineering" title="commons:Category:Systems engineering">Commons</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:522449-0!*!0!!en!4!* and timestamp 20161001223037 and revision id 741296745
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Requirements_analysis&amp;oldid=741296745">https://en.wikipedia.org/w/index.php?title=Requirements_analysis&amp;oldid=741296745</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Systems_engineering" title="Category:Systems engineering">Systems engineering</a></li><li><a href="/wiki/Category:Software_requirements" title="Category:Software requirements">Software requirements</a></li><li><a href="/wiki/Category:Business_analysis" title="Category:Business analysis">Business analysis</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1_maint:_Uses_editors_parameter" title="Category:CS1 maint: Uses editors parameter">CS1 maint: Uses editors parameter</a></li><li><a href="/wiki/Category:CS1_maint:_Multiple_names:_authors_list" title="Category:CS1 maint: Multiple names: authors list">CS1 maint: Multiple names: authors list</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_December_2011" title="Category:Articles needing additional references from December 2011">Articles needing additional references from December 2011</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2012" title="Category:Articles with unsourced statements from February 2012">Articles with unsourced statements from February 2012</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_October_2009" title="Category:Articles needing additional references from October 2009">Articles needing additional references from October 2009</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_December_2011" title="Category:Articles with unsourced statements from December 2011">Articles with unsourced statements from December 2011</a></li><li><a href="/wiki/Category:Articles_needing_cleanup_from_February_2011" title="Category:Articles needing cleanup from February 2011">Articles needing cleanup from February 2011</a></li><li><a href="/wiki/Category:All_articles_needing_cleanup" title="Category:All articles needing cleanup">All articles needing cleanup</a></li><li><a href="/wiki/Category:Cleanup_tagged_articles_without_a_reason_field_from_February_2011" title="Category:Cleanup tagged articles without a reason field from February 2011">Cleanup tagged articles without a reason field from February 2011</a></li><li><a href="/wiki/Category:Wikipedia_pages_needing_cleanup_from_February_2011" title="Category:Wikipedia pages needing cleanup from February 2011">Wikipedia pages needing cleanup from February 2011</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Requirements+analysis" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Requirements+analysis" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Requirements_analysis" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Requirements_analysis" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Requirements_analysis">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Requirements_analysis&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Requirements_analysis&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Requirements_analysis" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Requirements_analysis" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Requirements_analysis&amp;oldid=741296745" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Requirements_analysis&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q187147" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Requirements_analysis&amp;id=741296745" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Requirements+analysis">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Requirements+analysis&amp;returnto=Requirements+analysis&amp;oldid=741296745&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Requirements_analysis&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikibase-otherprojects-label" class="portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 id="p-wikibase-otherprojects-label">In other projects</h3>
+<div class="body">
+<ul>
+<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Requirements_analysis" hreflang="en">Wikimedia Commons</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/An%C3%A0lisi_de_requisits" hreflang="ca" lang="ca" title="Anàlisi de requisits – Catalan">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Anal%C3%BDza_po%C5%BEadavk%C5%AF" hreflang="cs" lang="cs" title="Analýza požadavků – Czech">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Kravspecifikation" hreflang="da" lang="da" title="Kravspecifikation – Danish">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Anforderungsanalyse_(Informatik)" hreflang="de" lang="de" title="Anforderungsanalyse (Informatik) – German">Deutsch</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%AD%D9%84%DB%8C%D9%84_%D9%86%DB%8C%D8%A7%D8%B2%D9%85%D9%86%D8%AF%DB%8C%E2%80%8C%D9%87%D8%A7" hreflang="fa" lang="fa" title="تحلیل نیازمندی‌ها – Persian">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Analyse_des_exigences" hreflang="fr" lang="fr" title="Analyse des exigences – French">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/An%C3%A1lise_de_requisitos" hreflang="gl" lang="gl" title="Análise de requisitos – Galician">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD_%EB%B6%84%EC%84%9D" hreflang="ko" lang="ko" title="요구사항 분석 – Korean">한국어</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Analisis_kebutuhan" hreflang="id" lang="id" title="Analisis kebutuhan – Indonesian">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Analisi_dei_requisiti" hreflang="it" lang="it" title="Analisi dei requisiti – Italian">Italiano</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Requirementsanalyse" hreflang="nl" lang="nl" title="Requirementsanalyse – Dutch">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E8%A6%81%E6%B1%82%E5%88%86%E6%9E%90" hreflang="ja" lang="ja" title="要求分析 – Japanese">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Kravspesifikasjon" hreflang="no" lang="no" title="Kravspesifikasjon – Norwegian">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wymaganie_(in%C5%BCynieria)#Analiza_wymaga.C5.84_lub_in.C5.BCynieria_wymaga.C5.84" hreflang="pl" lang="pl" title="Wymaganie (inżynieria) – Polish">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/An%C3%A1lise_de_requerimento_de_software" hreflang="pt" lang="pt" title="Análise de requerimento de software – Portuguese">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9" hreflang="ru" lang="ru" title="Анализ требований – Russian">Русский</a></li><li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/Analiza_e_k%C3%ABrkesave" hreflang="sq" lang="sq" title="Analiza e kërkesave – Albanian">Shqip</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0_%D0%B7%D0%B0%D1%85%D1%82%D0%B5%D0%B2%D0%B0" hreflang="sr" lang="sr" title="Анализа захтева – Serbian">Српски / srpski</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Kravhantering" hreflang="sv" lang="sv" title="Kravhantering – Swedish">Svenska</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AF%87%E0%AE%B5%E0%AF%88%E0%AE%95%E0%AE%B3%E0%AF%8D_%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AF%81" hreflang="ta" lang="ta" title="தேவைகள் பகுப்பாய்வு – Tamil">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3" hreflang="th" lang="th" title="การวิเคราะห์ความต้องการ – Thai">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D1%96%D0%B7_%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3" hreflang="uk" lang="uk" title="Аналіз вимог – Ukrainian">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Y%C3%AAu_c%E1%BA%A7u_(k%E1%BB%B9_thu%E1%BA%ADt)" hreflang="vi" lang="vi" title="Yêu cầu (kỹ thuật) – Vietnamese">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" hreflang="zh" lang="zh" title="需求分析 – Chinese">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q187147#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 September 2016, at 16:18.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Requirements_analysis&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.344",
+            "walltime": "0.419",
+            "ppvisitednodes": {
+                "value": 2531,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 125103,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 4534,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 15,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 8,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 1,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  304.870      1 -total",
+                " 17.20%   52.447      4 Template:Navbox",
+                " 15.45%   47.102      8 Template:Cite_book",
+                " 14.23%   43.389      4 Template:Citation_needed",
+                " 12.94%   39.452      1 Template:Commons_category",
+                " 12.86%   39.196      4 Template:Fix",
+                " 12.77%   38.918      1 Template:Reflist",
+                " 11.59%   35.349      1 Template:Refimprove",
+                "  9.44%   28.790      3 Template:Ambox",
+                "  8.75%   26.691      1 Template:Software_engineering"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.122",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 5255908,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1265",
+            "timestamp": "20161001223037",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":76,"wgHostname":"mw1247"});});</script>
+</body>
+</html>
+

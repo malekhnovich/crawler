@@ -1,0 +1,807 @@
+The following page is located at the url: http://dx.doi.org/10.1007%2F978-3-540-92966-6_6
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7 lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8 lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="no-js ie9 lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<meta content="width=device-width, minimum-scale=1, maximum-scale=1" name="viewport"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="Springer Berlin Heidelberg" name="citation_publisher"/>
+<meta content="A Proposal for a Formal Definition of the Design Concept" name="citation_title"/>
+<meta content="103" name="citation_firstpage"/>
+<meta content="136" name="citation_lastpage"/>
+<meta content="10.1007/978-3-540-92966-6_6" name="citation_doi"/>
+<meta content="en" name="citation_language"/>
+<meta content="http://link.springer.com/chapter/10.1007/978-3-540-92966-6_6" name="citation_abstract_html_url"/>
+<meta content="http://link.springer.com/content/pdf/10.1007%2F978-3-540-92966-6_6.pdf" name="citation_pdf_url"/>
+<meta content="http://api.springer.com/metadata/pam?q=doi:SpringerId(10.1007/978-3-540-92966-6_6)&amp;api_key=" name="citation_springer_api_url"/>
+<meta content="Paul Ralph" name="citation_author"/>
+<meta content="University of British Columbia" name="citation_author_institution"/>
+<meta content="Yair Wand" name="citation_author"/>
+<meta content="University of British Columbia" name="citation_author_institution"/>
+<meta content="Design Requirements Engineering: A Ten-Year Perspective" name="citation_inbook_title"/>
+<meta content="2009" name="citation_publication_date"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="A Proposal for a Formal Definition of the Design Concept" name="twitter:title"/>
+<meta content="A clear and unambiguous definition of the design concept would be useful for developing a cumulative tradition for research on design. In this article we suggest a formal definition for the concept de" name="twitter:description"/>
+<meta content="http://link.springer.comhttps://static-content.springer.com/cover/book/978-3-540-92966-6.jpg" name="twitter:image"/>
+<meta content="SpringerSBM" name="twitter:site"/>
+<!--[if (gt IE 8) | (IEMobile)]><!--> <link href="/static/201607251336-25/css/modern_link.min.css" media="screen" rel="stylesheet"> <!--<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile)]> <link rel="stylesheet" media="screen" href="/static/201607251336-25/css/ielt9_link.min.css"> <![endif]-->
+<link href="/static/201607251336-25/css/springer_casper.min.css" media="screen" rel="stylesheet"/>
+<link href="/static/201607251336-25/sites/link/images/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" size="144x144"/>
+<link href="/static/201607251336-25/sites/link/images/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" size="114x114"/>
+<link href="/static/201607251336-25/sites/link/images/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" size="72x72"/>
+<link href="/static/201607251336-25/sites/link/images/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed" size="57x57"/>
+<link href="/static/201607251336-25/sites/link/images/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed"/>
+<link href="/static/201607251336-25/sites/link/images/favicon-32x32.png" rel="shortcut icon"/>
+<!--[if IE]>
+    <link rel="shortcut icon" href="/static/201607251336-25/sites/link/images/favicon.ico"/>
+  <![endif]-->
+<meta content="#FFFFFF" name="msapplication-TileColor"/>
+<meta content="/static/201607251336-25/sites/link/images/ms-tileimage.png" name="msapplication-TileImage"/>
+<link href="http://link.springer.com/chapter/10.1007%2F978-3-540-92966-6_6" rel="canonical"/>
+<script type="text/javascript">
+    window.suggestmeyes_loaded = true;
+  </script>
+<script type="text/javascript">window.jsErrors = [];window.onerror = function(errorMessage) {window.jsErrors[window.jsErrors.length] = errorMessage;}</script>
+<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+  </script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+  </script>
+<script id="googletag-push" type="text/javascript">
+    googletag.cmd.push(function() {
+    googletag.defineSlot('6313/casper/book/chapter', [160, 600], 'doubleclick-ad').addService(googletag.pubads());
+    googletag.pubads().setTargeting("eisbn","978-3-540-92966-6");
+    googletag.pubads().setTargeting("pisbn","978-3-540-92965-9");
+    googletag.pubads().setTargeting("eissn","1865-1356");
+    googletag.pubads().setTargeting("pissn","1865-1348");
+    googletag.pubads().setTargeting("doi","10.1007-978-3-540-92966-6_6");
+    googletag.pubads().setTargeting("sucode",["SUCO11645"]);
+    googletag.pubads().setTargeting("pmc",["I","I14002","I27000","I14029","I24067","I18040"]);
+    googletag.pubads().setTargeting("BPID",["1"]);
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    });
+  </script>
+<script src="/static/js/lib/jquery.min.js"></script>
+<title>A Proposal for a Formal Definition of the Design Concept - Springer</title>
+</link></head>
+<body class="anonymous link" data-name="link">
+<div id="wrapper">
+<div id="header" role="banner">
+<a href="/" id="logo">
+<img alt="Logo Springer" src="/static/201607251336-25/sites/link/images/logo-base.png" title="SpringerLink"/>
+</a>
+<div class="panel-search">
+<form action="/search" class="big-search" id="global-search" method="get" role="search">
+<div class="search-field">
+<input autocomplete="off" class="text" id="query" name="query" placeholder="Search" title="Search" type="text" value=""/>
+</div>
+<input class="search-submit" id="search" title="New Search" type="submit" value="Submit"/>
+<div class="flyout" id="search-options">
+<button class="pillow-btn open-search-options" title="Open search options" type="button">Search Options</button>
+<div class="flyout-content">
+<ul>
+<li>
+<a href="/advanced-search" id="advanced-search-link">Advanced Search</a>
+</li>
+<li>
+<a href="/searchhelp" id="search-help-link">Search Help</a>
+</li>
+</ul>
+</div>
+</div>
+</form>
+</div>
+<button class="pillow-btn open-search" title="Open search">Search</button>
+<button class="pillow-btn open-menu" title="Open menu">Menu</button>
+<div class="panel-menu">
+<div id="cross-nav">
+<div class="flyout" id="auth">
+<a class="flyout-caption" href="/signup-login?previousUrl=http%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%252F978-3-540-92966-6_6" id="register-link">
+          » Sign up / Log in
+        </a>
+</div>
+<div class="flyout" id="lang">
+<button class="flyout-caption cur">English</button>
+<div class="flyout-content">
+<ul>
+<li>
+<a href="/language/Deutsch" id="change-language-Deutsch" rel="nofollow">Deutsch</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="flyout" id="edition">
+<button class="flyout-caption cur">Academic edition</button>
+<div class="flyout-content">
+<ul>
+<li>
+<a class="edition-select" href="/siteEdition/rd" rel="nofollow">Corporate edition</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /- giving kb-only user the option to skip to relevant content (see KeyboardNavigation.js) -->
+<div id="skip-navigation">
+<p class="skip-navigation--label">
+<span>Skip to:</span>
+<a href="#kb-nav--main">Main content</a>
+<a href="#kb-nav--aside">Side column</a>
+</p>
+</div>
+<div id="logo-company">
+</div>
+<ul class="clearfix" id="global-nav" role="navigation">
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/contactus">Contact Us</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<input id="autoShowLookInside" type="hidden" value="false"/>
+<input id="leafContentType" type="hidden" value="Chapter"/>
+<div class="document no-access" id="chapter" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle">
+<div class="">
+<div class="bar-dock">
+<div class="bar-wrapper">
+<div class="bar-actions">
+<span class="action icon-view">
+<a class="lookinside-href webtrekk-track pdf-link" contenttype="Chapter" doi="10.1007/978-3-540-92966-6_6" href="/chapter/10.1007%2F978-3-540-92966-6_6/lookinside/000.png" pagetype="rd_springer_com.book.chapter_preview" parentcontenttype="Book" parentdoi="10.1007/978-3-540-92966-6" publication="10.1007/978-3-540-92966-6 | Design Requirements Engineering: A Ten-Year Perspective" title="Look Inside" viewtype="Preview">Look Inside</a>
+</span>
+<span class="action icon-unlock">
+<a class="access-link webtrekk-track" contenttype="Chapter" doi="10.1007/978-3-540-92966-6_6" href="/accesspage/chapter/10.1007/978-3-540-92966-6_6?coverImageUrl=https%3A%2F%2Fstatic-content.springer.com%2Fcover%2Fbook%2F978-3-540-92966-6.jpg" pagetype="rd_springer_com.book.chapter_denial" parentcontenttype="Book" publication="10.1007/978-3-540-92966-6 | Design Requirements Engineering: A Ten-Year Perspective" title="Get Access" viewtype="Denial">Get Access</a>
+</span>
+</div>
+<div class="unlock-wrapper">
+<div class="bar-access-restr">
+<strong class="message">Find out how to access preview-only content</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="document-main layout-3">
+<div class="col-main has-full-enumeration" id="kb-nav--main" role="main">
+<!DOCTYPE html
+              SYSTEM "about:legacy-compat">
+
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:meta="http://www.springer.com/app/meta"><section><header id="enumeration"><strong>Chapter</strong><p class="BookTitle"><a href="/book/10.1007/978-3-540-92966-6">Design Requirements Engineering: A Ten-Year Perspective</a></p><p><span class="vol-info">
+                                  Volume 14 of the series <a href="/bookseries/7911">Lecture Notes in Business Information Processing</a></span><span class="page-numbers-info">
+                            pp 103-136</span></p><div class="version version-html5"></div></header></section><div class="MainTitleSection" xmlns=""><h1 class="ChapterTitle" lang="en" xmlns="http://www.w3.org/1999/xhtml">A Proposal for a Formal Definition of the Design Concept</h1></div><ul class="AuthorNames"><li><span class="AuthorName_container"><span class="AuthorName">Paul Ralph</span><span class="AuthorNames_popup flyout"><span class="AuthorNames_details flyout-content flyout--arrowTopLeft"><span class="AuthorsName_affiliation"><strong>Affiliated with</strong><span>Sauder School of Business, University of British Columbia</span></span></span></span></span></li><li><span>, </span><span class="AuthorName_container"><span class="AuthorName">Yair Wand</span><span class="AuthorNames_popup flyout"><span class="AuthorNames_details flyout-content flyout--arrowTopLeft"><span class="AuthorsName_affiliation"><strong>Affiliated with</strong><span>Sauder School of Business, University of British Columbia</span></span></span></span></span></li></ul></div>
+<div class="panel" id="abstract-actions">
+<div class="content-pricing leaf-pricing">
+<div class="leaf-pricing-content">
+<div class="hidden" id="price-promo-message">
+<div class="shout-out">
+<p></p>
+</div>
+</div>
+<div class="leaf-pricing-wrapper"></div>
+<form action="https://checkout.springer.com/checkout/add?SL=&amp;wt_mc=ThirdParty.SpringerLink.3.EPR653.AbstractPage_Chapter" id="getaccess-webshop" method="post">
+<input name="mac" type="hidden" value="c783ecaa50ad8d46cbba9718ef6aa639"/>
+<input name="returnurl" type="hidden" value="http://link.springer.com/chapter/10.1007/978-3-540-92966-6_6"/>
+<input name="contenttitle" type="hidden" value="A Proposal for a Formal Definition of the Design Concept"/>
+<input name="pages" type="hidden" value="103-136"/>
+<input name="copyrightyear" type="hidden" value="2009"/>
+<input name="year" type="hidden" value="2009"/>
+<input name="seriestitle" type="hidden" value="Lecture Notes in Business Information Processing"/>
+<input name="authors" type="hidden" value="Paul Ralph, Yair Wand"/>
+<input name="title" type="hidden" value="Design Requirements Engineering: A Ten-Year Perspective"/>
+<input name="type" type="hidden" value="chapter"/>
+<input name="doi" type="hidden" value="10.1007/978-3-540-92966-6_6"/>
+<input name="volume" type="hidden" value="14"/>
+<input name="isxn" type="hidden" value="978-3-540-92966-6"/>
+<input class="btn btn-primary btn-action btn-monster" id="leaf-pricing-buy-now" type="submit" value="Buy chapter"/>
+<div id="display-leaf-ppv">
+<a href="/leaf-pricing/chapter/10.1007/978-3-540-92966-6_6"></a>
+</div>
+</form>
+</div>
+<div class="line-divider"></div>
+<div id="display-book-ppv">
+<a class="btn btn-primary btn-action btn-monster" href="/pricing/chapter/10.1007/978-3-540-92966-6_6">Buy this eBook</a>
+</div>
+</div>
+<p class="price-disclaimer">* Final gross prices may vary according to local VAT.</p>
+<span class="action icon-unlock">
+<a class="webtrekk-track" contenttype="Chapter" doi="10.1007/978-3-540-92966-6_6" href="/accesspage/chapter/10.1007/978-3-540-92966-6_6?coverImageUrl=https%3A%2F%2Fstatic-content.springer.com%2Fcover%2Fbook%2F978-3-540-92966-6.jpg" id="request-access-link" pagetype="rd_springer_com.book.chapter_denial" parentcontenttype="Book" publication="10.1007/978-3-540-92966-6 | Design Requirements Engineering: A Ten-Year Perspective" viewtype="Denial">Get Access</a>
+</span>
+</div>
+<!DOCTYPE html
+              SYSTEM "about:legacy-compat">
+
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:meta="http://www.springer.com/app/meta"><section class="Abstract" id="Abs1" lang="en">
+<h2 class="Heading">Abstract</h2>
+<p class="Para">A clear and unambiguous definition of the design concept would be useful for developing a cumulative tradition for research on design. In this article we suggest a formal definition for the concept <em class="EmphasisTypeItalic ">design</em> and propose a conceptual model linking concepts related to design projects. The definition of design incorporates seven elements: agent, object, environment, goals, primitives, requirements and constraints. The design project conceptual model is based on the view that projects are temporal trajectories of work systems that include human agents who work to design systems for stakeholders, and use resources and tools to accomplish this task. We demonstrate how these two suggestions can be useful by showing that 1) the definition of design can be used to classify design knowledge and 2) the conceptual model can be used to classify design approaches.</p>
+</section><div class="KeywordGroup" lang="en">
+<h3 class="Heading">Keywords</h3>
+<span class="Keyword">design</span>
+<span class="Keyword">information systems design</span>
+<span class="Keyword">software design project</span>
+<span class="Keyword">requirements</span>
+<span class="Keyword">goals</span>
+<span class="Keyword">science of design</span>
+</div></div>
+</div>
+<div class="col-aside" id="kb-nav--aside" role="complementary">
+<div class="cover">
+<div class="look-inside cover-image-animate">
+<div id="reader-overlay">
+<div id="reader-page-template">
+<div id="page-%P">
+<div class="page-number">
+            Page
+            %P
+          </div>
+<div class="pdf-page" id="page-img-container-%ID">
+<img alt="Loading..." class="pdf-image" data-loaded="false" id="pdf-page-image-%ID" src="/static/201607251336-25/images/pdf-preview/spacer.gif" style="width:%Wpx;" width="%W"/>
+</div>
+</div>
+</div>
+<div class="reader-position">
+<div id="reader">
+<div id="reader-buttons">
+<a class="btn btn-close right" href="#close" id="pdf-close">
+              Close
+            </a>
+<a class="btn" href="#close" id="toggletext" title="Toggle plain text">
+              Plain text
+            </a>
+</div>
+<div class="show-pdf" id="viewer">
+<div id="scroller"></div>
+</div>
+<div class="top-shadow"></div>
+<div class="bottom-shadow"></div>
+</div>
+</div>
+</div>
+<a class="webtrekk-track lookinside-href" contenttype="Chapter" doi="10.1007/978-3-540-92966-6_6" href="/chapter/10.1007%2F978-3-540-92966-6_6/lookinside/000.png" pagetype="rd_springer_com.book.chapter_preview" parentcontenttype="Book" publication="10.1007/978-3-540-92966-6 | Design Requirements Engineering: A Ten-Year Perspective" viewtype="Preview">
+<img alt="Design Requirements Engineering: A Ten-Year Perspective" class="look-inside-cover" itemprop="image" src="https://static-content.springer.com/cover/book/978-3-540-92966-6.jpg" width="153"/>
+<img alt="Design Requirements Engineering: A Ten-Year Perspective" class="look-inside-page" itemprop="image" src="https://static-content.springer.com/lookinside/chp%3A10.1007%2F978-3-540-92966-6_6/000.png" width="153"/>
+<span class="look-inside-badge">
+            Look
+            <br/>
+            Inside
+          </span>
+</a>
+</div>
+</div>
+<div class="book-metrics SideBox hidden" data-contenttype="chapter" data-url="https://bookmetrix-proxy.live.cf.public.springer.com">
+<h2 class="SideBox_title">Chapter Metrics</h2>
+<div class="book-metrics-items"></div>
+<div class="Sidebox_footer book-metrics-footer">
+<a href="#">
+<span>Provided by</span>
+<span><strong>Book</strong><span>metrix</span></span>
+</a>
+</div>
+</div>
+<div data-url="https://copublishers.live.cf.public.springer.com/?id=978-3-540-92966-6&amp;id=978-3-540-92965-9" id="copublisher-container" on-sidebar="on-sidebar"></div>
+<div id="section-links">
+</div>
+<div class="SideBox" id="reference-tools">
+<h2 class="SideBox_title">Reference tools</h2>
+<ul>
+<li>
+<div class="Collapse Collapse--button u-z-index-3" id="article-export-citation" tabindex="-1">
+<h3 class="Collapse_toggle" data-target="targetId" data-toggle="collapse">
+            Export citation
+            <span class="Icon Icon--triangle-down-dark"></span>
+</h3>
+<ul class="Collapse_content" id="article-export-citation-options">
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=endnote&amp;flavour=citation">EndNote (.ENW)</a></li>
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=bibtex&amp;flavour=citation">JabRef (.BIB)</a></li>
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=bibtex&amp;flavour=citation">Mendeley (.BIB)</a></li>
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=refman&amp;flavour=citation">Papers (.RIS)</a></li>
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=refman&amp;flavour=citation">Zotero (.RIS)</a></li>
+<li><a href="http://citation-needed.services.springer.com/v2/references/10.1007/978-3-540-92966-6_6?format=bibtex&amp;flavour=citation">BibTeX (.BIB)</a></li>
+</ul>
+</div>
+</li>
+<li>
+<a class="external webtrekk-track" gacategory="Export" href="http://redirect.papersapp.com/redirect?url=http://link.springer.com/chapter/10.1007%2F978-3-540-92966-6_6" id="papers-link" publication="10.1007/978-3-540-92966-6_6 | A Proposal for a Formal Definition of the Design Concept" target="_blank" title="It opens in new window" viewtype="Add to Papers">Add to Papers</a>
+</li>
+</ul>
+</div>
+<div class="SideBox other-actions">
+<h2 class="SideBox_title">Other actions</h2>
+<ul>
+<li>
+<a class="external" href="http://www.springer.com/978-3-540-92965-9?wt_mc=ThirdParty.SpringerLink.3.EPR653.About_eBook" id="about-link" target="_blank" title="It opens in new window">
+      About this Book
+    </a>
+</li>
+<li>
+<a class="external" href="https://s100.copyright.com/AppDispatchServlet?publisherName=Springer&amp;orderBeanReset=true&amp;orderSource=SpringerLink&amp;author=Paul+Ralph&amp;contentID=10.1007%2F978-3-540-92966-6_6&amp;openAccess=false&amp;endPage=136&amp;publicationDate=2009&amp;startPage=103&amp;title=A+Proposal+for+a+Formal+Definition+of+the+Design+Concept&amp;imprint=Springer-Verlag+Berlin+Heidelberg&amp;publication=eBook&amp;authorAddress=Canada" id="permissions-link" target="_blank" title="It opens in new window">Reprints and Permissions</a>
+</li>
+</ul>
+</div>
+<div class="SideBox other-actions share">
+<h2 class="SideBox_title">Share</h2>
+<a href="javascript:void(0)" id="facebook" title="Share this content on Facebook">Share this content on Facebook</a>
+<a href="javascript:void(0)" id="twitter" title="Share this content on Twitter">Share this content on Twitter</a>
+<a href="javascript:void(0)" id="linkedin" title="Share this content on LinkedIn">Share this content on LinkedIn</a>
+</div>
+</div>
+</div>
+<div class="document-aside" id="kb-nav--aside" role="complementary">
+<input id="relatedItemsSource" type="hidden" value="none"/>
+<div class="expander expander-empty" id="abstract-esm">
+<div class="expander-title">
+<div class="heading">
+<h2><button>Supplementary Material (0)</button></h2>
+</div>
+</div>
+</div>
+<div class="expander" id="abstract-references">
+<div class="expander-title">
+<div class="heading">
+<h2><button>References (51)</button></h2>
+</div>
+</div>
+<div class="expander-content">
+<div class="expander-content-inner">
+<div class="formatted">
+<!DOCTYPE html
+      SYSTEM "about:legacy-compat">
+
+<div class="FulltextWrapper" xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:meta="http://www.springer.com/app/meta"><aside class="Bibliography" id="Bib1"><h3 class="Heading">References</h3><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">Freeman, P., Hart, D.: A science of design for software-intensive systems. Communications of the ACM 47(8), 19–21 (2004)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1145/1012037.1012054"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">Simon, H.A.: The Sciences of the Artificial, 3rd edn. MIT Press, Cambridge (1996)</div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">Hevner, A.R., March, S.T., Park, J., Ram, S.: Design science in information systems research. MIS Quarterly 28(1), 75–105 (2004)</div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">March, S.T., Smith, G.F.: Design and natural science research on information technology. Decision Support Systems 15(4), 251–266 (1995)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1016/0167-9236(94)00041-2"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">Accreditation board for engineering and technology, Inc. Annual report for the year ending September 30, 1988. New York, USA (1988)</div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">van Engers, T.M., Gerrits, R., Boekenoogen, M., Glassée, E., Kordelaar, P.: Power: using uml/ocl for modeling legislation - an application report. In: ICAIL 2001: Proceedings of the 8th international conference on Artificial intelligence and law, pp. 157–167. ACM Press, New York (2001)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1145/383535.383554"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">Bradel, B., Stewart, K.: Exploring processor design using genetic programming. In: ECE1718 Special Topics in Computer Hardware Design: Modern and Emerging Architectures. University of Toronto, Toronto (April 2004)</div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">Eekels, J.: On the fundamentals of engineering design science: The geography of engineering design science. part 1. Journal of Engineering Design 11, 377–397 (2000)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1080/09544820010000962"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">Breuer, T., Ndoundou-Hockemba, M., Fishlock, V.: First observation of tool use in wild gorillas. PLoS Biol. 3(11) (2005)</div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">Mulcahy, N., Call, J.: Apes save tools for future use. Science 312(5776), 1038–1040 (2006)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1126/science.1125456"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">Churchman, C.W.: The design of inquiring systems: Basic concepts of systems and organization. Basic Books, New York (1971)</div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">Alexander, C.W.: Notes on the synthesis of form. Harvard University Press (1964)</div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">Gero, J.S.: Design prototypes: A knowledge representation schema for design. AI Magazine 11(4), 26–36 (1990)</div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">Bourque, P., Dupuis, R. (eds.): Guide to the software engineering body of knowledge (SWEBOK). IEEE Computer Society Press, Los Alamitos (2004)</div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">Siddiqi, J., Shekaran, M.: Requirements engineering: The emerging wisdom. IEEE Software, 15–19 (March 1996)</div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">Kruchten, P.: The Rational Unified Process: An Introduction, 3rd edn. Addison-Wesley Professional, Reading (2003)</div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">Pahl, G., Beitz, W.: Engineering Design: A Systematic Approach. Springer, London (1996)</div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">Lamsweerde, A.v.: Goal-oriented requirements engineering: a guided tour. In: Proceedings of the Fifth IEEE International Symposium on Requirements Engineering, pp. 249–262 (August 2001)</div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">Hammer, M., Champy, J.: Reengineering the corporation: A manifesto for business revolution. Business Horizons 36(5), 90–91 (1993), <span class="ExternalRef"><a href="http://ideas.repec.org/a/eee/bushor/v36y1993i5p90-91.html"><span class="RefSource">
+<span class="Literal">http://ideas.repec.org/a/eee/bushor/v36y1993i5p90-91.html</span>
+</span></a></span>
+<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1016/S0007-6813(05)80064-3"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">van der Alast, W.M.P.: Workflow verification: Finding control-flow errors using petri-net-based techniques. In: van der Aalst, W.M.P., Desel, J., Oberweis, A. (eds.) Business Process Management. LNCS, vol. 1806, pp. 161–183. Springer, Heidelberg (2000)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1007/3-540-45594-9_11"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">Soffer, P., Wand, Y.: Goal-driven analysis of process model validity. Advanced Information Systems Engineering, 521–535 (2004)</div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">Royce, W.: Managing the Development of Large Software Systems. Proceedings of IEEE WESCON 26 (1970)</div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">Alter, S.: The Work system method: Connecting people, processes, and IT for business results. Work System Press (2006)</div></li><li class="Citation"><div class="CitationNumber">24.</div><div class="CitationContent" id="CR24">Freeman, R.: Strategic Management: A stakeholder approach. Pitman, Boston (1984)</div></li><li class="Citation"><div class="CitationNumber">25.</div><div class="CitationContent" id="CR25">Bera, P., Wand, Y.: Conceptual Models for Knowledge Management Systems. Working paper, University of British Columbia (2007)</div></li><li class="Citation"><div class="CitationNumber">26.</div><div class="CitationContent" id="CR26">Checkland, P.: Systems Thinking, Systems Practice. John Wiley &amp; Sons, Ltd., Chichester (1999)</div></li><li class="Citation"><div class="CitationNumber">27.</div><div class="CitationContent" id="CR27">Jacobson, I., Booch, G., Rumbaugh, J.: The unified software development process. Addison-Wesley Longman Publishing Co., Inc., Boston (1999)</div></li><li class="Citation"><div class="CitationNumber">28.</div><div class="CitationContent" id="CR28">Department of Justice. The department of justice systems development life cycle guidance document</div></li><li class="Citation"><div class="CitationNumber">29.</div><div class="CitationContent" id="CR29">Manlei, M., Teorey, T.: Incorporating behavioral techniques into the systems development lifecycle. MIS Quarterly 13(3), 257–274 (1989)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.2307/249000"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">30.</div><div class="CitationContent" id="CR30">Fenton, N.: Software measurement: A necessary scientific basis. IEEE Trans. Softw. Eng. 20(3), 199–206 (1994)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1109/32.268921"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">31.</div><div class="CitationContent" id="CR31">Finkelstein, L.: A review of the fundamental concepts of measurement. Measurement 2(I), 25–34 (1984)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1016/0263-2241(84)90020-4"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">32.</div><div class="CitationContent" id="CR32">Roberts, F.: Measurement Theory with Applications to Decision Making, Utility and the Social Sciences. Addison Wesley, Reading (1979)</div></li><li class="Citation"><div class="CitationNumber">33.</div><div class="CitationContent" id="CR33">Polya, G.: How to Solve It: A New Aspect of Mathematical Method, 2nd edn. Princeton University Press, Princeton (1957)</div></li><li class="Citation"><div class="CitationNumber">34.</div><div class="CitationContent" id="CR34">Kessler, A.: WSJ: Weekend interview with Facebook’s Mark Zuckerberg</div></li><li class="Citation"><div class="CitationNumber">35.</div><div class="CitationContent" id="CR35">Beck, K.: Extreme programming eXplained: embrace change. Addison-Wesley, Reading (2000)</div></li><li class="Citation"><div class="CitationNumber">36.</div><div class="CitationContent" id="CR36">Grüninger, M., Fox, M.: Methodolgy for the design and evaluation of ontologies. In: Proceedings of the IJCAI Workshop on Basic Ontological Issues in Knoweldge Sharing, Menlo Park CA, USA. AAAI Press, Menlo Park (1995)</div></li><li class="Citation"><div class="CitationNumber">37.</div><div class="CitationContent" id="CR37">Noy, N., Hafner, C.: The state of the art in ontology design. AI Magazine, 53–74 (Fall 1997)</div></li><li class="Citation"><div class="CitationNumber">38.</div><div class="CitationContent" id="CR38">Mili, H., Mili, F., Mili, A.: Reusing software: Issues and research directions. IEEE Transactions on Software Engineering 21(6), 528–562 (1995)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1109/32.391379"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">39.</div><div class="CitationContent" id="CR39">Ambler, S.: A realistic look at object-oriented reuse. Software Development 6(1), 30–38 (1998)</div></li><li class="Citation"><div class="CitationNumber">40.</div><div class="CitationContent" id="CR40">Alexander, C., Ishikawa, S., Silverstein, M., Jacobson, M., Fiksdahl-King, I., Angel, S.: A Pattern Language: Towns, Buildings, Construction. Oxford University Press, Oxford (1977)</div></li><li class="Citation"><div class="CitationNumber">41.</div><div class="CitationContent" id="CR41">Gamma, E., Helm, R., Johnson, R., Vlissides, J.: Design patterns: Elements of reusable object-oriented software. Addison-Wesley, Boston (1995)</div></li><li class="Citation"><div class="CitationNumber">42.</div><div class="CitationContent" id="CR42">Desouza, K.C., Awazu, Y., Tiwana, A.: Four dynamics for bringing use back into software reuse. Commun. ACM 49(1), 96–100 (2006)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1145/1107458.1107461"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">43.</div><div class="CitationContent" id="CR43">Reubenstein, H., Waters, R.: The requirements apprentice: Automated assistance for requirements acquisition. IEEE Trans. Softw. Eng. 17(3), 226–240 (1991)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1109/32.75413"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">44.</div><div class="CitationContent" id="CR44">Hansen, S., Berente, N., Lyytinen, K.: Requirements in the 21st century: Current practice and emerging trends. In: The Design Requirements Workshop, Cleveland, Ohio, USA, June 3-6 (2007)</div></li><li class="Citation"><div class="CitationNumber">45.</div><div class="CitationContent" id="CR45">Gregor, S., Jones, D.: The anatomy of a design theory. Journal of the Association for Information Systems 8, 312 (2007)</div></li><li class="Citation"><div class="CitationNumber">46.</div><div class="CitationContent" id="CR46">Aghion, P., Tirole, J.: Real and Formal Authority in Organizations. Journal of Political Economy 105, 1–29 (1997)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1086/262063"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">47.</div><div class="CitationContent" id="CR47">Pfeffer, J.: Managing with Power: Politics and Influence in Organizations. Harvard Business School Press, Cambridge (1992)</div></li><li class="Citation"><div class="CitationNumber">48.</div><div class="CitationContent" id="CR48">Garlan, D., Shaw, M.: An introduction to software architecture. In: Ambriola, V., Tortora, G. (eds.) Advances in software engineering and knowledge engineering, pp. 1–39. World Scientific, Singapore (1993)</div></li><li class="Citation"><div class="CitationNumber">49.</div><div class="CitationContent" id="CR49">Wynekoop, J., Russo, N.: Studying system development methodologies: an examination of research methods. Information Systems Journal 7, 47–65 (1997)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.1046/j.1365-2575.1997.00004.x"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">50.</div><div class="CitationContent" id="CR50">Van de Ven, A., Poole, M.: Explaining Development and Change in Organizations. Acad. Manage. Rev. 20, 510 (1995)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a href="http://dx.doi.org/10.2307/258786"><span><span>CrossRef</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">51.</div><div class="CitationContent" id="CR51">Hinrichs, T.R.: Problem-solving in open worlds: a case study in design. PhD thesis, Atlanta, GA, USA (1992)</div></li></ol></aside></div>
+</div>
+</div>
+</div>
+</div>
+<div class="expander expander-open" id="abstract-about">
+<div class="expander-title">
+<div class="heading">
+<button>
+<h2>About this Chapter</h2>
+</button>
+</div>
+</div>
+<div class="expander-content">
+<div class="expander-content-inner">
+<div class="summary">
+<dl>
+<dt>Title</dt>
+<dd id="abstract-about-title">A Proposal for a Formal Definition of the Design Concept</dd>
+<dt>Book Title</dt>
+<dd id="abstract-about-publication">
+<a href="/book/10.1007/978-3-540-92966-6">Design Requirements Engineering: A Ten-Year Perspective</a>
+</dd>
+<dt id="dt-abstract-about-book-subtitle">Book Subtitle</dt>
+<dd id="abstract-about-book-subtitle">Design Requirements Workshop, Cleveland, OH, USA, June 3-6, 2007, Revised and Invited Papers</dd>
+<dt id="dt-abstract-about-book-chapter-page-ranges">Pages</dt>
+<dd id="abstract-about-book-chapter-page-ranges">pp 103-136</dd>
+<dt id="dt-abstract-about-book-chapter-copyright-year">Copyright</dt>
+<dd id="abstract-about-book-chapter-copyright-year">2009</dd>
+<dt>DOI</dt>
+<dd class="doi" id="abstract-about-book-chapter-doi">10.1007/978-3-540-92966-6_6</dd>
+<dt id="dt-abstract-about-book-print-isbn">Print ISBN</dt>
+<dd id="abstract-about-book-print-isbn">978-3-540-92965-9</dd>
+<dt id="dt-abstract-about-book-online-isbn">Online ISBN</dt>
+<dd id="abstract-about-book-online-isbn">978-3-540-92966-6</dd>
+<dt id="dt-abstract-about-book-series-title">Series Title</dt>
+<dd id="abstract-about-book-series-title">
+<a href="/bookseries/7911">Lecture Notes in Business Information Processing</a>
+</dd>
+<dt id="dt-abstract-about-book-series-volume">Series Volume</dt>
+<dd id="abstract-about-book-series-volume">14</dd>
+<dt id="dt-abstract-about-book-series-print-issn">Series ISSN</dt>
+<dd id="abstract-about-book-series-print-issn">1865-1348</dd>
+<dt id="dt-abstract-about-publisher">Publisher</dt>
+<dd id="abstract-about-publisher">Springer Berlin Heidelberg</dd>
+<dt id="dt-abstract-about-book-copyright-holder">Copyright Holder</dt>
+<dd id="abstract-about-book-copyright-holder">Springer-Verlag Berlin Heidelberg</dd>
+<dt>Additional Links</dt>
+<dd id="abstract-about-additional-links">
+<ul>
+<li>
+<a class="external" href="http://www.springer.com/978-3-540-92965-9?wt_mc=ThirdParty.SpringerLink.3.EPR653.About_eBook" target="_blank" title="It opens in new window">About this Book</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt>Topics</dt>
+<dd itemprop="genre">
+<ul class="abstract-about-subject">
+<li>
+<a href="/search?facet-subject=%22Software+Engineering%2FProgramming+and+Operating+Systems%22">Software Engineering/Programming and Operating Systems</a>
+</li>
+<li>
+<a href="/search?facet-subject=%22Computer+Engineering%22">Computer Engineering</a>
+</li>
+<li>
+<a href="/search?facet-subject=%22Software+Engineering%22">Software Engineering</a>
+</li>
+<li>
+<a href="/search?facet-subject=%22Management+of+Computing+and+Information+Systems%22">Management of Computing and Information Systems</a>
+</li>
+<li>
+<a href="/search?facet-subject=%22Information+Systems+Applications+%28incl.+Internet%29%22">Information Systems Applications (incl. Internet)</a>
+</li>
+</ul>
+</dd>
+<dt>Keywords</dt>
+<dd id="abstract-about-keywords" itemprop="keywords">
+<ul class="abstract-keywords">
+<li>design</li>
+<li>information systems design</li>
+<li>software design project</li>
+<li>requirements</li>
+<li>goals</li>
+<li>science of design</li>
+</ul>
+</dd>
+<dt>Industry Sectors</dt>
+<dd itemprop="genre">
+<ul class="abstract-about-industrysectors">
+<li>
+<a href="/industry/automotive" title="/industry/automotive">Automotive</a>
+</li>
+<li>
+<a href="/industry/electronics" title="/industry/electronics">Electronics</a>
+</li>
+<li>
+<a href="/industry/it" title="/industry/it">IT &amp; Software</a>
+</li>
+<li>
+<a href="/industry/telecom" title="/industry/telecom">Telecommunications</a>
+</li>
+<li>
+<a href="/industry/consumer" title="/industry/consumer">Consumer Packaged Goods</a>
+</li>
+<li>
+<a href="/industry/aerospace" title="/industry/aerospace">Aerospace</a>
+</li>
+<li>
+<a href="/industry/engineering" title="/industry/engineering">Engineering</a>
+</li>
+</ul>
+</dd>
+<dt>eBook Packages</dt>
+<dd itemprop="genre">
+<ul class="abstract-about-ebook-packages">
+<li><a href="/search?facet-content-type=%22Book%22&amp;package=11645&amp;facet-start-year=2009&amp;facet-end-year=2009">Computer Science</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt>Editors</dt>
+<dd>
+<ul class="editors">
+<li itemprop="editor" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22Kalle+Lyytinen%22" itemprop="name">Kalle Lyytinen</a>
+<sup title="Case Western Reserve University">(6)</sup>
+</li>
+<li itemprop="editor" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22Pericles+Loucopoulos%22" itemprop="name">Pericles Loucopoulos</a>
+<sup title="Loughborough University">(7)</sup>
+</li>
+<li itemprop="editor" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22John+Mylopoulos%22" itemprop="name">John Mylopoulos</a>
+<sup title="University of Toronto">(8)</sup>
+</li>
+<li itemprop="editor" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22Bill+Robinson%22" itemprop="name">Bill Robinson</a>
+<sup title="Georgia State University">(9)</sup>
+</li>
+</ul>
+</dd>
+<dt>Editor Affiliations</dt>
+<dd>
+<ul class="editor-affiliations">
+<li>
+<span class="position">6.</span>
+<span class="affiliation">
+            Case Western Reserve University
+          </span>
+</li>
+<li>
+<span class="position">7.</span>
+<span class="affiliation">
+            Loughborough University
+          </span>
+</li>
+<li>
+<span class="position">8.</span>
+<span class="affiliation">
+            University of Toronto
+          </span>
+</li>
+<li>
+<span class="position">9.</span>
+<span class="affiliation">
+            Georgia State University
+          </span>
+</li>
+</ul>
+</dd>
+<dt>Authors</dt>
+<dd>
+<ul class="authors">
+<li itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22Paul+Ralph%22" itemprop="name">Paul Ralph</a>
+<sup title="Sauder School of Business, University of British Columbia">(10)</sup>
+</li>
+<li itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+<a class="person" href="/search?facet-creator=%22Yair+Wand%22" itemprop="name">Yair Wand</a>
+<sup title="Sauder School of Business, University of British Columbia">(10)</sup>
+</li>
+</ul>
+</dd>
+<dt>Author Affiliations</dt>
+<dd>
+<ul class="author-affiliations">
+<li>
+<span class="position">10.</span>
+<span class="affiliation">
+            Sauder School of Business, University of British Columbia, Canada
+            
+          </span>
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="look-inside-interrupt" id="look-inside-interrupt">
+<h3>Continue reading...</h3>
+<div class="col-1">
+<p>To view the rest of this content please follow the download PDF link above.</p>
+</div>
+</div>
+</div>
+<div contenttype="Chapter" doi="10.1007/978-3-540-92966-6_6" embedfulltext="false" id="web-trekk-abstract" openchoice="N" parentcontenttype="Book" publication="10.1007/978-3-540-92966-6 | Design Requirements Engineering: A Ten-Year Perspective" unsiloed="" viewtype="Abstract"></div>
+<input id="contentType" type="hidden" value="Chapter"/>
+<div id="footer">
+<hr/>
+<div class="section" id="footer-verticals" role="navigation">
+<span class="strapline">Over 10 million scientific documents at your fingertips</span>
+<div class="flyout">
+<button class="pillow-btn open-disciplines">
+        Browse by Discipline
+        <span class="caret"></span>
+</button>
+<ol class="disciplines">
+<li>
+<a href='/search?facet-discipline="Architecture+%26+Design"' title="follow this link to go to Architecture &amp; Design">Architecture &amp; Design</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Astronomy"' title="follow this link to go to Astronomy">Astronomy</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Biomedical+Sciences"' title="follow this link to go to Biomedical Sciences">Biomedical Sciences</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Business+%26+Management"' title="follow this link to go to Business &amp; Management">Business &amp; Management</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Chemistry"' title="follow this link to go to Chemistry">Chemistry</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Computer+Science"' title="follow this link to go to Computer Science">Computer Science</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Earth+Sciences+%26+Geography"' title="follow this link to go to Earth Sciences &amp; Geography">Earth Sciences &amp; Geography</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Economics"' title="follow this link to go to Economics">Economics</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Education+%26+Language"' title="follow this link to go to Education &amp; Language">Education &amp; Language</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Energy"' title="follow this link to go to Energy">Energy</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Engineering"' title="follow this link to go to Engineering">Engineering</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Environmental+Sciences"' title="follow this link to go to Environmental Sciences">Environmental Sciences</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Food+Science+%26+Nutrition"' title="follow this link to go to Food Science &amp; Nutrition">Food Science &amp; Nutrition</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Law"' title="follow this link to go to Law">Law</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Life+Sciences"' title="follow this link to go to Life Sciences">Life Sciences</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Materials"' title="follow this link to go to Materials">Materials</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Mathematics"' title="follow this link to go to Mathematics">Mathematics</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Medicine"' title="follow this link to go to Medicine">Medicine</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Philosophy"' title="follow this link to go to Philosophy">Philosophy</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Physics"' title="follow this link to go to Physics">Physics</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Psychology"' title="follow this link to go to Psychology">Psychology</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Public+Health"' title="follow this link to go to Public Health">Public Health</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Social+Sciences"' title="follow this link to go to Social Sciences">Social Sciences</a>
+</li>
+<li>
+<a href='/search?facet-discipline="Statistics"' title="follow this link to go to Statistics">Statistics</a>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="footer-nav">
+<div id="footer-nav-misc">
+<div class="block" id="footer-our-content" role="navigation">
+<h2>Our Content</h2>
+<ul>
+<li>
+<a href="/search?facet-content-type=%22Journal%22" title="View Journals">Journals</a>
+</li>
+<li>
+<a href="/search?facet-content-type=%22Book%22" title="View Books">Books</a>
+</li>
+<li>
+<a href="/search?facet-content-type=%22BookSeries%22" title="View Book Series">Book Series</a>
+</li>
+<li>
+<a href="/search?facet-content-type=%22Protocol%22" title="View Protocols">Protocols</a>
+</li>
+<li>
+<a href="/search?facet-content-type=%22ReferenceWork%22" title="View Reference Works">Reference Works</a>
+</li>
+</ul>
+</div>
+<div class="block" id="footer-other-sites" role="navigation">
+<h2>Other Sites</h2>
+<ul>
+<li>
+<a href="http://www.springer.com/" title="Visit Springer.com">Springer.com</a>
+</li>
+<li>
+<a href="http://www.springerprotocols.com/" title="Visit Springer Protocols">SpringerProtocols</a>
+</li>
+<li>
+<a href="http://materials.springer.com/" title="Visit Springer Materials">SpringerMaterials</a>
+</li>
+<li>
+<a href="http://adis.springer.com/">AdisInsight</a>
+</li>
+</ul>
+</div>
+<div class="block" role="navigation">
+<h2>Help &amp; Contacts</h2>
+<ul>
+<li>
+<a class="contact-us-link" href="/contactus" title="Contact us">Contact Us</a>
+</li>
+<li>
+<a class="impressum-link" href="/impressum" title="View Impressum">Impressum</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="footer-legal" role="contentinfo">
+<div id="mobile-nav">
+<span class="pillow-btn open-legal" title="Show Legal Information">Legal</span>
+</div>
+<div id="legal" role="contentinfo">
+<span id="footer-copyright">© Springer International Publishing AG, Part of Springer Science+Business Media</span>
+<a href="/termsandconditions" id="footer-privacy" title="View Terms and Conditions">Privacy Policy, Disclaimer, General Terms &amp; Conditions</a>
+<div id="diagnostic-info">
+<span id="diagnostic-login-status">Not logged in</span>
+<span class="diagnostic-business-partners">Unaffiliated</span>
+<span id="diagnostic-ip">68.199.5.51</span>
+</div>
+</div>
+</div>
+<div class="section" id="footer-branding">
+<div class="block">
+<span id="branding-logo">Springer for Research &amp; Development</span>
+</div>
+</div>
+<div id="google-analytics-account" style="display: none">UA-26408784-1</div>
+</div>
+<div class="banner-advert" id="doubleclick-ad">
+<script type="text/javascript">if ( window.outerWidth || document.body.clientWidth > 1100 ) { googletag.cmd.push(function() { googletag.display('doubleclick-ad'); }); };</script>
+</div>
+</div>
+<noscript>
+<div class="prompt-bar" id="jsnotice">
+<p>
+      JavaScript is currently disabled<span>, this site works much better if you enable JavaScript in your browser.</span>
+</p>
+</div>
+</noscript>
+<link href="/static/201607251336-25/css/print.css" media="print" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet" type="text/css"/>
+<script src="/static/js/webtrekk/webtrekk_v3.js"></script>
+<script id="webtrekk-properties" type="text/javascript">
+    var webtrekkProperties = {
+      trackDomain : "springergmbh01.webtrekk.net",
+      trackId : "935649882378213",
+      pageType : "rd_springer_com.book.chapter_abstract"
+      };
+  </script>
+<noscript>
+<div id="webtrekk"><img alt="" height="1" src="http://springergmbh01.webtrekk.net/935649882378213/wt?p=315,rd_springer_com.book.chapter_abstract" width="1"/></div>
+</noscript>
+<script id="google-analytics" type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26408784-1', 'auto');
+    ga('create', 'UA-26408784-4', 'auto', {'name': 'unsiloTracker'});
+    ga('set', 'dimension2', 'N');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+  </script>
+<script src="/static/js/lib/jquery-ui.min.js"></script>
+<script src="/static/js/lib/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript">
+  var vgWortProperties = {
+  vgWortDomain: 'springer.met.vgwort.de'
+  };
+</script>
+<script src="/static/201607251336-25/js/all.js"></script>
+<script src="/static/201607251336-25/js/internal/mathJaxConfig.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full.js"></script>
+<script src="/static/201607251336-25/js/internal/mathJaxHooks.js?tet=ete"></script>
+<!--[if !(IE 8)]><!-->
+<script src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js" type="text/javascript"></script>
+<script type="text/javascript">
+                FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=SpringerLink+Support+%26+Feedback&submitThanks=Thank+you+for+your+submission.%0D%0AYou+will+receive+confirmation+of+receipt+shortly+and+a+response+within+one+business+day.++%0D%0APlease+close+this+window+to+continue+browsing+or+use+the+%22Go+back%22+link+below+to+submit+another+request.&captcha=yes", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Support", "buttonColor": "white", "buttonBg": "#087be7", "alignment": "4", "offset": "235px", "submitThanks": "Thank you for your submission.\r\nYou will receive confirmation of receipt shortly and a response within one business day.  \r\nPlease close this window to continue browsing or use the \"Go back\" link below to submit another request.", "formHeight": "600px", "offset": "-1500px", "captcha": "yes", "url": "https://springeronlineservice.freshdesk.com"} );
+            </script>
+<!--<![endif]-->
+<button class="StickySideButton_left StickySideButton_left--feedback" onclick="FreshWidget.show();">Support</button>
+<script type="text/javascript">var _kiq = _kiq || [];</script>
+<script async="true" src="//s3.amazonaws.com/ki.js/47412/9CC.js" type="text/javascript"></script>
+</body>
+</html>
+

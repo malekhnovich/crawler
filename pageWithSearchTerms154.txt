@@ -1,0 +1,897 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Talk:Software_design_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Talk:Software design pattern - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Talk","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":1,"wgPageName":"Talk:Software_design_pattern","wgTitle":"Software design pattern","wgCurRevisionId":709188627,"wgRevisionId":709188627,"wgArticleId":438152,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Start-Class Computing articles","High-importance Computing articles","All Computing articles","Start-Class Computer science articles","High-importance Computer science articles","WikiProject Computer science articles"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Talk:Software_design_pattern","wgRelevantArticleId":438152,"wgRequestId":"V-ECmQpAICsAAGptkyYAAAAJ","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","ext.cite.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.inputBox.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%2Ccheckbox%2Cinput%7Cskins.vector.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" rel="alternate" title="Wikipedia Atom feed" type="application/atom+xml"/>
+<link href="https://en.wikipedia.org/wiki/Talk:Software_design_pattern" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-1 ns-talk page-Talk_Software_design_pattern rootpage-Talk_Software_design_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Talk:Software design pattern</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="tmbox tmbox-notice collapsible innercollapse wpb" style="height:0;">
+<tr class="wpb-header">
+<td style="text-align:right; padding:0.3em 1em 0.3em 0.3em; width:50%; font-weight:bold;"><a href="/wiki/Wikipedia:WikiProject_Computing" title="Wikipedia:WikiProject Computing">WikiProject Computing</a></td>
+<th style="text-align:left; width:50%; padding:0.3em 0.3em 0.3em 0;">(Rated Start-class, High-importance)</th>
+<td class="mbox-empty-cell"><span class="metadata" style="display:none; speak:none;"><span class="wpb-project">Computing</span><span class="wpb-project_link">Wikipedia:WikiProject Computing</span><span class="wpb-banner_name">Template:WikiProject Computing</span><span class="wpb-assessment_cat">Computing articles</span></span></td>
+</tr>
+<tr>
+<td class="mbox-text" colspan="2" style="padding:3px 0 3px 5px;">
+<table style="background:transparent; border:none; padding:0; width:100%; border-spacing:0;">
+<tr>
+<td class="mbox-image" style="padding:2px 0;"><a class="image" href="/wiki/File:Crystal_kcontrol.svg"><img alt="WikiProject icon" data-file-height="128" data-file-width="128" height="70" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Crystal_kcontrol.svg/70px-Crystal_kcontrol.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Crystal_kcontrol.svg/105px-Crystal_kcontrol.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Crystal_kcontrol.svg/140px-Crystal_kcontrol.svg.png 2x" width="70"/></a></td>
+<td class="mbox-text">
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><img alt="" class="noviewer" data-file-height="203" data-file-width="281" height="23" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/48px-Desktop_computer_clipart_-_Yellow_theme.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/64px-Desktop_computer_clipart_-_Yellow_theme.svg.png 2x" width="32"/></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:Information_technology" title="Portal:Information technology">Information technology portal</a></span></li>
+</ul>
+</div>
+<div class="plainlinks hlist navbar mini" style="float:right; clear:right; margin:-1em 0.1em; display:none;">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:WikiProject_Computing" title="Template:WikiProject Computing"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:WikiProject_Computing" title="Template talk:WikiProject Computing"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:WikiProject_Computing&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+This article is within the scope of <b><a href="/wiki/Wikipedia:WikiProject_Computing" title="Wikipedia:WikiProject Computing">WikiProject Computing</a></b>, a collaborative effort to improve the coverage of <a href="/wiki/Computer" title="Computer">computers</a>, <a href="/wiki/Computing" title="Computing">computing</a>, and <a href="/wiki/Information_technology" title="Information technology">information technology</a> on Wikipedia. If you would like to participate, please visit the project page, where you can join the <a href="/wiki/Wikipedia_talk:WikiProject_Computing" title="Wikipedia talk:WikiProject Computing">discussion</a> and see a list of open tasks.</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+<tr>
+<td class="assess assess-start" style="text-align:center; white-space:nowrap; font-weight:bold; background: #ffaa66;"><span style="display:none;" title="Start-Class Article"><a class="image" href="/wiki/File:Symbol_start_class.svg" title="Start-Class article"><img alt="Start-Class article" data-file-height="185" data-file-width="180" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/16px-Symbol_start_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/24px-Symbol_start_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/32px-Symbol_start_class.svg.png 2x" width="16"/></a></span> <a href="/wiki/Category:Start-Class_Computing_articles" title="Category:Start-Class Computing articles">Start</a> </td>
+<td class="mbox-text" colspan="2">This article has been rated as <b>Start-Class</b> on the project's <a href="/wiki/Wikipedia:WikiProject_Computing/Assessment#Quality_scale" title="Wikipedia:WikiProject Computing/Assessment">quality scale</a>.</td>
+</tr>
+<tr>
+<td class="import import-high" style="text-align:center; white-space:nowrap; font-weight:bold; background: #ff88ff;"> <a href="/wiki/Category:High-importance_Computing_articles" title="Category:High-importance Computing articles">High</a> </td>
+<td class="mbox-text" colspan="2">This article has been rated as <b>High-importance</b> on the project's <a href="/wiki/Wikipedia:WikiProject_Computing/Assessment#Importance_scale" title="Wikipedia:WikiProject Computing/Assessment">importance scale</a>.</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0;">
+<table style="width:100%; background:transparent;">
+<tr>
+<td class="mbox-image" style="padding:2px 0 0 0; min-width:70px;"><span style="display:none;"> </span></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+</table>
+<table class="tmbox tmbox-notice collapsible innercollapse wpb" style="height:0;">
+<tr class="wpb-header">
+<td style="text-align:right; padding:0.3em 1em 0.3em 0.3em; width:50%; font-weight:bold;"><a href="/wiki/Wikipedia:WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">WikiProject Computer science</a></td>
+<th style="text-align:left; width:50%; padding:0.3em 0.3em 0.3em 0;">(Rated Start-class, High-importance)</th>
+<td class="mbox-empty-cell"><span class="metadata" style="display:none; speak:none;"><span class="wpb-project">Computer science</span><span class="wpb-project_link">Wikipedia:WikiProject Computer science</span><span class="wpb-banner_name">Template:WikiProject Computer science</span><span class="wpb-assessment_cat">Computer science articles</span></span></td>
+</tr>
+<tr>
+<td class="mbox-text" colspan="2" style="padding:3px 0 3px 5px;">
+<table style="background:transparent; border:none; padding:0; width:100%; border-spacing:0;">
+<tr>
+<td class="mbox-image" style="padding:2px 0;"><a class="image" href="/wiki/File:LampFlowchart.svg"><img alt="WikiProject icon" data-file-height="442" data-file-width="324" height="109" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/80px-LampFlowchart.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/120px-LampFlowchart.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/160px-LampFlowchart.svg.png 2x" width="80"/></a></td>
+<td class="mbox-text">
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:Internet_map_1024.jpg"><img alt="icon" class="noviewer" data-file-height="1280" data-file-width="1280" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/42px-Internet_map_1024.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/56px-Internet_map_1024.jpg 2x" width="28"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:Computer_science" title="Portal:Computer science">Computer science portal</a></span></li>
+</ul>
+</div>
+<div class="plainlinks hlist navbar mini" style="float:right; clear:right; margin:-1em 0.1em; display:none;">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:WikiProject_Computer_science" title="Template:WikiProject Computer science"><abbr title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:WikiProject_Computer_science" title="Template talk:WikiProject Computer science"><abbr title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:WikiProject_Computer_science&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+This article is within the scope of <b><a href="/wiki/Wikipedia:WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">WikiProject Computer science</a></b>, a collaborative effort to improve the coverage of <a href="/wiki/Computer_science" title="Computer science">Computer science</a> related articles on Wikipedia. If you would like to participate, please visit the project page, where you can join the <a href="/wiki/Wikipedia_talk:WikiProject_Computer_science" title="Wikipedia talk:WikiProject Computer science">discussion</a> and see a list of open tasks.</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+<tr>
+<td class="assess assess-start" style="text-align:center; white-space:nowrap; font-weight:bold; background: #ffaa66;"><span style="display:none;" title="Start-Class Article"><a class="image" href="/wiki/File:Symbol_start_class.svg" title="Start-Class article"><img alt="Start-Class article" data-file-height="185" data-file-width="180" height="16" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/16px-Symbol_start_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/24px-Symbol_start_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Symbol_start_class.svg/32px-Symbol_start_class.svg.png 2x" width="16"/></a></span> <a href="/wiki/Category:Start-Class_Computer_science_articles" title="Category:Start-Class Computer science articles">Start</a> </td>
+<td class="mbox-text" colspan="2">This article has been rated as <b>Start-Class</b> on the project's <a href="/wiki/Wikipedia:WikiProject_Computer_science/Assessment#Quality_scale" title="Wikipedia:WikiProject Computer science/Assessment">quality scale</a>.</td>
+</tr>
+<tr>
+<td class="import import-high" style="text-align:center; white-space:nowrap; font-weight:bold; background: #ff88ff;"> <a href="/wiki/Category:High-importance_Computer_science_articles" title="Category:High-importance Computer science articles">High</a> </td>
+<td class="mbox-text" colspan="2">This article has been rated as <b>High-importance</b> on the project's <a href="/wiki/Wikipedia:WikiProject_Computer_science/Assessment#Importance_scale" title="Wikipedia:WikiProject Computer science/Assessment">importance scale</a>.</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0;">
+<table style="width:100%; background:transparent;">
+<tr>
+<td class="mbox-image" style="padding:2px 0 0 0; min-width:80px;"><span style="display:none;"> </span></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0;">
+<table class="collapsible collapsed" style="background:transparent" width="100%">
+<tr>
+<th style="text-align:left; padding:0.2em 2px 0.2em 0;">Things you can help <a href="/wiki/Wikipedia:WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">WikiProject Computer science</a> with:</th>
+</tr>
+<tr>
+<td style="text-align:left; padding:0px; background-color:white; border:1px solid #c0c090; padding:5px; margin-top:5px;">
+<table style="background:none;width:auto;">
+<tr>
+<td style="vertical-align:top;"><a class="image" href="/wiki/File:Nuvola_apps_korganizer.svg"><img alt="" data-file-height="128" data-file-width="128" height="50" src="//upload.wikimedia.org/wikipedia/en/thumb/e/e6/Nuvola_apps_korganizer.svg/50px-Nuvola_apps_korganizer.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/e/e6/Nuvola_apps_korganizer.svg/75px-Nuvola_apps_korganizer.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/e/e6/Nuvola_apps_korganizer.svg/100px-Nuvola_apps_korganizer.svg.png 2x" width="50"/></a><br/>
+<div style="width: 55px; height: 0px;"></div>
+</td>
+<td>
+<div style="position: relative; left: 0px; margin-right: 0px; z-index: 15;">Here are some <b><a href="/wiki/Wikipedia:Community_portal/Opentask" title="Wikipedia:Community portal/Opentask">tasks awaiting attention</a>:</b>
+<ul style="font-size: 100%; margin: 0px; padding: 0.3em 0px 0.3em 25px;">
+<li><b><i><a href="/wiki/Wikipedia:Requested_articles" title="Wikipedia:Requested articles">Article requests</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Wikipedia:Requested_articles/Applied_arts_and_sciences/Computer_science,_computing,_and_Internet" title="Wikipedia:Requested articles/Applied arts and sciences/Computer science, computing, and Internet">Requested articles/Applied arts and sciences/Computer science, computing, and Internet</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a href="/wiki/Wikipedia:Cleanup" title="Wikipedia:Cleanup">Cleanup</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Category:Computer_science_articles_needing_attention" title="Category:Computer science articles needing attention">Computer science articles needing attention</a></li>
+<li><a href="/wiki/Category:Computer_science_articles_needing_expert_attention" title="Category:Computer science articles needing expert attention">Computer science articles needing expert attention</a></li>
+<li><b><i><a class="mw-redirect" href="/wiki/Wikipedia:How_to_copy-edit" title="Wikipedia:How to copy-edit">Copyedit</a></i> :</b></li>
+<li><a href="/wiki/Computing" title="Computing">Computing</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a href="/wiki/Wikipedia:Writing_better_articles" title="Wikipedia:Writing better articles">Expand</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a class="mw-redirect" href="/wiki/Wikipedia:Manual_of_Style_(infoboxes)" title="Wikipedia:Manual of Style (infoboxes)">Infobox</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Category:Computer_science_articles_without_infoboxes" title="Category:Computer science articles without infoboxes">Computer science articles without infoboxes</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a href="/wiki/Wikipedia:Maintenance" title="Wikipedia:Maintenance">Maintain</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Portal:Computer_science" title="Portal:Computer science">Portal:Computer science</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a href="/wiki/Wikipedia:Requested_pictures" title="Wikipedia:Requested pictures">Photo</a></i> :</b>
+<div>
+<ul>
+<li>Find pictures for the biographies of computer scientists (see <a href="/wiki/Academic_genealogy_of_computer_scientists" title="Academic genealogy of computer scientists">Academic genealogy of computer scientists</a>)</li>
+<li><a href="/wiki/Category:Computing_articles_needing_images" title="Category:Computing articles needing images">Computing articles needing images</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a href="/wiki/Wikipedia:Stub" title="Wikipedia:Stub">Stubs</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Category:Computer_science_stubs" title="Category:Computer science stubs">Computer science stubs</a></li>
+</ul>
+</div>
+</li>
+<li><b><i><a class="mw-redirect" href="/wiki/Wikipedia:Unreferenced" title="Wikipedia:Unreferenced">Unreferenced</a></i> :</b>
+<div>
+<ul>
+<li><a href="/wiki/Wikipedia:WikiProject_Computer_science/Unreferenced_BLPs" title="Wikipedia:WikiProject Computer science/Unreferenced BLPs">WikiProject Computer science/Unreferenced BLPs</a></li>
+</ul>
+</div>
+</li>
+<li><b><i>Project-related</i> :</b>
+<div>
+<ul>
+<li>Tag all relevant articles in <a href="/wiki/Category:Computer_science" title="Category:Computer science">Category:Computer science</a> and sub-categories with {{<a href="/wiki/Template:WikiProject_Computer_science" title="Template:WikiProject Computer science">WikiProject Computer science</a>}}</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+</table>
+<table class="tmbox tmbox-notice mbox-small" id="archivebox" role="presentation" style="text-align: center;">
+<tr>
+<th><img alt="" data-file-height="200" data-file-width="200" height="40" src="//upload.wikimedia.org/wikipedia/en/thumb/2/2a/Replacement_filing_cabinet.svg/40px-Replacement_filing_cabinet.svg.png" srcset="//upload.wikimedia.org/wikipedia/en/thumb/2/2a/Replacement_filing_cabinet.svg/60px-Replacement_filing_cabinet.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/2/2a/Replacement_filing_cabinet.svg/80px-Replacement_filing_cabinet.svg.png 2x" width="40"/><br/>
+Archives</th>
+</tr>
+<tr>
+<td style="text-align:left;">
+<div style="text-align:center;"><a href="/wiki/Talk:Software_design_pattern/Archive_1" title="Talk:Software design pattern/Archive 1">1</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="mw-inputbox-centered" style="">
+<form action="/wiki/Special:Search" class="searchbox" id="searchbox" name="searchbox">
+<p><input class="searchboxInput mw-ui-input mw-ui-input-inline" dir="ltr" name="search" placeholder="" size="22" type="text" value=""/><input name="prefix" type="hidden" value="Talk:Software design pattern/"/> <input class="mw-ui-button" name="fulltext" type="submit" value="Search"/><input name="fulltext" type="hidden" value="Search"/></p>
+</form>
+</div>
+</td>
+</tr>
+</table>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_title"><span class="tocnumber">1</span> <span class="toctext">The title</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Making_the_list_its_own_page"><span class="tocnumber">2</span> <span class="toctext">Making the list its own page</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Extraneous_examples"><span class="tocnumber">3</span> <span class="toctext">Extraneous examples</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Just_added_POSA2"><span class="tocnumber">4</span> <span class="toctext">Just added POSA2</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Fundamental_pattern_category"><span class="tocnumber">5</span> <span class="toctext">Fundamental pattern category</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Why_is_Factory_not_listed.3F"><span class="tocnumber">6</span> <span class="toctext">Why is Factory not listed?</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Should_Multiton_be_listed.3F"><span class="tocnumber">7</span> <span class="toctext">Should Multiton be listed?</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Enterprise_Integration_Patterns"><span class="tocnumber">8</span> <span class="toctext">Enterprise Integration Patterns</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Criticism_section"><span class="tocnumber">9</span> <span class="toctext">Criticism section</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Criticism"><span class="tocnumber">10</span> <span class="toctext">Criticism</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Workarounds_for_missing_language_features"><span class="tocnumber">10.1</span> <span class="toctext">Workarounds for missing language features</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Does_not_differ_significantly_from_other_abstractions"><span class="tocnumber">10.2</span> <span class="toctext">Does not differ significantly from other abstractions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Paragraph_sounds_like_an_ad"><span class="tocnumber">11</span> <span class="toctext">Paragraph sounds like an ad</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#New_list_appearance"><span class="tocnumber">12</span> <span class="toctext">New list appearance</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Pattern_List"><span class="tocnumber">13</span> <span class="toctext">Pattern List</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Criticism_-_Newness"><span class="tocnumber">14</span> <span class="toctext">Criticism - Newness</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#What_about_Asynchronous_Completion_Token_.28ACT.29.3F"><span class="tocnumber">15</span> <span class="toctext">What about Asynchronous Completion Token (ACT)?</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Why_RAII_included_in_Design_Pattern.3F"><span class="tocnumber">16</span> <span class="toctext">Why RAII included in Design Pattern?</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#design_patterns_vs_algorithms"><span class="tocnumber">17</span> <span class="toctext">design patterns <i>vs</i> algorithms</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Creating_a_new_category"><span class="tocnumber">18</span> <span class="toctext">Creating a new category</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#See_Also_section"><span class="tocnumber">19</span> <span class="toctext">See Also section</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#delete"><span class="tocnumber">20</span> <span class="toctext">delete</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#.22_types_of_design_patterns.22_vs_.22classification.22"><span class="tocnumber">21</span> <span class="toctext">" types of design patterns" vs "classification"</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#In_Design_Patterns.2FCode_Complete_-_WTF"><span class="tocnumber">22</span> <span class="toctext">In Design Patterns/Code Complete - WTF</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Proactor"><span class="tocnumber">23</span> <span class="toctext">Proactor</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#delegation_pattern"><span class="tocnumber">24</span> <span class="toctext">delegation pattern</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#External_links_moved_to_talk"><span class="tocnumber">25</span> <span class="toctext">External links moved to talk</span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#External_link_to_w3sdesign.com"><span class="tocnumber">26</span> <span class="toctext">External link to w3sdesign.com</span></a></li>
+<li class="toclevel-1 tocsection-29"><a href="#Languish.3F"><span class="tocnumber">27</span> <span class="toctext">Languish?</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="#IVSR"><span class="tocnumber">28</span> <span class="toctext">IVSR</span></a></li>
+<li class="toclevel-1 tocsection-31"><a href="#History"><span class="tocnumber">29</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-32"><a href="#Definition"><span class="tocnumber">30</span> <span class="toctext">Definition</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="The_title">The title</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=1" title="Edit section: The title">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As stated in the first paragraph, <i>design pattern</i> is more <i>software engineering</i> artifact than <i>computer science</i>. Or choose the third option: <i>computation</i>. <small><span class="autosigned">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a class="new" href="/w/index.php?title=User:Kejia&amp;action=edit&amp;redlink=1" title="User:Kejia (page does not exist)">Kejia</a> (<a href="/wiki/User_talk:Kejia" title="User talk:Kejia">talk</a> • <a href="/wiki/Special:Contributions/Kejia" title="Special:Contributions/Kejia">contribs</a>) 18:16, 12 December 2010 (UTC)</span></small></p>
+<h2><span class="mw-headline" id="Making_the_list_its_own_page">Making the list its own page</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=2" title="Edit section: Making the list its own page">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Maybe in the next couple of days unless someone reasonably disagrees. --<a href="/wiki/User:Daydreamer302000" title="User:Daydreamer302000">Daydreamer302000</a> (<a href="/wiki/User_talk:Daydreamer302000" title="User talk:Daydreamer302000">talk</a>) 11:29, 8 June 2009 (UTC)</p>
+<p>I think Design Patterns should include examples of all language, which is very useful in order to understand the pattern.<small><span class="autosigned">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a class="new" href="/w/index.php?title=User:207.46.92.16&amp;action=edit&amp;redlink=1" title="User:207.46.92.16 (page does not exist)">207.46.92.16</a> (<a class="new" href="/w/index.php?title=User_talk:207.46.92.16&amp;action=edit&amp;redlink=1" title="User talk:207.46.92.16 (page does not exist)">talk</a> • <a href="/wiki/Special:Contributions/207.46.92.16" title="Special:Contributions/207.46.92.16">contribs</a>) 02:19, 10 June 2009</span></small></p>
+<h2><span class="mw-headline" id="Extraneous_examples">Extraneous examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=3" title="Edit section: Extraneous examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The many pages for specific Design Patterns have a chronic excess of examples. Many pages are more than 80% example; at least <a href="/wiki/Singleton_pattern" title="Singleton pattern">one pattern</a> has examples in 13 languages with a total of 16 examples! While some examples are different in important ways between families of languages (such as strongly-typed versus dynamically-typed), I have a strong feeling that language advocates are adding me-too examples that detract from explaining the particular pattern. I think Java is probably the best example language for OO design patterns since Java examples won't be cluttered with memory-management code but are strongly typed, so it is clear what inherits what. Full disclosure: My own personal languages of choice are C++ and Python and I am not too familiar with Java. I've changed a few <i>algorithm</i> examples from pseudocode to Python when a working Python example could be almost as easy to understand as pseudocode. However, for OO design patterns, I really think a widely-used strongly-typed garbage-collected language is most appropriate, and that leaves me with Java.</p>
+<p>If people feel strongly about having examples in every possible language, I would argue that the examples should be forked off onto separate pages or moved to wikibooks. But certainly 16 examples in 13 languages is not the best way to describe the <a href="/wiki/Singleton_pattern" title="Singleton pattern">singleton pattern</a>. <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 13:47, 8 April 2009 (UTC)</p>
+<dl>
+<dd>I agree with you. Feel free to remove examples that do not add to the explanation of the pattern. --<a href="/wiki/User:Antonielly" title="User:Antonielly">Antonielly</a> (<a href="/wiki/User_talk:Antonielly" title="User talk:Antonielly">talk</a>) 13:53, 8 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>say hello to the world <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/61.4.76.7" title="Special:Contributions/61.4.76.7">61.4.76.7</a> (<a class="new" href="/w/index.php?title=User_talk:61.4.76.7&amp;action=edit&amp;redlink=1" title="User talk:61.4.76.7 (page does not exist)">talk</a>) 03:37, 29 October 2014 (UTC)</span></dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>I went ahead and was bold, linking all edits back to this discussion. I'm sure I pissed off a few people, but this really had to be done. I left one example as PHP5 because it was the only concise example. I erased hours and hours of work. Again, if people want to dig it back out, wikibooks is probably a good place for it. Wikipedia should be the tip of the iceburg and shouldn't dwell on language-specifics on these topics unless the specifics are very relevant to the patterns. There are still some pages with long lists of links to implementations in various languages. <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 00:11, 9 April 2009 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>I also agree, so many code examples added nothing. Also, this is coherent with <a class="mw-redirect" href="/wiki/Wikipedia:NOTHOWTO" title="Wikipedia:NOTHOWTO">Wikipedia is not a How-to guide</a> policy. --<a href="/wiki/User:Enric_Naval" title="User:Enric Naval">Enric Naval</a> (<a href="/wiki/User_talk:Enric_Naval" title="User talk:Enric Naval">talk</a>) 03:45, 9 April 2009 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>I just noticed that this has apparently pissed off at least one unregistered user. It wasn't me, but I agree that we should create a place for it withough bombing all that content out of existence. Thanks. <a href="/wiki/Special:Contributions/122.29.47.35" title="Special:Contributions/122.29.47.35">122.29.47.35</a> (<a class="new" href="/w/index.php?title=User_talk:122.29.47.35&amp;action=edit&amp;redlink=1" title="User talk:122.29.47.35 (page does not exist)">talk</a>) 11:07, 13 April 2009 (UTC) Sorry, I was referring to the Singleton article specifically, but yeah, it applies to all I guess. <a href="/wiki/Special:Contributions/122.29.47.35" title="Special:Contributions/122.29.47.35">122.29.47.35</a> (<a class="new" href="/w/index.php?title=User_talk:122.29.47.35&amp;action=edit&amp;redlink=1" title="User talk:122.29.47.35 (page does not exist)">talk</a>) 11:08, 13 April 2009 (UTC)</p>
+<dl>
+<dd>That would be <a class="new" href="/w/index.php?title=User:61.115.196.46&amp;action=edit&amp;redlink=1" title="User:61.115.196.46 (page does not exist)">61.115.196.46</a>, whose <a class="external text" href="http://en.wikipedia.org/w/index.php?title=Singleton_pattern&amp;diff=283527458&amp;oldid=282764801">reversion</a> carries the comment "<i>There was an idiot who removed the examples for all languages other than Java. I had depended on this to create singleton for my projects and only to find they were deleted by one idiot.</i>". But it doesn't change the fact that Wikipedia is not a programming textbook. The purpose of these articles should be to explain what design patterns are in general and to explain the specific patterns in general terms, not to provide libraries of source code for cut and paste usage. I have undone their reversion. <a href="/wiki/User:RossPatterson" title="User:RossPatterson">RossPatterson</a> (<a href="/wiki/User_talk:RossPatterson" title="User talk:RossPatterson">talk</a>) 11:31, 13 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>Seriously. If someone depended upon the examples for their project, they certainly would have understood the Java version and applied it in the language of choice. Unless 61.115.196.46 is just copy/pasting from Wikipedia instead of programming ;-) <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 11:35, 13 April 2009 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>Be bold and move them to Wikibooks! If you do, add links to them <a class="external text" href="http://en.wikibooks.org/wiki/Computer_Science/Design_Patterns">here</a>. <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 11:35, 13 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>If you wanted to be bold enough to delete all the examples, you should have also moved them to wiki books. I understand your motivation, but you shouldn't do the destructive work without doing the constructive work in turn. <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/192.35.35.34" title="Special:Contributions/192.35.35.34">192.35.35.34</a> (<a href="/wiki/User_talk:192.35.35.34" title="User talk:192.35.35.34">talk</a>) 23:59, 12 August 2011 (UTC)</span></dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>I'm user <a class="new" href="/w/index.php?title=User:201.253.239.87&amp;action=edit&amp;redlink=1" title="User:201.253.239.87 (page does not exist)">201.253.239.87</a> now(dynamic IP), I've undone BenFrantzDale's Visitor Pattern revision (Reason: "One is not enough for me (but shorter/minimalistic exampleS would be)" in response to BenFrantzDale's "Removed C++ and D examples. One is enough." and later I found this discussion. I think examples implemented in a language are good for learning, both the language(it shows features about it) and the pattern. I think the examples should have been moved elsewhere(eg. wikibooks) and linked to before removal. <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">undated</a> comment added 05:28, 15 April 2009 (UTC).</span></dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>I agree wikibooks is probably the best place for these. Knowing the pattern quite well I can't really see any difference between the examples, each has CarElementVisitor and CarElement interfaces/structs and a few classes implementing these. The rest is just baggage which obscure the pattern. I've now copied the examples to wikibooks at <a class="external autonumber" href="http://en.wikibooks.org/wiki/Computer_Science/Design_Patterns/Visitor">[1]</a>. --<a href="/wiki/User:Salix_alba" title="User:Salix alba">Salix</a> (<a href="/wiki/User_talk:Salix_alba" title="User talk:Salix alba">talk</a>): 09:05, 15 April 2009 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Great, thanks! That seems like it should keep everyone happy and avoid discarding peoples' hard work. <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 13:21, 15 April 2009 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>On the <a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor pattern</a> page, i have <a class="external text" href="http://en.wikipedia.org/w/index.php?title=Visitor_pattern&amp;diff=prev&amp;oldid=284057647">moved</a> the wikibooks template to the example section, and changed its text to more clearly indicate that there are more examples there. Is it okay to have all the affected pages edited in a similar way? -- <a href="/wiki/User:Jokes_Free4Me" title="User:Jokes Free4Me">Jokes Free4Me</a> (<a href="/wiki/User_talk:Jokes_Free4Me" title="User talk:Jokes Free4Me">talk</a>) 19:53, 15 April 2009 (UTC)</p>
+<dl>
+<dd>Yes, I'd say so. That looks pretty good to me. <a href="/wiki/User:RossPatterson" title="User:RossPatterson">RossPatterson</a> (<a href="/wiki/User_talk:RossPatterson" title="User talk:RossPatterson">talk</a>) 22:38, 15 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>Looks good. I just rephrased the link to say "Visitor implementations in various languages" which reads better to my eyes. I started the same for Singleton, moving <a class="external text" href="http://en.wikibooks.org/wiki/Computer_Science/Design_Patterns/Singleton">all examples I erased earlier</a>. Great progress! <a href="/wiki/User:BenFrantzDale" title="User:BenFrantzDale">—Ben FrantzDale</a> (<a href="/wiki/User_talk:BenFrantzDale" title="User talk:BenFrantzDale">talk</a>) 00:47, 16 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>Can some wise mind add well documented critisms? <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/192.193.221.141" title="Special:Contributions/192.193.221.141">192.193.221.141</a> (<a href="/wiki/User_talk:192.193.221.141" title="User talk:192.193.221.141">talk</a>) 14:59, 29 April 2009 (UTC)</span></dd>
+</dl>
+<dl>
+<dd>Adding link to wikibooks on <a href="/wiki/Observer_pattern" title="Observer pattern">Observer pattern</a> page <small><span class="autosigned">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a class="new" href="/w/index.php?title=User:Ariadie&amp;action=edit&amp;redlink=1" title="User:Ariadie (page does not exist)">Ariadie</a> (<a href="/wiki/User_talk:Ariadie" title="User talk:Ariadie">talk</a> • <a href="/wiki/Special:Contributions/Ariadie" title="Special:Contributions/Ariadie">contribs</a>) 08:49, 12 May 2009 (UTC)</span></small></dd>
+</dl>
+<h2><span class="mw-headline" id="Just_added_POSA2">Just added POSA2</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=4" title="Edit section: Just added POSA2">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Hi there, I just added</p>
+<p><cite class="citation book">D, Schmidt; M., Rohnert, H., Buschmann, F. (2000). <i>Pattern-Oriented Software Architecture, Volume 2: Patterns for Concurrent and Networked Objects</i>. John Wiley &amp; Sons. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-471-60695-2" title="Special:BookSources/0-471-60695-2">0-471-60695-2</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATalk%3ASoftware+design+pattern&amp;rft.aufirst=Schmidt&amp;rft.aulast=D&amp;rft.btitle=Pattern-Oriented+Software+Architecture%2C+Volume+2%3A+Patterns+for+Concurrent+and+Networked+Objects&amp;rft.date=2000&amp;rft.genre=book&amp;rft.isbn=0-471-60695-2&amp;rft.pub=John+Wiley+%26+Sons&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">Cite uses deprecated parameter <code style="color:inherit; border:inherit; padding:inherit;">|coauthors=</code> (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></p>
+<p>I believe many of the cuncurrent patterns in the table come from this book, it would be nice to add a column for that. Cheers. <a href="/wiki/Special:Contributions/122.29.47.35" title="Special:Contributions/122.29.47.35">122.29.47.35</a> (<a class="new" href="/w/index.php?title=User_talk:122.29.47.35&amp;action=edit&amp;redlink=1" title="User talk:122.29.47.35 (page does not exist)">talk</a>) 11:22, 13 April 2009 (UTC)</p>
+<dl>
+<dd>Done <a href="/wiki/Special:Contributions/123.224.241.172" title="Special:Contributions/123.224.241.172">123.224.241.172</a> (<a class="new" href="/w/index.php?title=User_talk:123.224.241.172&amp;action=edit&amp;redlink=1" title="User talk:123.224.241.172 (page does not exist)">talk</a>) 14:48, 25 April 2009 (UTC)</dd>
+</dl>
+<dl>
+<dd>Hmm, it would be better to have just POSA and then write e.g. "1" or "2" or "no" in the column. I just added MVC and according to Amazon book search, MVC is in POSA1. <a href="/wiki/User:Stachelfisch" title="User:Stachelfisch">Stachelfisch</a> (<a class="new" href="/w/index.php?title=User_talk:Stachelfisch&amp;action=edit&amp;redlink=1" title="User talk:Stachelfisch (page does not exist)">talk</a>) 20:46, 3 July 2009 (UTC)</dd>
+</dl>
+<h2><span class="mw-headline" id="Fundamental_pattern_category">Fundamental pattern category</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=5" title="Edit section: Fundamental pattern category">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I'm not sure about considering encapsulation, inheritance, and exceptions to be design patterns. Encapsulation and inheritance are general directions for structuring code more than they are patterns, re-usable elements of software. They are philosophies more than patterns or blueprints. Patterns (not limited to computer science) must be unanimously recognizable. For example, an architectural design's use of the golden ratio is non-disputable. I've never seen "fundamental patterns" used anywhere outside of that cited college lecture presentation and the book it cites, Barbara Liskov's "Program Development in Java". It strikes me that the author wished to coin a new term; perhaps someone who read it can provide another opinion. My [<a class="external text" href="http://www.google.com/webhp?hl=en&amp;btnG=Google+Search#hl=en&amp;q=%22fundamental+pattern%22&amp;btnG=Google+Search&amp;aq=f&amp;oq=%22fundamental+pattern%22&amp;aqi=&amp;fp=1mZ_-PL2Zjc%7CGoogle" rel="nofollow">query</a>] yielded few relevant results. Has the term 'fundamental pattern' gained community acceptance or popular usage? And if so, do—and why do—encapsulation and inheritance qualify? Any thoughts? Also, the page <a href="/wiki/Fundamental_pattern" title="Fundamental pattern">Fundamental pattern</a> lists <a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy pattern</a>, <a href="/wiki/Facade_pattern" title="Facade pattern">Facade pattern</a>, and <a href="/wiki/Composite_pattern" title="Composite pattern">Composite pattern</a>; all three of which are listed as structural patterns in <a class="mw-redirect" href="/wiki/Design_pattern_(computer_science)" title="Design pattern (computer science)">this page</a>; and it doesn't list inheritance or encapsulation. <a href="/wiki/User:Dmyersturnbull" title="User:Dmyersturnbull"> <font color="#005000">dm</font><font color="#555555">yers</font><font color="#005000">t</font><font color="#555555">urnbull</font> </a> ⇒ <a href="/wiki/User_talk:Dmyersturnbull" title="User talk:Dmyersturnbull">talk</a> 03:59, 4 June 2009 (UTC)</p>
+<dl>
+<dd>If there are no objections, I'll place the <i>neologism</i> template:</dd>
+<dd>
+<table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>may document a <a class="mw-redirect" href="/wiki/Wikipedia:NEO" title="Wikipedia:NEO">neologism</a> in such a manner as to promote it</b>. <span class="hide-when-compact">Please add <a class="mw-redirect" href="/wiki/Wikipedia:RS" title="Wikipedia:RS">more reliable sources</a> to establish its current use and the impact the term has had on its field. Otherwise consider <a href="/wiki/Wikipedia:Moving_a_page" title="Wikipedia:Moving a page">renaming</a> or deleting the article.</span> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+</dd>
+<dd>for the reason cited above. Also, if its contradiction to <a href="/wiki/Fundamental_pattern" title="Fundamental pattern">Fundamental pattern</a> is not resolved, I think adding contradict-other is warranted:</dd>
+<dd>
+<table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="Accuracy dispute" data-file-height="620" data-file-width="620" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ambox_contradict.svg/40px-Ambox_contradict.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ambox_contradict.svg/60px-Ambox_contradict.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ambox_contradict.svg/80px-Ambox_contradict.svg.png 2x" title="Accuracy dispute" width="40"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>appears to contradict the article [[<a href="/wiki/Fundamental_pattern" title="Fundamental pattern">Fundamental pattern</a>|<a href="/wiki/Fundamental_pattern" title="Fundamental pattern">Fundamental pattern</a>]]</b>. <span class="hide-when-compact">Please see discussion on the linked <strong class="selflink">talk page</strong>.</span> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+</dd>
+<dd><a href="/wiki/User:Dmyersturnbull" title="User:Dmyersturnbull"> <font color="#005000">dm</font><font color="#555555">yers</font><font color="#005000">t</font><font color="#555555">urnbull</font> </a> ⇒ <a href="/wiki/User_talk:Dmyersturnbull" title="User talk:Dmyersturnbull">talk</a> 06:58, 10 July 2009 (UTC)</dd>
+</dl>
+<p>I would remove everything referring to "fundamental patterns". They simply don't belong. "Design Patterns" (ISBN-10: 0201633612) is 15 years old and surely one of the seminal works. It's still in print. It catalogs ~15 patterns from factory to vistor. That's what the term normally encompasses and what wikipedia should document.</p>
+<p>How to distinguish between a pattern and something like inheritance? There's no direct support for a pattern in any language. That's *why* they're patterns: because many programmers, facing diverse problems in a variety of languages, hit upon similar ways -- patterns -- of addressing them.</p>
+<p>I disagree with the other cautionary note, though, that suggests criticism should be integrated into the document. The "other school of thought" should have its own section to allow main section to make its case.</p>
+<dl>
+<dd><a href="/wiki/User:Jklowden" title="User:Jklowden">jklowden</a> ⇒ <a href="/wiki/User_talk:Jklowden" title="User talk:Jklowden">talk</a> Tue Jul 14 21:36:24 EDT 2009 <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">undated</a> comment added 01:37, 15 July 2009 (UTC).</span></dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>There are source defining similar concepts. See chapter 2.3.1 of <i>Meta-Compilation for C++</i> <a class="external autonumber" href="http://www.computing.surrey.ac.uk/research/dsrg/fog/FogThesis.pdf" rel="nofollow">[2]</a> which also provide further references. I believe <a href="/wiki/User:Dmyersturnbull" title="User:Dmyersturnbull">dmyersturnbull</a> has many excellent points worth pursuing. As more people study a concept deeper understanding is found. Just because an seminal work refers to something doesn't mean a field can not progress beyond it. Other wise the argument would be mute as we would all program in <a href="/wiki/MIX" title="MIX">MIX</a>. <a href="/wiki/User:Bpringlemeir" title="User:Bpringlemeir">Bpringlemeir</a> (<a href="/wiki/User_talk:Bpringlemeir" title="User talk:Bpringlemeir">talk</a>) 01:41, 16 July 2010 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Err, I guess I don't agree with <a href="/wiki/User:Dmyersturnbull" title="User:Dmyersturnbull">dmyersturnbull</a> (and apparently I can not read). Anyways, the reference above is worth looking at if you are pursuing this. There is literature where people try to dissect the <i>universal</i> nature of a pattern. As with the multiple language example above, an excess of things named patterns can dilute as well. <a href="/wiki/User:Bpringlemeir" title="User:Bpringlemeir">Bpringlemeir</a> (<a href="/wiki/User_talk:Bpringlemeir" title="User talk:Bpringlemeir">talk</a>) 01:48, 16 July 2010 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>"Encapsulation and inheritance are general directions for structuring code..." In other words, patterns?! This looks like the very definition of a pattern! <a href="/wiki/User:GeneCallahan" title="User:GeneCallahan">GeneCallahan</a> (<a href="/wiki/User_talk:GeneCallahan" title="User talk:GeneCallahan">talk</a>) <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">undated</a> comment added 18:15, 23 December 2014 (UTC)</span></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<h2><span class="mw-headline" id="Why_is_Factory_not_listed.3F">Why is Factory not listed?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=6" title="Edit section: Why is Factory not listed?">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>It has its own page on wikipedia as being a creational pattern. <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/208.127.236.194" title="Special:Contributions/208.127.236.194">208.127.236.194</a> (<a href="/wiki/User_talk:208.127.236.194" title="User talk:208.127.236.194">talk</a>) 15:00, 14 August 2009 (UTC)</span></p>
+<dl>
+<dd>(Resolved, Factory method now listed)</dd>
+</dl>
+<h2><span class="mw-headline" id="Should_Multiton_be_listed.3F">Should Multiton be listed?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=7" title="Edit section: Should Multiton be listed?">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As noted on the Multiton "talk" page, Multiton seems to be interchangeable with the "Flyweight Pattern" - the code examples are interchangeable. It seems as if it's just an alternate name for the same pattern, put into a different category. <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/38.70.1.35" title="Special:Contributions/38.70.1.35">38.70.1.35</a> (<a class="new" href="/w/index.php?title=User_talk:38.70.1.35&amp;action=edit&amp;redlink=1" title="User talk:38.70.1.35 (page does not exist)">talk</a>) 04:20, 5 September 2012 (UTC)</span></p>
+<h2><span class="mw-headline" id="Enterprise_Integration_Patterns">Enterprise Integration Patterns</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=8" title="Edit section: Enterprise Integration Patterns">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>These patterns belong here and should also have their own page in wiki! What do you think? more here: <a class="external text" href="http://www.eaipatterns.com/toc.html%7CEnterprise" rel="nofollow">Integration Patterns</a></p>
+<dl>
+<dd><a href="/wiki/User:Azbarcea" title="User:Azbarcea">Azbarcea</a> ⇒ <a href="/wiki/User_talk:Azbarcea" title="User talk:Azbarcea">talk</a> Fri Jun 11 09:55:24 UTC 2010 <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">undated</a> comment added 08:56, 11 June 2010 (UTC).</span></dd>
+</dl>
+<h2><span class="mw-headline" id="Criticism_section">Criticism section</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=9" title="Edit section: Criticism section">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>An anon removed the cricicism section <a class="external autonumber" href="http://en.wikipedia.org/w/index.php?title=Design_pattern_(computer_science)&amp;curid=164952&amp;diff=394670144&amp;oldid=394432432">[3]</a> iwith the comment</p>
+<dl>
+<dd><i>(Moved valid information out of a criticisms section into the rest of the article. In the process, removed information that was the result of the writer's personal ignorance.)</i></dd>
+</dl>
+<p>The remove material is</p>
+<blockquote>
+<h2><span class="mw-headline" id="Criticism">Criticism</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=10" title="Edit section: Criticism">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="Unbalanced scales.svg" data-file-height="354" data-file-width="400" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/45px-Unbalanced_scales.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/68px-Unbalanced_scales.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Unbalanced_scales.svg/90px-Unbalanced_scales.svg.png 2x" width="45"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article's <i>Criticism</i> or <i>Controversy</i> section <b>may compromise the article's <a href="/wiki/Wikipedia:Neutral_point_of_view" title="Wikipedia:Neutral point of view">neutral point of view</a> of the subject</b>. <span class="hide-when-compact">Please <a href="/wiki/Wikipedia:Neutral_point_of_view#Article_structure" title="Wikipedia:Neutral point of view">integrate the section's contents</a> into the article as a whole, or rewrite the material.</span> <small><i>(August 2009)</i></small></span></td>
+</tr>
+</table>
+<p>In the field of computer science, there exist some criticisms regarding the concept of design patterns.</p>
+<h3><span class="mw-headline" id="Workarounds_for_missing_language_features">Workarounds for missing language features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=11" title="Edit section: Workarounds for missing language features">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Users of <a href="/wiki/Dynamic_programming_language" title="Dynamic programming language">dynamic programming languages</a> have discussed many design patterns as workarounds for the limitations of languages such as <a href="/wiki/C%2B%2B" title="C++">C++</a> and <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>.<sup class="reference" id="cite_ref-Norvig_1-0"><a href="#cite_note-Norvig-1">[1]</a></sup></p>
+<p>For instance, the <a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor pattern</a> need not be implemented in a language that supports <a class="mw-redirect" href="/wiki/Multimethods" title="Multimethods">multimethods</a>. The purpose of Visitor is to add new operations to existing classes without modifying those classes. In C++, a class is declared as a syntactic structure with a specific and closed set of methods. In a language with <a class="mw-redirect" href="/wiki/Multimethods" title="Multimethods">multimethods</a>, such as <a href="/wiki/Common_Lisp" title="Common Lisp">Common Lisp</a>, methods for a class are outside of the class structure, and one may add new methods without modifying it.</p>
+<p>Similarly, the <a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator pattern</a> amounts to implementing dynamic <a class="mw-redirect" href="/wiki/Delegation_(programming)" title="Delegation (programming)">delegation</a>, as found in Common Lisp, <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a>, <a href="/wiki/Self_(programming_language)" title="Self (programming language)">Self</a> and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>.</p>
+<p>Many patterns imply <a href="/wiki/Object-oriented_programming" title="Object-oriented programming">object-orientation</a> or more generally mutable state, and so are meaningless in <a href="/wiki/Functional_programming" title="Functional programming">functional programming</a> style, in which data is immutable or treated as such. For example, the <a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator pattern</a> is a generalisation of <a href="/wiki/For_loop" title="For loop">'for' loops</a>, an inherently <a href="/wiki/Procedural_programming" title="Procedural programming">imperative</a> notion.</p>
+<h3><span class="mw-headline" id="Does_not_differ_significantly_from_other_abstractions">Does not differ significantly from other abstractions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=12" title="Edit section: Does not differ significantly from other abstractions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Some authors <sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch"><span title="The material near this tag possibly uses too-vague attribution or weasel words. (March 2009)">who?</span></a></i>]</sup> allege that design patterns don't differ significantly from other forms of <a class="mw-redirect" href="/wiki/Abstraction_(computer_science)" title="Abstraction (computer science)">abstraction</a><sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (March 2007)">citation needed</span></a></i>]</sup>, and that the use of new terminology (borrowed from the <a href="/wiki/Software_architecture" title="Software architecture">architecture</a> community) to describe existing phenomena in the field of programming is unnecessary. The <a class="mw-redirect" href="/wiki/Model-View-Controller" title="Model-View-Controller">Model-View-Controller</a> paradigm is cited as an example of a "pattern" that predates the concept of "design patterns" by several years.<sup class="reference" id="cite_ref-Reenskaug_2-0"><a href="#cite_note-Reenskaug-2">[2]</a></sup> It is further argued by some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions" title="Wikipedia:Manual of Style/Words to watch"><span title="The material near this tag possibly uses too-vague attribution or weasel words. (March 2009)">who?</span></a></i>]</sup> that the primary contribution of the Design Patterns community (and the <a class="mw-redirect" href="/wiki/Design_Patterns_(book)" title="Design Patterns (book)">Gang of Four book</a>) was the use of Alexander's pattern language as a form of documentation; a practice that is often ignored in the literature. <sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2007)">citation needed</span></a></i>]</sup></p>
+</blockquote>
+<p>should any of this be restored?--<a href="/wiki/User:Salix_alba" title="User:Salix alba">Salix</a> (<a href="/wiki/User_talk:Salix_alba" title="User talk:Salix alba">talk</a>): 08:09, 4 November 2010 (UTC)</p>
+<dl>
+<dd>
+<dl>
+<dd>I'd say, go ahead and re-include this section. Perhaps it's not the best sourced right now, but there are pieces of criticism published out there; let's hope more links will be added soon enough. One thing comes to my mind, Paul Graham's
+<blockquote>
+<p>For example, in the OO world you hear a good deal about "patterns". I wonder if these patterns are not sometimes evidence of case (c), the human compiler, at work.</p>
+</blockquote>
+(from <a class="external free" href="http://www.paulgraham.com/icad.html" rel="nofollow">http://www.paulgraham.com/icad.html</a>); perhaps the discussion at <a class="external free" href="http://www.c2.com/cgi/wiki?AreDesignPatternsMissingLanguageFeatures" rel="nofollow">http://www.c2.com/cgi/wiki?AreDesignPatternsMissingLanguageFeatures</a> is a good start too. <a href="/wiki/User:Dexen" title="User:Dexen">Dexen</a> (<a href="/wiki/User_talk:Dexen" title="User talk:Dexen">talk</a>) 16:50, 19 November 2010 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>As it currently stands the criticism section is based on irgnorance; it criticises the 'concept' of patterns. That is like criticising the 'concept' of solutions or answers to questions or formula. (Software/Design/Architecture) Patterns are solutions documentation in relativity consistent way. Individual patterns may be 'poor' or 'wrong' but that makes them anti-patterns or poor solutions, it doesn't make the concept of patterns wrong, if anything it justifies them further. <a href="/wiki/User:MartinSpamer" title="User:MartinSpamer">MartinSpamer</a> (<a href="/wiki/User_talk:MartinSpamer" title="User talk:MartinSpamer">talk</a>) 07:22, 27 November 2011 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Your phrasing seems to conform to the criticism that "design patterns" are hardly new. "That is like criticising the 'concept' of solutions or answers to questions or formula.". What /isn't/ a solution or answer? (Software) engineers as I understand them apply knowledge to solve problems. It follows then there have always been "design patterns" as long as there have been (software) engineers, and thus "design patterns" existed long before the Gang of Four. But maybe you mean something more specific than just knowledge. But then again, maybe not. A solution, good or bad, addresses some problem. Documentation records this solution in a form that can be transmitted to someone else. A "relatively consistent way" could in the extreme mean totally consistent, like some kinds of logic, or something totally free-formed, like some kinds of art (and yes, people have been inspired to create and document a solution based on an encounter with art). If these are "(Software/Design/Architecture) Patterns", then I claim first you are correct that "it doesn't make the concept of patterns wrong", for how can a concept be wrong?, and second, that one part of the criticism section is actually valid because the concept /of a concept/ is hardly new (though for a twist, our /concept/ of a concept has changed over time). In other words, the concept of "design pattern" seems to me indistinguishable from "knowledge", and could thus be stated as: knowledge is documentation of solutions in a relativity consistent way, and pretty much state the same thing. It's quite telling that you put all the adjectives to "patterns" in brackets, suggesting you don't mean just software design patterns, but patterns in general.</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>(<a class="external text" href="http://www.c2.com/cgi/wiki?QualityWithoutaName" rel="nofollow">GeorgePaci</a> incidentally stated the same thing about another of Christopher Alexander's ideas, that "QWAN" was a replacement for "good" (… '"That design is good" and rewrites them as "That design has QWAN"'). The same thing here, where "design pattern" replaces "pattern" (or "concept")).</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>So that I'm not accused of something I didn't say, let me be clear that I too support the concept of documenting solutions in a relatively consistent way (and thus am against "inconsistency", meaning something like "undisciplined", or "ignores previous knowledge (re: patterns) without reason"). However, I don't think all this talk of design patterns has really added much, and perhaps nothing at all, compared to what we would have done had we not borrowed from Alexander's ideas. If he was the first architect to document (repeated) solutions, then good for him. If the Gang of Four was the first to document (software) engineers' knowledge, then good for them. Yet, I don't think that could be the case. That's not to say our ways of recording knowledge have never changed – they have. Rather, (design) patterns might better be thought of (and defined as, one step towards a good /concept/) as documentation to solutions in a /more/ consistent way, more consistent than whatever came before. On this view, a "design pattern" really just looks like a form of organized knowledge, as opposed to being scattered across a million brains and databases, much like Wikipedia is a form of organized knowledge compared to the millions of sources that is (supposedly) cites.</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>The bottom line is that I would drop all this design pattern talk because there already are burgeoning fields that talk about knowledge. For instance, cognitive scientists would talk about "mental representations", and could ask questions that design pattern people could not, like are some mental representations more "difficult" than others, such as, do they take up more processing time? This could then have relevance to software engineering because it could tell us, somewhat, if some "design patterns" give us more trouble than others). In other words, software design patterns (Gang of Four, Alexander's ideas, etc.) to me seem disconnected from the rest of our knowledge. This is a bad thing. If anything it justifies them less.</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>tl;dr: software design patterns have become indistinguishable from knowledge or concepts, and all talk of it can be done away with, but what it refers to cannot. <a href="/wiki/User:KaiSeun" title="User:KaiSeun">KaiSeun</a> (<a href="/wiki/User_talk:KaiSeun" title="User talk:KaiSeun">talk</a>) 07:25, 16 February 2012 (UTC)</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<h2><span class="mw-headline" id="Paragraph_sounds_like_an_ad">Paragraph sounds like an ad</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=13" title="Edit section: Paragraph sounds like an ad">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The final paragraph of the history section appears to be an advertisement for <i>SOA Design Patterns</i>. I'm not sure that this book even belongs on the page; it certainly doesn't deserve its own paragraph. <a href="/wiki/User:EvanKroske" title="User:EvanKroske">EvanKroske</a> (<a href="/wiki/User_talk:EvanKroske" title="User talk:EvanKroske">talk</a>) 01:49, 19 November 2010 (UTC)</p>
+<h2><span class="mw-headline" id="New_list_appearance">New list appearance</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=14" title="Edit section: New list appearance">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I just refactored the list to remove the gigantic red-block columns that were for books that don't even have a wiki page. One was PoEAA and that only had two patterns. The other was PoSA2, which only had concurrency patterns (and the first two columns had no concurrency patterns). I think what I implemented is the best solution for this, which is 1) to separate out the concurrency patterns into its own table with the primary column being PoSA2, and 2) adding an "Other" column, to list the two references to PoEAA as well as any other books that references that may come along for the patterns that currently have no references. I also changed the blank column cells in the "Other" column to the <a href="/wiki/Template:N/a" title="Template:N/a">n/a Template</a> to give a better overall appearance. I hope that these changes are helpful. -- <a href="/wiki/User:Renesis" title="User:Renesis">Renesis</a> (<a href="/wiki/User_talk:Renesis" title="User talk:Renesis">talk</a>) 23:11, 17 February 2011 (UTC)</p>
+<h2><span class="mw-headline" id="Pattern_List">Pattern List</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=15" title="Edit section: Pattern List">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Blackboard is not a design pattern but an communication strategy I suggest to remove this <span class="autosigned" style="font-size: smaller;">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/80.148.12.242" title="Special:Contributions/80.148.12.242">80.148.12.242</a> (<a class="new" href="/w/index.php?title=User_talk:80.148.12.242&amp;action=edit&amp;redlink=1" title="User talk:80.148.12.242 (page does not exist)">talk</a>) 09:28, 7 April 2011 (UTC)</span></p>
+<h2><span class="mw-headline" id="Criticism_-_Newness">Criticism - Newness</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=16" title="Edit section: Criticism - Newness">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I don't understand this criticism:</p>
+<blockquote>
+<p>The idea may not be as new as suggested by the authors: for instance the Model-View-Controller paradigm is an example of a "pattern" which predates the concept of "design patterns" by several years.</p>
+</blockquote>
+<p>As far as I know, none of the authors claim that they were the first to create the concept of design patterns. Rather, they claim to be the first to document it explicitly and create a lexicon to talk about them. A citation here would be very useful. —Preceding signed comment added by <a href="/wiki/Special:Contributions/67.248.242.179" title="Special:Contributions/67.248.242.179">67.248.242.179</a> (<a class="new" href="/w/index.php?title=User_talk:67.248.242.179&amp;action=edit&amp;redlink=1" title="User talk:67.248.242.179 (page does not exist)">talk</a>) 01:43, 20 April 2011 (UTC)</p>
+<p>Patterns are discovered not invented -- Christopher Alexander (Author "A pattern language" and originator of the idea of a pattern language) <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/92.40.253.45" title="Special:Contributions/92.40.253.45">92.40.253.45</a> (<a class="new" href="/w/index.php?title=User_talk:92.40.253.45&amp;action=edit&amp;redlink=1" title="User talk:92.40.253.45 (page does not exist)">talk</a>) 21:35, 31 October 2011 (UTC)</span></p>
+<h2><span class="mw-headline" id="What_about_Asynchronous_Completion_Token_.28ACT.29.3F">What about Asynchronous Completion Token (ACT)?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=17" title="Edit section: What about Asynchronous Completion Token (ACT)?">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I'm just learning this design pattern and I know nothing about it, but it seems to be a standard for handling things in Flex (or some client) that should be processed after completion of a server process.</p>
+<dl>
+<dd>"The Asynchronous Completion Token design pattern efficiently dispatches processing actions within a client in response to the</dd>
+</dl>
+<p>completion of asynchronous operations invoked by the client."</p>
+<ul>
+<li><a class="external free" href="http://livedocs.adobe.com/blazeds/1/blazeds_devguide/help.html?content=rpc_httpws_12.html" rel="nofollow">http://livedocs.adobe.com/blazeds/1/blazeds_devguide/help.html?content=rpc_httpws_12.html</a></li>
+<li><a class="external free" href="http://www1.cse.wustl.edu/~schmidt/PDF/ACT.pdf" rel="nofollow">http://www1.cse.wustl.edu/~schmidt/PDF/ACT.pdf</a> <small><span class="autosigned">—Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a class="mw-redirect" href="/wiki/User:Brilong87" title="User:Brilong87">Brilong87</a> (<a class="mw-redirect" href="/wiki/User_talk:Brilong87" title="User talk:Brilong87">talk</a> • <a href="/wiki/Special:Contributions/Brilong87" title="Special:Contributions/Brilong87">contribs</a>) 15:16, 6 May 2011 (UTC)</span></small></li>
+</ul>
+<h2><span class="mw-headline" id="Why_RAII_included_in_Design_Pattern.3F">Why RAII included in Design Pattern?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=18" title="Edit section: Why RAII included in Design Pattern?">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>After reading RAII, it doesn't look like an creational pattern. Can we remove/move it from creation pattern secion?</p>
+<dl>
+<dd>I support the removal. RAII is more exactly <a href="/wiki/Programming_idiom" title="Programming idiom">programming idiom</a>, not a design pattern.--<a href="/wiki/User:Demonkoryu" title="User:Demonkoryu">Demonkoryu</a> (<a href="/wiki/User_talk:Demonkoryu" title="User talk:Demonkoryu">talk</a>) 09:53, 8 August 2011 (UTC)</dd>
+</dl>
+<h2><span class="mw-headline" id="design_patterns_vs_algorithms">design patterns <i>vs</i> algorithms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=19" title="Edit section: design patterns vs algorithms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>If a design pattern is a "a general reusable <b>solution</b> to a commonly occurring problem", then in what way(s) does it differ from an algorithm? This article doesn't do much to explain exactly <i>what</i> a design pattern is. A simple example would be a good start. <a class="new" href="/w/index.php?title=User:WilliamSommerwerck&amp;action=edit&amp;redlink=1" title="User:WilliamSommerwerck (page does not exist)">WilliamSommerwerck</a> (<a href="/wiki/User_talk:WilliamSommerwerck" title="User talk:WilliamSommerwerck">talk</a>) 19:13, 7 September 2011 (UTC)</p>
+<dl>
+<dd>As a quick answer, I would say that design patterns differ from algorithm in that design patterns solve software engineering problems rather than computer science problems. That is, they are templates for managing complexity that arrives from interaction among software components. There are many ways to implement <a class="mw-redirect" href="/wiki/Depth_first_search" title="Depth first search">depth first search</a>, so even though the algorithm may be the same, on implementation may be far preferable from a software-design perspective in terms of software reusability, etc. That's a sketch of an answer, anyway. 20:38, 7 September 2011 (UTC)</dd>
+<dd>Looking up <a href="/wiki/Algorithm" title="Algorithm">algorithm</a>, it is described as "a finite list of well-defined instructions", I would say that is different enough. Unfortunately, design patterns are an advanced subject and this is partly why explaining them is so difficult. Typically, one or more design patterns may be used in an algorithm solution expressed in a particular computer language. Books are written on the subject.</dd>
+<dd>Like classic Chinese martial arts movies, one needs good <a href="/wiki/Kung_fu_(term)" title="Kung fu (term)">kung fu (term)</a>, not just basic knowledge of how to move your arms and legs. – <a href="/wiki/User:Rfrankla" title="User:Rfrankla">rfrankla</a> (<a href="/wiki/User_talk:Rfrankla" title="User talk:Rfrankla">talk</a>) 10:42, 21 April 2014 (UTC)</dd>
+</dl>
+<h2><span class="mw-headline" id="Creating_a_new_category">Creating a new category</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=20" title="Edit section: Creating a new category">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>I am concerned with software design patterns for a few month now. One reason is for educational purposes, creating a lecture with <a href="/wiki/Moodle" title="Moodle">Moodle</a>. There are a lot of design patterns, but somehow the ones defined in the <a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a> book are taught often first. To help those interested in teaching the subject (to themselves, why not?) or who are interested in the history of this subject, I <b>propose to add</b> a category called <a class="new" href="/w/index.php?title=Category:GoF_pattern&amp;action=edit&amp;redlink=1" title="Category:GoF pattern (page does not exist)">Category:GoF pattern</a> or something like that so that all 23 patterns are in one category. As the default place, I will add the Design Pattern book article. What is your opinion? <a href="/wiki/User:Sae1962" title="User:Sae1962">Sae1962</a> (<a href="/wiki/User_talk:Sae1962" title="User talk:Sae1962">talk</a>) 15:57, 26 July 2012 (UTC)</p>
+<dl>
+<dd>Generally support. I'd change the name to <a class="new" href="/w/index.php?title=Category:Gang_of_Four_design_patterns&amp;action=edit&amp;redlink=1" title="Category:Gang of Four design patterns (page does not exist)">Category:Gang of Four design patterns</a> though. This category name should be plural, and spelling things out in full is generally clearer to naive readers.</dd>
+<dd>Also note that if you use the leading colon, you can link to categories without needing the <tt>&lt;nowiki&gt;</tt> markup. <a href="/wiki/User:Andy_Dingley" title="User:Andy Dingley">Andy Dingley</a> (<a href="/wiki/User_talk:Andy_Dingley" title="User talk:Andy Dingley">talk</a>) 16:08, 26 July 2012 (UTC)</dd>
+</dl>
+<h2><span class="mw-headline" id="See_Also_section">See Also section</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=21" title="Edit section: See Also section">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Design patterns and TRIZ are similar in that they both define solutions to common problems. A see also section might be an interesting side road. <small><span class="autosigned">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a class="new" href="/w/index.php?title=User:Billegge&amp;action=edit&amp;redlink=1" title="User:Billegge (page does not exist)">Billegge</a> (<a href="/wiki/User_talk:Billegge" title="User talk:Billegge">talk</a> • <a href="/wiki/Special:Contributions/Billegge" title="Special:Contributions/Billegge">contribs</a>) 12:23, 24 October 2012 (UTC)</span></small></p>
+<h2><span class="mw-headline" id="delete">delete</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=22" title="Edit section: delete">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>delete</p>
+<h2><span class="mw-headline" id=".22_types_of_design_patterns.22_vs_.22classification.22">" types of design patterns" vs "classification"</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=23" title='Edit section: " types of design patterns" vs "classification"'>edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>redundant (but with diffferent types), or just no explanation of the difference? <a href="/wiki/Special:Contributions/68.183.23.147" title="Special:Contributions/68.183.23.147">68.183.23.147</a> (<a href="/wiki/User_talk:68.183.23.147" title="User talk:68.183.23.147">talk</a>) 23:38, 16 January 2013 (UTC)</p>
+<dl>
+<dd>No one has fixed it after more than a year. Any reasonable objection to deleting the "types"?</dd>
+</dl>
+<h2><span class="mw-headline" id="In_Design_Patterns.2FCode_Complete_-_WTF">In Design Patterns/Code Complete - WTF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=24" title="Edit section: In Design Patterns/Code Complete - WTF">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Not that I have anything against these references, but why on earth should the presence or not of a particular pattern in these books matter? There are numerous patterns that were identified before and after these which aren't included. This section reads like religion, not software engineering. <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/81.129.62.42" title="Special:Contributions/81.129.62.42">81.129.62.42</a> (<a class="new" href="/w/index.php?title=User_talk:81.129.62.42&amp;action=edit&amp;redlink=1" title="User talk:81.129.62.42 (page does not exist)">talk</a>) 01:43, 15 September 2013 (UTC)</span><br/></p>
+<dl>
+<dd>Prior to the publication of GOF little was known on the subject. The authors wanted to provide a standard vocabulary for practitioners to communicate their thoughts and ideas. To begin the process they purposely chose "some of the most important design patterns and present them as a catalog."<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup> (I'm being informal because this is the talk page). By virtue of the number of copies sold and the acceptance by software engineers of these ideas, these book are the acknowledged references on the subject. – <a href="/wiki/User:Rfrankla" title="User:Rfrankla">rfrankla</a> (<a href="/wiki/User_talk:Rfrankla" title="User talk:Rfrankla">talk</a>) 09:34, 21 April 2014 (UTC)
+<dl>
+<dd>I agree - whether a pattern is in some book or another is completely irrelevant. It's like listing birds that are found in one particular field guide. <span class="autosigned" style="font-size: smaller;">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/68.183.37.167" title="Special:Contributions/68.183.37.167">68.183.37.167</a> (<a href="/wiki/User_talk:68.183.37.167" title="User talk:68.183.37.167">talk</a>) 14:32, 28 May 2014 (UTC)</span></dd>
+</dl>
+</dd>
+</dl>
+<h2><span class="mw-headline" id="Proactor">Proactor</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=25" title="Edit section: Proactor">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Should proactor be listed?</p>
+<h2><span class="mw-headline" id="delegation_pattern">delegation pattern</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=26" title="Edit section: delegation pattern">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>has its own article, but not listed here?!</p>
+<h2><span class="mw-headline" id="External_links_moved_to_talk">External links moved to talk</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=27" title="Edit section: External links moved to talk">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Looks like we've created a <a class="mw-redirect" href="/wiki/Wikipedia:LINKFARM" title="Wikipedia:LINKFARM">WP:LINKFARM</a>. I've moved all the links from the article to the list below. Anyone want to go through this mess and see if anything fits <a class="mw-redirect" href="/wiki/Wikipedia:EL" title="Wikipedia:EL">WP:EL</a> well enough to include? --<a href="/wiki/User:Ronz" title="User:Ronz">Ronz</a> (<a href="/wiki/User_talk:Ronz" title="User talk:Ronz">talk</a>) 17:41, 13 June 2014 (UTC)</p>
+<ul>
+<li><a class="external text" href="http://codingplayground.blogspot.it/2009/01/design-patterns-c-full-collection-of.html" rel="nofollow">Full collection of design patterns (Creational, Structural, Behavioural) in C++</a> by Antonio Gulli</li>
+<li><a class="external text" href="http://sourcemaking.com/design-patterns-and-tips" rel="nofollow">101 Design Patterns &amp; Tips for Developers</a></li>
+<li><a class="external text" href="http://www.oodesign.com/" rel="nofollow">Design Patterns Reference</a> at oodesign.com</li>
+<li><a class="external text" href="http://hillside.net/patterns/patterns-catalog" rel="nofollow">Directory of websites that provide pattern catalogs</a> at hillside.net.</li>
+<li><a class="external text" href="http://se.inf.ethz.ch/old/people/arnout/patterns/download/karine_arnout_phd_thesis.pdf" rel="nofollow">From Patterns to Components</a> An accessible doctoral dissertation by Karine Arnout.</li>
+<li><a class="external text" href="http://jt.dev.java.net/" rel="nofollow">Jt</a><sup class="noprint Inline-Template"><span style="white-space: nowrap;">[<i><a href="/wiki/Wikipedia:Link_rot" title="Wikipedia:Link rot"><span title=" Dead link since August 2012">dead link</span></a></i>]</span></sup> J2EE Pattern Oriented Framework</li>
+<li><a class="external text" href="http://torgronsund.wordpress.com/2010/01/06/lean-startup-business-model-pattern/" rel="nofollow">Lean Startup Business Model Pattern</a> Example of design pattern thinking applied to business models</li>
+<li><a class="external text" href="http://jt.dev.java.net/files/documents/5553/150311/designPatterns.pdf" rel="nofollow">Messaging Design Pattern</a><sup class="noprint Inline-Template"><span style="white-space: nowrap;">[<i><a href="/wiki/Wikipedia:Link_rot" title="Wikipedia:Link rot"><span title=" Dead link since August 2012">dead link</span></a></i>]</span></sup> Published in the 17th conference on Pattern Languages of Programs (PLoP 2010).</li>
+<li><a class="external text" href="http://media.wiley.com/product_data/excerpt/28/04700590/0470059028.pdf" rel="nofollow">On Patterns and Pattern Languages</a> by Buschmann, Henney, and Schmidt</li>
+<li><a class="external text" href="https://www.dmoz.org/Computers/Programming/Methodologies/Patterns_and_Anti-Patterns/" rel="nofollow">Patterns and Anti-Patterns</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+<li><a class="external text" href="http://www.doc.ic.ac.uk/~np2/patterns/scripting/" rel="nofollow">Patterns for Scripted Applications</a></li>
+<li><a class="external text" href="http://perfectjpattern.sourceforge.net/" rel="nofollow">PerfectJPattern Open Source Project</a> Design Patterns library that aims to provide full or partial componentized version of all known Patterns in Java.</li>
+<li><a class="external text" href="http://jpatterns.org/" rel="nofollow">JPattern</a> JPatterns is a collection of annotations for Design Patterns.</li>
+<li><a class="external text" href="http://www.mcdonaldland.info/2007/11/28/40/" rel="nofollow">Printable Design Patterns Quick Reference Cards</a></li>
+<li><a class="extiw" href="http://c2.com/cgi/wiki?AreDesignPatternsMissingLanguageFeatures" title="c2:AreDesignPatternsMissingLanguageFeatures">Are Design Patterns Missing Language Features?</a> at the <a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">Portland Pattern Repository</a></li>
+<li><a class="extiw" href="http://c2.com/cgi/wiki?HistoryOfPatterns" title="c2:HistoryOfPatterns">History of Patterns</a> at the <a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">Portland Pattern Repository</a></li>
+<li><a class="extiw" href="http://c2.com/cgi/wiki?ShowTrialOfTheGangOfFour" title="c2:ShowTrialOfTheGangOfFour">Show Trial of the Gang of Four</a> at the <a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">Portland Pattern Repository</a></li>
+<li><a class="extiw" href="http://c2.com/cgi/wiki?CategoryPattern" title="c2:CategoryPattern">Category: Pattern</a> at the <a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">Portland Pattern Repository</a></li>
+<li><cite class="citation web"><a class="external text" href="http://www.xosoftware.co.uk/Articles/WCSFDesignPatterns/" rel="nofollow">"Design Patterns in Modern Day Software Factories (WCSF)"</a>. XO Software, Ltd.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATalk%3ASoftware+design+pattern&amp;rft.btitle=Design+Patterns+in+Modern+Day+Software+Factories+%28WCSF%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.xosoftware.co.uk%2FArticles%2FWCSFDesignPatterns%2F&amp;rft.pub=XO+Software%2C+Ltd&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span><sup class="noprint Inline-Template"><span style="white-space: nowrap;">[<i><a href="/wiki/Wikipedia:Link_rot" title="Wikipedia:Link rot"><span title=" Dead link since August 2012">dead link</span></a></i>]</span></sup></li>
+<li><cite class="citation web"><a class="external text" href="http://java.sun.com/blueprints/corej2eepatterns/Patterns/" rel="nofollow">"Core J2EE Patterns: Patterns index page"</a>. Sun Microsystems, Inc<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-08-11</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATalk%3ASoftware+design+pattern&amp;rft.btitle=Core+J2EE+Patterns%3A+Patterns+index+page&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fjava.sun.com%2Fblueprints%2Fcorej2eepatterns%2FPatterns%2F&amp;rft.pub=Sun+Microsystems%2C+Inc.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="http://www.goprod.bouhours.net/?lang=en" rel="nofollow">Design pattern list</a> with examples, problems, solutions and alternative solutions.</li>
+<li><a class="external text" href="http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns/2707195#2707195" rel="nofollow">List of design patterns in the Java API</a></li>
+<li><a class="external text" href="http://w3sdesign.com/" rel="nofollow">The Design Patterns Memory</a></li>
+</ul>
+<h2><span class="mw-headline" id="External_link_to_w3sdesign.com">External link to w3sdesign.com</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=28" title="Edit section: External link to w3sdesign.com">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The w3sDesign Patterns website contains encyclopedic and accurate material that is relevant to the understanding of the subject. I would like to add a link to it. What do others think about it? <a class="new" href="/w/index.php?title=User:Serv49&amp;action=edit&amp;redlink=1" title="User:Serv49 (page does not exist)">Serv49</a> (<a href="/wiki/User_talk:Serv49" title="User talk:Serv49">talk</a>) 18:16, 23 October 2014 (UTC)</p>
+<p>I have added the link. <a class="new" href="/w/index.php?title=User:Serv49&amp;action=edit&amp;redlink=1" title="User:Serv49 (page does not exist)">Serv49</a> (<a href="/wiki/User_talk:Serv49" title="User talk:Serv49">talk</a>) 10:05, 6 November 2014 (UTC)</p>
+<h2><span class="mw-headline" id="Languish.3F">Languish?</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=29" title="Edit section: Languish?">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>"Although design patterns have been applied practically for a long time, formalization of the concept of design patterns languished for several years..."</p>
+<p>Languished? For several years? I *think* what is meant here is that "Although design patterns have been applied practically for a long time, it was only recently that they were formalized." <a href="/wiki/User:GeneCallahan" title="User:GeneCallahan">GeneCallahan</a> (<a href="/wiki/User_talk:GeneCallahan" title="User talk:GeneCallahan">talk</a>) 18:34, 23 December 2014 (UTC)</p>
+<h2><span class="mw-headline" id="IVSR">IVSR</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=30" title="Edit section: IVSR">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In several design patterns the C# examples have been changed to include the text IVSR, e.g. <a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator pattern</a>. What is IVSR? When searching online I don't get any useful results. Could it be that someone is trying to <a class="mw-redirect" href="/wiki/Wikipedia:PROMO" title="Wikipedia:PROMO">self promote</a>? If so, it needs to be removed. Otherwise it might be useful to explain what IVSR is. <small class="autosigned">— Preceding <a href="/wiki/Wikipedia:Signatures" title="Wikipedia:Signatures">unsigned</a> comment added by <a href="/wiki/Special:Contributions/46.44.173.1" title="Special:Contributions/46.44.173.1">46.44.173.1</a> (<a class="new" href="/w/index.php?title=User_talk:46.44.173.1&amp;action=edit&amp;redlink=1" title="User talk:46.44.173.1 (page does not exist)">talk</a>) 12:02, 24 February 2015 (UTC)</small></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=31" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The History section ends with the following claim:"Although design patterns have been applied practically for a long time, formalization of the concept of design patterns languished for several years." The reference given does NOT (as far as I can see from <i>Baroni, et al's</i> .pdf) support the claim. Also, the claim is so vague as to be meaningless. Languished when? between 1700 and 1900? Between 1987 and 1991? Note that Kent Beck's home page (cited in Baroni) at <a class="external free" href="http://c2.com/ppr/about/author/kent.html" rel="nofollow">http://c2.com/ppr/about/author/kent.html</a> makes a couple of claims that could verify his contention that he spoke about the use of formal design patterns for building software. But it is certainly not peer reviewed and is imho a dubious claim to primacy (see below); is it sufficiently authoritative to be used as a fact? Seems too self-serving to me (no offense intended). The principle problem I have is that, obviously, patterns have been used in software at least since machine language was invented (since a language IS a group of patterns). (and of course hardware contains at its core a repeated pattern of circuits...) So, unless there is careful definition of the term which distinguishes it from language (and a number of other methods/procedures/venues/abstractions) I don't see how you can identify the start of it (surely some of the software development houses used formal design templates prior to 1987!) other than to claim that the GoF 1995 paper is the "recognized" start, in general. I recommend that sentence be deleted. It serves no real purpose, afaiks.<a href="/wiki/Special:Contributions/216.96.76.54" title="Special:Contributions/216.96.76.54">216.96.76.54</a> (<a class="new" href="/w/index.php?title=User_talk:216.96.76.54&amp;action=edit&amp;redlink=1" title="User talk:216.96.76.54 (page does not exist)">talk</a>) 13:11, 20 July 2015 (UTC)</p>
+<h2><span class="mw-headline" id="Definition">Definition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=32" title="Edit section: Definition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>According to the definition given by the HillSide group, the definition given (at the top of the wiki page) of a design pattern is incorrect: <a class="external free" href="http://hillside.net/patterns/50-patterns-library/patterns/222-design-pattern-definition" rel="nofollow">http://hillside.net/patterns/50-patterns-library/patterns/222-design-pattern-definition</a></p>
+<p>Note that the HillSide group stands as the governing body of patterns for the software world. Also note the Richard (Dick) Peter Gabriel (aka RPG) (director of the HillSide group, and also known for "worse is better") has analysed the work of Christopher Alexander (from whence patterns came) exhaustively, one example being RPG's book, "Patterns of Software": <a class="external free" href="http://dreamsongs.com/Books.html" rel="nofollow">http://dreamsongs.com/Books.html</a></p>
+<p><a class="new" href="/w/index.php?title=User:Shkaboinka&amp;action=edit&amp;redlink=1" title="User:Shkaboinka (page does not exist)">Shkaboinka</a> (<a href="/wiki/User_talk:Shkaboinka" title="User talk:Shkaboinka">talk</a>) 16:30, 9 March 2016 (UTC)</p>
+<ol class="references">
+<li id="cite_note-Norvig-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Norvig_1-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Peter_Norvig" title="Peter Norvig">Peter Norvig</a>, in <i>Design Patterns in Dynamic Programming</i>, discusses the triviality of implementing various patterns in <a href="/wiki/Dynamic_programming_language" title="Dynamic programming language">dynamic languages</a>. <cite class="citation web"><a href="/wiki/Peter_Norvig" title="Peter Norvig">Norvig, Peter</a> (1998-03-17). <a class="external text" href="http://norvig.com/design-patterns" rel="nofollow">"Design Patterns in Dynamic Programming"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2007-12-29</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATalk%3ASoftware+design+pattern&amp;rft.aufirst=Peter&amp;rft.aulast=Norvig&amp;rft.btitle=Design+Patterns+in+Dynamic+Programming&amp;rft.date=1998-03-17&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fnorvig.com%2Fdesign-patterns&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> Norvig and others have described language features that encapsulate or replace various patterns that a C++ user must implement for themselves.</span></li>
+<li id="cite_note-Reenskaug-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-Reenskaug_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a href="/wiki/Trygve_Reenskaug" title="Trygve Reenskaug">Reenskaug, Trygve</a>. <a class="external text" href="http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html" rel="nofollow">"MVC XEROX PARC 1978-79"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2008-06-09</span></span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATalk%3ASoftware+design+pattern&amp;rft.aufirst=Trygve&amp;rft.aulast=Reenskaug&amp;rft.btitle=MVC+XEROX+PARC+1978-79&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fheim.ifi.uio.no%2F~trygver%2Fthemes%2Fmvc%2Fmvc-index.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">GOF page 2</span></li>
+</ol>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:438152-0!*!0!!en!4!* and timestamp 20161001204206 and revision id 709188627
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Talk:Software_design_pattern&amp;oldid=709188627">https://en.wikipedia.org/w/index.php?title=Talk:Software_design_pattern&amp;oldid=709188627</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Start-Class_Computing_articles" title="Category:Start-Class Computing articles">Start-Class Computing articles</a></li><li><a href="/wiki/Category:High-importance_Computing_articles" title="Category:High-importance Computing articles">High-importance Computing articles</a></li><li><a href="/wiki/Category:All_Computing_articles" title="Category:All Computing articles">All Computing articles</a></li><li><a href="/wiki/Category:Start-Class_Computer_science_articles" title="Category:Start-Class Computer science articles">Start-Class Computer science articles</a></li><li><a href="/wiki/Category:High-importance_Computer_science_articles" title="Category:High-importance Computer science articles">High-importance Computer science articles</a></li><li><a href="/wiki/Category:WikiProject_Computer_science_articles" title="Category:WikiProject Computer science articles">WikiProject Computer science articles</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Talk%3ASoftware+design+pattern" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Talk%3ASoftware+design+pattern" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Software_design_pattern" title="View the content page [c]">Article</a></span></li>
+<li class="selected" id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Software_design_pattern" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Talk:Software_design_pattern">Read</a></span></li>
+<li class=" istalk" id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-addsection"><span><a accesskey="+" href="/w/index.php?title=Talk:Software_design_pattern&amp;action=edit&amp;section=new" title="Start a new section [+]">New section</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Talk:Software_design_pattern&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Talk:Software_design_pattern" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Talk:Software_design_pattern" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Talk:Software_design_pattern&amp;oldid=709188627" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Talk:Software_design_pattern&amp;action=info" title="More information about this page">Page information</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Talk%3ASoftware+design+pattern">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Talk%3ASoftware+design+pattern&amp;returnto=Talk%3ASoftware+design+pattern&amp;oldid=709188627&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Talk:Software_design_pattern&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 9 March 2016, at 16:30.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Talk:Software_design_pattern&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.638",
+            "walltime": "0.933",
+            "ppvisitednodes": {
+                "value": 5307,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 95715,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 15536,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 18,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 11,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  861.410      1 -total",
+                " 33.62%  289.589      2 Template:WPBannerMeta",
+                " 30.32%  261.212      2 Template:WPBannerMeta/core",
+                " 27.71%  238.667      1 Template:WikiProject_Computing",
+                " 14.58%  125.634      7 Template:Fix",
+                "  9.81%   84.516      4 Template:Delink",
+                "  8.44%   72.709      1 Template:WikiProject_Computer_science",
+                "  8.13%   70.009      2 Template:Who",
+                "  6.12%   52.690      2 Template:Citation_needed",
+                "  5.65%   48.701      1 Template:Cite_book"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.226",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 4149630,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1165",
+            "timestamp": "20161001204206",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1173"});});</script>
+</body>
+</html>
+

@@ -1,0 +1,831 @@
+The following page is located at the url: http://en.wikipedia.org/wiki/Blackboard_design_pattern
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Blackboard (design pattern) - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Blackboard_(design_pattern)","wgTitle":"Blackboard (design pattern)","wgCurRevisionId":738379393,"wgRevisionId":738379393,"wgArticleId":49329005,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing copy edit from September 2016","All articles needing copy edit","Software design patterns"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Blackboard_(design_pattern)","wgRelevantArticleId":49329005,"wgRequestId":"V-DJ0gpAIDYAAE6tDJsAAAAG","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Blackboard_design_pattern","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgInternalRedirectTargetUrl":"/wiki/Blackboard_(design_pattern)","wgWikibaseItemId":"Q23601418","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cextra-toolbar-buttons%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%2Cwatchlist-notice%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.28.0-wmf.20" name="generator"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<link href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Blackboard_(design_pattern)" rel="alternate"/>
+<link href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit" rel="edit" title="Edit this page"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="shortcut icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="//creativecommons.org/licenses/by-sa/3.0/" rel="copyright"/>
+<link href="https://en.wikipedia.org/wiki/Blackboard_(design_pattern)" rel="canonical"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Blackboard_design_pattern rootpage-Blackboard_design_pattern skin-vector action-view feature-page-action-bar-v2"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Blackboard (design pattern)</h1>
+<div class="mw-body-content" id="bodyContent">
+<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"><span class="mw-redirectedfrom">  (Redirected from <a class="mw-redirect" href="/w/index.php?title=Blackboard_design_pattern&amp;redirect=no" title="Blackboard design pattern">Blackboard design pattern</a>)</span></div>
+<div class="mw-jump" id="jump-to-nav">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+</div>
+<div class="mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><table class="metadata plainlinks ambox ambox-style ambox-Copy_edit" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><img alt="" data-file-height="50" data-file-width="45" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Acap.svg/36px-Acap.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Acap.svg/54px-Acap.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/52/Acap.svg/72px-Acap.svg.png 2x" width="36"/></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>may require <a href="/wiki/Wikipedia:Basic_copyediting" title="Wikipedia:Basic copyediting">copy editing</a> for grammar, style, cohesion, tone, or spelling</b>. <span class="hide-when-compact">You can assist by <a class="external text" href="//en.wikipedia.org/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit">editing it</a>.</span> <small><i>(September 2016)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<p>In <a href="/wiki/Software_engineering" title="Software engineering">software engineering</a>, the <b>blackboard pattern</b> provides a computational framework for the design and implementation of systems that used to integrate large and diverse specialized modules, and implement complex, non deterministic control strategies.<sup class="reference" id="cite_ref-:tcpbms_1-0"><a href="#cite_note-:tcpbms-1">[1]</a></sup><sup class="reference" id="cite_ref-:m_bdp_2-0"><a href="#cite_note-:m_bdp-2">[2]</a></sup> Blackboard pattern comes under behavioral design pattern.<sup class="reference" id="cite_ref-:m_bdp_2-1"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>This pattern has been identified by the members of the HEARSAY-II project and first applied for speech recognition.<sup class="reference" id="cite_ref-:tcpbms_1-1"><a href="#cite_note-:tcpbms-1">[1]</a></sup></p>
+<p></p>
+<div class="toc" id="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Structure"><span class="tocnumber">1</span> <span class="toctext">Structure</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Implementation"><span class="tocnumber">2</span> <span class="toctext">Implementation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Known_Uses"><span class="tocnumber">3</span> <span class="toctext">Known Uses</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Consequences"><span class="tocnumber">4</span> <span class="toctext">Consequences</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Example"><span class="tocnumber">5</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Structure">Structure</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=1" title="Edit section: Structure">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>the blackboard model defines three main components:</p>
+<ul>
+<li>blackboard - a structured global memory containing objects from the solution space</li>
+<li>knowledge sources - highly specialized modules with their own representation</li>
+<li>control component - selects, configures and execute knowledge sources.<sup class="reference" id="cite_ref-:tcpbms_1-2"><a href="#cite_note-:tcpbms-1">[1]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="Implementation">Implementation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=2" title="Edit section: Implementation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>First step is to design the solution space (i.e. various solutions) which leads to the definition of blackboard structure. Then, knowledge source are to be identified. These two activities are very related.<sup class="reference" id="cite_ref-:tcpbms_1-3"><a href="#cite_note-:tcpbms-1">[1]</a></sup></p>
+<p>The next step is to specify the control component which is generally in the form of a complex scheduler that makes use of a set of domain-specific heuristics to rate the relevance of executable knowledge sources.<sup class="reference" id="cite_ref-:tcpbms_1-4"><a href="#cite_note-:tcpbms-1">[1]</a></sup></p>
+<div class="center">
+<div class="floatnone"><a class="image" href="/wiki/File:Blackboad_pattern_system_structure.png" title="System Structure"><img alt="System Structure" data-file-height="229" data-file-width="470" height="229" src="//upload.wikimedia.org/wikipedia/commons/1/18/Blackboad_pattern_system_structure.png" width="470"/></a></div>
+</div>
+<p><sup class="reference" id="cite_ref-:tcpbms_1-5"><a href="#cite_note-:tcpbms-1">[1]</a></sup></p>
+<h2><span class="mw-headline" id="Known_Uses">Known Uses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=3" title="Edit section: Known Uses">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some usage-domains are:</p>
+<ul>
+<li>speech recognition</li>
+<li>vehicle identification and tracking</li>
+<li>identification of the structure of protein molecules</li>
+<li>sonar signals interpretation.<sup class="reference" id="cite_ref-:tcpbms_1-6"><a href="#cite_note-:tcpbms-1">[1]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="Consequences">Consequences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=4" title="Edit section: Consequences">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The blackboard pattern provides effective solutions for designing and implementing complex systems where heterogeneous modules have to be dynamically combined to solve a problem. This provides properties such as:</p>
+<ul>
+<li>reusability</li>
+<li>changeability</li>
+<li>robustness.<sup class="reference" id="cite_ref-:tcpbms_1-7"><a href="#cite_note-:tcpbms-1">[1]</a></sup></li>
+</ul>
+<p>Blackboard pattern allows multiple processes to work closer together on separate threads, polling, and reacting if it is needed.<sup class="reference" id="cite_ref-:m_bdp_2-2"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<h2><span class="mw-headline" id="Example">Example</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=5" title="Edit section: Example">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Sample radar defense system is provided as an example (in CSharp).</p>
+<p>Code for MainWindow.xaml:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="nt">&lt;ListBox</span> <span class="na">ItemsSource=</span><span class="s">"{Binding blackboard.CurrentObjects}"</span> <span class="na">ItemsPanel=</span><span class="s">"{DynamicResource ItemsPanelTemplate1}"</span> <span class="na">ItemContainerStyle=</span><span class="s">"{DynamicResource ItemContainerStyle}"</span> <span class="na">ItemTemplate=</span><span class="s">"{DynamicResource ItemTemplate}"</span> <span class="na">Margin=</span><span class="s">"20,20,20,10"</span> <span class="na">Foreground=</span><span class="s">"#FFDE6C6C"</span> <span class="nt">&gt;</span>
+    <span class="nt">&lt;ListBox.Resources&gt;</span>
+        <span class="nt">&lt;ItemsPanelTemplate</span> <span class="na">x:Key=</span><span class="s">"ItemsPanelTemplate1"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;Canvas</span> <span class="na">IsItemsHost=</span><span class="s">"True"</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;/ItemsPanelTemplate&gt;</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-3"><a href="#cite_note-:m_bdp-2">[2]</a></sup> Code for item container for positioning</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="nt">&lt;Style</span> <span class="na">x:Key=</span><span class="s">"ItemContainerStyle"</span> <span class="na">TargetType=</span><span class="s">"{x:Type ListBoxItem}"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Background"</span> <span class="na">Value=</span><span class="s">"Transparent"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"HorizontalContentAlignment"</span> <span class="na">Value=</span><span class="s">"{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"VerticalContentAlignment"</span> <span class="na">Value=</span><span class="s">"{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Canvas.Left"</span> <span class="na">Value=</span><span class="s">"{Binding X}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Canvas.Top"</span> <span class="na">Value=</span><span class="s">"{Binding Y}"</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Template"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;Setter.Value&gt;</span>
+            <span class="nt">&lt;ControlTemplate</span> <span class="na">TargetType=</span><span class="s">"{x:Type ListBoxItem}"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;Border</span> <span class="na">x:Name=</span><span class="s">"Bd"</span> <span class="na">BorderBrush=</span><span class="s">"{TemplateBinding BorderBrush}"</span> <span class="na">BorderThickness=</span><span class="s">"{TemplateBinding BorderThickness}"</span> <span class="na">Background=</span><span class="s">"{TemplateBinding Background}"</span> <span class="na">Padding=</span><span class="s">"{TemplateBinding Padding}"</span> <span class="na">SnapsToDevicePixels=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ContentPresenter</span> <span class="na">HorizontalAlignment=</span><span class="s">"{TemplateBinding HorizontalContentAlignment}"</span> <span class="na">SnapsToDevicePixels=</span><span class="s">"{TemplateBinding SnapsToDevicePixels}"</span> <span class="na">VerticalAlignment=</span><span class="s">"{TemplateBinding VerticalContentAlignment}"</span><span class="nt">/&gt;</span>
+                <span class="nt">&lt;/Border&gt;</span>
+            <span class="nt">&lt;/ControlTemplate&gt;</span>
+        <span class="nt">&lt;/Setter.Value&gt;</span>
+    <span class="nt">&lt;/Setter&gt;</span>
+<span class="nt">&lt;/Style&gt;</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-4"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for Item (ItemTemplate defines the object, an Image and TextBoxes):</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="nt">&lt;DataTemplate</span> <span class="na">x:Key=</span><span class="s">"ItemTemplate"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;Border&gt;</span>
+        <span class="nt">&lt;Border.Style&gt;</span>
+            <span class="nt">&lt;Style</span> <span class="na">TargetType=</span><span class="s">"{x:Type Border}"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;Style.Triggers&gt;</span>
+                    <span class="nt">&lt;DataTrigger</span> <span class="na">Binding=</span><span class="s">"{Binding IsThreat}"</span> <span class="na">Value=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Background"</span> <span class="na">Value=</span><span class="s">"Red"</span><span class="nt">/&gt;</span>
+                    <span class="nt">&lt;/DataTrigger&gt;</span>
+                    <span class="nt">&lt;DataTrigger</span> <span class="na">Binding=</span><span class="s">"{Binding IsThreat}"</span> <span class="na">Value=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">"Background"</span> <span class="na">Value=</span><span class="s">"Green"</span><span class="nt">/&gt;</span>
+                    <span class="nt">&lt;/DataTrigger&gt;</span>
+                <span class="nt">&lt;/Style.Triggers&gt;</span>
+            <span class="nt">&lt;/Style&gt;</span>
+        <span class="nt">&lt;/Border.Style&gt;</span>
+        <span class="nt">&lt;Grid</span> <span class="na">Margin=</span><span class="s">"3"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;Image</span> <span class="na">Height=</span><span class="s">"48"</span> <span class="na">Source=</span><span class="s">"{Binding Image}"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;StackPanel</span> <span class="na">Margin=</span><span class="s">"0,0,0,-30"</span> <span class="na">VerticalAlignment=</span><span class="s">"Bottom"</span> <span class="nt">&gt;</span>
+                <span class="nt">&lt;TextBlock</span> <span class="na">Text=</span><span class="s">"{Binding Type}"</span><span class="nt">/&gt;</span>
+                <span class="nt">&lt;TextBlock</span> <span class="na">Text=</span><span class="s">"{Binding Name}"</span><span class="nt">/&gt;</span>
+            <span class="nt">&lt;/StackPanel&gt;</span>
+            <span class="nt">&lt;TextBlock</span> <span class="na">HorizontalAlignment=</span><span class="s">"Right"</span> <span class="na">TextWrapping=</span><span class="s">"Wrap"</span> <span class="na">Text=</span><span class="s">"{Binding DistanceFromDestruction}"</span> <span class="na">VerticalAlignment=</span><span class="s">"Bottom"</span> <span class="na">Width=</span><span class="s">"Auto"</span> <span class="na">Visibility=</span><span class="s">"{Binding IsThreat, Converter={StaticResource BooleanToVisibilityConverter}}"</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;/Grid&gt;</span>
+    <span class="nt">&lt;/Border&gt;</span>
+<span class="nt">&lt;/DataTemplate&gt;</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-5"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code behind the Blackboard component in MVVM ViewModel implementation:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="n">Blackboard</span> <span class="n">blackboard</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="n">Controller</span> <span class="n">controller</span><span class="p">;</span>
+ 
+<span class="k">public</span> <span class="nf">MainWindow</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">InitializeComponent</span><span class="p">();</span>
+    <span class="n">DataContext</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
+ 
+    <span class="n">blackboard</span> <span class="p">=</span> <span class="k">new</span>  <span class="n">Blackboard</span><span class="p">();</span>
+    <span class="n">controller</span> <span class="p">=</span> <span class="k">new</span>  <span class="n">Controller</span><span class="p">(</span><span class="n">blackboard</span><span class="p">);</span>
+ 
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-6"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code behind the Controller:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">private</span> <span class="k">void</span>  <span class="nf">Button_Click</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">RoutedEventArgs</span> <span class="n">e</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">controller</span><span class="p">.</span><span class="n">AddSignalProcessor</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-7"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for the base class IObject:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="k">interface</span>  <span class="n">IObject</span>
+<span class="p">{</span>
+    <span class="n">ObjectType</span> <span class="n">Type</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="n">WriteableBitmap</span> <span class="n">Image</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="kt">bool?</span> <span class="n">IsThreat</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="n">ProcessingStage</span> <span class="n">Stage</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="kt">int</span> <span class="n">X</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+    <span class="kt">int</span> <span class="n">Y</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+ 
+    <span class="n">IObject</span> <span class="nf">Clone</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-8"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code in the radar module:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">AllObjects</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IObject</span><span class="p">&gt;</span>
+<span class="p">{</span>
+    <span class="k">new</span> <span class="nf">BirdObject</span><span class="p">(</span><span class="n">ObjectType</span><span class="p">.</span><span class="n">Bird</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="k">new</span> <span class="n">WriteableBitmap</span><span class="p">(</span><span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Media</span><span class="p">.</span><span class="n">Imaging</span><span class="p">.</span><span class="n">BitmapImage</span><span class="p">(</span><span class="k">new</span> <span class="n">Uri</span><span class="p">(</span><span class="s">@"pack://application:,,,/Media/Bird.bmp"</span><span class="p">,</span> <span class="n">UriKind</span><span class="p">.</span><span class="n">Absolute</span><span class="p">))),</span> <span class="k">false</span><span class="p">,</span> <span class="k">false</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nf">PlaneObject</span><span class="p">(</span><span class="n">ObjectType</span><span class="p">.</span><span class="n">Plane</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="k">new</span> <span class="n">WriteableBitmap</span><span class="p">(</span><span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Media</span><span class="p">.</span><span class="n">Imaging</span><span class="p">.</span><span class="n">BitmapImage</span><span class="p">(</span><span class="k">new</span> <span class="n">Uri</span><span class="p">(</span><span class="s">@"pack://application:,,,/Media/Plane.bmp"</span><span class="p">,</span> <span class="n">UriKind</span><span class="p">.</span><span class="n">Absolute</span><span class="p">))),</span> <span class="k">false</span><span class="p">,</span> <span class="k">false</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nf">RocketObject</span><span class="p">(</span><span class="n">ObjectType</span><span class="p">.</span><span class="n">Rocket</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="k">new</span> <span class="n">WriteableBitmap</span><span class="p">(</span><span class="k">new</span> <span class="n">System</span><span class="p">.</span><span class="n">Windows</span><span class="p">.</span><span class="n">Media</span><span class="p">.</span><span class="n">Imaging</span><span class="p">.</span><span class="n">BitmapImage</span><span class="p">(</span><span class="k">new</span> <span class="n">Uri</span><span class="p">(</span><span class="s">@"pack://application:,,,/Media/Rocket.bmp"</span><span class="p">,</span> <span class="n">UriKind</span><span class="p">.</span><span class="n">Absolute</span><span class="p">))),</span> <span class="k">false</span><span class="p">,</span> <span class="k">false</span><span class="p">),</span>
+<span class="p">};</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-9"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code to handle incoming object:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="nf">IncomingObject</span><span class="p">(</span><span class="n">IObject</span> <span class="n">obj</span><span class="p">)</span>
+    <span class="p">:</span> <span class="k">base</span><span class="p">(</span><span class="n">ObjectType</span><span class="p">.</span><span class="n">Unknown</span><span class="p">,</span> <span class="k">null</span><span class="p">,</span> <span class="k">null</span><span class="p">,</span> <span class="k">true</span><span class="p">,</span> <span class="k">null</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">actualObject</span> <span class="p">=</span> <span class="n">obj</span><span class="p">;</span>
+    <span class="n">ProcessedPixels</span> <span class="p">=</span> <span class="k">new</span>  <span class="kt">bool</span><span class="p">[</span><span class="m">16</span><span class="p">,</span> <span class="m">16</span><span class="p">];</span>
+ 
+    <span class="c1">//Paint the image as all red to start with</span>
+    <span class="n">Image</span> <span class="p">=</span> <span class="k">new</span>  <span class="n">WriteableBitmap</span><span class="p">(</span><span class="m">48</span><span class="p">,</span> <span class="m">48</span><span class="p">,</span> <span class="m">72</span><span class="p">,</span> <span class="m">72</span><span class="p">,</span> <span class="n">PixelFormats</span><span class="p">.</span><span class="n">Bgr32</span><span class="p">,</span> <span class="k">null</span><span class="p">);</span>
+    <span class="kt">int</span><span class="p">[]</span> <span class="n">ary</span> <span class="p">=</span> <span class="k">new</span>  <span class="kt">int</span><span class="p">[(</span><span class="m">48</span> <span class="p">*</span> <span class="m">48</span><span class="p">)];</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">x</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">x</span> <span class="p">&lt;</span> <span class="m">48</span><span class="p">;</span> <span class="n">x</span><span class="p">++)</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">y</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">y</span> <span class="p">&lt;</span> <span class="m">48</span><span class="p">;</span> <span class="n">y</span><span class="p">++)</span>
+            <span class="n">ary</span><span class="p">[</span><span class="m">48</span> <span class="p">*</span> <span class="n">y</span> <span class="p">+</span> <span class="n">x</span><span class="p">]</span> <span class="p">=</span> <span class="m">255</span> <span class="p">*</span> <span class="m">256</span> <span class="p">*</span> <span class="m">256</span><span class="p">;</span>
+    <span class="n">Image</span><span class="p">.</span><span class="n">WritePixels</span><span class="p">(</span><span class="k">new</span> <span class="n">Int32Rect</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">48</span><span class="p">,</span> <span class="m">48</span><span class="p">),</span> <span class="n">ary</span><span class="p">,</span> <span class="m">4</span> <span class="p">*</span> <span class="m">48</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-10"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for knowledge source interface:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="k">interface</span>  <span class="n">IKnowledgeSource</span>
+<span class="p">{</span>
+    <span class="kt">bool</span> <span class="n">IsEnabled</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">void</span> <span class="nf">Configure</span><span class="p">(</span><span class="n">Blackboard</span> <span class="n">board</span><span class="p">);</span>
+    <span class="k">void</span> <span class="nf">ExecuteAction</span><span class="p">();</span>
+ 
+    <span class="n">KnowledgeSourceType</span> <span class="n">KSType</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+    <span class="n">KnowledgeSourcePriority</span> <span class="n">Priority</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">void</span> <span class="nf">Stop</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-11"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>implementation for signal processor:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="k">override</span>  <span class="kt">bool</span> <span class="n">IsEnabled</span>
+<span class="p">{</span>
+    <span class="k">get</span>
+    <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">.</span><span class="n">Count</span><span class="p">();</span> <span class="n">ix</span><span class="p">++)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">Stage</span> <span class="p">&lt;</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Analysed</span><span class="p">)</span>
+                <span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+ 
+        <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+ 
+<span class="k">public</span> <span class="k">override</span>  <span class="k">void</span> <span class="nf">ExecuteAction</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">.</span><span class="n">Count</span><span class="p">();</span> <span class="n">ix</span><span class="p">++)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">[</span><span class="n">ix</span><span class="p">].</span><span class="n">Stage</span> <span class="p">&lt;</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Analysed</span><span class="p">)</span>
+            <span class="n">ProcessAnotherBit</span><span class="p">(</span><span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">[</span><span class="n">ix</span><span class="p">]);</span>
+<span class="p">}</span>
+ 
+<span class="k">void</span> <span class="nf">ProcessAnotherBit</span><span class="p">(</span><span class="n">IObject</span> <span class="n">obj</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">GRANULARITY</span> <span class="p">=</span> <span class="m">16</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">blockWidth</span> <span class="p">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelWidth</span> <span class="p">/</span> <span class="n">GRANULARITY</span><span class="p">;</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-12"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>code segments for copying between writablebitmaps:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kt">int</span> <span class="n">stride</span> <span class="p">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelWidth</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">Format</span><span class="p">.</span><span class="n">BitsPerPixel</span> <span class="p">/</span> <span class="m">8</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">byteSize</span> <span class="p">=</span> <span class="n">stride</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelHeight</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">Format</span><span class="p">.</span><span class="n">BitsPerPixel</span> <span class="p">/</span> <span class="m">8</span><span class="p">;</span>
+<span class="kt">var</span> <span class="n">ary</span> <span class="p">=</span> <span class="k">new</span>  <span class="kt">byte</span><span class="p">[</span><span class="n">byteSize</span><span class="p">];</span>
+<span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">CopyPixels</span><span class="p">(</span><span class="n">ary</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-13"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="kt">var</span> <span class="n">unk</span> <span class="p">=</span> <span class="n">obj</span> <span class="k">as</span>  <span class="n">IncomingObject</span><span class="p">;</span>
+<span class="n">unk</span><span class="p">.</span><span class="n">GetActualObject</span><span class="p">().</span><span class="n">Image</span><span class="p">.</span><span class="n">CopyPixels</span><span class="p">(</span><span class="n">aryOrig</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-14"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">iy</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">iy</span> <span class="p">&lt;</span> <span class="n">blockWidth</span><span class="p">;</span> <span class="n">iy</span><span class="p">++)</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blockWidth</span><span class="p">;</span> <span class="n">ix</span><span class="p">++)</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">b</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">b</span> <span class="p">&lt;</span> <span class="m">4</span><span class="p">;</span> <span class="n">b</span><span class="p">++)</span>
+        <span class="p">{</span>
+            <span class="n">ary</span><span class="p">[</span><span class="n">curix</span><span class="p">]</span> <span class="p">=</span> <span class="n">aryOrig</span><span class="p">[</span><span class="n">curix</span><span class="p">];</span>
+            <span class="n">curix</span><span class="p">++;</span>
+        <span class="p">}</span>
+    <span class="n">curix</span> <span class="p">=</span> <span class="n">curix</span> <span class="p">+</span> <span class="n">stride</span> <span class="p">-</span> <span class="p">(</span><span class="n">blockWidth</span> <span class="p">*</span> <span class="m">4</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-15"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">WritePixels</span><span class="p">(</span><span class="k">new</span> <span class="n">Int32Rect</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelWidth</span><span class="p">,</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelHeight</span><span class="p">),</span> <span class="n">ary</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-16"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for comparing pixel in image recognition:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blockWidth</span><span class="p">;</span> <span class="n">ix</span><span class="p">++)</span>
+<span class="p">{</span>
+    <span class="kt">var</span> <span class="n">argb1</span> <span class="p">=</span> <span class="p">(</span><span class="n">ary</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">1</span><span class="p">]</span> <span class="p">*</span> <span class="m">256</span> <span class="p">*</span> <span class="m">256</span><span class="p">)</span> <span class="p">+</span> <span class="p">(</span><span class="n">ary</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">2</span><span class="p">]</span> <span class="p">*</span> <span class="m">256</span><span class="p">)</span> <span class="p">+</span> <span class="n">ary</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">3</span><span class="p">];</span>
+    <span class="kt">var</span> <span class="n">argb2</span> <span class="p">=</span> <span class="p">(</span><span class="n">aryKnown</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">1</span><span class="p">]</span> <span class="p">*</span> <span class="m">256</span> <span class="p">*</span> <span class="m">256</span><span class="p">)</span> <span class="p">+</span> <span class="p">(</span><span class="n">aryKnown</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">2</span><span class="p">]</span> <span class="p">*</span> <span class="m">256</span><span class="p">)</span> <span class="p">+</span> <span class="n">aryKnown</span><span class="p">[</span><span class="n">curix</span> <span class="p">+</span> <span class="m">3</span><span class="p">];</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">argb1</span> <span class="p">!=</span> <span class="m">255</span> <span class="p">*</span> <span class="m">256</span> <span class="p">*</span> <span class="m">256</span> <span class="p">&amp;&amp;</span> <span class="n">argb1</span> <span class="p">!=</span> <span class="n">argb2</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">nomatch</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">curix</span> <span class="p">+=</span> <span class="m">4</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-17"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">if</span> <span class="p">(</span><span class="n">matches</span><span class="p">.</span><span class="n">Count</span><span class="p">()</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">Type</span> <span class="p">=</span> <span class="n">matches</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Type</span><span class="p">;</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">Name</span> <span class="p">=</span> <span class="n">matches</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Name</span><span class="p">;</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">IsThreat</span> <span class="p">=</span> <span class="n">matches</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">IsThreat</span><span class="p">;</span>
+ 
+    <span class="n">obj</span><span class="p">.</span><span class="n">Image</span> <span class="p">=</span> <span class="k">new</span>  <span class="n">WriteableBitmap</span><span class="p">(</span><span class="n">matches</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Image</span><span class="p">);</span> <span class="c1">//Create new image instance</span>
+ 
+    <span class="k">if</span> <span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">Type</span> <span class="p">!=</span> <span class="n">ObjectType</span><span class="p">.</span><span class="n">Plane</span><span class="p">)</span>
+        <span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">=</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Identified</span><span class="p">;</span>
+    <span class="k">else</span>
+        <span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">=</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Analysed</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-18"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for plane identification:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">.</span><span class="n">Count</span><span class="p">();</span> <span class="n">ix</span><span class="p">++)</span>
+<span class="p">{</span>
+    <span class="kt">var</span> <span class="n">obj</span> <span class="p">=</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">[</span><span class="n">ix</span><span class="p">];</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">==</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Analysed</span> <span class="p">&amp;&amp;</span> <span class="n">obj</span><span class="p">.</span><span class="n">Type</span> <span class="p">==</span> <span class="n">ObjectType</span><span class="p">.</span><span class="n">Plane</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">unk</span> <span class="p">=</span> <span class="n">obj</span> <span class="k">as</span> <span class="n">IncomingObject</span><span class="p">;</span>
+        <span class="kt">var</span> <span class="n">actual</span> <span class="p">=</span> <span class="n">unk</span><span class="p">.</span><span class="n">GetActualObject</span><span class="p">();</span>
+        <span class="n">obj</span><span class="p">.</span><span class="n">Name</span> <span class="p">=</span> <span class="n">actual</span><span class="p">.</span><span class="n">Name</span><span class="p">;</span>
+        <span class="n">obj</span><span class="p">.</span><span class="n">IsThreat</span> <span class="p">=</span> <span class="n">actual</span><span class="p">.</span><span class="n">IsThreat</span><span class="p">;</span>
+        <span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">=</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Identified</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-19"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<p>Code for the war machine:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre>
+<span class="k">public</span> <span class="k">override</span>  <span class="k">void</span> <span class="nf">ExecuteAction</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">ix</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">ix</span> <span class="p">&lt;</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">.</span><span class="n">Count</span><span class="p">();</span> <span class="n">ix</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">obj</span> <span class="p">=</span> <span class="n">blackboard</span><span class="p">.</span><span class="n">CurrentObjects</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span> <span class="k">as</span>  <span class="n">IncomingObject</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">IsThreat</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">obj</span><span class="p">.</span><span class="n">IsThreat</span><span class="p">.</span><span class="n">Value</span> <span class="p">&amp;&amp;</span> <span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">!=</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Actioned</span><span class="p">))</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">MoveHitsTarget</span><span class="p">())</span>
+                <span class="n">DestroyTarget</span><span class="p">(</span><span class="n">obj</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+ 
+<span class="k">private</span> <span class="k">void</span>  <span class="nf">DestroyTarget</span><span class="p">(</span><span class="n">IncomingObject</span> <span class="n">obj</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">stride</span> <span class="p">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelWidth</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">Format</span><span class="p">.</span><span class="n">BitsPerPixel</span> <span class="p">/</span> <span class="m">8</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">byteSize</span> <span class="p">=</span> <span class="n">stride</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelHeight</span> <span class="p">*</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">Format</span><span class="p">.</span><span class="n">BitsPerPixel</span> <span class="p">/</span> <span class="m">8</span><span class="p">;</span>
+    <span class="kt">var</span> <span class="n">ary</span> <span class="p">=</span> <span class="k">new</span>  <span class="kt">byte</span><span class="p">[</span><span class="n">byteSize</span><span class="p">];</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">CopyPixels</span><span class="p">(</span><span class="n">ary</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+ 
+    <span class="n">DrawCross</span><span class="p">(</span><span class="n">stride</span><span class="p">,</span> <span class="n">ary</span><span class="p">);</span>
+ 
+    <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">WritePixels</span><span class="p">(</span><span class="k">new</span> <span class="n">Int32Rect</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelWidth</span><span class="p">,</span> <span class="n">obj</span><span class="p">.</span><span class="n">Image</span><span class="p">.</span><span class="n">PixelHeight</span><span class="p">),</span> <span class="n">ary</span><span class="p">,</span> <span class="n">stride</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">Stage</span> <span class="p">=</span> <span class="n">ProcessingStage</span><span class="p">.</span><span class="n">Actioned</span><span class="p">;</span>
+<span class="p">}</span>
+ 
+<span class="k">private</span> <span class="k">static</span>  <span class="k">void</span> <span class="nf">DrawCross</span><span class="p">(</span><span class="kt">int</span> <span class="n">stride</span><span class="p">,</span> <span class="kt">byte</span><span class="p">[]</span> <span class="n">ary</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">y</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">y</span> <span class="p">&lt;</span> <span class="m">47</span><span class="p">;</span> <span class="n">y</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">line1Pos</span> <span class="p">=</span> <span class="p">(</span><span class="n">y</span> <span class="p">*</span> <span class="n">stride</span><span class="p">)</span> <span class="p">+</span> <span class="p">(</span><span class="n">y</span> <span class="p">*</span> <span class="m">4</span><span class="p">);</span>
+        <span class="kt">var</span> <span class="n">line2Pos</span> <span class="p">=</span> <span class="p">(</span><span class="n">y</span> <span class="p">*</span> <span class="n">stride</span><span class="p">)</span> <span class="p">+</span> <span class="p">(</span><span class="n">stride</span> <span class="p">-</span> <span class="m">4</span><span class="p">)</span> <span class="p">-</span> <span class="p">(</span><span class="n">y</span> <span class="p">*</span> <span class="m">4</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">a</span> <span class="p">=</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span> <span class="n">a</span> <span class="p">&lt;</span> <span class="m">2</span><span class="p">;</span> <span class="n">a</span><span class="p">++)</span>
+        <span class="p">{</span>
+            <span class="n">ary</span><span class="p">[</span><span class="n">line1Pos</span> <span class="p">+</span> <span class="m">4</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="n">ary</span><span class="p">[</span><span class="n">line2Pos</span> <span class="p">+</span> <span class="m">4</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="m">255</span><span class="p">;</span>
+            <span class="n">ary</span><span class="p">[</span><span class="n">line1Pos</span> <span class="p">+</span> <span class="m">5</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="n">ary</span><span class="p">[</span><span class="n">line2Pos</span> <span class="p">+</span> <span class="m">5</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+            <span class="n">ary</span><span class="p">[</span><span class="n">line1Pos</span> <span class="p">+</span> <span class="m">6</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="n">ary</span><span class="p">[</span><span class="n">line2Pos</span> <span class="p">+</span> <span class="m">6</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+            <span class="n">ary</span><span class="p">[</span><span class="n">line1Pos</span> <span class="p">+</span> <span class="m">7</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="n">ary</span><span class="p">[</span><span class="n">line2Pos</span> <span class="p">+</span> <span class="m">7</span> <span class="p">+</span> <span class="p">(</span><span class="n">a</span> <span class="p">*</span> <span class="m">4</span><span class="p">)]</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p><sup class="reference" id="cite_ref-:m_bdp_2-20"><a href="#cite_note-:m_bdp-2">[2]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=6" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design pattern</a></li>
+<li><a href="/wiki/Blackboard_system" title="Blackboard system">Blackboard system</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit&amp;section=7" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-:tcpbms-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-:tcpbms_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-:tcpbms_1-7"><sup><i><b>h</b></i></sup></a></span> <span class="reference-text"><cite class="citation" id="CITEREFLalanda">Lalanda, P., <i>Two complementary patterns to build multi-expert systems</i>, Orsay, France: Thomson CSF Corporate Research Laboratory</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABlackboard+%28design+pattern%29&amp;rft.aufirst=P.&amp;rft.aulast=Lalanda&amp;rft.btitle=Two+complementary+patterns+to+build+multi-expert+systems&amp;rft.genre=book&amp;rft.place=Orsay%2C+France&amp;rft.pub=Thomson+CSF+Corporate+Research+Laboratory&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span></li>
+<li id="cite_note-:m_bdp-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-:m_bdp_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-9"><sup><i><b>j</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-10"><sup><i><b>k</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-11"><sup><i><b>l</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-12"><sup><i><b>m</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-13"><sup><i><b>n</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-14"><sup><i><b>o</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-15"><sup><i><b>p</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-16"><sup><i><b>q</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-17"><sup><i><b>r</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-18"><sup><i><b>s</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-19"><sup><i><b>t</b></i></sup></a> <a href="#cite_ref-:m_bdp_2-20"><sup><i><b>u</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://social.technet.microsoft.com/wiki/contents/articles/13215.blackboard-design-pattern.aspx" rel="nofollow">"Blackboard Design Pattern"</a>. <i>Microsoft TechNet</i>. Microsoft<span class="reference-accessdate">. Retrieved <span class="nowrap">5 February</span> 2016</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABlackboard+%28design+pattern%29&amp;rft.atitle=Blackboard+Design+Pattern&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fsocial.technet.microsoft.com%2Fwiki%2Fcontents%2Farticles%2F13215.blackboard-design-pattern.aspx&amp;rft.jtitle=Microsoft+TechNet&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+</ol>
+</div>
+<div aria-labelledby="Software_design_patterns" class="navbox" role="navigation" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th class="navbox-title" colspan="2" scope="col">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Design_Patterns_patterns" title="Template:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="View this template">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Design_Patterns_patterns" title="Template talk:Design Patterns patterns"><abbr style=";;background:none transparent;border:none;" title="Discuss this template">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Design_Patterns_patterns&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="Edit this template">e</abbr></a></li>
+</ul>
+</div>
+<div id="Software_design_patterns" style="font-size:114%"><a href="/wiki/Software_design_pattern" title="Software design pattern">Software design patterns</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Design_Patterns" title="Design Patterns">Gang of Four<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Creational_pattern" title="Creational pattern">Creational</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Abstract_factory_pattern" title="Abstract factory pattern">Abstract factory</a></li>
+<li><a href="/wiki/Builder_pattern" title="Builder pattern">Builder</a></li>
+<li><a href="/wiki/Factory_method_pattern" title="Factory method pattern">Factory method</a></li>
+<li><a href="/wiki/Prototype_pattern" title="Prototype pattern">Prototype</a></li>
+<li><a href="/wiki/Singleton_pattern" title="Singleton pattern">Singleton</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Structural_pattern" title="Structural pattern">Structural</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Adapter_pattern" title="Adapter pattern">Adapter</a></li>
+<li><a href="/wiki/Bridge_pattern" title="Bridge pattern">Bridge</a></li>
+<li><a href="/wiki/Composite_pattern" title="Composite pattern">Composite</a></li>
+<li><a href="/wiki/Decorator_pattern" title="Decorator pattern">Decorator</a></li>
+<li><a href="/wiki/Facade_pattern" title="Facade pattern">Facade</a></li>
+<li><a href="/wiki/Flyweight_pattern" title="Flyweight pattern">Flyweight</a></li>
+<li><a href="/wiki/Proxy_pattern" title="Proxy pattern">Proxy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Behavioral_pattern" title="Behavioral pattern">Behavioral</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Chain-of-responsibility_pattern" title="Chain-of-responsibility pattern">Chain of responsibility</a></li>
+<li><a href="/wiki/Command_pattern" title="Command pattern">Command</a></li>
+<li><a href="/wiki/Interpreter_pattern" title="Interpreter pattern">Interpreter</a></li>
+<li><a href="/wiki/Iterator_pattern" title="Iterator pattern">Iterator</a></li>
+<li><a href="/wiki/Mediator_pattern" title="Mediator pattern">Mediator</a></li>
+<li><a href="/wiki/Memento_pattern" title="Memento pattern">Memento</a></li>
+<li><a href="/wiki/Observer_pattern" title="Observer pattern">Observer</a></li>
+<li><a href="/wiki/State_pattern" title="State pattern">State</a></li>
+<li><a href="/wiki/Strategy_pattern" title="Strategy pattern">Strategy</a></li>
+<li><a href="/wiki/Template_method_pattern" title="Template method pattern">Template method</a></li>
+<li><a href="/wiki/Visitor_pattern" title="Visitor pattern">Visitor</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Concurrency_pattern" title="Concurrency pattern">Concurrency<br/>
+patterns</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Active_object" title="Active object">Active object</a></li>
+<li><a href="/wiki/Balking_pattern" title="Balking pattern">Balking</a></li>
+<li><a href="/wiki/Binding_properties_pattern" title="Binding properties pattern">Binding properties</a></li>
+<li><a href="/wiki/Double-checked_locking" title="Double-checked locking">Double-checked locking</a></li>
+<li><a href="/wiki/Asynchronous_method_invocation" title="Asynchronous method invocation">Event-based asynchronous</a></li>
+<li><a href="/wiki/Guarded_suspension" title="Guarded suspension">Guarded suspension</a></li>
+<li><a href="/wiki/Join-pattern" title="Join-pattern">Join</a></li>
+<li><a class="mw-redirect" href="/wiki/Lock_pattern" title="Lock pattern">Lock</a></li>
+<li><a href="/wiki/Monitor_(synchronization)" title="Monitor (synchronization)">Monitor</a></li>
+<li><a href="/wiki/Proactor_pattern" title="Proactor pattern">Proactor</a></li>
+<li><a href="/wiki/Reactor_pattern" title="Reactor pattern">Reactor</a></li>
+<li><a href="/wiki/Readers%E2%80%93writer_lock" title="Readers–writer lock">Read write lock</a></li>
+<li><a class="mw-redirect" href="/wiki/Scheduler_pattern" title="Scheduler pattern">Scheduler</a></li>
+<li><a class="mw-redirect" href="/wiki/Thread_pool_pattern" title="Thread pool pattern">Thread pool</a></li>
+<li><a href="/wiki/Thread-local_storage" title="Thread-local storage">Thread-local storage</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row"><a href="/wiki/Architectural_pattern" title="Architectural pattern">Architectural<br/>
+patterns</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Front_controller" title="Front controller">Front controller</a></li>
+<li><a href="/wiki/Interceptor_pattern" title="Interceptor pattern">Interceptor</a></li>
+<li><a href="/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a></li>
+<li><a href="/wiki/Multitier_architecture" title="Multitier architecture"><i>n</i>-tier</a></li>
+<li><a href="/wiki/Specification_pattern" title="Specification pattern">Specification</a></li>
+<li><a href="/wiki/Publish%E2%80%93subscribe_pattern" title="Publish–subscribe pattern">Publish–subscribe</a></li>
+<li><a href="/wiki/Naked_objects" title="Naked objects">Naked objects</a></li>
+<li><a href="/wiki/Service_locator_pattern" title="Service locator pattern">Service locator</a></li>
+<li><a href="/wiki/Active_record_pattern" title="Active record pattern">Active record</a></li>
+<li><a href="/wiki/Identity_map_pattern" title="Identity map pattern">Identity map</a></li>
+<li><a href="/wiki/Data_access_object" title="Data access object">Data access object</a></li>
+<li><a href="/wiki/Data_transfer_object" title="Data transfer object">Data transfer object</a></li>
+<li><a class="new" href="/w/index.php?title=Action%E2%80%93Domain%E2%80%93Responder&amp;action=edit&amp;redlink=1" title="Action–Domain–Responder (page does not exist)">ADR</a></li>
+<li><a href="/wiki/Inversion_of_control" title="Inversion of control">Inversion of control</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Other<br/>
+patterns</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a class="mw-redirect" href="/wiki/Blackboard_design_pattern" title="Blackboard design pattern">Blackboard</a></li>
+<li><a href="/wiki/Business_delegate_pattern" title="Business delegate pattern">Business delegate</a></li>
+<li><a href="/wiki/Composite_entity_pattern" title="Composite entity pattern">Composite entity</a></li>
+<li><a href="/wiki/Dependency_injection" title="Dependency injection">Dependency injection</a></li>
+<li><a href="/wiki/Intercepting_filter_pattern" title="Intercepting filter pattern">Intercepting filter</a></li>
+<li><a href="/wiki/Lazy_loading" title="Lazy loading">Lazy loading</a></li>
+<li><a href="/wiki/Mock_object" title="Mock object">Mock object</a></li>
+<li><a class="mw-redirect" href="/wiki/Null_object_pattern" title="Null object pattern">Null object</a></li>
+<li><a href="/wiki/Object_pool_pattern" title="Object pool pattern">Object pool</a></li>
+<li><a href="/wiki/Servant_(design_pattern)" title="Servant (design pattern)">Servant</a></li>
+<li><a href="/wiki/Twin_pattern" title="Twin pattern">Twin</a></li>
+<li><a href="/wiki/Type_Tunnel_pattern" title="Type Tunnel pattern">Type tunnel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Books</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/Design_Patterns" title="Design Patterns">Design Patterns</a></i></li>
+<li><i><a href="/wiki/Enterprise_Integration_Patterns" title="Enterprise Integration Patterns">Enterprise Integration Patterns</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">People</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Christopher_Alexander" title="Christopher Alexander">Christopher Alexander</a></li>
+<li><a href="/wiki/Erich_Gamma" title="Erich Gamma">Erich Gamma</a></li>
+<li><a href="/wiki/Ralph_Johnson_(computer_scientist)" title="Ralph Johnson (computer scientist)">Ralph Johnson</a></li>
+<li><a href="/wiki/John_Vlissides" title="John Vlissides">John Vlissides</a></li>
+<li><a href="/wiki/Grady_Booch" title="Grady Booch">Grady Booch</a></li>
+<li><a href="/wiki/Kent_Beck" title="Kent Beck">Kent Beck</a></li>
+<li><a href="/wiki/Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a></li>
+<li><a href="/wiki/Martin_Fowler" title="Martin Fowler">Martin Fowler</a></li>
+<li><a href="/wiki/Robert_Cecil_Martin" title="Robert Cecil Martin">Robert Martin</a></li>
+<li><a href="/wiki/Jim_Coplien" title="Jim Coplien">Jim Coplien</a></li>
+<li><a href="/wiki/Douglas_C._Schmidt" title="Douglas C. Schmidt">Douglas Schmidt</a></li>
+<li><a href="/wiki/Linda_Rising" title="Linda Rising">Linda Rising</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th class="navbox-group" scope="row">Communities</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/The_Hillside_Group" title="The Hillside Group">The Hillside Group</a></li>
+<li><a href="/wiki/Portland_Pattern_Repository" title="Portland Pattern Repository">The Portland Pattern Repository</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:49329005-0!*!0!!en!4!* and timestamp 20160922224136 and revision id 738379393
+ -->
+<noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Blackboard_(design_pattern)&amp;oldid=738379393">https://en.wikipedia.org/w/index.php?title=Blackboard_(design_pattern)&amp;oldid=738379393</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Software_design_patterns" title="Category:Software design patterns">Software design patterns</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_articles_needing_copy_edit_from_September_2016" title="Category:Wikipedia articles needing copy edit from September 2016">Wikipedia articles needing copy edit from September 2016</a></li><li><a href="/wiki/Category:All_articles_needing_copy_edit" title="Category:All articles needing copy edit">All articles needing copy edit</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]">Talk</a></li><li id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Blackboard+%28design+pattern%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Blackboard+%28design+pattern%29" title="You're encouraged to log in; however, it's not mandatory. [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="vectorTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected" id="ca-nstab-main"><span><a accesskey="c" href="/wiki/Blackboard_(design_pattern)" title="View the content page [c]">Article</a></span></li>
+<li id="ca-talk"><span><a accesskey="t" href="/wiki/Talk:Blackboard_(design_pattern)" rel="discussion" title="Discussion about the content page [t]">Talk</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-variants-label" class="vectorMenu emptyPortlet" id="p-variants" role="navigation">
+<h3 id="p-variants-label">
+<span>Variants</span><a href="#"></a>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="vectorTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="selected" id="ca-view"><span><a href="/wiki/Blackboard_(design_pattern)">Read</a></span></li>
+<li id="ca-edit"><span><a accesskey="e" href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=edit" title="Edit this page [e]">Edit</a></span></li>
+<li class="collapsible" id="ca-history"><span><a accesskey="h" href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=history" title="Past revisions of this page [h]">View history</a></span></li>
+</ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="vectorMenu emptyPortlet" id="p-cactions" role="navigation">
+<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" id="searchInput" name="search" placeholder="Search" title="Search Wikipedia [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Load a random article [x]">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-interaction-label" class="portal" id="p-interaction" role="navigation">
+<h3 id="p-interaction-label">Interaction</h3>
+<div class="body">
+<ul>
+<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-tb-label" class="portal" id="p-tb" role="navigation">
+<h3 id="p-tb-label">Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Blackboard_(design_pattern)" title="List of all English Wikipedia pages containing links to this page [j]">What links here</a></li><li id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Blackboard_(design_pattern)" title="Recent changes in pages linked from this page [k]">Related changes</a></li><li id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]">Upload file</a></li><li id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;oldid=738379393" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Blackboard_(design_pattern)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Q23601418" title="Link to connected data repository item [g]">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Blackboard_%28design_pattern%29&amp;id=738379393" title="Information on how to cite this page">Cite this page</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-coll-print_export-label" class="portal" id="p-coll-print_export" role="navigation">
+<h3 id="p-coll-print_export-label">Print/export</h3>
+<div class="body">
+<ul>
+<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Blackboard+%28design+pattern%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Blackboard+%28design+pattern%29&amp;returnto=Blackboard+%28design+pattern%29&amp;oldid=738379393&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a accesskey="p" href="/w/index.php?title=Blackboard_(design_pattern)&amp;printable=yes" title="Printable version of this page [p]">Printable version</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-lang-label" class="portal" id="p-lang" role="navigation">
+<h3 id="p-lang-label">Languages</h3>
+<div class="body">
+<ul>
+<li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Blackboard_programtervez%C3%A9si_minta" hreflang="hu" lang="hu" title="Blackboard programtervezési minta – Hungarian">Magyar</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li> </ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Q23601418#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div> </div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 September 2016, at 16:23.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a class="extiw" href="https://wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Blackboard_(design_pattern)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico">
+<a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88"/></a> </li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" src="/static/images/poweredby_mediawiki_88x31.png" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88"/></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.168",
+            "walltime": "1.244",
+            "ppvisitednodes": {
+                "value": 933,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 34076,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 1040,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 8,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00% 1193.929      1 -total",
+                "  5.53%   66.039      1 Template:Reflist",
+                "  3.67%   43.788      1 Template:Citation",
+                "  3.23%   38.602      1 Template:Copyedit",
+                "  2.52%   30.109      2 Template:Navbox",
+                "  2.47%   29.498      1 Template:Design_Patterns_Patterns",
+                "  2.06%   24.542      1 Template:Ambox",
+                "  1.13%   13.532      1 Template:Navbox_subgroup",
+                "  0.47%    5.609      1 Template:Cite_web",
+                "  0.13%    1.506      1 Template:Main_other"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.045",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2052641,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1252",
+            "timestamp": "20160922224137",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":88,"wgHostname":"mw1184"});});</script>
+</body>
+</html>
+
